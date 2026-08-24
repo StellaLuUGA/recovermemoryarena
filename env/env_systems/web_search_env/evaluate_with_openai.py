@@ -35,6 +35,19 @@ def create_judge_prompt(question: str, response: str, correct_answer: str) -> st
     )
 
 
+class _JudgeResponse:
+    """Minimal stand-in for an OpenAI Responses-API result, exposing just .output_text.
+
+    Both callers of call_openai_judge (this module's main() and
+    browsecomp_plus_env.py's evaluate_answer_with_judge) only ever read
+    response.output_text, so wrapping a Chat Completions reply this way keeps
+    both call sites unchanged.
+    """
+
+    def __init__(self, output_text: str):
+        self.output_text = output_text
+
+
 def call_openai_judge(
     client: openai.OpenAI,
     prompt: str,
@@ -42,21 +55,25 @@ def call_openai_judge(
     max_output_tokens: int,
     reasoning_effort: Optional[str] = None,
     system_prompt: Optional[str] = None,
-) -> dict:
-    body = {
-        "model": model,
-        "max_output_tokens": max_output_tokens,
-        "input": prompt,
-    }
-
+) -> "_JudgeResponse":
+    # The original implementation called client.responses.create(...) (OpenAI's newer
+    # Responses API). vLLM's OpenAI-compatible server (confirmed on 0.9.0.1) only
+    # implements Chat Completions (/v1/chat/completions) and 404s on /v1/responses, so
+    # judging silently broke as soon as OPENAI_BASE_URL pointed at a local vLLM instance.
+    # reasoning_effort was a Responses-API-only knob (o-series "reasoning effort"); there's
+    # no equivalent needed here since the local judge model doesn't have reasoning modes.
+    messages = []
     if system_prompt:
-        body["instructions"] = system_prompt
+        messages.append({"role": "system", "content": system_prompt})
+    messages.append({"role": "user", "content": prompt})
 
-    if reasoning_effort is not None:
-        body["reasoning"] = {"effort": reasoning_effort, "summary": "detailed"}
-
-    response = client.responses.create(**body)
-    return response
+    response = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        max_tokens=max_output_tokens,
+    )
+    text = response.choices[0].message.content or ""
+    return _JudgeResponse(text)
 
 
 def parse_judge_response(judge_response: str) -> dict:

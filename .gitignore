@@ -22,3 +22,6 @@ results/
 logs/
 data/
 hf_task_cache/
+.venv/
+env/embeddings_bm25/
+env/embeddings_dense/

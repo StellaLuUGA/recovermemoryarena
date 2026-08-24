@@ -18,12 +18,20 @@ class RAGMemorySystem:
         max_tokens: int = 2048,
         top_k: int = 3,
         user_id: Optional[str] = None,
+        total_budget_tokens: Optional[int] = None,
     ):
         self.retrieval_method = self._normalize_retrieval_method(retrieval_method)
         self.max_tokens = max_tokens
         self.top_k = top_k
         self.user_id = user_id
         self.tokenizer = tiktoken.encoding_for_model("gpt-4o-mini")
+        # Hard cap on the TOTAL wrapped-context size (budget sweep). max_tokens above only
+        # bounds each individual stored chunk's size at add-time; with top_k>1 the retrieved
+        # context can still total top_k * max_tokens, which is not a real budget. This is
+        # enforced separately in wrap_user_prompt.
+        self.total_budget_tokens = total_budget_tokens
+        self.last_memory_tokens = 0
+        self.last_memory_text = ""
 
         self._chunks: List[str] = []
 
@@ -48,6 +56,7 @@ class RAGMemorySystem:
 
     def wrap_user_prompt(self, prompt: str) -> str:
         memory_context_lines = ["<memory_context>"]
+        memory_body = ""  # just the retrieved memory content, no wrapper/prompt — for budget verification
 
         if not self._chunks:
             memory_context_lines.append("None")
@@ -58,14 +67,44 @@ class RAGMemorySystem:
                 results = self._embedding_retrieve(prompt)
 
             if results:
-                for chunk in results:
-                    memory_context_lines.append(f"<memory>{chunk}</memory>")
+                if self.total_budget_tokens is not None:
+                    results = self._truncate_to_budget(results)
+                if results:
+                    for chunk in results:
+                        memory_context_lines.append(f"<memory>{chunk}</memory>")
+                    memory_body = "\n".join(results)
+                else:
+                    memory_context_lines.append("None")
             else:
                 memory_context_lines.append("None")
+
+        # Budget-verification instrumentation (BUDGET_VERIFICATION.md): the actual token count of
+        # what wrap_user_prompt is about to return as memory content, isolated from the
+        # <memory_context> wrapper and the "User: {prompt}" suffix, so it can be checked directly
+        # against self.total_budget_tokens rather than trusted.
+        self.last_memory_tokens = len(self.tokenizer.encode(memory_body, disallowed_special=())) if memory_body else 0
+        self.last_memory_text = memory_body
 
         memory_context_lines.append("</memory_context>")
         memory_context_lines.append(f"User: {prompt}")
         return "\n".join(memory_context_lines)
+
+    def _truncate_to_budget(self, results: List[str]) -> List[str]:
+        """Keep results (already ranked by relevance) up to self.total_budget_tokens total,
+        truncating the last included chunk to fit exactly rather than dropping it whole."""
+        kept: List[str] = []
+        remaining = self.total_budget_tokens
+        for chunk in results:
+            if remaining <= 0:
+                break
+            tokens = self.tokenizer.encode(chunk, disallowed_special=())
+            if len(tokens) <= remaining:
+                kept.append(chunk)
+                remaining -= len(tokens)
+            else:
+                kept.append(self.tokenizer.decode(tokens[:remaining]))
+                remaining = 0
+        return kept
 
     def _split_chunk(self, chunk: str) -> List[str]:
         tokens = self.tokenizer.encode(chunk, disallowed_special=())

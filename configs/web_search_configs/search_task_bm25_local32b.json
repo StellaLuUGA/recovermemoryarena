@@ -1,0 +1,42 @@
+{
+  "task_name": "search",
+  "description": "Web search task, local Qwen2.5-32B-AWQ backbone, local BM25 memory (always-trust / Gate C+A)",
+
+  "agent": {
+    "model_name": "qwen2.5-32b-awq",
+    "embedding_model": "text-embedding-3-small",
+    "max_iterations": 35,
+    "provider": null
+  },
+
+  "memory": {
+    "use_step_memory": false,
+    "memory_system_name": "bm25",
+    "memory_url": "http://0.0.0.0:8000",
+    "no_memory": false
+  },
+
+  "env": {
+    "env_server_url": "http://0.0.0.0:8001",
+    "script_path": "/home/ubuntu/RecoverMemMinimal/full_replicate/MemoryArena/env/env_systems/web_search_env/search_agent/oss_client.py",
+    "timeout": 3000,
+    "index_path": "/home/ubuntu/RecoverMemMinimal/full_replicate/MemoryArena/env/embeddings_bm25/lucene_index",
+    "corpus_path": "/home/ubuntu/RecoverMemMinimal/full_replicate/MemoryArena/env/env_systems/web_search_env/data/corpus.jsonl",
+    "mcp_url": null,
+    "mcp_name": "retrieval-mcp-server",
+    "searcher_type": "bm25",
+    "model_url": "http://localhost:8002/v1"
+  },
+
+  "task_specific": {
+    "query_ids": ["124", "131", "132", "160", "298", "350", "396", "484", "509", "537", "593", "600", "632", "865", "1002", "1019", "1190", "1211", "1226", "1250"],
+    "store_eval_in_memory": false,
+    "data_dir": "env/env_systems/web_search_env/data",
+    "qrel_evidence": "topics-qrels/qrel_evidence.txt",
+    "judge_model": "qwen2.5-32b-awq"
+  },
+
+  "output": {
+    "output_dir": "/home/ubuntu/recovermem_results/web_search/bm25_qwen32b"
+  }
+}

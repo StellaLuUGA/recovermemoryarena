@@ -88,6 +88,10 @@ def config_to_args(config: dict) -> ConfigArgs:
     args.mcp_url = env_cfg.get("mcp_url")
     args.timeout = env_cfg.get("timeout", 3000)
     args.mcp_name = env_cfg.get("mcp_name", "retrieval-mcp-server")
+    args.searcher_type = env_cfg.get("searcher_type", "openai")
+    args.model_url = env_cfg.get("model_url")
+    args.oracle_distractor_k = env_cfg.get("oracle_distractor_k", 0)
+    args.no_history_mode = env_cfg.get("no_history_mode", False)
 
     # Task-specific settings
     task_cfg = config.get("task_specific", {})
@@ -95,6 +99,11 @@ def config_to_args(config: dict) -> ConfigArgs:
     args.data_dir = Path(task_cfg.get("data_dir", "env/env_systems/web_search_env/data"))
     args.qrel_evidence = task_cfg.get("qrel_evidence", "topics-qrels/qrel_evidence.txt")
     args.judge_model = task_cfg.get("judge_model", "gpt-4.1")
+    # Budget sweep: optional {query_id: token_budget} map, computed offline as a fraction of
+    # that query_id's own accumulated-history size from a reference (oracle) run.
+    args.memory_budgets = task_cfg.get("memory_budgets", {})
+    # Gate B no-history counterfactual: {query_id: remaining_iterations} from a reference run.
+    args.no_history_max_iterations_map = task_cfg.get("no_history_max_iterations_map", {})
 
     # Output settings
     out_cfg = config.get("output", {})
@@ -304,7 +313,10 @@ def main():
         except FileNotFoundError:
             pass
 
-        task_id = str(uuid.uuid4())
+        # Prefixed with qid (not a bare UUID) so the Gate C token log — which only ever sees
+        # user_id, never query_id — can be mapped back to query_id after the fact, e.g. to
+        # compute per-query_id memory budgets for the budget sweep from a reference run.
+        task_id = f"{qid}__{uuid.uuid4()}"
         env_config = {
             "task_id": task_id,
             "query_id": qid,
@@ -329,6 +341,12 @@ def main():
             "mcp_name": args.mcp_name,
             "qrel_data": qrel_data,
             "max_iterations": args.max_iterations,
+            "searcher_type": args.searcher_type,
+            "model_url": args.model_url,
+            "oracle_distractor_k": args.oracle_distractor_k,
+            "memory_budget_tokens": args.memory_budgets.get(str(qid)),
+            "no_history_mode": args.no_history_mode,
+            "no_history_max_iterations_override": args.no_history_max_iterations_map.get(str(qid)),
         }
         print(f"Using environment server at {args.env_server_url} (env_name=browsecomp-plus, query_id={qid}).")
         env_client = EnvironmentClient(

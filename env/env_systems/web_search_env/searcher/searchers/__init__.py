@@ -14,12 +14,15 @@ try:
 except Exception:
     BM25Searcher = None
 
+from .oracle_searcher import OracleSearcher
+
 
 class SearcherType(Enum):
     """Enum for managing available searcher types and their CLI mappings."""
 
     if BM25Searcher is not None:
         BM25 = ("bm25", BM25Searcher)
+    ORACLE = ("oracle", OracleSearcher)
     FAISS = ("faiss", FaissSearcher)
     REASONIR = ("reasonir", ReasonIrSearcher)
     OPENAI = ("openai", OpenAISearcher)

@@ -161,6 +161,10 @@ class FaissSearcher(BaseSearcher):
             normalize=self.args.normalize,
             pooling=self.args.pooling,
             cache_dir=cache_dir,
+            # ModelArguments defaults to flash_attention_2, which isn't installed here (and this searcher
+            # exposes no CLI flag to override it, unlike tevatron's own encode driver which does). sdpa is
+            # what the offline corpus encode was run with; keep query-time encoding consistent with it.
+            attn_implementation="sdpa",
         )
 
         if self.args.torch_dtype == "float16":
@@ -351,6 +355,10 @@ class ReasonIrSearcher(FaissSearcher):
             normalize=self.args.normalize,
             pooling=self.args.pooling,
             cache_dir=cache_dir,
+            # ModelArguments defaults to flash_attention_2, which isn't installed here (and this searcher
+            # exposes no CLI flag to override it, unlike tevatron's own encode driver which does). sdpa is
+            # what the offline corpus encode was run with; keep query-time encoding consistent with it.
+            attn_implementation="sdpa",
         )
 
         if self.args.torch_dtype == "float16":

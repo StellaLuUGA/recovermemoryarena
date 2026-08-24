@@ -12,16 +12,20 @@ class MemoryClient:
         base_url: str = "http://0.0.0.0:8000",
         session: Optional[requests.Session] = None,
         timeout: int = 300,
+        budget_tokens: Optional[int] = None,
     ):
         self.user_id = str(user_id)
         self.memory_system_name = memory_system_name
         self.base_url = base_url.rstrip("/")
         self.session = session or requests.Session()
         self.timeout = timeout
-        self._post(
-            "/memory/initialize",
-            {"user_id": self.user_id, "memory_system_name": self.memory_system_name},
-        )
+        init_payload = {"user_id": self.user_id, "memory_system_name": self.memory_system_name}
+        if budget_tokens is not None:
+            # Per-episode compression budget for the budget sweep (Gate D / usable-base-rate
+            # search) — a fixed token cap for this user_id's memory backend, computed elsewhere
+            # as a fraction of that episode's own accumulated-history size.
+            init_payload["budget_tokens"] = budget_tokens
+        self._post("/memory/initialize", init_payload)
 
     def wrap_user_prompt(self, question: str) -> str:
         """Request a prompt wrapped with memory context."""

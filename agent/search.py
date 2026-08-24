@@ -44,6 +44,8 @@ def run_query_with_agent_and_memory(
     gpu: Optional[str] = None,
     max_iterations: int = 30,
     step_memory: bool = False,
+    searcher_type: str = "openai",
+    model_url: Optional[str] = None,
 ) -> Dict:
     """
     Run a query with memory integration:
@@ -112,21 +114,42 @@ def run_query_with_agent_and_memory(
                 else "web_search_env/embeddings/shard*_id_map.json"
             )
             # LLM uses --model; searcher uses --openai-model (must be an embedding-capable model, e.g. text-embedding-3-small)
+            # --id-map-path/--corpus-path/--openai-model are OpenAISearcher-only flags (dense retrieval over a
+            # FAISS index needs a corpus lookup + an embedding model); BM25Searcher's parse_args only registers
+            # --index-path, so passing those extra flags with argparse's strict parse_args() would error out.
+            # openai_client.py takes --max_tokens (underscore); oss_client.py takes --max-tokens (hyphen) —
+            # the two scripts don't share an argparse convention, so the flag name has to be picked per-script.
+            max_tokens_flag = "--max-tokens" if "oss_client.py" in script_path else "--max_tokens"
             cmd = [
                 "python", script_path,
                 "--model", model,
                 "--query", query_file,  # Pass file path
                 "--output-dir", str(output_dir),
-                "--searcher-type", "openai",
+                "--searcher-type", searcher_type,
                 "--index-path", index_path,
-                "--id-map-path", id_map_path,
-                "--corpus-path", corpus_path,
-                "--openai-model", model_name,
-                "--max_tokens", "15000",
+                max_tokens_flag, "15000",
                 "--max-iterations", str(max_iterations),
                 "--k", "10",
                 "--snippet-max-tokens", "512"
             ]
+            if searcher_type == "faiss":
+                # FaissSearcher.parse_args only registers --index-path/--model-name/--normalize/--pooling/
+                # --torch-dtype/--dataset-name/--task-prefix/--max-length — it has no --id-map-path/--corpus-path/
+                # --openai-model (those are OpenAISearcher-only) and it embeds queries live with a local model, so
+                # it needs --model-name instead. --normalize must match what the corpus was encoded with
+                # (tevatron encode was run with --normalize) or query/passage similarity scores are inconsistent.
+                cmd.extend(["--model-name", model_name, "--normalize"])
+            elif searcher_type not in ("bm25", "oracle"):
+                cmd.extend([
+                    "--id-map-path", id_map_path,
+                    "--corpus-path", corpus_path,
+                    "--openai-model", model_name,
+                ])
+            if model_url:
+                # oss_client.py / openai_client.py default --model-url to localhost:8000/v1, which is also
+                # this repo's documented default memory-server port — must override explicitly or the search
+                # agent subprocess silently talks to the wrong service.
+                cmd.extend(["--model-url", model_url])
             if provider:
                 cmd.extend(["--provider", provider])
         

@@ -138,74 +138,108 @@ def run_conversation_with_tools(
     max_iterations: int = 100,
     verbose: bool = False,
 ):
-
+    # Originally called client.responses.create(...) (OpenAI's Responses API, an
+    # item-based conversation format: "input"/"output" items of type function_call /
+    # reasoning / message). vLLM 0.9.0.1's OpenAI-compatible server only implements
+    # Chat Completions, so every call here 404'd, was swallowed by the bare except
+    # below, and the loop silently spun to max_iterations with zero tool calls and an
+    # empty transcript every time — this is the actual root cause behind the smoke
+    # test's "status": "incomplete" / empty result on every subquery.
+    #
+    # Rewritten to drive the conversation via Chat Completions + tool_calls, but still
+    # RETURNS the same Responses-API item shape (function_call / function_call_output /
+    # message[output_text]) that _persist_response() below already knows how to parse —
+    # so nothing downstream of this function needed to change.
     tool_usage = {}
+    usage_totals = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
 
-    messages = initial_request["input"]
+    chat_messages = list(initial_request["input"])  # {"role":..., "content":...} is already compatible
+    chat_tools = [
+        {"type": "function", "function": {k: v for k, v in tool.items() if k != "type"}}
+        for tool in initial_request.get("tools", [])
+    ] or None
+    max_tokens = initial_request.get("max_output_tokens")
+    model = initial_request["model"]
+
+    log_items = list(initial_request["input"])
 
     iteration = 1
-
     while iteration <= max_iterations:
         try:
-            request = initial_request.copy()
-            request["input"] = messages
-            response = client.responses.create(
-                **request,
+            response = client.chat.completions.create(
+                model=model,
+                messages=chat_messages,
+                max_tokens=max_tokens,
+                tools=chat_tools,
             )
+        except openai.BadRequestError as e:
+            # 400s (e.g. "maximum context length is 32768 tokens, requested 41587") are
+            # permanent for this call — the request will fail identically on every retry.
+            # Previously this was caught by the bare `except Exception` below and retried up
+            # to max_iterations times, burning the whole iteration budget on a request that
+            # could never succeed and silently corrupting both cost accounting (failed calls
+            # report zero usage, making the episode look artificially cheap) and wall-clock
+            # (found via 4,090 such 400s in the vLLM log during a `long_context` Gate D run
+            # that looked, from the aggregate stats alone, like a clean comparison arm).
+            if verbose:
+                print(f"Permanent error (not retrying): {e}")
+            log_items.append({
+                "type": "message",
+                "content": [{"type": "output_text", "text": f"[error: request exceeded context window: {e}]"}],
+            })
+            return log_items, tool_usage, "context_overflow", usage_totals
         except Exception as e:
             if verbose:
                 print(f"Error: {e}")
-                rprint(f"Request: {request}")
+                rprint(f"Messages: {chat_messages}")
             iteration += 1
             continue
 
-        response_dict = response.model_dump(mode="python")
+        if response.usage:
+            usage_totals["prompt_tokens"] += response.usage.prompt_tokens or 0
+            usage_totals["completion_tokens"] += response.usage.completion_tokens or 0
+            usage_totals["total_tokens"] += response.usage.total_tokens or 0
 
-        messages.extend(response_dict["output"])
+        msg = response.choices[0].message
+        tool_calls = msg.tool_calls or []
 
-        if (
-            len(response_dict["output"]) >= 1
-            and response_dict["output"][-1]["type"] == "reasoning"
-        ):
-            messages.pop()
-            continue
+        assistant_msg = {"role": "assistant", "content": msg.content or ""}
+        if tool_calls:
+            assistant_msg["tool_calls"] = [
+                {
+                    "id": tc.id,
+                    "type": "function",
+                    "function": {"name": tc.function.name, "arguments": tc.function.arguments},
+                }
+                for tc in tool_calls
+            ]
+        chat_messages.append(assistant_msg)
 
-        function_calls = [
-            item for item in response_dict["output"] if item["type"] == "function_call"
-        ]
+        if not tool_calls:
+            if msg.content:
+                log_items.append(
+                    {"type": "message", "content": [{"type": "output_text", "text": msg.content}]}
+                )
+            return log_items, tool_usage, "completed", usage_totals
 
-        if not function_calls:
-            return messages, tool_usage, "completed"
-
-        new_messages = messages.copy()
-
-        for tool_call in function_calls:
+        for tc in tool_calls:
+            name = tc.function.name
             try:
-                arguments = json.loads(tool_call["arguments"])
-                result = tool_handler.execute_tool(tool_call["name"], arguments)
-                tool_usage[tool_call["name"]] = tool_usage.get(tool_call["name"], 0) + 1
-
-                new_messages.append(
-                    {
-                        "type": "function_call_output",
-                        "call_id": tool_call["call_id"],
-                        "output": result,
-                    }
-                )
-
+                arguments = json.loads(tc.function.arguments)
+                result = tool_handler.execute_tool(name, arguments)
+                tool_usage[name] = tool_usage.get(name, 0) + 1
             except Exception as e:
-                error_msg = f"Error executing {tool_call['name']}: {str(e)}"
-                new_messages.append(
-                    {
-                        "type": "function_call_output",
-                        "call_id": tool_call["call_id"],
-                        "output": error_msg,
-                    }
-                )
-        messages = new_messages
+                result = f"Error executing {name}: {str(e)}"
+
+            log_items.append(
+                {"type": "function_call", "call_id": tc.id, "name": name, "arguments": tc.function.arguments}
+            )
+            log_items.append({"type": "function_call_output", "call_id": tc.id, "output": result})
+            chat_messages.append({"role": "tool", "tool_call_id": tc.id, "content": str(result)})
+
         iteration += 1
 
-    return messages, tool_usage, "incomplete"
+    return log_items, tool_usage, "incomplete", usage_totals
 
 
 def _persist_response(
@@ -216,6 +250,7 @@ def _persist_response(
     status: str,
     *,
     query_id: str | None = None,
+    usage: dict | None = None,
 ):
     os.makedirs(out_dir, exist_ok=True)
 
@@ -306,6 +341,7 @@ def _persist_response(
         "status": status,
         "retrieved_docids": extract_retrieved_docids_from_result(normalized_results),
         "result": normalized_results,
+        "usage": usage or {},
     }
 
     ts = datetime.utcnow().strftime("%Y%m%dT%H%M%S%fZ")
@@ -373,7 +409,7 @@ def _process_tsv_dataset(
         }
 
         try:
-            messages, tool_usage, status = run_conversation_with_tools(
+            messages, tool_usage, status, usage = run_conversation_with_tools(
                 client, initial_request, tool_handler, args.max_iterations, args.verbose
             )
 
@@ -384,7 +420,7 @@ def _process_tsv_dataset(
                         pbar.set_postfix(completed=completed_count[0])
 
             _persist_response(
-                out_dir, initial_request, messages, tool_usage, status, query_id=qid
+                out_dir, initial_request, messages, tool_usage, status, query_id=qid, usage=usage
             )
 
         except Exception as exc:
@@ -548,12 +584,12 @@ def main():
         "reasoning": {"effort": args.reasoning_effort, "summary": "detailed"},
     }
 
-    messages, tool_usage, status = run_conversation_with_tools(
+    messages, tool_usage, status, usage = run_conversation_with_tools(
         client, initial_request, tool_handler, args.max_iterations, args.verbose
     )
 
     _persist_response(
-        args.output_dir, initial_request, messages, tool_usage, status, query_id=None
+        args.output_dir, initial_request, messages, tool_usage, status, query_id=None, usage=usage
     )
 
     rprint(messages)

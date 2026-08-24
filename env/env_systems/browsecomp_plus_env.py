@@ -1,8 +1,79 @@
 from typing import Any, Dict, Optional, Tuple
 from .base_env import BaseEnvironment
 import json
+import os
+import time
 from pathlib import Path
 from typing import List
+
+
+# Not part of the upstream framework: writes one JSONL record per completed subquery/final-query
+# to a single, append-only, off-repo log, independent of whatever memory_client compresses. Gives
+# a single authoritative place to inspect the complete raw trajectory per episode, rather than
+# reconstructing it from scattered per-subquery output directories.
+_RAW_TRAJECTORY_LOG_PATH = Path(
+    os.environ.get(
+        "RECOVERMEM_RAW_TRAJECTORY_LOG",
+        str(Path.home() / "recovermem_results" / "raw_trajectory_log.jsonl"),
+    )
+)
+_RAW_TRAJECTORY_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+
+def _append_raw_trajectory_record(record: dict) -> None:
+    record["logged_at"] = time.time()
+    with open(_RAW_TRAJECTORY_LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record, ensure_ascii=False, default=str) + "\n")
+
+
+# Lazily-initialized, module-level BM25 Lucene searcher, reused across every episode this
+# env_server process hosts, for building oracle-evidence-provision's distractor mix (Step 1,
+# "gold-plus-distractors" configuration). Not the same code path as memory/memory_systems/rag.py
+# — this is a direct pyserini lookup against the same local index built for the BM25 condition.
+_ORACLE_BM25_SEARCHER = None
+_ORACLE_BM25_INDEX_PATH = str(
+    Path(__file__).resolve().parents[1] / "embeddings_bm25" / "lucene_index"
+)
+
+
+def _get_oracle_bm25_searcher():
+    global _ORACLE_BM25_SEARCHER
+    if _ORACLE_BM25_SEARCHER is None:
+        from pyserini.search.lucene import LuceneSearcher
+
+        _ORACLE_BM25_SEARCHER = LuceneSearcher(_ORACLE_BM25_INDEX_PATH)
+    return _ORACLE_BM25_SEARCHER
+
+
+def _build_oracle_docs_file(
+    query_text: str,
+    gold_evidence_docs: List[Dict[str, Any]],
+    out_path: Path,
+    distractor_k: int,
+) -> str:
+    """Write this step's oracle document set: gold/evidence docs, optionally plus real BM25
+    distractors retrieved for query_text (excluding anything already in the gold set)."""
+    docs = list(gold_evidence_docs)
+    if distractor_k > 0:
+        gold_docids = {d["docid"] for d in gold_evidence_docs}
+        searcher = _get_oracle_bm25_searcher()
+        hits = searcher.search(query_text, distractor_k + len(gold_docids))
+        added = 0
+        for hit in hits:
+            if added >= distractor_k:
+                break
+            docid = str(hit.docid)
+            if docid in gold_docids:
+                continue
+            raw = json.loads(hit.lucene_document.get("raw"))
+            docs.append({"docid": docid, "text": raw.get("contents", "")})
+            gold_docids.add(docid)  # guard against duplicate distractor hits
+            added += 1
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(docs, f, ensure_ascii=False)
+    return str(out_path)
+
 
 class BrowseCompPlusEnvironment(BaseEnvironment):
     """BrowseComp-Plus environment for web browsing tasks."""
@@ -48,6 +119,22 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
         self.client = self.config.get("client")
         self.max_iterations = self.config.get("max_iterations", 30)
         self.step_memory = self.config.get("step_memory", False)
+        self.searcher_type = self.config.get("searcher_type", "openai")
+        self.model_url = self.config.get("model_url")
+        # 0 = gold/evidence docs only. >0 = also mix in that many real BM25 distractors per
+        # subquery/final-query call (see the oracle-evidence-provision block in run_full()).
+        self.oracle_distractor_k = int(self.config.get("oracle_distractor_k", 0))
+        # Budget sweep: this episode's fixed memory-backend token cap, if the caller computed
+        # one (typically a fraction of this same query_id's accumulated-history size from a
+        # prior reference run). None = memory backend's own default budget.
+        self.memory_budget_tokens = self.config.get("memory_budget_tokens")
+        # Gate B no-history counterfactual (GATE_B_PLAN.md): if True, run_full() skips all
+        # subqueries entirely and answers only the final combined query, with no memory content
+        # (nothing was ever added), capped at max_iterations_override — normally set to the
+        # total iterations a reference/control run actually spent on this same episode across
+        # its 5 subqueries + final query, not a fresh budget, per the plan's own constraint.
+        self.no_history_mode = bool(self.config.get("no_history_mode", False))
+        self.no_history_max_iterations_override = self.config.get("no_history_max_iterations_override")
         # If True, store evaluation metadata (judgement + correct answer when incorrect) in memory
         self.store_eval_in_memory: bool = bool(self.config.get("store_eval_in_memory", False))
         # When running on env server: create memory_client from config if not provided
@@ -66,6 +153,7 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
                         user_id=str(self.config["task_id"]),
                         memory_system_name=self.config.get("memory_system_name", "bm25"),
                         base_url=self.config["memory_url"].rstrip("/"),
+                        budget_tokens=self.memory_budget_tokens,
                     )
                     _log.info(
                         "Memory client created from memory/ (system=%s, base_url=%s).",
@@ -168,6 +256,30 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
             if not ground_truth_path.is_absolute():
                 ground_truth_path = _env_systems / ground_truth_path
 
+        # Oracle evidence provision (frozen standard configuration, see MEMORYARENA_GATES.md):
+        # bypass real retrieval, hand the searcher this episode's known-relevant documents
+        # directly, isolating "can the backbone do this task given the evidence" (and, for the
+        # memory study, "was the evidence ever in the trajectory to recover") from "can a real
+        # retriever find the evidence". self.oracle_distractor_k controls whether gold/evidence
+        # docs are handed over alone (0) or mixed with real BM25 distractors for that step's own
+        # query text (>0) — distractors are built fresh per subquery/final-query call, not once
+        # per episode, so they actually vary with what's being asked at each step.
+        gold_evidence_docs = None
+        if self.searcher_type == "oracle":
+            gt_for_oracle = BrowseCompPlusEnvironment.load_ground_truth(ground_truth_path)
+            entry = gt_for_oracle.get(str(self.query_id), {})
+            raw_docs = list(entry.get("gold_docs") or []) + list(entry.get("evidence") or [])
+            seen_docids = set()
+            gold_evidence_docs = []
+            for doc in raw_docs:
+                docid = str(doc.get("docid"))
+                if docid in seen_docids:
+                    continue
+                seen_docids.add(docid)
+                gold_evidence_docs.append({"docid": docid, "text": doc.get("text", "")})
+
+        index_path_to_use = self.index_path
+
         # Create judge client on server
         try:
             import openai
@@ -186,17 +298,32 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
         if not Path(_corpus).is_absolute():
             _corpus = str(_env_systems / _corpus)
 
-        # Run each subquery, add to memory
-        for i, (subquery, correct_answer) in enumerate(zip(subqueries, correct_answers)):
+        # Run each subquery, add to memory — skipped entirely in the Gate B no-history
+        # counterfactual (GATE_B_PLAN.md): the branch point is at episode start, so nothing
+        # from the subqueries is ever computed or added to memory for that episode.
+        for i, (subquery, correct_answer) in ([] if self.no_history_mode else enumerate(zip(subqueries, correct_answers))):
             sq_dir = (output_dir / f"query_{self.query_id}" / "subqueries" / f"subquery_{i + 1}") if output_dir else None
             if sq_dir:
                 sq_dir.mkdir(parents=True, exist_ok=True)
+            if self.searcher_type == "oracle":
+                # Must NOT live inside sq_dir: agent/search.py finds the subprocess's real
+                # output via output_dir.glob("*.json") and takes the first match — a second
+                # .json file in that same directory (this one) can win the glob race and get
+                # parsed as if it were the agent's result (AttributeError: 'list' object has
+                # no attribute 'get'). Keep oracle inputs in a sibling directory instead.
+                oracle_out = (
+                    (output_dir / f"query_{self.query_id}" / "oracle_inputs" / f"subquery_{i + 1}.json")
+                    if output_dir else Path("/tmp") / f"oracle_{self.query_id}_sq{i+1}.json"
+                )
+                index_path_to_use = _build_oracle_docs_file(
+                    subquery, gold_evidence_docs, oracle_out, self.oracle_distractor_k
+                )
             result = run_query_with_agent_and_memory(
                 query=subquery,
                 memory_client=self.memory_client,
                 output_dir=sq_dir,
                 script_path=self.script_path,
-                index_path=self.index_path,
+                index_path=index_path_to_use,
                 corpus_path=_corpus,
                 model=self.agent_model,
                 model_name=self.model_name,
@@ -206,8 +333,27 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
                 gpu=self.gpu,
                 max_iterations=self.max_iterations,
                 step_memory=self.step_memory,
+                searcher_type=self.searcher_type,
+                model_url=self.model_url,
             )
             answer = result.get("answer", "")
+            _append_raw_trajectory_record({
+                "query_id": self.query_id,
+                "step_type": "subquery",
+                "subquery_index": i + 1,
+                "subquery": subquery,
+                "correct_answer": correct_answer,
+                "predicted_answer": answer,
+                "trace": result.get("trace", []),
+                "tool_call_counts": result.get("tool_call_counts"),
+                "retrieved_docids": result.get("retrieved_docids"),
+                "full_result": result.get("full_result", {}),
+                "searcher_type": self.searcher_type,
+                "oracle_distractor_k": self.oracle_distractor_k if self.searcher_type == "oracle" else None,
+                "oracle_injected_docids": (
+                    [d["docid"] for d in gold_evidence_docs] if gold_evidence_docs is not None else None
+                ),
+            })
             if self.memory_client:
                 trace = result.get("trace", [])
                 trace_summary = ""
@@ -222,6 +368,14 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
                 self.memory_client.add(memory_entry)
 
         # Final combined query (use resolved _corpus so path is correct on server)
+        if self.searcher_type == "oracle":
+            # Same glob-collision hazard as the subquery loop above: keep this out of
+            # output_dir/query_{id}/final_query/, which is where run_final_query's own
+            # subprocess output lands and gets discovered via glob("*.json").
+            oracle_dir = (output_dir / f"query_{self.query_id}" / "oracle_inputs") if output_dir else Path("/tmp")
+            index_path_to_use = _build_oracle_docs_file(
+                original_query, gold_evidence_docs, oracle_dir / "final_query.json", self.oracle_distractor_k
+            )
         return BrowseCompPlusEnvironment.run_final_query(
             query_id=self.query_id,
             original_query=original_query,
@@ -229,7 +383,7 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
             output_dir=output_dir,
             memory_client=self.memory_client,
             script_path=self.script_path,
-            index_path=self.index_path,
+            index_path=index_path_to_use,
             corpus_path=_corpus,
             agent_model=self.agent_model,
             model_name=self.model_name,
@@ -243,6 +397,9 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
             ground_truth_path=ground_truth_path,
             step_memory=self.step_memory,
             store_eval_in_memory=self.store_eval_in_memory,
+            searcher_type=self.searcher_type,
+            model_url=self.model_url,
+            max_iterations=self.no_history_max_iterations_override if self.no_history_mode else None,
         )
 
     # --- Final Query Logic as a Standalone Function ---
@@ -268,6 +425,9 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
         ground_truth_path: Optional[Path] = None,
         step_memory: bool = False,
         store_eval_in_memory: bool = False,
+        searcher_type: str = "openai",
+        model_url: Optional[str] = None,
+        max_iterations: Optional[int] = None,
     ):
         """
         Run the final query with full memory context, judge, and return result dict.
@@ -297,7 +457,7 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
         final_output_dir = output_dir / f"query_{query_id}" / "final_query" if output_dir else None
         # Run agent for final query with full memory
         print("Running agent for final query with full memory...")
-        final_result_data = run_query_with_agent_and_memory(
+        final_query_kwargs = dict(
             query=final_query,
             memory_client=memory_client,
             output_dir=final_output_dir,
@@ -311,7 +471,15 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
             mcp_name=mcp_name,
             gpu=gpu,
             step_memory=step_memory,
+            searcher_type=searcher_type,
+            model_url=model_url,
         )
+        if max_iterations is not None:
+            # Gate B no-history counterfactual: remaining budget, not a fresh one (see
+            # GATE_B_PLAN.md) — otherwise falls through to run_query_with_agent_and_memory's
+            # own default.
+            final_query_kwargs["max_iterations"] = max_iterations
+        final_result_data = run_query_with_agent_and_memory(**final_query_kwargs)
         final_predicted_answer = final_result_data["answer"]
         final_trace = final_result_data["trace"]
         final_tool_calls = final_result_data["tool_call_counts"]
@@ -362,6 +530,23 @@ class BrowseCompPlusEnvironment(BaseEnvironment):
         )
         is_final_correct = final_evaluation["correct"]
         print(f"Final Evaluation: {'CORRECT' if is_final_correct else 'INCORRECT'}")
+        _append_raw_trajectory_record({
+            "query_id": query_id,
+            "step_type": "final",
+            "final_query": final_query,
+            "correct_answer": final_correct_answer,
+            "predicted_answer": final_predicted_answer,
+            "trace": final_trace,
+            "tool_call_counts": final_tool_calls,
+            "retrieved_docids": final_retrieved_docids,
+            "recall": final_recall,
+            "memory_context": final_memory_context,
+            "query_with_memory": final_query_with_memory,
+            "judgement": final_evaluation,
+            "searcher_type": searcher_type,
+            "usage": final_usage,
+            "api_calls": final_api_calls,
+        })
         return {
             "final_query": final_query,
             "query": final_query,
