@@ -1,0 +1,21 @@
+\begin{tabular}{llrrr}
+\toprule
+Method & $\alpha$ & FS & Cov. & Exc. \\
+\midrule
+Always Trust & -- & 0.717 & 1.000 & -- \\
+Always Recover & -- & 0.000 & 0.000 & -- \\
+Fixed-F1 & -- & 0.685 & 0.961 & -- \\
+\midrule
+Empirical-risk & .05 & 0.059 & 0.090 & 0.540 \\
+ & .10 & 0.104 & 0.153 & 0.535 \\
+ & .20 & 0.164 & 0.234 & 0.445 \\
+\midrule
+Random score + CRC & .05 & 0.003 & 0.003 & 0.000 \\
+ & .10 & 0.049 & 0.052 & 0.035 \\
+ & .20 & 0.192 & 0.237 & 0.145 \\
+\midrule
+ReCoverMem + marginal CRC & .05 & 0.000 & 0.000 & 0.000 \\
+ & .10 & 0.062 & 0.094 & 0.080 \\
+ & .20 & 0.143 & 0.209 & 0.255 \\
+\bottomrule
+\end{tabular}

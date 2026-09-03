@@ -1,0 +1,111 @@
+{
+  "n_cal_units": 24,
+  "crc_floor_1_over_n_plus_1": 0.04,
+  "random_score_seed": 20270113,
+  "always_trust": {
+    "tau": "-Infinity"
+  },
+  "always_recover": {
+    "tau": "Infinity"
+  },
+  "rules": {
+    "fixed_f1": {
+      "rule": "fixed_f1",
+      "tau": 0.49243845454005714,
+      "calibration_f1": 0.7000000000000001,
+      "calibration_precision": 0.6363636363636364,
+      "calibration_recall": 0.7777777777777778,
+      "n_cal_episodes": 24,
+      "n_cal_decisions": 24,
+      "note": "F1 is decision-level by definition; FS/Cov remain episode-equal-weighted"
+    },
+    "empirical_risk@0.05": {
+      "rule": "empirical_risk",
+      "alpha": 0.05,
+      "tau": 0.7308920294946132,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.041666666666666664,
+      "feasible": true,
+      "note": ""
+    },
+    "random_crc@0.05": {
+      "rule": "marginal_crc",
+      "alpha": 0.05,
+      "tau": 0.980535685653932,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.0,
+      "feasible": true,
+      "note": ""
+    },
+    "marginal_crc@0.05": {
+      "rule": "marginal_crc",
+      "alpha": 0.05,
+      "tau": "Infinity",
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.0,
+      "feasible": true,
+      "note": ""
+    },
+    "empirical_risk@0.1": {
+      "rule": "empirical_risk",
+      "alpha": 0.1,
+      "tau": 0.6082162939621129,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.08333333333333333,
+      "feasible": true,
+      "note": ""
+    },
+    "random_crc@0.1": {
+      "rule": "marginal_crc",
+      "alpha": 0.1,
+      "tau": 0.9103930359397957,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.041666666666666664,
+      "feasible": true,
+      "note": ""
+    },
+    "marginal_crc@0.1": {
+      "rule": "marginal_crc",
+      "alpha": 0.1,
+      "tau": 0.7308920294946132,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.041666666666666664,
+      "feasible": true,
+      "note": ""
+    },
+    "empirical_risk@0.2": {
+      "rule": "empirical_risk",
+      "alpha": 0.2,
+      "tau": 0.49243845454005714,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.16666666666666666,
+      "feasible": true,
+      "note": ""
+    },
+    "random_crc@0.2": {
+      "rule": "marginal_crc",
+      "alpha": 0.2,
+      "tau": 0.7203465374049302,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.16666666666666666,
+      "feasible": true,
+      "note": ""
+    },
+    "marginal_crc@0.2": {
+      "rule": "marginal_crc",
+      "alpha": 0.2,
+      "tau": 0.49243845454005714,
+      "n_cal_episodes": 24,
+      "calibration_loss": 0.16666666666666666,
+      "feasible": true,
+      "note": ""
+    }
+  },
+  "frozen_at_utc": "2026-08-28T14:42:20Z",
+  "scorer_model_hash": "e2e19ff5469d389f6bfe199b10eb605d174ccdcdb9bfd537545c6b7557e272d0",
+  "random_scores_hash": "82c3ca070bd6dbec1a93faa271ed37754e51d61749e559d5779e04308ac47103",
+  "config_hash": "0e96a2902f272b1207c547f36c79ec64db98da560b6b53451e4da939cafc651d",
+  "calibration_log_hash": "8a3480ab672a88dfc9553fd13ab620c01680bcf6662898321fcff11be7c4b09c",
+  "train_log_hash": "5275a6b5a279905645542f54c01859f9c5c3ed36dec8a1136609897013119028",
+  "final_test_collected_at_freeze_time": false
+}

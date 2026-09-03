@@ -1,0 +1,98 @@
+{
+  "task_id": "68ee2c9_1",
+  "n_steps": 10,
+  "trajectory": [
+    {
+      "step": 0,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false
+    },
+    {
+      "step": 1,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 2,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 3,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": false
+    },
+    {
+      "step": 4,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 5,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 6,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 7,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": false
+    },
+    {
+      "step": 8,
+      "passes": 1,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": false
+    },
+    {
+      "step": 9,
+      "passes": 4,
+      "num_tests": 5,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 10,
+      "passes": 5,
+      "num_tests": 5,
+      "success": true,
+      "exec_ok": true
+    }
+  ],
+  "distinct_utility_levels": 3,
+  "n_transitions": 2,
+  "utility_curve": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    4,
+    5
+  ],
+  "final_success": true
+}

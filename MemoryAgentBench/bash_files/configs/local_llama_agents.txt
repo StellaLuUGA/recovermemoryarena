@@ -1,0 +1,13 @@
+###### agent_config                                                     dataset_config
+###### local vLLM backbone: llama-3.1-8b-instruct-local (32k window)
+
+### fits fully in 32k
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Conflict_Resolution/Factconsolidation_sh_6k.yaml
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Conflict_Resolution/Factconsolidation_mh_6k.yaml
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Conflict_Resolution/Factconsolidation_sh_32k.yaml
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Conflict_Resolution/Factconsolidation_mh_32k.yaml
+
+### longer than 32k -> context is tail-truncated to input_length_limit
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Accurate_Retrieval/EventQA/Eventqa_full.yaml
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Accurate_Retrieval/LongMemEval/Longmemeval_s_star.yaml
+Long_context_agent_llama-3.1-8b-instruct-local.yaml   Test_Time_Learning/ICL/ICL_trec_coarse.yaml

@@ -1,0 +1,56 @@
+{
+  "docstore": {
+    "83508826-5f9b-4c72-92a5-8c4753261373": {
+      "user_id": "pick_and_place_simple-Pencil-None-Shelf-308__trial_T20190908_122024_052056",
+      "data": "User's task is to put a pencil in a shelf",
+      "text_lemmatized": "user task pencil shelf",
+      "hash": "73315fcecd59b86fea2249b667756250",
+      "created_at": "2026-08-31T06:08:21.586070+00:00",
+      "updated_at": "2026-08-31T06:08:21.586070+00:00",
+      "attributed_to": "user"
+    },
+    "7693d609-89f2-48a6-b80b-bf815f6c5fae": {
+      "user_id": "pick_and_place_simple-Pencil-None-Shelf-308__trial_T20190908_122024_052056",
+      "data": "User arrived at desk 1 and observed a bowl 2, a desklamp 1, a keychain 2, and a pencil 1 on the desk",
+      "text_lemmatized": "user arrive desk 1 observe bowl 2 desklamp 1 keychain 2 pencil 1 desk",
+      "hash": "34930f5644baee087e3bc2d2dcffc0bb",
+      "created_at": "2026-08-31T06:08:26.571115+00:00",
+      "updated_at": "2026-08-31T06:08:26.571115+00:00",
+      "attributed_to": "user"
+    },
+    "a6f744e4-0556-49bd-aae8-87d142767dd8": {
+      "user_id": "pick_and_place_simple-Pencil-None-Shelf-308__trial_T20190908_122024_052056",
+      "data": "User picked up the pencil 1 from desk 1",
+      "text_lemmatized": "user pick pencil 1 desk 1",
+      "hash": "dd773437c65e700c305dc5e5ff21b4f6",
+      "created_at": "2026-08-31T06:08:30.945494+00:00",
+      "updated_at": "2026-08-31T06:08:30.945494+00:00",
+      "attributed_to": "user"
+    },
+    "b07a21b5-f98d-4af9-9e4a-c0f382490618": {
+      "user_id": "pick_and_place_simple-Pencil-None-Shelf-308__trial_T20190908_122024_052056",
+      "data": "User arrived at shelf 1 and observed that it is empty",
+      "text_lemmatized": "user arrive shelf 1 observe",
+      "hash": "1b831b40039a17107885686b43767378",
+      "created_at": "2026-08-31T06:08:35.624590+00:00",
+      "updated_at": "2026-08-31T06:08:35.624590+00:00",
+      "attributed_to": "user"
+    },
+    "2e1d9a0e-fdfa-459f-8340-7d1437e9e5cb": {
+      "user_id": "pick_and_place_simple-Pencil-None-Shelf-308__trial_T20190908_122024_052056",
+      "data": "User moved the pencil 1 to shelf 1",
+      "text_lemmatized": "user move pencil 1 shelf 1",
+      "hash": "d0df08dff200ecbb363c91fdd69bd9d5",
+      "created_at": "2026-08-31T06:08:40.173854+00:00",
+      "updated_at": "2026-08-31T06:08:40.173854+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "83508826-5f9b-4c72-92a5-8c4753261373",
+    "1": "7693d609-89f2-48a6-b80b-bf815f6c5fae",
+    "2": "a6f744e4-0556-49bd-aae8-87d142767dd8",
+    "3": "b07a21b5-f98d-4af9-9e4a-c0f382490618",
+    "4": "2e1d9a0e-fdfa-459f-8340-7d1437e9e5cb"
+  }
+}

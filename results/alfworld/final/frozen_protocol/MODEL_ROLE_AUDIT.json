@@ -1,0 +1,57 @@
+{
+  "action_agent": {
+    "model": "qwen3-32b-awq-local",
+    "path": "/home/aristella/models/Qwen3-32B-AWQ",
+    "endpoint": "http://localhost:8124/v1",
+    "enable_thinking": false,
+    "temperature": 0,
+    "seed": 13,
+    "quantization": "AWQ 4-bit / awq_marlin",
+    "dtype": "fp16",
+    "vllm": "0.18.0",
+    "max_model_len": 16384,
+    "kv_cache_dtype": "auto",
+    "device": "RTX 5090"
+  },
+  "mem0_internal_llm": {
+    "model": "qwen3-32b-awq-local",
+    "endpoint": "http://localhost:8124/v1",
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "enable_thinking": false
+  },
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dims": 384,
+    "device": "cpu"
+  },
+  "mem0": {
+    "mem0_repo": "/home/aristella/RecoverMemMinimal/update_replicate/mem0",
+    "mem0_commit": "39bc02330563764e7d4465f1ecff5f002d94da1a",
+    "llm": "qwen3-32b-awq-local",
+    "llm_base_url": "http://localhost:8124/v1",
+    "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dims": 384,
+    "vector_store": "faiss",
+    "candidate_top_k": 50,
+    "telemetry": "disabled",
+    "cloud": false
+  },
+  "recovery_backend": {
+    "impl": "recovermem.recovery.TrajectoryRetriever",
+    "scoring": "IDF-weighted lexical, deterministic, no LLM call"
+  },
+  "stack_label": "ALFWorld Qwen3-32B stack configuration",
+  "rationale": "The RTX 5090 cannot hold Qwen3-32B-AWQ and a second 8B Mem0 LLM at once, so the Mem0 internal LLM is the SAME Qwen3-32B-AWQ server as the action agent. This is declared explicitly rather than presented as an agent-only Qwen experiment.",
+  "safeguards": {
+    "MEM0_TELEMETRY": "False",
+    "MEM0_TELEMETRY_SAMPLE_RATE": "0.0",
+    "LITELLM_LOCAL_MODEL_COST_MAP": "True",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1",
+    "openai_client_instrumentation": "every openai.OpenAI client is patched at construction: non-local base_url raises, tokens are metered, enable_thinking=false is forced",
+    "outbound_network_during_formal_execution": "localhost only"
+  },
+  "known_setup_time_network_access": "During environment setup (before any formal collection) mem0's spaCy dependency downloaded en_core_web_sm once. It is cached; no download occurs during the formal run. Recorded rather than omitted.",
+  "code_hash": "7c11c87a2d4c80fcb3c1e8dffb4c13020d157e42ecc840c8a6507a6e35f8200a"
+}

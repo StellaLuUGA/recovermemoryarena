@@ -1,0 +1,134 @@
+{
+  "docstore": {
+    "64ee7906-2bac-48ef-99eb-1721240c4337": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User arrived at desk 2 and observed the following items on it: alarmclock 3, bowl 3, bowl 2, cd 1, creditcard 1, laptop 2, and mug 2",
+      "text_lemmatized": "user arrive desk 2 observe follow following item alarmclock 3 bowl 3 bowl 2 cd 1 creditcard 1 laptop 2 mug 2",
+      "hash": "a4602a7030ec2da49d06a4ab40c8d2cb",
+      "created_at": "2026-08-31T12:57:13.893352+00:00",
+      "updated_at": "2026-08-31T12:57:13.893352+00:00",
+      "attributed_to": "user"
+    },
+    "c2f38626-818e-49fd-886e-ede16aa15bc6": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User picked up the cd 1 from desk 2",
+      "text_lemmatized": "user pick cd 1 desk 2",
+      "hash": "c745241cd260c0d32643044ba47cc38e",
+      "created_at": "2026-08-31T12:57:18.043309+00:00",
+      "updated_at": "2026-08-31T12:57:18.043309+00:00",
+      "attributed_to": "user"
+    },
+    "83903344-f0da-41bf-8ffe-d5b6fdd749d6": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User examined cd 1 and found that there's nothing special about it",
+      "text_lemmatized": "user examine cd 1 find special",
+      "hash": "05c6c341791f7b7d1fb0afdb0d63a6f6",
+      "created_at": "2026-08-31T12:57:23.129402+00:00",
+      "updated_at": "2026-08-31T12:57:23.129402+00:00",
+      "attributed_to": "user"
+    },
+    "3494c1f9-75b6-46dd-8a10-645ba7979c6e": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User's action of examining cd 1 was taken after picking it up from desk 2",
+      "text_lemmatized": "user action examine examining cd 1 take pick picking desk 2",
+      "hash": "a34f99c27ee41a9ac346bf3dcaa8d08c",
+      "created_at": "2026-08-31T12:57:23.130494+00:00",
+      "updated_at": "2026-08-31T12:57:23.130494+00:00",
+      "attributed_to": "user"
+    },
+    "9a099d87-2dcf-4e7f-a838-cba62f7c8e39": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User examined desk 2 and observed the following items on it: alarmclock 3, bowl 3, bowl 2, creditcard 1, laptop 2, and mug 2",
+      "text_lemmatized": "user examine desk 2 observe follow following item alarmclock 3 bowl 3 bowl 2 creditcard 1 laptop 2 mug 2",
+      "hash": "a6f0b7ed3c088e155fbc89ff1feff38d",
+      "created_at": "2026-08-31T12:57:29.179254+00:00",
+      "updated_at": "2026-08-31T12:57:29.179254+00:00",
+      "attributed_to": "user"
+    },
+    "7e3fdeee-cbac-4db1-a653-4bc1d432a46c": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User's examination of desk 2 did not include cd 1, which had already been picked up",
+      "text_lemmatized": "user examination desk 2 include cd 1 pick",
+      "hash": "40f1a734c3556d2132642a298591f377",
+      "created_at": "2026-08-31T12:57:29.180390+00:00",
+      "updated_at": "2026-08-31T12:57:29.180390+00:00",
+      "attributed_to": "user"
+    },
+    "c626b5c8-84cd-4f74-9829-54947d2f16d1": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User arrived at shelf 1 and observed that a pen 1 is on it",
+      "text_lemmatized": "user arrive shelf 1 observe pen 1",
+      "hash": "680625d8ad761c1a7ca6c61624b2d938",
+      "created_at": "2026-08-31T12:57:33.532979+00:00",
+      "updated_at": "2026-08-31T12:57:33.532979+00:00"
+    },
+    "a4becbf5-f8e6-4204-9124-fc717c135b21": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User arrived at desk 2 and observed the following items on it: alarmclock 3, bowl 3, bowl 2, creditcard 1, laptop 2, and mug 2",
+      "text_lemmatized": "user arrive desk 2 observe follow following item alarmclock 3 bowl 3 bowl 2 creditcard 1 laptop 2 mug 2",
+      "hash": "e70376e1cc20c24950012cd9a18804bc",
+      "created_at": "2026-08-31T12:57:39.286252+00:00",
+      "updated_at": "2026-08-31T12:57:39.286252+00:00",
+      "attributed_to": "user"
+    },
+    "2d53c20f-ddde-4d2b-b163-0653b985796f": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "The cd 1 is no longer on desk 2, as it had already been picked up by the user",
+      "text_lemmatized": "cd 1 long desk 2 pick user",
+      "hash": "d1806b1d2599d544f33f522ef5599b7f",
+      "created_at": "2026-08-31T12:57:39.287445+00:00",
+      "updated_at": "2026-08-31T12:57:39.287445+00:00",
+      "attributed_to": "user"
+    },
+    "99e30b7e-49e6-453c-a559-46aa56d41fd3": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User's action of going to shelf 1 was taken after arriving at desk 2",
+      "text_lemmatized": "user action go going shelf 1 take arrive arriving desk 2",
+      "hash": "d9960d3beb931ac8702dac2a5cc9a23a",
+      "created_at": "2026-08-31T12:57:44.496785+00:00",
+      "updated_at": "2026-08-31T12:57:44.496785+00:00",
+      "attributed_to": "assistant"
+    },
+    "7af5e903-431c-489f-8bee-5f4a1964823c": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User examined cd 1 again and found that there's still nothing special about it",
+      "text_lemmatized": "user examine cd 1 find special",
+      "hash": "3118aa0825a21ba65c475c1607641499",
+      "created_at": "2026-08-31T12:59:16.186177+00:00",
+      "updated_at": "2026-08-31T12:59:16.186177+00:00",
+      "attributed_to": "user"
+    },
+    "736120db-be26-4820-a5c2-d5ababf3e240": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User arrived at desk 1 and observed the following items on it: alarmclock 1, bowl 1, desklamp 1, and mug 1",
+      "text_lemmatized": "user arrive desk 1 observe follow following item alarmclock 1 bowl 1 desklamp 1 mug 1",
+      "hash": "ecdc54488079f11b4aa3aabd475cb43f",
+      "created_at": "2026-08-31T12:59:20.933279+00:00",
+      "updated_at": "2026-08-31T12:59:20.933279+00:00"
+    },
+    "22b52fb1-b3e2-4c85-b52e-485a6e7e5c82": {
+      "user_id": "look_at_obj_in_light-CD-None-DeskLamp-308__trial_T20190908_141942_810052",
+      "data": "User turned on the desklamp 1 that was located on desk 1",
+      "text_lemmatized": "user turn desklamp 1 locate desk 1",
+      "hash": "0d7108f6c1a07025c79093c2dfe2ea3b",
+      "created_at": "2026-08-31T12:59:25.226383+00:00",
+      "updated_at": "2026-08-31T12:59:25.226383+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "64ee7906-2bac-48ef-99eb-1721240c4337",
+    "1": "c2f38626-818e-49fd-886e-ede16aa15bc6",
+    "2": "83903344-f0da-41bf-8ffe-d5b6fdd749d6",
+    "3": "3494c1f9-75b6-46dd-8a10-645ba7979c6e",
+    "4": "9a099d87-2dcf-4e7f-a838-cba62f7c8e39",
+    "5": "7e3fdeee-cbac-4db1-a653-4bc1d432a46c",
+    "6": "c626b5c8-84cd-4f74-9829-54947d2f16d1",
+    "7": "a4becbf5-f8e6-4204-9124-fc717c135b21",
+    "8": "2d53c20f-ddde-4d2b-b163-0653b985796f",
+    "9": "99e30b7e-49e6-453c-a559-46aa56d41fd3",
+    "10": "7af5e903-431c-489f-8bee-5f4a1964823c",
+    "11": "736120db-be26-4820-a5c2-d5ababf3e240",
+    "12": "22b52fb1-b3e2-4c85-b52e-485a6e7e5c82"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "n": 5,
+  "max_steps": 20,
+  "runs": [
+    {
+      "config_id": "AGENT_CONFIG_C_QWEN32B",
+      "idx": 1,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213356_017769/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "plate"
+        },
+        {
+          "action": "take",
+          "param": "plate"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "plate"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "controlled_step": 1,
+      "prefix_len": 1,
+      "prefix": [
+        "go to cabinet 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "plate"
+      },
+      "success": true,
+      "steps_used": 1,
+      "max_rank_reached": 2,
+      "steps": [
+        {
+          "step": 2,
+          "raw": "ACTION: take plate 1 from cabinet 1",
+          "command": "take plate 1 from cabinet 1",
+          "valid": true,
+          "invalid": false,
+          "obs": "You pick up the plate 1 from the cabinet 1.",
+          "rank": 2,
+          "prompt_tokens": 1205
+        }
+      ]
+    },
+    {
+      "config_id": "AGENT_CONFIG_C_QWEN32B",
+      "idx": 2,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122154_042763/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "pencil"
+        },
+        {
+          "action": "take",
+          "param": "pencil"
+        },
+        {
+          "action": "find",
+          "param": "shelf"
+        },
+        {
+          "action": "put",
+          "param": "shelf"
+        }
+      ],
+      "controlled_step": 1,
+      "prefix_len": 1,
+      "prefix": [
+        "go to desk 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "pencil"
+      },
+      "success": true,
+      "steps_used": 1,
+      "max_rank_reached": 2,
+      "steps": [
+        {
+          "step": 2,
+          "raw": "ACTION: take pencil 1 from desk 1",
+          "command": "take pencil 1 from desk 1",
+          "valid": true,
+          "invalid": false,
+          "obs": "You pick up the pencil 1 from the desk 1.",
+          "rank": 2,
+          "prompt_tokens": 1093
+        }
+      ]
+    },
+    {
+      "config_id": "AGENT_CONFIG_C_QWEN32B",
+      "idx": 3,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "tomato"
+        },
+        {
+          "action": "take",
+          "param": "tomato"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "tomato"
+        },
+        {
+          "action": "find",
+          "param": "microwave"
+        },
+        {
+          "action": "put",
+          "param": "microwave"
+        }
+      ],
+      "controlled_step": 37,
+      "prefix_len": 37,
+      "prefix": [
+        "go to fridge 1",
+        "open fridge 1",
+        "take bread 1 from fridge 1",
+        "go to shelf 1",
+        "go to shelf 2",
+        "go to shelf 3",
+        "go to cabinet 1",
+        "go to cabinet 2",
+        "open cabinet 2",
+        "go to cabinet 3",
+        "go to cabinet 4",
+        "go to cabinet 5",
+        "open cabinet 5",
+        "go to cabinet 6",
+        "go to drawer 1",
+        "open drawer 1",
+        "go to drawer 2",
+        "open drawer 2",
+        "go to drawer 3",
+        "open drawer 3",
+        "go to countertop 1",
+        "go to countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "examine countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take tomato 1 from countertop 2",
+        "take bread 1 from countertop 2",
+        "move bread 1 to countertop 2"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "tomato"
+      },
+      "success": true,
+      "steps_used": 1,
+      "max_rank_reached": 2,
+      "steps": [
+        {
+          "step": 38,
+          "raw": "ACTION: take tomato 1 from countertop 2",
+          "command": "take tomato 1 from countertop 2",
+          "valid": true,
+          "invalid": false,
+          "obs": "You pick up the tomato 1 from the countertop 2.",
+          "rank": 2,
+          "prompt_tokens": 2220
+        }
+      ]
+    },
+    {
+      "config_id": "AGENT_CONFIG_C_QWEN32B",
+      "idx": 4,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "controlled_step": 6,
+      "prefix_len": 6,
+      "prefix": [
+        "go to desk 1",
+        "use desklamp 1",
+        "look",
+        "examine desk 1",
+        "go to shelf 1",
+        "go to desk 2"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "mug"
+      },
+      "success": true,
+      "steps_used": 1,
+      "max_rank_reached": 2,
+      "steps": [
+        {
+          "step": 7,
+          "raw": "ACTION: take mug 3 from desk 2",
+          "command": "take mug 3 from desk 2",
+          "valid": true,
+          "invalid": false,
+          "obs": "You pick up the mug 3 from the desk 2.",
+          "rank": 2,
+          "prompt_tokens": 1301
+        }
+      ]
+    },
+    {
+      "config_id": "AGENT_CONFIG_C_QWEN32B",
+      "idx": 6,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032543_712058/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "pan"
+        },
+        {
+          "action": "take",
+          "param": "pan"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "pan"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "controlled_step": 16,
+      "prefix_len": 16,
+      "prefix": [
+        "go to cabinet 1",
+        "go to cabinet 2",
+        "open cabinet 2",
+        "go to cabinet 3",
+        "go to cabinet 4",
+        "go to cabinet 5",
+        "open cabinet 5",
+        "go to cabinet 6",
+        "open cabinet 6",
+        "go to drawer 1",
+        "open drawer 1",
+        "go to drawer 2",
+        "open drawer 2",
+        "go to drawer 3",
+        "open drawer 3",
+        "go to stoveburner 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "pan"
+      },
+      "success": true,
+      "steps_used": 1,
+      "max_rank_reached": 2,
+      "steps": [
+        {
+          "step": 17,
+          "raw": "ACTION: take pan 1 from stoveburner 1",
+          "command": "take pan 1 from stoveburner 1",
+          "valid": true,
+          "invalid": false,
+          "obs": "You pick up the pan 1 from the stoveburner 1.",
+          "rank": 2,
+          "prompt_tokens": 1647
+        }
+      ]
+    }
+  ],
+  "B32_new": 5,
+  "verdict": "PASS"
+}

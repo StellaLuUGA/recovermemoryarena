@@ -1,0 +1,45 @@
+{
+  "docstore": {
+    "7f9ed58b-5028-4b39-b2bd-90bbfd8f0602": {
+      "data": "CDs",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "310859f1-7802-4e74-94f0-9af4fc6ab755"
+      ],
+      "user_id": "pick_two_obj_and_place-CD-None-Safe-308__trial_T20190907_051013_060265"
+    },
+    "2d360668-fa4f-4f2e-b07d-4b31339fd268": {
+      "data": "alarm clock",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "bc1b5b53-93de-4bd6-8606-73bf474132a1",
+        "f778439e-cc2f-470e-8ce9-4d6638097249",
+        "fa207e99-c9fa-4c5b-b610-0f5f74002c53"
+      ],
+      "user_id": "pick_two_obj_and_place-CD-None-Safe-308__trial_T20190907_051013_060265"
+    },
+    "74d30b8e-7a88-4777-963e-14d01d045782": {
+      "data": "desk lamp",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "f778439e-cc2f-470e-8ce9-4d6638097249",
+        "fa207e99-c9fa-4c5b-b610-0f5f74002c53"
+      ],
+      "user_id": "pick_two_obj_and_place-CD-None-Safe-308__trial_T20190907_051013_060265"
+    },
+    "0ab3e3f6-85cf-4439-a260-9d4fe891930c": {
+      "data": "August",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "1b6a8326-97d4-4550-a22f-44133e411ea2"
+      ],
+      "user_id": "pick_two_obj_and_place-CD-None-Safe-308__trial_T20190907_051013_060265"
+    }
+  },
+  "index_to_id": {
+    "0": "7f9ed58b-5028-4b39-b2bd-90bbfd8f0602",
+    "1": "2d360668-fa4f-4f2e-b07d-4b31339fd268",
+    "2": "74d30b8e-7a88-4777-963e-14d01d045782",
+    "3": "0ab3e3f6-85cf-4439-a260-9d4fe891930c"
+  }
+}

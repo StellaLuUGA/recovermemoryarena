@@ -1,0 +1,422 @@
+{
+  "docstore": {
+    "981bf1bc-2610-4645-9387-38f31d2de58c": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User's task is to put a hot tomato in the garbagecan",
+      "text_lemmatized": "user task hot tomato garbagecan",
+      "hash": "2ae5a859038c02367f6af3a6799887a3",
+      "created_at": "2026-08-31T07:01:16.238966+00:00",
+      "updated_at": "2026-08-31T07:01:16.238966+00:00",
+      "attributed_to": "user"
+    },
+    "69ce9cdf-a981-466e-8cd9-b44b50bdeced": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User is in a room with multiple cabinets, countertops, drawers, a fridge, a garbagecan, a microwave, shelves, a sinkbasin, stoveburners, and a toaster",
+      "text_lemmatized": "user room multiple cabinet countertop drawer fridge garbagecan microwave shelf sinkbasin stoveburner toaster",
+      "hash": "6b9e20a2eb53f67b574ab104f8eaa256",
+      "created_at": "2026-08-31T07:01:16.240465+00:00",
+      "updated_at": "2026-08-31T07:01:16.240465+00:00",
+      "attributed_to": "user"
+    },
+    "e2b00bfb-b422-44d5-8bc4-76e86aee8ec9": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at fridge 1, which is closed",
+      "text_lemmatized": "user arrive fridge 1 close",
+      "hash": "210583a1f4acc81c8022374c49ea9ceb",
+      "created_at": "2026-08-31T07:01:20.549801+00:00",
+      "updated_at": "2026-08-31T07:01:20.549801+00:00",
+      "attributed_to": "user"
+    },
+    "cc9e08c8-20a6-49f6-bb07-51930c141bca": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User opened fridge 1 and found inside: apple 1, egg 1, egg 2, plate 1, potato 1, and potato 2",
+      "text_lemmatized": "user open fridge 1 find inside apple 1 egg 1 egg 2 plate 1 potato 1 potato 2",
+      "hash": "f35dcc520a9ae7f995759d4d674e168a",
+      "created_at": "2026-08-31T07:01:25.860922+00:00",
+      "updated_at": "2026-08-31T07:01:25.860922+00:00",
+      "attributed_to": "user"
+    },
+    "6fa19fd7-20b4-4655-9d3d-426438722bb7": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User successfully opened the closed fridge 1",
+      "text_lemmatized": "user successfully open closed fridge 1",
+      "hash": "fc76fab142d358d35deb84719e242e0b",
+      "created_at": "2026-08-31T07:01:25.861772+00:00",
+      "updated_at": "2026-08-31T07:01:25.861772+00:00",
+      "attributed_to": "assistant"
+    },
+    "9d02640d-bfa7-44e3-b61c-b4d648acb113": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User picked up potato 1 from the open fridge 1",
+      "text_lemmatized": "user pick potato 1 open fridge 1",
+      "hash": "862eef7e341c278a82602657123f19bb",
+      "created_at": "2026-08-31T07:01:30.525635+00:00",
+      "updated_at": "2026-08-31T07:01:30.525635+00:00",
+      "attributed_to": "user"
+    },
+    "1c13324c-4ccb-4ec3-866f-18e3ab590d71": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at stoveburner 1, which is currently empty",
+      "text_lemmatized": "user arrive stoveburn 1 currently",
+      "hash": "41c5fdfad83b8b1562e3ee12b7b41e5b",
+      "created_at": "2026-08-31T07:01:34.492640+00:00",
+      "updated_at": "2026-08-31T07:01:34.492640+00:00"
+    },
+    "cd381346-1870-4798-a5cf-d532ebedcd47": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User attempted to heat potato 1 on stoveburner 1, but nothing happened",
+      "text_lemmatized": "user attempt heat potato 1 stoveburn 1 happen",
+      "hash": "f55aba6edcc1a5286e8e81b6e3aba0ef",
+      "created_at": "2026-08-31T07:01:38.752748+00:00",
+      "updated_at": "2026-08-31T07:01:38.752748+00:00",
+      "attributed_to": "user"
+    },
+    "95ddfc48-b6fe-456f-af0f-e92b5e1da38c": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at stoveburner 2, which is currently empty",
+      "text_lemmatized": "user arrive stoveburner 2 currently",
+      "hash": "5498e3e9c2ee0d4ade8e177b11d9b182",
+      "created_at": "2026-08-31T07:01:43.213041+00:00",
+      "updated_at": "2026-08-31T07:01:43.213041+00:00",
+      "attributed_to": "user"
+    },
+    "f54289fa-4f0a-40c1-9c29-5807e861d3cb": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at stoveburner 3, which is currently empty",
+      "text_lemmatized": "user arrive stoveburn 3 currently",
+      "hash": "64a76e08121f59485a4fd0f0d84b78c4",
+      "created_at": "2026-08-31T07:01:47.605405+00:00",
+      "updated_at": "2026-08-31T07:01:47.605405+00:00",
+      "attributed_to": "user"
+    },
+    "87658a98-5e15-4925-a2b9-ccff9ff179ac": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at stoveburner 4, which is currently empty",
+      "text_lemmatized": "user arrive stoveburn 4 currently",
+      "hash": "7e348cfc84ffecdcb2fec29b96e34763",
+      "created_at": "2026-08-31T07:01:51.803111+00:00",
+      "updated_at": "2026-08-31T07:01:51.803111+00:00"
+    },
+    "cb8eeb9a-dee4-42dc-8578-ab000cd0ac1c": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at microwave 1, which is currently closed",
+      "text_lemmatized": "user arrive microwave 1 currently close",
+      "hash": "860a7e0b6634f366f0401e44f4f3ad7d",
+      "created_at": "2026-08-31T07:02:19.206651+00:00",
+      "updated_at": "2026-08-31T07:02:19.206651+00:00",
+      "attributed_to": "user"
+    },
+    "ae5d3a57-edd7-4936-9d17-4c20990026b5": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User opened microwave 1 and found it empty",
+      "text_lemmatized": "user open microwave 1 find",
+      "hash": "e40024717f1de917309c0478c2f08574",
+      "created_at": "2026-08-31T07:02:23.982629+00:00",
+      "updated_at": "2026-08-31T07:02:23.982629+00:00",
+      "attributed_to": "user"
+    },
+    "c6690b17-1ef0-42df-a866-45fc9db2b2e0": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User heated potato 1 using microwave 1",
+      "text_lemmatized": "user heated potato 1 microwave 1",
+      "hash": "b7e8eaa9de2bad763bf4d3c77cd2536e",
+      "created_at": "2026-08-31T07:02:28.863503+00:00",
+      "updated_at": "2026-08-31T07:02:28.863503+00:00",
+      "attributed_to": "user"
+    },
+    "6625c5a7-2cb0-43db-b1c3-2271a543a040": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at garbagecan 1 and found on it egg 3 and papertowelroll 1",
+      "text_lemmatized": "user arrive garbagecan 1 find egg 3 papertowelroll 1",
+      "hash": "a9441437027ecb0aa81deb244d184135",
+      "created_at": "2026-08-31T07:02:33.576715+00:00",
+      "updated_at": "2026-08-31T07:02:33.576715+00:00"
+    },
+    "1cc7d0d4-3407-4cd1-b23a-a780b88031be": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User moved the heated potato 1 to garbagecan 1, where it joined egg 3 and papertowelroll 1",
+      "text_lemmatized": "user move heated potato 1 garbagecan 1 join egg 3 papertowelroll 1",
+      "hash": "1e373e7165b892077fd06b6bbf77ac50",
+      "created_at": "2026-08-31T07:02:38.816858+00:00",
+      "updated_at": "2026-08-31T07:02:38.816858+00:00",
+      "attributed_to": "user"
+    },
+    "16978213-68df-4aa9-96a2-731b63bf0dff": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at fridge 1, which is open. Inside, they found apple 1, egg 2, egg 1, plate 1, and potato 2",
+      "text_lemmatized": "user arrive fridge 1 open inside find apple 1 egg 2 egg 1 plate 1 potato 2",
+      "hash": "ae54152b53dafa8585c162ad9d567cb2",
+      "created_at": "2026-08-31T07:02:43.748390+00:00",
+      "updated_at": "2026-08-31T07:02:43.748390+00:00",
+      "attributed_to": "user"
+    },
+    "bcd969f5-cce3-493f-99f5-eccb31a9356c": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User repeatedly visited fridge 1, which remains open and contains apple 1, egg 2, egg 1, plate 1, and potato 2",
+      "text_lemmatized": "user repeatedly visit fridge 1 remain open contain apple 1 egg 2 egg 1 plate 1 potato 2",
+      "hash": "659f1fe7645fbf4973b1fabb2d7e47ce",
+      "created_at": "2026-08-31T07:03:12.420072+00:00",
+      "updated_at": "2026-08-31T07:03:12.420072+00:00",
+      "attributed_to": "user"
+    },
+    "013e6291-0375-405f-a8a5-ccd82a536f9f": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User repeatedly attempted to interact with stoveburner 1, but found it consistently empty",
+      "text_lemmatized": "user repeatedly attempt interact stoveburn 1 find consistently",
+      "hash": "8a5a6e7e4d273ece75087ba2ba4e964e",
+      "created_at": "2026-08-31T07:03:12.421119+00:00",
+      "updated_at": "2026-08-31T07:03:12.421119+00:00",
+      "attributed_to": "user"
+    },
+    "1f894d2a-5b39-4fa8-9136-1354d32e2f51": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User is navigating a kitchen environment with multiple appliances including a fridge, stoveburners, and a microwave",
+      "text_lemmatized": "user navigate navigating kitchen environment multiple appliance include including fridge stoveburner microwave",
+      "hash": "7e9435c11837f619ee1775a1c03ba606",
+      "created_at": "2026-08-31T07:03:12.422139+00:00",
+      "updated_at": "2026-08-31T07:03:12.422139+00:00",
+      "attributed_to": "user"
+    },
+    "d66c082d-950f-4021-b099-69e06c964a32": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at fridge 1, which is open. Inside, they see apple 1, egg 2, egg 1, plate 1, and potato 2",
+      "text_lemmatized": "user arrive fridge 1 open inside apple 1 egg 2 egg 1 plate 1 potato 2",
+      "hash": "b5ab8ba013767c930039afc43eaeac54",
+      "created_at": "2026-08-31T07:03:17.725051+00:00",
+      "updated_at": "2026-08-31T07:03:17.725051+00:00",
+      "attributed_to": "user"
+    },
+    "b119ba36-0cbc-48c5-914c-eebb85398e28": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User picked up potato 2 from the open fridge 1",
+      "text_lemmatized": "user pick potato 2 open fridge 1",
+      "hash": "351600241ee16fb3169a5719322faf3a",
+      "created_at": "2026-08-31T07:03:22.639740+00:00",
+      "updated_at": "2026-08-31T07:03:22.639740+00:00",
+      "attributed_to": "user"
+    },
+    "1b85f627-79b9-411f-9bed-bfa77afa7d02": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User attempted to heat potato 2 on stoveburner 1, but nothing happened",
+      "text_lemmatized": "user attempt heat potato 2 stoveburn 1 happen",
+      "hash": "af08df4c935c57f2e9cb67dc49037046",
+      "created_at": "2026-08-31T07:03:32.754832+00:00",
+      "updated_at": "2026-08-31T07:03:32.754832+00:00",
+      "attributed_to": "user"
+    },
+    "5950bc3d-43d9-4c0a-b5ba-09f8e53df3b5": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at microwave 1, which is open and currently empty",
+      "text_lemmatized": "user arrive microwave 1 open currently",
+      "hash": "256ff3becdd5b508c2214c43315f33dc",
+      "created_at": "2026-08-31T07:03:37.843682+00:00",
+      "updated_at": "2026-08-31T07:03:37.843682+00:00",
+      "attributed_to": "user"
+    },
+    "0c048159-e39f-4e99-a2dc-a21050140bc5": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User heated potato 2 using the microwave 1",
+      "text_lemmatized": "user heated potato 2 microwave 1",
+      "hash": "de68046a7d8330fe52cbb1ecd83b4027",
+      "created_at": "2026-08-31T07:03:42.985719+00:00",
+      "updated_at": "2026-08-31T07:03:42.985719+00:00",
+      "attributed_to": "user"
+    },
+    "ea604a65-4a5d-4f4a-b6a1-fe9b4576dc10": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at garbagecan 1 and found on it egg 3, papertowelroll 1, and potato 1",
+      "text_lemmatized": "user arrive garbagecan 1 find egg 3 papertowelroll 1 potato 1",
+      "hash": "a494b75acb8b05b3f0c470e989d68391",
+      "created_at": "2026-08-31T07:03:48.057493+00:00",
+      "updated_at": "2026-08-31T07:03:48.057493+00:00",
+      "attributed_to": "user"
+    },
+    "a90456be-6409-4c9c-adc6-097a4e05f33e": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User moved potato 2 to garbagecan 1, where it joined egg 3, papertowelroll 1, and potato 1",
+      "text_lemmatized": "user move potato 2 garbagecan 1 join egg 3 papertowelroll 1 potato 1",
+      "hash": "7fca86cd86d560284266974fe9f229be",
+      "created_at": "2026-08-31T07:03:53.178277+00:00",
+      "updated_at": "2026-08-31T07:03:53.178277+00:00",
+      "attributed_to": "user"
+    },
+    "9d24a35a-2836-4db8-9a1b-7c9ce4987d25": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at fridge 1, which is open. Inside, they see apple 1, egg 2, egg 1, and plate 1",
+      "text_lemmatized": "user arrive fridge 1 open inside apple 1 egg 2 egg 1 plate 1",
+      "hash": "f004aa26fe0de38771d32bb107aa0302",
+      "created_at": "2026-08-31T07:03:58.021898+00:00",
+      "updated_at": "2026-08-31T07:03:58.021898+00:00",
+      "attributed_to": "user"
+    },
+    "27d8c645-c2d4-4fa5-87d9-4e45b75e341f": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T07:04:02.782817+00:00",
+      "updated_at": "2026-08-31T07:04:02.782817+00:00"
+    },
+    "282f8aa9-7411-4a6c-8b85-8c15d82d7d9d": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User opened drawer 1 and found a knife 1 inside",
+      "text_lemmatized": "user open drawer 1 find knife 1 inside",
+      "hash": "19c0b78f333d99dbc91fcaa535f68727",
+      "created_at": "2026-08-31T07:04:07.852209+00:00",
+      "updated_at": "2026-08-31T07:04:07.852209+00:00",
+      "attributed_to": "user"
+    },
+    "647c2063-56dc-49f8-8299-8ef726bfb4ea": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User picked up the knife 1 from the open drawer 1",
+      "text_lemmatized": "user pick knife 1 open drawer 1",
+      "hash": "39bef35fbfde2a743d2433abfe7c2a65",
+      "created_at": "2026-08-31T07:04:12.643033+00:00",
+      "updated_at": "2026-08-31T07:04:12.643033+00:00",
+      "attributed_to": "user"
+    },
+    "7eaefce9-91e4-4ec8-87d6-42d4a5ba00b9": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User attempted to go to fridge 1 but the action had no effect",
+      "text_lemmatized": "user attempt fridge 1 action effect",
+      "hash": "a4880893b9153c556bf0bafba90800ed",
+      "created_at": "2026-08-31T07:04:23.143864+00:00",
+      "updated_at": "2026-08-31T07:04:23.143864+00:00",
+      "attributed_to": "user"
+    },
+    "f6540003-114e-4c3b-9413-95a70e5873e7": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at cabinet 1 and found it empty with nothing on it",
+      "text_lemmatized": "user arrive cabinet 1 find",
+      "hash": "91fb5fadfc195a25e027a5f4bd279820",
+      "created_at": "2026-08-31T07:04:27.795776+00:00",
+      "updated_at": "2026-08-31T07:04:27.795776+00:00",
+      "attributed_to": "user"
+    },
+    "123fbe0b-a0f4-42f6-a944-ffaa28829f03": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T07:04:32.735847+00:00",
+      "updated_at": "2026-08-31T07:04:32.735847+00:00",
+      "attributed_to": "user"
+    },
+    "b57b5a51-5575-4ef5-9f41-9df268ea4aee": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User opened cabinet 2 and found inside a cup 1, a glassbottle 1, and a vase 1",
+      "text_lemmatized": "user open cabinet 2 find inside cup 1 glassbottle 1 vase 1",
+      "hash": "7223b54b257c65e3364e46597e196ddc",
+      "created_at": "2026-08-31T07:04:38.082760+00:00",
+      "updated_at": "2026-08-31T07:04:38.082760+00:00",
+      "attributed_to": "user"
+    },
+    "45fc3240-e017-457f-8185-87ec3254988b": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at cabinet 3 and found it empty with nothing on it",
+      "text_lemmatized": "user arrive cabinet 3 find",
+      "hash": "0d56219a5ecfaa48fa629e08015548ec",
+      "created_at": "2026-08-31T07:04:42.918211+00:00",
+      "updated_at": "2026-08-31T07:04:42.918211+00:00",
+      "attributed_to": "user"
+    },
+    "7937bd06-661c-4734-833d-7e5393f05b7f": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at cabinet 4 and found a mug 1 on it",
+      "text_lemmatized": "user arrive cabinet 4 find mug 1",
+      "hash": "fe5e4080bd5329ac6c67edaf6d048d00",
+      "created_at": "2026-08-31T07:04:47.905903+00:00",
+      "updated_at": "2026-08-31T07:04:47.905903+00:00",
+      "attributed_to": "user"
+    },
+    "80016220-45c4-48b2-9c93-9a7d15b7a494": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T07:04:52.821834+00:00",
+      "updated_at": "2026-08-31T07:04:52.821834+00:00",
+      "attributed_to": "user"
+    },
+    "73082eb6-7e54-4fc2-9645-9834b97ed344": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User opened cabinet 5 and found nothing inside",
+      "text_lemmatized": "user open cabinet 5 find inside",
+      "hash": "9e24c865cffeda43c1c360f35c09ac4b",
+      "created_at": "2026-08-31T07:04:57.891538+00:00",
+      "updated_at": "2026-08-31T07:04:57.891538+00:00",
+      "attributed_to": "user"
+    },
+    "1e5c0daf-2bca-4a7f-a6e6-bea9bb361b56": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User arrived at cabinet 6, which is closed",
+      "text_lemmatized": "user arrive cabinet 6 close",
+      "hash": "426e0890ad3d4d00cb5ab1a465eadd3e",
+      "created_at": "2026-08-31T07:05:02.666110+00:00",
+      "updated_at": "2026-08-31T07:05:02.666110+00:00",
+      "attributed_to": "user"
+    },
+    "ed760297-b0c9-476e-8aa2-86a6f13e8fab": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User opened cabinet 6 and found inside a peppershaker 1 and a vase 2",
+      "text_lemmatized": "user open cabinet 6 find inside peppershaker 1 vase 2",
+      "hash": "6f7b898a10a0aeea585ff526bd775a20",
+      "created_at": "2026-08-31T07:05:07.773721+00:00",
+      "updated_at": "2026-08-31T07:05:07.773721+00:00",
+      "attributed_to": "user"
+    },
+    "f54ae120-cc46-49f7-b842-27e8699499a6": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "data": "User attempted to go to fridge 1 again, but the action had no effect",
+      "text_lemmatized": "user attempt fridge 1 action effect",
+      "hash": "fd08bfe40def386aabc9e194955373da",
+      "created_at": "2026-08-31T07:05:24.349098+00:00",
+      "updated_at": "2026-08-31T07:05:24.349098+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "981bf1bc-2610-4645-9387-38f31d2de58c",
+    "1": "69ce9cdf-a981-466e-8cd9-b44b50bdeced",
+    "2": "e2b00bfb-b422-44d5-8bc4-76e86aee8ec9",
+    "3": "cc9e08c8-20a6-49f6-bb07-51930c141bca",
+    "4": "6fa19fd7-20b4-4655-9d3d-426438722bb7",
+    "5": "9d02640d-bfa7-44e3-b61c-b4d648acb113",
+    "6": "1c13324c-4ccb-4ec3-866f-18e3ab590d71",
+    "7": "cd381346-1870-4798-a5cf-d532ebedcd47",
+    "8": "95ddfc48-b6fe-456f-af0f-e92b5e1da38c",
+    "9": "f54289fa-4f0a-40c1-9c29-5807e861d3cb",
+    "10": "87658a98-5e15-4925-a2b9-ccff9ff179ac",
+    "11": "cb8eeb9a-dee4-42dc-8578-ab000cd0ac1c",
+    "12": "ae5d3a57-edd7-4936-9d17-4c20990026b5",
+    "13": "c6690b17-1ef0-42df-a866-45fc9db2b2e0",
+    "14": "6625c5a7-2cb0-43db-b1c3-2271a543a040",
+    "15": "1cc7d0d4-3407-4cd1-b23a-a780b88031be",
+    "16": "16978213-68df-4aa9-96a2-731b63bf0dff",
+    "17": "bcd969f5-cce3-493f-99f5-eccb31a9356c",
+    "18": "013e6291-0375-405f-a8a5-ccd82a536f9f",
+    "19": "1f894d2a-5b39-4fa8-9136-1354d32e2f51",
+    "20": "d66c082d-950f-4021-b099-69e06c964a32",
+    "21": "b119ba36-0cbc-48c5-914c-eebb85398e28",
+    "22": "1b85f627-79b9-411f-9bed-bfa77afa7d02",
+    "23": "5950bc3d-43d9-4c0a-b5ba-09f8e53df3b5",
+    "24": "0c048159-e39f-4e99-a2dc-a21050140bc5",
+    "25": "ea604a65-4a5d-4f4a-b6a1-fe9b4576dc10",
+    "26": "a90456be-6409-4c9c-adc6-097a4e05f33e",
+    "27": "9d24a35a-2836-4db8-9a1b-7c9ce4987d25",
+    "28": "27d8c645-c2d4-4fa5-87d9-4e45b75e341f",
+    "29": "282f8aa9-7411-4a6c-8b85-8c15d82d7d9d",
+    "30": "647c2063-56dc-49f8-8299-8ef726bfb4ea",
+    "31": "7eaefce9-91e4-4ec8-87d6-42d4a5ba00b9",
+    "32": "f6540003-114e-4c3b-9413-95a70e5873e7",
+    "33": "123fbe0b-a0f4-42f6-a944-ffaa28829f03",
+    "34": "b57b5a51-5575-4ef5-9f41-9df268ea4aee",
+    "35": "45fc3240-e017-457f-8185-87ec3254988b",
+    "36": "7937bd06-661c-4734-833d-7e5393f05b7f",
+    "37": "80016220-45c4-48b2-9c93-9a7d15b7a494",
+    "38": "73082eb6-7e54-4fc2-9645-9834b97ed344",
+    "39": "1e5c0daf-2bca-4a7f-a6e6-bea9bb361b56",
+    "40": "ed760297-b0c9-476e-8aa2-86a6f13e8fab",
+    "41": "f54ae120-cc46-49f7-b842-27e8699499a6"
+  }
+}

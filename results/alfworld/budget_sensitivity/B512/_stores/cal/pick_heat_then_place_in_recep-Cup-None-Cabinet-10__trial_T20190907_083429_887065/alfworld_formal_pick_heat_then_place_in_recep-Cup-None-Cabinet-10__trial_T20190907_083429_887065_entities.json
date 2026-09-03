@@ -1,0 +1,24 @@
+{
+  "docstore": {
+    "f4bfa22b-f1c0-4584-8ee8-b40918c0f42a": {
+      "data": "hot cup",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "43f32a59-045b-4150-940c-d78b179fd7f4"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Cup-None-Cabinet-10__trial_T20190907_083429_887065"
+    },
+    "c48c0d19-673e-49a3-84df-ddbeb31ad0da": {
+      "data": "August",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "f9b44cfc-ce9d-4f1e-8aa3-540a403e7840"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Cup-None-Cabinet-10__trial_T20190907_083429_887065"
+    }
+  },
+  "index_to_id": {
+    "0": "f4bfa22b-f1c0-4584-8ee8-b40918c0f42a",
+    "1": "c48c0d19-673e-49a3-84df-ddbeb31ad0da"
+  }
+}

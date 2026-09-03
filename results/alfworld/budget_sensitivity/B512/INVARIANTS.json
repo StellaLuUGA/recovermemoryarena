@@ -1,0 +1,13 @@
+{
+  "split_overlap": true,
+  "final_test_after_threshold_freeze": true,
+  "canonical_b1024_artifacts_unwritten": true,
+  "_canonical_violations": [],
+  "branch_state_match": true,
+  "cross_branch_contamination": true,
+  "B_mem_le_512": true,
+  "B_rec_le_512": true,
+  "duplicate_decision_keys": true,
+  "stores_under_b512_only": true,
+  "n_records_checked": 180
+}

@@ -1,0 +1,47 @@
+{
+  "predictor_train": {
+    "split": "predictor_train",
+    "n_personas": 16,
+    "n_decisions": 192,
+    "n_positive": 55,
+    "n_negative": 137,
+    "pi_hat_persona_equal": 0.2864583333333333,
+    "pi_hat_decision_pooled": 0.2864583333333333,
+    "auroc": 0.648307896483079,
+    "auprc": 0.4597470363767993,
+    "score_min": 0.2142310633169612,
+    "score_median": 0.4748076191038128,
+    "score_max": 0.9210585857127771,
+    "n_distinct_scores": 192
+  },
+  "calibration": {
+    "split": "calibration",
+    "n_personas": 20,
+    "n_decisions": 238,
+    "n_positive": 72,
+    "n_negative": 166,
+    "pi_hat_persona_equal": 0.30250000000000005,
+    "pi_hat_decision_pooled": 0.3025210084033613,
+    "auroc": 0.5111278447121821,
+    "auprc": 0.318256193749853,
+    "score_min": 0.2502598897431587,
+    "score_median": 0.5121120829620969,
+    "score_max": 0.8586561649945279,
+    "n_distinct_scores": 238
+  },
+  "final_test": {
+    "split": "final_test",
+    "n_personas": 24,
+    "n_decisions": 286,
+    "n_positive": 81,
+    "n_negative": 205,
+    "pi_hat_persona_equal": 0.2828282828282828,
+    "pi_hat_decision_pooled": 0.28321678321678323,
+    "auroc": 0.565672990063234,
+    "auprc": 0.32064164263809714,
+    "score_min": 0.20286603155243077,
+    "score_median": 0.49985987919723485,
+    "score_max": 0.9008831277193663,
+    "n_distinct_scores": 286
+  }
+}

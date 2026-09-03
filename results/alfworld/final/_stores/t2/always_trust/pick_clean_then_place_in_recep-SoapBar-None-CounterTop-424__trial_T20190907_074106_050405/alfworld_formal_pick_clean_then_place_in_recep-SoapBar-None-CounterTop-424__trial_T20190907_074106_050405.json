@@ -1,0 +1,163 @@
+{
+  "docstore": {
+    "15046db4-0293-4c51-995b-57083ba0be57": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User is in a room with multiple cabinets, a countertop, and other objects, and is currently at cabinet 1, which is closed",
+      "text_lemmatized": "user room multiple cabinet countertop object currently cabinet 1 close",
+      "hash": "1eb4ef15014530a2856609ffff4fc861",
+      "created_at": "2026-08-31T10:48:43.178298+00:00",
+      "updated_at": "2026-08-31T10:48:43.178298+00:00",
+      "attributed_to": "user"
+    },
+    "27621bbb-c81a-4b42-85b3-997142103b85": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User opened cabinet 1 and found a soapbottle 2 inside",
+      "text_lemmatized": "user open cabinet 1 find soapbottle 2 inside",
+      "hash": "5e3e4e92e4d5c127aa7817af7ae8ed01",
+      "created_at": "2026-08-31T10:48:47.832284+00:00",
+      "updated_at": "2026-08-31T10:48:47.832284+00:00",
+      "attributed_to": "user"
+    },
+    "2e6c5f96-72fe-42b2-99cf-d331f1c562b6": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User's task is to put a clean soapbar in the countertop",
+      "text_lemmatized": "user task clean soapbar countertop",
+      "hash": "f51229df7707dffb2679940b53767efa",
+      "created_at": "2026-08-31T10:48:47.833553+00:00",
+      "updated_at": "2026-08-31T10:48:47.833553+00:00",
+      "attributed_to": "user"
+    },
+    "af3bee2c-9eab-4406-9aa5-27dd7d135246": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User closed cabinet 1 after opening it and finding a soapbottle 2 inside",
+      "text_lemmatized": "user closed cabinet 1 open opening find finding soapbottle 2 inside",
+      "hash": "7b169b63a23d67cd8cd2ab066ea3d8de",
+      "created_at": "2026-08-31T10:48:52.733593+00:00",
+      "updated_at": "2026-08-31T10:48:52.733593+00:00",
+      "attributed_to": "user"
+    },
+    "498d6783-008c-47f0-b976-eb77d82d2196": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User is still working on the task to put a clean soapbar in the countertop",
+      "text_lemmatized": "user work working task clean soapbar countertop",
+      "hash": "ec225c03260e9b36ad1784dd70450fce",
+      "created_at": "2026-08-31T10:48:52.734698+00:00",
+      "updated_at": "2026-08-31T10:48:52.734698+00:00",
+      "attributed_to": "user"
+    },
+    "44957a0c-ce8a-4175-85b4-b1b225eee167": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T10:48:57.011968+00:00",
+      "updated_at": "2026-08-31T10:48:57.011968+00:00",
+      "attributed_to": "user"
+    },
+    "40f90f12-ddf8-42fd-93f9-2810c48855b3": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User opened cabinet 2 and found a spraybottle 2 inside",
+      "text_lemmatized": "user open cabinet 2 find spraybottle 2 inside",
+      "hash": "c225e2e411711219d4aa2db7a58b4e96",
+      "created_at": "2026-08-31T10:49:01.657066+00:00",
+      "updated_at": "2026-08-31T10:49:01.657066+00:00",
+      "attributed_to": "user"
+    },
+    "4d1ee5de-aa87-4888-9ef1-38b459bbca89": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User arrived at cabinet 3, which is closed",
+      "text_lemmatized": "user arrive cabinet 3 close",
+      "hash": "728c35751b94b3d3a075159a222afbf1",
+      "created_at": "2026-08-31T10:49:05.832423+00:00",
+      "updated_at": "2026-08-31T10:49:05.832423+00:00"
+    },
+    "7c75f456-6d01-4847-b8a7-e0b5ea6e15a1": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User opened cabinet 3 and found that it is empty",
+      "text_lemmatized": "user open cabinet 3 find",
+      "hash": "9264bcc985b4e2ab72c9e0a7812e785f",
+      "created_at": "2026-08-31T10:49:10.694646+00:00",
+      "updated_at": "2026-08-31T10:49:10.694646+00:00",
+      "attributed_to": "user"
+    },
+    "c1de9991-f96c-432f-9418-1a692ddc78f8": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User arrived at cabinet 4, which is closed",
+      "text_lemmatized": "user arrive cabinet 4 close",
+      "hash": "144455a9fe63e034dee324010e1deb9b",
+      "created_at": "2026-08-31T10:49:15.168697+00:00",
+      "updated_at": "2026-08-31T10:49:15.168697+00:00",
+      "attributed_to": "user"
+    },
+    "91355194-dccd-4915-b1fd-2ff170e6a512": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User opened cabinet 4 and found a candle 1, a cloth 1, and a soapbar 4 inside",
+      "text_lemmatized": "user open cabinet 4 find candle 1 cloth 1 soapbar 4 inside",
+      "hash": "cf41ecf65bc5160778038b28a5218981",
+      "created_at": "2026-08-31T10:49:20.184104+00:00",
+      "updated_at": "2026-08-31T10:49:20.184104+00:00",
+      "attributed_to": "user"
+    },
+    "1a8a1bb7-9cc7-42e8-8a7e-f7cb7f7f4b83": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User took the soapbar 4 from cabinet 4, which they had previously opened and found it inside",
+      "text_lemmatized": "user take soapbar 4 cabinet 4 previously open find inside",
+      "hash": "29101a05527a203dcc231c258a05cdbe",
+      "created_at": "2026-08-31T10:49:25.074108+00:00",
+      "updated_at": "2026-08-31T10:49:25.074108+00:00",
+      "attributed_to": "user"
+    },
+    "8f2683e4-e24c-4417-8fbf-db049df897b7": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User arrived at sinkbasin 1 and found that it is empty with nothing on it",
+      "text_lemmatized": "user arrive sinkbasin 1 find",
+      "hash": "b9951825feca6a33b20d04436f157253",
+      "created_at": "2026-08-31T10:49:29.298046+00:00",
+      "updated_at": "2026-08-31T10:49:29.298046+00:00"
+    },
+    "25c87829-8d94-4efe-abc4-c11b6d05fa0d": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User cleaned the soapbar 4 using the sinkbasin 1",
+      "text_lemmatized": "user clean soapbar 4 sinkbasin 1",
+      "hash": "d18e36f034d3e71aeae3d00ccd7270c4",
+      "created_at": "2026-08-31T10:49:34.243576+00:00",
+      "updated_at": "2026-08-31T10:49:34.243576+00:00",
+      "attributed_to": "user"
+    },
+    "c288f89f-edac-4f04-a145-56af2708c68f": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User arrived at countertop 1 and observed that it contains a candle 2, a soapbar 1, a soapbottle 1, and a spraybottle 1",
+      "text_lemmatized": "user arrive countertop 1 observe contain candle 2 soapbar 1 soapbottle 1 spraybottle 1",
+      "hash": "99284e883e804693b81127fd1b78eeb8",
+      "created_at": "2026-08-31T10:49:39.160114+00:00",
+      "updated_at": "2026-08-31T10:49:39.160114+00:00"
+    },
+    "25fcd4cd-430c-4ff4-86b2-e1c8b616f43b": {
+      "user_id": "pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405",
+      "data": "User moved the soapbar 4 to countertop 1",
+      "text_lemmatized": "user move soapbar 4 countertop 1",
+      "hash": "f14b211c6a611ae2c0daf0586a8f2497",
+      "created_at": "2026-08-31T10:49:44.126766+00:00",
+      "updated_at": "2026-08-31T10:49:44.126766+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "15046db4-0293-4c51-995b-57083ba0be57",
+    "1": "27621bbb-c81a-4b42-85b3-997142103b85",
+    "2": "2e6c5f96-72fe-42b2-99cf-d331f1c562b6",
+    "3": "af3bee2c-9eab-4406-9aa5-27dd7d135246",
+    "4": "498d6783-008c-47f0-b976-eb77d82d2196",
+    "5": "44957a0c-ce8a-4175-85b4-b1b225eee167",
+    "6": "40f90f12-ddf8-42fd-93f9-2810c48855b3",
+    "7": "4d1ee5de-aa87-4888-9ef1-38b459bbca89",
+    "8": "7c75f456-6d01-4847-b8a7-e0b5ea6e15a1",
+    "9": "c1de9991-f96c-432f-9418-1a692ddc78f8",
+    "10": "91355194-dccd-4915-b1fd-2ff170e6a512",
+    "11": "1a8a1bb7-9cc7-42e8-8a7e-f7cb7f7f4b83",
+    "12": "8f2683e4-e24c-4417-8fbf-db049df897b7",
+    "13": "25c87829-8d94-4efe-abc4-c11b6d05fa0d",
+    "14": "c288f89f-edac-4f04-a145-56af2708c68f",
+    "15": "25fcd4cd-430c-4ff4-86b2-e1c8b616f43b"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "docstore": {
+    "9735f902-e302-4415-b213-8126226f9042": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User is in a room with multiple cabinets, a countertop, a garbage can, hand towel holders, sink basins, a toilet, and toilet paper. They are currently at cabinet 1, which is closed",
+      "text_lemmatized": "user room multiple cabinet countertop garbage hand towel holder sink basin toilet toilet paper currently cabinet 1 close",
+      "hash": "b60c76553339fae95e9d5b7aaa070c5d",
+      "created_at": "2026-08-31T18:25:21.524353+00:00",
+      "updated_at": "2026-08-31T18:25:21.524353+00:00",
+      "attributed_to": "user"
+    },
+    "e2aea7f7-8f24-4111-afea-4556572c47cd": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User opened cabinet 1 and found a cloth inside",
+      "text_lemmatized": "user open cabinet 1 find cloth inside",
+      "hash": "e74afae7726882310e42384d21b68697",
+      "created_at": "2026-08-31T18:25:25.499421+00:00",
+      "updated_at": "2026-08-31T18:25:25.499421+00:00",
+      "attributed_to": "user"
+    },
+    "3e590e38-0ea2-46e6-af49-555564272c51": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User picked up the cloth 1 from cabinet 1",
+      "text_lemmatized": "user pick cloth 1 cabinet 1",
+      "hash": "7255fcd18045dbcb54fa1492ab1d0fef",
+      "created_at": "2026-08-31T18:25:33.071643+00:00",
+      "updated_at": "2026-08-31T18:25:33.071643+00:00",
+      "attributed_to": "user"
+    },
+    "220e0431-7666-4e8c-aaa0-d480af751d13": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User's task is to put a clean cloth in the countertop",
+      "text_lemmatized": "user task clean cloth countertop",
+      "hash": "b4060f605746766a02025ea91655d496",
+      "created_at": "2026-08-31T18:25:33.072630+00:00",
+      "updated_at": "2026-08-31T18:25:33.072630+00:00",
+      "attributed_to": "user"
+    },
+    "073ef25d-f99a-48ee-b7f7-afe100e4da13": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User arrived at sinkbasin 1 and saw a soapbar 1 on it",
+      "text_lemmatized": "user arrive sinkbasin 1 see soapbar 1",
+      "hash": "3c9bacc1a2141d0bbca0cc87f2ea1aa0",
+      "created_at": "2026-08-31T18:25:39.029626+00:00",
+      "updated_at": "2026-08-31T18:25:39.029626+00:00",
+      "attributed_to": "user"
+    },
+    "b0c616fd-8f6a-49ce-8a74-7732b7d69ba9": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User cleaned the cloth 1 using the sinkbasin 1",
+      "text_lemmatized": "user clean cloth 1 sinkbasin 1",
+      "hash": "1ba68c8f543bc412fbdaf377c47c67bb",
+      "created_at": "2026-08-31T18:25:46.768957+00:00",
+      "updated_at": "2026-08-31T18:25:46.768957+00:00",
+      "attributed_to": "user"
+    },
+    "94bded66-a3a6-4a9c-9cb6-40b02e2905ba": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User's cloth 1 is now clean after being washed in the sinkbasin 1",
+      "text_lemmatized": "user cloth 1 clean wash sinkbasin 1",
+      "hash": "74f889b7fdcc1a1f19eda83cd1be835b",
+      "created_at": "2026-08-31T18:25:46.770202+00:00",
+      "updated_at": "2026-08-31T18:25:46.770202+00:00",
+      "attributed_to": "assistant"
+    },
+    "e46dc19f-6b84-4536-bcf9-3401cbf30080": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User arrived at countertop 1 and observed that it contains a candle 1, a cloth 3, and a spraybottle 1",
+      "text_lemmatized": "user arrive countertop 1 observe contain candle 1 cloth 3 spraybottle 1",
+      "hash": "0f8603a5e62b6c935fcbfcca923004f3",
+      "created_at": "2026-08-31T18:25:52.728096+00:00",
+      "updated_at": "2026-08-31T18:25:52.728096+00:00"
+    },
+    "d67a9eb6-2620-4c2a-ae6b-6d0cb641d3a5": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757",
+      "data": "User moved the clean cloth 1 to countertop 1, fulfilling their task of placing a clean cloth there",
+      "text_lemmatized": "user move clean cloth 1 countertop 1 fulfil fulfilling task place placing clean cloth",
+      "hash": "3ea8856953748dd1329b0232603e5208",
+      "created_at": "2026-08-31T18:25:59.649135+00:00",
+      "updated_at": "2026-08-31T18:25:59.649135+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "9735f902-e302-4415-b213-8126226f9042",
+    "1": "e2aea7f7-8f24-4111-afea-4556572c47cd",
+    "2": "3e590e38-0ea2-46e6-af49-555564272c51",
+    "3": "220e0431-7666-4e8c-aaa0-d480af751d13",
+    "4": "073ef25d-f99a-48ee-b7f7-afe100e4da13",
+    "5": "b0c616fd-8f6a-49ce-8a74-7732b7d69ba9",
+    "6": "94bded66-a3a6-4a9c-9cb6-40b02e2905ba",
+    "7": "e46dc19f-6b84-4536-bcf9-3401cbf30080",
+    "8": "d67a9eb6-2620-4c2a-ae6b-6d0cb641d3a5"
+  }
+}

@@ -1,0 +1,77 @@
+/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+[phase0] transport chat_template_kwargs installed: {'enable_thinking': False}
+[phase0] experiment=phase0_smoke_react_qwen3
+[phase0] dataset=phase0_smoke n=2
+[phase0] model=qwen3-32b-awq-local @ {MODEL_SERVER_URL}/v1
+
+[phase0] === (1/2) 4ec8de5_1 ===
+[phase0] INFRA ERROR on 4ec8de5_1: ValueError: Invalid generation kwargs: {'max_completion_tokens', 'seed', 'temperature'}. Valid keys are: {'api_type', 'api_key', 'base_url', 'args', 'kwargs'}
+Traceback (most recent call last):
+  File "/home/aristella/recoverappworld/AppWorld_outputs/native_viability/run_phase0.py", line 201, in main
+    agent = Agent.from_dict(json.loads(json.dumps(agent_config)))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/src/appworld/common/types.py", line 121, in from_dict
+    instance = sub_class(**dict_)
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/experiments/code/simplified/react_code_agent.py", line 26, in __init__
+    super().__init__(**kwargs)
+  File "/home/aristella/recoverappworld/appworld/experiments/code/simplified/agent.py", line 44, in __init__
+    self.language_model = LanguageModel(**model_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 40, in wrapper_function
+    return wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 137, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/experiments/code/simplified/language_model.py", line 641, in __init__
+    raise ValueError(
+ValueError: Invalid generation kwargs: {'max_completion_tokens', 'seed', 'temperature'}. Valid keys are: {'api_type', 'api_key', 'base_url', 'args', 'kwargs'}
+[phase0] 4ec8de5_1 finished in 0.0s
+
+[phase0] === (2/2) 57c3486_1 ===
+[phase0] INFRA ERROR on 57c3486_1: ValueError: Invalid generation kwargs: {'max_completion_tokens', 'seed', 'temperature'}. Valid keys are: {'api_type', 'api_key', 'base_url', 'args', 'kwargs'}
+Traceback (most recent call last):
+  File "/home/aristella/recoverappworld/AppWorld_outputs/native_viability/run_phase0.py", line 201, in main
+    agent = Agent.from_dict(json.loads(json.dumps(agent_config)))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/src/appworld/common/types.py", line 121, in from_dict
+    instance = sub_class(**dict_)
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/experiments/code/simplified/react_code_agent.py", line 26, in __init__
+    super().__init__(**kwargs)
+  File "/home/aristella/recoverappworld/appworld/experiments/code/simplified/agent.py", line 44, in __init__
+    self.language_model = LanguageModel(**model_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 40, in wrapper_function
+    return wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 137, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/experiments/code/simplified/language_model.py", line 641, in __init__
+    raise ValueError(
+ValueError: Invalid generation kwargs: {'max_completion_tokens', 'seed', 'temperature'}. Valid keys are: {'api_type', 'api_key', 'base_url', 'args', 'kwargs'}
+[phase0] 57c3486_1 finished in 0.0s
+
+[phase0] running official offline evaluator ...
+  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/aristella/recoverappworld/AppWorld_outputs/native_viability/run_phase0.py", line 264, in <module>
+    main()
+  File "/home/aristella/recoverappworld/AppWorld_outputs/native_viability/run_phase0.py", line 219, in main
+    metrics = evaluate_dataset(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/src/appworld/evaluator.py", line 579, in evaluate_dataset
+    evaluation_dict = evaluate_tasks(
+                      ^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/src/appworld/evaluator.py", line 541, in evaluate_tasks
+    test_tracker = evaluate_task(
+                   ^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/src/appworld/evaluator.py", line 480, in evaluate_task
+    models_end = ModelCollection.load(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aristella/recoverappworld/appworld/src/appworld/collections/models.py", line 46, in load
+    raise Exception(f"The from_db_home_path {from_db_home_path} does not exist.")
+Exception: The from_db_home_path /home/aristella/recoverappworld/AppWorld_outputs/environment/appworld_root/experiments/outputs/phase0_smoke_react_qwen3/tasks/4ec8de5_1/dbs does not exist.

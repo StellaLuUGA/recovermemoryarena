@@ -1,0 +1,25 @@
+{
+  "docstore": {
+    "6e1a987a-c0e6-4e57-bc8e-4c0359f0292e": {
+      "data": "cleaning plate",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "5cd1f9a9-c874-489e-8abf-abac687d7269"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917"
+    },
+    "720fb919-945d-40c7-b529-45d4a55d761b": {
+      "data": "clean plate",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "5cd1f9a9-c874-489e-8abf-abac687d7269",
+        "e632bfc4-f3e0-4510-a228-6b278708e531"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917"
+    }
+  },
+  "index_to_id": {
+    "0": "6e1a987a-c0e6-4e57-bc8e-4c0359f0292e",
+    "1": "720fb919-945d-40c7-b529-45d4a55d761b"
+  }
+}

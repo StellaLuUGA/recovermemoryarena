@@ -1,0 +1,146 @@
+{
+  "docstore": {
+    "b55b9dd4-5783-45d8-ae2f-e2049a535c36": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User is in a room with multiple cabinets and objects, and their task is to find two soapbars and place them in a cabinet",
+      "text_lemmatized": "user room multiple cabinet object task find soapbar place cabinet",
+      "hash": "05cc34e16de4b995fb893a223f0088ef",
+      "created_at": "2026-08-31T12:45:24.686464+00:00",
+      "updated_at": "2026-08-31T12:45:24.686464+00:00",
+      "attributed_to": "user"
+    },
+    "88e5200d-7f36-4316-8585-fd209f4a50bb": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User arrived at countertop 1, where they found soapbar 1, soapbar 2, soapbottle 1, soapbottle 2, spraybottle 1, spraybottle 2, and toiletpaper 2",
+      "text_lemmatized": "user arrive countertop 1 find soapbar 1 soapbar 2 soapbottle 1 soapbottle 2 spraybottle 1 spraybottle 2 toiletpaper 2",
+      "hash": "7a55f9e9f1092d359f7ba029be2735fb",
+      "created_at": "2026-08-31T12:45:24.687890+00:00",
+      "updated_at": "2026-08-31T12:45:24.687890+00:00",
+      "attributed_to": "user"
+    },
+    "3f1ce84a-77bb-4c10-a9fd-ace3df982840": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User picked up soapbar 1 from countertop 1",
+      "text_lemmatized": "user pick soapbar 1 countertop 1",
+      "hash": "eab3cd3bc30c8346ad818010f943b66f",
+      "created_at": "2026-08-31T12:45:30.060906+00:00",
+      "updated_at": "2026-08-31T12:45:30.060906+00:00",
+      "attributed_to": "user"
+    },
+    "5a9e04ce-b2f3-48d8-a8dd-3d3f922827a4": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User has completed the first step of their task by taking one of the two required soapbars",
+      "text_lemmatized": "user complete step task take taking require soapbar",
+      "hash": "143623e98579514e8585e4bf623bac66",
+      "created_at": "2026-08-31T12:45:30.062302+00:00",
+      "updated_at": "2026-08-31T12:45:30.062302+00:00",
+      "attributed_to": "assistant"
+    },
+    "b1a9da59-e854-427c-b8d3-36629b73934c": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User arrived at cabinet 1, which is currently closed",
+      "text_lemmatized": "user arrive cabinet 1 currently close",
+      "hash": "3b07f6f027d13a41e3e714358695728f",
+      "created_at": "2026-08-31T12:45:37.694596+00:00",
+      "updated_at": "2026-08-31T12:45:37.694596+00:00",
+      "attributed_to": "user"
+    },
+    "a78501bd-ecfe-4594-a7fa-facbac861e34": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User opened cabinet 1 and found a cloth inside",
+      "text_lemmatized": "user open cabinet 1 find cloth inside",
+      "hash": "e74afae7726882310e42384d21b68697",
+      "created_at": "2026-08-31T12:45:42.797474+00:00",
+      "updated_at": "2026-08-31T12:45:42.797474+00:00",
+      "attributed_to": "user"
+    },
+    "423e19fe-b607-414c-bb28-b277a3d936a2": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User has opened cabinet 1 and is now preparing to place the soapbar inside as part of their task",
+      "text_lemmatized": "user open cabinet 1 prepare preparing place soapbar inside task",
+      "hash": "5ab021a86da6e1629b606046041d187d",
+      "created_at": "2026-08-31T12:45:42.798682+00:00",
+      "updated_at": "2026-08-31T12:45:42.798682+00:00",
+      "attributed_to": "user"
+    },
+    "0db95ad8-bcfc-4465-8c8a-4a54ed343f94": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User moved the soapbar 1 into cabinet 1, completing the second step of their task to place two soapbars in a cabinet",
+      "text_lemmatized": "user move soapbar 1 cabinet 1 complete completing second step task place soapbar cabinet",
+      "hash": "ba818db6c4e6ed8984475f174f83c181",
+      "created_at": "2026-08-31T12:45:47.531168+00:00",
+      "updated_at": "2026-08-31T12:45:47.531168+00:00",
+      "attributed_to": "user"
+    },
+    "87d7af57-3241-4bb3-958d-ef76ba6e8249": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User closed cabinet 1 after moving soapbar 1 inside it",
+      "text_lemmatized": "user closed cabinet 1 move moving soapbar 1 inside",
+      "hash": "a258200f4b24bdddade3917bfde32c43",
+      "created_at": "2026-08-31T12:45:51.974003+00:00",
+      "updated_at": "2026-08-31T12:45:51.974003+00:00",
+      "attributed_to": "user"
+    },
+    "553924e7-4978-436b-98f1-a82a4c901b78": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User arrived at countertop 1 and observed that it contains soapbar 2, soapbottle 2, soapbottle 1, spraybottle 2, spraybottle 1, and toiletpaper 2",
+      "text_lemmatized": "user arrive countertop 1 observe contain soapbar 2 soapbottle 2 soapbottle 1 spraybottle 2 spraybottle 1 toiletpaper 2",
+      "hash": "efaf8de23920c028fb448e4be168eb07",
+      "created_at": "2026-08-31T12:45:57.114481+00:00",
+      "updated_at": "2026-08-31T12:45:57.114481+00:00",
+      "attributed_to": "user"
+    },
+    "d6d71afb-d6a2-4095-b1da-658ef74411d3": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User picked up soapbar 2 from countertop 1",
+      "text_lemmatized": "user pick soapbar 2 countertop 1",
+      "hash": "44adeec46b5d2db4e29c9114b9f97055",
+      "created_at": "2026-08-31T12:46:01.536029+00:00",
+      "updated_at": "2026-08-31T12:46:01.536029+00:00",
+      "attributed_to": "user"
+    },
+    "73480f22-50b4-404b-abba-ef3d9954cf1f": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User is preparing to open cabinet 1 again to complete their task of placing two soapbars inside",
+      "text_lemmatized": "user prepare preparing open cabinet 1 complete task place placing soapbar inside",
+      "hash": "b2bee169ef3812d193ceec7c71b12f52",
+      "created_at": "2026-08-31T12:46:06.833915+00:00",
+      "updated_at": "2026-08-31T12:46:06.833915+00:00",
+      "attributed_to": "assistant"
+    },
+    "1e92e245-a1ad-4edf-ae93-201fa5461891": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User opened cabinet 1 and found a cloth 1 and a soapbar 1 inside it",
+      "text_lemmatized": "user open cabinet 1 find cloth 1 soapbar 1 inside",
+      "hash": "985f33604e367c4a23bfaf775a0af6b2",
+      "created_at": "2026-08-31T12:46:11.827893+00:00",
+      "updated_at": "2026-08-31T12:46:11.827893+00:00",
+      "attributed_to": "user"
+    },
+    "1ac6f851-2e40-4435-8570-12dd619bc750": {
+      "user_id": "pick_two_obj_and_place-SoapBar-None-Cabinet-424__trial_T20190909_081746_857594",
+      "data": "User moved the soapbar 2 into cabinet 1, completing the second step of their task to place two soapbars in a cabinet",
+      "text_lemmatized": "user move soapbar 2 cabinet 1 complete completing second step task place soapbar cabinet",
+      "hash": "17988228ec01e32630c306e9f49b0549",
+      "created_at": "2026-08-31T12:46:17.506406+00:00",
+      "updated_at": "2026-08-31T12:46:17.506406+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "b55b9dd4-5783-45d8-ae2f-e2049a535c36",
+    "1": "88e5200d-7f36-4316-8585-fd209f4a50bb",
+    "2": "3f1ce84a-77bb-4c10-a9fd-ace3df982840",
+    "3": "5a9e04ce-b2f3-48d8-a8dd-3d3f922827a4",
+    "4": "b1a9da59-e854-427c-b8d3-36629b73934c",
+    "5": "a78501bd-ecfe-4594-a7fa-facbac861e34",
+    "6": "423e19fe-b607-414c-bb28-b277a3d936a2",
+    "7": "0db95ad8-bcfc-4465-8c8a-4a54ed343f94",
+    "8": "87d7af57-3241-4bb3-958d-ef76ba6e8249",
+    "9": "553924e7-4978-436b-98f1-a82a4c901b78",
+    "10": "d6d71afb-d6a2-4095-b1da-658ef74411d3",
+    "11": "73480f22-50b4-404b-abba-ef3d9954cf1f",
+    "12": "1e92e245-a1ad-4edf-ae93-201fa5461891",
+    "13": "1ac6f851-2e40-4435-8570-12dd619bc750"
+  }
+}

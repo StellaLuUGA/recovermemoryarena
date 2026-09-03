@@ -1,0 +1,94 @@
+{
+  "docstore": {
+    "71d7aff1-bc71-4537-8b67-fe77acab3e83": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User's task is to put a saltshaker on a cabinet",
+      "text_lemmatized": "user task saltshaker cabinet",
+      "hash": "fd7da46cf8271118fc814e5a27dd3ba0",
+      "created_at": "2026-08-31T08:48:23.081628+00:00",
+      "updated_at": "2026-08-31T08:48:23.081628+00:00",
+      "attributed_to": "user"
+    },
+    "6c1e359a-c837-4c14-8d79-606eb934a5f6": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User arrived at cabinet 1 and observed that it contains a plate 1 and a vase 1",
+      "text_lemmatized": "user arrive cabinet 1 observe contain plate 1 vase 1",
+      "hash": "7c56641d7c4771139c5474c57220a539",
+      "created_at": "2026-08-31T08:48:27.299783+00:00",
+      "updated_at": "2026-08-31T08:48:27.299783+00:00"
+    },
+    "9477ef54-8080-44fc-b086-502d4c503236": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User arrived at cabinet 2 and observed that it is closed",
+      "text_lemmatized": "user arrive cabinet 2 observe closed",
+      "hash": "0013466be56976e85ec9d1969685c6e6",
+      "created_at": "2026-08-31T08:48:31.750770+00:00",
+      "updated_at": "2026-08-31T08:48:31.750770+00:00",
+      "attributed_to": "user"
+    },
+    "8b06f702-9b9c-4df7-8ba7-d359bfe13b06": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User opened cabinet 2 and found a peppershaker 1 inside",
+      "text_lemmatized": "user open cabinet 2 find peppershaker 1 inside",
+      "hash": "a76308906be7d2e6e0124ca3d7ff9c69",
+      "created_at": "2026-08-31T08:48:36.402501+00:00",
+      "updated_at": "2026-08-31T08:48:36.402501+00:00"
+    },
+    "3df34f74-174d-4c16-9e64-a70a93189f8e": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User arrived at drawer 1 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 1 observe closed",
+      "hash": "22f11dc62009a8c5353dc94e8adef451",
+      "created_at": "2026-08-31T08:48:44.928532+00:00",
+      "updated_at": "2026-08-31T08:48:44.928532+00:00",
+      "attributed_to": "user"
+    },
+    "a4a97cb3-de1a-4375-881d-4c9a0bc70c3e": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User opened drawer 1 and found a saltshaker 1 inside",
+      "text_lemmatized": "user open drawer 1 find saltshaker 1 inside",
+      "hash": "bfacb5dbd32a8ff130ab00beadb43fd3",
+      "created_at": "2026-08-31T08:48:49.217403+00:00",
+      "updated_at": "2026-08-31T08:48:49.217403+00:00",
+      "attributed_to": "user"
+    },
+    "c4016328-b945-413d-9c49-31a5afc5650d": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User picked up the saltshaker 1 from drawer 1",
+      "text_lemmatized": "user pick saltshaker 1 drawer 1",
+      "hash": "169c5077d3d2774f91c7fd243699fbf0",
+      "created_at": "2026-08-31T08:48:57.866665+00:00",
+      "updated_at": "2026-08-31T08:48:57.866665+00:00",
+      "attributed_to": "user"
+    },
+    "e48556a0-8acb-4cc7-8600-6aaa4e34b4a8": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User moved the saltshaker 1 to cabinet 1",
+      "text_lemmatized": "user move saltshaker 1 cabinet 1",
+      "hash": "d21b4b508c900b906593dab044820195",
+      "created_at": "2026-08-31T08:49:15.341551+00:00",
+      "updated_at": "2026-08-31T08:49:15.341551+00:00",
+      "attributed_to": "user"
+    },
+    "acf43ada-fca8-4935-a0e3-3a848fe532b0": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191501_563086",
+      "data": "User is now holding the saltshaker 1 and is at cabinet 1, where it will be placed",
+      "text_lemmatized": "user hold holding saltshaker 1 cabinet 1 place",
+      "hash": "85cb802c06bea18f45b901de0f9645fb",
+      "created_at": "2026-08-31T08:49:15.342887+00:00",
+      "updated_at": "2026-08-31T08:49:15.342887+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "71d7aff1-bc71-4537-8b67-fe77acab3e83",
+    "1": "6c1e359a-c837-4c14-8d79-606eb934a5f6",
+    "2": "9477ef54-8080-44fc-b086-502d4c503236",
+    "3": "8b06f702-9b9c-4df7-8ba7-d359bfe13b06",
+    "4": "3df34f74-174d-4c16-9e64-a70a93189f8e",
+    "5": "a4a97cb3-de1a-4375-881d-4c9a0bc70c3e",
+    "6": "c4016328-b945-413d-9c49-31a5afc5650d",
+    "7": "e48556a0-8acb-4cc7-8600-6aaa4e34b4a8",
+    "8": "acf43ada-fca8-4935-a0e3-3a848fe532b0"
+  }
+}

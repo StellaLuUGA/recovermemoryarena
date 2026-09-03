@@ -1,0 +1,83 @@
+{
+  "docstore": {
+    "8b4b5521-62d6-4df2-a64a-34fdfc232848": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User is in a room with multiple cabinets, countertops, and drawers. On cabinet 1, there is a plate 1.",
+      "text_lemmatized": "user room multiple cabinet countertop drawer cabinet 1 plate 1",
+      "hash": "c5d6a2e9f5053d674e25851ce7c690f5",
+      "created_at": "2026-08-31T17:04:16.618039+00:00",
+      "updated_at": "2026-08-31T17:04:16.618039+00:00",
+      "attributed_to": "user"
+    },
+    "e5e470ac-c841-48cd-9a55-f69e43a9d9ae": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User picked up plate 1 from cabinet 1",
+      "text_lemmatized": "user pick plate 1 cabinet 1",
+      "hash": "fd19ed7b3546b02a73548412695ca81b",
+      "created_at": "2026-08-31T17:04:24.311307+00:00",
+      "updated_at": "2026-08-31T17:04:24.311307+00:00",
+      "attributed_to": "user"
+    },
+    "fe5b046e-d87b-4e35-95db-84334e4b4419": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User arrived at sinkbasin 1 and found it empty",
+      "text_lemmatized": "user arrive sinkbasin 1 find",
+      "hash": "1da38bb7b87ab50d6fba649413d47079",
+      "created_at": "2026-08-31T17:04:32.240664+00:00",
+      "updated_at": "2026-08-31T17:04:32.240664+00:00"
+    },
+    "a6be6970-3619-4129-8ae5-68c26f8ba838": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User cleaned plate 1 using sinkbasin 1",
+      "text_lemmatized": "user clean plate 1 sinkbasin 1",
+      "hash": "ce1833a3effd1f49f33e7331378cdde0",
+      "created_at": "2026-08-31T17:04:40.690270+00:00",
+      "updated_at": "2026-08-31T17:04:40.690270+00:00",
+      "attributed_to": "user"
+    },
+    "087308cf-eb1f-43d5-b6ad-f96002933587": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User performed the action of cleaning plate 1 with sinkbasin 1 as part of the task to put a clean plate in the countertop",
+      "text_lemmatized": "user perform action clean cleaning plate 1 sinkbasin 1 task clean plate countertop",
+      "hash": "3d4f9ca8c4655366a6d060c1c6ecd5e6",
+      "created_at": "2026-08-31T17:04:40.691807+00:00",
+      "updated_at": "2026-08-31T17:04:40.691807+00:00",
+      "attributed_to": "assistant"
+    },
+    "3b170b86-f979-4c6c-986c-51ab42bd3468": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User arrived at countertop 1 and found it containing an apple 2, a dishsponge 2, and two potatoes (potato 2 and potato 3)",
+      "text_lemmatized": "user arrive countertop 1 find contain containing apple 2 dishsponge 2 potato potato 2 potato 3",
+      "hash": "bd2e55120756ece7acfce0b003c100af",
+      "created_at": "2026-08-31T17:04:49.734917+00:00",
+      "updated_at": "2026-08-31T17:04:49.734917+00:00"
+    },
+    "c4986936-188d-43fe-ac90-f9ebf1605dbb": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User is currently carrying a clean plate 1 after having cleaned it at sinkbasin 1",
+      "text_lemmatized": "user currently carry carrying clean plate 1 have having clean sinkbasin 1",
+      "hash": "59fa30ec02fe203fcd6890a6092d89a9",
+      "created_at": "2026-08-31T17:04:49.736160+00:00",
+      "updated_at": "2026-08-31T17:04:49.736160+00:00"
+    },
+    "fdafde07-ccc4-472b-b486-ae14278f080f": {
+      "user_id": "pick_clean_then_place_in_recep-Plate-None-CounterTop-10__trial_T20190908_213420_728917",
+      "data": "User moved plate 1 to countertop 1",
+      "text_lemmatized": "user move plate 1 countertop 1",
+      "hash": "34bf522a3b8c88c610b806b9e02b42fd",
+      "created_at": "2026-08-31T17:04:59.140543+00:00",
+      "updated_at": "2026-08-31T17:04:59.140543+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "8b4b5521-62d6-4df2-a64a-34fdfc232848",
+    "1": "e5e470ac-c841-48cd-9a55-f69e43a9d9ae",
+    "2": "fe5b046e-d87b-4e35-95db-84334e4b4419",
+    "3": "a6be6970-3619-4129-8ae5-68c26f8ba838",
+    "4": "087308cf-eb1f-43d5-b6ad-f96002933587",
+    "5": "3b170b86-f979-4c6c-986c-51ab42bd3468",
+    "6": "c4986936-188d-43fe-ac90-f9ebf1605dbb",
+    "7": "fdafde07-ccc4-472b-b486-ae14278f080f"
+  }
+}

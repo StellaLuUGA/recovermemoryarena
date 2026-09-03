@@ -1,0 +1,106 @@
+{
+  "n_resamples": 200,
+  "seed": 13,
+  "unit": "episode",
+  "rules": {
+    "empirical_risk_0.05": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.037,
+      "FS_sd": 0.0,
+      "Cov_mean": 0.9157,
+      "Cov_sd": 0.0644,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    },
+    "empirical_risk_0.10": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.037,
+      "FS_sd": 0.0,
+      "Cov_mean": 0.9817,
+      "Cov_sd": 0.0436,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    },
+    "empirical_risk_0.20": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.037,
+      "FS_sd": 0.0,
+      "Cov_mean": 1.0,
+      "Cov_sd": 0.0,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    },
+    "random_crc_0.05": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.0,
+      "FS_sd": 0.0,
+      "Cov_mean": 0.0,
+      "Cov_sd": 0.0,
+      "Exc": 0.0,
+      "n_infeasible": 200
+    },
+    "random_crc_0.10": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.0202,
+      "FS_sd": 0.0053,
+      "Cov_mean": 0.4719,
+      "Cov_sd": 0.3408,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    },
+    "random_crc_0.20": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.037,
+      "FS_sd": 0.0,
+      "Cov_mean": 1.0,
+      "Cov_sd": 0.0,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    },
+    "recovermem_crc_0.05": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.0,
+      "FS_sd": 0.0,
+      "Cov_mean": 0.0,
+      "Cov_sd": 0.0,
+      "Exc": 0.0,
+      "n_infeasible": 200
+    },
+    "recovermem_crc_0.10": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.0344,
+      "FS_sd": 0.0064,
+      "Cov_mean": 0.7105,
+      "Cov_sd": 0.1883,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    },
+    "recovermem_crc_0.20": {
+      "n_resamples": 200,
+      "n_cal_per_resample": 9,
+      "n_pool": 18,
+      "FS_mean": 0.037,
+      "FS_sd": 0.0,
+      "Cov_mean": 1.0,
+      "Cov_sd": 0.0,
+      "Exc": 0.0,
+      "n_infeasible": 0
+    }
+  }
+}

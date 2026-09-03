@@ -1,0 +1,138 @@
+{
+  "setting": "PersonaMem-v2 128K text MCQ",
+  "b_mem": 2048,
+  "b_rec": 2048,
+  "personas": [
+    59,
+    70,
+    86
+  ],
+  "n_personas": 3,
+  "n_controlled_decisions": 69,
+  "infrastructure": {
+    "all_pair_valid": true,
+    "x_mismatches": 0,
+    "distinct_state_hashes": 69,
+    "cross_persona_contamination": false,
+    "memory_unchanged_during_queries": true,
+    "b_mem_respected": true,
+    "b_rec_respected": true,
+    "parser_failures": 0,
+    "external_api_attempts": 0,
+    "llm_judge_attempts": 0,
+    "multimodal_calls": 0,
+    "deterministic_option_shuffle": true,
+    "option_order_hashes_distinct": 69,
+    "no_future_history_leakage": "query is appended after the whole history; history is the persona's full released file",
+    "smoke_gate_checks": {
+      "all_pair_valid": true,
+      "x_mismatches_zero": true,
+      "distinct_state_hashes_equal_decisions": true,
+      "no_cross_persona_contamination": true,
+      "memory_unchanged_during_queries": true,
+      "b_mem_respected": true,
+      "b_rec_respected": true,
+      "no_parser_failures": true,
+      "no_external_api": true,
+      "no_llm_judge": true,
+      "no_multimodal": true,
+      "deterministic_option_shuffle": true
+    },
+    "smoke_gate_pass": true
+  },
+  "evidence": {
+    "memory_evidence_tokens": {
+      "min": 1398,
+      "median": 1654,
+      "max": 1885
+    },
+    "recovery_evidence_tokens": {
+      "min": 2038,
+      "median": 2046,
+      "max": 2048
+    },
+    "n_memory_candidates": {
+      "50": 67,
+      "40": 1,
+      "45": 1
+    },
+    "n_recovery_packed": {
+      "min": 5,
+      "max": 17
+    }
+  },
+  "per_persona": [
+    {
+      "persona_id": 59,
+      "n_messages": 1049,
+      "history_tokens": 129650,
+      "n_write_chunks": 34,
+      "memory_build_s": 307.2,
+      "mem0_memory_count": 262,
+      "mem0_memory_count_after_queries": 262,
+      "memory_unchanged_during_queries": true,
+      "mem0_parse_failures": 16,
+      "n_queries": 23,
+      "distinct_state_hashes": 23,
+      "cross_persona_hash_collision": false
+    },
+    {
+      "persona_id": 70,
+      "n_messages": 1101,
+      "history_tokens": 129188,
+      "n_write_chunks": 33,
+      "memory_build_s": 1644.5,
+      "mem0_memory_count": 234,
+      "mem0_memory_count_after_queries": 234,
+      "memory_unchanged_during_queries": true,
+      "mem0_parse_failures": 24,
+      "n_queries": 23,
+      "distinct_state_hashes": 23,
+      "cross_persona_hash_collision": false
+    },
+    {
+      "persona_id": 86,
+      "n_messages": 807,
+      "history_tokens": 91082,
+      "n_write_chunks": 24,
+      "memory_build_s": 452.7,
+      "mem0_memory_count": 104,
+      "mem0_memory_count_after_queries": 104,
+      "memory_unchanged_during_queries": true,
+      "mem0_parse_failures": 24,
+      "n_queries": 23,
+      "distinct_state_hashes": 23,
+      "cross_persona_hash_collision": false
+    }
+  ],
+  "cost": {
+    "memory_build_s_total": 2404.4,
+    "memory_build_s_mean": 801.4666666666667,
+    "query_runtime_s": 645.4169987654313,
+    "total_runtime_s": 3178.677979597822,
+    "answerer_calls": 138,
+    "peak_rss_mb": 1335.8,
+    "memory_build_s_observations_both_runs": [
+      305,
+      312,
+      234,
+      307,
+      1644,
+      453
+    ],
+    "memory_build_s_median_across_runs": 309.5,
+    "memory_build_s_mean_across_runs": 542.5,
+    "query_s_per_call": 4.68
+  },
+  "debug_outcomes_NOT_A_GATE": {
+    "note": "logged for debugging only; MUST NOT be used as a viability gate",
+    "cells": {
+      "00": 35,
+      "01": 13,
+      "10": 6,
+      "11": 15
+    },
+    "memory_route_accuracy": 0.30434782608695654,
+    "recovery_route_accuracy": 0.4057971014492754
+  }
+}

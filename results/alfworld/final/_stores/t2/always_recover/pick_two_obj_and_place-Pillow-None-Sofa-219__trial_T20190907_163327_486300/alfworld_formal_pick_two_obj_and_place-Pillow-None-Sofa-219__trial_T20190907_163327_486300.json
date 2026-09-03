@@ -1,0 +1,469 @@
+{
+  "docstore": {
+    "314c6ebc-ebd5-4e66-9633-a597d70a08cf": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's task is to put two pillows in the sofa",
+      "text_lemmatized": "user task pillow sofa",
+      "hash": "2b630c67438ee35efbf178ecba0efbd6",
+      "created_at": "2026-08-31T11:12:28.780756+00:00",
+      "updated_at": "2026-08-31T11:12:28.780756+00:00",
+      "attributed_to": "user"
+    },
+    "47ac07a4-64ff-42dc-aff7-d7d60eb1acd9": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at sofa 1 and observed that it contains a credit card and a remote control",
+      "text_lemmatized": "user arrive sofa 1 observe contain credit card remote control",
+      "hash": "dfd4a42e4df7c138e1963c3bc8a5ac0e",
+      "created_at": "2026-08-31T11:12:33.140877+00:00",
+      "updated_at": "2026-08-31T11:12:33.140877+00:00",
+      "attributed_to": "user"
+    },
+    "799d8a1b-f401-41c5-b471-c7e4a168ac89": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at sidetable 1 and observed that it contains a cellphone and a newspaper",
+      "text_lemmatized": "user arrive sidetable 1 observe contain cellphone newspaper",
+      "hash": "38067ddcb2a65293419865c9fc6ec1c7",
+      "created_at": "2026-08-31T11:12:37.996973+00:00",
+      "updated_at": "2026-08-31T11:12:37.996973+00:00"
+    },
+    "3dc262e3-642e-41cd-96c3-a4704c4b8030": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to sidetable 1 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action sidetable 1 task pillow sofa",
+      "hash": "f01d2f87a9cd6eb3ec056f18f8afcc37",
+      "created_at": "2026-08-31T11:12:37.998225+00:00",
+      "updated_at": "2026-08-31T11:12:37.998225+00:00"
+    },
+    "6a44c7b7-719c-40bc-8668-82ab2a9c748c": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at dresser 1 and observed that it contains a laptop, two newspapers, a remote control, a statue, and two tissue boxes",
+      "text_lemmatized": "user arrive dresser 1 observe contain laptop newspaper remote control statue tissue box",
+      "hash": "79d142134e7988e69d9a6eca75bbd120",
+      "created_at": "2026-08-31T11:12:43.039871+00:00",
+      "updated_at": "2026-08-31T11:12:43.039871+00:00"
+    },
+    "4100c228-44a3-422e-9df3-7a74a628f6d4": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to dresser 1 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action dresser 1 task pillow sofa",
+      "hash": "1ae4f71a51e629320d7a7c05930d6dd9",
+      "created_at": "2026-08-31T11:12:43.041077+00:00",
+      "updated_at": "2026-08-31T11:12:43.041077+00:00"
+    },
+    "ed28f4e6-a92d-4575-9216-91a2aa55b7c9": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to shelf 1 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action shelf 1 task pillow sofa",
+      "hash": "197cca4349ea6f213b2d2794fa714ff1",
+      "created_at": "2026-08-31T11:12:48.042784+00:00",
+      "updated_at": "2026-08-31T11:12:48.042784+00:00",
+      "attributed_to": "user"
+    },
+    "816623a9-286d-40c9-97e0-a35fef027de5": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 1 and observed that it contains nothing",
+      "text_lemmatized": "user arrive shelf 1 observe contain",
+      "hash": "9b7faf4330a07cf40c152893436bb360",
+      "created_at": "2026-08-31T11:12:48.043835+00:00",
+      "updated_at": "2026-08-31T11:12:48.043835+00:00",
+      "attributed_to": "user"
+    },
+    "a6450a29-ccdd-413f-9d98-1bcaff3dc7ed": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to shelf 2 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action shelf 2 task pillow sofa",
+      "hash": "fa324fa2efa1b9719efa8a359b462ce2",
+      "created_at": "2026-08-31T11:12:53.714960+00:00",
+      "updated_at": "2026-08-31T11:12:53.714960+00:00",
+      "attributed_to": "user"
+    },
+    "fdb7ba09-664d-4762-b997-747a28e375d3": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 2 and observed that it contains nothing",
+      "text_lemmatized": "user arrive shelf 2 observe contain",
+      "hash": "b0917703ab1e7eb15fe0bceb2f46cba2",
+      "created_at": "2026-08-31T11:12:53.715933+00:00",
+      "updated_at": "2026-08-31T11:12:53.715933+00:00",
+      "attributed_to": "user"
+    },
+    "5f581614-2189-45da-be19-1dff73f94ee0": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to shelf 3 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action shelf 3 task pillow sofa",
+      "hash": "b27fd19d1ddffb67b989ac5105144910",
+      "created_at": "2026-08-31T11:12:58.678976+00:00",
+      "updated_at": "2026-08-31T11:12:58.678976+00:00"
+    },
+    "ea40881b-079b-49f9-99c5-1642970218e2": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User attempted to go to shelf 3 but nothing happened",
+      "text_lemmatized": "user attempt shelf 3 happen",
+      "hash": "127097cbe096e9250dfcc6fd645ab94f",
+      "created_at": "2026-08-31T11:12:58.679892+00:00",
+      "updated_at": "2026-08-31T11:12:58.679892+00:00"
+    },
+    "a051786c-f113-409f-a6f6-2cb3369a33d3": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to shelf 4 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action shelf 4 task pillow sofa",
+      "hash": "f92465fac744d0109946fefafd2a833a",
+      "created_at": "2026-08-31T11:13:04.083074+00:00",
+      "updated_at": "2026-08-31T11:13:04.083074+00:00",
+      "attributed_to": "assistant"
+    },
+    "aefcdbc1-16e9-47a3-87e5-abd93d1966ed": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 4 and observed that it contains nothing",
+      "text_lemmatized": "user arrive shelf 4 observe contain",
+      "hash": "f760495d0f21738cb618ff9add8e64e6",
+      "created_at": "2026-08-31T11:13:04.084040+00:00",
+      "updated_at": "2026-08-31T11:13:04.084040+00:00",
+      "attributed_to": "user"
+    },
+    "410599b5-82f5-47c6-b174-fe5d23e8b49e": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 5 and observed that it contains a watch",
+      "text_lemmatized": "user arrive shelf 5 observe contain watch",
+      "hash": "28a705186f129e41171f5068183be874",
+      "created_at": "2026-08-31T11:13:08.428529+00:00",
+      "updated_at": "2026-08-31T11:13:08.428529+00:00",
+      "attributed_to": "user"
+    },
+    "48f3e4c7-b69f-451c-8212-455252a396a4": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 6 and observed that it contains nothing",
+      "text_lemmatized": "user arrive shelf 6 observe contain",
+      "hash": "98be90f2a12e2f9fdacc4516c599d357",
+      "created_at": "2026-08-31T11:13:13.029821+00:00",
+      "updated_at": "2026-08-31T11:13:13.029821+00:00",
+      "attributed_to": "user"
+    },
+    "613cab39-f5d3-4735-ae2f-f154e69899df": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 7 and observed that it contains nothing",
+      "text_lemmatized": "user arrive shelf 7 observe contain",
+      "hash": "2ce7270717f0eb05aa65ab836cd69e47",
+      "created_at": "2026-08-31T11:13:17.644990+00:00",
+      "updated_at": "2026-08-31T11:13:17.644990+00:00",
+      "attributed_to": "user"
+    },
+    "3fa3ed59-aeb4-4438-8e47-ac42315da75c": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to shelf 8 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action shelf 8 task pillow sofa",
+      "hash": "65d0ed8de2e9322083d85fe2e37fb987",
+      "created_at": "2026-08-31T11:13:23.110877+00:00",
+      "updated_at": "2026-08-31T11:13:23.110877+00:00",
+      "attributed_to": "assistant"
+    },
+    "eb823335-cc50-4a95-a8d2-85abb07ec06a": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at shelf 8 and observed that it contains a box 1",
+      "text_lemmatized": "user arrive shelf 8 observe contain box 1",
+      "hash": "1cbfc5c3fa316105851adfd0989905f4",
+      "created_at": "2026-08-31T11:13:23.111887+00:00",
+      "updated_at": "2026-08-31T11:13:23.111887+00:00",
+      "attributed_to": "user"
+    },
+    "2763b1d0-a209-4c18-ac55-0b4f6fbd7f73": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User took box 1 from shelf 8",
+      "text_lemmatized": "user take box 1 shelf 8",
+      "hash": "926335576ae10714a6e4d82467d68b9a",
+      "created_at": "2026-08-31T11:13:27.452802+00:00",
+      "updated_at": "2026-08-31T11:13:27.452802+00:00",
+      "attributed_to": "user"
+    },
+    "8c52da08-e7b3-48be-a8b0-01249e11607a": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User examined box 1 and found that it is a normal box containing nothing",
+      "text_lemmatized": "user examine box 1 find normal box contain containing",
+      "hash": "73990653ea60198004eb17c5e522348e",
+      "created_at": "2026-08-31T11:13:31.861946+00:00",
+      "updated_at": "2026-08-31T11:13:31.861946+00:00",
+      "attributed_to": "user"
+    },
+    "ecad10fc-1c84-4a5f-befc-39611de98ca3": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to drawer 1 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action drawer 1 task pillow sofa",
+      "hash": "a9beea24842238ff9338920c90984cac",
+      "created_at": "2026-08-31T11:13:37.298981+00:00",
+      "updated_at": "2026-08-31T11:13:37.298981+00:00",
+      "attributed_to": "assistant"
+    },
+    "66579778-fef7-4bee-948b-0c694ec0f83e": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at drawer 1 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 1 observe closed",
+      "hash": "22f11dc62009a8c5353dc94e8adef451",
+      "created_at": "2026-08-31T11:13:37.299952+00:00",
+      "updated_at": "2026-08-31T11:13:37.299952+00:00",
+      "attributed_to": "user"
+    },
+    "364c56e3-d2ad-475c-b50a-6ba9e4f61fc2": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User opened drawer 1 and observed that it is empty",
+      "text_lemmatized": "user open drawer 1 observe",
+      "hash": "34c0db149e07266a93f8ddf9bdc46c1c",
+      "created_at": "2026-08-31T11:13:42.107261+00:00",
+      "updated_at": "2026-08-31T11:13:42.107261+00:00",
+      "attributed_to": "user"
+    },
+    "76b5921b-07a2-44e1-af87-e89850aa7ce3": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at drawer 2 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 2 observe closed",
+      "hash": "7d3fa14e2cc6990caad57bb8923e09d2",
+      "created_at": "2026-08-31T11:13:46.477235+00:00",
+      "updated_at": "2026-08-31T11:13:46.477235+00:00",
+      "attributed_to": "user"
+    },
+    "864c7f7a-d578-43ba-93a8-4a3826fb90b2": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User opened drawer 2 and observed that it is empty",
+      "text_lemmatized": "user open drawer 2 observe",
+      "hash": "b49533db8b3e7fe646ebbf5086859b9a",
+      "created_at": "2026-08-31T11:13:51.164676+00:00",
+      "updated_at": "2026-08-31T11:13:51.164676+00:00",
+      "attributed_to": "user"
+    },
+    "7f42a680-a252-4cca-a6bc-603474a84442": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at drawer 3 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 3 observe closed",
+      "hash": "d19b35027f51eafa9edf27cc5b9ac905",
+      "created_at": "2026-08-31T11:13:55.843699+00:00",
+      "updated_at": "2026-08-31T11:13:55.843699+00:00",
+      "attributed_to": "user"
+    },
+    "a88812af-d361-4ef4-a6fe-b530df3799f4": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at drawer 4 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 4 observe closed",
+      "hash": "399d45c0c8cd7e8ca7878cd96300b4d3",
+      "created_at": "2026-08-31T11:14:00.549804+00:00",
+      "updated_at": "2026-08-31T11:14:00.549804+00:00",
+      "attributed_to": "user"
+    },
+    "91f99de2-498f-4522-a4ce-d1c6775337b4": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at drawer 5 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 5 observe closed",
+      "hash": "bde83d6c897831ce1baed62f69c878f2",
+      "created_at": "2026-08-31T11:14:04.929197+00:00",
+      "updated_at": "2026-08-31T11:14:04.929197+00:00",
+      "attributed_to": "user"
+    },
+    "f86e6c02-d393-480b-b3ba-4e9dfcdb8212": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to go to cabinet 1 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action cabinet 1 task pillow sofa",
+      "hash": "8e27f8e9dddc2fd9bffb16ba50bdf0ae",
+      "created_at": "2026-08-31T11:14:09.826118+00:00",
+      "updated_at": "2026-08-31T11:14:09.826118+00:00",
+      "attributed_to": "assistant"
+    },
+    "90e560d0-2910-40b2-a0b9-90c5bca591d3": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User opened cabinet 1 and observed that it is empty",
+      "text_lemmatized": "user open cabinet 1 observe",
+      "hash": "e6bbfcec729ab81d196ca7aacd9dadbb",
+      "created_at": "2026-08-31T11:14:14.559618+00:00",
+      "updated_at": "2026-08-31T11:14:14.559618+00:00",
+      "attributed_to": "user"
+    },
+    "57d04c3d-41a2-4818-b6c2-402bb8ce4db1": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User attempted to go to cabinet 2 but observed that nothing happens",
+      "text_lemmatized": "user attempt cabinet 2 observe happen",
+      "hash": "b3cb066d7af3c6822fd98c6bfbeac2b4",
+      "created_at": "2026-08-31T11:14:19.110938+00:00",
+      "updated_at": "2026-08-31T11:14:19.110938+00:00",
+      "attributed_to": "user"
+    },
+    "85489fca-68f4-4fa8-8d6f-d96645972011": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at cabinet 3 and observed that it is closed",
+      "text_lemmatized": "user arrive cabinet 3 observe closed",
+      "hash": "13f3107053aba4e5c641129b797e9662",
+      "created_at": "2026-08-31T11:14:23.820639+00:00",
+      "updated_at": "2026-08-31T11:14:23.820639+00:00",
+      "attributed_to": "user"
+    },
+    "d49930a7-b65b-4d7b-96a9-61a405675079": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User attempted to go to cabinet 3 but observed that nothing happens",
+      "text_lemmatized": "user attempt cabinet 3 observe happen",
+      "hash": "d472eefb3fef345ee87756011e3d23ab",
+      "created_at": "2026-08-31T11:14:28.558086+00:00",
+      "updated_at": "2026-08-31T11:14:28.558086+00:00",
+      "attributed_to": "user"
+    },
+    "f3744163-6402-409d-9c7b-67bec5c35882": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User attempted to go to cabinet 4 but observed that nothing happens",
+      "text_lemmatized": "user attempt cabinet 4 observe happen",
+      "hash": "fd264b1d8d3eb33215adb5d0384fa608",
+      "created_at": "2026-08-31T11:14:32.999101+00:00",
+      "updated_at": "2026-08-31T11:14:32.999101+00:00"
+    },
+    "b198f4c1-d995-4922-957e-1e8614decb1c": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at armchair 1 and found two pillows (pillow 1 and pillow 2) already on it",
+      "text_lemmatized": "user arrive armchair 1 find pillow pillow 1 pillow 2",
+      "hash": "a65cb468d9ad7c30669a040cd4d1d37b",
+      "created_at": "2026-08-31T11:14:37.864348+00:00",
+      "updated_at": "2026-08-31T11:14:37.864348+00:00",
+      "attributed_to": "user"
+    },
+    "42f26b4f-7fc8-4c31-abc9-91a70f0c57fc": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User attempted to take pillow 1 from armchair 1 but nothing happened",
+      "text_lemmatized": "user attempt pillow 1 armchair 1 happen",
+      "hash": "8cdd2b5c5df6f486277580c81d0f46a9",
+      "created_at": "2026-08-31T11:14:42.423318+00:00",
+      "updated_at": "2026-08-31T11:14:42.423318+00:00",
+      "attributed_to": "user"
+    },
+    "4b4b353c-4df2-40e6-9875-80c6517ae099": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User attempted to take pillow 2 from armchair 1 but nothing happened",
+      "text_lemmatized": "user attempt pillow 2 armchair 1 happen",
+      "hash": "7832448488667a61070f6ac754c1efd5",
+      "created_at": "2026-08-31T11:14:56.530055+00:00",
+      "updated_at": "2026-08-31T11:14:56.530055+00:00",
+      "attributed_to": "user"
+    },
+    "b42b4a67-68c2-4fae-9626-77a448f0029e": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User's next action was to take pillow 1 from armchair 1 as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user action pillow 1 armchair 1 task pillow sofa",
+      "hash": "37f2f946d08e296991a41c63d8062560",
+      "created_at": "2026-08-31T11:15:06.915891+00:00",
+      "updated_at": "2026-08-31T11:15:06.915891+00:00",
+      "attributed_to": "assistant"
+    },
+    "e43fd6f0-8b7f-4a45-981e-2c3c0389c735": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User examined armchair 1 and found pillow 1 and pillow 2 on it",
+      "text_lemmatized": "user examine armchair 1 find pillow 1 pillow 2",
+      "hash": "3ea892672fb1af38af1b71403be443db",
+      "created_at": "2026-08-31T11:15:11.438585+00:00",
+      "updated_at": "2026-08-31T11:15:11.438585+00:00",
+      "attributed_to": "user"
+    },
+    "22430e7f-3d46-4aa0-90bc-b61d194f932f": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User moved box 1 to armchair 1 on August 31, 2026",
+      "text_lemmatized": "user move box 1 armchair 1 august 31 2026",
+      "hash": "435efe94164a7dcf6c53042c9ba1deac",
+      "created_at": "2026-08-31T11:15:16.415614+00:00",
+      "updated_at": "2026-08-31T11:15:16.415614+00:00",
+      "attributed_to": "user"
+    },
+    "4772bc57-c2ce-4935-8585-18a3c1e32e28": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User successfully picked up pillow 1 from armchair 1 on August 31, 2026",
+      "text_lemmatized": "user successfully pick pillow 1 armchair 1 august 31 2026",
+      "hash": "d67210a033df237fe0569d9d73ede735",
+      "created_at": "2026-08-31T11:15:21.230653+00:00",
+      "updated_at": "2026-08-31T11:15:21.230653+00:00",
+      "attributed_to": "user"
+    },
+    "75bb4bd5-3cb0-41d0-a2c1-d5b3f98c752d": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User moved pillow 1 to the sofa 1 on August 31, 2026",
+      "text_lemmatized": "user move pillow 1 sofa 1 august 31 2026",
+      "hash": "43744d153d644e6f14bcf4a08b2bc5dc",
+      "created_at": "2026-08-31T11:15:31.265828+00:00",
+      "updated_at": "2026-08-31T11:15:31.265828+00:00",
+      "attributed_to": "user"
+    },
+    "979aaedf-1f21-4a5c-980a-04688e702422": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at armchair 1 and found a box 1 and a pillow 2 on it",
+      "text_lemmatized": "user arrive armchair 1 find box 1 pillow 2",
+      "hash": "37f5da00e0450ef91f9ed65435854826",
+      "created_at": "2026-08-31T11:15:36.045592+00:00",
+      "updated_at": "2026-08-31T11:15:36.045592+00:00",
+      "attributed_to": "user"
+    },
+    "ff9af0d4-3f69-4358-ab7a-f12522593e29": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User successfully picked up pillow 2 from armchair 1",
+      "text_lemmatized": "user successfully pick pillow 2 armchair 1",
+      "hash": "6723bcf12f8b7d092faed8c402723100",
+      "created_at": "2026-08-31T11:15:41.072528+00:00",
+      "updated_at": "2026-08-31T11:15:41.072528+00:00",
+      "attributed_to": "user"
+    },
+    "8e3549ef-eb91-4da2-9576-8783fcd915b7": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User arrived at sofa 1 and observed that it contains a credit card, a pillow, and a remote control",
+      "text_lemmatized": "user arrive sofa 1 observe contain credit card pillow remote control",
+      "hash": "6f68cc276395a1a50e524abe16f44e2c",
+      "created_at": "2026-08-31T11:15:46.261953+00:00",
+      "updated_at": "2026-08-31T11:15:46.261953+00:00",
+      "attributed_to": "user"
+    },
+    "a1c86f9b-c792-4feb-a455-6df72c3ffdeb": {
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300",
+      "data": "User moved pillow 2 to sofa 1 on August 31, 2026, as part of the task to put two pillows in the sofa",
+      "text_lemmatized": "user move pillow 2 sofa 1 august 31 2026 task pillow sofa",
+      "hash": "df0dd62f72a7618abdfd7463584dd103",
+      "created_at": "2026-08-31T11:15:51.659102+00:00",
+      "updated_at": "2026-08-31T11:15:51.659102+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "314c6ebc-ebd5-4e66-9633-a597d70a08cf",
+    "1": "47ac07a4-64ff-42dc-aff7-d7d60eb1acd9",
+    "2": "799d8a1b-f401-41c5-b471-c7e4a168ac89",
+    "3": "3dc262e3-642e-41cd-96c3-a4704c4b8030",
+    "4": "6a44c7b7-719c-40bc-8668-82ab2a9c748c",
+    "5": "4100c228-44a3-422e-9df3-7a74a628f6d4",
+    "6": "ed28f4e6-a92d-4575-9216-91a2aa55b7c9",
+    "7": "816623a9-286d-40c9-97e0-a35fef027de5",
+    "8": "a6450a29-ccdd-413f-9d98-1bcaff3dc7ed",
+    "9": "fdb7ba09-664d-4762-b997-747a28e375d3",
+    "10": "5f581614-2189-45da-be19-1dff73f94ee0",
+    "11": "ea40881b-079b-49f9-99c5-1642970218e2",
+    "12": "a051786c-f113-409f-a6f6-2cb3369a33d3",
+    "13": "aefcdbc1-16e9-47a3-87e5-abd93d1966ed",
+    "14": "410599b5-82f5-47c6-b174-fe5d23e8b49e",
+    "15": "48f3e4c7-b69f-451c-8212-455252a396a4",
+    "16": "613cab39-f5d3-4735-ae2f-f154e69899df",
+    "17": "3fa3ed59-aeb4-4438-8e47-ac42315da75c",
+    "18": "eb823335-cc50-4a95-a8d2-85abb07ec06a",
+    "19": "2763b1d0-a209-4c18-ac55-0b4f6fbd7f73",
+    "20": "8c52da08-e7b3-48be-a8b0-01249e11607a",
+    "21": "ecad10fc-1c84-4a5f-befc-39611de98ca3",
+    "22": "66579778-fef7-4bee-948b-0c694ec0f83e",
+    "23": "364c56e3-d2ad-475c-b50a-6ba9e4f61fc2",
+    "24": "76b5921b-07a2-44e1-af87-e89850aa7ce3",
+    "25": "864c7f7a-d578-43ba-93a8-4a3826fb90b2",
+    "26": "7f42a680-a252-4cca-a6bc-603474a84442",
+    "27": "a88812af-d361-4ef4-a6fe-b530df3799f4",
+    "28": "91f99de2-498f-4522-a4ce-d1c6775337b4",
+    "29": "f86e6c02-d393-480b-b3ba-4e9dfcdb8212",
+    "30": "90e560d0-2910-40b2-a0b9-90c5bca591d3",
+    "31": "57d04c3d-41a2-4818-b6c2-402bb8ce4db1",
+    "32": "85489fca-68f4-4fa8-8d6f-d96645972011",
+    "33": "d49930a7-b65b-4d7b-96a9-61a405675079",
+    "34": "f3744163-6402-409d-9c7b-67bec5c35882",
+    "35": "b198f4c1-d995-4922-957e-1e8614decb1c",
+    "36": "42f26b4f-7fc8-4c31-abc9-91a70f0c57fc",
+    "37": "4b4b353c-4df2-40e6-9875-80c6517ae099",
+    "38": "b42b4a67-68c2-4fae-9626-77a448f0029e",
+    "39": "e43fd6f0-8b7f-4a45-981e-2c3c0389c735",
+    "40": "22430e7f-3d46-4aa0-90bc-b61d194f932f",
+    "41": "4772bc57-c2ce-4935-8585-18a3c1e32e28",
+    "42": "75bb4bd5-3cb0-41d0-a2c1-d5b3f98c752d",
+    "43": "979aaedf-1f21-4a5c-980a-04688e702422",
+    "44": "ff9af0d4-3f69-4358-ab7a-f12522593e29",
+    "45": "8e3549ef-eb91-4da2-9576-8783fcd915b7",
+    "46": "a1c86f9b-c792-4feb-a455-6df72c3ffdeb"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "served_models": [
+    "qwen3-32b-awq-local"
+  ],
+  "vllm_processes": [
+    "1560194 /bin/bash -c source /home/aristella/.claude/shell-snapshots/snapshot-bash-1788107367731-km8uvn.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- 'unsetenv'; \\builtin unset -f -- 'unsetenv'; } >/dev/null 2>&1 || true && eval 'mkdir -p results/alfworld/final/logs && until [ \"$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits)\" -lt 2000 ]; do sleep 5; done && nohup ~/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server \\   --model /home/aristella/models/Qwen3-32B-AWQ \\   --served-model-name qwen3-32b-awq-local \\   --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 \\   --no-enable-prefix-caching \\   --default-chat-template-kwargs '\"'\"'{\"enable_thinking\": false}'\"'\"' \\   > results/alfworld/final/logs/vllm_qwen3_formal.log 2>&1 & echo \"qwen pid $!\"' < /dev/null && pwd -P >| /tmp/claude-d9b5-cwd",
+    "1560198 /home/aristella/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server --model /home/aristella/models/Qwen3-32B-AWQ --served-model-name qwen3-32b-awq-local --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 --no-enable-prefix-caching --default-chat-template-kwargs {\"enable_thinking\": false}",
+    "1575434 bash -lc pgrep -af 'vllm.entrypoints' || true"
+  ],
+  "checked_at": "2026-08-31 09:57:04"
+}

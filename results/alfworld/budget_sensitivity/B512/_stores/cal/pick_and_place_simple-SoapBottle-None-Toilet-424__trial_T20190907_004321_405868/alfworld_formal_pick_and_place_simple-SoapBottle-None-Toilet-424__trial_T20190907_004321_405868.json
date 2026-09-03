@@ -1,0 +1,135 @@
+{
+  "docstore": {
+    "28eec793-6d09-4860-9940-a40a06bd6a91": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User's task is to put some soapbottle on the toilet",
+      "text_lemmatized": "user task soapbottle toilet",
+      "hash": "a5c1b27614ec6b9a1843dd9c8c3e6ea4",
+      "created_at": "2026-08-31T17:26:46.060652+00:00",
+      "updated_at": "2026-08-31T17:26:46.060652+00:00",
+      "attributed_to": "user"
+    },
+    "2f18f4b3-7022-43d6-b0aa-1d6d0589b246": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User is in a room with multiple cabinets, a countertop, a garbage can, hand towel holders, sink basins, a toilet, a toilet paper hanger, and a towel holder",
+      "text_lemmatized": "user room multiple cabinet countertop garbage hand towel holder sink basin toilet toilet paper hanger towel holder",
+      "hash": "c289be873305fe9e4e326204a5beb35a",
+      "created_at": "2026-08-31T17:26:46.062234+00:00",
+      "updated_at": "2026-08-31T17:26:46.062234+00:00",
+      "attributed_to": "user"
+    },
+    "f3513e08-86fc-4556-ac58-b0f263f4b3ea": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User arrived at cabinet 1, which is closed",
+      "text_lemmatized": "user arrive cabinet 1 close",
+      "hash": "97a8ae68058839e8e97f26d52be6b2ef",
+      "created_at": "2026-08-31T17:26:50.670665+00:00",
+      "updated_at": "2026-08-31T17:26:50.670665+00:00",
+      "attributed_to": "user"
+    },
+    "77a34362-0c61-4ec2-9fa1-8e31e37dc536": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User's next action was to go to cabinet 1 to begin the task of finding a soapbottle",
+      "text_lemmatized": "user action cabinet 1 begin task find finding soapbottle",
+      "hash": "3f5ae2d5465333dee4e2edee0c4589b2",
+      "created_at": "2026-08-31T17:26:50.672260+00:00",
+      "updated_at": "2026-08-31T17:26:50.672260+00:00",
+      "attributed_to": "assistant"
+    },
+    "e7d5e51a-45e1-431e-89af-b81e0812bbb1": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User opened cabinet 1 and found a spraybottle 2 inside",
+      "text_lemmatized": "user open cabinet 1 find spraybottle 2 inside",
+      "hash": "e0739111128b1baa6c1915360cfb46a1",
+      "created_at": "2026-08-31T17:26:55.860978+00:00",
+      "updated_at": "2026-08-31T17:26:55.860978+00:00",
+      "attributed_to": "user"
+    },
+    "63bf66e9-9c2c-42c5-b5f0-7f3b321bb0a4": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User's next action was to open cabinet 1 to look for a soapbottle",
+      "text_lemmatized": "user action open cabinet 1 look soapbottle",
+      "hash": "039d7ed8e1c5df929a92ad181e4af951",
+      "created_at": "2026-08-31T17:26:55.862356+00:00",
+      "updated_at": "2026-08-31T17:26:55.862356+00:00",
+      "attributed_to": "user"
+    },
+    "582d24fa-9cea-4340-bd29-f3bfbd59e614": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T17:27:00.173750+00:00",
+      "updated_at": "2026-08-31T17:27:00.173750+00:00",
+      "attributed_to": "user"
+    },
+    "cf72a6fb-2a86-46d6-8a94-0a3e3ee256f0": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User opened cabinet 2 and found a candle 1 and a toiletpaper 1 inside",
+      "text_lemmatized": "user open cabinet 2 find candle 1 toiletpaper 1 inside",
+      "hash": "b6ac8bfa482ac4d9d5e42ac73aec3b36",
+      "created_at": "2026-08-31T17:27:04.817881+00:00",
+      "updated_at": "2026-08-31T17:27:04.817881+00:00",
+      "attributed_to": "user"
+    },
+    "407a8315-558c-4e28-bd47-106122c1d5db": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User arrived at cabinet 3, which is closed",
+      "text_lemmatized": "user arrive cabinet 3 close",
+      "hash": "728c35751b94b3d3a075159a222afbf1",
+      "created_at": "2026-08-31T17:27:09.341544+00:00",
+      "updated_at": "2026-08-31T17:27:09.341544+00:00",
+      "attributed_to": "user"
+    },
+    "3444526c-66fb-4e40-a66a-56302742a19a": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User opened cabinet 3 and found a soapbottle 2 inside",
+      "text_lemmatized": "user open cabinet 3 find soapbottle 2 inside",
+      "hash": "be8be9728f458142f04d060bb8f06eda",
+      "created_at": "2026-08-31T17:27:14.058334+00:00",
+      "updated_at": "2026-08-31T17:27:14.058334+00:00",
+      "attributed_to": "user"
+    },
+    "404a8f45-513b-4e2b-8cfe-34cad36a2600": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User picked up the soapbottle 2 from cabinet 3",
+      "text_lemmatized": "user pick soapbottle 2 cabinet 3",
+      "hash": "d2b57eac2081021d9d1154bfb10dbfa2",
+      "created_at": "2026-08-31T17:27:21.582645+00:00",
+      "updated_at": "2026-08-31T17:27:21.582645+00:00",
+      "attributed_to": "user"
+    },
+    "39bee6f4-07a7-4975-93e2-96d5913283b8": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User arrived at toilet 1 and observed that there is a candle 2 on it",
+      "text_lemmatized": "user arrive toilet 1 observe candle 2",
+      "hash": "372c112e5b1107da781ae1f301772554",
+      "created_at": "2026-08-31T17:27:27.819912+00:00",
+      "updated_at": "2026-08-31T17:27:27.819912+00:00"
+    },
+    "572b49fd-0b4a-480b-bee5-0edbcda0ad7a": {
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868",
+      "data": "User moved the soapbottle 2 to the toilet 1 on August 31, 2026",
+      "text_lemmatized": "user move soapbottle 2 toilet 1 august 31 2026",
+      "hash": "6eebedd62a11cb30acffccb03aa270e0",
+      "created_at": "2026-08-31T17:27:34.945733+00:00",
+      "updated_at": "2026-08-31T17:27:34.945733+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "28eec793-6d09-4860-9940-a40a06bd6a91",
+    "1": "2f18f4b3-7022-43d6-b0aa-1d6d0589b246",
+    "2": "f3513e08-86fc-4556-ac58-b0f263f4b3ea",
+    "3": "77a34362-0c61-4ec2-9fa1-8e31e37dc536",
+    "4": "e7d5e51a-45e1-431e-89af-b81e0812bbb1",
+    "5": "63bf66e9-9c2c-42c5-b5f0-7f3b321bb0a4",
+    "6": "582d24fa-9cea-4340-bd29-f3bfbd59e614",
+    "7": "cf72a6fb-2a86-46d6-8a94-0a3e3ee256f0",
+    "8": "407a8315-558c-4e28-bd47-106122c1d5db",
+    "9": "3444526c-66fb-4e40-a66a-56302742a19a",
+    "10": "404a8f45-513b-4e2b-8cfe-34cad36a2600",
+    "11": "39bee6f4-07a7-4975-93e2-96d5913283b8",
+    "12": "572b49fd-0b4a-480b-bee5-0edbcda0ad7a"
+  }
+}

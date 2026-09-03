@@ -1,0 +1,34 @@
+{
+  "docstore": {
+    "8845b046-a1f7-4398-a84b-66a09a4eb531": {
+      "data": "sink basins",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "ada48c95-5237-41d2-9d3d-4abb5eaf774a"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757"
+    },
+    "fac5c0c2-0303-4fca-bd4e-735813cff358": {
+      "data": "toilet paper",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "ada48c95-5237-41d2-9d3d-4abb5eaf774a"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757"
+    },
+    "391584a5-dbd5-4616-bf55-4f4c9a6efa9a": {
+      "data": "clean cloth",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "90c0c13f-a7d2-41bc-9045-03f1003370e0",
+        "a84e755f-5d59-4ddc-b263-13c15404fa1f"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_100632_546757"
+    }
+  },
+  "index_to_id": {
+    "0": "8845b046-a1f7-4398-a84b-66a09a4eb531",
+    "1": "fac5c0c2-0303-4fca-bd4e-735813cff358",
+    "2": "391584a5-dbd5-4616-bf55-4f4c9a6efa9a"
+  }
+}

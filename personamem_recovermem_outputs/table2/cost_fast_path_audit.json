@@ -1,0 +1,117 @@
+{
+  "cost_fast_path": "PARTIAL",
+  "have": [
+    "MEMORY.prompt_tokens",
+    "RECOVERY.prompt_tokens"
+  ],
+  "missing": [
+    "C_write.server_reported_usage",
+    "MEMORY.completion_tokens",
+    "RECOVERY.completion_tokens"
+  ],
+  "requirements": {
+    "C_write.server_reported_usage": {
+      "present": false,
+      "evidence": [
+        "Mem0Adapter.write() records only counter.count_messages(messages) into write_prompt_tokens -- a LOCAL TOKENIZER count of the add() input, not server-reported usage, and it excludes every Mem0 extraction/update completion token and every update-call prompt.",
+        "V2Runner.build_memory() returns write_prompt_tokens but formal.collect() never writes it into the row: no write-cost field exists in final_test.jsonl."
+      ],
+      "fields_in_log": [
+        "n_write_chunks"
+      ]
+    },
+    "MEMORY.prompt_tokens": {
+      "present": true,
+      "evidence": [
+        "V2Answerer.answer() reads resp.usage.prompt_tokens (server-reported) and V2Runner.run_instance persists it as memory_prompt_tokens."
+      ],
+      "n_rows_with_value": 286
+    },
+    "MEMORY.completion_tokens": {
+      "present": false,
+      "evidence": [
+        "AnswerResult carries completion_tokens from resp.usage, but V2Runner.run_instance() persists only prompt_tokens; the completion-token field is dropped before logging."
+      ]
+    },
+    "RECOVERY.prompt_tokens": {
+      "present": true,
+      "evidence": [
+        "Same server-reported path as the memory branch."
+      ],
+      "n_rows_with_value": 286
+    },
+    "RECOVERY.completion_tokens": {
+      "present": false,
+      "evidence": [
+        "Dropped by V2Runner.run_instance(), same as the memory branch."
+      ]
+    }
+  },
+  "cost_convention": "Exact server-reported usage (resp.usage.prompt_tokens + resp.usage.completion_tokens) for every LLM call. Tokenizer-derived estimates are NOT admissible for Table 2.",
+  "minimal_replay_plan": {
+    "replay_1_c_write": {
+      "why": "no server-reported Mem0 extraction/update usage was ever recorded",
+      "what": "rebuild Mem0 ONCE per final-test persona into a scratch store root, with every openai chat.completions.create call instrumented",
+      "n_mem0_rebuilds": 24,
+      "n_answer_calls": 0,
+      "writes_to_formal": false
+    },
+    "replay_2_branch_usage": {
+      "why": "server-reported completion tokens for both branches were dropped at log time",
+      "what": "bind the EXISTING frozen final-test Mem0 store read-only (via a scratch copy), reproduce the frozen retrieval and the frozen recovery retrieval, and re-issue each branch answer call once to read resp.usage",
+      "n_mem0_rebuilds": 0,
+      "n_answer_calls": 572,
+      "equivalence_check": "replayed prompt_tokens must equal the formal, already server-reported memory_prompt_tokens / recovery_prompt_tokens",
+      "writes_to_formal": false
+    },
+    "not_done": "five independent policy executions (5 x 286) -- unnecessary, routing has no persistent state effect on this workload"
+  },
+  "n_rows": 286,
+  "n_personas": 24,
+  "row_schema": [
+    "b_mem",
+    "b_rec",
+    "conversation_scenario",
+    "correct_letter",
+    "distance_to_snippet_128k",
+    "features",
+    "history_tokens",
+    "mem0_extraction_parse_failures",
+    "mem0_memory_count",
+    "mem0_memory_count_after_queries",
+    "memory_branch_state_hash",
+    "memory_build_s",
+    "memory_choice",
+    "memory_completion",
+    "memory_evidence_tokens",
+    "memory_latency_s",
+    "memory_parse_ok",
+    "memory_prompt_tokens",
+    "memory_unchanged_during_queries",
+    "n_history_messages",
+    "n_memory_candidates",
+    "n_memory_packed",
+    "n_recovery_packed",
+    "n_write_chunks",
+    "option_order_hash",
+    "pair_valid",
+    "persona_id",
+    "pref_type",
+    "question_id",
+    "r_mem",
+    "r_rec",
+    "recovery_branch_state_hash",
+    "recovery_choice",
+    "recovery_completion",
+    "recovery_evidence_tokens",
+    "recovery_latency_s",
+    "recovery_parse_ok",
+    "recovery_prompt_tokens",
+    "row_seed",
+    "split",
+    "state_hash",
+    "state_tokens",
+    "u_mem",
+    "u_rec"
+  ]
+}

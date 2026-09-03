@@ -1,0 +1,164 @@
+{
+  "docstore": {
+    "3232d676-a334-48c1-882a-eb86635e4651": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User's task is to put a mug in a desk",
+      "text_lemmatized": "user task mug desk",
+      "hash": "0a3e05677ebeb3cc47e039c25703a5f6",
+      "created_at": "2026-08-31T10:18:10.654574+00:00",
+      "updated_at": "2026-08-31T10:18:10.654574+00:00",
+      "attributed_to": "user"
+    },
+    "bb016654-5088-4fcf-807c-bd4e387fe243": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at desk 1 and observed that it contains an alarm clock, a bowl, a CD, a desk lamp, and a laptop",
+      "text_lemmatized": "user arrive desk 1 observe contain alarm clock bowl cd desk lamp laptop",
+      "hash": "6a4b486b3f36970e2b0a5de5331204c7",
+      "created_at": "2026-08-31T10:18:15.199083+00:00",
+      "updated_at": "2026-08-31T10:18:15.199083+00:00",
+      "attributed_to": "user"
+    },
+    "548daaf7-9cf2-47d1-9c87-cf265de2403e": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at desk 2 and observed that it contains a bowl, a cellphone, and a pen",
+      "text_lemmatized": "user arrive desk 2 observe contain bowl cellphone pen",
+      "hash": "e00fce3e0a7dd197da7f72be6860c4bc",
+      "created_at": "2026-08-31T10:18:20.041910+00:00",
+      "updated_at": "2026-08-31T10:18:20.041910+00:00",
+      "attributed_to": "user"
+    },
+    "5a3a9f48-1913-4429-9ea0-54395f00fbf2": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at drawer 1 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 1 observe closed",
+      "hash": "22f11dc62009a8c5353dc94e8adef451",
+      "created_at": "2026-08-31T10:18:24.287294+00:00",
+      "updated_at": "2026-08-31T10:18:24.287294+00:00"
+    },
+    "4a92188c-b932-4006-9faf-abab3a6e9fec": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User opened drawer 1 and found it empty",
+      "text_lemmatized": "user open drawer 1 find",
+      "hash": "ef8ed29e99f4d999630b788ad2ac6b07",
+      "created_at": "2026-08-31T10:18:28.897766+00:00",
+      "updated_at": "2026-08-31T10:18:28.897766+00:00",
+      "attributed_to": "user"
+    },
+    "ea288f7c-8cef-472e-bece-8c0a87619901": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at drawer 2 and observed that it contains a keychain and a pen",
+      "text_lemmatized": "user arrive drawer 2 observe contain keychain pen",
+      "hash": "e8e6a436dc8bf7c94f78c28154362f35",
+      "created_at": "2026-08-31T10:18:33.448431+00:00",
+      "updated_at": "2026-08-31T10:18:33.448431+00:00",
+      "attributed_to": "user"
+    },
+    "165d41eb-2de5-440b-bd5e-e4959f4622a1": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User attempted to go to drawer 3 but nothing happened",
+      "text_lemmatized": "user attempt drawer 3 happen",
+      "hash": "1e4809ab662284e4043f5947541567d3",
+      "created_at": "2026-08-31T10:18:37.670687+00:00",
+      "updated_at": "2026-08-31T10:18:37.670687+00:00"
+    },
+    "fdd10624-1273-4ad1-a48f-bfe83f0b2c8f": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at drawer 4 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 4 observe closed",
+      "hash": "399d45c0c8cd7e8ca7878cd96300b4d3",
+      "created_at": "2026-08-31T10:18:42.202804+00:00",
+      "updated_at": "2026-08-31T10:18:42.202804+00:00",
+      "attributed_to": "user"
+    },
+    "6e8a0e32-85c2-4760-a410-70bb76997e5e": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User opened drawer 4 and found a pencil inside",
+      "text_lemmatized": "user open drawer 4 find pencil inside",
+      "hash": "9dce3e433ff365ad38c0e57cc15b79d1",
+      "created_at": "2026-08-31T10:18:46.878913+00:00",
+      "updated_at": "2026-08-31T10:18:46.878913+00:00",
+      "attributed_to": "user"
+    },
+    "11126c15-ea36-4fbf-b48c-71dc83c63a07": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at drawer 5 and observed that it contains a credit card",
+      "text_lemmatized": "user arrive drawer 5 observe contain credit card",
+      "hash": "e18d1d109f83711c7f143f296bb73de2",
+      "created_at": "2026-08-31T10:18:51.395368+00:00",
+      "updated_at": "2026-08-31T10:18:51.395368+00:00",
+      "attributed_to": "user"
+    },
+    "967e8766-c3fa-4284-8f7c-645a497ba1e3": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at drawer 6 and observed that it is closed",
+      "text_lemmatized": "user arrive drawer 6 observe closed",
+      "hash": "b5ada2240c401bd78571c431759b388f",
+      "created_at": "2026-08-31T10:18:55.962721+00:00",
+      "updated_at": "2026-08-31T10:18:55.962721+00:00",
+      "attributed_to": "user"
+    },
+    "bae56fad-0296-43a7-9dff-fdca666dec82": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User opened drawer 6 and found it empty",
+      "text_lemmatized": "user open drawer 6 find",
+      "hash": "43bc55eeb2ac65aae28315d835390276",
+      "created_at": "2026-08-31T10:19:00.287291+00:00",
+      "updated_at": "2026-08-31T10:19:00.287291+00:00",
+      "attributed_to": "user"
+    },
+    "62cd9752-c1a7-44e1-ae75-053892f87c9c": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at shelf 1 and observed that it contains a cellphone",
+      "text_lemmatized": "user arrive shelf 1 observe contain cellphone",
+      "hash": "f62bb1dd5df5a460b4b51dad5778fbe7",
+      "created_at": "2026-08-31T10:19:04.595379+00:00",
+      "updated_at": "2026-08-31T10:19:04.595379+00:00",
+      "attributed_to": "user"
+    },
+    "1cc340e2-f83f-4579-9032-34b19459c3d0": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User arrived at shelf 2 and observed that it contains a mug",
+      "text_lemmatized": "user arrive shelf 2 observe contain mug",
+      "hash": "f49b39435c47c073d26e7785cd6be922",
+      "created_at": "2026-08-31T10:19:09.020608+00:00",
+      "updated_at": "2026-08-31T10:19:09.020608+00:00",
+      "attributed_to": "user"
+    },
+    "2af47f94-dd8d-49cb-b666-e093464504d0": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User picked up the mug 1 from shelf 2",
+      "text_lemmatized": "user pick mug 1 shelf 2",
+      "hash": "f90a7ba471b855c33b6be97bc328bf44",
+      "created_at": "2026-08-31T10:19:13.755718+00:00",
+      "updated_at": "2026-08-31T10:19:13.755718+00:00",
+      "attributed_to": "user"
+    },
+    "49b748b4-1227-4be2-8b1c-7031afeb89db": {
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896",
+      "data": "User moved the mug 1 to desk 1, where it now joins the alarm clock, bowl, CD, desk lamp, and laptop",
+      "text_lemmatized": "user move mug 1 desk 1 join alarm clock bowl cd desk lamp laptop",
+      "hash": "8c187bd8da85fc4c5fc1f4a21652751d",
+      "created_at": "2026-08-31T10:19:23.497281+00:00",
+      "updated_at": "2026-08-31T10:19:23.497281+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "3232d676-a334-48c1-882a-eb86635e4651",
+    "1": "bb016654-5088-4fcf-807c-bd4e387fe243",
+    "2": "548daaf7-9cf2-47d1-9c87-cf265de2403e",
+    "3": "5a3a9f48-1913-4429-9ea0-54395f00fbf2",
+    "4": "4a92188c-b932-4006-9faf-abab3a6e9fec",
+    "5": "ea288f7c-8cef-472e-bece-8c0a87619901",
+    "6": "165d41eb-2de5-440b-bd5e-e4959f4622a1",
+    "7": "fdd10624-1273-4ad1-a48f-bfe83f0b2c8f",
+    "8": "6e8a0e32-85c2-4760-a410-70bb76997e5e",
+    "9": "11126c15-ea36-4fbf-b48c-71dc83c63a07",
+    "10": "967e8766-c3fa-4284-8f7c-645a497ba1e3",
+    "11": "bae56fad-0296-43a7-9dff-fdca666dec82",
+    "12": "62cd9752-c1a7-44e1-ae75-053892f87c9c",
+    "13": "1cc340e2-f83f-4579-9032-34b19459c3d0",
+    "14": "2af47f94-dd8d-49cb-b666-e093464504d0",
+    "15": "49b748b4-1227-4be2-8b1c-7031afeb89db"
+  }
+}

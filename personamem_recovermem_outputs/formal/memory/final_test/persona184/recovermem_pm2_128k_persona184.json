@@ -1,0 +1,1508 @@
+{
+  "docstore": {
+    "7a4ac632-74fd-403c-bb39-e26bdb6fd49e": {
+      "user_id": "persona184",
+      "data": "Stu has 9 books and Albert has 4 times as many books as Stu, which is 36 books",
+      "text_lemmatized": "Stu has 9 books and Albert has 4 times as many books as Stu, which is 36 books",
+      "hash": "b0eeeea1d91ebb1cd4cc34ea52714768",
+      "created_at": "2026-08-29T01:21:16.883054+00:00",
+      "updated_at": "2026-08-29T01:21:16.883054+00:00",
+      "attributed_to": "assistant"
+    },
+    "440c3b87-bf14-4609-816b-c324cb1868f7": {
+      "user_id": "persona184",
+      "data": "Stu and Albert have a total of 45 books",
+      "text_lemmatized": "Stu and Albert have a total of 45 books",
+      "hash": "7be2f4d6b90e13c5cbbc3aa00314929f",
+      "created_at": "2026-08-29T01:21:16.883078+00:00",
+      "updated_at": "2026-08-29T01:21:16.883078+00:00",
+      "attributed_to": "assistant"
+    },
+    "a73fbcfc-b7a1-4aae-992f-3f39bb55586e": {
+      "user_id": "persona184",
+      "data": "User notices their heart rate is lower after morning cardio sessions in cooler environments, even when the workout feels intense",
+      "text_lemmatized": "User notices their heart rate is lower after morning cardio sessions in cooler environments, even when the workout feels intense",
+      "hash": "de945374c5bc8b3877f73d5445db7e2b",
+      "created_at": "2026-08-29T01:21:19.152291+00:00",
+      "updated_at": "2026-08-29T01:21:19.152291+00:00",
+      "attributed_to": "user"
+    },
+    "c9658c85-eea2-4369-8e34-5bed41daabf5": {
+      "user_id": "persona184",
+      "data": "User is looking for the greatest common divisor of a sequence of numbers starting with 2002+2 and including 2002^2+2, 2002^3+2, and so on",
+      "text_lemmatized": "User is looking for the greatest common divisor of a sequence of numbers starting with 2002+2 and including 2002^2+2, 2002^3+2, and so on",
+      "hash": "1e3f71bd5d5cdcabcff8c46cc42238fc",
+      "created_at": "2026-08-29T01:21:23.227004+00:00",
+      "updated_at": "2026-08-29T01:21:23.227004+00:00",
+      "attributed_to": "user"
+    },
+    "b847feb5-0e96-4e80-80e2-75521ac173e4": {
+      "user_id": "persona184",
+      "data": "The sequence of numbers starts with 2002+2, then 2002^2+2, 2002^3+2, and so on, which can be represented as 2002k+2 for k=1, 2, 3, and so on",
+      "text_lemmatized": "The sequence of numbers starts with 2002+2, then 2002^2+2, 2002^3+2, and so on, which can be represented as 2002k+2 for k=1, 2, 3, and so on",
+      "hash": "ee972d5fdf9666ddfb44ad238647878c",
+      "created_at": "2026-08-29T01:21:23.227025+00:00",
+      "updated_at": "2026-08-29T01:21:23.227025+00:00",
+      "attributed_to": "assistant"
+    },
+    "80c25d25-1450-4911-8c4a-9b735e17f1c7": {
+      "user_id": "persona184",
+      "data": "The greatest common divisor of the numbers 2002k+2 for k=1, 2, 3, and so on is 2",
+      "text_lemmatized": "The greatest common divisor of the numbers 2002k+2 for k=1, 2, 3, and so on is 2",
+      "hash": "92b9001727c61eb7cf7adcaf5660a469",
+      "created_at": "2026-08-29T01:21:23.227035+00:00",
+      "updated_at": "2026-08-29T01:21:23.227035+00:00",
+      "attributed_to": "assistant"
+    },
+    "4639d946-da98-42d4-8cc7-dd418f2d839c": {
+      "user_id": "persona184",
+      "data": "Olivia has $112 and Nigel has $139",
+      "text_lemmatized": "Olivia has $112 and Nigel has $139",
+      "hash": "058a7db874d53004654b83998dc31cad",
+      "created_at": "2026-08-29T01:21:26.114298+00:00",
+      "updated_at": "2026-08-29T01:21:26.114298+00:00",
+      "attributed_to": "user"
+    },
+    "70a5f82f-5692-4a5e-8634-4f3b0067213e": {
+      "user_id": "persona184",
+      "data": "Olivia and Nigel bought 6 one-day passes to a tourist attraction for $28 each, totaling $168",
+      "text_lemmatized": "Olivia and Nigel bought 6 one-day passes to a tourist attraction for $28 each, totaling $168",
+      "hash": "edccd0d8e6e7922e66c5891b796e4d31",
+      "created_at": "2026-08-29T01:21:26.114317+00:00",
+      "updated_at": "2026-08-29T01:21:26.114317+00:00",
+      "attributed_to": "assistant"
+    },
+    "ea416150-8142-4cb1-9427-c641f86f4b5a": {
+      "user_id": "persona184",
+      "data": "Together, Olivia and Nigel have $281 after buying the tourist attraction passes",
+      "text_lemmatized": "Together, Olivia and Nigel have $281 after buying the tourist attraction passes",
+      "hash": "49dfd1fa2d7d3e8caaab10eb108228a5",
+      "created_at": "2026-08-29T01:21:26.114325+00:00",
+      "updated_at": "2026-08-29T01:21:26.114325+00:00",
+      "attributed_to": "assistant"
+    },
+    "410f3135-5720-4602-9654-8fba025072d2": {
+      "user_id": "persona184",
+      "data": "A convenience store sold 100 bags of chips in a month, with 15 bags sold in the first week, 45 in the second, and an equal number in the third and fourth weeks.",
+      "text_lemmatized": "A convenience store sold 100 bags of chips in a month, with 15 bags sold in the first week, 45 in the second, and an equal number in the third and fourth weeks.",
+      "hash": "54552f09eef7dde5ff648746f1999119",
+      "created_at": "2026-08-29T01:21:32.990987+00:00",
+      "updated_at": "2026-08-29T01:21:32.990987+00:00",
+      "attributed_to": "assistant"
+    },
+    "09e0dfb5-c69b-4c43-91ba-0715cc4bd076": {
+      "user_id": "persona184",
+      "data": "In the third and fourth weeks, 20 bags of chips were sold each.",
+      "text_lemmatized": "In the third and fourth weeks, 20 bags of chips were sold each.",
+      "hash": "def7a4045760e3a010ebe47975f4d604",
+      "created_at": "2026-08-29T01:21:32.991005+00:00",
+      "updated_at": "2026-08-29T01:21:32.991005+00:00",
+      "attributed_to": "assistant"
+    },
+    "90ab5452-06a0-41d9-8415-9606728ad176": {
+      "user_id": "persona184",
+      "data": "Asha has $13 and needs $27 to buy 8 new books at $5 each.",
+      "text_lemmatized": "Asha has $13 and needs $27 to buy 8 new books at $5 each.",
+      "hash": "c7e7ee99c35781e80246f5d2097e5875",
+      "created_at": "2026-08-29T01:21:32.991013+00:00",
+      "updated_at": "2026-08-29T01:21:32.991013+00:00",
+      "attributed_to": "assistant"
+    },
+    "5d8e6bd6-982a-4518-bb4a-f272194e458c": {
+      "user_id": "persona184",
+      "data": "There are 98 musicians in the orchestra, band, and choir combined.",
+      "text_lemmatized": "There are 98 musicians in the orchestra, band, and choir combined.",
+      "hash": "4476b6f6328cf3482aea9ea5e2a020ef",
+      "created_at": "2026-08-29T01:21:32.991020+00:00",
+      "updated_at": "2026-08-29T01:21:32.991020+00:00",
+      "attributed_to": "assistant"
+    },
+    "b4a3cd23-b56d-4526-969e-439244f724df": {
+      "user_id": "persona184",
+      "data": "The tree in Kilmer Park will be 1104 inches tall in 8 years, growing 5 feet per year from its current height of 52 feet.",
+      "text_lemmatized": "The tree in Kilmer Park will be 1104 inches tall in 8 years, growing 5 feet per year from its current height of 52 feet.",
+      "hash": "7751bac98cfe4920e4bc40cfa99f0940",
+      "created_at": "2026-08-29T01:21:32.991026+00:00",
+      "updated_at": "2026-08-29T01:21:32.991026+00:00",
+      "attributed_to": "assistant"
+    },
+    "b1ef74a5-017a-403d-aff6-5319e0c0254e": {
+      "user_id": "persona184",
+      "data": "Jerry has 43 pages remaining in his 93-page book after reading 50 pages.",
+      "text_lemmatized": "Jerry has 43 pages remaining in his 93-page book after reading 50 pages.",
+      "hash": "caf9d8fd8e2fa532ab2668cb1c99b022",
+      "created_at": "2026-08-29T01:21:32.991033+00:00",
+      "updated_at": "2026-08-29T01:21:32.991033+00:00",
+      "attributed_to": "assistant"
+    },
+    "04b8cf64-6ee8-4404-af21-9a2df9cdf0a9": {
+      "user_id": "persona184",
+      "data": "Grant has 360 vacations and Kelvin has 90 classes, totaling 450 vacations and classes.",
+      "text_lemmatized": "Grant has 360 vacations and Kelvin has 90 classes, totaling 450 vacations and classes.",
+      "hash": "c6d27772977d009d63eb13fb087820a3",
+      "created_at": "2026-08-29T01:21:32.991039+00:00",
+      "updated_at": "2026-08-29T01:21:32.991039+00:00",
+      "attributed_to": "assistant"
+    },
+    "e1b4d866-7b75-4248-a228-16a451454b32": {
+      "user_id": "persona184",
+      "data": "Arlene hiked 24 miles in 6 hours, with an average pace of 4 miles per hour.",
+      "text_lemmatized": "Arlene hiked 24 miles in 6 hours, with an average pace of 4 miles per hour.",
+      "hash": "8c65053a2b5a8cd7eabe5892005a8f2a",
+      "created_at": "2026-08-29T01:21:32.991045+00:00",
+      "updated_at": "2026-08-29T01:21:32.991045+00:00",
+      "attributed_to": "assistant"
+    },
+    "d4adb70a-e70b-47b5-bf07-9aa068f2a5fe": {
+      "user_id": "persona184",
+      "data": "The obstacles in property law aren\u2019t always buried in clauses \u2014 sometimes they drift in the air, unwanted and invisible.",
+      "text_lemmatized": "The obstacles in property law aren\u2019t always buried in clauses \u2014 sometimes they drift in the air, unwanted and invisible.",
+      "hash": "516ba6fcff1b95411a1c07b417c310a5",
+      "created_at": "2026-08-29T01:21:32.991051+00:00",
+      "updated_at": "2026-08-29T01:21:32.991051+00:00",
+      "attributed_to": "assistant"
+    },
+    "ec182315-4fa9-4090-8c1b-e9c6414d25b3": {
+      "user_id": "persona184",
+      "data": "In property law, the real complications aren\u2019t always tucked away in obscure clauses \u2014 sometimes they swirl around you, clinging to your clothes, following you out the door.",
+      "text_lemmatized": "In property law, the real complications aren\u2019t always tucked away in obscure clauses \u2014 sometimes they swirl around you, clinging to your clothes, following you out the door.",
+      "hash": "8f16f7b302101737c3ec78e04553092e",
+      "created_at": "2026-08-29T01:21:32.991057+00:00",
+      "updated_at": "2026-08-29T01:21:32.991057+00:00",
+      "attributed_to": "assistant"
+    },
+    "790ceeb4-6790-40da-9af6-9f5bf0e86e65": {
+      "user_id": "persona184",
+      "data": "A gecko lays 30 eggs per year, with 20% being infertile and a third of the remaining eggs not hatching due to calcification issues",
+      "text_lemmatized": "A gecko lays 30 eggs per year, with 20% being infertile and a third of the remaining eggs not hatching due to calcification issues",
+      "hash": "ef85fd7c80123887783fc2afb002c961",
+      "created_at": "2026-08-29T01:21:48.141055+00:00",
+      "updated_at": "2026-08-29T01:21:48.141055+00:00",
+      "attributed_to": "assistant"
+    },
+    "0e50e2e5-7ebe-4846-8ba1-8e2a10fe5c91": {
+      "user_id": "persona184",
+      "data": "Sam is serving spaghetti and meatballs for dinner, with pasta costing $1.00 per box, a jar of sauce costing $2.00, and 1 pound of meatballs costing $5.00.",
+      "text_lemmatized": "Sam is serving spaghetti and meatballs for dinner, with pasta costing $1.00 per box, a jar of sauce costing $2.00, and 1 pound of meatballs costing $5.00.",
+      "hash": "efc80c1d168e94a35a3efd3aeb97a723",
+      "created_at": "2026-08-29T01:21:52.725224+00:00",
+      "updated_at": "2026-08-29T01:21:52.725224+00:00",
+      "attributed_to": "assistant"
+    },
+    "692f6f2e-5563-467a-a39b-64f642976e2f": {
+      "user_id": "persona184",
+      "data": "Sam wants to stretch the meal into 8 servings.",
+      "text_lemmatized": "Sam wants to stretch the meal into 8 servings.",
+      "hash": "f2249d3f32974d504327b400c80d954a",
+      "created_at": "2026-08-29T01:21:52.725243+00:00",
+      "updated_at": "2026-08-29T01:21:52.725243+00:00",
+      "attributed_to": "assistant"
+    },
+    "1c32bb74-aec9-4591-9a78-a0a9238ccf7a": {
+      "user_id": "persona184",
+      "data": "To find the cost per serving, we need to calculate the total cost of the ingredients and then divide by the number of servings.",
+      "text_lemmatized": "To find the cost per serving, we need to calculate the total cost of the ingredients and then divide by the number of servings.",
+      "hash": "2cd0b2d2d8178593d7530325ccd0d6b3",
+      "created_at": "2026-08-29T01:21:52.725251+00:00",
+      "updated_at": "2026-08-29T01:21:52.725251+00:00",
+      "attributed_to": "assistant"
+    },
+    "5c833d31-35bc-499f-92ab-946dfe324da5": {
+      "user_id": "persona184",
+      "data": "The total cost of the ingredients is $1.00 (pasta) + $2.00 (sauce) + $5.00 (meatballs) = $8.00.",
+      "text_lemmatized": "The total cost of the ingredients is $1.00 (pasta) + $2.00 (sauce) + $5.00 (meatballs) = $8.00.",
+      "hash": "dc2fdce64178f41624595854916eb12f",
+      "created_at": "2026-08-29T01:21:52.725258+00:00",
+      "updated_at": "2026-08-29T01:21:52.725258+00:00",
+      "attributed_to": "assistant"
+    },
+    "c5c5625c-a162-4eff-b66c-9703f3d364fe": {
+      "user_id": "persona184",
+      "data": "To find the cost per serving, we divide the total cost by the number of servings: $8.00 \u00f7 8 = $1.00 per serving.",
+      "text_lemmatized": "To find the cost per serving, we divide the total cost by the number of servings: $8.00 \u00f7 8 = $1.00 per serving.",
+      "hash": "7a4aa0cc2fc4da4dabc175dd0b530ea1",
+      "created_at": "2026-08-29T01:21:52.725265+00:00",
+      "updated_at": "2026-08-29T01:21:52.725265+00:00",
+      "attributed_to": "assistant"
+    },
+    "6f32a6bd-bb06-4ea8-9da2-831b4d96c157": {
+      "user_id": "persona184",
+      "data": "User felt emotionally drained after supporting a colleague through a difficult time.",
+      "text_lemmatized": "User felt emotionally drained after supporting a colleague through a difficult time.",
+      "hash": "4f6de3104dfb96ccee94131e0f5e9517",
+      "created_at": "2026-08-29T01:21:55.346163+00:00",
+      "updated_at": "2026-08-29T01:21:55.346163+00:00",
+      "attributed_to": "user"
+    },
+    "8cb9f2b3-56e4-4356-a195-d0a3ce4a66b0": {
+      "user_id": "persona184",
+      "data": "User needs to prioritize self-care and set boundaries to regain emotional balance.",
+      "text_lemmatized": "User needs to prioritize self-care and set boundaries to regain emotional balance.",
+      "hash": "b088af83f0e85f8af09ba78c0cd62c02",
+      "created_at": "2026-08-29T01:21:55.346183+00:00",
+      "updated_at": "2026-08-29T01:21:55.346183+00:00",
+      "attributed_to": "assistant"
+    },
+    "3c1c93bb-9d30-4d07-84f6-42c5eb3a4979": {
+      "user_id": "persona184",
+      "data": "User has 63-pound dog and Ivan's dog weighs 9 pounds, together they weigh 72 pounds",
+      "text_lemmatized": "User has 63-pound dog and Ivan's dog weighs 9 pounds, together they weigh 72 pounds",
+      "hash": "d05d8bf6b869598f333a41e0be729fc7",
+      "created_at": "2026-08-29T01:22:00.814538+00:00",
+      "updated_at": "2026-08-29T01:22:00.814538+00:00",
+      "attributed_to": "assistant"
+    },
+    "8a7b4b30-e036-42a5-a2fb-f51467090694": {
+      "user_id": "persona184",
+      "data": "User needs to ship 5000 brochures and each box can hold one-fifth of the brochures, so 5 boxes are needed",
+      "text_lemmatized": "User needs to ship 5000 brochures and each box can hold one-fifth of the brochures, so 5 boxes are needed",
+      "hash": "1e5af55dd24f7d0d4e644057e71881fd",
+      "created_at": "2026-08-29T01:22:00.814557+00:00",
+      "updated_at": "2026-08-29T01:22:00.814557+00:00",
+      "attributed_to": "assistant"
+    },
+    "c175c232-ecd2-439b-9784-8c19edf559ef": {
+      "user_id": "persona184",
+      "data": "User can reduce plastic waste by bringing reusable containers and cutlery, using reusable coffee cups or thermoses, keeping a foldable tote bag handy, planning ahead for meals and snacks, choosing products with minimal or recyclable packaging, saying no to unnecessary extras, and opting for refill stations",
+      "text_lemmatized": "User can reduce plastic waste by bringing reusable containers and cutlery, using reusable coffee cups or thermoses, keeping a foldable tote bag handy, planning ahead for meals and snacks, choosing products with minimal or recyclable packaging, saying no to unnecessary extras, and opting for refill stations",
+      "hash": "ede6f3914ffd1d6acdede891fbc62c3c",
+      "created_at": "2026-08-29T01:22:00.814566+00:00",
+      "updated_at": "2026-08-29T01:22:00.814566+00:00",
+      "attributed_to": "assistant"
+    },
+    "06db0b14-9d65-4bf3-b742-f367dda31755": {
+      "user_id": "persona184",
+      "data": "There are 30 fish in the tank, one third of them are blue and half of the blue fish have spots, so 5 blue spotted fish exist",
+      "text_lemmatized": "There are 30 fish in the tank, one third of them are blue and half of the blue fish have spots, so 5 blue spotted fish exist",
+      "hash": "c2e58c64b234db281bf8cc2deb656353",
+      "created_at": "2026-08-29T01:22:00.814573+00:00",
+      "updated_at": "2026-08-29T01:22:00.814573+00:00",
+      "attributed_to": "assistant"
+    },
+    "0e14ca7a-0bf3-49d3-b6e4-baae978dba06": {
+      "user_id": "persona184",
+      "data": "A Sudoku matrix is a 9x9 array with entries from 1 to 9 and each row, column, and 3x3 box contains each digit exactly once",
+      "text_lemmatized": "A Sudoku matrix is a 9x9 array with entries from 1 to 9 and each row, column, and 3x3 box contains each digit exactly once",
+      "hash": "f28fc584d6a68d5d4f8418c047cd0733",
+      "created_at": "2026-08-29T01:22:00.814579+00:00",
+      "updated_at": "2026-08-29T01:22:00.814579+00:00",
+      "attributed_to": "assistant"
+    },
+    "abfc24c4-7bad-4c86-97e8-07c9f1e66ae5": {
+      "user_id": "persona184",
+      "data": "User wants to know the probability that a square in a randomly chosen Sudoku matrix contains the digit 3",
+      "text_lemmatized": "User wants to know the probability that a square in a randomly chosen Sudoku matrix contains the digit 3",
+      "hash": "1438ecc14399a615d3a8447387524d1f",
+      "created_at": "2026-08-29T01:22:00.814586+00:00",
+      "updated_at": "2026-08-29T01:22:00.814586+00:00",
+      "attributed_to": "user"
+    },
+    "1bf9fbfd-79ce-491f-aa34-8d27030d6c74": {
+      "user_id": "persona184",
+      "data": "User is drafting a client memo with a mug of kopi and morning supplements before property site inspections, a comforting ritual that grounds them before navigating clauses and covenants",
+      "text_lemmatized": "User is drafting a client memo with a mug of kopi and morning supplements before property site inspections, a comforting ritual that grounds them before navigating clauses and covenants",
+      "hash": "52c56be060b80b37253bafe50ac39c58",
+      "created_at": "2026-08-29T01:22:11.765218+00:00",
+      "updated_at": "2026-08-29T01:22:11.765218+00:00",
+      "attributed_to": "user"
+    },
+    "253bb5f7-2535-47ca-8806-9924ec529c28": {
+      "user_id": "persona184",
+      "data": "User wants to improve the language in a short personal email to Mark, suggesting meeting near Tanjong Pagar or a rooftop spot above Maxwell",
+      "text_lemmatized": "User wants to improve the language in a short personal email to Mark, suggesting meeting near Tanjong Pagar or a rooftop spot above Maxwell",
+      "hash": "aa283e2ae0be7cc6919a9afd876403f2",
+      "created_at": "2026-08-29T01:22:11.765236+00:00",
+      "updated_at": "2026-08-29T01:22:11.765236+00:00",
+      "attributed_to": "user"
+    },
+    "7e0097c2-fb36-4abd-9ddc-ae8f72334d90": {
+      "user_id": "persona184",
+      "data": "User wants to know the science behind different water sources interacting with container materials in the city",
+      "text_lemmatized": "User wants to know the science behind different water sources interacting with container materials in the city",
+      "hash": "8c2d422050c97ff4e55668db436bad67",
+      "created_at": "2026-08-29T01:22:11.765245+00:00",
+      "updated_at": "2026-08-29T01:22:11.765245+00:00",
+      "attributed_to": "user"
+    },
+    "0bda0f1d-e610-42dd-87da-89809698b344": {
+      "user_id": "persona184",
+      "data": "The integer 119 is a multiple of 7",
+      "text_lemmatized": "The integer 119 is a multiple of 7",
+      "hash": "e3186ad81ab58e7364d3cc2dfb798249",
+      "created_at": "2026-08-29T01:22:11.765253+00:00",
+      "updated_at": "2026-08-29T01:22:11.765253+00:00",
+      "attributed_to": "assistant"
+    },
+    "c28236df-d0a6-43f2-af95-b6d1b417d96b": {
+      "user_id": "persona184",
+      "data": "At Mrs. Dawson's rose garden, there are 10 rows of roses with 20 roses in each row, and 1/2 of the roses are red, 3/5 of the remaining are white, and the rest are pink",
+      "text_lemmatized": "At Mrs. Dawson's rose garden, there are 10 rows of roses with 20 roses in each row, and 1/2 of the roses are red, 3/5 of the remaining are white, and the rest are pink",
+      "hash": "8efa71517ee720c3c8aa5024c0cc09b4",
+      "created_at": "2026-08-29T01:22:11.765260+00:00",
+      "updated_at": "2026-08-29T01:22:11.765260+00:00",
+      "attributed_to": "assistant"
+    },
+    "c63e54bf-f2c1-4b1d-99ed-5f38fea44f8c": {
+      "user_id": "persona184",
+      "data": "Marie makes 12 chocolate eggs, each weighing 10 ounces, and packs them equally into 4 gift boxes, but one box is tossed out, leaving 9 eggs with a total weight of 90 ounces",
+      "text_lemmatized": "Marie makes 12 chocolate eggs, each weighing 10 ounces, and packs them equally into 4 gift boxes, but one box is tossed out, leaving 9 eggs with a total weight of 90 ounces",
+      "hash": "1534b66a8587046c8c73a7f8b302de2f",
+      "created_at": "2026-08-29T01:22:11.765266+00:00",
+      "updated_at": "2026-08-29T01:22:11.765266+00:00",
+      "attributed_to": "assistant"
+    },
+    "8633f540-9736-42ac-9d06-c92dbe8d24ad": {
+      "user_id": "persona184",
+      "data": "Two teams are playing in a stadium with a capacity of 2000 people, and the total number of people in the stadium is 3/4 of the total capacity, with each person paying $20 in entry fees, resulting in a difference of $10,000 between the total fees collected when the stadium is 3/4 full and when it is full",
+      "text_lemmatized": "Two teams are playing in a stadium with a capacity of 2000 people, and the total number of people in the stadium is 3/4 of the total capacity, with each person paying $20 in entry fees, resulting in a difference of $10,000 between the total fees collected when the stadium is 3/4 full and when it is full",
+      "hash": "dc158939e64acdb1b5200b45c1132cf7",
+      "created_at": "2026-08-29T01:22:11.765272+00:00",
+      "updated_at": "2026-08-29T01:22:11.765272+00:00",
+      "attributed_to": "assistant"
+    },
+    "121e0c99-1c34-49c1-8f13-0e821ca51aae": {
+      "user_id": "persona184",
+      "data": "On Tuesday, a fruit vendor sold 2.5 dozen lemons and 5 dozen avocados, resulting in a total of 90 fruits sold",
+      "text_lemmatized": "On Tuesday, a fruit vendor sold 2.5 dozen lemons and 5 dozen avocados, resulting in a total of 90 fruits sold",
+      "hash": "592e3c251e0b7c73453244af0b9f24c1",
+      "created_at": "2026-08-29T01:22:11.765278+00:00",
+      "updated_at": "2026-08-29T01:22:11.765278+00:00",
+      "attributed_to": "assistant"
+    },
+    "aeef6900-8f23-46d9-9861-c882eb692474": {
+      "user_id": "persona184",
+      "data": "Nurse Missy is attending to the needs of 12 patients, with one-third having special dietary requirements that increase serving time by 20%, resulting in a total serving time of 64 minutes",
+      "text_lemmatized": "Nurse Missy is attending to the needs of 12 patients, with one-third having special dietary requirements that increase serving time by 20%, resulting in a total serving time of 64 minutes",
+      "hash": "51d56db85befc1ce682f44a94bd50bfc",
+      "created_at": "2026-08-29T01:22:11.765284+00:00",
+      "updated_at": "2026-08-29T01:22:11.765284+00:00",
+      "attributed_to": "assistant"
+    },
+    "5ba371a9-ce0a-40d2-8375-e535cf946bfc": {
+      "user_id": "persona184",
+      "data": "Janice can type 6 sentences per minute and worked on a paper for 20 minutes, took a break, typed 15 minutes longer, erased 40 sentences, and then typed for 18 minutes more, resulting in a total of 536 sentences by the end of the day, with 258 sentences being the starting point",
+      "text_lemmatized": "Janice can type 6 sentences per minute and worked on a paper for 20 minutes, took a break, typed 15 minutes longer, erased 40 sentences, and then typed for 18 minutes more, resulting in a total of 536 sentences by the end of the day, with 258 sentences being the starting point",
+      "hash": "898985b863b7a57301e2dba93f0c6bdd",
+      "created_at": "2026-08-29T01:22:11.765290+00:00",
+      "updated_at": "2026-08-29T01:22:11.765290+00:00",
+      "attributed_to": "assistant"
+    },
+    "96c006a4-fe7c-4538-b6b8-2b65ef14cb47": {
+      "user_id": "persona184",
+      "data": "The difference in age between Declan's elder son and younger son is 10 years, with the elder son being 40 years old, resulting in the younger son being 30 years old, and in 30 years, the younger son will be 60 years old",
+      "text_lemmatized": "The difference in age between Declan's elder son and younger son is 10 years, with the elder son being 40 years old, resulting in the younger son being 30 years old, and in 30 years, the younger son will be 60 years old",
+      "hash": "b6dbacf8642299f088e885d6c1a00bb4",
+      "created_at": "2026-08-29T01:22:11.765296+00:00",
+      "updated_at": "2026-08-29T01:22:11.765296+00:00",
+      "attributed_to": "assistant"
+    },
+    "1d3fe1bd-c91e-4fa7-8bb7-066a0062a651": {
+      "user_id": "persona184",
+      "data": "Aaron has four brothers, and the number of Bennett's brothers is two less than twice the number of Aaron's brothers, resulting in Bennett having 6 brothers",
+      "text_lemmatized": "Aaron has four brothers, and the number of Bennett's brothers is two less than twice the number of Aaron's brothers, resulting in Bennett having 6 brothers",
+      "hash": "797b9ab9261eff888ba879153ccee3ae",
+      "created_at": "2026-08-29T01:22:11.765302+00:00",
+      "updated_at": "2026-08-29T01:22:11.765302+00:00",
+      "attributed_to": "assistant"
+    },
+    "8a73e480-ed35-487d-8634-8c60ade61d4b": {
+      "user_id": "persona184",
+      "data": "The best time to take supplements depends on the type and how the body absorbs it, with fat-soluble vitamins being absorbed best with food containing healthy fats, water-soluble vitamins being taken with or without food, and minerals varying in absorption timing",
+      "text_lemmatized": "The best time to take supplements depends on the type and how the body absorbs it, with fat-soluble vitamins being absorbed best with food containing healthy fats, water-soluble vitamins being taken with or without food, and minerals varying in absorption timing",
+      "hash": "0a6a6403ba572382013f731c354b2801",
+      "created_at": "2026-08-29T01:22:11.765307+00:00",
+      "updated_at": "2026-08-29T01:22:11.765307+00:00",
+      "attributed_to": "assistant"
+    },
+    "95e07831-6d16-402e-9d3f-ec45d284188a": {
+      "user_id": "persona184",
+      "data": "Simon picked 100 blueberries from his own bushes and 200 blueberries from nearby bushes for a total of 300 blueberries",
+      "text_lemmatized": "Simon picked 100 blueberries from his own bushes and 200 blueberries from nearby bushes for a total of 300 blueberries",
+      "hash": "2c6c254cf2cabb651a666e8310394a4a",
+      "created_at": "2026-08-29T01:22:14.424144+00:00",
+      "updated_at": "2026-08-29T01:22:14.424144+00:00",
+      "attributed_to": "user"
+    },
+    "543e9d80-c9bc-43b9-ac75-36e4d40cab71": {
+      "user_id": "persona184",
+      "data": "Each blueberry pie requires 100 blueberries, so Simon can make 300 / 100 = 3 blueberry pies",
+      "text_lemmatized": "Each blueberry pie requires 100 blueberries, so Simon can make 300 / 100 = 3 blueberry pies",
+      "hash": "205b86c2a9728ac2b7743812a276d352",
+      "created_at": "2026-08-29T01:22:14.424162+00:00",
+      "updated_at": "2026-08-29T01:22:14.424162+00:00",
+      "attributed_to": "assistant"
+    },
+    "ce5d2a52-129c-4563-a8ca-1fae015e6891": {
+      "user_id": "persona184",
+      "data": "Adrian reviewed the draft lease agreement provided by Elaine and identified two provisions that require clarification: subletting restrictions and maintenance obligations.",
+      "text_lemmatized": "Adrian reviewed the draft lease agreement provided by Elaine and identified two provisions that require clarification: subletting restrictions and maintenance obligations.",
+      "hash": "7a59436fba9a46d66d7e902fd13f4850",
+      "created_at": "2026-08-29T01:22:19.460593+00:00",
+      "updated_at": "2026-08-29T01:22:19.460593+00:00",
+      "attributed_to": "assistant"
+    },
+    "4fb7dd71-8084-481c-accf-0184e6acbae9": {
+      "user_id": "persona184",
+      "data": "Adrian suggested negotiating a broader definition for subletting restrictions to preserve flexibility.",
+      "text_lemmatized": "Adrian suggested negotiating a broader definition for subletting restrictions to preserve flexibility.",
+      "hash": "a6b2c9f45027bee355fbac915b7dc444",
+      "created_at": "2026-08-29T01:22:19.460615+00:00",
+      "updated_at": "2026-08-29T01:22:19.460615+00:00",
+      "attributed_to": "assistant"
+    },
+    "d0173a01-1310-4426-af13-a779d8df3dfd": {
+      "user_id": "persona184",
+      "data": "Adrian pointed out that the maintenance obligations clause places full repair responsibility on the tenant, including for structural issues, which is uncommon for comparable Grade A office leases.",
+      "text_lemmatized": "Adrian pointed out that the maintenance obligations clause places full repair responsibility on the tenant, including for structural issues, which is uncommon for comparable Grade A office leases.",
+      "hash": "3a69ac8ba49f3ab69772081634711588",
+      "created_at": "2026-08-29T01:22:19.460623+00:00",
+      "updated_at": "2026-08-29T01:22:19.460623+00:00",
+      "attributed_to": "assistant"
+    },
+    "467881f6-7c18-4c90-976c-ba664f5789e6": {
+      "user_id": "persona184",
+      "data": "Adrian recommended revisiting the maintenance obligations clause to ensure it aligns with industry standards.",
+      "text_lemmatized": "Adrian recommended revisiting the maintenance obligations clause to ensure it aligns with industry standards.",
+      "hash": "ab353107aaee157a09f3ec3e05de7122",
+      "created_at": "2026-08-29T01:22:19.460629+00:00",
+      "updated_at": "2026-08-29T01:22:19.460629+00:00",
+      "attributed_to": "assistant"
+    },
+    "b3fa0914-6575-4ef0-a9d1-1d3f6d3d90f8": {
+      "user_id": "persona184",
+      "data": "Adrian proposed discussing proposed amendments with Elaine and responding to the landlord's counsel ahead of their internal deadline.",
+      "text_lemmatized": "Adrian proposed discussing proposed amendments with Elaine and responding to the landlord's counsel ahead of their internal deadline.",
+      "hash": "40cef719d11d7fec9b4f979246b7a01d",
+      "created_at": "2026-08-29T01:22:19.460636+00:00",
+      "updated_at": "2026-08-29T01:22:19.460636+00:00",
+      "attributed_to": "assistant"
+    },
+    "9402f913-cacc-41c0-a416-261c5d04918f": {
+      "user_id": "persona184",
+      "data": "Adrian apologized for contacting Elaine at a late hour and expressed appreciation for her time.",
+      "text_lemmatized": "Adrian apologized for contacting Elaine at a late hour and expressed appreciation for her time.",
+      "hash": "1312957f7a43864d9b7cfd97dbf66e7a",
+      "created_at": "2026-08-29T01:22:19.460642+00:00",
+      "updated_at": "2026-08-29T01:22:19.460642+00:00",
+      "attributed_to": "assistant"
+    },
+    "89c599be-c962-46c9-81f3-4248f7980d4e": {
+      "user_id": "persona184",
+      "data": "Adrian suggested a call with Elaine to discuss the draft lease agreement and proposed amendments.",
+      "text_lemmatized": "Adrian suggested a call with Elaine to discuss the draft lease agreement and proposed amendments.",
+      "hash": "410ee879f6b6c95b7886f7f92cac3f49",
+      "created_at": "2026-08-29T01:22:19.460647+00:00",
+      "updated_at": "2026-08-29T01:22:19.460647+00:00",
+      "attributed_to": "assistant"
+    },
+    "74718900-fa70-43de-b1cf-95f920626485": {
+      "user_id": "persona184",
+      "data": "Simon has a total of 100 + 200 = 300 blueberries and can make 300 \u00f7 100 = 3 blueberry pies",
+      "text_lemmatized": "Simon has a total of 100 + 200 = 300 blueberries and can make 300 \u00f7 100 = 3 blueberry pies",
+      "hash": "d6b164460be0c82e551e1329ef94db4d",
+      "created_at": "2026-08-29T01:22:26.853001+00:00",
+      "updated_at": "2026-08-29T01:22:26.853001+00:00",
+      "attributed_to": "assistant"
+    },
+    "9f0eb6fe-8214-4a6f-a33d-5d1d0c4187e3": {
+      "user_id": "persona184",
+      "data": "User wants to keep their sleep on track despite having an unpredictable work schedule",
+      "text_lemmatized": "User wants to keep their sleep on track despite having an unpredictable work schedule",
+      "hash": "8e2a586c5f05da479450efc70cfddbcc",
+      "created_at": "2026-08-29T01:22:26.853023+00:00",
+      "updated_at": "2026-08-29T01:22:26.853023+00:00",
+      "attributed_to": "user"
+    },
+    "5d84400e-9678-4026-9b60-aa13bb0a2386": {
+      "user_id": "persona184",
+      "data": "User wants to mentally detach from work without feeling like they're dropping the ball",
+      "text_lemmatized": "User wants to mentally detach from work without feeling like they're dropping the ball",
+      "hash": "444e7a8e29eb6b22438cfe60a2ff2c7f",
+      "created_at": "2026-08-29T01:22:26.853034+00:00",
+      "updated_at": "2026-08-29T01:22:26.853034+00:00",
+      "attributed_to": "user"
+    },
+    "6dd6e961-aa6a-4cb8-b4c0-018167b094c9": {
+      "user_id": "persona184",
+      "data": "Manny had 3 birthday cookie pies to share with his 24 classmates and his teacher, Mr. Keith, and each of the cookie pies were cut into 10 slices, leaving 30 - 26 = 4 slices remaining",
+      "text_lemmatized": "Manny had 3 birthday cookie pies to share with his 24 classmates and his teacher, Mr. Keith, and each of the cookie pies were cut into 10 slices, leaving 30 - 26 = 4 slices remaining",
+      "hash": "2dbce4e08e1de4d097697a84a01550af",
+      "created_at": "2026-08-29T01:22:26.853043+00:00",
+      "updated_at": "2026-08-29T01:22:26.853043+00:00",
+      "attributed_to": "assistant"
+    },
+    "90368a52-c61b-44af-a0c7-a49a15d23d5d": {
+      "user_id": "persona184",
+      "data": "Morgan uses a spreadsheet to create a table of values, listing positive integers from 1 to 400 in the first column and integers in the second column in the form 3n + 1, and 131 does not appear in the second column",
+      "text_lemmatized": "Morgan uses a spreadsheet to create a table of values, listing positive integers from 1 to 400 in the first column and integers in the second column in the form 3n + 1, and 131 does not appear in the second column",
+      "hash": "57aa61ad0f125fa5bbab597a70857e26",
+      "created_at": "2026-08-29T01:22:26.853053+00:00",
+      "updated_at": "2026-08-29T01:22:26.853053+00:00",
+      "attributed_to": "assistant"
+    },
+    "181807c4-7755-4ff3-a14f-edf0bff57a9f": {
+      "user_id": "persona184",
+      "data": "Clover goes for a 1.5-mile walk in the morning and another 1.5-mile walk in the evening, every day, and walks 30 \u00d7 3 miles = 90 miles in 30 days",
+      "text_lemmatized": "Clover goes for a 1.5-mile walk in the morning and another 1.5-mile walk in the evening, every day, and walks 30 \u00d7 3 miles = 90 miles in 30 days",
+      "hash": "743922dd258561b11cfb0949edd5edb6",
+      "created_at": "2026-08-29T01:22:26.853062+00:00",
+      "updated_at": "2026-08-29T01:22:26.853062+00:00",
+      "attributed_to": "assistant"
+    },
+    "a98b722a-69c6-453b-9390-7fb047956035": {
+      "user_id": "persona184",
+      "data": "Cheyenne is a craftswoman making pots for sale, and she made 80 clay pots, but 2/5 of them cracked and could not be sold, leaving 48 pots to be sold at $40 per clay pot, making a total of 48 \u00d7 $40 = $1920",
+      "text_lemmatized": "Cheyenne is a craftswoman making pots for sale, and she made 80 clay pots, but 2/5 of them cracked and could not be sold, leaving 48 pots to be sold at $40 per clay pot, making a total of 48 \u00d7 $40 = $1920",
+      "hash": "d3af65228006d71cc6560540e1543af9",
+      "created_at": "2026-08-29T01:22:26.853071+00:00",
+      "updated_at": "2026-08-29T01:22:26.853071+00:00",
+      "attributed_to": "assistant"
+    },
+    "4220c79d-6863-4892-985d-da594577f475": {
+      "user_id": "persona184",
+      "data": "James wants to learn to become a chess grandmaster, spending 2 hours to learn the rules, 98 hours to become proficient for local tournaments, and 10,000 hours to become a master, totaling 10,100 hours",
+      "text_lemmatized": "James wants to learn to become a chess grandmaster, spending 2 hours to learn the rules, 98 hours to become proficient for local tournaments, and 10,000 hours to become a master, totaling 10,100 hours",
+      "hash": "aeaabc3f6070692b07e99f851aed96ae",
+      "created_at": "2026-08-29T01:22:26.853080+00:00",
+      "updated_at": "2026-08-29T01:22:26.853080+00:00",
+      "attributed_to": "assistant"
+    },
+    "3fcdbc2b-2a45-4a7b-8ea2-d9138ec6f2e9": {
+      "user_id": "persona184",
+      "data": "User has a $20 \times 16$ grid of lightbulbs, initially all off, and 36 switches to control each row and column.",
+      "text_lemmatized": "User has a $20 \times 16$ grid of lightbulbs, initially all off, and 36 switches to control each row and column.",
+      "hash": "938337e960acfbbe9d25bf23932be685",
+      "created_at": "2026-08-29T01:22:29.635125+00:00",
+      "updated_at": "2026-08-29T01:22:29.635125+00:00",
+      "attributed_to": "user"
+    },
+    "5f2fe2f4-a6b7-4c27-b419-b1ce204cd659": {
+      "user_id": "persona184",
+      "data": "Alex can achieve 2^36 distinct possible configurations of lightbulbs by flipping switches in any sequence.",
+      "text_lemmatized": "Alex can achieve 2^36 distinct possible configurations of lightbulbs by flipping switches in any sequence.",
+      "hash": "f02c894277e3762f2f56186460c96dbc",
+      "created_at": "2026-08-29T01:22:29.635145+00:00",
+      "updated_at": "2026-08-29T01:22:29.635145+00:00",
+      "attributed_to": "assistant"
+    },
+    "1ffabec4-7b29-4936-af5f-17819e10520c": {
+      "user_id": "persona184",
+      "data": "Ursula created a 30-second long commercial for her marketing job.",
+      "text_lemmatized": "Ursula created a 30-second long commercial for her marketing job.",
+      "hash": "8279eee32400dbe487d1f15f5783032b",
+      "created_at": "2026-08-29T01:22:34.227167+00:00",
+      "updated_at": "2026-08-29T01:22:34.227167+00:00",
+      "attributed_to": "user"
+    },
+    "44e7315f-20bc-4eca-92db-e7576fc925f2": {
+      "user_id": "persona184",
+      "data": "Ursula's boss asked her to shorten the commercial by 30%.",
+      "text_lemmatized": "Ursula's boss asked her to shorten the commercial by 30%.",
+      "hash": "5fc751b9e4f4402bcd7ff8c6ba3873f8",
+      "created_at": "2026-08-29T01:22:34.227186+00:00",
+      "updated_at": "2026-08-29T01:22:34.227186+00:00",
+      "attributed_to": "assistant"
+    },
+    "f033a9db-6327-403e-add6-8787458c8966": {
+      "user_id": "persona184",
+      "data": "To shorten the commercial by 30%, Ursula will remove 30% of 30 seconds, which is 0.3 * 30 = 9 seconds.",
+      "text_lemmatized": "To shorten the commercial by 30%, Ursula will remove 30% of 30 seconds, which is 0.3 * 30 = 9 seconds.",
+      "hash": "18c6e575d7e7fa75bb2bfdc1e96cf08e",
+      "created_at": "2026-08-29T01:22:34.227195+00:00",
+      "updated_at": "2026-08-29T01:22:34.227195+00:00",
+      "attributed_to": "assistant"
+    },
+    "a2a47d40-9eef-4680-b237-6a72cacfe97d": {
+      "user_id": "persona184",
+      "data": "After removing 9 seconds, the commercial will be 30 - 9 = 21 seconds long.",
+      "text_lemmatized": "After removing 9 seconds, the commercial will be 30 - 9 = 21 seconds long.",
+      "hash": "8193f37bdc7d6c6fe7cc87ebeb12c881",
+      "created_at": "2026-08-29T01:22:34.227202+00:00",
+      "updated_at": "2026-08-29T01:22:34.227202+00:00",
+      "attributed_to": "assistant"
+    },
+    "6534c59e-2827-428e-903f-5ec53990f85c": {
+      "user_id": "persona184",
+      "data": "The entire family is bringing 11 suitcases on vacation.",
+      "text_lemmatized": "The entire family is bringing 11 suitcases on vacation.",
+      "hash": "52058d520e1c31a48e5c2d8f306c10ff",
+      "created_at": "2026-08-29T01:22:39.165998+00:00",
+      "updated_at": "2026-08-29T01:22:39.165998+00:00",
+      "attributed_to": "assistant"
+    },
+    "2ea9e820-da65-4c53-9a66-4c64749c9acd": {
+      "user_id": "persona184",
+      "data": "The average of the other eight numbers is 90.",
+      "text_lemmatized": "The average of the other eight numbers is 90.",
+      "hash": "d5afb31aa6a58b29bf34cf3c49c2ea50",
+      "created_at": "2026-08-29T01:22:39.166017+00:00",
+      "updated_at": "2026-08-29T01:22:39.166017+00:00",
+      "attributed_to": "assistant"
+    },
+    "1de4a5bf-55de-4c77-88f3-6a3be9dd43ec": {
+      "user_id": "persona184",
+      "data": "9 sheep are out in the wilderness.",
+      "text_lemmatized": "9 sheep are out in the wilderness.",
+      "hash": "7d30f0b1011c253ba02ac27c5ad5bca7",
+      "created_at": "2026-08-29T01:22:39.166025+00:00",
+      "updated_at": "2026-08-29T01:22:39.166025+00:00",
+      "attributed_to": "assistant"
+    },
+    "32ca5b33-54ba-4f80-bc9a-78651d0109f0": {
+      "user_id": "persona184",
+      "data": "It would take 15 minutes to go 6 times to the bathroom.",
+      "text_lemmatized": "It would take 15 minutes to go 6 times to the bathroom.",
+      "hash": "ae61f31783d37b03ec2e2ce8a7fc34b2",
+      "created_at": "2026-08-29T01:22:39.166032+00:00",
+      "updated_at": "2026-08-29T01:22:39.166032+00:00",
+      "attributed_to": "assistant"
+    },
+    "ca1624c0-e375-489d-b066-0d80daaf4489": {
+      "user_id": "persona184",
+      "data": "The value of n is 60.",
+      "text_lemmatized": "The value of n is 60.",
+      "hash": "54965dc5ef822d5e83100180e35d95a1",
+      "created_at": "2026-08-29T01:22:39.166038+00:00",
+      "updated_at": "2026-08-29T01:22:39.166038+00:00",
+      "attributed_to": "assistant"
+    },
+    "c2520b04-7dde-4618-abda-0f49ee9f8747": {
+      "user_id": "persona184",
+      "data": "The resting heart rate seems lower when exercising in water due to hydrostatic pressure, buoyancy, thermal conductivity, and the diving reflex.",
+      "text_lemmatized": "The resting heart rate seems lower when exercising in water due to hydrostatic pressure, buoyancy, thermal conductivity, and the diving reflex.",
+      "hash": "c357d1f303eadd339a2877a6c13fd84c",
+      "created_at": "2026-08-29T01:22:39.166044+00:00",
+      "updated_at": "2026-08-29T01:22:39.166044+00:00",
+      "attributed_to": "assistant"
+    },
+    "3c85d5a9-5f2b-4a29-bb5e-5ca2b2918282": {
+      "user_id": "persona184",
+      "data": "Darryl made $85 from selling pies.",
+      "text_lemmatized": "Darryl made $85 from selling pies.",
+      "hash": "08d9e7ae2aa7f077ce2d2aba855bee14",
+      "created_at": "2026-08-29T01:22:39.166050+00:00",
+      "updated_at": "2026-08-29T01:22:39.166050+00:00",
+      "attributed_to": "assistant"
+    },
+    "0e66fec8-560d-4bd7-957f-d73d84800ebe": {
+      "user_id": "persona184",
+      "data": "Chef Michel sold a total of 29 pies.",
+      "text_lemmatized": "Chef Michel sold a total of 29 pies.",
+      "hash": "ac7648d470ff2edbcfda4b633aec1e92",
+      "created_at": "2026-08-29T01:22:39.166056+00:00",
+      "updated_at": "2026-08-29T01:22:39.166056+00:00",
+      "attributed_to": "assistant"
+    },
+    "74f327e9-ee25-46b1-97c8-653d6746ba1e": {
+      "user_id": "persona184",
+      "data": "User has 44 cows on his farm, 50% are female, and 50% of females are pregnant, so he has 11 pregnant female cows",
+      "text_lemmatized": "User has 44 cows on his farm, 50% are female, and 50% of females are pregnant, so he has 11 pregnant female cows",
+      "hash": "04d29c136de35f41d0951cea15dceddb",
+      "created_at": "2026-08-29T01:22:47.814012+00:00",
+      "updated_at": "2026-08-29T01:22:47.814012+00:00",
+      "attributed_to": "assistant"
+    },
+    "b7ec64c8-3ad8-4fd3-9f3c-bd33201d2c6e": {
+      "user_id": "persona184",
+      "data": "Cassidy is grounded for 14 days for lying about her report card, plus 3 extra days for each grade below a B, so she is grounded for 26 days",
+      "text_lemmatized": "Cassidy is grounded for 14 days for lying about her report card, plus 3 extra days for each grade below a B, so she is grounded for 26 days",
+      "hash": "ce8bd009c3d2a33e04cd8ffd64e50576",
+      "created_at": "2026-08-29T01:22:47.814036+00:00",
+      "updated_at": "2026-08-29T01:22:47.814036+00:00",
+      "attributed_to": "assistant"
+    },
+    "a684d238-17fc-4f61-ac08-de30acff5ffd": {
+      "user_id": "persona184",
+      "data": "Bill makes a certain number of trips to the dump and Jean makes that many trips plus 6, together they make 40 trips, so Jean makes 23 trips",
+      "text_lemmatized": "Bill makes a certain number of trips to the dump and Jean makes that many trips plus 6, together they make 40 trips, so Jean makes 23 trips",
+      "hash": "61c3e5e1b01c8e0bb9794e5259bff596",
+      "created_at": "2026-08-29T01:22:47.814046+00:00",
+      "updated_at": "2026-08-29T01:22:47.814046+00:00",
+      "attributed_to": "assistant"
+    },
+    "2dec3f26-e539-4519-a978-4b28b70f7079": {
+      "user_id": "persona184",
+      "data": "A pelican caught 13 fish and a kingfisher caught 7 more fish than the pelican, so the kingfisher caught 20 fish, and together they caught 33 fish, the fisherman caught 3 times this amount, so he caught 99 fish, and the difference between the fisherman's and the pelican's catch is 86 fish",
+      "text_lemmatized": "A pelican caught 13 fish and a kingfisher caught 7 more fish than the pelican, so the kingfisher caught 20 fish, and together they caught 33 fish, the fisherman caught 3 times this amount, so he caught 99 fish, and the difference between the fisherman's and the pelican's catch is 86 fish",
+      "hash": "ecb63098615ae7e9d00b34e91d2738ef",
+      "created_at": "2026-08-29T01:22:47.814056+00:00",
+      "updated_at": "2026-08-29T01:22:47.814056+00:00",
+      "attributed_to": "assistant"
+    },
+    "62f5179e-7a04-40a7-8a55-331e8364847e": {
+      "user_id": "persona184",
+      "data": "Ali has 7 bills of 5 dollars and 1 bill of 10 dollars, so he has 45 dollars in total",
+      "text_lemmatized": "Ali has 7 bills of 5 dollars and 1 bill of 10 dollars, so he has 45 dollars in total",
+      "hash": "496e54db4a368f2c9f5b95d0f1481828",
+      "created_at": "2026-08-29T01:22:47.814066+00:00",
+      "updated_at": "2026-08-29T01:22:47.814066+00:00",
+      "attributed_to": "assistant"
+    },
+    "4e41cae2-d226-4fea-b71b-21e2d0b57757": {
+      "user_id": "persona184",
+      "data": "User wants to buy an MP3 player for 120 euros and a CD for 19 euros, he has 55 euros in savings and his father gives him 20 euros, so he lacks 64 euros",
+      "text_lemmatized": "User wants to buy an MP3 player for 120 euros and a CD for 19 euros, he has 55 euros in savings and his father gives him 20 euros, so he lacks 64 euros",
+      "hash": "44d51d63b34e8768ab9ba087ce9c083e",
+      "created_at": "2026-08-29T01:22:47.814075+00:00",
+      "updated_at": "2026-08-29T01:22:47.814075+00:00",
+      "attributed_to": "assistant"
+    },
+    "5113c79e-cde5-4dc5-ae6c-fe68d772a78b": {
+      "user_id": "persona184",
+      "data": "The Great Pyramid of Giza is 20 feet taller than 500 feet, and 234 feet wider than it is tall, so its height is 520 feet and its width is 754 feet, and the sum of the height and width is 1274 feet",
+      "text_lemmatized": "The Great Pyramid of Giza is 20 feet taller than 500 feet, and 234 feet wider than it is tall, so its height is 520 feet and its width is 754 feet, and the sum of the height and width is 1274 feet",
+      "hash": "e0139d9c67d60d12b97e3781aadb9837",
+      "created_at": "2026-08-29T01:22:47.814084+00:00",
+      "updated_at": "2026-08-29T01:22:47.814084+00:00",
+      "attributed_to": "assistant"
+    },
+    "4cbe6a8d-c75c-4a06-a6c9-6fa000b47df9": {
+      "user_id": "persona184",
+      "data": "User wants to buy a two-variable polynomial P(x, y) with real number coefficients such that P(x, y) is positive exactly when x and y are both positive, but no such polynomial exists",
+      "text_lemmatized": "User wants to buy a two-variable polynomial P(x, y) with real number coefficients such that P(x, y) is positive exactly when x and y are both positive, but no such polynomial exists",
+      "hash": "b77cc3f0d64b1deb65f790731bc99d2a",
+      "created_at": "2026-08-29T01:22:47.814093+00:00",
+      "updated_at": "2026-08-29T01:22:47.814093+00:00",
+      "attributed_to": "assistant"
+    },
+    "be1b04ca-3b49-415e-b71a-7b70e7e0f121": {
+      "user_id": "persona184",
+      "data": "John buys a box of 40 light bulbs, uses 16 of them, and then gives half of what is left to a friend, so he has 12 light bulbs remaining",
+      "text_lemmatized": "John buys a box of 40 light bulbs, uses 16 of them, and then gives half of what is left to a friend, so he has 12 light bulbs remaining",
+      "hash": "5a487b92f316309296e72ea1f5cc3195",
+      "created_at": "2026-08-29T01:22:47.814101+00:00",
+      "updated_at": "2026-08-29T01:22:47.814101+00:00",
+      "attributed_to": "assistant"
+    },
+    "bed74626-8eeb-424a-946c-8998c0e08410": {
+      "user_id": "persona184",
+      "data": "User wants to translate a note into Spanish for the community newsletter, the note is about recent changes to commercial leasing regulations and how they may affect property owners",
+      "text_lemmatized": "User wants to translate a note into Spanish for the community newsletter, the note is about recent changes to commercial leasing regulations and how they may affect property owners",
+      "hash": "77269f6f66a02ccc00c30edfd664571b",
+      "created_at": "2026-08-29T01:22:47.814110+00:00",
+      "updated_at": "2026-08-29T01:22:47.814110+00:00",
+      "attributed_to": "user"
+    },
+    "3ead3399-3151-442f-93b6-651972dc3090": {
+      "user_id": "persona184",
+      "data": "User has been working in commercial property law for a few months, handling client meetings, site inspections, and emails, and is reminded of the importance of precision in this field.",
+      "text_lemmatized": "User has been working in commercial property law for a few months, handling client meetings, site inspections, and emails, and is reminded of the importance of precision in this field.",
+      "hash": "774744932c96cd2f0820ba4ae8d5458e",
+      "created_at": "2026-08-29T01:23:04.348666+00:00",
+      "updated_at": "2026-08-29T01:23:04.348666+00:00",
+      "attributed_to": "user"
+    },
+    "ad4b8636-fae3-4453-9902-488c83f6f100": {
+      "user_id": "persona184",
+      "data": "User often works long hours, sometimes missing the sunset over the CBD skyline, but appreciates the trust clients place in them to protect their interests.",
+      "text_lemmatized": "User often works long hours, sometimes missing the sunset over the CBD skyline, but appreciates the trust clients place in them to protect their interests.",
+      "hash": "a59da5f356ee8820f69688100940dd02",
+      "created_at": "2026-08-29T01:23:04.348689+00:00",
+      "updated_at": "2026-08-29T01:23:04.348689+00:00",
+      "attributed_to": "user"
+    },
+    "a74f6548-cf98-453f-b87a-4055644f9c7b": {
+      "user_id": "persona184",
+      "data": "User aims to find a better work-life balance, carve out time for deep thinking, and remember that good counsel requires both legal expertise and a clear mind.",
+      "text_lemmatized": "User aims to find a better work-life balance, carve out time for deep thinking, and remember that good counsel requires both legal expertise and a clear mind.",
+      "hash": "aea213b1765ead844d3c5b53b19824b5",
+      "created_at": "2026-08-29T01:23:04.348701+00:00",
+      "updated_at": "2026-08-29T01:23:04.348701+00:00",
+      "attributed_to": "user"
+    },
+    "544378ed-28c3-4e93-8a8b-0df31bfffab9": {
+      "user_id": "persona184",
+      "data": "Janet spends 11 minutes daily looking for her keys and complaining, which totals 77 minutes saved per week if she stops losing her keys",
+      "text_lemmatized": "Janet spends 11 minutes daily looking for her keys and complaining, which totals 77 minutes saved per week if she stops losing her keys",
+      "hash": "205fd7596172b02e399a7baed49dba5c",
+      "created_at": "2026-08-29T01:23:19.869643+00:00",
+      "updated_at": "2026-08-29T01:23:19.869643+00:00"
+    },
+    "f7bffa39-5211-4eae-9bca-2c513cb4a808": {
+      "user_id": "persona184",
+      "data": "Harry reads a book with 20 fewer pages than half the number of pages in Selena's 400-page book",
+      "text_lemmatized": "Harry reads a book with 20 fewer pages than half the number of pages in Selena's 400-page book",
+      "hash": "9e25920b35b3cc9355f0e9c5cd107146",
+      "created_at": "2026-08-29T01:23:19.869666+00:00",
+      "updated_at": "2026-08-29T01:23:19.869666+00:00"
+    },
+    "aedabdea-5bf3-4a38-93e5-98e289cdcc42": {
+      "user_id": "persona184",
+      "data": "Harry's book has 10 pages less than half of 400, which is 190 pages",
+      "text_lemmatized": "Harry's book has 10 pages less than half of 400, which is 190 pages",
+      "hash": "24c2946636c32fce6159df71dca123ca",
+      "created_at": "2026-08-29T01:23:19.869677+00:00",
+      "updated_at": "2026-08-29T01:23:19.869677+00:00"
+    },
+    "19ef2927-bce7-4227-9e4c-f37ab83a819d": {
+      "user_id": "persona184",
+      "data": "Tom rented a helicopter for 2 hours a day for 3 days at $75 per hour, so he paid a total of 2 hours/day \u00d7 3 days \u00d7 $75/hour = $450",
+      "text_lemmatized": "Tom rented a helicopter for 2 hours a day for 3 days at $75 per hour, so he paid a total of 2 hours/day \u00d7 3 days \u00d7 $75/hour = $450",
+      "hash": "dac46a10a6da8be15db76189bc794973",
+      "created_at": "2026-08-29T01:23:22.812091+00:00",
+      "updated_at": "2026-08-29T01:23:22.812091+00:00"
+    },
+    "bd415294-a171-420a-9361-e670ee44956f": {
+      "user_id": "persona184",
+      "data": "Tom rented a helicopter for 2 hours a day for 3 days at $75 per hour, so he paid a total of $75/hour \u00d7 6 hours = $450",
+      "text_lemmatized": "Tom rented a helicopter for 2 hours a day for 3 days at $75 per hour, so he paid a total of $75/hour \u00d7 6 hours = $450",
+      "hash": "ec84e11ac4731ec5be06aedc355ec58f",
+      "created_at": "2026-08-29T01:23:22.812115+00:00",
+      "updated_at": "2026-08-29T01:23:22.812115+00:00"
+    },
+    "8ded1c34-cb85-4e43-a4a2-026ca87cfa5c": {
+      "user_id": "persona184",
+      "data": "Dianne runs a store that sells books and has 1000 customers, 37% of whom return their books, resulting in 630 customers keeping their books, generating $9,450 in revenue",
+      "text_lemmatized": "Dianne runs a store that sells books and has 1000 customers, 37% of whom return their books, resulting in 630 customers keeping their books, generating $9,450 in revenue",
+      "hash": "237c765c52caf3a724b59579377c9fca",
+      "created_at": "2026-08-29T01:23:26.172987+00:00",
+      "updated_at": "2026-08-29T01:23:26.172987+00:00"
+    },
+    "2e9255bf-aacd-40c0-a255-5917398ba4e1": {
+      "user_id": "persona184",
+      "data": "Jake initially has 80 bitcoin, donates 20 to charity, gives half to his brother, and then triples the remaining amount",
+      "text_lemmatized": "Jake initially has 80 bitcoin, donates 20 to charity, gives half to his brother, and then triples the remaining amount",
+      "hash": "4be0be21c8adbd8ea551b3103f8af84a",
+      "created_at": "2026-08-29T01:23:26.173007+00:00",
+      "updated_at": "2026-08-29T01:23:26.173007+00:00"
+    },
+    "44eb8da9-d887-4904-bb2d-91e6f004c671": {
+      "user_id": "persona184",
+      "data": "Jake donates 10 more coins after tripling his remaining amount",
+      "text_lemmatized": "Jake donates 10 more coins after tripling his remaining amount",
+      "hash": "dc27d31f1a7ccf7a90240a20ff743387",
+      "created_at": "2026-08-29T01:23:26.173015+00:00",
+      "updated_at": "2026-08-29T01:23:26.173015+00:00"
+    },
+    "a2247dd8-5036-4d74-9d23-cb1525ae0dc3": {
+      "user_id": "persona184",
+      "data": "Newer high-rise condos can feel stuffy unless the air-conditioning is on all day due to their design and materials.",
+      "text_lemmatized": "Newer high-rise condos can feel stuffy unless the air-conditioning is on all day due to their design and materials.",
+      "hash": "6834d3e6754c7998a625aa712a9b5f9e",
+      "created_at": "2026-08-29T01:23:42.296359+00:00",
+      "updated_at": "2026-08-29T01:23:42.296359+00:00",
+      "attributed_to": "assistant"
+    },
+    "0fc34ba1-a71d-4dbc-af9b-bcca84375c0a": {
+      "user_id": "persona184",
+      "data": "High-rise condos often have large glass surfaces and minimal insulation, which can lead to heat gain and discomfort.",
+      "text_lemmatized": "High-rise condos often have large glass surfaces and minimal insulation, which can lead to heat gain and discomfort.",
+      "hash": "698037e913c2cb2489178b1979cda338",
+      "created_at": "2026-08-29T01:23:42.296379+00:00",
+      "updated_at": "2026-08-29T01:23:42.296379+00:00",
+      "attributed_to": "assistant"
+    },
+    "11172995-d3df-41c6-841c-31303ac310ef": {
+      "user_id": "persona184",
+      "data": "The use of materials like concrete, steel, and glass in high-rise buildings can contribute to a sense of stuffiness and heat retention.",
+      "text_lemmatized": "The use of materials like concrete, steel, and glass in high-rise buildings can contribute to a sense of stuffiness and heat retention.",
+      "hash": "a8a507e754a613ae6af2fe7858dda7cb",
+      "created_at": "2026-08-29T01:23:42.296388+00:00",
+      "updated_at": "2026-08-29T01:23:42.296388+00:00",
+      "attributed_to": "assistant"
+    },
+    "90fd4945-742b-4d45-b773-a03570b5e639": {
+      "user_id": "persona184",
+      "data": "Air-conditioning is often necessary in high-rise condos to maintain a comfortable temperature and prevent stuffiness.",
+      "text_lemmatized": "Air-conditioning is often necessary in high-rise condos to maintain a comfortable temperature and prevent stuffiness.",
+      "hash": "40fcb6db23876daa84ead82cc1b22d76",
+      "created_at": "2026-08-29T01:23:42.296396+00:00",
+      "updated_at": "2026-08-29T01:23:42.296396+00:00",
+      "attributed_to": "assistant"
+    },
+    "a8b2235d-1ddf-41bb-9f59-0081f4a10830": {
+      "user_id": "persona184",
+      "data": "Will's mom gave him $74 to go shopping",
+      "text_lemmatized": "Will's mom gave him $74 to go shopping",
+      "hash": "255736d190c8a781cb6196c2bcb9af7c",
+      "created_at": "2026-08-29T01:24:01.983017+00:00",
+      "updated_at": "2026-08-29T01:24:01.983017+00:00",
+      "attributed_to": "assistant"
+    },
+    "2b07f8c4-1201-4f69-b862-b29e89a287d3": {
+      "user_id": "persona184",
+      "data": "Will bought a sweater for $9",
+      "text_lemmatized": "Will bought a sweater for $9",
+      "hash": "3a0115b4b0eeba6c65acd7d34b64af2a",
+      "created_at": "2026-08-29T01:24:01.983039+00:00",
+      "updated_at": "2026-08-29T01:24:01.983039+00:00",
+      "attributed_to": "assistant"
+    },
+    "5a174f58-23b4-4f7a-bc9d-5cdbd11450c5": {
+      "user_id": "persona184",
+      "data": "Will bought a T-shirt for $11",
+      "text_lemmatized": "Will bought a T-shirt for $11",
+      "hash": "70d8be1279bf87c4d454d55493b6be37",
+      "created_at": "2026-08-29T01:24:01.983049+00:00",
+      "updated_at": "2026-08-29T01:24:01.983049+00:00",
+      "attributed_to": "assistant"
+    },
+    "039635f9-0201-45e7-9ae1-24fe6212451d": {
+      "user_id": "persona184",
+      "data": "Will bought a pair of shoes for $30",
+      "text_lemmatized": "Will bought a pair of shoes for $30",
+      "hash": "ca39bd70a8644e305f36d333eec69128",
+      "created_at": "2026-08-29T01:24:01.983059+00:00",
+      "updated_at": "2026-08-29T01:24:01.983059+00:00",
+      "attributed_to": "assistant"
+    },
+    "9bfb1408-8563-42d9-9e84-d3432fabed36": {
+      "user_id": "persona184",
+      "data": "Will returned his shoes for a 90% refund",
+      "text_lemmatized": "Will returned his shoes for a 90% refund",
+      "hash": "7817973e7a32eac13526f23526af3600",
+      "created_at": "2026-08-29T01:24:01.983068+00:00",
+      "updated_at": "2026-08-29T01:24:01.983068+00:00",
+      "attributed_to": "assistant"
+    },
+    "4d6a9936-7e76-4526-80d1-a498da785ecb": {
+      "user_id": "persona184",
+      "data": "Will's mom gave him $74 to go shopping, and he spent $9 on a sweater, $11 on a T-shirt, and $30 on shoes, then got a 90% refund on the shoes",
+      "text_lemmatized": "Will's mom gave him $74 to go shopping, and he spent $9 on a sweater, $11 on a T-shirt, and $30 on shoes, then got a 90% refund on the shoes",
+      "hash": "7ae6e446b6823bc2779370ab74996177",
+      "created_at": "2026-08-29T01:24:01.983078+00:00",
+      "updated_at": "2026-08-29T01:24:01.983078+00:00",
+      "attributed_to": "assistant"
+    },
+    "5a5f82db-8bce-4b67-bc8c-ab8ccfe78b1e": {
+      "user_id": "persona184",
+      "data": "Will spent a total of $9 + $11 + $30 = $50 on the sweater and T-shirt",
+      "text_lemmatized": "Will spent a total of $9 + $11 + $30 = $50 on the sweater and T-shirt",
+      "hash": "cb05c1dfd9aadcb4d8a694cdeda900bb",
+      "created_at": "2026-08-29T01:24:01.983087+00:00",
+      "updated_at": "2026-08-29T01:24:01.983087+00:00",
+      "attributed_to": "assistant"
+    },
+    "ae065402-ae1d-470c-a309-ed610a5c5b49": {
+      "user_id": "persona184",
+      "data": "Will got a 90% refund on the shoes, which is $30 * 0.9 = $27",
+      "text_lemmatized": "Will got a 90% refund on the shoes, which is $30 * 0.9 = $27",
+      "hash": "2cb5a0419c43738cedbc163f4585c22f",
+      "created_at": "2026-08-29T01:24:01.983096+00:00",
+      "updated_at": "2026-08-29T01:24:01.983096+00:00",
+      "attributed_to": "assistant"
+    },
+    "f360d720-bb75-42ef-8daa-ade0d2e2443b": {
+      "user_id": "persona184",
+      "data": "Will's total refund is $27, so he has $74 - $50 - $27 = $-3 left",
+      "text_lemmatized": "Will's total refund is $27, so he has $74 - $50 - $27 = $-3 left",
+      "hash": "7695749b6bf58a236c992db05b0d286a",
+      "created_at": "2026-08-29T01:24:01.983105+00:00",
+      "updated_at": "2026-08-29T01:24:01.983105+00:00",
+      "attributed_to": "assistant"
+    },
+    "bb03acba-ac10-4dbc-8e0b-886f68f8a026": {
+      "user_id": "persona184",
+      "data": "Will has $-3 left after shopping",
+      "text_lemmatized": "Will has $-3 left after shopping",
+      "hash": "8d3a736c8a82082b66cfad5df70a3012",
+      "created_at": "2026-08-29T01:24:01.983114+00:00",
+      "updated_at": "2026-08-29T01:24:01.983114+00:00",
+      "attributed_to": "assistant"
+    },
+    "3c645167-48f3-4231-9959-db255eff3810": {
+      "user_id": "persona184",
+      "data": "A NASA study from 1989 found that certain potted plants can remove volatile organic compounds (VOCs) under sealed-lab conditions, but the effect is negligible in real-life settings like urban apartments.",
+      "text_lemmatized": "A NASA study from 1989 found that certain potted plants can remove volatile organic compounds (VOCs) under sealed-lab conditions, but the effect is negligible in real-life settings like urban apartments.",
+      "hash": "5713b1bfc28de65a679685541d935c2e",
+      "created_at": "2026-08-29T01:24:10.165589+00:00",
+      "updated_at": "2026-08-29T01:24:10.165589+00:00",
+      "attributed_to": "assistant"
+    },
+    "6fd99c3d-b1cf-4893-9ddc-5e5f5a6bcf4e": {
+      "user_id": "persona184",
+      "data": "To match the air-cleaning effect of a modestly open window, you would need dozens of plants per room in a small apartment.",
+      "text_lemmatized": "To match the air-cleaning effect of a modestly open window, you would need dozens of plants per room in a small apartment.",
+      "hash": "129b3c112f4a7f4268a426018982b32a",
+      "created_at": "2026-08-29T01:24:10.165617+00:00",
+      "updated_at": "2026-08-29T01:24:10.165617+00:00",
+      "attributed_to": "assistant"
+    },
+    "965e8230-aae7-43e7-9156-478ea412b7c1": {
+      "user_id": "persona184",
+      "data": "In a small Singapore flat, the humidity control is a concern, and plants can add moisture, which can lead to mould growth.",
+      "text_lemmatized": "In a small Singapore flat, the humidity control is a concern, and plants can add moisture, which can lead to mould growth.",
+      "hash": "706908cdc98b71458add01d2a4baac21",
+      "created_at": "2026-08-29T01:24:10.165628+00:00",
+      "updated_at": "2026-08-29T01:24:10.165628+00:00",
+      "attributed_to": "assistant"
+    },
+    "d2330f08-90b4-438d-90b3-0d6f7884d572": {
+      "user_id": "persona184",
+      "data": "The aesthetics-air quality trade-off in small apartments means that while greenery can offer a psychological lift and visual appeal, the air quality benefit is marginal.",
+      "text_lemmatized": "The aesthetics-air quality trade-off in small apartments means that while greenery can offer a psychological lift and visual appeal, the air quality benefit is marginal.",
+      "hash": "67c629f19976dc8881c9ba80b7a4f510",
+      "created_at": "2026-08-29T01:24:10.165638+00:00",
+      "updated_at": "2026-08-29T01:24:10.165638+00:00",
+      "attributed_to": "assistant"
+    },
+    "11e2b78f-f545-4393-8529-999bf6872961": {
+      "user_id": "persona184",
+      "data": "To match the air-cleaning effect of a modestly open window, you would need 500 plants working consistently in a small apartment.",
+      "text_lemmatized": "To match the air-cleaning effect of a modestly open window, you would need 500 plants working consistently in a small apartment.",
+      "hash": "b70286abac8a9e8a7f7d3cb23419563f",
+      "created_at": "2026-08-29T01:24:10.165647+00:00",
+      "updated_at": "2026-08-29T01:24:10.165647+00:00",
+      "attributed_to": "assistant"
+    },
+    "9cd1d3e5-8af9-4cd2-bc32-89fb840936e4": {
+      "user_id": "persona184",
+      "data": "The scale gap to ventilation is enormous in physical terms, making plants a less effective solution for air quality improvement in small apartments.",
+      "text_lemmatized": "The scale gap to ventilation is enormous in physical terms, making plants a less effective solution for air quality improvement in small apartments.",
+      "hash": "fbedba93737481bc3e02165e324cab53",
+      "created_at": "2026-08-29T01:24:10.165656+00:00",
+      "updated_at": "2026-08-29T01:24:10.165656+00:00",
+      "attributed_to": "assistant"
+    },
+    "6659158e-df8c-45a1-b208-e70f16dde92c": {
+      "user_id": "persona184",
+      "data": "70% of the students in the engineering department are men, and there are 180 women.",
+      "text_lemmatized": "70% of the students in the engineering department are men, and there are 180 women.",
+      "hash": "4d7641d131afa29ca70c8da519b93894",
+      "created_at": "2026-08-29T01:24:10.165665+00:00",
+      "updated_at": "2026-08-29T01:24:10.165665+00:00",
+      "attributed_to": "assistant"
+    },
+    "543c26a6-48f8-48a2-8a70-9f8390264344": {
+      "user_id": "persona184",
+      "data": "The total number of students in the engineering department is 600.",
+      "text_lemmatized": "The total number of students in the engineering department is 600.",
+      "hash": "c3fc3b96612181e8868a3d9c2e73a516",
+      "created_at": "2026-08-29T01:24:10.165674+00:00",
+      "updated_at": "2026-08-29T01:24:10.165674+00:00",
+      "attributed_to": "assistant"
+    },
+    "2cdcf89f-543d-41dc-a6dd-f75ed127d55e": {
+      "user_id": "persona184",
+      "data": "There are 420 men in the engineering department.",
+      "text_lemmatized": "There are 420 men in the engineering department.",
+      "hash": "0f9405aeb55f1bcc750ab8ae74a2457b",
+      "created_at": "2026-08-29T01:24:10.165682+00:00",
+      "updated_at": "2026-08-29T01:24:10.165682+00:00",
+      "attributed_to": "assistant"
+    },
+    "6cb83eb3-17be-485f-8a3c-f474d7e84205": {
+      "user_id": "persona184",
+      "data": "Nellie played hide and seek with 14 kids and then played tag with 22 cousins, for a total of 36 kids.",
+      "text_lemmatized": "Nellie played hide and seek with 14 kids and then played tag with 22 cousins, for a total of 36 kids.",
+      "hash": "f8d5408a01f8d4cc7e460497bdd2f897",
+      "created_at": "2026-08-29T01:24:10.165691+00:00",
+      "updated_at": "2026-08-29T01:24:10.165691+00:00",
+      "attributed_to": "assistant"
+    },
+    "a771dd93-7b0f-47da-a7e7-0129487a53c1": {
+      "user_id": "persona184",
+      "data": "A school bus traveled 35 miles in 0.7 hours at a speed of 50 mph.",
+      "text_lemmatized": "A school bus traveled 35 miles in 0.7 hours at a speed of 50 mph.",
+      "hash": "7573cf08d1568608c07d42026a703cc8",
+      "created_at": "2026-08-29T01:24:10.165700+00:00",
+      "updated_at": "2026-08-29T01:24:10.165700+00:00",
+      "attributed_to": "assistant"
+    },
+    "26314019-002b-4ee7-9aa5-896cb4bca8c6": {
+      "user_id": "persona184",
+      "data": "Joanna has $8, her brother has $24, and her sister has $4, for a total of $36.",
+      "text_lemmatized": "Joanna has $8, her brother has $24, and her sister has $4, for a total of $36.",
+      "hash": "33d6e2d99d0e3606e9d0627c33647629",
+      "created_at": "2026-08-29T01:24:10.165708+00:00",
+      "updated_at": "2026-08-29T01:24:10.165708+00:00",
+      "attributed_to": "assistant"
+    },
+    "13cc4df1-97c8-45d3-b466-b5af2e2a56db": {
+      "user_id": "persona184",
+      "data": "Legoland has 5 kangaroos for every koala, and there are 180 kangaroos, so there are 36 koalas.",
+      "text_lemmatized": "Legoland has 5 kangaroos for every koala, and there are 180 kangaroos, so there are 36 koalas.",
+      "hash": "162407495e8e963328af147b6928b520",
+      "created_at": "2026-08-29T01:24:10.165716+00:00",
+      "updated_at": "2026-08-29T01:24:10.165716+00:00",
+      "attributed_to": "assistant"
+    },
+    "36d66b05-dfac-4300-9a38-7aedf3683191": {
+      "user_id": "persona184",
+      "data": "There are 216 animals altogether at Legoland.",
+      "text_lemmatized": "There are 216 animals altogether at Legoland.",
+      "hash": "3b32dc59d809dafc8d0eca9124f82b5c",
+      "created_at": "2026-08-29T01:24:10.165724+00:00",
+      "updated_at": "2026-08-29T01:24:10.165724+00:00",
+      "attributed_to": "assistant"
+    },
+    "4ab9202d-d2c6-4751-a5df-058fe1ea3583": {
+      "user_id": "persona184",
+      "data": "A doctor may stop checking cholesterol regularly if past readings were consistently healthy and there are no other risk factors.",
+      "text_lemmatized": "A doctor may stop checking cholesterol regularly if past readings were consistently healthy and there are no other risk factors.",
+      "hash": "c3d14f6683de79f6c9388022aff0e392",
+      "created_at": "2026-08-29T01:24:13.224483+00:00",
+      "updated_at": "2026-08-29T01:24:13.224483+00:00",
+      "attributed_to": "assistant"
+    },
+    "46fbbdbd-a16b-4428-b943-328bea32a5dc": {
+      "user_id": "persona184",
+      "data": "Aisle seating on long-haul flights can improve comfort and reduce travel fatigue due to ease of movement and circulation.",
+      "text_lemmatized": "Aisle seating on long-haul flights can improve comfort and reduce travel fatigue due to ease of movement and circulation.",
+      "hash": "77ef93350e8f1d1f5d939dcc2e83586e",
+      "created_at": "2026-08-29T01:24:13.224505+00:00",
+      "updated_at": "2026-08-29T01:24:13.224505+00:00",
+      "attributed_to": "assistant"
+    },
+    "2e60d6a7-2659-4fd3-8094-a6a2417a8608": {
+      "user_id": "persona184",
+      "data": "The immune system can 'stop objecting' to an environmental trigger it used to react to for years due to changes in immune memory and regulation.",
+      "text_lemmatized": "The immune system can 'stop objecting' to an environmental trigger it used to react to for years due to changes in immune memory and regulation.",
+      "hash": "2b37a55b0aa905a08996be1d57c69ab2",
+      "created_at": "2026-08-29T01:24:13.224516+00:00",
+      "updated_at": "2026-08-29T01:24:13.224516+00:00",
+      "attributed_to": "assistant"
+    },
+    "b40439c1-b959-43de-8cde-703a86a14bce": {
+      "user_id": "persona184",
+      "data": "The organization took 1600 hawksbill turtles and 800 green turtles into a conservation center, totaling 2400 turtles.",
+      "text_lemmatized": "The organization took 1600 hawksbill turtles and 800 green turtles into a conservation center, totaling 2400 turtles.",
+      "hash": "7d236c2a95681c4111300764ab3ef989",
+      "created_at": "2026-08-29T01:24:26.314137+00:00",
+      "updated_at": "2026-08-29T01:24:26.314137+00:00",
+      "attributed_to": "assistant"
+    },
+    "3497b27c-8fb1-4dd8-87c4-97e9af452b8a": {
+      "user_id": "persona184",
+      "data": "Jorge spent $84 on tickets after a 50% discount on 24 tickets priced at $7 each.",
+      "text_lemmatized": "Jorge spent $84 on tickets after a 50% discount on 24 tickets priced at $7 each.",
+      "hash": "a8b3b1b94191776c957b42c50a5fe270",
+      "created_at": "2026-08-29T01:24:26.314160+00:00",
+      "updated_at": "2026-08-29T01:24:26.314160+00:00",
+      "attributed_to": "assistant"
+    },
+    "1c2c5529-b022-49af-a631-9096cebf69b5": {
+      "user_id": "persona184",
+      "data": "The government's $400,000 stimulus yielded 5 times the tax revenue it cost, resulting in a profit.",
+      "text_lemmatized": "The government's $400,000 stimulus yielded 5 times the tax revenue it cost, resulting in a profit.",
+      "hash": "f79bfaa5114b89654c806cde9f0e2faa",
+      "created_at": "2026-08-29T01:24:26.314171+00:00",
+      "updated_at": "2026-08-29T01:24:26.314171+00:00",
+      "attributed_to": "assistant"
+    },
+    "195aba08-836a-45f4-bc63-0f1579210761": {
+      "user_id": "persona184",
+      "data": "Ravi can jump 39 inches, 1.5 times higher than the average jump of the three next highest jumpers, who can jump 23, 27, and 28 inches.",
+      "text_lemmatized": "Ravi can jump 39 inches, 1.5 times higher than the average jump of the three next highest jumpers, who can jump 23, 27, and 28 inches.",
+      "hash": "5bf7074e4992dfd4e54b13a1233ec9aa",
+      "created_at": "2026-08-29T01:24:26.314181+00:00",
+      "updated_at": "2026-08-29T01:24:26.314181+00:00",
+      "attributed_to": "assistant"
+    },
+    "2f26e8a1-ddef-41f5-acc0-5dd78e78d865": {
+      "user_id": "persona184",
+      "data": "The y-intercepts of three parallel lines are 2, 3, and 4, and the sum of their x-intercepts is 36, indicating a slope of 0.",
+      "text_lemmatized": "The y-intercepts of three parallel lines are 2, 3, and 4, and the sum of their x-intercepts is 36, indicating a slope of 0.",
+      "hash": "11984bf3790b55de527ba303838ceb06",
+      "created_at": "2026-08-29T01:24:26.314190+00:00",
+      "updated_at": "2026-08-29T01:24:26.314190+00:00",
+      "attributed_to": "assistant"
+    },
+    "aaad95f7-a20b-4b65-9b30-ce93087c3dbf": {
+      "user_id": "persona184",
+      "data": "Immune tolerance isn't fixed in stone and can change dramatically over time, even for allergens like dust mites or pollen.",
+      "text_lemmatized": "Immune tolerance isn't fixed in stone and can change dramatically over time, even for allergens like dust mites or pollen.",
+      "hash": "29fa81f81ebe1f38051bf48bf2017c98",
+      "created_at": "2026-08-29T01:24:26.314209+00:00",
+      "updated_at": "2026-08-29T01:24:26.314209+00:00",
+      "attributed_to": "assistant"
+    },
+    "c086740a-097d-47b6-bbdc-a009280856d9": {
+      "user_id": "persona184",
+      "data": "The term 'co-living' is often used in marketing to describe shared amenities and community events, but it doesn't necessarily imply a specific regulatory category.",
+      "text_lemmatized": "The term 'co-living' is often used in marketing to describe shared amenities and community events, but it doesn't necessarily imply a specific regulatory category.",
+      "hash": "66e82b25f5c9f527e03caaa37fcfa354",
+      "created_at": "2026-08-29T01:24:26.314219+00:00",
+      "updated_at": "2026-08-29T01:24:26.314219+00:00",
+      "attributed_to": "assistant"
+    },
+    "4bf85cef-dd12-4931-bc92-7567fad9aa4c": {
+      "user_id": "persona184",
+      "data": "Some people may be less prone to stress- or routine-triggered headaches due to neurological sensitivity, stable circadian rhythms, efficient stress-recovery responses, fewer compounding triggers, or learned coping mechanisms.",
+      "text_lemmatized": "Some people may be less prone to stress- or routine-triggered headaches due to neurological sensitivity, stable circadian rhythms, efficient stress-recovery responses, fewer compounding triggers, or learned coping mechanisms.",
+      "hash": "57a2dfb829de602cf30ce8ce8a778ce3",
+      "created_at": "2026-08-29T01:24:26.314228+00:00",
+      "updated_at": "2026-08-29T01:24:26.314228+00:00",
+      "attributed_to": "assistant"
+    },
+    "170a84a7-e009-4b47-a002-b99f29b47bf4": {
+      "user_id": "persona184",
+      "data": "The balance between triggers and protective factors can shift over a person's lifetime due to hormonal changes, neuroplasticity, health status, lifestyle evolution, and learned behavior.",
+      "text_lemmatized": "The balance between triggers and protective factors can shift over a person's lifetime due to hormonal changes, neuroplasticity, health status, lifestyle evolution, and learned behavior.",
+      "hash": "922b4a554391cf0fe9d5f31e22591fbf",
+      "created_at": "2026-08-29T01:24:26.314237+00:00",
+      "updated_at": "2026-08-29T01:24:26.314237+00:00",
+      "attributed_to": "assistant"
+    },
+    "22a91a49-3da5-4250-9ff0-8675146fe8a1": {
+      "user_id": "persona184",
+      "data": "Botanical gardens often get special zoning or protection in city plans due to their historical and cultural significance, zoning and land use classification, biodiversity and ecological services, and policy evolution and necessity.",
+      "text_lemmatized": "Botanical gardens often get special zoning or protection in city plans due to their historical and cultural significance, zoning and land use classification, biodiversity and ecological services, and policy evolution and necessity.",
+      "hash": "c725dc751ea8c7cd7c89a626167af3ea",
+      "created_at": "2026-08-29T01:24:26.314245+00:00",
+      "updated_at": "2026-08-29T01:24:26.314245+00:00",
+      "attributed_to": "assistant"
+    },
+    "9a699da3-753b-4b76-83ba-9550a4fa9eb6": {
+      "user_id": "persona184",
+      "data": "The Planning Act and Parks and Trees Act form a complementary framework in Singapore, with the Planning Act empowering the government to designate land use zones and the Parks and Trees Act providing specific protection to trees, plants, and landscaped areas within designated parks.",
+      "text_lemmatized": "The Planning Act and Parks and Trees Act form a complementary framework in Singapore, with the Planning Act empowering the government to designate land use zones and the Parks and Trees Act providing specific protection to trees, plants, and landscaped areas within designated parks.",
+      "hash": "c677773c9c4373020ce4756a0402ce3f",
+      "created_at": "2026-08-29T01:24:26.314254+00:00",
+      "updated_at": "2026-08-29T01:24:26.314254+00:00",
+      "attributed_to": "assistant"
+    },
+    "bb55347f-9b56-496d-9344-de19867eec09": {
+      "user_id": "persona184",
+      "data": "Cities often invest heavily in upgrading expressway networks instead of expanding rail routes for intercity travel due to factors such as traffic congestion, land availability, and economic development.",
+      "text_lemmatized": "Cities often invest heavily in upgrading expressway networks instead of expanding rail routes for intercity travel due to factors such as traffic congestion, land availability, and economic development.",
+      "hash": "c6a1d7373f4b103bc6dda5c5e81d00f0",
+      "created_at": "2026-08-29T01:24:26.314263+00:00",
+      "updated_at": "2026-08-29T01:24:26.314263+00:00",
+      "attributed_to": "assistant"
+    },
+    "96b80241-7c81-44c7-829c-4ad36d38bb82": {
+      "user_id": "persona184",
+      "data": "Immune tolerance isn\u2019t fixed in stone \u2014 over time, it can change quite dramatically, even for allergens like dust mites or pollen.",
+      "text_lemmatized": "Immune tolerance isn\u2019t fixed in stone \u2014 over time, it can change quite dramatically, even for allergens like dust mites or pollen.",
+      "hash": "b8b40095185ba44365c2913fa9401afb",
+      "created_at": "2026-08-29T01:24:33.967170+00:00",
+      "updated_at": "2026-08-29T01:24:33.967170+00:00",
+      "attributed_to": "assistant"
+    },
+    "98b3fa69-927f-4413-aeb0-9872533a4caa": {
+      "user_id": "persona184",
+      "data": "The balance between triggers and protective factors can change over someone\u2019s lifetime due to biological changes, lifestyle transitions, and cumulative exposures.",
+      "text_lemmatized": "The balance between triggers and protective factors can change over someone\u2019s lifetime due to biological changes, lifestyle transitions, and cumulative exposures.",
+      "hash": "5eac6d2892eaf4cc4a77e88da811a437",
+      "created_at": "2026-08-29T01:24:33.967189+00:00",
+      "updated_at": "2026-08-29T01:24:33.967189+00:00",
+      "attributed_to": "assistant"
+    },
+    "1c05441b-df34-43af-877e-fe92492a489e": {
+      "user_id": "persona184",
+      "data": "Hormonal changes, such as those experienced during puberty, pregnancy, perimenopause, and menopause, can affect vascular tone and lead to changes in the balance between triggers and protective factors.",
+      "text_lemmatized": "Hormonal changes, such as those experienced during puberty, pregnancy, perimenopause, and menopause, can affect vascular tone and lead to changes in the balance between triggers and protective factors.",
+      "hash": "2745b0c3ed6a19a9a444b804d57d54f5",
+      "created_at": "2026-08-29T01:24:33.967197+00:00",
+      "updated_at": "2026-08-29T01:24:33.967197+00:00",
+      "attributed_to": "assistant"
+    },
+    "a49faccf-2f37-4a27-b6ad-5164f41b8ed2": {
+      "user_id": "persona184",
+      "data": "Expressways are often seen as flexible and scalable infrastructure, making them a more appealing option for urban planners and governments due to factors such as cost, land acquisition, and regulatory considerations.",
+      "text_lemmatized": "Expressways are often seen as flexible and scalable infrastructure, making them a more appealing option for urban planners and governments due to factors such as cost, land acquisition, and regulatory considerations.",
+      "hash": "eda18b696a7ada785b6b34d9480eabf4",
+      "created_at": "2026-08-29T01:24:33.967203+00:00",
+      "updated_at": "2026-08-29T01:24:33.967203+00:00",
+      "attributed_to": "assistant"
+    },
+    "7726b27e-a2ad-486d-9f2b-c68a355198b5": {
+      "user_id": "persona184",
+      "data": "The decision to invest in expressways or intercity rail often depends on a mix of economic, political, and legal considerations, rather than purely transport engineering.",
+      "text_lemmatized": "The decision to invest in expressways or intercity rail often depends on a mix of economic, political, and legal considerations, rather than purely transport engineering.",
+      "hash": "ba71c0f0b4f1f12321f938cd074f4146",
+      "created_at": "2026-08-29T01:24:33.967210+00:00",
+      "updated_at": "2026-08-29T01:24:33.967210+00:00",
+      "attributed_to": "assistant"
+    },
+    "749592da-1671-4721-b7f0-a1da5c7c031f": {
+      "user_id": "persona184",
+      "data": "Reliable and timely online sources for staying well-informed about current events include BBC World News, Reuters, and Al Jazeera English, as well as concise newsletters like The Skimm or Morning Brew.",
+      "text_lemmatized": "Reliable and timely online sources for staying well-informed about current events include BBC World News, Reuters, and Al Jazeera English, as well as concise newsletters like The Skimm or Morning Brew.",
+      "hash": "194c492393c93bb3d540f4f9f82c3a5c",
+      "created_at": "2026-08-29T01:24:33.967217+00:00",
+      "updated_at": "2026-08-29T01:24:33.967217+00:00",
+      "attributed_to": "assistant"
+    },
+    "d4447859-d016-4d8c-8ab4-e05a41f26af4": {
+      "user_id": "persona184",
+      "data": "To avoid information overload, users can subscribe to aggregator apps like Feedly to filter headlines by region and topic.",
+      "text_lemmatized": "To avoid information overload, users can subscribe to aggregator apps like Feedly to filter headlines by region and topic.",
+      "hash": "abe8b5e2f72e2d9b4cf28c43f6cd8d09",
+      "created_at": "2026-08-29T01:24:33.967223+00:00",
+      "updated_at": "2026-08-29T01:24:33.967223+00:00",
+      "attributed_to": "assistant"
+    },
+    "cd7a9ae4-9408-4e99-8f9e-60cd2a0a5110": {
+      "user_id": "persona184",
+      "data": "Engaging games for short breaks during the day include Monument Valley, Mini Metro, or Brain It On!, which offer fun and mentally stimulating challenges.",
+      "text_lemmatized": "Engaging games for short breaks during the day include Monument Valley, Mini Metro, or Brain It On!, which offer fun and mentally stimulating challenges.",
+      "hash": "114119408a05b85f6d545e1bdaf37b6d",
+      "created_at": "2026-08-29T01:24:33.967229+00:00",
+      "updated_at": "2026-08-29T01:24:33.967229+00:00",
+      "attributed_to": "assistant"
+    },
+    "9b22b016-cb6d-4bb2-a7e3-171325b4a5b5": {
+      "user_id": "persona184",
+      "data": "Gentle, caffeine-free drinks for unwinding before bed include warm milk, golden milk, fruit-infused warm water, rooibos infusion, peppermint or spearmint tea, and decaf barley tea.",
+      "text_lemmatized": "Gentle, caffeine-free drinks for unwinding before bed include warm milk, golden milk, fruit-infused warm water, rooibos infusion, peppermint or spearmint tea, and decaf barley tea.",
+      "hash": "6163ad69184f411aa7b982d523143fb8",
+      "created_at": "2026-08-29T01:24:33.967235+00:00",
+      "updated_at": "2026-08-29T01:24:33.967235+00:00",
+      "attributed_to": "assistant"
+    },
+    "b774f146-8227-4ddb-8634-3bea940e65c3": {
+      "user_id": "persona184",
+      "data": "Long-form audio content that dives deep into understanding why people think and act the way they do includes podcasts like 'Hidden Brain,' 'Speaking of Psychology,' or 'The Psychology Podcast,' which explore the science behind human behavior.",
+      "text_lemmatized": "Long-form audio content that dives deep into understanding why people think and act the way they do includes podcasts like 'Hidden Brain,' 'Speaking of Psychology,' or 'The Psychology Podcast,' which explore the science behind human behavior.",
+      "hash": "ae6571ecc5385e9baaf10ed5b0799e4d",
+      "created_at": "2026-08-29T01:24:33.967241+00:00",
+      "updated_at": "2026-08-29T01:24:33.967241+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "7a4ac632-74fd-403c-bb39-e26bdb6fd49e",
+    "1": "440c3b87-bf14-4609-816b-c324cb1868f7",
+    "2": "a73fbcfc-b7a1-4aae-992f-3f39bb55586e",
+    "3": "c9658c85-eea2-4369-8e34-5bed41daabf5",
+    "4": "b847feb5-0e96-4e80-80e2-75521ac173e4",
+    "5": "80c25d25-1450-4911-8c4a-9b735e17f1c7",
+    "6": "4639d946-da98-42d4-8cc7-dd418f2d839c",
+    "7": "70a5f82f-5692-4a5e-8634-4f3b0067213e",
+    "8": "ea416150-8142-4cb1-9427-c641f86f4b5a",
+    "9": "410f3135-5720-4602-9654-8fba025072d2",
+    "10": "09e0dfb5-c69b-4c43-91ba-0715cc4bd076",
+    "11": "90ab5452-06a0-41d9-8415-9606728ad176",
+    "12": "5d8e6bd6-982a-4518-bb4a-f272194e458c",
+    "13": "b4a3cd23-b56d-4526-969e-439244f724df",
+    "14": "b1ef74a5-017a-403d-aff6-5319e0c0254e",
+    "15": "04b8cf64-6ee8-4404-af21-9a2df9cdf0a9",
+    "16": "e1b4d866-7b75-4248-a228-16a451454b32",
+    "17": "d4adb70a-e70b-47b5-bf07-9aa068f2a5fe",
+    "18": "ec182315-4fa9-4090-8c1b-e9c6414d25b3",
+    "19": "790ceeb4-6790-40da-9af6-9f5bf0e86e65",
+    "20": "0e50e2e5-7ebe-4846-8ba1-8e2a10fe5c91",
+    "21": "692f6f2e-5563-467a-a39b-64f642976e2f",
+    "22": "1c32bb74-aec9-4591-9a78-a0a9238ccf7a",
+    "23": "5c833d31-35bc-499f-92ab-946dfe324da5",
+    "24": "c5c5625c-a162-4eff-b66c-9703f3d364fe",
+    "25": "6f32a6bd-bb06-4ea8-9da2-831b4d96c157",
+    "26": "8cb9f2b3-56e4-4356-a195-d0a3ce4a66b0",
+    "27": "3c1c93bb-9d30-4d07-84f6-42c5eb3a4979",
+    "28": "8a7b4b30-e036-42a5-a2fb-f51467090694",
+    "29": "c175c232-ecd2-439b-9784-8c19edf559ef",
+    "30": "06db0b14-9d65-4bf3-b742-f367dda31755",
+    "31": "0e14ca7a-0bf3-49d3-b6e4-baae978dba06",
+    "32": "abfc24c4-7bad-4c86-97e8-07c9f1e66ae5",
+    "33": "1bf9fbfd-79ce-491f-aa34-8d27030d6c74",
+    "34": "253bb5f7-2535-47ca-8806-9924ec529c28",
+    "35": "7e0097c2-fb36-4abd-9ddc-ae8f72334d90",
+    "36": "0bda0f1d-e610-42dd-87da-89809698b344",
+    "37": "c28236df-d0a6-43f2-af95-b6d1b417d96b",
+    "38": "c63e54bf-f2c1-4b1d-99ed-5f38fea44f8c",
+    "39": "8633f540-9736-42ac-9d06-c92dbe8d24ad",
+    "40": "121e0c99-1c34-49c1-8f13-0e821ca51aae",
+    "41": "aeef6900-8f23-46d9-9861-c882eb692474",
+    "42": "5ba371a9-ce0a-40d2-8375-e535cf946bfc",
+    "43": "96c006a4-fe7c-4538-b6b8-2b65ef14cb47",
+    "44": "1d3fe1bd-c91e-4fa7-8bb7-066a0062a651",
+    "45": "8a73e480-ed35-487d-8634-8c60ade61d4b",
+    "46": "95e07831-6d16-402e-9d3f-ec45d284188a",
+    "47": "543e9d80-c9bc-43b9-ac75-36e4d40cab71",
+    "48": "ce5d2a52-129c-4563-a8ca-1fae015e6891",
+    "49": "4fb7dd71-8084-481c-accf-0184e6acbae9",
+    "50": "d0173a01-1310-4426-af13-a779d8df3dfd",
+    "51": "467881f6-7c18-4c90-976c-ba664f5789e6",
+    "52": "b3fa0914-6575-4ef0-a9d1-1d3f6d3d90f8",
+    "53": "9402f913-cacc-41c0-a416-261c5d04918f",
+    "54": "89c599be-c962-46c9-81f3-4248f7980d4e",
+    "55": "74718900-fa70-43de-b1cf-95f920626485",
+    "56": "9f0eb6fe-8214-4a6f-a33d-5d1d0c4187e3",
+    "57": "5d84400e-9678-4026-9b60-aa13bb0a2386",
+    "58": "6dd6e961-aa6a-4cb8-b4c0-018167b094c9",
+    "59": "90368a52-c61b-44af-a0c7-a49a15d23d5d",
+    "60": "181807c4-7755-4ff3-a14f-edf0bff57a9f",
+    "61": "a98b722a-69c6-453b-9390-7fb047956035",
+    "62": "4220c79d-6863-4892-985d-da594577f475",
+    "63": "3fcdbc2b-2a45-4a7b-8ea2-d9138ec6f2e9",
+    "64": "5f2fe2f4-a6b7-4c27-b419-b1ce204cd659",
+    "65": "1ffabec4-7b29-4936-af5f-17819e10520c",
+    "66": "44e7315f-20bc-4eca-92db-e7576fc925f2",
+    "67": "f033a9db-6327-403e-add6-8787458c8966",
+    "68": "a2a47d40-9eef-4680-b237-6a72cacfe97d",
+    "69": "6534c59e-2827-428e-903f-5ec53990f85c",
+    "70": "2ea9e820-da65-4c53-9a66-4c64749c9acd",
+    "71": "1de4a5bf-55de-4c77-88f3-6a3be9dd43ec",
+    "72": "32ca5b33-54ba-4f80-bc9a-78651d0109f0",
+    "73": "ca1624c0-e375-489d-b066-0d80daaf4489",
+    "74": "c2520b04-7dde-4618-abda-0f49ee9f8747",
+    "75": "3c85d5a9-5f2b-4a29-bb5e-5ca2b2918282",
+    "76": "0e66fec8-560d-4bd7-957f-d73d84800ebe",
+    "77": "74f327e9-ee25-46b1-97c8-653d6746ba1e",
+    "78": "b7ec64c8-3ad8-4fd3-9f3c-bd33201d2c6e",
+    "79": "a684d238-17fc-4f61-ac08-de30acff5ffd",
+    "80": "2dec3f26-e539-4519-a978-4b28b70f7079",
+    "81": "62f5179e-7a04-40a7-8a55-331e8364847e",
+    "82": "4e41cae2-d226-4fea-b71b-21e2d0b57757",
+    "83": "5113c79e-cde5-4dc5-ae6c-fe68d772a78b",
+    "84": "4cbe6a8d-c75c-4a06-a6c9-6fa000b47df9",
+    "85": "be1b04ca-3b49-415e-b71a-7b70e7e0f121",
+    "86": "bed74626-8eeb-424a-946c-8998c0e08410",
+    "87": "3ead3399-3151-442f-93b6-651972dc3090",
+    "88": "ad4b8636-fae3-4453-9902-488c83f6f100",
+    "89": "a74f6548-cf98-453f-b87a-4055644f9c7b",
+    "90": "544378ed-28c3-4e93-8a8b-0df31bfffab9",
+    "91": "f7bffa39-5211-4eae-9bca-2c513cb4a808",
+    "92": "aedabdea-5bf3-4a38-93e5-98e289cdcc42",
+    "93": "19ef2927-bce7-4227-9e4c-f37ab83a819d",
+    "94": "bd415294-a171-420a-9361-e670ee44956f",
+    "95": "8ded1c34-cb85-4e43-a4a2-026ca87cfa5c",
+    "96": "2e9255bf-aacd-40c0-a255-5917398ba4e1",
+    "97": "44eb8da9-d887-4904-bb2d-91e6f004c671",
+    "98": "a2247dd8-5036-4d74-9d23-cb1525ae0dc3",
+    "99": "0fc34ba1-a71d-4dbc-af9b-bcca84375c0a",
+    "100": "11172995-d3df-41c6-841c-31303ac310ef",
+    "101": "90fd4945-742b-4d45-b773-a03570b5e639",
+    "102": "a8b2235d-1ddf-41bb-9f59-0081f4a10830",
+    "103": "2b07f8c4-1201-4f69-b862-b29e89a287d3",
+    "104": "5a174f58-23b4-4f7a-bc9d-5cdbd11450c5",
+    "105": "039635f9-0201-45e7-9ae1-24fe6212451d",
+    "106": "9bfb1408-8563-42d9-9e84-d3432fabed36",
+    "107": "4d6a9936-7e76-4526-80d1-a498da785ecb",
+    "108": "5a5f82db-8bce-4b67-bc8c-ab8ccfe78b1e",
+    "109": "ae065402-ae1d-470c-a309-ed610a5c5b49",
+    "110": "f360d720-bb75-42ef-8daa-ade0d2e2443b",
+    "111": "bb03acba-ac10-4dbc-8e0b-886f68f8a026",
+    "112": "3c645167-48f3-4231-9959-db255eff3810",
+    "113": "6fd99c3d-b1cf-4893-9ddc-5e5f5a6bcf4e",
+    "114": "965e8230-aae7-43e7-9156-478ea412b7c1",
+    "115": "d2330f08-90b4-438d-90b3-0d6f7884d572",
+    "116": "11e2b78f-f545-4393-8529-999bf6872961",
+    "117": "9cd1d3e5-8af9-4cd2-bc32-89fb840936e4",
+    "118": "6659158e-df8c-45a1-b208-e70f16dde92c",
+    "119": "543c26a6-48f8-48a2-8a70-9f8390264344",
+    "120": "2cdcf89f-543d-41dc-a6dd-f75ed127d55e",
+    "121": "6cb83eb3-17be-485f-8a3c-f474d7e84205",
+    "122": "a771dd93-7b0f-47da-a7e7-0129487a53c1",
+    "123": "26314019-002b-4ee7-9aa5-896cb4bca8c6",
+    "124": "13cc4df1-97c8-45d3-b466-b5af2e2a56db",
+    "125": "36d66b05-dfac-4300-9a38-7aedf3683191",
+    "126": "4ab9202d-d2c6-4751-a5df-058fe1ea3583",
+    "127": "46fbbdbd-a16b-4428-b943-328bea32a5dc",
+    "128": "2e60d6a7-2659-4fd3-8094-a6a2417a8608",
+    "129": "b40439c1-b959-43de-8cde-703a86a14bce",
+    "130": "3497b27c-8fb1-4dd8-87c4-97e9af452b8a",
+    "131": "1c2c5529-b022-49af-a631-9096cebf69b5",
+    "132": "195aba08-836a-45f4-bc63-0f1579210761",
+    "133": "2f26e8a1-ddef-41f5-acc0-5dd78e78d865",
+    "134": "aaad95f7-a20b-4b65-9b30-ce93087c3dbf",
+    "135": "c086740a-097d-47b6-bbdc-a009280856d9",
+    "136": "4bf85cef-dd12-4931-bc92-7567fad9aa4c",
+    "137": "170a84a7-e009-4b47-a002-b99f29b47bf4",
+    "138": "22a91a49-3da5-4250-9ff0-8675146fe8a1",
+    "139": "9a699da3-753b-4b76-83ba-9550a4fa9eb6",
+    "140": "bb55347f-9b56-496d-9344-de19867eec09",
+    "141": "96b80241-7c81-44c7-829c-4ad36d38bb82",
+    "142": "98b3fa69-927f-4413-aeb0-9872533a4caa",
+    "143": "1c05441b-df34-43af-877e-fe92492a489e",
+    "144": "a49faccf-2f37-4a27-b6ad-5164f41b8ed2",
+    "145": "7726b27e-a2ad-486d-9f2b-c68a355198b5",
+    "146": "749592da-1671-4721-b7f0-a1da5c7c031f",
+    "147": "d4447859-d016-4d8c-8ab4-e05a41f26af4",
+    "148": "cd7a9ae4-9408-4e99-8f9e-60cd2a0a5110",
+    "149": "9b22b016-cb6d-4bb2-a7e3-171325b4a5b5",
+    "150": "b774f146-8227-4ddb-8634-3bea940e65c3"
+  }
+}

@@ -1,0 +1,1732 @@
+{
+  "games": [
+    {
+      "idx": 0,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Mug",
+        "parent_target": "",
+        "toggle_target": "DeskLamp"
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "ToggleObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 1,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "SaltShaker",
+        "parent_target": "Drawer",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "saltshaker"
+        },
+        {
+          "action": "take",
+          "param": "saltshaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 2,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Vase",
+        "parent_target": "Safe",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "vase"
+        },
+        {
+          "action": "take",
+          "param": "vase"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 3,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_144951_587345/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Book",
+        "parent_target": "",
+        "toggle_target": "DeskLamp"
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "ToggleObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "book"
+        },
+        {
+          "action": "take",
+          "param": "book"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 4,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "SoapBar",
+        "parent_target": "CounterTop",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 5,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110445_675754/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Knife",
+        "parent_target": "CounterTop",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "knife"
+        },
+        {
+          "action": "take",
+          "param": "knife"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "knife"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 6,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "SoapBar",
+        "parent_target": "CounterTop",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 6,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 5,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 7,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091835_825830/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Bread",
+        "parent_target": "CounterTop",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CoolObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "bread"
+        },
+        {
+          "action": "take",
+          "param": "bread"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "bread"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 8,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121559_082363/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Mug",
+        "parent_target": "Cabinet",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CoolObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 9,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Egg",
+        "parent_target": "Microwave",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "egg"
+        },
+        {
+          "action": "take",
+          "param": "egg"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "egg"
+        },
+        {
+          "action": "find",
+          "param": "microwave"
+        },
+        {
+          "action": "put",
+          "param": "microwave"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 10,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Mug",
+        "parent_target": "Cabinet",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CoolObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 11,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Cloth",
+        "parent_target": "CounterTop",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "cloth"
+        },
+        {
+          "action": "take",
+          "param": "cloth"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "cloth"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 12,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051056_585414/game.tw-pddl",
+      "task_type": "pick_two_obj_and_place",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "CD",
+        "parent_target": "Safe",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 9,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 8,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "cd"
+        },
+        {
+          "action": "take",
+          "param": "cd"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        },
+        {
+          "action": "find",
+          "param": "cd"
+        },
+        {
+          "action": "take",
+          "param": "cd"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        }
+      ],
+      "K_USABLE": 8,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 13,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061158_110530/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Bowl",
+        "parent_target": "Cabinet",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "bowl"
+        },
+        {
+          "action": "take",
+          "param": "bowl"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "bowl"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 14,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061130_844814/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Bowl",
+        "parent_target": "Cabinet",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "bowl"
+        },
+        {
+          "action": "take",
+          "param": "bowl"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "bowl"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 15,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567/game.tw-pddl",
+      "task_type": "pick_heat_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Apple",
+        "parent_target": "GarbageCan",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "HeatObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "apple"
+        },
+        {
+          "action": "take",
+          "param": "apple"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "apple"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 16,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "CD",
+        "parent_target": "",
+        "toggle_target": "DeskLamp"
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "ToggleObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "cd"
+        },
+        {
+          "action": "take",
+          "param": "cd"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 17,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_210238_431966/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Mug",
+        "parent_target": "Desk",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desk"
+        },
+        {
+          "action": "put",
+          "param": "desk"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 18,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171850_960211/game.tw-pddl",
+      "task_type": "pick_heat_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Mug",
+        "parent_target": "CoffeeMachine",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "HeatObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "coffeemachine"
+        },
+        {
+          "action": "put",
+          "param": "coffeemachine"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 19,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161853_945788/game.tw-pddl",
+      "task_type": "pick_heat_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Potato",
+        "parent_target": "GarbageCan",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "HeatObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "potato"
+        },
+        {
+          "action": "take",
+          "param": "potato"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "potato"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 20,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320/game.tw-pddl",
+      "task_type": "pick_heat_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Apple",
+        "parent_target": "Fridge",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "HeatObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "apple"
+        },
+        {
+          "action": "take",
+          "param": "apple"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "apple"
+        },
+        {
+          "action": "find",
+          "param": "fridge"
+        },
+        {
+          "action": "put",
+          "param": "fridge"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 21,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133919_856963/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Bowl",
+        "parent_target": "",
+        "toggle_target": "DeskLamp"
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "ToggleObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "bowl"
+        },
+        {
+          "action": "take",
+          "param": "bowl"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 22,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Potato",
+        "parent_target": "Microwave",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CoolObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "potato"
+        },
+        {
+          "action": "take",
+          "param": "potato"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "potato"
+        },
+        {
+          "action": "find",
+          "param": "microwave"
+        },
+        {
+          "action": "put",
+          "param": "microwave"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 23,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Watch",
+        "parent_target": "Safe",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 4,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 3,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "watch"
+        },
+        {
+          "action": "take",
+          "param": "watch"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 24,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Bowl",
+        "parent_target": "",
+        "toggle_target": "DeskLamp"
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "ToggleObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "bowl"
+        },
+        {
+          "action": "take",
+          "param": "bowl"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 25,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Mug",
+        "parent_target": "Desk",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desk"
+        },
+        {
+          "action": "put",
+          "param": "desk"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 26,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102608_318800/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Tomato",
+        "parent_target": "Microwave",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 6,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CoolObject",
+        "GotoLocation",
+        "PutObject"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 5,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "tomato"
+        },
+        {
+          "action": "take",
+          "param": "tomato"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "tomato"
+        },
+        {
+          "action": "find",
+          "param": "microwave"
+        },
+        {
+          "action": "put",
+          "param": "microwave"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 27,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213533_897289/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Plate",
+        "parent_target": "CounterTop",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "plate"
+        },
+        {
+          "action": "take",
+          "param": "plate"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "plate"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 28,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "Pencil",
+        "parent_target": "Shelf",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 5,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "pencil"
+        },
+        {
+          "action": "take",
+          "param": "pencil"
+        },
+        {
+          "action": "find",
+          "param": "shelf"
+        },
+        {
+          "action": "put",
+          "param": "shelf"
+        }
+      ],
+      "K_USABLE": 4,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    },
+    {
+      "idx": 29,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "SoapBar",
+        "parent_target": "Cabinet",
+        "toggle_target": ""
+      },
+      "alfred_high_pddl_len": 7,
+      "alfred_high_pddl_actions": [
+        "GotoLocation",
+        "PickupObject",
+        "GotoLocation",
+        "CleanObject",
+        "GotoLocation",
+        "PutObject",
+        "NoOp"
+      ],
+      "alfred_num_subgoals_after_meta_removal": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "K_USABLE": 6,
+      "reachable_ranks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_intermediate_programmatically_checkable": true,
+      "structurally_valid": true,
+      "K_USABLE_ge_2": true
+    }
+  ],
+  "summary": {
+    "n": 30,
+    "structurally_valid": 30,
+    "K_USABLE_ge_2": 30,
+    "all_checkable": 30,
+    "K_min": 4,
+    "K_median": 6.0,
+    "K_mean": 5.333333333333333,
+    "K_p75": 6.0,
+    "K_p90": 6.0,
+    "K_max": 8,
+    "task_type_counts": {
+      "look_at_obj_in_light": 5,
+      "pick_and_place_simple": 6,
+      "pick_clean_then_place_in_recep": 9,
+      "pick_cool_then_place_in_recep": 5,
+      "pick_two_obj_and_place": 1,
+      "pick_heat_then_place_in_recep": 4
+    }
+  },
+  "frozen_list_sha256": "7d2a595136ff82aba999d5f71f0fd258ec36ac6be9fb819393113c286190fa4c"
+}

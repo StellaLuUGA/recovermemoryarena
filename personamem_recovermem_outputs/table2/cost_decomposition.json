@@ -1,0 +1,1784 @@
+{
+  "unit": "exact server-reported LLM tokens (usage.prompt_tokens + usage.completion_tokens)",
+  "alpha": 0.1,
+  "weighting": "persona-equal; normalized per persona against that persona's raw-history-only cost",
+  "cost_fast_path": "PARTIAL",
+  "replay_integrity": {
+    "n_branch_rows": 286,
+    "n_write_rows": 24,
+    "state_hash_matches_formal": true,
+    "option_order_hash_matches_formal": true,
+    "mem0_memory_count_matches_formal": true,
+    "memory_evidence_tokens_match": 286,
+    "recovery_evidence_tokens_match": 286,
+    "memory_prompt_tokens_match": 286,
+    "recovery_prompt_tokens_match": 286,
+    "retrieval_llm_calls_total": 0,
+    "memory_choice_match": 224,
+    "recovery_choice_match": 225,
+    "memory_completion_identical": 38,
+    "recovery_completion_identical": 21,
+    "n_new_llm_calls_answer": 572,
+    "n_new_llm_calls_write": 757,
+    "n_mem0_rebuilds": 24,
+    "write_path_equivalent": true,
+    "all_usage_server_reported": true,
+    "n_new_llm_calls_total": 1329
+  },
+  "raw_history_only_reference": {
+    "definition": "raw-history-only: no Mem0 instantiation, no writes, no retrieval, no controller score; every selected question answered by the frozen RECOVERY route. C_write = C_ctrl = C_mem = 0.",
+    "is_a_table2_row": false,
+    "C_raw_per_persona": {
+      "901": 34348,
+      "265": 36182,
+      "259": 32190,
+      "995": 34374,
+      "72": 33845,
+      "235": 34022,
+      "137": 33862,
+      "737": 33676,
+      "741": 34485,
+      "76": 34214,
+      "521": 34051,
+      "604": 33283,
+      "199": 33786,
+      "332": 31465,
+      "277": 34944,
+      "716": 34236,
+      "721": 34059,
+      "351": 33887,
+      "184": 34336,
+      "527": 34375,
+      "816": 33940,
+      "209": 34364,
+      "213": 34063,
+      "800": 34621
+    },
+    "C_raw_total": 816608,
+    "reuse_justification": "The RECOVERY branch calls TrajectoryRetriever over the immutable raw history and never touches the Mem0 store (V2Runner.run_instance calls self.recovery.recover, and the answerer sees only rec_ev.text), so a separate raw-only execution would issue byte-identical requests. The replayed recovery prompt token counts equal the formal ones on every decision, which confirms it empirically."
+  },
+  "per_persona": {
+    "901": {
+      "C_write": 436505,
+      "C_write_in": 414745,
+      "C_write_out": 21760,
+      "C_write_calls": 33,
+      "C_raw": 34348,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 436505,
+          "C_ctrl": 0,
+          "C_mem": 25597,
+          "C_rec": 0,
+          "C_total": 462102,
+          "normalized_cost": 13.453534412483988,
+          "norm_C_write": 12.708309071852801,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7452253406311867,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 436505,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34348,
+          "C_total": 470853,
+          "normalized_cost": 13.708309071852801,
+          "norm_C_write": 12.708309071852801,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 436505,
+          "C_ctrl": 25597,
+          "C_mem": 0,
+          "C_rec": 34348,
+          "C_total": 496450,
+          "normalized_cost": 14.453534412483988,
+          "norm_C_write": 12.708309071852801,
+          "norm_C_ctrl": 0.7452253406311867,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 436505,
+          "C_ctrl": 23396,
+          "C_mem": 2201,
+          "C_rec": 31463,
+          "C_total": 493565,
+          "normalized_cost": 14.369541166880168,
+          "norm_C_write": 12.708309071852801,
+          "norm_C_ctrl": 0.6811459182485152,
+          "norm_C_mem": 0.06407942238267147,
+          "norm_C_rec": 0.9160067543961803
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 436505,
+          "C_ctrl": 25597,
+          "C_mem": 0,
+          "C_rec": 34348,
+          "C_total": 496450,
+          "normalized_cost": 14.453534412483988,
+          "norm_C_write": 12.708309071852801,
+          "norm_C_ctrl": 0.7452253406311867,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "265": {
+      "C_write": 434376,
+      "C_write_in": 413713,
+      "C_write_out": 20663,
+      "C_write_calls": 33,
+      "C_raw": 36182,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 434376,
+          "C_ctrl": 0,
+          "C_mem": 28758,
+          "C_rec": 0,
+          "C_total": 463134,
+          "normalized_cost": 12.800121607429109,
+          "norm_C_write": 12.005306505997456,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7948151014316511,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 434376,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 36182,
+          "C_total": 470558,
+          "normalized_cost": 13.005306505997456,
+          "norm_C_write": 12.005306505997456,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 434376,
+          "C_ctrl": 23450,
+          "C_mem": 5308,
+          "C_rec": 29534,
+          "C_total": 492668,
+          "normalized_cost": 13.616383837267149,
+          "norm_C_write": 12.005306505997456,
+          "norm_C_ctrl": 0.6481123210436128,
+          "norm_C_mem": 0.14670278038803825,
+          "norm_C_rec": 0.816262229838041
+        },
+        "Random score + CRC": {
+          "C_write": 434376,
+          "C_ctrl": 26163,
+          "C_mem": 2595,
+          "C_rec": 33071,
+          "C_total": 496205,
+          "normalized_cost": 13.714139627439058,
+          "norm_C_write": 12.005306505997456,
+          "norm_C_ctrl": 0.7230943563097673,
+          "norm_C_mem": 0.07172074512188381,
+          "norm_C_rec": 0.9140180200099497
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 434376,
+          "C_ctrl": 23450,
+          "C_mem": 5308,
+          "C_rec": 29534,
+          "C_total": 492668,
+          "normalized_cost": 13.616383837267149,
+          "norm_C_write": 12.005306505997456,
+          "norm_C_ctrl": 0.6481123210436128,
+          "norm_C_mem": 0.14670278038803825,
+          "norm_C_rec": 0.816262229838041
+        }
+      }
+    },
+    "259": {
+      "C_write": 446106,
+      "C_write_in": 424749,
+      "C_write_out": 21357,
+      "C_write_calls": 34,
+      "C_raw": 32190,
+      "T_i": 11,
+      "policies": {
+        "Always Trust": {
+          "C_write": 446106,
+          "C_ctrl": 0,
+          "C_mem": 25060,
+          "C_rec": 0,
+          "C_total": 471166,
+          "normalized_cost": 14.637030133581858,
+          "norm_C_write": 13.858527493010252,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7785026405716061,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 446106,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 32190,
+          "C_total": 478296,
+          "normalized_cost": 14.858527493010252,
+          "norm_C_write": 13.858527493010252,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 446106,
+          "C_ctrl": 25060,
+          "C_mem": 0,
+          "C_rec": 32190,
+          "C_total": 503356,
+          "normalized_cost": 15.637030133581858,
+          "norm_C_write": 13.858527493010252,
+          "norm_C_ctrl": 0.7785026405716061,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 446106,
+          "C_ctrl": 25060,
+          "C_mem": 0,
+          "C_rec": 32190,
+          "C_total": 503356,
+          "normalized_cost": 15.637030133581858,
+          "norm_C_write": 13.858527493010252,
+          "norm_C_ctrl": 0.7785026405716061,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 446106,
+          "C_ctrl": 25060,
+          "C_mem": 0,
+          "C_rec": 32190,
+          "C_total": 503356,
+          "normalized_cost": 15.637030133581858,
+          "norm_C_write": 13.858527493010252,
+          "norm_C_ctrl": 0.7785026405716061,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "995": {
+      "C_write": 436479,
+      "C_write_in": 414851,
+      "C_write_out": 21628,
+      "C_write_calls": 33,
+      "C_raw": 34374,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 436479,
+          "C_ctrl": 0,
+          "C_mem": 27585,
+          "C_rec": 0,
+          "C_total": 464064,
+          "normalized_cost": 13.500436376330947,
+          "norm_C_write": 12.697940303717926,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8024960726130215,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 436479,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34374,
+          "C_total": 470853,
+          "normalized_cost": 13.697940303717926,
+          "norm_C_write": 12.697940303717926,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 436479,
+          "C_ctrl": 22851,
+          "C_mem": 4734,
+          "C_rec": 28768,
+          "C_total": 492832,
+          "normalized_cost": 14.337347995578053,
+          "norm_C_write": 12.697940303717926,
+          "norm_C_ctrl": 0.6647757025658928,
+          "norm_C_mem": 0.13772037004712864,
+          "norm_C_rec": 0.8369116192471053
+        },
+        "Random score + CRC": {
+          "C_write": 436479,
+          "C_ctrl": 27585,
+          "C_mem": 0,
+          "C_rec": 34374,
+          "C_total": 498438,
+          "normalized_cost": 14.500436376330947,
+          "norm_C_write": 12.697940303717926,
+          "norm_C_ctrl": 0.8024960726130215,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 436479,
+          "C_ctrl": 27585,
+          "C_mem": 0,
+          "C_rec": 34374,
+          "C_total": 498438,
+          "normalized_cost": 14.500436376330947,
+          "norm_C_write": 12.697940303717926,
+          "norm_C_ctrl": 0.8024960726130215,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "72": {
+      "C_write": 313635,
+      "C_write_in": 300429,
+      "C_write_out": 13206,
+      "C_write_calls": 24,
+      "C_raw": 33845,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 313635,
+          "C_ctrl": 0,
+          "C_mem": 28718,
+          "C_rec": 0,
+          "C_total": 342353,
+          "normalized_cost": 10.115319840449105,
+          "norm_C_write": 9.266804550155118,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8485152902939873,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 313635,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33845,
+          "C_total": 347480,
+          "normalized_cost": 10.266804550155118,
+          "norm_C_write": 9.266804550155118,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 313635,
+          "C_ctrl": 17040,
+          "C_mem": 11678,
+          "C_rec": 19692,
+          "C_total": 362045,
+          "normalized_cost": 10.69714876643522,
+          "norm_C_write": 9.266804550155118,
+          "norm_C_ctrl": 0.5034717092628158,
+          "norm_C_mem": 0.3450435810311715,
+          "norm_C_rec": 0.5818289259861131
+        },
+        "Random score + CRC": {
+          "C_write": 313635,
+          "C_ctrl": 26319,
+          "C_mem": 2399,
+          "C_rec": 31015,
+          "C_total": 373368,
+          "normalized_cost": 11.031703353523415,
+          "norm_C_write": 9.266804550155118,
+          "norm_C_ctrl": 0.7776333284089231,
+          "norm_C_mem": 0.07088196188506427,
+          "norm_C_rec": 0.9163835130743093
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 313635,
+          "C_ctrl": 19279,
+          "C_mem": 9439,
+          "C_rec": 22528,
+          "C_total": 364881,
+          "normalized_cost": 10.780942532131776,
+          "norm_C_write": 9.266804550155118,
+          "norm_C_ctrl": 0.5696262372580884,
+          "norm_C_mem": 0.27888905303589895,
+          "norm_C_rec": 0.665622691682671
+        }
+      }
+    },
+    "235": {
+      "C_write": 410768,
+      "C_write_in": 391688,
+      "C_write_out": 19080,
+      "C_write_calls": 31,
+      "C_raw": 34022,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 410768,
+          "C_ctrl": 0,
+          "C_mem": 28480,
+          "C_rec": 0,
+          "C_total": 439248,
+          "normalized_cost": 12.91070483804597,
+          "norm_C_write": 12.073599435659279,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.837105402386691,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 410768,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34022,
+          "C_total": 444790,
+          "normalized_cost": 13.073599435659279,
+          "norm_C_write": 12.073599435659279,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 410768,
+          "C_ctrl": 28480,
+          "C_mem": 0,
+          "C_rec": 34022,
+          "C_total": 473270,
+          "normalized_cost": 13.91070483804597,
+          "norm_C_write": 12.073599435659279,
+          "norm_C_ctrl": 0.837105402386691,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 410768,
+          "C_ctrl": 28480,
+          "C_mem": 0,
+          "C_rec": 34022,
+          "C_total": 473270,
+          "normalized_cost": 13.91070483804597,
+          "norm_C_write": 12.073599435659279,
+          "norm_C_ctrl": 0.837105402386691,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 410768,
+          "C_ctrl": 28480,
+          "C_mem": 0,
+          "C_rec": 34022,
+          "C_total": 473270,
+          "normalized_cost": 13.91070483804597,
+          "norm_C_write": 12.073599435659279,
+          "norm_C_ctrl": 0.837105402386691,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "137": {
+      "C_write": 340328,
+      "C_write_in": 323327,
+      "C_write_out": 17001,
+      "C_write_calls": 26,
+      "C_raw": 33862,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 340328,
+          "C_ctrl": 0,
+          "C_mem": 26924,
+          "C_rec": 0,
+          "C_total": 367252,
+          "normalized_cost": 10.84554958360404,
+          "norm_C_write": 10.050440021262773,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7951095623412675,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 340328,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33862,
+          "C_total": 374190,
+          "normalized_cost": 11.050440021262773,
+          "norm_C_write": 10.050440021262773,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 340328,
+          "C_ctrl": 20129,
+          "C_mem": 6795,
+          "C_rec": 25365,
+          "C_total": 392617,
+          "normalized_cost": 11.59461933731026,
+          "norm_C_write": 10.050440021262773,
+          "norm_C_ctrl": 0.5944421475400153,
+          "norm_C_mem": 0.20066741480125214,
+          "norm_C_rec": 0.7490697537062193
+        },
+        "Random score + CRC": {
+          "C_write": 340328,
+          "C_ctrl": 22442,
+          "C_mem": 4482,
+          "C_rec": 28191,
+          "C_total": 395443,
+          "normalized_cost": 11.678075719095151,
+          "norm_C_write": 10.050440021262773,
+          "norm_C_ctrl": 0.6627488039690509,
+          "norm_C_mem": 0.13236075837221664,
+          "norm_C_rec": 0.832526135491111
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 340328,
+          "C_ctrl": 20129,
+          "C_mem": 6795,
+          "C_rec": 25365,
+          "C_total": 392617,
+          "normalized_cost": 11.59461933731026,
+          "norm_C_write": 10.050440021262773,
+          "norm_C_ctrl": 0.5944421475400153,
+          "norm_C_mem": 0.20066741480125214,
+          "norm_C_rec": 0.7490697537062193
+        }
+      }
+    },
+    "737": {
+      "C_write": 432080,
+      "C_write_in": 414278,
+      "C_write_out": 17802,
+      "C_write_calls": 33,
+      "C_raw": 33676,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 432080,
+          "C_ctrl": 0,
+          "C_mem": 27856,
+          "C_rec": 0,
+          "C_total": 459936,
+          "normalized_cost": 13.657679059270697,
+          "norm_C_write": 12.830502434968524,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8271766243021736,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 432080,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33676,
+          "C_total": 465756,
+          "normalized_cost": 13.830502434968524,
+          "norm_C_write": 12.830502434968524,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 432080,
+          "C_ctrl": 27856,
+          "C_mem": 0,
+          "C_rec": 33676,
+          "C_total": 493612,
+          "normalized_cost": 14.657679059270697,
+          "norm_C_write": 12.830502434968524,
+          "norm_C_ctrl": 0.8271766243021736,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 432080,
+          "C_ctrl": 25202,
+          "C_mem": 2654,
+          "C_rec": 30746,
+          "C_total": 490682,
+          "normalized_cost": 14.570673476659936,
+          "norm_C_write": 12.830502434968524,
+          "norm_C_ctrl": 0.7483667894049174,
+          "norm_C_mem": 0.07880983489725621,
+          "norm_C_rec": 0.9129944173892386
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 432080,
+          "C_ctrl": 27856,
+          "C_mem": 0,
+          "C_rec": 33676,
+          "C_total": 493612,
+          "normalized_cost": 14.657679059270697,
+          "norm_C_write": 12.830502434968524,
+          "norm_C_ctrl": 0.8271766243021736,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "741": {
+      "C_write": 428360,
+      "C_write_in": 406913,
+      "C_write_out": 21447,
+      "C_write_calls": 32,
+      "C_raw": 34485,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 428360,
+          "C_ctrl": 0,
+          "C_mem": 26533,
+          "C_rec": 0,
+          "C_total": 454893,
+          "normalized_cost": 13.191039582427143,
+          "norm_C_write": 12.421632593881398,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7694069885457445,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 428360,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34485,
+          "C_total": 462845,
+          "normalized_cost": 13.421632593881398,
+          "norm_C_write": 12.421632593881398,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 428360,
+          "C_ctrl": 19895,
+          "C_mem": 6638,
+          "C_rec": 25814,
+          "C_total": 480707,
+          "normalized_cost": 13.939596926199798,
+          "norm_C_write": 12.421632593881398,
+          "norm_C_ctrl": 0.5769175003624765,
+          "norm_C_mem": 0.19248948818326808,
+          "norm_C_rec": 0.7485573437726548
+        },
+        "Random score + CRC": {
+          "C_write": 428360,
+          "C_ctrl": 26533,
+          "C_mem": 0,
+          "C_rec": 34485,
+          "C_total": 489378,
+          "normalized_cost": 14.191039582427143,
+          "norm_C_write": 12.421632593881398,
+          "norm_C_ctrl": 0.7694069885457445,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 428360,
+          "C_ctrl": 26533,
+          "C_mem": 0,
+          "C_rec": 34485,
+          "C_total": 489378,
+          "normalized_cost": 14.191039582427143,
+          "norm_C_write": 12.421632593881398,
+          "norm_C_ctrl": 0.7694069885457445,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "76": {
+      "C_write": 440588,
+      "C_write_in": 415581,
+      "C_write_out": 25007,
+      "C_write_calls": 33,
+      "C_raw": 34214,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 440588,
+          "C_ctrl": 0,
+          "C_mem": 29279,
+          "C_rec": 0,
+          "C_total": 469867,
+          "normalized_cost": 13.733179400245513,
+          "norm_C_write": 12.877418600572865,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8557607996726486,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 440588,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34214,
+          "C_total": 474802,
+          "normalized_cost": 13.877418600572865,
+          "norm_C_write": 12.877418600572865,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 440588,
+          "C_ctrl": 14719,
+          "C_mem": 14560,
+          "C_rec": 17049,
+          "C_total": 486916,
+          "normalized_cost": 14.231484187759397,
+          "norm_C_write": 12.877418600572865,
+          "norm_C_ctrl": 0.4302040100543637,
+          "norm_C_mem": 0.4255567896182849,
+          "norm_C_rec": 0.4983047875138832
+        },
+        "Random score + CRC": {
+          "C_write": 440588,
+          "C_ctrl": 29279,
+          "C_mem": 0,
+          "C_rec": 34214,
+          "C_total": 504081,
+          "normalized_cost": 14.733179400245513,
+          "norm_C_write": 12.877418600572865,
+          "norm_C_ctrl": 0.8557607996726486,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 440588,
+          "C_ctrl": 22228,
+          "C_mem": 7051,
+          "C_rec": 25695,
+          "C_total": 495562,
+          "normalized_cost": 14.484187759396738,
+          "norm_C_write": 12.877418600572865,
+          "norm_C_ctrl": 0.6496755714035191,
+          "norm_C_mem": 0.2060852282691296,
+          "norm_C_rec": 0.7510083591512247
+        }
+      }
+    },
+    "521": {
+      "C_write": 369129,
+      "C_write_in": 351469,
+      "C_write_out": 17660,
+      "C_write_calls": 28,
+      "C_raw": 34051,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 369129,
+          "C_ctrl": 0,
+          "C_mem": 25891,
+          "C_rec": 0,
+          "C_total": 395020,
+          "normalized_cost": 11.600834043053068,
+          "norm_C_write": 10.84047458224428,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7603594608087868,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 369129,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34051,
+          "C_total": 403180,
+          "normalized_cost": 11.84047458224428,
+          "norm_C_write": 10.84047458224428,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 369129,
+          "C_ctrl": 17220,
+          "C_mem": 8671,
+          "C_rec": 22594,
+          "C_total": 417614,
+          "normalized_cost": 12.264368153651874,
+          "norm_C_write": 10.84047458224428,
+          "norm_C_ctrl": 0.5057120202049866,
+          "norm_C_mem": 0.2546474406038002,
+          "norm_C_rec": 0.6635341105988076
+        },
+        "Random score + CRC": {
+          "C_write": 369129,
+          "C_ctrl": 23739,
+          "C_mem": 2152,
+          "C_rec": 31207,
+          "C_total": 426227,
+          "normalized_cost": 12.517312266893777,
+          "norm_C_write": 10.84047458224428,
+          "norm_C_ctrl": 0.6971601421397315,
+          "norm_C_mem": 0.06319931866905525,
+          "norm_C_rec": 0.9164782238407095
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 369129,
+          "C_ctrl": 19372,
+          "C_mem": 6519,
+          "C_rec": 25438,
+          "C_total": 420458,
+          "normalized_cost": 12.347889929811165,
+          "norm_C_write": 10.84047458224428,
+          "norm_C_ctrl": 0.5689113388740419,
+          "norm_C_mem": 0.19144812193474495,
+          "norm_C_rec": 0.7470558867580982
+        }
+      }
+    },
+    "604": {
+      "C_write": 447064,
+      "C_write_in": 423796,
+      "C_write_out": 23268,
+      "C_write_calls": 34,
+      "C_raw": 33283,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 447064,
+          "C_ctrl": 0,
+          "C_mem": 25310,
+          "C_rec": 0,
+          "C_total": 472374,
+          "normalized_cost": 14.192650902863324,
+          "norm_C_write": 13.432202625965207,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7604482768981161,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 447064,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33283,
+          "C_total": 480347,
+          "normalized_cost": 14.432202625965207,
+          "norm_C_write": 13.432202625965207,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 447064,
+          "C_ctrl": 14643,
+          "C_mem": 10667,
+          "C_rec": 19371,
+          "C_total": 491745,
+          "normalized_cost": 14.774659736201665,
+          "norm_C_write": 13.432202625965207,
+          "norm_C_ctrl": 0.4399543310398702,
+          "norm_C_mem": 0.320493945858246,
+          "norm_C_rec": 0.5820088333383409
+        },
+        "Random score + CRC": {
+          "C_write": 447064,
+          "C_ctrl": 23203,
+          "C_mem": 2107,
+          "C_rec": 30484,
+          "C_total": 502858,
+          "normalized_cost": 15.108553916413785,
+          "norm_C_write": 13.432202625965207,
+          "norm_C_ctrl": 0.6971426854550371,
+          "norm_C_mem": 0.06330559144307905,
+          "norm_C_rec": 0.9159030135504612
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 447064,
+          "C_ctrl": 18910,
+          "C_mem": 6400,
+          "C_rec": 24916,
+          "C_total": 497290,
+          "normalized_cost": 14.9412613045699,
+          "norm_C_write": 13.432202625965207,
+          "norm_C_ctrl": 0.5681579184568699,
+          "norm_C_mem": 0.19229035844124628,
+          "norm_C_rec": 0.7486104017065769
+        }
+      }
+    },
+    "199": {
+      "C_write": 437377,
+      "C_write_in": 414530,
+      "C_write_out": 22847,
+      "C_write_calls": 33,
+      "C_raw": 33786,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 437377,
+          "C_ctrl": 0,
+          "C_mem": 30455,
+          "C_rec": 0,
+          "C_total": 467832,
+          "normalized_cost": 13.846918842123957,
+          "norm_C_write": 12.94550997454567,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.9014088675782869,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 437377,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33786,
+          "C_total": 471163,
+          "normalized_cost": 13.94550997454567,
+          "norm_C_write": 12.94550997454567,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 437377,
+          "C_ctrl": 30455,
+          "C_mem": 0,
+          "C_rec": 33786,
+          "C_total": 501618,
+          "normalized_cost": 14.846918842123957,
+          "norm_C_write": 12.94550997454567,
+          "norm_C_ctrl": 0.9014088675782869,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 437377,
+          "C_ctrl": 27975,
+          "C_mem": 2480,
+          "C_rec": 30872,
+          "C_total": 498704,
+          "normalized_cost": 14.760670100041438,
+          "norm_C_write": 12.94550997454567,
+          "norm_C_ctrl": 0.8280056828272065,
+          "norm_C_mem": 0.07340318475108033,
+          "norm_C_rec": 0.9137512579174806
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 437377,
+          "C_ctrl": 30455,
+          "C_mem": 0,
+          "C_rec": 33786,
+          "C_total": 501618,
+          "normalized_cost": 14.846918842123957,
+          "norm_C_write": 12.94550997454567,
+          "norm_C_ctrl": 0.9014088675782869,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "332": {
+      "C_write": 461210,
+      "C_write_in": 434672,
+      "C_write_out": 26538,
+      "C_write_calls": 35,
+      "C_raw": 31465,
+      "T_i": 11,
+      "policies": {
+        "Always Trust": {
+          "C_write": 461210,
+          "C_ctrl": 0,
+          "C_mem": 22937,
+          "C_rec": 0,
+          "C_total": 484147,
+          "normalized_cost": 15.386842523438741,
+          "norm_C_write": 14.657873828062927,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7289686953758144,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 461210,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 31465,
+          "C_total": 492675,
+          "normalized_cost": 15.657873828062927,
+          "norm_C_write": 14.657873828062927,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 461210,
+          "C_ctrl": 20981,
+          "C_mem": 1956,
+          "C_rec": 28659,
+          "C_total": 512806,
+          "normalized_cost": 16.297664071190212,
+          "norm_C_write": 14.657873828062927,
+          "norm_C_ctrl": 0.6668043858255204,
+          "norm_C_mem": 0.06216430955029398,
+          "norm_C_rec": 0.9108215477514698
+        },
+        "Random score + CRC": {
+          "C_write": 461210,
+          "C_ctrl": 22937,
+          "C_mem": 0,
+          "C_rec": 31465,
+          "C_total": 515612,
+          "normalized_cost": 16.38684252343874,
+          "norm_C_write": 14.657873828062927,
+          "norm_C_ctrl": 0.7289686953758144,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 461210,
+          "C_ctrl": 22937,
+          "C_mem": 0,
+          "C_rec": 31465,
+          "C_total": 515612,
+          "normalized_cost": 16.38684252343874,
+          "norm_C_write": 14.657873828062927,
+          "norm_C_ctrl": 0.7289686953758144,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "277": {
+      "C_write": 439296,
+      "C_write_in": 417974,
+      "C_write_out": 21322,
+      "C_write_calls": 33,
+      "C_raw": 34944,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 439296,
+          "C_ctrl": 0,
+          "C_mem": 26203,
+          "C_rec": 0,
+          "C_total": 465499,
+          "normalized_cost": 13.321285485347985,
+          "norm_C_write": 12.571428571428571,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7498569139194139,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 439296,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34944,
+          "C_total": 474240,
+          "normalized_cost": 13.571428571428571,
+          "norm_C_write": 12.571428571428571,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 439296,
+          "C_ctrl": 26203,
+          "C_mem": 0,
+          "C_rec": 34944,
+          "C_total": 500443,
+          "normalized_cost": 14.321285485347985,
+          "norm_C_write": 12.571428571428571,
+          "norm_C_ctrl": 0.7498569139194139,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 439296,
+          "C_ctrl": 26203,
+          "C_mem": 0,
+          "C_rec": 34944,
+          "C_total": 500443,
+          "normalized_cost": 14.321285485347985,
+          "norm_C_write": 12.571428571428571,
+          "norm_C_ctrl": 0.7498569139194139,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 439296,
+          "C_ctrl": 26203,
+          "C_mem": 0,
+          "C_rec": 34944,
+          "C_total": 500443,
+          "normalized_cost": 14.321285485347985,
+          "norm_C_write": 12.571428571428571,
+          "norm_C_ctrl": 0.7498569139194139,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "716": {
+      "C_write": 422040,
+      "C_write_in": 400980,
+      "C_write_out": 21060,
+      "C_write_calls": 32,
+      "C_raw": 34236,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 422040,
+          "C_ctrl": 0,
+          "C_mem": 27094,
+          "C_rec": 0,
+          "C_total": 449134,
+          "normalized_cost": 13.11876387428438,
+          "norm_C_write": 12.327374693305293,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7913891809790864,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 422040,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34236,
+          "C_total": 456276,
+          "normalized_cost": 13.327374693305293,
+          "norm_C_write": 12.327374693305293,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 422040,
+          "C_ctrl": 27094,
+          "C_mem": 0,
+          "C_rec": 34236,
+          "C_total": 483370,
+          "normalized_cost": 14.11876387428438,
+          "norm_C_write": 12.327374693305293,
+          "norm_C_ctrl": 0.7913891809790864,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 422040,
+          "C_ctrl": 27094,
+          "C_mem": 0,
+          "C_rec": 34236,
+          "C_total": 483370,
+          "normalized_cost": 14.11876387428438,
+          "norm_C_write": 12.327374693305293,
+          "norm_C_ctrl": 0.7913891809790864,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 422040,
+          "C_ctrl": 27094,
+          "C_mem": 0,
+          "C_rec": 34236,
+          "C_total": 483370,
+          "normalized_cost": 14.11876387428438,
+          "norm_C_write": 12.327374693305293,
+          "norm_C_ctrl": 0.7913891809790864,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "721": {
+      "C_write": 439320,
+      "C_write_in": 416520,
+      "C_write_out": 22800,
+      "C_write_calls": 33,
+      "C_raw": 34059,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 439320,
+          "C_ctrl": 0,
+          "C_mem": 29228,
+          "C_rec": 0,
+          "C_total": 468548,
+          "normalized_cost": 13.75695117296456,
+          "norm_C_write": 12.898793270501189,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8581579024633724,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 439320,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34059,
+          "C_total": 473379,
+          "normalized_cost": 13.898793270501189,
+          "norm_C_write": 12.898793270501189,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 439320,
+          "C_ctrl": 26664,
+          "C_mem": 2564,
+          "C_rec": 31241,
+          "C_total": 499789,
+          "normalized_cost": 14.674212396136117,
+          "norm_C_write": 12.898793270501189,
+          "norm_C_ctrl": 0.7828767726592091,
+          "norm_C_mem": 0.07528112980416336,
+          "norm_C_rec": 0.9172612231715552
+        },
+        "Random score + CRC": {
+          "C_write": 439320,
+          "C_ctrl": 24683,
+          "C_mem": 4545,
+          "C_rec": 28445,
+          "C_total": 496993,
+          "normalized_cost": 14.59211955723891,
+          "norm_C_write": 12.898793270501189,
+          "norm_C_ctrl": 0.7247129980328254,
+          "norm_C_mem": 0.133444904430547,
+          "norm_C_rec": 0.8351683842743475
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 439320,
+          "C_ctrl": 29228,
+          "C_mem": 0,
+          "C_rec": 34059,
+          "C_total": 502607,
+          "normalized_cost": 14.75695117296456,
+          "norm_C_write": 12.898793270501189,
+          "norm_C_ctrl": 0.8581579024633724,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "351": {
+      "C_write": 319561,
+      "C_write_in": 300155,
+      "C_write_out": 19406,
+      "C_write_calls": 24,
+      "C_raw": 33887,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 319561,
+          "C_ctrl": 0,
+          "C_mem": 28845,
+          "C_rec": 0,
+          "C_total": 348406,
+          "normalized_cost": 10.281405848850591,
+          "norm_C_write": 9.430194469855698,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8512113789948949,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 319561,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33887,
+          "C_total": 353448,
+          "normalized_cost": 10.430194469855698,
+          "norm_C_write": 9.430194469855698,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 319561,
+          "C_ctrl": 16462,
+          "C_mem": 12383,
+          "C_rec": 19688,
+          "C_total": 368094,
+          "normalized_cost": 10.86239560893558,
+          "norm_C_write": 9.430194469855698,
+          "norm_C_ctrl": 0.4857910113022693,
+          "norm_C_mem": 0.3654203676926255,
+          "norm_C_rec": 0.5809897600849884
+        },
+        "Random score + CRC": {
+          "C_write": 319561,
+          "C_ctrl": 26480,
+          "C_mem": 2365,
+          "C_rec": 31116,
+          "C_total": 379522,
+          "normalized_cost": 11.199634077965001,
+          "norm_C_write": 9.430194469855698,
+          "norm_C_ctrl": 0.7814206037713578,
+          "norm_C_mem": 0.06979077522353705,
+          "norm_C_rec": 0.9182282291144097
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 319561,
+          "C_ctrl": 21475,
+          "C_mem": 7370,
+          "C_rec": 25435,
+          "C_total": 373841,
+          "normalized_cost": 11.031988668220851,
+          "norm_C_write": 9.430194469855698,
+          "norm_C_ctrl": 0.6337238469029421,
+          "norm_C_mem": 0.21748753209195268,
+          "norm_C_rec": 0.75058281937026
+        }
+      }
+    },
+    "184": {
+      "C_write": 414655,
+      "C_write_in": 401638,
+      "C_write_out": 13017,
+      "C_write_calls": 32,
+      "C_raw": 34336,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 414655,
+          "C_ctrl": 0,
+          "C_mem": 27169,
+          "C_rec": 0,
+          "C_total": 441824,
+          "normalized_cost": 12.867660764212488,
+          "norm_C_write": 12.076392124883505,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7912686393289842,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 414655,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34336,
+          "C_total": 448991,
+          "normalized_cost": 13.076392124883505,
+          "norm_C_write": 12.076392124883505,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 414655,
+          "C_ctrl": 22464,
+          "C_mem": 4705,
+          "C_rec": 28371,
+          "C_total": 470195,
+          "normalized_cost": 13.693936393289842,
+          "norm_C_write": 12.076392124883505,
+          "norm_C_ctrl": 0.6542404473438956,
+          "norm_C_mem": 0.13702819198508853,
+          "norm_C_rec": 0.8262756290773532
+        },
+        "Random score + CRC": {
+          "C_write": 414655,
+          "C_ctrl": 24986,
+          "C_mem": 2183,
+          "C_rec": 31591,
+          "C_total": 473415,
+          "normalized_cost": 13.787715517241379,
+          "norm_C_write": 12.076392124883505,
+          "norm_C_ctrl": 0.7276910531220876,
+          "norm_C_mem": 0.06357758620689655,
+          "norm_C_rec": 0.920054753028891
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 414655,
+          "C_ctrl": 24901,
+          "C_mem": 2268,
+          "C_rec": 31440,
+          "C_total": 473264,
+          "normalized_cost": 13.78331780055918,
+          "norm_C_write": 12.076392124883505,
+          "norm_C_ctrl": 0.7252155172413793,
+          "norm_C_mem": 0.06605312208760485,
+          "norm_C_rec": 0.9156570363466915
+        }
+      }
+    },
+    "527": {
+      "C_write": 442646,
+      "C_write_in": 419398,
+      "C_write_out": 23248,
+      "C_write_calls": 33,
+      "C_raw": 34375,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 442646,
+          "C_ctrl": 0,
+          "C_mem": 32427,
+          "C_rec": 0,
+          "C_total": 475073,
+          "normalized_cost": 13.820305454545455,
+          "norm_C_write": 12.876974545454546,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.9433309090909091,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 442646,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34375,
+          "C_total": 477021,
+          "normalized_cost": 13.876974545454546,
+          "norm_C_write": 12.876974545454546,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 442646,
+          "C_ctrl": 32427,
+          "C_mem": 0,
+          "C_rec": 34375,
+          "C_total": 509448,
+          "normalized_cost": 14.820305454545455,
+          "norm_C_write": 12.876974545454546,
+          "norm_C_ctrl": 0.9433309090909091,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 442646,
+          "C_ctrl": 29474,
+          "C_mem": 2953,
+          "C_rec": 31436,
+          "C_total": 506509,
+          "normalized_cost": 14.734807272727272,
+          "norm_C_write": 12.876974545454546,
+          "norm_C_ctrl": 0.8574254545454545,
+          "norm_C_mem": 0.08590545454545455,
+          "norm_C_rec": 0.9145018181818182
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 442646,
+          "C_ctrl": 32427,
+          "C_mem": 0,
+          "C_rec": 34375,
+          "C_total": 509448,
+          "normalized_cost": 14.820305454545455,
+          "norm_C_write": 12.876974545454546,
+          "norm_C_ctrl": 0.9433309090909091,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "816": {
+      "C_write": 450273,
+      "C_write_in": 426463,
+      "C_write_out": 23810,
+      "C_write_calls": 34,
+      "C_raw": 33940,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 450273,
+          "C_ctrl": 0,
+          "C_mem": 28308,
+          "C_rec": 0,
+          "C_total": 478581,
+          "normalized_cost": 14.100795521508545,
+          "norm_C_write": 13.26673541543901,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8340601060695345,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 450273,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 33940,
+          "C_total": 484213,
+          "normalized_cost": 14.26673541543901,
+          "norm_C_write": 13.26673541543901,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 450273,
+          "C_ctrl": 28308,
+          "C_mem": 0,
+          "C_rec": 33940,
+          "C_total": 512521,
+          "normalized_cost": 15.100795521508545,
+          "norm_C_write": 13.26673541543901,
+          "norm_C_ctrl": 0.8340601060695345,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 450273,
+          "C_ctrl": 28308,
+          "C_mem": 0,
+          "C_rec": 33940,
+          "C_total": 512521,
+          "normalized_cost": 15.100795521508545,
+          "norm_C_write": 13.26673541543901,
+          "norm_C_ctrl": 0.8340601060695345,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 450273,
+          "C_ctrl": 28308,
+          "C_mem": 0,
+          "C_rec": 33940,
+          "C_total": 512521,
+          "normalized_cost": 15.100795521508545,
+          "norm_C_write": 13.26673541543901,
+          "norm_C_ctrl": 0.8340601060695345,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "209": {
+      "C_write": 437501,
+      "C_write_in": 413916,
+      "C_write_out": 23585,
+      "C_write_calls": 33,
+      "C_raw": 34364,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 437501,
+          "C_ctrl": 0,
+          "C_mem": 27360,
+          "C_rec": 0,
+          "C_total": 464861,
+          "normalized_cost": 13.527557909440112,
+          "norm_C_write": 12.731375858456524,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.7961820509835875,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 437501,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34364,
+          "C_total": 471865,
+          "normalized_cost": 13.731375858456524,
+          "norm_C_write": 12.731375858456524,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 437501,
+          "C_ctrl": 15923,
+          "C_mem": 11437,
+          "C_rec": 19978,
+          "C_total": 484839,
+          "normalized_cost": 14.108922127808171,
+          "norm_C_write": 12.731375858456524,
+          "norm_C_ctrl": 0.46336282155744385,
+          "norm_C_mem": 0.3328192294261436,
+          "norm_C_rec": 0.5813642183680596
+        },
+        "Random score + CRC": {
+          "C_write": 437501,
+          "C_ctrl": 27360,
+          "C_mem": 0,
+          "C_rec": 34364,
+          "C_total": 499225,
+          "normalized_cost": 14.527557909440112,
+          "norm_C_write": 12.731375858456524,
+          "norm_C_ctrl": 0.7961820509835875,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 437501,
+          "C_ctrl": 15923,
+          "C_mem": 11437,
+          "C_rec": 19978,
+          "C_total": 484839,
+          "normalized_cost": 14.108922127808171,
+          "norm_C_write": 12.731375858456524,
+          "norm_C_ctrl": 0.46336282155744385,
+          "norm_C_mem": 0.3328192294261436,
+          "norm_C_rec": 0.5813642183680596
+        }
+      }
+    },
+    "213": {
+      "C_write": 366789,
+      "C_write_in": 348346,
+      "C_write_out": 18443,
+      "C_write_calls": 28,
+      "C_raw": 34063,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 366789,
+          "C_ctrl": 0,
+          "C_mem": 29419,
+          "C_rec": 0,
+          "C_total": 396208,
+          "normalized_cost": 11.631623755981563,
+          "norm_C_write": 10.767959369403751,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.8636643865778117,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 366789,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34063,
+          "C_total": 400852,
+          "normalized_cost": 11.767959369403751,
+          "norm_C_write": 10.767959369403751,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 366789,
+          "C_ctrl": 29419,
+          "C_mem": 0,
+          "C_rec": 34063,
+          "C_total": 430271,
+          "normalized_cost": 12.631623755981563,
+          "norm_C_write": 10.767959369403751,
+          "norm_C_ctrl": 0.8636643865778117,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 366789,
+          "C_ctrl": 26875,
+          "C_mem": 2544,
+          "C_rec": 31255,
+          "C_total": 427463,
+          "normalized_cost": 12.549188268796055,
+          "norm_C_write": 10.767959369403751,
+          "norm_C_ctrl": 0.7889792443413675,
+          "norm_C_mem": 0.07468514223644424,
+          "norm_C_rec": 0.9175645128144908
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 366789,
+          "C_ctrl": 29419,
+          "C_mem": 0,
+          "C_rec": 34063,
+          "C_total": 430271,
+          "normalized_cost": 12.631623755981563,
+          "norm_C_write": 10.767959369403751,
+          "norm_C_ctrl": 0.8636643865778117,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    },
+    "800": {
+      "C_write": 435195,
+      "C_write_in": 412757,
+      "C_write_out": 22438,
+      "C_write_calls": 33,
+      "C_raw": 34621,
+      "T_i": 12,
+      "policies": {
+        "Always Trust": {
+          "C_write": 435195,
+          "C_ctrl": 0,
+          "C_mem": 25937,
+          "C_rec": 0,
+          "C_total": 461132,
+          "normalized_cost": 13.31943040351232,
+          "norm_C_write": 12.57026082435516,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.749169579157159,
+          "norm_C_rec": 0.0
+        },
+        "Always Recover": {
+          "C_write": 435195,
+          "C_ctrl": 0,
+          "C_mem": 0,
+          "C_rec": 34621,
+          "C_total": 469816,
+          "normalized_cost": 13.57026082435516,
+          "norm_C_write": 12.57026082435516,
+          "norm_C_ctrl": 0.0,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Empirical-risk": {
+          "C_write": 435195,
+          "C_ctrl": 25937,
+          "C_mem": 0,
+          "C_rec": 34621,
+          "C_total": 495753,
+          "normalized_cost": 14.31943040351232,
+          "norm_C_write": 12.57026082435516,
+          "norm_C_ctrl": 0.749169579157159,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "Random score + CRC": {
+          "C_write": 435195,
+          "C_ctrl": 25937,
+          "C_mem": 0,
+          "C_rec": 34621,
+          "C_total": 495753,
+          "normalized_cost": 14.31943040351232,
+          "norm_C_write": 12.57026082435516,
+          "norm_C_ctrl": 0.749169579157159,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        },
+        "ReCoverMem + CRC": {
+          "C_write": 435195,
+          "C_ctrl": 25937,
+          "C_mem": 0,
+          "C_rec": 34621,
+          "C_total": 495753,
+          "normalized_cost": 14.31943040351232,
+          "norm_C_write": 12.57026082435516,
+          "norm_C_ctrl": 0.749169579157159,
+          "norm_C_mem": 0.0,
+          "norm_C_rec": 1.0
+        }
+      }
+    }
+  },
+  "decomposition_persona_equal": {
+    "Always Trust": {
+      "norm_C_write": 12.257667965207489,
+      "norm_C_ctrl": 0.0,
+      "norm_C_mem": 0.8097329237923224,
+      "norm_C_rec": 0.0,
+      "norm_C_total": 13.067400888999812,
+      "tokens_total_summed_over_personas": 10662654
+    },
+    "Always Recover": {
+      "norm_C_write": 12.257667965207489,
+      "norm_C_ctrl": 0.0,
+      "norm_C_mem": 0.0,
+      "norm_C_rec": 1.0,
+      "norm_C_total": 13.25766796520749,
+      "tokens_total_summed_over_personas": 10817889
+    },
+    "Empirical-risk": {
+      "norm_C_write": 12.257667965207489,
+      "norm_C_ctrl": 0.684898130501093,
+      "norm_C_mem": 0.12483479329122937,
+      "norm_C_rec": 0.8455495826022745,
+      "norm_C_total": 13.912950471602082,
+      "tokens_total_summed_over_personas": 11352979
+    },
+    "Random score + CRC": {
+      "norm_C_write": 12.257667965207489,
+      "norm_C_ctrl": 0.7661843954521063,
+      "norm_C_mem": 0.0435485283402161,
+      "norm_C_rec": 0.9476491263784746,
+      "norm_C_total": 14.015050015378286,
+      "tokens_total_summed_over_personas": 11436401
+    },
+    "ReCoverMem + CRC": {
+      "norm_C_write": 12.257667965207489,
+      "norm_C_ctrl": 0.7333811387724886,
+      "norm_C_mem": 0.0763517850198338,
+      "norm_C_rec": 0.9052180582053267,
+      "norm_C_total": 13.972618947205136,
+      "tokens_total_summed_over_personas": 11401567
+    }
+  }
+}

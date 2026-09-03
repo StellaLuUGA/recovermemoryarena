@@ -1,0 +1,20 @@
+{
+  "experiment": "ALFWorld half-budget compression sensitivity (B=512)",
+  "not_the_default_setting": true,
+  "canonical_B": 1024,
+  "sensitivity_B": 512,
+  "ratio": 0.5,
+  "B_mem": 512,
+  "B_rec": 512,
+  "rule": "B_mem = B_rec = 512, imposed by intervention; the canonical scorer-independent budget-selection procedure is NOT rerun",
+  "seed": 13,
+  "canonical_budget_freeze_sha256": "6df85870e9240b851a0ff8272a62e6673f125ac1b71e1e766eb65998005c574f",
+  "split_manifests": {
+    "CLEAN_64": "4183cb627d9c716af5294eee1ea9b5734e061291046a2be3650a876fec4d30bb",
+    "PREDICTOR_TRAIN_16": "0236ef7af6127806176fa56ba29e81f32814aa96b37aaa1ef390f1520922ffb4",
+    "CALIBRATION_24": "8a4a95035a284f7454bf70298028697156a472cbaecbde47c1b73a6075ff7dcf",
+    "FINAL_TEST_24": "2941a3d9592288ca2e194d61d4dce901b45d9eeb5ac305b4ae3f1538b493c873"
+  },
+  "tokenizer": "Qwen3-32B-AWQ (exact)",
+  "b512_freeze_sha256": "6a5c990e50654935ccb205fd44d6684719d22aaed6232ded741dc4f0295fef08"
+}

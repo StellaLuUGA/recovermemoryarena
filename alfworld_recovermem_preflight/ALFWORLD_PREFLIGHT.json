@@ -1,0 +1,65 @@
+{
+  "ALFWORLD_VERSION": "0.5.0",
+  "repo_commit": "aaba687",
+  "ENVIRONMENT": "AlfredTWEnv",
+  "SPLIT": "eval_out_of_distribution (= valid_unseen)",
+  "n_split_games": 134,
+  "seed": 13,
+  "model": "llama-3.1-8b-instruct-local (Meta Llama-3.1-8B-Instruct)",
+  "endpoint": "http://localhost:8123/v1",
+  "temperature": 0,
+
+  "STRUCTURAL_30": "30 / 30 with K_USABLE >= 2",
+  "structural_all_intermediate_checkable": "30 / 30",
+  "K_USABLE_stats": {"min": 4, "median": 6.0, "mean": 5.333333333333333,
+                     "p75": 6.0, "p90": 6.0, "max": 8},
+  "structural_gate": "PASS (>=20/30 required)",
+
+  "SUBGOAL_VALIDATOR": {
+    "verdict": "PASS",
+    "case": "CASE 2",
+    "implementation": "alfworld/agents/expert/handcoded_expert.py::<TaskType>Policy.check_subgoal_completion (lines 347,379,414,444,478,512) + alfworld/agents/expert/handcoded_expert_tw.py::<TaskType>TWPolicy.get_predicates (lines 11-113)",
+    "driver": "pf_lib.SubgoalMonitor - verbatim replay of handcoded_expert.py:200-206",
+    "signal_source": "textworld.EnvInfos(facts=True, admissible_commands=True) [harness-only]",
+    "rejected_alternative": "alfworld/env/tasks.py BaseTask.transition_reward/get_subgoal_idx - AI2-THOR only (needs state.metadata, graph_obj.Graph, ThorEnv.heated/cooled/cleaned_objects); get_task imported only by alfworld/env/thor_env.py:14"
+  },
+
+  "SUBGOAL_VALIDATOR_VERIFICATION": {
+    "verdict": "PASS",
+    "games": 3,
+    "handcoded_expert_runs_ok": "3 / 3",
+    "handcoded_expert_won": "3 / 3",
+    "planner_gold_plan_runs_ok": "3 / 3",
+    "planner_gold_plan_won": "3 / 3",
+    "checks": ["g_1 completion detected", "g_2 completion detected",
+               "first-hit ordering monotone",
+               "no rank>=2 before PDDL fact 'holds agent <object_target>' is true"]
+  },
+
+  "REPLAY_GATE": "9 / 9 semantic matches",
+  "replay_gate_verdict": "PASS",
+
+  "NATIVE_CONTROLLED_REACHABILITY": "8 / 20",
+  "native_gate_verdict": "PASS (W>=5)",
+  "NATIVE_FULL_TASK_SUCCESS": "0 / 20",
+  "native_max_rank_ge_2": "1 / 20",
+
+  "SUFFIX_NEXT_SUBGOAL_SUCCESS": "0 / 5",
+  "suffix_gate_verdict": "FAIL_SUFFIX_COMPETENCE",
+  "suffix_replay_rank_matches_native": "5 / 5",
+
+  "HISTORY_TOKENS": {
+    "scope": "216 controlled states across 8 episodes, Llama-3.1-8B tokenizer",
+    "median": 553.5, "p75": 831.8, "p90": 1875.5, "max": 2762,
+    "first_controlled_state_only": {"median": 201.5, "p75": 234.2, "p90": 249.1, "max": 275},
+    "note": "DIAGNOSTIC ONLY - not a rejection criterion"
+  },
+
+  "ALFWORLD_PREFLIGHT": "FAIL_SUFFIX_COMPETENCE",
+  "READY_FOR_FORMAL_RECOVERMEM": "NO",
+
+  "known_harness_defect": "Frozen OPTION-A parser rule 3 (digit-stripped unique match) can substitute a different entity number than the model named (observed on look_at_obj_in_light idx 0/3/16: 'go to desk 1' -> 'go to desk 2'). Reported, not repaired: the admissible-command policy was pre-registered and W has been observed. It did not manufacture any of the 8 controlled decisions.",
+
+  "not_run_by_design": ["Mem0", "B_mem", "B_rec", "R_mem", "R_rec", "scorer training",
+                        "AUROC", "CRC", "FS", "coverage", "Table 1", "Table 2"]
+}

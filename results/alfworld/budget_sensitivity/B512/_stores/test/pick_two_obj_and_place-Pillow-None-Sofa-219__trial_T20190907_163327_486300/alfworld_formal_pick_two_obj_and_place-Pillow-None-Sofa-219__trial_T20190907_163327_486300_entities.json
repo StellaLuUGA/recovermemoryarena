@@ -1,0 +1,49 @@
+{
+  "docstore": {
+    "74f68c32-5a65-440c-967f-6916e8049a65": {
+      "data": "credit card",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "538eb565-9bf2-4644-b594-24a9fec6a18e",
+        "a80d1e23-48d7-4580-a820-38e1b6cd70b2"
+      ],
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300"
+    },
+    "6cfdb4ac-0e06-4149-8213-bb14f1545002": {
+      "data": "remote control",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "538eb565-9bf2-4644-b594-24a9fec6a18e",
+        "a80d1e23-48d7-4580-a820-38e1b6cd70b2",
+        "e4e1b9cb-7e33-4b1e-b008-e6d87fd9b600"
+      ],
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300"
+    },
+    "c8cfa22c-47aa-400c-a609-709873509345": {
+      "data": "tissue boxes",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "e4e1b9cb-7e33-4b1e-b008-e6d87fd9b600"
+      ],
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300"
+    },
+    "d9ad0bbf-22ff-4d92-90c1-d5eee8d8b5c4": {
+      "data": "August",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "4bf69c3a-4107-4a25-a66b-758fef70e76b",
+        "839dac9b-6b57-4507-842b-a4b05db065d7",
+        "8c030a51-eb35-420f-afb5-531dc1a39cab",
+        "a53fca4c-6f0e-49a4-a7bc-b1455de2cf2f",
+        "f1d7ad89-b08a-47f9-b1b3-56a25dc8335f"
+      ],
+      "user_id": "pick_two_obj_and_place-Pillow-None-Sofa-219__trial_T20190907_163327_486300"
+    }
+  },
+  "index_to_id": {
+    "0": "74f68c32-5a65-440c-967f-6916e8049a65",
+    "1": "6cfdb4ac-0e06-4149-8213-bb14f1545002",
+    "2": "c8cfa22c-47aa-400c-a609-709873509345",
+    "3": "d9ad0bbf-22ff-4d92-90c1-d5eee8d8b5c4"
+  }
+}

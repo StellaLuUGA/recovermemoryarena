@@ -1,0 +1,1141 @@
+{
+  "n_games": 3,
+  "runs": [
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "source": "handcoded",
+      "task_type": "look_at_obj_in_light",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "won": true,
+      "steps": 5,
+      "monitor_error": null,
+      "max_rank": 3,
+      "trace": [
+        {
+          "step": 0,
+          "action": null,
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          }
+        },
+        {
+          "step": 1,
+          "action": "go to shelf 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 1. On the shelf 1, you see nothing."
+        },
+        {
+          "step": 2,
+          "action": "go to shelf 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 2. On the shelf 2, you see a creditcard 2, and a pen 2."
+        },
+        {
+          "step": 3,
+          "action": "go to shelf 3",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 3. On the shelf 3, you see a creditcard 3, a desklamp 1, and a mug 1."
+        },
+        {
+          "step": 4,
+          "action": "take mug 1 from shelf 3",
+          "rank": 3,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You pick up the mug 1 from the shelf 3."
+        },
+        {
+          "step": 5,
+          "action": "use desklamp 1",
+          "rank": 3,
+          "won": true,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You turn on the desklamp 1."
+        }
+      ],
+      "idx": 0,
+      "checks": {
+        "g1_detected": true,
+        "g1_step": 3,
+        "g2_applicable": true,
+        "g2_detected": true,
+        "g2_step": 4,
+        "monotone_first_hit_order": true,
+        "anchor_hold_step": 4,
+        "no_false_early_take": true,
+        "ok": true
+      }
+    },
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "source": "planner",
+      "task_type": "look_at_obj_in_light",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "won": true,
+      "steps": 3,
+      "monitor_error": null,
+      "max_rank": 3,
+      "trace": [
+        {
+          "step": 0,
+          "action": null,
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          }
+        },
+        {
+          "step": 1,
+          "action": "go to desk 1",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1."
+        },
+        {
+          "step": 2,
+          "action": "use desklamp 1",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You turn on the desklamp 1."
+        },
+        {
+          "step": 3,
+          "action": "take mug 1 from desk 1",
+          "rank": 3,
+          "won": true,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You pick up the mug 1 from the desk 1."
+        }
+      ],
+      "idx": 0,
+      "checks": {
+        "g1_detected": true,
+        "g1_step": 1,
+        "g2_applicable": true,
+        "g2_detected": true,
+        "g2_step": 3,
+        "monotone_first_hit_order": true,
+        "anchor_hold_step": 3,
+        "no_false_early_take": true,
+        "ok": true
+      }
+    },
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+      "source": "handcoded",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "saltshaker"
+        },
+        {
+          "action": "take",
+          "param": "saltshaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        }
+      ],
+      "won": true,
+      "steps": 23,
+      "monitor_error": null,
+      "max_rank": 3,
+      "trace": [
+        {
+          "step": 0,
+          "action": null,
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          }
+        },
+        {
+          "step": 1,
+          "action": "go to shelf 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 1. On the shelf 1, you see a mug 3, and a statue 2."
+        },
+        {
+          "step": 2,
+          "action": "go to shelf 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 2. On the shelf 2, you see a creditcard 3, and a dishsponge 3."
+        },
+        {
+          "step": 3,
+          "action": "go to shelf 3",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 3. On the shelf 3, you see a vase 1."
+        },
+        {
+          "step": 4,
+          "action": "go to drawer 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at drawer 1. The drawer 1 is closed."
+        },
+        {
+          "step": 5,
+          "action": "open drawer 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the drawer 1. The drawer 1 is open. In it, you see a fork 1, and a peppershaker 1."
+        },
+        {
+          "step": 6,
+          "action": "close drawer 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You close the drawer 1."
+        },
+        {
+          "step": 7,
+          "action": "go to drawer 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at drawer 2. The drawer 2 is closed."
+        },
+        {
+          "step": 8,
+          "action": "open drawer 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the drawer 2. The drawer 2 is open. In it, you see a cellphone 1, and a spatula 1."
+        },
+        {
+          "step": 9,
+          "action": "close drawer 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You close the drawer 2."
+        },
+        {
+          "step": 10,
+          "action": "go to drawer 3",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at drawer 3. The drawer 3 is closed."
+        },
+        {
+          "step": 11,
+          "action": "open drawer 3",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the drawer 3. The drawer 3 is open. In it, you see nothing."
+        },
+        {
+          "step": 12,
+          "action": "close drawer 3",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You close the drawer 3."
+        },
+        {
+          "step": 13,
+          "action": "go to countertop 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at countertop 1. On the countertop 1, you see a creditcard 2, a dishsponge 2, and a mug 2."
+        },
+        {
+          "step": 14,
+          "action": "go to countertop 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at countertop 2. On the countertop 2, you see a creditcard 1, a cup 2, a knife 2, a knife 1, a lettuce 1, a papertowelroll 1, a soapbottle 2, a statu"
+        },
+        {
+          "step": 15,
+          "action": "go to countertop 3",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at countertop 3. On the countertop 3, you see a bread 1, a butterknife 1, a houseplant 1, a potato 1, a spoon 1, and a vase 2."
+        },
+        {
+          "step": 16,
+          "action": "go to cabinet 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at cabinet 1. On the cabinet 1, you see a glassbottle 1."
+        },
+        {
+          "step": 17,
+          "action": "go to cabinet 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at cabinet 2. The cabinet 2 is closed."
+        },
+        {
+          "step": 18,
+          "action": "open cabinet 2",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the cabinet 2. The cabinet 2 is open. In it, you see a plate 1, a saltshaker 1, and a soapbottle 1."
+        },
+        {
+          "step": 19,
+          "action": "take saltshaker 1 from cabinet 2",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You pick up the saltshaker 1 from the cabinet 2."
+        },
+        {
+          "step": 20,
+          "action": "close cabinet 2",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You close the cabinet 2."
+        },
+        {
+          "step": 21,
+          "action": "go to drawer 1",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at drawer 1. The drawer 1 is closed."
+        },
+        {
+          "step": 22,
+          "action": "open drawer 1",
+          "rank": 3,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the drawer 1. The drawer 1 is open. In it, you see a fork 1, and a peppershaker 1."
+        },
+        {
+          "step": 23,
+          "action": "move saltshaker 1 to drawer 1",
+          "rank": 0,
+          "won": true,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": true
+          },
+          "obs": "You move the saltshaker 1 to the drawer 1."
+        }
+      ],
+      "idx": 1,
+      "checks": {
+        "g1_detected": true,
+        "g1_step": 18,
+        "g2_applicable": true,
+        "g2_detected": true,
+        "g2_step": 19,
+        "monotone_first_hit_order": true,
+        "anchor_hold_step": 19,
+        "no_false_early_take": true,
+        "ok": true
+      }
+    },
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+      "source": "planner",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "saltshaker"
+        },
+        {
+          "action": "take",
+          "param": "saltshaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        }
+      ],
+      "won": true,
+      "steps": 6,
+      "monitor_error": null,
+      "max_rank": 3,
+      "trace": [
+        {
+          "step": 0,
+          "action": null,
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          }
+        },
+        {
+          "step": 1,
+          "action": "go to cabinet 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at cabinet 2. The cabinet 2 is closed."
+        },
+        {
+          "step": 2,
+          "action": "open cabinet 2",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the cabinet 2. The cabinet 2 is open. In it, you see a plate 1, a saltshaker 1, and a soapbottle 1."
+        },
+        {
+          "step": 3,
+          "action": "take saltshaker 1 from cabinet 2",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You pick up the saltshaker 1 from the cabinet 2."
+        },
+        {
+          "step": 4,
+          "action": "go to drawer 1",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at drawer 1. The drawer 1 is closed."
+        },
+        {
+          "step": 5,
+          "action": "open drawer 1",
+          "rank": 3,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the drawer 1. The drawer 1 is open. In it, you see a fork 1, and a peppershaker 1."
+        },
+        {
+          "step": 6,
+          "action": "move saltshaker 1 to drawer 1",
+          "rank": 0,
+          "won": true,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": true
+          },
+          "obs": "You move the saltshaker 1 to the drawer 1."
+        }
+      ],
+      "idx": 1,
+      "checks": {
+        "g1_detected": true,
+        "g1_step": 2,
+        "g2_applicable": true,
+        "g2_detected": true,
+        "g2_step": 3,
+        "monotone_first_hit_order": true,
+        "anchor_hold_step": 3,
+        "no_false_early_take": true,
+        "ok": true
+      }
+    },
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+      "source": "handcoded",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "vase"
+        },
+        {
+          "action": "take",
+          "param": "vase"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        }
+      ],
+      "won": true,
+      "steps": 15,
+      "monitor_error": null,
+      "max_rank": 3,
+      "trace": [
+        {
+          "step": 0,
+          "action": null,
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          }
+        },
+        {
+          "step": 1,
+          "action": "go to sidetable 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at sidetable 1. On the sidetable 1, you see a cellphone 1, a creditcard 1, a watch 2, and a watch 1."
+        },
+        {
+          "step": 2,
+          "action": "go to shelf 1",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 1. On the shelf 1, you see nothing."
+        },
+        {
+          "step": 3,
+          "action": "go to shelf 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 2. On the shelf 2, you see nothing."
+        },
+        {
+          "step": 4,
+          "action": "look",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You are facing the shelf 3, and shelf 2. Next to it, you see nothing."
+        },
+        {
+          "step": 5,
+          "action": "go to drawer 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at drawer 2. The drawer 2 is closed."
+        },
+        {
+          "step": 6,
+          "action": "open drawer 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the drawer 2. The drawer 2 is open. In it, you see nothing."
+        },
+        {
+          "step": 7,
+          "action": "close drawer 2",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You close the drawer 2."
+        },
+        {
+          "step": 8,
+          "action": "go to shelf 3",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 3. On the shelf 3, you see nothing."
+        },
+        {
+          "step": 9,
+          "action": "go to shelf 4",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 4. On the shelf 4, you see nothing."
+        },
+        {
+          "step": 10,
+          "action": "go to shelf 5",
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 5. On the shelf 5, you see nothing."
+        },
+        {
+          "step": 11,
+          "action": "go to shelf 6",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 6. On the shelf 6, you see a vase 2."
+        },
+        {
+          "step": 12,
+          "action": "take vase 2 from shelf 6",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You pick up the vase 2 from the shelf 6."
+        },
+        {
+          "step": 13,
+          "action": "go to safe 1",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at safe 1. The safe 1 is closed."
+        },
+        {
+          "step": 14,
+          "action": "open safe 1",
+          "rank": 3,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the safe 1. The safe 1 is open. In it, you see a keychain 3."
+        },
+        {
+          "step": 15,
+          "action": "move vase 2 to safe 1",
+          "rank": 0,
+          "won": true,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": true
+          },
+          "obs": "You move the vase 2 to the safe 1."
+        }
+      ],
+      "idx": 2,
+      "checks": {
+        "g1_detected": true,
+        "g1_step": 11,
+        "g2_applicable": true,
+        "g2_detected": true,
+        "g2_step": 12,
+        "monotone_first_hit_order": true,
+        "anchor_hold_step": 12,
+        "no_false_early_take": true,
+        "ok": true
+      }
+    },
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+      "source": "planner",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "vase"
+        },
+        {
+          "action": "take",
+          "param": "vase"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        }
+      ],
+      "won": true,
+      "steps": 5,
+      "monitor_error": null,
+      "max_rank": 3,
+      "trace": [
+        {
+          "step": 0,
+          "action": null,
+          "rank": 0,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          }
+        },
+        {
+          "step": 1,
+          "action": "go to shelf 6",
+          "rank": 1,
+          "won": false,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at shelf 6. On the shelf 6, you see a vase 2."
+        },
+        {
+          "step": 2,
+          "action": "take vase 2 from shelf 6",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You pick up the vase 2 from the shelf 6."
+        },
+        {
+          "step": 3,
+          "action": "go to safe 1",
+          "rank": 2,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You arrive at safe 1. The safe 1 is closed."
+        },
+        {
+          "step": 4,
+          "action": "open safe 1",
+          "rank": 3,
+          "won": false,
+          "anchors": {
+            "hold": true,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": false
+          },
+          "obs": "You open the safe 1. The safe 1 is open. In it, you see a keychain 3."
+        },
+        {
+          "step": 5,
+          "action": "move vase 2 to safe 1",
+          "rank": 0,
+          "won": true,
+          "anchors": {
+            "hold": false,
+            "ishot": false,
+            "iscool": false,
+            "isclean": false,
+            "inreceptacle": true
+          },
+          "obs": "You move the vase 2 to the safe 1."
+        }
+      ],
+      "idx": 2,
+      "checks": {
+        "g1_detected": true,
+        "g1_step": 1,
+        "g2_applicable": true,
+        "g2_detected": true,
+        "g2_step": 2,
+        "monotone_first_hit_order": true,
+        "anchor_hold_step": 2,
+        "no_false_early_take": true,
+        "ok": true
+      }
+    }
+  ],
+  "summary": {
+    "handcoded_runs": 3,
+    "handcoded_all_ok": true,
+    "handcoded_won": 3,
+    "planner_won": 3,
+    "planner_no_false_early": true,
+    "verdict": "PASS"
+  }
+}

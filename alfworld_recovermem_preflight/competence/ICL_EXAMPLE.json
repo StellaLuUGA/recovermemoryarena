@@ -1,0 +1,45 @@
+{
+  "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063232_403749/game.tw-pddl",
+  "intro": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put a soapbottle in garbagecan.",
+  "steps": [
+    {
+      "action": "go to toilet 1",
+      "obs": "You arrive at toilet 1. On the toilet 1, you see a cloth 1."
+    },
+    {
+      "action": "go to garbagecan 1",
+      "obs": "You arrive at garbagecan 1. On the garbagecan 1, you see nothing."
+    },
+    {
+      "action": "go to countertop 1",
+      "obs": "You arrive at countertop 1. On the countertop 1, you see a mirror 1, a soapbar 1, a spraybottle 1, and a toiletpaper 2."
+    },
+    {
+      "action": "go to cabinet 1",
+      "obs": "You arrive at cabinet 1. The cabinet 1 is closed."
+    },
+    {
+      "action": "open cabinet 1",
+      "obs": "You open the cabinet 1. The cabinet 1 is open. In it, you see a soapbottle 1."
+    },
+    {
+      "action": "take soapbottle 1 from cabinet 1",
+      "obs": "You pick up the soapbottle 1 from the cabinet 1."
+    },
+    {
+      "action": "close cabinet 1",
+      "obs": "You close the cabinet 1."
+    },
+    {
+      "action": "go to garbagecan 1",
+      "obs": "You arrive at garbagecan 1. On the garbagecan 1, you see nothing."
+    },
+    {
+      "action": "move soapbottle 1 to garbagecan 1",
+      "obs": "You move the soapbottle 1 to the garbagecan 1."
+    }
+  ],
+  "task_type": "pick_and_place_simple",
+  "split": "train",
+  "selection_rule": "train split, sorted, Random(13).shuffle, first pick_and_place_simple solved by upstream HandCodedTWAgent within 25 steps"
+}

@@ -1,0 +1,74 @@
+{
+  "docstore": {
+    "030e042a-b94d-4aaa-b62f-c961c581b8e5": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User's task is to put some watch on a safe in a TextWorld environment",
+      "text_lemmatized": "user task watch safe textworld environment",
+      "hash": "d284b4439427a3b851fdd4c794028089",
+      "created_at": "2026-08-31T08:21:44.478981+00:00",
+      "updated_at": "2026-08-31T08:21:44.478981+00:00",
+      "attributed_to": "user"
+    },
+    "a20cd385-e85a-44d5-afad-76af1202b22a": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T08:21:48.372821+00:00",
+      "updated_at": "2026-08-31T08:21:48.372821+00:00",
+      "attributed_to": "user"
+    },
+    "bb1f7ae5-6e60-490d-9909-1b4130934b7a": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User opened drawer 1 and found a watch 1 inside",
+      "text_lemmatized": "user open drawer 1 find watch 1 inside",
+      "hash": "8da2dcdb3ed49471aabbdfd8492bd566",
+      "created_at": "2026-08-31T08:21:53.078584+00:00",
+      "updated_at": "2026-08-31T08:21:53.078584+00:00"
+    },
+    "f634e986-feac-44e6-b282-358e8f2d91bb": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User picked up the watch 1 from drawer 1",
+      "text_lemmatized": "user pick watch 1 drawer 1",
+      "hash": "98e0323fdea63a92af07fd8c61b85349",
+      "created_at": "2026-08-31T08:22:00.245157+00:00",
+      "updated_at": "2026-08-31T08:22:00.245157+00:00",
+      "attributed_to": "user"
+    },
+    "55245122-b3e7-4b58-9dce-b92524f38a58": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User arrived at safe 1, which is closed",
+      "text_lemmatized": "user arrive safe 1 close",
+      "hash": "8bf888d0fd33ea74cf3fd0457b2b67ad",
+      "created_at": "2026-08-31T08:22:08.682920+00:00",
+      "updated_at": "2026-08-31T08:22:08.682920+00:00"
+    },
+    "48cf70c3-ead4-44a5-ad1d-24a4ef84565b": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User opened safe 1 and found two vases inside: vase 2 and vase 3",
+      "text_lemmatized": "user open safe 1 find vas inside vase 2 vase 3",
+      "hash": "2e7df15f67db66a4e24691eaa5c01b75",
+      "created_at": "2026-08-31T08:22:13.178790+00:00",
+      "updated_at": "2026-08-31T08:22:13.178790+00:00",
+      "attributed_to": "user"
+    },
+    "1e7f834e-033d-4d42-bd3f-507e33d8a3a0": {
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850",
+      "data": "User moved the watch 1 to the safe 1",
+      "text_lemmatized": "user move watch 1 safe 1",
+      "hash": "ec8f5874b8739c8c94aabfa2ee94719b",
+      "created_at": "2026-08-31T08:22:21.551898+00:00",
+      "updated_at": "2026-08-31T08:22:21.551898+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "030e042a-b94d-4aaa-b62f-c961c581b8e5",
+    "1": "a20cd385-e85a-44d5-afad-76af1202b22a",
+    "2": "bb1f7ae5-6e60-490d-9909-1b4130934b7a",
+    "3": "f634e986-feac-44e6-b282-358e8f2d91bb",
+    "4": "55245122-b3e7-4b58-9dce-b92524f38a58",
+    "5": "48cf70c3-ead4-44a5-ad1d-24a4ef84565b",
+    "6": "1e7f834e-033d-4d42-bd3f-507e33d8a3a0"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "docstore": {
+    "dd0b1eb4-259a-4fe5-af62-9ad40081e52b": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User is in a room with multiple cabinets, a coffeemachine, countertops, and drawers. Their task is to put a hot mug in the coffeemachine",
+      "text_lemmatized": "user room multiple cabinet coffeemachine countertop drawer task hot mug coffeemachine",
+      "hash": "dc4d17a406a10bdc135361454b907b27",
+      "created_at": "2026-08-31T16:11:15.761369+00:00",
+      "updated_at": "2026-08-31T16:11:15.761369+00:00",
+      "attributed_to": "user"
+    },
+    "5c1d4674-8af5-4a16-a426-8d42409e69c2": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at cabinet 1 and observed a soapbottle on it",
+      "text_lemmatized": "user arrive cabinet 1 observe soapbottle",
+      "hash": "424beccdad30e564aeb90dbe1a5b1a24",
+      "created_at": "2026-08-31T16:11:15.765669+00:00",
+      "updated_at": "2026-08-31T16:11:15.765669+00:00",
+      "attributed_to": "assistant"
+    },
+    "e9d2ba26-4fc9-4d90-ae6b-2e48a76e5346": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at cabinet 2 and found it closed",
+      "text_lemmatized": "user arrive cabinet 2 find close",
+      "hash": "e28d9ab73d0e6970a73cd5b383cf9604",
+      "created_at": "2026-08-31T16:11:20.417812+00:00",
+      "updated_at": "2026-08-31T16:11:20.417812+00:00",
+      "attributed_to": "user"
+    },
+    "40f3eddf-4261-4fcb-b582-2c85aa78963f": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened cabinet 2 and found a dishsponge and a vase inside",
+      "text_lemmatized": "user open cabinet 2 find dishsponge vase inside",
+      "hash": "982ebd8360925bd9f1fe9bf500bb1069",
+      "created_at": "2026-08-31T16:11:25.498684+00:00",
+      "updated_at": "2026-08-31T16:11:25.498684+00:00",
+      "attributed_to": "user"
+    },
+    "31e8962f-11db-497d-99a4-7a95569c68c4": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened cabinet 2 on August 31, 2026",
+      "text_lemmatized": "user open cabinet 2 august 31 2026",
+      "hash": "6e00f65ef860518ff18d791cb42b84cb",
+      "created_at": "2026-08-31T16:11:25.499580+00:00",
+      "updated_at": "2026-08-31T16:11:25.499580+00:00",
+      "attributed_to": "user"
+    },
+    "80192512-5193-4708-813a-7fb6f2f21fee": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at cabinet 3 and found it empty",
+      "text_lemmatized": "user arrive cabinet 3 find",
+      "hash": "795ebfb5b51d5b08488a970ed8db4115",
+      "created_at": "2026-08-31T16:11:29.877258+00:00",
+      "updated_at": "2026-08-31T16:11:29.877258+00:00",
+      "attributed_to": "user"
+    },
+    "018221c6-06d0-4b32-b771-415103b53c74": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at cabinet 4 and observed a peppershaker on it",
+      "text_lemmatized": "user arrive cabinet 4 observe peppershaker",
+      "hash": "d6717dd2ec2217b2c812c9fa0c81b6dd",
+      "created_at": "2026-08-31T16:11:34.491151+00:00",
+      "updated_at": "2026-08-31T16:11:34.491151+00:00",
+      "attributed_to": "user"
+    },
+    "d314bd95-4ba8-4a91-a46e-b0837f171f70": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at cabinet 5 and found it closed",
+      "text_lemmatized": "user arrive cabinet 5 find close",
+      "hash": "cc09c6472ad65265aef66e7753ad8a11",
+      "created_at": "2026-08-31T16:11:38.720762+00:00",
+      "updated_at": "2026-08-31T16:11:38.720762+00:00"
+    },
+    "e85a7857-2ccb-42c1-98d8-d87db0a6db54": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened cabinet 5 and found it empty",
+      "text_lemmatized": "user open cabinet 5 find",
+      "hash": "099517fe607599bc51de33033869bd5b",
+      "created_at": "2026-08-31T16:11:43.387977+00:00",
+      "updated_at": "2026-08-31T16:11:43.387977+00:00",
+      "attributed_to": "user"
+    },
+    "250f5c37-a2a5-4876-a807-a6c2ecc4f5fe": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at cabinet 6 and found it closed",
+      "text_lemmatized": "user arrive cabinet 6 find close",
+      "hash": "b18053e5b773e729c279f9931ef02a1e",
+      "created_at": "2026-08-31T16:11:48.133954+00:00",
+      "updated_at": "2026-08-31T16:11:48.133954+00:00",
+      "attributed_to": "user"
+    },
+    "97232d1b-33c7-4fd4-aac4-f6aa9177d6ba": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened cabinet 6 and found it empty",
+      "text_lemmatized": "user open cabinet 6 find",
+      "hash": "3d2d728218456f889842bd903d38dac2",
+      "created_at": "2026-08-31T16:11:52.821884+00:00",
+      "updated_at": "2026-08-31T16:11:52.821884+00:00",
+      "attributed_to": "user"
+    },
+    "28091c88-bafd-48a6-b87f-b281c2080b37": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at drawer 1 and found it closed",
+      "text_lemmatized": "user arrive drawer 1 find close",
+      "hash": "9b126246b7a0ea1e78447fad6ba48377",
+      "created_at": "2026-08-31T16:11:57.088744+00:00",
+      "updated_at": "2026-08-31T16:11:57.088744+00:00"
+    },
+    "9c79131e-754f-4e9b-937a-bfdc1daea722": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened drawer 1 and found a dishsponge 2 and a fork 1 inside",
+      "text_lemmatized": "user open drawer 1 find dishsponge 2 fork 1 inside",
+      "hash": "df9164e4c7be25d209d280d0c5959a22",
+      "created_at": "2026-08-31T16:12:01.964918+00:00",
+      "updated_at": "2026-08-31T16:12:01.964918+00:00",
+      "attributed_to": "user"
+    },
+    "bfa96c0e-6179-43fd-a2d8-88a61d931bb0": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at drawer 2 and found it closed",
+      "text_lemmatized": "user arrive drawer 2 find close",
+      "hash": "0556f117ab843771a90ac5cbf403d9f1",
+      "created_at": "2026-08-31T16:12:06.305091+00:00",
+      "updated_at": "2026-08-31T16:12:06.305091+00:00"
+    },
+    "58788cf5-6b21-450b-aefd-4ae781704f8e": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened drawer 2 and found a saltshaker 1 inside",
+      "text_lemmatized": "user open drawer 2 find saltshaker 1 inside",
+      "hash": "9b51f42dbcf72fa03933db7ebd1beeea",
+      "created_at": "2026-08-31T16:12:10.950063+00:00",
+      "updated_at": "2026-08-31T16:12:10.950063+00:00",
+      "attributed_to": "user"
+    },
+    "764564b0-07e1-45a6-93d4-3d2dbf9af14b": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at drawer 3 and found it closed",
+      "text_lemmatized": "user arrive drawer 3 find close",
+      "hash": "363a09d5731b44e3adb3a3f2c890750e",
+      "created_at": "2026-08-31T16:12:15.438747+00:00",
+      "updated_at": "2026-08-31T16:12:15.438747+00:00"
+    },
+    "dcd31ed4-0cda-4d79-9711-20a82f3f4827": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened drawer 3 and found a peppershaker 2 inside",
+      "text_lemmatized": "user open drawer 3 find peppershaker 2 inside",
+      "hash": "f282bb9316cac01e33f1ddecb83c47bc",
+      "created_at": "2026-08-31T16:12:20.449689+00:00",
+      "updated_at": "2026-08-31T16:12:20.449689+00:00",
+      "attributed_to": "user"
+    },
+    "2c94b1b3-d69f-4c35-9ac6-ac066f14abd6": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User picked up the peppershaker 2 from drawer 3",
+      "text_lemmatized": "user pick peppershaker 2 drawer 3",
+      "hash": "e77ea9edbe5ffcba46d4ac6a3bd9b28b",
+      "created_at": "2026-08-31T16:12:25.379605+00:00",
+      "updated_at": "2026-08-31T16:12:25.379605+00:00",
+      "attributed_to": "user"
+    },
+    "a5463a20-8b6f-443d-b591-45bec6797435": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at countertop 1 and observed a pan 1 and a spoon 1 on it",
+      "text_lemmatized": "user arrive countertop 1 observe pan 1 spoon 1",
+      "hash": "48af4524733bd0330d5336b1acd7e424",
+      "created_at": "2026-08-31T16:12:30.062043+00:00",
+      "updated_at": "2026-08-31T16:12:30.062043+00:00"
+    },
+    "e12e33c6-c3af-4039-92a5-32dbf32892d2": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at countertop 2 and observed an apple 1, a cellphone 2, a cellphone 1, a knife 1, a lettuce 2, a lettuce 1, a peppershaker 3, and a plate 2 on it",
+      "text_lemmatized": "user arrive countertop 2 observe apple 1 cellphone 2 cellphone 1 knife 1 lettuce 2 lettuce 1 peppershaker 3 plate 2",
+      "hash": "4879b1092bcdf6225f3f9a527fec84fc",
+      "created_at": "2026-08-31T16:12:35.346415+00:00",
+      "updated_at": "2026-08-31T16:12:35.346415+00:00"
+    },
+    "99d18517-c95f-4f57-aef9-d084762d71e2": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at countertop 3 and observed a bread 1, a butterknife 1, a cellphone 3, a creditcard 1, a glassbottle 3, a houseplant 1, a knife 2, a mug 2, a papertowelroll 1, a plate 3, a spatula 3, and a spoon 2 on it",
+      "text_lemmatized": "user arrive countertop 3 observe bread 1 butterknife 1 cellphone 3 creditcard 1 glassbottle 3 houseplant 1 knife 2 mug 2 papertowelroll 1 plate 3 spatula 3 spoon 2",
+      "hash": "e3d7f977b691977e1c6559b098c6b985",
+      "created_at": "2026-08-31T16:12:41.060921+00:00",
+      "updated_at": "2026-08-31T16:12:41.060921+00:00"
+    },
+    "e6b44829-8255-4c38-9643-c07cd388f275": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User attempted to take mug 2 from countertop 3 but nothing happened",
+      "text_lemmatized": "user attempt mug 2 countertop 3 happen",
+      "hash": "b1d4587e259b3c529ec1a3050393e270",
+      "created_at": "2026-08-31T16:12:49.411199+00:00",
+      "updated_at": "2026-08-31T16:12:49.411199+00:00",
+      "attributed_to": "user"
+    },
+    "1557c3be-267b-46f3-aa43-0682439608a0": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at coffeemachine 1 and observed that it is empty",
+      "text_lemmatized": "user arrive coffeemachine 1 observe",
+      "hash": "148fd9e8c1ee6467f65b75eeb846055d",
+      "created_at": "2026-08-31T16:12:54.310872+00:00",
+      "updated_at": "2026-08-31T16:12:54.310872+00:00",
+      "attributed_to": "user"
+    },
+    "fb5b9b0d-63d6-4a90-9757-1ac45ea38d13": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User is currently carrying a peppershaker 2",
+      "text_lemmatized": "user currently carry carrying peppershaker 2",
+      "hash": "a532700419e9fa2cf5d35b79d61aac5e",
+      "created_at": "2026-08-31T16:13:28.644187+00:00",
+      "updated_at": "2026-08-31T16:13:28.644187+00:00",
+      "attributed_to": "user"
+    },
+    "8d7c1480-d3cd-4732-97bb-9c256144af80": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User attempted to go to mug 2 but nothing happened",
+      "text_lemmatized": "user attempt mug 2 happen",
+      "hash": "bfb0611d4b0356d54297adfd011aab04",
+      "created_at": "2026-08-31T16:13:32.980961+00:00",
+      "updated_at": "2026-08-31T16:13:32.980961+00:00",
+      "attributed_to": "user"
+    },
+    "8198303c-8a14-4790-a423-fc4abeb24940": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User attempted to go to countertop 3 but nothing happened",
+      "text_lemmatized": "user attempt countertop 3 happen",
+      "hash": "d2a76c7d265e8e485f89bdc414bcd9e7",
+      "created_at": "2026-08-31T16:13:37.358991+00:00",
+      "updated_at": "2026-08-31T16:13:37.358991+00:00",
+      "attributed_to": "user"
+    },
+    "fd960410-51db-4962-bf24-156740981f5c": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User is currently carrying a peppershaker 2",
+      "text_lemmatized": "user currently carry carrying peppershaker 2",
+      "hash": "a532700419e9fa2cf5d35b79d61aac5e",
+      "created_at": "2026-08-31T16:13:42.873617+00:00",
+      "updated_at": "2026-08-31T16:13:42.873617+00:00",
+      "attributed_to": "user"
+    },
+    "9d90c1f8-e650-4e48-9b1b-ed30c7bc4fb7": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User examined countertop 3 and observed a bread 1, a butterknife 1, a cellphone 3, a creditcard 1, a glassbottle 3, a houseplant 1, a knife 2, a mug 2, a papertowelroll 1, a plate 3, a spatula 3, and a spoon 2 on it",
+      "text_lemmatized": "user examine countertop 3 observe bread 1 butterknife 1 cellphone 3 creditcard 1 glassbottle 3 houseplant 1 knife 2 mug 2 papertowelroll 1 plate 3 spatula 3 spoon 2",
+      "hash": "cad1b6d4fa4ad53917398e3977e51d2d",
+      "created_at": "2026-08-31T16:13:48.862691+00:00",
+      "updated_at": "2026-08-31T16:13:48.862691+00:00",
+      "attributed_to": "user"
+    },
+    "ec9fadf6-e5b2-4d09-bca7-5bda003cdafe": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at microwave 1 and found it closed",
+      "text_lemmatized": "user arrive microwave 1 find close",
+      "hash": "75ad39dfb4be7cb1db4a41ebe030076f",
+      "created_at": "2026-08-31T16:14:39.074887+00:00",
+      "updated_at": "2026-08-31T16:14:39.074887+00:00",
+      "attributed_to": "user"
+    },
+    "3c71a2a3-356e-454a-95b5-4ce5bf869421": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User opened microwave 1 and found a cup 1 inside it",
+      "text_lemmatized": "user open microwave 1 find cup 1 inside",
+      "hash": "264143054751fc80a3c913f365de64b4",
+      "created_at": "2026-08-31T16:14:44.326016+00:00",
+      "updated_at": "2026-08-31T16:14:44.326016+00:00",
+      "attributed_to": "user"
+    },
+    "ac6fc4dc-50c4-478e-b6cd-cad479e968e7": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at stoveburner 1 and observed a pan 1 on it",
+      "text_lemmatized": "user arrive stoveburn 1 observe pan 1",
+      "hash": "4c476b6157219fb57e0bda3893ae769d",
+      "created_at": "2026-08-31T16:14:48.964666+00:00",
+      "updated_at": "2026-08-31T16:14:48.964666+00:00",
+      "attributed_to": "user"
+    },
+    "1a013ad6-7f4c-4954-ba9a-dd82b42abb8c": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at sinkbasin 1 and observed a glassbottle 2, a potato 3, a spatula 2, and a spatula 1 on it",
+      "text_lemmatized": "user arrive sinkbasin 1 observe glassbottle 2 potato 3 spatula 2 spatula 1",
+      "hash": "e5a593121681c834e9cfb8b0103e7af1",
+      "created_at": "2026-08-31T16:14:54.161297+00:00",
+      "updated_at": "2026-08-31T16:14:54.161297+00:00"
+    },
+    "ece4b0e0-e857-44f1-a70a-398b5509da67": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "data": "User arrived at stoveburner 2 and observed a pot 1 on it",
+      "text_lemmatized": "user arrive stoveburn 2 observe pot 1",
+      "hash": "a2e9aaaf3710443a9fde6704512c9185",
+      "created_at": "2026-08-31T16:15:15.620470+00:00",
+      "updated_at": "2026-08-31T16:15:15.620470+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "dd0b1eb4-259a-4fe5-af62-9ad40081e52b",
+    "1": "5c1d4674-8af5-4a16-a426-8d42409e69c2",
+    "2": "e9d2ba26-4fc9-4d90-ae6b-2e48a76e5346",
+    "3": "40f3eddf-4261-4fcb-b582-2c85aa78963f",
+    "4": "31e8962f-11db-497d-99a4-7a95569c68c4",
+    "5": "80192512-5193-4708-813a-7fb6f2f21fee",
+    "6": "018221c6-06d0-4b32-b771-415103b53c74",
+    "7": "d314bd95-4ba8-4a91-a46e-b0837f171f70",
+    "8": "e85a7857-2ccb-42c1-98d8-d87db0a6db54",
+    "9": "250f5c37-a2a5-4876-a807-a6c2ecc4f5fe",
+    "10": "97232d1b-33c7-4fd4-aac4-f6aa9177d6ba",
+    "11": "28091c88-bafd-48a6-b87f-b281c2080b37",
+    "12": "9c79131e-754f-4e9b-937a-bfdc1daea722",
+    "13": "bfa96c0e-6179-43fd-a2d8-88a61d931bb0",
+    "14": "58788cf5-6b21-450b-aefd-4ae781704f8e",
+    "15": "764564b0-07e1-45a6-93d4-3d2dbf9af14b",
+    "16": "dcd31ed4-0cda-4d79-9711-20a82f3f4827",
+    "17": "2c94b1b3-d69f-4c35-9ac6-ac066f14abd6",
+    "18": "a5463a20-8b6f-443d-b591-45bec6797435",
+    "19": "e12e33c6-c3af-4039-92a5-32dbf32892d2",
+    "20": "99d18517-c95f-4f57-aef9-d084762d71e2",
+    "21": "e6b44829-8255-4c38-9643-c07cd388f275",
+    "22": "1557c3be-267b-46f3-aa43-0682439608a0",
+    "23": "fb5b9b0d-63d6-4a90-9757-1ac45ea38d13",
+    "24": "8d7c1480-d3cd-4732-97bb-9c256144af80",
+    "25": "8198303c-8a14-4790-a423-fc4abeb24940",
+    "26": "fd960410-51db-4962-bf24-156740981f5c",
+    "27": "9d90c1f8-e650-4e48-9b1b-ed30c7bc4fb7",
+    "28": "ec9fadf6-e5b2-4d09-bca7-5bda003cdafe",
+    "29": "3c71a2a3-356e-454a-95b5-4ce5bf869421",
+    "30": "ac6fc4dc-50c4-478e-b6cd-cad479e968e7",
+    "31": "1a013ad6-7f4c-4954-ba9a-dd82b42abb8c",
+    "32": "ece4b0e0-e857-44f1-a70a-398b5509da67"
+  }
+}

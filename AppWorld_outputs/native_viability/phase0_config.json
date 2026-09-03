@@ -1,0 +1,53 @@
+{
+  "_comment": "Phase-0 native viability config. Byte-for-byte the official simplified_react_code_agent DEV config (experiments/configs/simplified_react_code_agent/openai/gpt-4o-2024-05-13/dev.jsonnet) with ONLY the model endpoint swapped to the local Qwen3-32B-AWQ vLLM server. No prompt, agent, loop, or evaluator change. _transport_chat_template_kwargs is applied by run_phase0.py at the HTTP transport layer (OpenAI client extra_body), matching the official qwen3-*-without-reasoning model configs in experiments/configs/_generator/models/alibaba.py. It is NOT part of model_config passed to LanguageModel, because non_cached_lm_call in this checkout rejects extra_body even though the official config generator emits it.",
+  "type": "simplified",
+  "config": {
+    "agent": {
+      "type": "simplified_react_code_agent",
+      "model_config": {
+        "client_name": "openai",
+        "api_type": "chat_completions",
+        "name": "qwen3-32b-awq-local",
+        "base_url": "{MODEL_SERVER_URL}/v1",
+        "api_key_env_name": "NO_API_KEY",
+        "temperature": 0.0,
+        "seed": 100,
+        "max_completion_tokens": 1024,
+        "drop_reasoning_content": false,
+        "cost_per_token": {
+          "input_cache_hit": 0.0,
+          "input_cache_miss": 0.0,
+          "input_cache_write": 0.0,
+          "output": 0.0
+        },
+        "retry_after_n_seconds": 15,
+        "use_cache": false,
+        "max_retries": 20,
+        "_transport_chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      },
+      "appworld_config": {
+        "random_seed": 100,
+        "raise_on_extra_parameters": true
+      },
+      "logger_config": {
+        "color": false,
+        "verbose": true
+      },
+      "usage_tracker_config": {
+        "max_cost_overall": 1000,
+        "max_cost_per_task": 10,
+        "max_output_tokens_per_task": 100000
+      },
+      "prompt_file_path": "{PROMPTS}/react_code_agent/instructions.txt",
+      "ignore_multiple_calls": true,
+      "max_prompt_length": null,
+      "max_output_length": null,
+      "max_steps": 50,
+      "log_lm_calls": true,
+      "skip_if_finished": true
+    },
+    "dataset": "phase0_dev15"
+  }
+}

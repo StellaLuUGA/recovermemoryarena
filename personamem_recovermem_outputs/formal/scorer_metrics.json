@@ -1,0 +1,80 @@
+{
+  "train_metrics": {
+    "split": "predictor_train",
+    "n_personas": 16,
+    "n_decisions": 192,
+    "n_positive": 55,
+    "n_negative": 137,
+    "pi_hat_persona_equal": 0.2864583333333333,
+    "pi_hat_decision_pooled": 0.2864583333333333,
+    "auroc": 0.648307896483079,
+    "auprc": 0.4597470363767993,
+    "score_min": 0.2142310633169612,
+    "score_median": 0.4748076191038128,
+    "score_max": 0.9210585857127771,
+    "n_distinct_scores": 192
+  },
+  "intercept": 1.5944250312161516,
+  "coefficients": {
+    "retrieval_coverage": 9.62494,
+    "entity_coverage": -2.03268,
+    "action_arg_support": 0.0,
+    "top_similarity": -0.20834,
+    "similarity_margin": 2.56977,
+    "support_count_norm": 0.0,
+    "evidence_utilization": -1.84634,
+    "conflict_density_inv": -0.14969,
+    "action_confidence": -0.25617,
+    "step_progress": 0.0
+  },
+  "feature_schema_version": "recovermem-features-v1",
+  "frozen": true,
+  "n_train_personas": 16,
+  "n_train_decisions": 192,
+  "normalizer": {
+    "names": [
+      "retrieval_coverage",
+      "entity_coverage",
+      "action_arg_support",
+      "top_similarity",
+      "similarity_margin",
+      "support_count_norm",
+      "evidence_utilization",
+      "conflict_density_inv",
+      "action_confidence",
+      "step_progress"
+    ],
+    "mean": [
+      0.20257753248494123,
+      0.96875,
+      1.0,
+      0.4060139125989129,
+      0.062434097519144416,
+      1.0,
+      0.7388076782226562,
+      0.9765625,
+      0.7749472786743336,
+      0.0
+    ],
+    "scale": [
+      0.05062186559435636,
+      0.16634082731949282,
+      1.0,
+      0.10740417965378925,
+      0.0690218723744484,
+      1.0,
+      0.08270087117073636,
+      0.1469220890826722,
+      0.0416102934322704,
+      1.0
+    ]
+  },
+  "normalizer_hash": "7a6500a78bb4702fe5ae295347bc99caca2804535811061012e7c48972d98766",
+  "scorer_hash": "f3b9519da36838aa63ada40a1ab2bb860d5b3aa4d4947e959157b845633531c8",
+  "training_config": {
+    "model": "L2 logistic regression, class_weight=balanced, C=1.0, max_iter=500",
+    "seed": 13,
+    "labels": "R_mem = 1[u_mem >= gamma=0.5]",
+    "split": "Amendment A1 predictor_train (16 personas)"
+  }
+}

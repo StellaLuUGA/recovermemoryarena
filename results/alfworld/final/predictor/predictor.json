@@ -1,0 +1,69 @@
+{
+  "schema_version": "recovermem-features-v1",
+  "feature_names": [
+    "retrieval_coverage",
+    "entity_coverage",
+    "action_arg_support",
+    "top_similarity",
+    "similarity_margin",
+    "support_count_norm",
+    "evidence_utilization",
+    "conflict_density_inv",
+    "action_confidence",
+    "step_progress"
+  ],
+  "coef": [
+    19.22561094321279,
+    0.0,
+    4.864764761933541,
+    -12.962983379100885,
+    4.640922241350586,
+    -0.7444252989472364,
+    -7.9708975606759775,
+    0.0,
+    2.9021370121449674,
+    -0.3501401135311997
+  ],
+  "intercept": 1.971259497079541,
+  "frozen": true,
+  "n_train_decisions": 36,
+  "n_train_episodes": 7,
+  "normalizer": {
+    "names": [
+      "retrieval_coverage",
+      "entity_coverage",
+      "action_arg_support",
+      "top_similarity",
+      "similarity_margin",
+      "support_count_norm",
+      "evidence_utilization",
+      "conflict_density_inv",
+      "action_confidence",
+      "step_progress"
+    ],
+    "mean": [
+      0.2610695663193537,
+      1.0,
+      0.5740740740740741,
+      0.7527655109211251,
+      0.11935153631148514,
+      0.8984142889053318,
+      0.202880859375,
+      1.0,
+      0.9755695830537492,
+      0.2288888888888889
+    ],
+    "scale": [
+      0.08772614034365979,
+      1.0,
+      0.17322487901731212,
+      0.0925725775746426,
+      0.13857647758922076,
+      0.18664889641963558,
+      0.11937172854713651,
+      1.0,
+      0.03645617845086191,
+      0.1375535810305242
+    ]
+  }
+}

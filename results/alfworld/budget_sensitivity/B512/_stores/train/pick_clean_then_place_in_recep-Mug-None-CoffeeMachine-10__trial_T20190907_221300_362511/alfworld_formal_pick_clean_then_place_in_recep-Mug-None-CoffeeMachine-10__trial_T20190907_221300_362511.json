@@ -1,0 +1,164 @@
+{
+  "docstore": {
+    "35286bf5-5b1f-435e-8337-c7c38e8b085e": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User is in a room with multiple cabinets, a coffeemachine, countertops, and drawers. The task is to put a clean mug in the coffeemachine",
+      "text_lemmatized": "user room multiple cabinet coffeemachine countertop drawer task clean mug coffeemachine",
+      "hash": "2be2ca8c014117658ffb1cc2edde4915",
+      "created_at": "2026-08-31T15:57:43.985307+00:00",
+      "updated_at": "2026-08-31T15:57:43.985307+00:00",
+      "attributed_to": "user"
+    },
+    "b6a7b028-c453-411e-bd39-c54824c1b17a": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User arrived at cabinet 1, where they found a dishsponge 1 and a soapbottle 2",
+      "text_lemmatized": "user arrive cabinet 1 find dishsponge 1 soapbottle 2",
+      "hash": "505118913a51ba6367f323e8b9994375",
+      "created_at": "2026-08-31T15:57:43.986392+00:00",
+      "updated_at": "2026-08-31T15:57:43.986392+00:00",
+      "attributed_to": "assistant"
+    },
+    "5866423d-9048-42f4-a6b7-c28cd94ad369": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User arrived at sinkbasin 1, where they found a cup 3, an egg 3, and a glassbottle 3",
+      "text_lemmatized": "user arrive sinkbasin 1 find cup 3 egg 3 glassbottle 3",
+      "hash": "682a36ac1d4e90628a6dcc3bcd68a311",
+      "created_at": "2026-08-31T15:57:49.266979+00:00",
+      "updated_at": "2026-08-31T15:57:49.266979+00:00"
+    },
+    "9c3ea066-e62d-4aed-8105-602edcc3dd0f": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User moved from cabinet 1 to sinkbasin 1 as part of the task to put a clean mug in the coffeemachine",
+      "text_lemmatized": "user move cabinet 1 sinkbasin 1 task clean mug coffeemachine",
+      "hash": "f110b766d3a10191886433d3b566381f",
+      "created_at": "2026-08-31T15:57:49.268285+00:00",
+      "updated_at": "2026-08-31T15:57:49.268285+00:00"
+    },
+    "5549f35f-b9af-4dd7-a774-5ed152c3f3c9": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User picked up cup 3 from sinkbasin 1",
+      "text_lemmatized": "user pick cup 3 sinkbasin 1",
+      "hash": "5a29d0e32faa31e1adc2dc09acae78ad",
+      "created_at": "2026-08-31T15:57:54.971619+00:00",
+      "updated_at": "2026-08-31T15:57:54.971619+00:00",
+      "attributed_to": "user"
+    },
+    "e5dabd3c-0c2a-4bc8-8fa1-4ca074228a75": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User's action of taking cup 3 from sinkbasin 1 is part of the task to put a clean mug in the coffeemachine",
+      "text_lemmatized": "user action take taking cup 3 sinkbasin 1 task clean mug coffeemachine",
+      "hash": "1d4222da4105c46e7ff3326b4d2e43f8",
+      "created_at": "2026-08-31T15:57:54.973068+00:00",
+      "updated_at": "2026-08-31T15:57:54.973068+00:00",
+      "attributed_to": "assistant"
+    },
+    "d82da167-b06e-4771-9d16-075bf2dec6d7": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User cleaned cup 3 using sinkbasin 1 as part of the task to put a clean mug in the coffeemachine",
+      "text_lemmatized": "user clean cup 3 sinkbasin 1 task clean mug coffeemachine",
+      "hash": "01b73366a1fbb3745f07c9a0355afcad",
+      "created_at": "2026-08-31T15:57:59.763562+00:00",
+      "updated_at": "2026-08-31T15:57:59.763562+00:00",
+      "attributed_to": "user"
+    },
+    "b5b065dc-2b9b-4b22-a960-53d1a2047fe6": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User arrived at coffeemachine 1, which is empty, as part of the task to put a clean mug in the coffeemachine",
+      "text_lemmatized": "user arrive coffeemachine 1 task clean mug coffeemachine",
+      "hash": "5976c365400898401f9e58c514433b99",
+      "created_at": "2026-08-31T15:58:04.806572+00:00",
+      "updated_at": "2026-08-31T15:58:04.806572+00:00",
+      "attributed_to": "user"
+    },
+    "24935cc1-c236-44d3-b0e9-43cb0d818111": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User attempted to move cup 3 to coffeemachine 1 but the action had no effect",
+      "text_lemmatized": "user attempt cup 3 coffeemachine 1 action effect",
+      "hash": "8db9b1eaa5a6fe5213e124f12f1ed5b3",
+      "created_at": "2026-08-31T15:58:09.807289+00:00",
+      "updated_at": "2026-08-31T15:58:09.807289+00:00",
+      "attributed_to": "user"
+    },
+    "45e26152-7bcb-457e-8525-9c59533bb8b4": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User moved cup 3 from coffeemachine 1 to countertop 1",
+      "text_lemmatized": "user move cup 3 coffeemachine 1 countertop 1",
+      "hash": "0baf35a4b0051127817fefa78c820b4c",
+      "created_at": "2026-08-31T15:58:14.243463+00:00",
+      "updated_at": "2026-08-31T15:58:14.243463+00:00",
+      "attributed_to": "user"
+    },
+    "8c28a219-2722-448f-9596-26d6ff8f5617": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User picked up cup 3 from countertop 1 on August 31, 2026",
+      "text_lemmatized": "user pick cup 3 countertop 1 august 31 2026",
+      "hash": "ea7c710b1ee150163ec9d3305e6dd82b",
+      "created_at": "2026-08-31T15:58:18.842031+00:00",
+      "updated_at": "2026-08-31T15:58:18.842031+00:00",
+      "attributed_to": "user"
+    },
+    "96b66548-47a8-476b-8039-8d5a3bdb10b5": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User attempted to go to coffeemachine 1 but the action had no effect",
+      "text_lemmatized": "user attempt coffeemachine 1 action effect",
+      "hash": "ab1bfffd4dca5f9073814e230ddcbbaa",
+      "created_at": "2026-08-31T15:58:23.924110+00:00",
+      "updated_at": "2026-08-31T15:58:23.924110+00:00",
+      "attributed_to": "user"
+    },
+    "fe3415b2-1ca5-4bb5-bb38-1a96be21057d": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User is attempting to put a clean mug in the coffeemachine, which involves navigating to coffeemachine 1 and handling cup 3",
+      "text_lemmatized": "user attempt attempting clean mug coffeemachine involve navigate navigating coffeemachine 1 handle handling cup 3",
+      "hash": "2cb4aafe761b63447bfa7cf215eec97a",
+      "created_at": "2026-08-31T15:58:29.763000+00:00",
+      "updated_at": "2026-08-31T15:58:29.763000+00:00",
+      "attributed_to": "user"
+    },
+    "a2130a91-bb41-4704-a094-cd55b66eb79b": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User attempted to go to countertop 1 but the action had no effect",
+      "text_lemmatized": "user attempt countertop 1 action effect",
+      "hash": "d4e51a79eba780c3bfe528b7fd5f882b",
+      "created_at": "2026-08-31T15:58:52.354875+00:00",
+      "updated_at": "2026-08-31T15:58:52.354875+00:00",
+      "attributed_to": "user"
+    },
+    "513351d9-fe60-4318-9af2-eaf2f0232b8d": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User's action of going to coffeemachine 1 had no effect, indicating possible navigation or interaction issues with the object",
+      "text_lemmatized": "user action go going coffeemachine 1 effect indicate indicating possible navigation interaction issue object",
+      "hash": "39f896bda2af3fd1898707ba9b6ec420",
+      "created_at": "2026-08-31T15:58:57.887606+00:00",
+      "updated_at": "2026-08-31T15:58:57.887606+00:00",
+      "attributed_to": "user"
+    },
+    "4fdce0d9-6cb6-49ce-b044-1cb61c88e761": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "data": "User examined coffeemachine 1 and found it empty with nothing on it",
+      "text_lemmatized": "user examine coffeemachine 1 find",
+      "hash": "9a61b0f870cf523064994ff981dfd1a4",
+      "created_at": "2026-08-31T15:59:30.199756+00:00",
+      "updated_at": "2026-08-31T15:59:30.199756+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "35286bf5-5b1f-435e-8337-c7c38e8b085e",
+    "1": "b6a7b028-c453-411e-bd39-c54824c1b17a",
+    "2": "5866423d-9048-42f4-a6b7-c28cd94ad369",
+    "3": "9c3ea066-e62d-4aed-8105-602edcc3dd0f",
+    "4": "5549f35f-b9af-4dd7-a774-5ed152c3f3c9",
+    "5": "e5dabd3c-0c2a-4bc8-8fa1-4ca074228a75",
+    "6": "d82da167-b06e-4771-9d16-075bf2dec6d7",
+    "7": "b5b065dc-2b9b-4b22-a960-53d1a2047fe6",
+    "8": "24935cc1-c236-44d3-b0e9-43cb0d818111",
+    "9": "45e26152-7bcb-457e-8525-9c59533bb8b4",
+    "10": "8c28a219-2722-448f-9596-26d6ff8f5617",
+    "11": "96b66548-47a8-476b-8039-8d5a3bdb10b5",
+    "12": "fe3415b2-1ca5-4bb5-bb38-1a96be21057d",
+    "13": "a2130a91-bb41-4704-a094-cd55b66eb79b",
+    "14": "513351d9-fe60-4318-9af2-eaf2f0232b8d",
+    "15": "4fdce0d9-6cb6-49ce-b044-1cb61c88e761"
+  }
+}

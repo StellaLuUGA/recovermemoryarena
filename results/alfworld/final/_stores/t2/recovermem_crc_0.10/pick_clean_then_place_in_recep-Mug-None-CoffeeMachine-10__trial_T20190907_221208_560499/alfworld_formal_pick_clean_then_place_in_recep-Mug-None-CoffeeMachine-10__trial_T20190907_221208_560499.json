@@ -1,0 +1,153 @@
+{
+  "docstore": {
+    "2ed6ec58-0176-4aae-bded-f7fe5d454774": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User is in a room with multiple cabinets, a coffeemachine, countertops, and drawers. The task is to put a clean mug in the coffeemachine",
+      "text_lemmatized": "user room multiple cabinet coffeemachine countertop drawer task clean mug coffeemachine",
+      "hash": "2be2ca8c014117658ffb1cc2edde4915",
+      "created_at": "2026-08-31T13:23:46.672050+00:00",
+      "updated_at": "2026-08-31T13:23:46.672050+00:00",
+      "attributed_to": "user"
+    },
+    "cf682c62-03ff-48ca-a333-57dc4d7290eb": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at cabinet 1, where a vase 2 is located",
+      "text_lemmatized": "user arrive cabinet 1 vase 2 locate",
+      "hash": "6e75a2ed04c0b2beae947808936db4bb",
+      "created_at": "2026-08-31T13:23:46.673026+00:00",
+      "updated_at": "2026-08-31T13:23:46.673026+00:00",
+      "attributed_to": "assistant"
+    },
+    "ef95e0ec-562a-4a84-8fa4-ebd10c1da522": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T13:23:51.315695+00:00",
+      "updated_at": "2026-08-31T13:23:51.315695+00:00",
+      "attributed_to": "user"
+    },
+    "78c4e7f5-6ae9-41e1-86fa-0af2d43aee45": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User opened cabinet 2 and found a dishsponge 2 and a vase 3 inside",
+      "text_lemmatized": "user open cabinet 2 find dishsponge 2 vase 3 inside",
+      "hash": "2dfb2d077a2c207d9491c3d9bdf10384",
+      "created_at": "2026-08-31T13:23:55.756156+00:00",
+      "updated_at": "2026-08-31T13:23:55.756156+00:00",
+      "attributed_to": "user"
+    },
+    "40a3f86b-cd3c-4a9b-893e-795e263bc746": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at cabinet 3, where a bowl 1 is located",
+      "text_lemmatized": "user arrive cabinet 3 bowl 1 locate",
+      "hash": "9b66041dae138c984d637fc5f1c58ad3",
+      "created_at": "2026-08-31T13:24:00.053436+00:00",
+      "updated_at": "2026-08-31T13:24:00.053436+00:00"
+    },
+    "b26e5346-045a-4a25-aeba-f0803e45b7ab": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at cabinet 4, where a vase 1 is located",
+      "text_lemmatized": "user arrive cabinet 4 vase 1 locate",
+      "hash": "7d9edfb74af7221a68cef446d45e359a",
+      "created_at": "2026-08-31T13:24:04.378831+00:00",
+      "updated_at": "2026-08-31T13:24:04.378831+00:00"
+    },
+    "728fed53-e1a1-4ca9-ae05-5d2c5289acf2": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T13:24:09.193982+00:00",
+      "updated_at": "2026-08-31T13:24:09.193982+00:00",
+      "attributed_to": "user"
+    },
+    "e6bfec11-1a8e-4562-8894-0e30c1cc2dbb": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User opened cabinet 5 and found a soapbottle 1 inside",
+      "text_lemmatized": "user open cabinet 5 find soapbottle 1 inside",
+      "hash": "d41dbd622dd752f97b63e69d20785d32",
+      "created_at": "2026-08-31T13:24:13.648174+00:00",
+      "updated_at": "2026-08-31T13:24:13.648174+00:00",
+      "attributed_to": "user"
+    },
+    "69f61071-4f6a-48cf-a5a5-3a6771198193": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at cabinet 6, which is closed",
+      "text_lemmatized": "user arrive cabinet 6 close",
+      "hash": "426e0890ad3d4d00cb5ab1a465eadd3e",
+      "created_at": "2026-08-31T13:24:18.178349+00:00",
+      "updated_at": "2026-08-31T13:24:18.178349+00:00",
+      "attributed_to": "user"
+    },
+    "0c3d47f4-ca5b-4ce0-9e19-17759029cbd6": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User opened cabinet 6 and found a cup 1 and a mug 3 inside",
+      "text_lemmatized": "user open cabinet 6 find cup 1 mug 3 inside",
+      "hash": "709610f794fc8086573ace4597970c1d",
+      "created_at": "2026-08-31T13:24:22.711078+00:00",
+      "updated_at": "2026-08-31T13:24:22.711078+00:00",
+      "attributed_to": "user"
+    },
+    "cfa7811b-77a2-4dbd-a8b2-84415e464c80": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User took the mug 3 from cabinet 6",
+      "text_lemmatized": "user take mug 3 cabinet 6",
+      "hash": "a4aada844a1d38f49c6ee05a89060f1d",
+      "created_at": "2026-08-31T13:24:27.484432+00:00",
+      "updated_at": "2026-08-31T13:24:27.484432+00:00",
+      "attributed_to": "user"
+    },
+    "4c745cd3-2bbb-4d31-9f9d-7eaa3b794326": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at sinkbasin 1 and observed that a plate 3, a spatula 2, and a spatula 1 are on it",
+      "text_lemmatized": "user arrive sinkbasin 1 observe plate 3 spatula 2 spatula 1",
+      "hash": "5dde746b333703e177604bd32896e60e",
+      "created_at": "2026-08-31T13:24:32.787164+00:00",
+      "updated_at": "2026-08-31T13:24:32.787164+00:00"
+    },
+    "8022c2be-4f60-4e92-b3c2-6b0cf2ee8300": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User cleaned the mug 3 using the sinkbasin 1",
+      "text_lemmatized": "user clean mug 3 sinkbasin 1",
+      "hash": "4dff833c92a76e8be9236a9008250a71",
+      "created_at": "2026-08-31T13:24:37.708503+00:00",
+      "updated_at": "2026-08-31T13:24:37.708503+00:00",
+      "attributed_to": "user"
+    },
+    "66b8bd8c-5b7b-488e-8a8e-1983b75b0d30": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User arrived at coffeemachine 1 and observed that it is empty",
+      "text_lemmatized": "user arrive coffeemachine 1 observe",
+      "hash": "148fd9e8c1ee6467f65b75eeb846055d",
+      "created_at": "2026-08-31T13:24:41.915528+00:00",
+      "updated_at": "2026-08-31T13:24:41.915528+00:00",
+      "attributed_to": "user"
+    },
+    "a671be64-7fd4-4d63-8f9f-0a9a44042496": {
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221208_560499",
+      "data": "User moved the mug 3 to the coffeemachine 1",
+      "text_lemmatized": "user move mug 3 coffeemachine 1",
+      "hash": "73a2136b037dcc7c12464fbb422d8091",
+      "created_at": "2026-08-31T13:24:46.930573+00:00",
+      "updated_at": "2026-08-31T13:24:46.930573+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "2ed6ec58-0176-4aae-bded-f7fe5d454774",
+    "1": "cf682c62-03ff-48ca-a333-57dc4d7290eb",
+    "2": "ef95e0ec-562a-4a84-8fa4-ebd10c1da522",
+    "3": "78c4e7f5-6ae9-41e1-86fa-0af2d43aee45",
+    "4": "40a3f86b-cd3c-4a9b-893e-795e263bc746",
+    "5": "b26e5346-045a-4a25-aeba-f0803e45b7ab",
+    "6": "728fed53-e1a1-4ca9-ae05-5d2c5289acf2",
+    "7": "e6bfec11-1a8e-4562-8894-0e30c1cc2dbb",
+    "8": "69f61071-4f6a-48cf-a5a5-3a6771198193",
+    "9": "0c3d47f4-ca5b-4ce0-9e19-17759029cbd6",
+    "10": "cfa7811b-77a2-4dbd-a8b2-84415e464c80",
+    "11": "4c745cd3-2bbb-4d31-9f9d-7eaa3b794326",
+    "12": "8022c2be-4f60-4e92-b3c2-6b0cf2ee8300",
+    "13": "66b8bd8c-5b7b-488e-8a8e-1983b75b0d30",
+    "14": "a671be64-7fd4-4d63-8f9f-0a9a44042496"
+  }
+}

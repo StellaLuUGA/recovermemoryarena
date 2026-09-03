@@ -1,0 +1,135 @@
+{
+  "docstore": {
+    "e404189b-8d45-44a1-b7fa-c212a05fa34b": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User arrived at desk 1 and observed that it contains an alarm clock 2, a cellphone 2, a desk lamp 1, a keychain 2, a mug 1, and a pencil 3",
+      "text_lemmatized": "user arrive desk 1 observe contain alarm clock 2 cellphone 2 desk lamp 1 keychain 2 mug 1 pencil 3",
+      "hash": "efa2f0d8b58d22d235056c9c0f57082b",
+      "created_at": "2026-08-31T11:33:26.746149+00:00",
+      "updated_at": "2026-08-31T11:33:26.746149+00:00",
+      "attributed_to": "user"
+    },
+    "1c5ae0d8-7504-4ae3-a67d-800b08f4d47b": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User picked up pencil 3 from desk 1",
+      "text_lemmatized": "user pick pencil 3 desk 1",
+      "hash": "f06407138e52e6b8ab9021f7bf7a8339",
+      "created_at": "2026-08-31T11:33:31.128266+00:00",
+      "updated_at": "2026-08-31T11:33:31.128266+00:00",
+      "attributed_to": "user"
+    },
+    "8277b23c-8f41-4b11-8d71-bfa0a0c78f30": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User arrived at desk 2 and observed that it contains a book 2, a bowl 2, a bowl 1, a CD 2, a mug 3, and a pencil 4",
+      "text_lemmatized": "user arrive desk 2 observe contain book 2 bowl 2 bowl 1 cd 2 mug 3 pencil 4",
+      "hash": "3f4eb967191b6c392af31c825e5442c9",
+      "created_at": "2026-08-31T11:34:00.308274+00:00",
+      "updated_at": "2026-08-31T11:34:00.308274+00:00"
+    },
+    "6fc73559-9dd0-4489-9d65-3b182077d9c1": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User moved pencil 3 from desk 1 to desk 2",
+      "text_lemmatized": "user move pencil 3 desk 1 desk 2",
+      "hash": "ff693f8281dd1336a25debff7d9d634a",
+      "created_at": "2026-08-31T11:34:05.093870+00:00",
+      "updated_at": "2026-08-31T11:34:05.093870+00:00",
+      "attributed_to": "assistant"
+    },
+    "20725dd3-f074-46e5-b663-ae77bc8354e8": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User arrived at desk 1 and observed that it contains an alarm clock 2, a cellphone 2, a desk lamp 1, a keychain 2, and a mug 1",
+      "text_lemmatized": "user arrive desk 1 observe contain alarm clock 2 cellphone 2 desk lamp 1 keychain 2 mug 1",
+      "hash": "6002b09b4d1d8f941e63bfcb937258f0",
+      "created_at": "2026-08-31T11:34:13.404058+00:00",
+      "updated_at": "2026-08-31T11:34:13.404058+00:00",
+      "attributed_to": "user"
+    },
+    "b9ee9dc0-04ae-4f79-a7e7-f9978b3fe940": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User turned on the desklamp 1 on desk 1",
+      "text_lemmatized": "user turn desklamp 1 desk 1",
+      "hash": "94ef53189fcbf5a846fab6936fa876ad",
+      "created_at": "2026-08-31T11:34:17.758265+00:00",
+      "updated_at": "2026-08-31T11:34:17.758265+00:00",
+      "attributed_to": "user"
+    },
+    "9e7df3f3-9c0c-417f-94ad-85d7b3f7c51f": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User arrived at desk 2 and observed that it contains a book 2, a bowl 2, a bowl 1, a CD 2, a mug 3, a pencil 4, and a pencil 3",
+      "text_lemmatized": "user arrive desk 2 observe contain book 2 bowl 2 bowl 1 cd 2 mug 3 pencil 4 pencil 3",
+      "hash": "0bdf5ad72aafb719f4569d7e76bfdee1",
+      "created_at": "2026-08-31T11:34:23.283583+00:00",
+      "updated_at": "2026-08-31T11:34:23.283583+00:00",
+      "attributed_to": "user"
+    },
+    "70997bbc-8ad4-41b4-bf8b-c3d467d7fea8": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User attempted to examine pencil 3 with desklamp 1 but nothing happened",
+      "text_lemmatized": "user attempt examine pencil 3 desklamp 1 happen",
+      "hash": "5385717f38095fe6bab8d13f8d54fa98",
+      "created_at": "2026-08-31T11:34:27.810743+00:00",
+      "updated_at": "2026-08-31T11:34:27.810743+00:00",
+      "attributed_to": "user"
+    },
+    "6c53d686-a78f-40e4-b091-9a52240f29e7": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User attempted to examine pencil 3 but nothing happened",
+      "text_lemmatized": "user attempt examine pencil 3 happen",
+      "hash": "8c1c50a3252360b577426bbe0256b81e",
+      "created_at": "2026-08-31T11:35:18.035785+00:00",
+      "updated_at": "2026-08-31T11:35:18.035785+00:00",
+      "attributed_to": "user"
+    },
+    "a60aab73-1527-4331-bf9e-c884e40518e5": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User attempted to use desklamp 1 but nothing happened",
+      "text_lemmatized": "user attempt use desklamp 1 happen",
+      "hash": "5e4f64082039c1c8eb1a530b32bedc80",
+      "created_at": "2026-08-31T11:36:29.756860+00:00",
+      "updated_at": "2026-08-31T11:36:29.756860+00:00",
+      "attributed_to": "user"
+    },
+    "2847cdf6-7cdb-4385-a2f8-27808706d072": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User attempted to go to desk 2 but nothing happened",
+      "text_lemmatized": "user attempt desk 2 happen",
+      "hash": "6b339c9d8ee70b859e04541bfb7037cb",
+      "created_at": "2026-08-31T11:36:38.995067+00:00",
+      "updated_at": "2026-08-31T11:36:38.995067+00:00",
+      "attributed_to": "assistant"
+    },
+    "e610f998-707b-43a8-a688-f1df411304c7": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User examined desk 2 and observed that it contains a book 2, a bowl 2, a bowl 1, a CD 2, a mug 3, a pencil 4, and a pencil 3",
+      "text_lemmatized": "user examine desk 2 observe contain book 2 bowl 2 bowl 1 cd 2 mug 3 pencil 4 pencil 3",
+      "hash": "e8fbfdb7fadc8366c9841e0c06df3529",
+      "created_at": "2026-08-31T11:36:44.391252+00:00",
+      "updated_at": "2026-08-31T11:36:44.391252+00:00",
+      "attributed_to": "user"
+    },
+    "411a9f1d-7eb1-4028-acf3-c051ee18a459": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User picked up pencil 3 from desk 2",
+      "text_lemmatized": "user pick pencil 3 desk 2",
+      "hash": "d72317dbb4e1a1cf8488f53495061dc7",
+      "created_at": "2026-08-31T11:36:49.637792+00:00",
+      "updated_at": "2026-08-31T11:36:49.637792+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "e404189b-8d45-44a1-b7fa-c212a05fa34b",
+    "1": "1c5ae0d8-7504-4ae3-a67d-800b08f4d47b",
+    "2": "8277b23c-8f41-4b11-8d71-bfa0a0c78f30",
+    "3": "6fc73559-9dd0-4489-9d65-3b182077d9c1",
+    "4": "20725dd3-f074-46e5-b663-ae77bc8354e8",
+    "5": "b9ee9dc0-04ae-4f79-a7e7-f9978b3fe940",
+    "6": "9e7df3f3-9c0c-417f-94ad-85d7b3f7c51f",
+    "7": "70997bbc-8ad4-41b4-bf8b-c3d467d7fea8",
+    "8": "6c53d686-a78f-40e4-b091-9a52240f29e7",
+    "9": "a60aab73-1527-4331-bf9e-c884e40518e5",
+    "10": "2847cdf6-7cdb-4385-a2f8-27808706d072",
+    "11": "e610f998-707b-43a8-a688-f1df411304c7",
+    "12": "411a9f1d-7eb1-4028-acf3-c051ee18a459"
+  }
+}

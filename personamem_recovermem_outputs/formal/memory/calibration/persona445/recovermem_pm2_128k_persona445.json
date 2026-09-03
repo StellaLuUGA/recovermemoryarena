@@ -1,0 +1,1532 @@
+{
+  "docstore": {
+    "68baaac3-62f4-41d8-a376-a2b75ba95420": {
+      "user_id": "persona445",
+      "data": "Wayne is 37 years old in 2021",
+      "text_lemmatized": "Wayne is 37 years old in 2021",
+      "hash": "6e692dcf893ac8ed2d3119ef8f244c98",
+      "created_at": "2026-08-28T22:46:29.261035+00:00",
+      "updated_at": "2026-08-28T22:46:29.261035+00:00",
+      "attributed_to": "user"
+    },
+    "c0a84ac4-158d-4dfe-9e80-1eb760cfcc54": {
+      "user_id": "persona445",
+      "data": "Peter is 3 years older than Wayne, making him 40 years old in 2021",
+      "text_lemmatized": "Peter is 3 years older than Wayne, making him 40 years old in 2021",
+      "hash": "7714f9883b7519775127e453fd7c6346",
+      "created_at": "2026-08-28T22:46:29.261057+00:00",
+      "updated_at": "2026-08-28T22:46:29.261057+00:00",
+      "attributed_to": "user"
+    },
+    "739043e5-17c0-44e1-b752-91c9d50f7459": {
+      "user_id": "persona445",
+      "data": "Julia is 2 years older than Peter, making her 42 years old in 2021",
+      "text_lemmatized": "Julia is 2 years older than Peter, making her 42 years old in 2021",
+      "hash": "6223984f51d949005ce1b5e88e287ae5",
+      "created_at": "2026-08-28T22:46:29.261067+00:00",
+      "updated_at": "2026-08-28T22:46:29.261067+00:00",
+      "attributed_to": "user"
+    },
+    "a44a6c61-9cfc-4e90-965e-7f79cc2e35ca": {
+      "user_id": "persona445",
+      "data": "To find Julia's birth year, we need to subtract her age from the current year (2026) and add 1",
+      "text_lemmatized": "To find Julia's birth year, we need to subtract her age from the current year (2026) and add 1",
+      "hash": "22fb5dbe7b6f2e316a32342c6a866d2b",
+      "created_at": "2026-08-28T22:46:29.261075+00:00",
+      "updated_at": "2026-08-28T22:46:29.261075+00:00",
+      "attributed_to": "assistant"
+    },
+    "829fe736-9d69-4252-aabe-ba39d52a9215": {
+      "user_id": "persona445",
+      "data": "Julia was born in 2026 - 42 + 1 = 1985",
+      "text_lemmatized": "Julia was born in 2026 - 42 + 1 = 1985",
+      "hash": "48e7b461962f3fdbff702cd156fafa02",
+      "created_at": "2026-08-28T22:46:29.261082+00:00",
+      "updated_at": "2026-08-28T22:46:29.261082+00:00",
+      "attributed_to": "assistant"
+    },
+    "6228c2ff-54bc-42e1-9e25-c6e4bf8d7f1d": {
+      "user_id": "persona445",
+      "data": "There are 40% of 200 CDs that cost $10 each, which is 0.4 * 200 = 80 CDs, and the rest cost $5 each, which is 200 - 80 = 120 CDs",
+      "text_lemmatized": "There are 40% of 200 CDs that cost $10 each, which is 0.4 * 200 = 80 CDs, and the rest cost $5 each, which is 200 - 80 = 120 CDs",
+      "hash": "23c449c6396e2993110af1cec29d38e7",
+      "created_at": "2026-08-28T22:46:46.346914+00:00",
+      "updated_at": "2026-08-28T22:46:46.346914+00:00"
+    },
+    "ee60dbd7-80ac-46e2-9e05-d5fa5f5d470f": {
+      "user_id": "persona445",
+      "data": "Prince bought half of the 80 CDs that cost $10 each, which is 80 / 2 = 40 CDs, and all of the 120 CDs that cost $5 each",
+      "text_lemmatized": "Prince bought half of the 80 CDs that cost $10 each, which is 80 / 2 = 40 CDs, and all of the 120 CDs that cost $5 each",
+      "hash": "bfa083721bd2deb4e8b0579fbcd3731f",
+      "created_at": "2026-08-28T22:46:46.346937+00:00",
+      "updated_at": "2026-08-28T22:46:46.346937+00:00"
+    },
+    "224fb657-9d62-4c25-9a70-bf5130a521c0": {
+      "user_id": "persona445",
+      "data": "The total cost of the 40 CDs that cost $10 each is 40 * $10 = $400, and the total cost of the 120 CDs that cost $5 each is 120 * $5 = $600",
+      "text_lemmatized": "The total cost of the 40 CDs that cost $10 each is 40 * $10 = $400, and the total cost of the 120 CDs that cost $5 each is 120 * $5 = $600",
+      "hash": "eb51af660cfb0d6bb22003ec4a694114",
+      "created_at": "2026-08-28T22:46:46.346948+00:00",
+      "updated_at": "2026-08-28T22:46:46.346948+00:00"
+    },
+    "ea1d5425-4423-4d64-a0fc-e075af99151c": {
+      "user_id": "persona445",
+      "data": "The total amount of money Prince spent on buying the CDs is $400 + $600 = $1000",
+      "text_lemmatized": "The total amount of money Prince spent on buying the CDs is $400 + $600 = $1000",
+      "hash": "95e090a168eadb409641f2a2315b8c7a",
+      "created_at": "2026-08-28T22:46:46.346957+00:00",
+      "updated_at": "2026-08-28T22:46:46.346957+00:00"
+    },
+    "1719c9a6-d4a9-4c53-92e4-efdb3bf438b1": {
+      "user_id": "persona445",
+      "data": "User has 3 children whose ages add up to 35",
+      "text_lemmatized": "User has 3 children whose ages add up to 35",
+      "hash": "4f7b9ba531fb8d7ffb6cec3d92128396",
+      "created_at": "2026-08-28T22:46:57.430403+00:00",
+      "updated_at": "2026-08-28T22:46:57.430403+00:00",
+      "attributed_to": "user"
+    },
+    "0cb5c1b3-01f9-4119-bddf-67846b9efdbe": {
+      "user_id": "persona445",
+      "data": "Matthew is 2 years older than Rebecca and 4 years younger than Freddy",
+      "text_lemmatized": "Matthew is 2 years older than Rebecca and 4 years younger than Freddy",
+      "hash": "d0d6aa997d912abdcb939e96737ac284",
+      "created_at": "2026-08-28T22:46:57.430422+00:00",
+      "updated_at": "2026-08-28T22:46:57.430422+00:00",
+      "attributed_to": "user"
+    },
+    "1b716b1a-a139-4be6-8086-5e4d4c70bea1": {
+      "user_id": "persona445",
+      "data": "Freddy is 15 years old",
+      "text_lemmatized": "Freddy is 15 years old",
+      "hash": "522ca34fe3c8ccde582cde9cad010f0c",
+      "created_at": "2026-08-28T22:46:57.430430+00:00",
+      "updated_at": "2026-08-28T22:46:57.430430+00:00",
+      "attributed_to": "assistant"
+    },
+    "5cf23627-ffa9-48d1-92de-6db84709d26d": {
+      "user_id": "persona445",
+      "data": "John pays for a candy bar with 4 quarters, 3 dimes, and a nickel, and gets 4 cents back in change",
+      "text_lemmatized": "John pays for a candy bar with 4 quarters, 3 dimes, and a nickel, and gets 4 cents back in change",
+      "hash": "fd36603b8b5172b7cb506659b60d389d",
+      "created_at": "2026-08-28T22:46:57.430436+00:00",
+      "updated_at": "2026-08-28T22:46:57.430436+00:00",
+      "attributed_to": "user"
+    },
+    "e2d9e199-41a8-4f7b-9dfb-da37b7bfc570": {
+      "user_id": "persona445",
+      "data": "The candy bar costs 131 cents",
+      "text_lemmatized": "The candy bar costs 131 cents",
+      "hash": "a92a8b1873d2a12a338d32fded60f3a7",
+      "created_at": "2026-08-28T22:46:57.430443+00:00",
+      "updated_at": "2026-08-28T22:46:57.430443+00:00",
+      "attributed_to": "assistant"
+    },
+    "cacd4554-74e9-47b4-8e9f-cbc9b360b07a": {
+      "user_id": "persona445",
+      "data": "A tree drops a tenth of its leaves each day for 4 days, then drops the rest on the 5th day",
+      "text_lemmatized": "A tree drops a tenth of its leaves each day for 4 days, then drops the rest on the 5th day",
+      "hash": "a45be00966953bc3515da3f6a6132e09",
+      "created_at": "2026-08-28T22:46:57.430449+00:00",
+      "updated_at": "2026-08-28T22:46:57.430449+00:00",
+      "attributed_to": "assistant"
+    },
+    "1d0a3f28-3c46-4f59-8917-e58b5a6a52c0": {
+      "user_id": "persona445",
+      "data": "The tree drops 204 leaves on the 5th day",
+      "text_lemmatized": "The tree drops 204 leaves on the 5th day",
+      "hash": "4d27bcd513f02b9a7904c826520dfe97",
+      "created_at": "2026-08-28T22:46:57.430455+00:00",
+      "updated_at": "2026-08-28T22:46:57.430455+00:00",
+      "attributed_to": "assistant"
+    },
+    "32148729-1bdb-476c-b7f2-e2eff4b80aaf": {
+      "user_id": "persona445",
+      "data": "There are 516 cars in a parking lot, with 172 blue, 258 red, and 86 black cars",
+      "text_lemmatized": "There are 516 cars in a parking lot, with 172 blue, 258 red, and 86 black cars",
+      "hash": "84607654256ab8723d1630ad39360da5",
+      "created_at": "2026-08-28T22:46:57.430462+00:00",
+      "updated_at": "2026-08-28T22:46:57.430462+00:00",
+      "attributed_to": "assistant"
+    },
+    "4214ce9e-fae9-4e0d-8a1c-584c272a44e7": {
+      "user_id": "persona445",
+      "data": "Mel is 3 years younger than Katherine, and Katherine is 24 years old",
+      "text_lemmatized": "Mel is 3 years younger than Katherine, and Katherine is 24 years old",
+      "hash": "5ecca050e84fb1f4cea57d6573264cbd",
+      "created_at": "2026-08-28T22:46:57.430468+00:00",
+      "updated_at": "2026-08-28T22:46:57.430468+00:00",
+      "attributed_to": "assistant"
+    },
+    "f85e52e2-0cd4-473f-896d-1d2e5c68ac80": {
+      "user_id": "persona445",
+      "data": "Mel is 21 years old",
+      "text_lemmatized": "Mel is 21 years old",
+      "hash": "3d87420ed10fd02654fc873160b60f02",
+      "created_at": "2026-08-28T22:46:57.430474+00:00",
+      "updated_at": "2026-08-28T22:46:57.430474+00:00",
+      "attributed_to": "assistant"
+    },
+    "d3c172cf-8b88-406b-b8f1-6a0c0443f00a": {
+      "user_id": "persona445",
+      "data": "User is focusing on rebalancing systems in a tactical RPG to promote long-term meta health",
+      "text_lemmatized": "User is focusing on rebalancing systems in a tactical RPG to promote long-term meta health",
+      "hash": "184e8f66c19a7758f1654c0451807a40",
+      "created_at": "2026-08-28T22:46:57.430480+00:00",
+      "updated_at": "2026-08-28T22:46:57.430480+00:00",
+      "attributed_to": "assistant"
+    },
+    "ed5e2bb0-431e-4fb8-a3a9-6fcd2d56fb38": {
+      "user_id": "persona445",
+      "data": "User wants to explore more structured opportunities for live collaboration to accelerate problem-solving",
+      "text_lemmatized": "User wants to explore more structured opportunities for live collaboration to accelerate problem-solving",
+      "hash": "a27ec6d09e5b8c8a6a8002f0b2d34b06",
+      "created_at": "2026-08-28T22:46:57.430485+00:00",
+      "updated_at": "2026-08-28T22:46:57.430485+00:00",
+      "attributed_to": "assistant"
+    },
+    "2e211ad1-06e2-4699-8f5d-ddaf5d1c6a66": {
+      "user_id": "persona445",
+      "data": "The base of a hill is 300m above the seabed, and this depth is a quarter of the vertical distance between the riverbed and the peak of the hill",
+      "text_lemmatized": "The base of a hill is 300m above the seabed, and this depth is a quarter of the vertical distance between the riverbed and the peak of the hill",
+      "hash": "78a3c88fa6fae0841f927a898c0514e9",
+      "created_at": "2026-08-28T22:46:57.430491+00:00",
+      "updated_at": "2026-08-28T22:46:57.430491+00:00",
+      "attributed_to": "assistant"
+    },
+    "ef314584-7567-40b1-ba83-7a23b957ce7d": {
+      "user_id": "persona445",
+      "data": "The hill is 1200m tall",
+      "text_lemmatized": "The hill is 1200m tall",
+      "hash": "384d83a683c81591b63c59013ee47736",
+      "created_at": "2026-08-28T22:46:57.430496+00:00",
+      "updated_at": "2026-08-28T22:46:57.430496+00:00",
+      "attributed_to": "assistant"
+    },
+    "461ff85f-c8e8-4c9c-aab3-95723ff49e71": {
+      "user_id": "persona445",
+      "data": "If $10^n = 1000^{20}$, then $n = 60$",
+      "text_lemmatized": "If $10^n = 1000^{20}$, then $n = 60$",
+      "hash": "2f5f46b3dc27987da7294793e94be834",
+      "created_at": "2026-08-28T22:46:57.430501+00:00",
+      "updated_at": "2026-08-28T22:46:57.430501+00:00",
+      "attributed_to": "assistant"
+    },
+    "997d188c-bc5c-479c-9981-1dcd928b3d31": {
+      "user_id": "persona445",
+      "data": "Nellie played hide and seek with 6 sisters and 8 brothers, and then played tag with 22 cousins",
+      "text_lemmatized": "Nellie played hide and seek with 6 sisters and 8 brothers, and then played tag with 22 cousins",
+      "hash": "00e9e9d4d5ac85cfde2596e37474474d",
+      "created_at": "2026-08-28T22:46:57.430506+00:00",
+      "updated_at": "2026-08-28T22:46:57.430506+00:00",
+      "attributed_to": "assistant"
+    },
+    "4f4019d7-8e9c-4f07-9966-161e8b42113d": {
+      "user_id": "persona445",
+      "data": "Nellie played with 36 kids in total",
+      "text_lemmatized": "Nellie played with 36 kids in total",
+      "hash": "d4ff8d63ac14c36674088322167c24af",
+      "created_at": "2026-08-28T22:46:57.430511+00:00",
+      "updated_at": "2026-08-28T22:46:57.430511+00:00",
+      "attributed_to": "assistant"
+    },
+    "03e19cf7-87c2-4f7c-a8d5-82b3d68ff024": {
+      "user_id": "persona445",
+      "data": "Jesse read the first 5 chapters of a book, which were 10, 15, 27, 12, and 19 pages, and found he was only 1/3 of the way through the book",
+      "text_lemmatized": "Jesse read the first 5 chapters of a book, which were 10, 15, 27, 12, and 19 pages, and found he was only 1/3 of the way through the book",
+      "hash": "de9e89d23b74dab216b02cabc76209ec",
+      "created_at": "2026-08-28T22:46:57.430517+00:00",
+      "updated_at": "2026-08-28T22:46:57.430517+00:00",
+      "attributed_to": "assistant"
+    },
+    "ed4719c6-3fec-456b-b04e-9f30591418ce": {
+      "user_id": "persona445",
+      "data": "The book has 249 pages, and Jesse still has to read 166 pages",
+      "text_lemmatized": "The book has 249 pages, and Jesse still has to read 166 pages",
+      "hash": "d5b832e7aabf6abf6ef9652dc83ff5f5",
+      "created_at": "2026-08-28T22:46:57.430524+00:00",
+      "updated_at": "2026-08-28T22:46:57.430524+00:00",
+      "attributed_to": "assistant"
+    },
+    "c3c44757-7464-4497-abca-cf57020d8de9": {
+      "user_id": "persona445",
+      "data": "User is planning a board game session with Marissa at Meeple & Bean on Saturday afternoon",
+      "text_lemmatized": "User is planning a board game session with Marissa at Meeple & Bean on Saturday afternoon",
+      "hash": "8722e268c68d9794bb12e3442f9cefa7",
+      "created_at": "2026-08-28T22:46:57.430529+00:00",
+      "updated_at": "2026-08-28T22:46:57.430529+00:00",
+      "attributed_to": "assistant"
+    },
+    "85193457-135f-43b4-a095-8070ecaa5971": {
+      "user_id": "persona445",
+      "data": "User is bringing their copy of Terraforming Mars for a marathon session",
+      "text_lemmatized": "User is bringing their copy of Terraforming Mars for a marathon session",
+      "hash": "bf15982cb46435f8bc75e941ae788b86",
+      "created_at": "2026-08-28T22:46:57.430534+00:00",
+      "updated_at": "2026-08-28T22:46:57.430534+00:00",
+      "attributed_to": "assistant"
+    },
+    "611e093b-e911-4329-aa77-b5e8c5534807": {
+      "user_id": "persona445",
+      "data": "Einstein wants to raise $500 by selling snacks, including pizza for $12, potato fries for $0.30, and soda for $2. He sold 15 pizzas, 40 packs of potato fries, and 25 cans of soda. The total revenue from pizza sales is $180, from potato fries is $12, and from soda is $50. The total revenue is $242. Einstein needs to raise an additional $258 to reach his goal.",
+      "text_lemmatized": "Einstein wants to raise $500 by selling snacks, including pizza for $12, potato fries for $0.30, and soda for $2. He sold 15 pizzas, 40 packs of potato fries, and 25 cans of soda. The total revenue from pizza sales is $180, from potato fries is $12, and from soda is $50. The total revenue is $242. Einstein needs to raise an additional $258 to reach his goal.",
+      "hash": "9dc2555162bfd53d5b6b8fa519be8c88",
+      "created_at": "2026-08-28T22:47:07.208070+00:00",
+      "updated_at": "2026-08-28T22:47:07.208070+00:00",
+      "attributed_to": "assistant"
+    },
+    "155637dc-d3df-4489-a779-25346697960e": {
+      "user_id": "persona445",
+      "data": "Job has 150 hectares of land, with 25 hectares for his house and farm machinery, 15 hectares reserved for future expansion, and 40 hectares for rearing cattle. The total land used for cattle is 40 hectares, and the rest is used for crops. So, Job uses 70 hectares for crop production.",
+      "text_lemmatized": "Job has 150 hectares of land, with 25 hectares for his house and farm machinery, 15 hectares reserved for future expansion, and 40 hectares for rearing cattle. The total land used for cattle is 40 hectares, and the rest is used for crops. So, Job uses 70 hectares for crop production.",
+      "hash": "9e87e6c42724ac29c37031556677eb8e",
+      "created_at": "2026-08-28T22:47:07.208091+00:00",
+      "updated_at": "2026-08-28T22:47:07.208091+00:00",
+      "attributed_to": "assistant"
+    },
+    "238581d0-8e62-49b5-aa9b-cd60bf22ae67": {
+      "user_id": "persona445",
+      "data": "A tree was 100 meters tall at the end of 2017 and grew 10% more each year. In 2018, it grew 10 meters, making it 110 meters tall. In 2019, it grew 11 meters, making it 121 meters tall. The tree grew 21 meters from the end of 2017 to the end of 2019.",
+      "text_lemmatized": "A tree was 100 meters tall at the end of 2017 and grew 10% more each year. In 2018, it grew 10 meters, making it 110 meters tall. In 2019, it grew 11 meters, making it 121 meters tall. The tree grew 21 meters from the end of 2017 to the end of 2019.",
+      "hash": "ee725eb19922ef201cd290cd82985629",
+      "created_at": "2026-08-28T22:47:07.208101+00:00",
+      "updated_at": "2026-08-28T22:47:07.208101+00:00",
+      "attributed_to": "assistant"
+    },
+    "29c901d2-5975-4d54-9229-85355d4f2d31": {
+      "user_id": "persona445",
+      "data": "Betty has 20 books, and her sister has 1/4 times more books than Betty. The sister has 25 books, and together they have 45 books.",
+      "text_lemmatized": "Betty has 20 books, and her sister has 1/4 times more books than Betty. The sister has 25 books, and together they have 45 books.",
+      "hash": "5014d31cb481d81b67055d2e6846f58c",
+      "created_at": "2026-08-28T22:47:07.208109+00:00",
+      "updated_at": "2026-08-28T22:47:07.208109+00:00",
+      "attributed_to": "assistant"
+    },
+    "788a502c-08f8-4769-9804-a154d5803c99": {
+      "user_id": "persona445",
+      "data": "The Smogon OU meta seems to 'lock in' around a few dominant team archetypes instead of cycling more evenly through viable strategies over time. This is due to mechanical balance factors and social-metagame dynamics.",
+      "text_lemmatized": "The Smogon OU meta seems to 'lock in' around a few dominant team archetypes instead of cycling more evenly through viable strategies over time. This is due to mechanical balance factors and social-metagame dynamics.",
+      "hash": "0fcfcb871d30d9a049c36f5efa4a7552",
+      "created_at": "2026-08-28T22:47:07.208116+00:00",
+      "updated_at": "2026-08-28T22:47:07.208116+00:00",
+      "attributed_to": "assistant"
+    },
+    "94aea434-81af-4678-9dc8-15621423026e": {
+      "user_id": "persona445",
+      "data": "Talia drives a total of 16 miles that day, starting and ending at her house, with a trip to the park and the grocery store.",
+      "text_lemmatized": "Talia drives a total of 16 miles that day, starting and ending at her house, with a trip to the park and the grocery store.",
+      "hash": "e35a4e07090c75a09e8dd5537f6b0707",
+      "created_at": "2026-08-28T22:47:07.208123+00:00",
+      "updated_at": "2026-08-28T22:47:07.208123+00:00",
+      "attributed_to": "assistant"
+    },
+    "4c995def-e211-47b3-afae-e05c7e54afbe": {
+      "user_id": "persona445",
+      "data": "Gail has 2 $10 bills in her wallet, with a total of $100 in bills, including four $5 bills and three $20 bills.",
+      "text_lemmatized": "Gail has 2 $10 bills in her wallet, with a total of $100 in bills, including four $5 bills and three $20 bills.",
+      "hash": "c0cc6e0a310784e132e3976c2b37c935",
+      "created_at": "2026-08-28T22:47:07.208130+00:00",
+      "updated_at": "2026-08-28T22:47:07.208130+00:00",
+      "attributed_to": "assistant"
+    },
+    "c44da6f8-9f56-4e61-9449-5ecb0df8640f": {
+      "user_id": "persona445",
+      "data": "If x = 11, y = 8, and 2x + 3z = 5y, then z = 6.",
+      "text_lemmatized": "If x = 11, y = 8, and 2x + 3z = 5y, then z = 6.",
+      "hash": "30348a86976ced52a5092774594fc867",
+      "created_at": "2026-08-28T22:47:07.208136+00:00",
+      "updated_at": "2026-08-28T22:47:07.208136+00:00",
+      "attributed_to": "assistant"
+    },
+    "796dcbc8-ebad-4562-9d76-1320b3ef0c83": {
+      "user_id": "persona445",
+      "data": "Bob will need a total of 110 legos to build a pyramid with 3 levels, where the bottom level has 7 legos per side and each level has one less lego per side than the level below it.",
+      "text_lemmatized": "Bob will need a total of 110 legos to build a pyramid with 3 levels, where the bottom level has 7 legos per side and each level has one less lego per side than the level below it.",
+      "hash": "8688b74e17f0149b5a47813847a35b40",
+      "created_at": "2026-08-28T22:47:07.208142+00:00",
+      "updated_at": "2026-08-28T22:47:07.208142+00:00",
+      "attributed_to": "assistant"
+    },
+    "ab611e7d-e13f-43f7-8eb7-b24d6fc99946": {
+      "user_id": "persona445",
+      "data": "Joining online Pok\u00e9mon battle ladders or tournament servers where players analyze matches together is a natural way to meet people online that feels natural and keeps conversations going.",
+      "text_lemmatized": "Joining online Pok\u00e9mon battle ladders or tournament servers where players analyze matches together is a natural way to meet people online that feels natural and keeps conversations going.",
+      "hash": "6a2021c08f966ad416a98a7262b9511f",
+      "created_at": "2026-08-28T22:47:07.208149+00:00",
+      "updated_at": "2026-08-28T22:47:07.208149+00:00",
+      "attributed_to": "assistant"
+    },
+    "9aff3a9e-e8a0-429b-a3c9-0c18ad50ddf2": {
+      "user_id": "persona445",
+      "data": "User is working on a quilt with 16 squares on each side, totaling 32 squares.",
+      "text_lemmatized": "User is working on a quilt with 16 squares on each side, totaling 32 squares.",
+      "hash": "dd21c805038e834cade0eac86a0bafda",
+      "created_at": "2026-08-28T22:47:12.837144+00:00",
+      "updated_at": "2026-08-28T22:47:12.837144+00:00",
+      "attributed_to": "user"
+    },
+    "80982691-e88a-4b1e-ab58-dee4bfb1fa89": {
+      "user_id": "persona445",
+      "data": "Betsy has already sewn 25% of the quilt together.",
+      "text_lemmatized": "Betsy has already sewn 25% of the quilt together.",
+      "hash": "3e46facb448c0e69c69630d2000db6c9",
+      "created_at": "2026-08-28T22:47:12.837165+00:00",
+      "updated_at": "2026-08-28T22:47:12.837165+00:00",
+      "attributed_to": "user"
+    },
+    "03fab346-7453-468b-9feb-e4ff38d52fc6": {
+      "user_id": "persona445",
+      "data": "To find the number of squares Betsy has sewn, calculate 25% of 32 squares.",
+      "text_lemmatized": "To find the number of squares Betsy has sewn, calculate 25% of 32 squares.",
+      "hash": "7470f9ef93cb74bb7d07e45ffed23a5d",
+      "created_at": "2026-08-28T22:47:12.837173+00:00",
+      "updated_at": "2026-08-28T22:47:12.837173+00:00",
+      "attributed_to": "assistant"
+    },
+    "5b4d9049-112f-44ca-8b8a-8868046e3757": {
+      "user_id": "persona445",
+      "data": "25% of 32 squares is 8 squares.",
+      "text_lemmatized": "25% of 32 squares is 8 squares.",
+      "hash": "f75ab7613cd4274b5d2aa36bc9377e45",
+      "created_at": "2026-08-28T22:47:12.837180+00:00",
+      "updated_at": "2026-08-28T22:47:12.837180+00:00",
+      "attributed_to": "assistant"
+    },
+    "89843a0a-3b44-4e32-89c8-39c7c57a5025": {
+      "user_id": "persona445",
+      "data": "Betsy has sewn 8 squares so far.",
+      "text_lemmatized": "Betsy has sewn 8 squares so far.",
+      "hash": "232e4beca63f149bb19c7285f9c66706",
+      "created_at": "2026-08-28T22:47:12.837187+00:00",
+      "updated_at": "2026-08-28T22:47:12.837187+00:00",
+      "attributed_to": "assistant"
+    },
+    "a3c729f3-62b8-4e2b-b489-d543737fca0e": {
+      "user_id": "persona445",
+      "data": "To find the number of squares Betsy needs to sew, subtract the number she has already sewn from the total number of squares.",
+      "text_lemmatized": "To find the number of squares Betsy needs to sew, subtract the number she has already sewn from the total number of squares.",
+      "hash": "cce7a9fafb6408d99bb0af9e643cf854",
+      "created_at": "2026-08-28T22:47:12.837193+00:00",
+      "updated_at": "2026-08-28T22:47:12.837193+00:00",
+      "attributed_to": "assistant"
+    },
+    "338537f1-1b7e-4639-92ea-5d54eae10334": {
+      "user_id": "persona445",
+      "data": "Betsy needs to sew 32 - 8 = 24 squares.",
+      "text_lemmatized": "Betsy needs to sew 32 - 8 = 24 squares.",
+      "hash": "81d80b94085ee58491117d8b89c51945",
+      "created_at": "2026-08-28T22:47:12.837200+00:00",
+      "updated_at": "2026-08-28T22:47:12.837200+00:00",
+      "attributed_to": "assistant"
+    },
+    "539e6071-3fa8-42e6-8b8a-12fbcf534857": {
+      "user_id": "persona445",
+      "data": "User is trying to find how many more squares Betsy needs to sew together.",
+      "text_lemmatized": "User is trying to find how many more squares Betsy needs to sew together.",
+      "hash": "ceb81de831cb6453eaaa9e4c01a95266",
+      "created_at": "2026-08-28T22:47:12.837206+00:00",
+      "updated_at": "2026-08-28T22:47:12.837206+00:00",
+      "attributed_to": "user"
+    },
+    "1f9dc9fc-13ad-415e-a64c-d49edcf1cef9": {
+      "user_id": "persona445",
+      "data": "Betsy needs to sew 24 more squares together.",
+      "text_lemmatized": "Betsy needs to sew 24 more squares together.",
+      "hash": "aedf08152a0944a1938b6623ee23ce09",
+      "created_at": "2026-08-28T22:47:12.837212+00:00",
+      "updated_at": "2026-08-28T22:47:12.837212+00:00",
+      "attributed_to": "assistant"
+    },
+    "a6a26cad-3ab7-4572-a573-c1300fdc2cb4": {
+      "user_id": "persona445",
+      "data": "Susan is planning a party for her mom with 30 guests and needs to make 15 batches of a recipe that makes 2 servings each, requiring 60 potatoes and 15 teaspoons of salt.",
+      "text_lemmatized": "Susan is planning a party for her mom with 30 guests and needs to make 15 batches of a recipe that makes 2 servings each, requiring 60 potatoes and 15 teaspoons of salt.",
+      "hash": "f22fa637f2b8db7d3daf69ae7d747212",
+      "created_at": "2026-08-28T22:47:33.622282+00:00",
+      "updated_at": "2026-08-28T22:47:33.622282+00:00",
+      "attributed_to": "user"
+    },
+    "4ca84b35-b406-47ff-a1a4-7ddea958f5f4": {
+      "user_id": "persona445",
+      "data": "Susan will spend $6 on potatoes and $6 on salt, totaling $12 on food for the party.",
+      "text_lemmatized": "Susan will spend $6 on potatoes and $6 on salt, totaling $12 on food for the party.",
+      "hash": "9b6c505d948ce2609ab5d82fa7ab772d",
+      "created_at": "2026-08-28T22:47:33.622299+00:00",
+      "updated_at": "2026-08-28T22:47:33.622299+00:00",
+      "attributed_to": "assistant"
+    },
+    "9e737048-41cd-4229-8ef7-0562d10fabba": {
+      "user_id": "persona445",
+      "data": "A new book sold 15 copies on Wednesday, 45 copies on Thursday, and 9 copies on Friday, totaling 69 copies sold by Friday.",
+      "text_lemmatized": "A new book sold 15 copies on Wednesday, 45 copies on Thursday, and 9 copies on Friday, totaling 69 copies sold by Friday.",
+      "hash": "e0c5c5b125d477831e664c6c2aba31e4",
+      "created_at": "2026-08-28T22:47:33.622307+00:00",
+      "updated_at": "2026-08-28T22:47:33.622307+00:00",
+      "attributed_to": "assistant"
+    },
+    "864a86d7-a4bb-479c-bf2a-fe7109314122": {
+      "user_id": "persona445",
+      "data": "Alice sold $2500 worth of gadgets and will receive a $240 basic salary and a $50 commission, totaling $290 in earnings.",
+      "text_lemmatized": "Alice sold $2500 worth of gadgets and will receive a $240 basic salary and a $50 commission, totaling $290 in earnings.",
+      "hash": "01c8c14935db884ae7f2bf74f231cf3c",
+      "created_at": "2026-08-28T22:47:33.622314+00:00",
+      "updated_at": "2026-08-28T22:47:33.622314+00:00",
+      "attributed_to": "assistant"
+    },
+    "52a8b2c2-ea06-4b95-8588-d32a4c29526e": {
+      "user_id": "persona445",
+      "data": "Alice will save 10% of her total earnings, which is $29.",
+      "text_lemmatized": "Alice will save 10% of her total earnings, which is $29.",
+      "hash": "fbc4921ed0895dcc8b84d95b7ac4a730",
+      "created_at": "2026-08-28T22:47:33.622319+00:00",
+      "updated_at": "2026-08-28T22:47:33.622319+00:00",
+      "attributed_to": "assistant"
+    },
+    "ca509b5f-c86e-40a9-b8a9-abae7d5246d3": {
+      "user_id": "persona445",
+      "data": "You have 2 adult cats and 5 kittens, totaling 7 cats.",
+      "text_lemmatized": "You have 2 adult cats and 5 kittens, totaling 7 cats.",
+      "hash": "25db916fe337e303fffa0f0335e11403",
+      "created_at": "2026-08-28T22:47:33.622325+00:00",
+      "updated_at": "2026-08-28T22:47:33.622325+00:00",
+      "attributed_to": "assistant"
+    },
+    "e964d242-91dd-4a3f-9eb8-15220e2d45d0": {
+      "user_id": "persona445",
+      "data": "Arnold drives 150 miles per month in each of his three cars, averaging 50, 10, and 15 miles per gallon, using 3, 15, and 10 gallons of gas, totaling 28 gallons.",
+      "text_lemmatized": "Arnold drives 150 miles per month in each of his three cars, averaging 50, 10, and 15 miles per gallon, using 3, 15, and 10 gallons of gas, totaling 28 gallons.",
+      "hash": "5ea1310516390993413953c93e301781",
+      "created_at": "2026-08-28T22:47:33.622331+00:00",
+      "updated_at": "2026-08-28T22:47:33.622331+00:00",
+      "attributed_to": "assistant"
+    },
+    "c46c0aa3-dbed-4b7a-90bb-6c56605279a1": {
+      "user_id": "persona445",
+      "data": "Arnold spends $56 on gas each month.",
+      "text_lemmatized": "Arnold spends $56 on gas each month.",
+      "hash": "f5a147acd68fef2b0398aba5a73c2254",
+      "created_at": "2026-08-28T22:47:33.622336+00:00",
+      "updated_at": "2026-08-28T22:47:33.622336+00:00",
+      "attributed_to": "assistant"
+    },
+    "8f97b2f4-797c-48cd-af55-90f9d9c625e0": {
+      "user_id": "persona445",
+      "data": "Veronica's flashlight can be seen from 1000 feet away, Freddie's from 3000 feet, and Velma's from 13000 feet, with Velma's being seen 12000 feet farther.",
+      "text_lemmatized": "Veronica's flashlight can be seen from 1000 feet away, Freddie's from 3000 feet, and Velma's from 13000 feet, with Velma's being seen 12000 feet farther.",
+      "hash": "8afa21af7961e83bc858c5505a4d2e16",
+      "created_at": "2026-08-28T22:47:33.622341+00:00",
+      "updated_at": "2026-08-28T22:47:33.622341+00:00",
+      "attributed_to": "assistant"
+    },
+    "8e2ff80d-46f3-4da4-bf0f-7a5c1f37d6d6": {
+      "user_id": "persona445",
+      "data": "Clay's watermelon weighs 24 pounds, and John's is half that size, weighing 12 pounds.",
+      "text_lemmatized": "Clay's watermelon weighs 24 pounds, and John's is half that size, weighing 12 pounds.",
+      "hash": "fc86320f4f2f5ccabe06713906814b63",
+      "created_at": "2026-08-28T22:47:33.622346+00:00",
+      "updated_at": "2026-08-28T22:47:33.622346+00:00",
+      "attributed_to": "assistant"
+    },
+    "a3e006e0-574d-4228-bac8-53fa8bd91d50": {
+      "user_id": "persona445",
+      "data": "Hannah's AdBlock leaves 20% of ads unblocked, and 80% of those are not interesting, totaling 16% of ads that aren't interesting and don't get blocked.",
+      "text_lemmatized": "Hannah's AdBlock leaves 20% of ads unblocked, and 80% of those are not interesting, totaling 16% of ads that aren't interesting and don't get blocked.",
+      "hash": "5e02c167356ce5de33ebbeeee901368c",
+      "created_at": "2026-08-28T22:47:33.622352+00:00",
+      "updated_at": "2026-08-28T22:47:33.622352+00:00",
+      "attributed_to": "assistant"
+    },
+    "24f12be6-943f-456b-9e38-7b4c42789044": {
+      "user_id": "persona445",
+      "data": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy",
+      "text_lemmatized": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy",
+      "hash": "aad49abe35260cd2464f8361b2928aa8",
+      "created_at": "2026-08-28T22:47:58.665361+00:00",
+      "updated_at": "2026-08-28T22:47:58.665361+00:00",
+      "attributed_to": "user"
+    },
+    "8af9c132-7801-4349-9195-07e7c2f0a023": {
+      "user_id": "persona445",
+      "data": "User loves experimenting in the kitchen, especially adapting family recipes into modern takes",
+      "text_lemmatized": "User loves experimenting in the kitchen, especially adapting family recipes into modern takes",
+      "hash": "112cc15704cf5a59f3779d6bd2c2f814",
+      "created_at": "2026-08-28T22:47:58.665380+00:00",
+      "updated_at": "2026-08-28T22:47:58.665380+00:00",
+      "attributed_to": "user"
+    },
+    "fca67f9d-8b4e-46b8-93c9-61ea1f07c547": {
+      "user_id": "persona445",
+      "data": "User is looking for hearty meal ideas to make at home during the colder weather",
+      "text_lemmatized": "User is looking for hearty meal ideas to make at home during the colder weather",
+      "hash": "93efcf8a3c2de41a04044f08947d841a",
+      "created_at": "2026-08-28T22:47:58.665388+00:00",
+      "updated_at": "2026-08-28T22:47:58.665388+00:00",
+      "attributed_to": "user"
+    },
+    "63c8910c-524c-4559-8690-970eac569790": {
+      "user_id": "persona445",
+      "data": "User is considering pouring extra energy into another ambitious project or taking a step back to enjoy a slower pace",
+      "text_lemmatized": "User is considering pouring extra energy into another ambitious project or taking a step back to enjoy a slower pace",
+      "hash": "9837235ee459ac88edc82b573796038b",
+      "created_at": "2026-08-28T22:47:58.665395+00:00",
+      "updated_at": "2026-08-28T22:47:58.665395+00:00",
+      "attributed_to": "user"
+    },
+    "3913f5a5-5b4a-4070-877c-c6a5e5b3cb26": {
+      "user_id": "persona445",
+      "data": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation",
+      "text_lemmatized": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation",
+      "hash": "801bd4eb0e5e110f8f046913fe49bfc7",
+      "created_at": "2026-08-28T22:47:58.665401+00:00",
+      "updated_at": "2026-08-28T22:47:58.665401+00:00",
+      "attributed_to": "user"
+    },
+    "90c5f2fd-68e2-4919-a905-f7993f1d8dbf": {
+      "user_id": "persona445",
+      "data": "User recently completed a big balance system project at work and hit their long-term goal in the Smogon ladder",
+      "text_lemmatized": "User recently completed a big balance system project at work and hit their long-term goal in the Smogon ladder",
+      "hash": "27693e2a4f386171c1f6d057573a6641",
+      "created_at": "2026-08-28T22:47:58.665407+00:00",
+      "updated_at": "2026-08-28T22:47:58.665407+00:00",
+      "attributed_to": "user"
+    },
+    "552ef746-ba6c-4861-9eb7-4084ffbe96bc": {
+      "user_id": "persona445",
+      "data": "User is feeling aimless after crossing the finish line of their long-term goals",
+      "text_lemmatized": "User is feeling aimless after crossing the finish line of their long-term goals",
+      "hash": "2ae8765823ce28970afea650a66db696",
+      "created_at": "2026-08-28T22:47:58.665413+00:00",
+      "updated_at": "2026-08-28T22:47:58.665413+00:00",
+      "attributed_to": "user"
+    },
+    "8bbbfc87-63df-4a94-a1b3-a879aaf7ac78": {
+      "user_id": "persona445",
+      "data": "User is considering taking a break from ambitious projects to enjoy a slower pace",
+      "text_lemmatized": "User is considering taking a break from ambitious projects to enjoy a slower pace",
+      "hash": "33a703bcd60c16903fd0d4fbfe957cf2",
+      "created_at": "2026-08-28T22:47:58.665420+00:00",
+      "updated_at": "2026-08-28T22:47:58.665420+00:00",
+      "attributed_to": "user"
+    },
+    "8ff43339-d19f-414b-8dcb-5565cebbb043": {
+      "user_id": "persona445",
+      "data": "User wants to discuss their current situation with Sam over coffee and VGC matches",
+      "text_lemmatized": "User wants to discuss their current situation with Sam over coffee and VGC matches",
+      "hash": "f6fb0cf27f060c348c0d7fd5fef1e1cf",
+      "created_at": "2026-08-28T22:47:58.665426+00:00",
+      "updated_at": "2026-08-28T22:47:58.665426+00:00",
+      "attributed_to": "user"
+    },
+    "2947068c-320f-4d8b-8070-d247ee111455": {
+      "user_id": "persona445",
+      "data": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy and loves experimenting in the kitchen",
+      "text_lemmatized": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy and loves experimenting in the kitchen",
+      "hash": "166c4040926b596f240bdbd4eb2b5166",
+      "created_at": "2026-08-28T22:47:58.665432+00:00",
+      "updated_at": "2026-08-28T22:47:58.665432+00:00",
+      "attributed_to": "user"
+    },
+    "efc46415-3b86-4051-891f-4c3a0454e7db": {
+      "user_id": "persona445",
+      "data": "User is looking for hearty meal ideas to make at home during the colder weather and is considering taking a break from ambitious projects",
+      "text_lemmatized": "User is looking for hearty meal ideas to make at home during the colder weather and is considering taking a break from ambitious projects",
+      "hash": "8fd5a308d33087357dbc4da4d0f754a6",
+      "created_at": "2026-08-28T22:47:58.665438+00:00",
+      "updated_at": "2026-08-28T22:47:58.665438+00:00",
+      "attributed_to": "user"
+    },
+    "fab7fc03-5030-46ee-9188-e89f5866fd6b": {
+      "user_id": "persona445",
+      "data": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation and feelings of aimlessness",
+      "text_lemmatized": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation and feelings of aimlessness",
+      "hash": "ee924fa9f32bcdd243a9a96bca21acfd",
+      "created_at": "2026-08-28T22:47:58.665444+00:00",
+      "updated_at": "2026-08-28T22:47:58.665444+00:00",
+      "attributed_to": "user"
+    },
+    "de4d9be5-3da1-4cb1-a7bd-4039cb85e04b": {
+      "user_id": "persona445",
+      "data": "User recently completed a big balance system project at work and hit their long-term goal in the Smogon ladder, but is now feeling aimless",
+      "text_lemmatized": "User recently completed a big balance system project at work and hit their long-term goal in the Smogon ladder, but is now feeling aimless",
+      "hash": "2e2d836c785cacf333b0707694629dce",
+      "created_at": "2026-08-28T22:47:58.665451+00:00",
+      "updated_at": "2026-08-28T22:47:58.665451+00:00",
+      "attributed_to": "user"
+    },
+    "1742e16d-a548-49f7-a703-aea345c8b468": {
+      "user_id": "persona445",
+      "data": "User is considering pouring extra energy into another ambitious project or taking a step back to enjoy a slower pace, and wants to discuss this with Sam",
+      "text_lemmatized": "User is considering pouring extra energy into another ambitious project or taking a step back to enjoy a slower pace, and wants to discuss this with Sam",
+      "hash": "fe465c9d707c3b2d63f761eba4c82192",
+      "created_at": "2026-08-28T22:47:58.665456+00:00",
+      "updated_at": "2026-08-28T22:47:58.665456+00:00",
+      "attributed_to": "user"
+    },
+    "ee4897c0-a9ef-4580-bedb-bb0cb8a2c9c8": {
+      "user_id": "persona445",
+      "data": "User wants to discuss their current situation and feelings of aimlessness with Sam over coffee and VGC matches",
+      "text_lemmatized": "User wants to discuss their current situation and feelings of aimlessness with Sam over coffee and VGC matches",
+      "hash": "289a928909f30793989d214693932dd2",
+      "created_at": "2026-08-28T22:47:58.665462+00:00",
+      "updated_at": "2026-08-28T22:47:58.665462+00:00",
+      "attributed_to": "user"
+    },
+    "55ae1f66-c9df-4a8b-9172-6a76e9b91bcc": {
+      "user_id": "persona445",
+      "data": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy and loves experimenting in the kitchen, and is looking for hearty meal ideas to make at home during the colder weather",
+      "text_lemmatized": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy and loves experimenting in the kitchen, and is looking for hearty meal ideas to make at home during the colder weather",
+      "hash": "87f5904cd559a004a7cb66dccf8a4f72",
+      "created_at": "2026-08-28T22:47:58.665468+00:00",
+      "updated_at": "2026-08-28T22:47:58.665468+00:00",
+      "attributed_to": "user"
+    },
+    "a1469d96-404b-420c-89ba-674da4f73e72": {
+      "user_id": "persona445",
+      "data": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation, feelings of aimlessness, and potential next steps",
+      "text_lemmatized": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation, feelings of aimlessness, and potential next steps",
+      "hash": "a686cadb2e93ef5f0dbab7117064a5d8",
+      "created_at": "2026-08-28T22:47:58.665473+00:00",
+      "updated_at": "2026-08-28T22:47:58.665473+00:00",
+      "attributed_to": "user"
+    },
+    "674456bb-129a-4f33-9b24-77e4fd269b63": {
+      "user_id": "persona445",
+      "data": "User recently completed a big balance system project at work and hit their long-term goal in the Smogon ladder, but is now feeling aimless and considering taking a break from ambitious projects",
+      "text_lemmatized": "User recently completed a big balance system project at work and hit their long-term goal in the Smogon ladder, but is now feeling aimless and considering taking a break from ambitious projects",
+      "hash": "2702c40c0003f0e3f6781dd7b223949a",
+      "created_at": "2026-08-28T22:47:58.665479+00:00",
+      "updated_at": "2026-08-28T22:47:58.665479+00:00",
+      "attributed_to": "user"
+    },
+    "fd59dd14-ebb3-452b-957d-faf8d32422d7": {
+      "user_id": "persona445",
+      "data": "User wants to discuss their current situation, feelings of aimlessness, and potential next steps with Sam over coffee and VGC matches",
+      "text_lemmatized": "User wants to discuss their current situation, feelings of aimlessness, and potential next steps with Sam over coffee and VGC matches",
+      "hash": "4529eba431216e7a28d6af2bb676753b",
+      "created_at": "2026-08-28T22:47:58.665486+00:00",
+      "updated_at": "2026-08-28T22:47:58.665486+00:00",
+      "attributed_to": "user"
+    },
+    "fcd02479-d722-4156-b490-55b1312944c6": {
+      "user_id": "persona445",
+      "data": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy, loves experimenting in the kitchen, and is looking for hearty meal ideas to make at home during the colder weather",
+      "text_lemmatized": "User is a game systems analyst from Seattle with a passion for competitive Pok\u00e9mon strategy, loves experimenting in the kitchen, and is looking for hearty meal ideas to make at home during the colder weather",
+      "hash": "8cd21837df7f1ca958a61255f3f3d0cf",
+      "created_at": "2026-08-28T22:47:58.665492+00:00",
+      "updated_at": "2026-08-28T22:47:58.665492+00:00",
+      "attributed_to": "user"
+    },
+    "8566827b-dcf8-4c41-93c9-a71fbad37cbb": {
+      "user_id": "persona445",
+      "data": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation, feelings of aimlessness, and potential next steps, and is considering taking a break from ambitious projects",
+      "text_lemmatized": "User wants to catch up with Sam over coffee and VGC matches to discuss their current situation, feelings of aimlessness, and potential next steps, and is considering taking a break from ambitious projects",
+      "hash": "673af49aaf285c626c1b4a35249c9ab0",
+      "created_at": "2026-08-28T22:47:58.665498+00:00",
+      "updated_at": "2026-08-28T22:47:58.665498+00:00",
+      "attributed_to": "user"
+    },
+    "d9863ec9-0ee8-4bb8-b9d0-9fa58a1c61d9": {
+      "user_id": "persona445",
+      "data": "User is a Game Systems Analyst at an independent tactical RPG studio, focusing on identifying nuanced imbalances in gameplay mechanics and designing solutions that enhance both competitive depth and player accessibility.",
+      "text_lemmatized": "User is a Game Systems Analyst at an independent tactical RPG studio, focusing on identifying nuanced imbalances in gameplay mechanics and designing solutions that enhance both competitive depth and player accessibility.",
+      "hash": "73a941dc1686beaeafb05b979453b67e",
+      "created_at": "2026-08-28T22:48:08.049189+00:00",
+      "updated_at": "2026-08-28T22:48:08.049189+00:00",
+      "attributed_to": "user"
+    },
+    "6a7a115c-761f-4d30-a494-a6c031edd245": {
+      "user_id": "persona445",
+      "data": "User starts mornings by reviewing combat logs over a freshly brewed coffee in one of their well-worn, character-themed mugs\u2014a small ritual that helps them transition into analytical mode without losing their connection to the games they love.",
+      "text_lemmatized": "User starts mornings by reviewing combat logs over a freshly brewed coffee in one of their well-worn, character-themed mugs\u2014a small ritual that helps them transition into analytical mode without losing their connection to the games they love.",
+      "hash": "bad9697aca27857272256f585c6c1701",
+      "created_at": "2026-08-28T22:48:08.049210+00:00",
+      "updated_at": "2026-08-28T22:48:08.049210+00:00",
+      "attributed_to": "user"
+    },
+    "276df547-56fd-46ed-a558-527b98402899": {
+      "user_id": "persona445",
+      "data": "User works closely with designers and engineers to fine-tune systems, integrating quantitative insights with hands-on gameplay experience, ensuring a high skill ceiling while fostering an inviting environment for new players, ultimately sustaining long-term community engagement.",
+      "text_lemmatized": "User works closely with designers and engineers to fine-tune systems, integrating quantitative insights with hands-on gameplay experience, ensuring a high skill ceiling while fostering an inviting environment for new players, ultimately sustaining long-term community engagement.",
+      "hash": "bd7f379becfcde652315f880162e2d92",
+      "created_at": "2026-08-28T22:48:08.049220+00:00",
+      "updated_at": "2026-08-28T22:48:08.049220+00:00",
+      "attributed_to": "user"
+    },
+    "f3335533-9f68-4bc1-8824-0b7fa0ba3088": {
+      "user_id": "persona445",
+      "data": "Short-term weather forecasts can change dramatically from day to day due to initial condition sensitivity, assimilation of new data, resolution trade-offs, competing models and consensus adjustments, and localized microclimate factors.",
+      "text_lemmatized": "Short-term weather forecasts can change dramatically from day to day due to initial condition sensitivity, assimilation of new data, resolution trade-offs, competing models and consensus adjustments, and localized microclimate factors.",
+      "hash": "2f0fa33e64b2e549ae3e0bf1b050987b",
+      "created_at": "2026-08-28T22:48:08.049226+00:00",
+      "updated_at": "2026-08-28T22:48:08.049226+00:00",
+      "attributed_to": "assistant"
+    },
+    "bc5dedbc-acec-4f2c-916a-5c5cc9029550": {
+      "user_id": "persona445",
+      "data": "Atmospheric prediction is a constantly updated competitive simulation, with each daily forecast being the meta snapshot of that moment\u2014subject to abrupt shifts when the incoming 'patch notes' (i.e., data assimilation) suggest a different game state for tomorrow.",
+      "text_lemmatized": "Atmospheric prediction is a constantly updated competitive simulation, with each daily forecast being the meta snapshot of that moment\u2014subject to abrupt shifts when the incoming 'patch notes' (i.e., data assimilation) suggest a different game state for tomorrow.",
+      "hash": "3546a3890c5e6bb92ec70c1d80d431a4",
+      "created_at": "2026-08-28T22:48:08.049234+00:00",
+      "updated_at": "2026-08-28T22:48:08.049234+00:00",
+      "attributed_to": "assistant"
+    },
+    "e46b3fa8-928f-4dcb-8eb2-b7b507508000": {
+      "user_id": "persona445",
+      "data": "Ensemble forecasts are like matchup spread sheets\u2014less about a single binary call and more about the percentage likelihoods of various outcomes, providing a more stable outlook by showing the probability of different scenarios.",
+      "text_lemmatized": "Ensemble forecasts are like matchup spread sheets\u2014less about a single binary call and more about the percentage likelihoods of various outcomes, providing a more stable outlook by showing the probability of different scenarios.",
+      "hash": "6b439041d82f1c222267fdb3b290a61c",
+      "created_at": "2026-08-28T22:48:08.049240+00:00",
+      "updated_at": "2026-08-28T22:48:08.049240+00:00",
+      "attributed_to": "assistant"
+    },
+    "157b5206-2e2a-42be-b940-8a02ab5ead6a": {
+      "user_id": "persona445",
+      "data": "Ensemble forecasts work by running multiple models with slightly altered initial inputs, comparing the results, and adjusting the official public forecast based on the majority of models trending toward a different scenario.",
+      "text_lemmatized": "Ensemble forecasts work by running multiple models with slightly altered initial inputs, comparing the results, and adjusting the official public forecast based on the majority of models trending toward a different scenario.",
+      "hash": "45cff2e066bcfc9ab38c0bb80c2e99ba",
+      "created_at": "2026-08-28T22:48:08.049247+00:00",
+      "updated_at": "2026-08-28T22:48:08.049247+00:00",
+      "attributed_to": "assistant"
+    },
+    "1a2d61d1-5b0c-4ea2-8bba-6f113eb2ec02": {
+      "user_id": "persona445",
+      "data": "Ensemble forecasts can help mitigate the impact of chaotic systems and resolution trade-offs by providing a more comprehensive view of the possible outcomes, allowing meteorologists to make more informed decisions.",
+      "text_lemmatized": "Ensemble forecasts can help mitigate the impact of chaotic systems and resolution trade-offs by providing a more comprehensive view of the possible outcomes, allowing meteorologists to make more informed decisions.",
+      "hash": "8d35791fe35f2387b09a50349900abed",
+      "created_at": "2026-08-28T22:48:08.049254+00:00",
+      "updated_at": "2026-08-28T22:48:08.049254+00:00",
+      "attributed_to": "assistant"
+    },
+    "4f707fa4-69dd-4be9-943d-3c1901532357": {
+      "user_id": "persona445",
+      "data": "Ensemble forecasts can be used to predict a wide range of weather phenomena, from short-term forecasts to long-term climate trends, providing valuable insights for decision-making in various fields such as agriculture, transportation, and emergency management.",
+      "text_lemmatized": "Ensemble forecasts can be used to predict a wide range of weather phenomena, from short-term forecasts to long-term climate trends, providing valuable insights for decision-making in various fields such as agriculture, transportation, and emergency management.",
+      "hash": "435e1a69cd6d9078629f5308d4564ecc",
+      "created_at": "2026-08-28T22:48:08.049260+00:00",
+      "updated_at": "2026-08-28T22:48:08.049260+00:00",
+      "attributed_to": "assistant"
+    },
+    "83b962ad-83b6-465a-b7db-436c1b0c0b70": {
+      "user_id": "persona445",
+      "data": "Ensemble forecasts are an essential tool for meteorologists, allowing them to provide more accurate and reliable weather forecasts, which is critical for various industries and activities that rely on weather conditions.",
+      "text_lemmatized": "Ensemble forecasts are an essential tool for meteorologists, allowing them to provide more accurate and reliable weather forecasts, which is critical for various industries and activities that rely on weather conditions.",
+      "hash": "c28e5cd53551415cc48a693c62b5f5c7",
+      "created_at": "2026-08-28T22:48:08.049268+00:00",
+      "updated_at": "2026-08-28T22:48:08.049268+00:00",
+      "attributed_to": "assistant"
+    },
+    "c99c60d4-7786-4343-a856-9d4f5eea7736": {
+      "user_id": "persona445",
+      "data": "User is a veterinarian named Vann who will perform dental cleanings on 5 dogs, 10 cats, and 7 pigs on 2026-08-28",
+      "text_lemmatized": "User is a veterinarian named Vann who will perform dental cleanings on 5 dogs, 10 cats, and 7 pigs on 2026-08-28",
+      "hash": "1a0fbdaec1e2cc947a28109150b5f2f9",
+      "created_at": "2026-08-28T22:48:17.585336+00:00",
+      "updated_at": "2026-08-28T22:48:17.585336+00:00",
+      "attributed_to": "user"
+    },
+    "afa3be45-ffa9-46a6-b860-290b9367b3bd": {
+      "user_id": "persona445",
+      "data": "Vann will clean a total of 706 teeth on 2026-08-28",
+      "text_lemmatized": "Vann will clean a total of 706 teeth on 2026-08-28",
+      "hash": "340cb2e0ebbad535491602f102665d7a",
+      "created_at": "2026-08-28T22:48:17.585357+00:00",
+      "updated_at": "2026-08-28T22:48:17.585357+00:00",
+      "attributed_to": "assistant"
+    },
+    "10bd3bd7-c998-456d-85a5-fa8ce7e99985": {
+      "user_id": "persona445",
+      "data": "Dwayne makes $1,500 in a year and Brady makes $1,950 in a year",
+      "text_lemmatized": "Dwayne makes $1,500 in a year and Brady makes $1,950 in a year",
+      "hash": "3b76104e4b93e4031a5e1bac66afc014",
+      "created_at": "2026-08-28T22:48:17.585365+00:00",
+      "updated_at": "2026-08-28T22:48:17.585365+00:00",
+      "attributed_to": "assistant"
+    },
+    "c32b32be-ceaa-4641-9412-019a5ed4044a": {
+      "user_id": "persona445",
+      "data": "Brady and Dwayne make a total of $3,450 in a year",
+      "text_lemmatized": "Brady and Dwayne make a total of $3,450 in a year",
+      "hash": "8e49b75c3fe92a3146f7f48e73ce3c3b",
+      "created_at": "2026-08-28T22:48:17.585371+00:00",
+      "updated_at": "2026-08-28T22:48:17.585371+00:00",
+      "attributed_to": "assistant"
+    },
+    "156bd5a2-c18c-49ba-8b99-77f2472e2695": {
+      "user_id": "persona445",
+      "data": "When 542 is multiplied by 3, the ones digit of the result is 6",
+      "text_lemmatized": "When 542 is multiplied by 3, the ones digit of the result is 6",
+      "hash": "da50a66deb0fb2ff853bf59f482ce75f",
+      "created_at": "2026-08-28T22:48:17.585378+00:00",
+      "updated_at": "2026-08-28T22:48:17.585378+00:00",
+      "attributed_to": "assistant"
+    },
+    "f421b1aa-e45a-49f8-9679-1b8ca3299380": {
+      "user_id": "persona445",
+      "data": "Suki bought 6.5 bags of coffee beans that each weighed 22 kilograms and Jimmy bought 4.5 bags of coffee beans that each weighed 18 kilograms",
+      "text_lemmatized": "Suki bought 6.5 bags of coffee beans that each weighed 22 kilograms and Jimmy bought 4.5 bags of coffee beans that each weighed 18 kilograms",
+      "hash": "5d5d03906a759ecec356f114c25d8fe5",
+      "created_at": "2026-08-28T22:48:17.585385+00:00",
+      "updated_at": "2026-08-28T22:48:17.585385+00:00",
+      "attributed_to": "assistant"
+    },
+    "db3aa738-8e41-4fd4-86fc-bff9d8c2aac8": {
+      "user_id": "persona445",
+      "data": "Suki and Jimmy combined their coffee beans and repackaged them into 8-kilogram containers, using a total of 28 containers",
+      "text_lemmatized": "Suki and Jimmy combined their coffee beans and repackaged them into 8-kilogram containers, using a total of 28 containers",
+      "hash": "b08d397bb1619a6b317d803f0638dc05",
+      "created_at": "2026-08-28T22:48:17.585392+00:00",
+      "updated_at": "2026-08-28T22:48:17.585392+00:00",
+      "attributed_to": "assistant"
+    },
+    "44ad8d45-931d-45b1-9414-1d4bc9529a90": {
+      "user_id": "persona445",
+      "data": "Annie had $132 at first and spent $62 on hamburgers and milkshakes, leaving her with $70",
+      "text_lemmatized": "Annie had $132 at first and spent $62 on hamburgers and milkshakes, leaving her with $70",
+      "hash": "bad970e9ba5ebe1f7ed71c1e086c47ec",
+      "created_at": "2026-08-28T22:48:17.585398+00:00",
+      "updated_at": "2026-08-28T22:48:17.585398+00:00",
+      "attributed_to": "assistant"
+    },
+    "9490b1c7-4d90-40aa-a364-bbdcf27d0a0c": {
+      "user_id": "persona445",
+      "data": "The owner of the cat could set up a heated pet mat or a USB-powered warming pad next to their workspace to make the spot more appealing and pet-friendly",
+      "text_lemmatized": "The owner of the cat could set up a heated pet mat or a USB-powered warming pad next to their workspace to make the spot more appealing and pet-friendly",
+      "hash": "50ea9c0b15e3dae3ef081f7be0c0f78f",
+      "created_at": "2026-08-28T22:48:17.585404+00:00",
+      "updated_at": "2026-08-28T22:48:17.585404+00:00",
+      "attributed_to": "assistant"
+    },
+    "89288e75-fac6-4af3-88b6-dd895f24f4d7": {
+      "user_id": "persona445",
+      "data": "The owner could encourage the cat to use the new heated spot by sprinkling catnip or placing a favorite blanket or toy on it",
+      "text_lemmatized": "The owner could encourage the cat to use the new heated spot by sprinkling catnip or placing a favorite blanket or toy on it",
+      "hash": "5681dab7b1880946ed2c89741bd1fc37",
+      "created_at": "2026-08-28T22:48:17.585410+00:00",
+      "updated_at": "2026-08-28T22:48:17.585410+00:00",
+      "attributed_to": "assistant"
+    },
+    "4509b5a1-2d32-41b8-8b44-c4089d88cb91": {
+      "user_id": "persona445",
+      "data": "Jasper can raise his kite at three times the rate of speed as Omar can raise his kite, and it will take him 10 minutes to raise his kite to a height of 600 feet",
+      "text_lemmatized": "Jasper can raise his kite at three times the rate of speed as Omar can raise his kite, and it will take him 10 minutes to raise his kite to a height of 600 feet",
+      "hash": "d3a9254589276a9f949cf3c5db9fd3fc",
+      "created_at": "2026-08-28T22:48:17.585416+00:00",
+      "updated_at": "2026-08-28T22:48:17.585416+00:00",
+      "attributed_to": "assistant"
+    },
+    "8dca3b14-ee25-4a19-bc73-bd55620b4261": {
+      "user_id": "persona445",
+      "data": "Alice walks 10 miles in the morning and 12 miles in the afternoon each day, totaling 22 miles per day, and she will walk a total of 110 miles over the week",
+      "text_lemmatized": "Alice walks 10 miles in the morning and 12 miles in the afternoon each day, totaling 22 miles per day, and she will walk a total of 110 miles over the week",
+      "hash": "6aee54e1b7814d7ef9ea5babe2db3831",
+      "created_at": "2026-08-28T22:48:17.585422+00:00",
+      "updated_at": "2026-08-28T22:48:17.585422+00:00",
+      "attributed_to": "assistant"
+    },
+    "8a06eef4-d4f7-4864-a42c-9025a7b2cb15": {
+      "user_id": "persona445",
+      "data": "If $4^{n}=64^{2}$, the value of $n$ is 6",
+      "text_lemmatized": "If $4^{n}=64^{2}$, the value of $n$ is 6",
+      "hash": "c254527ebef80608e6002f5e970bdea4",
+      "created_at": "2026-08-28T22:48:17.585428+00:00",
+      "updated_at": "2026-08-28T22:48:17.585428+00:00",
+      "attributed_to": "assistant"
+    },
+    "7303bfe7-2eb8-494d-9938-de9ece31ba62": {
+      "user_id": "persona445",
+      "data": "8 carpenters can make 50 chairs in 10 days, and 12 carpenters are needed to make 75 chairs in 10 days",
+      "text_lemmatized": "8 carpenters can make 50 chairs in 10 days, and 12 carpenters are needed to make 75 chairs in 10 days",
+      "hash": "8f56cc6a7947e1e24463b154c61012c5",
+      "created_at": "2026-08-28T22:48:17.585434+00:00",
+      "updated_at": "2026-08-28T22:48:17.585434+00:00",
+      "attributed_to": "assistant"
+    },
+    "f1a60168-3fbe-448d-927b-d070506b5df9": {
+      "user_id": "persona445",
+      "data": "User has been running simulations for an upcoming Smogon OU match, feeling mentally exhausted from damage roll calculations and EV spread tweaks",
+      "text_lemmatized": "User has been running simulations for an upcoming Smogon OU match, feeling mentally exhausted from damage roll calculations and EV spread tweaks",
+      "hash": "aebb834a2f2151d38b76754273eb4e6c",
+      "created_at": "2026-08-28T22:48:24.690020+00:00",
+      "updated_at": "2026-08-28T22:48:24.690020+00:00",
+      "attributed_to": "user"
+    },
+    "dcdd24e4-cd4c-4d3b-9ef0-bb9ae403e3eb": {
+      "user_id": "persona445",
+      "data": "User took a break from competitive Pok\u00e9mon to watch a local play in a small, dimly lit venue, finding the actors' delivery to be reminiscent of precise timing in a high-stakes battle",
+      "text_lemmatized": "User took a break from competitive Pok\u00e9mon to watch a local play in a small, dimly lit venue, finding the actors' delivery to be reminiscent of precise timing in a high-stakes battle",
+      "hash": "0bc1d1be924da568b69cf2e246056de7",
+      "created_at": "2026-08-28T22:48:24.690043+00:00",
+      "updated_at": "2026-08-28T22:48:24.690043+00:00",
+      "attributed_to": "user"
+    },
+    "3927fe70-c06f-49ed-bc5a-64ef1b92653b": {
+      "user_id": "persona445",
+      "data": "User felt recharged and ready to optimize their team after watching the play, drawing a connection between the performance and competitive Pok\u00e9mon",
+      "text_lemmatized": "User felt recharged and ready to optimize their team after watching the play, drawing a connection between the performance and competitive Pok\u00e9mon",
+      "hash": "d46a6e25746709e2ef518395fa7faf12",
+      "created_at": "2026-08-28T22:48:24.690054+00:00",
+      "updated_at": "2026-08-28T22:48:24.690054+00:00",
+      "attributed_to": "user"
+    },
+    "7a6dd814-5467-465d-ada8-1d72085a9fd4": {
+      "user_id": "persona445",
+      "data": "User is a competitive Pok\u00e9mon player from Seattle who values mental clarity and strategic thinking",
+      "text_lemmatized": "User is a competitive Pok\u00e9mon player from Seattle who values mental clarity and strategic thinking",
+      "hash": "c926d762b8a2d5ab3de8cc2bcc979458",
+      "created_at": "2026-08-28T22:48:24.690064+00:00",
+      "updated_at": "2026-08-28T22:48:24.690064+00:00",
+      "attributed_to": "user"
+    },
+    "6e2d7256-4ca6-4789-b551-f66723f93d0a": {
+      "user_id": "persona445",
+      "data": "User enjoys watching local theater performances and appreciates the skill and timing required for live acting",
+      "text_lemmatized": "User enjoys watching local theater performances and appreciates the skill and timing required for live acting",
+      "hash": "81d409284a3e18d0c378d9b6e2c8d0c6",
+      "created_at": "2026-08-28T22:48:24.690073+00:00",
+      "updated_at": "2026-08-28T22:48:24.690073+00:00",
+      "attributed_to": "user"
+    },
+    "267bcdc6-6a79-4e1e-bd05-01f7dad31509": {
+      "user_id": "persona445",
+      "data": "User's experience watching the play helped them feel more energized and focused, allowing them to approach their competitive Pok\u00e9mon strategy with renewed enthusiasm",
+      "text_lemmatized": "User's experience watching the play helped them feel more energized and focused, allowing them to approach their competitive Pok\u00e9mon strategy with renewed enthusiasm",
+      "hash": "0eca537aaa4ac1b34875f5cf8217eaf5",
+      "created_at": "2026-08-28T22:48:24.690082+00:00",
+      "updated_at": "2026-08-28T22:48:24.690082+00:00",
+      "attributed_to": "user"
+    },
+    "26606bc4-3947-4a02-96a7-e63fa4467eec": {
+      "user_id": "persona445",
+      "data": "User is considering how to apply the lessons they learned from watching the play to their competitive Pok\u00e9mon strategy, looking for ways to improve their timing and decision-making",
+      "text_lemmatized": "User is considering how to apply the lessons they learned from watching the play to their competitive Pok\u00e9mon strategy, looking for ways to improve their timing and decision-making",
+      "hash": "47661d8ed7a57a6cb28fcad46449744a",
+      "created_at": "2026-08-28T22:48:24.690092+00:00",
+      "updated_at": "2026-08-28T22:48:24.690092+00:00",
+      "attributed_to": "user"
+    },
+    "6dd3ee84-89b4-49bc-a1ec-5c4042818b79": {
+      "user_id": "persona445",
+      "data": "User's love of competitive Pok\u00e9mon and live theater is rooted in their appreciation for strategy, timing, and the thrill of competition",
+      "text_lemmatized": "User's love of competitive Pok\u00e9mon and live theater is rooted in their appreciation for strategy, timing, and the thrill of competition",
+      "hash": "ecb7418316b4c86936711f00b1d89d0d",
+      "created_at": "2026-08-28T22:48:24.690102+00:00",
+      "updated_at": "2026-08-28T22:48:24.690102+00:00",
+      "attributed_to": "user"
+    },
+    "2e9caa1f-1224-4eea-9926-186e5997926d": {
+      "user_id": "persona445",
+      "data": "User is a fan of the Smogon OU meta and enjoys the challenge of optimizing their team for competitive play",
+      "text_lemmatized": "User is a fan of the Smogon OU meta and enjoys the challenge of optimizing their team for competitive play",
+      "hash": "ffb137bf74d4d4a94e9143b18ca3245f",
+      "created_at": "2026-08-28T22:48:24.690110+00:00",
+      "updated_at": "2026-08-28T22:48:24.690110+00:00",
+      "attributed_to": "user"
+    },
+    "aaafdeda-485d-4aa7-86c2-2bed91670bdc": {
+      "user_id": "persona445",
+      "data": "User values the mental clarity and focus that comes from engaging in competitive activities, whether it's playing Pok\u00e9mon or watching live theater",
+      "text_lemmatized": "User values the mental clarity and focus that comes from engaging in competitive activities, whether it's playing Pok\u00e9mon or watching live theater",
+      "hash": "eb4da9e7ae3bdf9bf4e655601ffbf846",
+      "created_at": "2026-08-28T22:48:24.690119+00:00",
+      "updated_at": "2026-08-28T22:48:24.690119+00:00",
+      "attributed_to": "user"
+    },
+    "d19f42a9-4f3f-4850-8843-8289347f2ca7": {
+      "user_id": "persona445",
+      "data": "User was at their desk by 8 AM, reviewing yesterday's notes on EV spreads, Gholdengo counters, and lead matchups, and realized they might finally balance raw power with flexibility by testing Adamant Dragonite in a weatherless meta",
+      "text_lemmatized": "User was at their desk by 8 AM, reviewing yesterday's notes on EV spreads, Gholdengo counters, and lead matchups, and realized they might finally balance raw power with flexibility by testing Adamant Dragonite in a weatherless meta",
+      "hash": "eaa279be93282d87c1460e6e9c6fe91e",
+      "created_at": "2026-08-28T22:48:52.550404+00:00",
+      "updated_at": "2026-08-28T22:48:52.550404+00:00",
+      "attributed_to": "user"
+    },
+    "d397d107-982c-422d-b6e6-bfa524904f6a": {
+      "user_id": "persona445",
+      "data": "Competitive Pok\u00e9mon tournaments are often integrated into broader pop culture conventions, such as anime, comic, and gaming events, to attract a diverse audience and create a unique experience.",
+      "text_lemmatized": "Competitive Pok\u00e9mon tournaments are often integrated into broader pop culture conventions, such as anime, comic, and gaming events, to attract a diverse audience and create a unique experience.",
+      "hash": "9644c717ff3ab10e0073f95f93aed994",
+      "created_at": "2026-08-28T22:49:10.971216+00:00",
+      "updated_at": "2026-08-28T22:49:10.971216+00:00",
+      "attributed_to": "assistant"
+    },
+    "62ecee73-b6a7-4ae5-859b-3f0c133963fa": {
+      "user_id": "persona445",
+      "data": "These events usually take place over several days, with tournaments scheduled throughout the convention, allowing attendees to participate in various activities and engage with the Pok\u00e9mon community.",
+      "text_lemmatized": "These events usually take place over several days, with tournaments scheduled throughout the convention, allowing attendees to participate in various activities and engage with the Pok\u00e9mon community.",
+      "hash": "0eb8b647000fdd8db44e881aa835d06e",
+      "created_at": "2026-08-28T22:49:10.971236+00:00",
+      "updated_at": "2026-08-28T22:49:10.971236+00:00",
+      "attributed_to": "assistant"
+    },
+    "f26f87bb-f877-48de-bc1e-1d5066b4f25d": {
+      "user_id": "persona445",
+      "data": "The scheduling of tournaments is carefully planned to accommodate different age groups, skill levels, and Pok\u00e9mon formats, ensuring that there's something for everyone, from casual players to competitive teams.",
+      "text_lemmatized": "The scheduling of tournaments is carefully planned to accommodate different age groups, skill levels, and Pok\u00e9mon formats, ensuring that there's something for everyone, from casual players to competitive teams.",
+      "hash": "7631e4996df27161a201f870c27c5a9d",
+      "created_at": "2026-08-28T22:49:10.971245+00:00",
+      "updated_at": "2026-08-28T22:49:10.971245+00:00",
+      "attributed_to": "assistant"
+    },
+    "1f8060ac-d337-4ca1-b20b-b18910b0d08f": {
+      "user_id": "persona445",
+      "data": "Some conventions also feature special events, such as Pok\u00e9mon-themed panels, autograph sessions, and merchandise booths, which further enhance the overall experience and attract a wider audience.",
+      "text_lemmatized": "Some conventions also feature special events, such as Pok\u00e9mon-themed panels, autograph sessions, and merchandise booths, which further enhance the overall experience and attract a wider audience.",
+      "hash": "056c7c7b93766d48bb68c1a13fc2b68b",
+      "created_at": "2026-08-28T22:49:10.971252+00:00",
+      "updated_at": "2026-08-28T22:49:10.971252+00:00",
+      "attributed_to": "assistant"
+    },
+    "51866ca2-27c6-4246-88a8-bcb7c5e0ae3d": {
+      "user_id": "persona445",
+      "data": "The integration of competitive Pok\u00e9mon tournaments into pop culture conventions has become a staple of the gaming and anime communities, providing a unique platform for fans to come together and celebrate their shared passion.",
+      "text_lemmatized": "The integration of competitive Pok\u00e9mon tournaments into pop culture conventions has become a staple of the gaming and anime communities, providing a unique platform for fans to come together and celebrate their shared passion.",
+      "hash": "c57290125584e8f1baa89c53fbbbbd7c",
+      "created_at": "2026-08-28T22:49:10.971259+00:00",
+      "updated_at": "2026-08-28T22:49:10.971259+00:00",
+      "attributed_to": "assistant"
+    },
+    "5e790c44-2154-4870-ad23-e75de34c7b16": {
+      "user_id": "persona445",
+      "data": "The observation date is August 28, 2026, and the current date is also August 28, 2026, indicating that the conversation is taking place in real-time.",
+      "text_lemmatized": "The observation date is August 28, 2026, and the current date is also August 28, 2026, indicating that the conversation is taking place in real-time.",
+      "hash": "752a08a9dfd614d305b92c32874790ae",
+      "created_at": "2026-08-28T22:49:10.971267+00:00",
+      "updated_at": "2026-08-28T22:49:10.971267+00:00",
+      "attributed_to": "assistant"
+    },
+    "2be7caba-a977-40b8-ba6c-e09b2fb2d792": {
+      "user_id": "persona445",
+      "data": "User prefers revisiting a small set of known local spots for dining experiences, finding consistency and quality in familiar options.",
+      "text_lemmatized": "User prefers revisiting a small set of known local spots for dining experiences, finding consistency and quality in familiar options.",
+      "hash": "3c0a722a0ab62f7682f4c5cf0a36c4d4",
+      "created_at": "2026-08-28T22:49:19.278143+00:00",
+      "updated_at": "2026-08-28T22:49:19.278143+00:00",
+      "attributed_to": "user"
+    },
+    "de41ab49-ae56-4c80-bf6d-80ff846a16b7": {
+      "user_id": "persona445",
+      "data": "Consistently revisiting a small set of known local spots can lead to better overall dining experiences due to the ability to refine preferences and expectations.",
+      "text_lemmatized": "Consistently revisiting a small set of known local spots can lead to better overall dining experiences due to the ability to refine preferences and expectations.",
+      "hash": "bfaa88ddd5d92cf22cc955458e8319fc",
+      "created_at": "2026-08-28T22:49:19.278162+00:00",
+      "updated_at": "2026-08-28T22:49:19.278162+00:00",
+      "attributed_to": "assistant"
+    },
+    "1328c44e-bc53-4f96-9e4b-929d131b8bb1": {
+      "user_id": "persona445",
+      "data": "Revisiting familiar local spots allows users to develop a deeper understanding of the menu, service, and atmosphere, leading to more informed and satisfying dining choices.",
+      "text_lemmatized": "Revisiting familiar local spots allows users to develop a deeper understanding of the menu, service, and atmosphere, leading to more informed and satisfying dining choices.",
+      "hash": "f6a4594f076f7fefc6a44261b4ba98a2",
+      "created_at": "2026-08-28T22:49:19.278170+00:00",
+      "updated_at": "2026-08-28T22:49:19.278170+00:00",
+      "attributed_to": "assistant"
+    },
+    "1ab95ffb-4b34-4948-9201-39da9cd8f370": {
+      "user_id": "persona445",
+      "data": "The decision to revisit known local spots instead of exploring new places each time is influenced by the desire for consistency, quality, and a sense of familiarity in dining experiences.",
+      "text_lemmatized": "The decision to revisit known local spots instead of exploring new places each time is influenced by the desire for consistency, quality, and a sense of familiarity in dining experiences.",
+      "hash": "d475dc81fed0b098b6f5f37c8a16963a",
+      "created_at": "2026-08-28T22:49:19.278177+00:00",
+      "updated_at": "2026-08-28T22:49:19.278177+00:00",
+      "attributed_to": "assistant"
+    },
+    "268fc30f-2458-41ea-86b9-79bbffdfad68": {
+      "user_id": "persona445",
+      "data": "User's preference for revisiting local spots may be driven by a desire for comfort and predictability in dining experiences, rather than a need for novelty or exploration.",
+      "text_lemmatized": "User's preference for revisiting local spots may be driven by a desire for comfort and predictability in dining experiences, rather than a need for novelty or exploration.",
+      "hash": "3fa18bbf11c6c301e25ebd07196955a4",
+      "created_at": "2026-08-28T22:49:19.278184+00:00",
+      "updated_at": "2026-08-28T22:49:19.278184+00:00",
+      "attributed_to": "assistant"
+    },
+    "efbdb954-6d11-4b4c-8e76-c43084bcdcfc": {
+      "user_id": "persona445",
+      "data": "The benefits of revisiting familiar local spots include the ability to refine preferences, develop a deeper understanding of the dining experience, and make more informed choices.",
+      "text_lemmatized": "The benefits of revisiting familiar local spots include the ability to refine preferences, develop a deeper understanding of the dining experience, and make more informed choices.",
+      "hash": "91b89ffbf4a04bab7e241996fc380285",
+      "created_at": "2026-08-28T22:49:19.278190+00:00",
+      "updated_at": "2026-08-28T22:49:19.278190+00:00",
+      "attributed_to": "assistant"
+    },
+    "fb617e37-f16a-45e1-98d8-c3d97a7e2aec": {
+      "user_id": "persona445",
+      "data": "User's decision to revisit local spots may be influenced by a desire for social connections and community, as well as a sense of belonging and familiarity in the dining experience.",
+      "text_lemmatized": "User's decision to revisit local spots may be influenced by a desire for social connections and community, as well as a sense of belonging and familiarity in the dining experience.",
+      "hash": "cf20aec6ce5b19cbc4488a0a5bd26b1d",
+      "created_at": "2026-08-28T22:49:19.278196+00:00",
+      "updated_at": "2026-08-28T22:49:19.278196+00:00",
+      "attributed_to": "assistant"
+    },
+    "7afb8df4-5cff-4918-aad2-20bb16ac8d9a": {
+      "user_id": "persona445",
+      "data": "The ability to revisit familiar local spots allows users to develop a sense of routine and predictability in their dining experiences, which can be comforting and satisfying.",
+      "text_lemmatized": "The ability to revisit familiar local spots allows users to develop a sense of routine and predictability in their dining experiences, which can be comforting and satisfying.",
+      "hash": "78c324d509f1e31e839a3b3477daf5da",
+      "created_at": "2026-08-28T22:49:19.278202+00:00",
+      "updated_at": "2026-08-28T22:49:19.278202+00:00",
+      "attributed_to": "assistant"
+    },
+    "ef69cad8-d637-42f9-8e01-88760aa98b4a": {
+      "user_id": "persona445",
+      "data": "User's preference for revisiting local spots may be driven by a desire for control and agency in their dining experiences, rather than a need for spontaneity or adventure.",
+      "text_lemmatized": "User's preference for revisiting local spots may be driven by a desire for control and agency in their dining experiences, rather than a need for spontaneity or adventure.",
+      "hash": "32fc674f03b618b1d8ba12ae3bf96ae6",
+      "created_at": "2026-08-28T22:49:19.278208+00:00",
+      "updated_at": "2026-08-28T22:49:19.278208+00:00",
+      "attributed_to": "assistant"
+    },
+    "d20f96c9-1739-471c-840f-74a09826e5fb": {
+      "user_id": "persona445",
+      "data": "The benefits of revisiting familiar local spots include the ability to develop a deeper understanding of the menu, service, and atmosphere, as well as the opportunity to refine preferences and expectations.",
+      "text_lemmatized": "The benefits of revisiting familiar local spots include the ability to develop a deeper understanding of the menu, service, and atmosphere, as well as the opportunity to refine preferences and expectations.",
+      "hash": "604213ff140ef6aff70cbc993da70e4d",
+      "created_at": "2026-08-28T22:49:19.278214+00:00",
+      "updated_at": "2026-08-28T22:49:19.278214+00:00",
+      "attributed_to": "assistant"
+    },
+    "bf6de526-88a8-4fbe-a5da-bcd29e4aba66": {
+      "user_id": "persona445",
+      "data": "Cycling in Seattle for short evening trips is more reliable timing-wise than taking the bus due to reduced schedule variability, lower traffic delay impact, and more direct routes.",
+      "text_lemmatized": "Cycling in Seattle for short evening trips is more reliable timing-wise than taking the bus due to reduced schedule variability, lower traffic delay impact, and more direct routes.",
+      "hash": "4be8209b9ccd53646d8a829d00110d3b",
+      "created_at": "2026-08-28T22:49:24.205219+00:00",
+      "updated_at": "2026-08-28T22:49:24.205219+00:00",
+      "attributed_to": "assistant"
+    },
+    "b3c23ed5-cfc4-4902-936a-e99243115875": {
+      "user_id": "persona445",
+      "data": "The type of audio matters when doing analysis; low-volume ambient sounds are less disruptive than music with rhythm or lyrics.",
+      "text_lemmatized": "The type of audio matters when doing analysis; low-volume ambient sounds are less disruptive than music with rhythm or lyrics.",
+      "hash": "bb5372172f40d8711919ad0aa790a1ba",
+      "created_at": "2026-08-28T22:49:24.205240+00:00",
+      "updated_at": "2026-08-28T22:49:24.205240+00:00",
+      "attributed_to": "assistant"
+    },
+    "74e4b04b-8635-4bbd-8f13-5648fb5d588b": {
+      "user_id": "persona445",
+      "data": "Looking up older game design journals in a physical archive can have advantages over using scanned PDFs online, including fidelity of original material, not all issues being digitized, context in physical collections, tangible interaction for deep reading, and cross-referencing with special collections.",
+      "text_lemmatized": "Looking up older game design journals in a physical archive can have advantages over using scanned PDFs online, including fidelity of original material, not all issues being digitized, context in physical collections, tangible interaction for deep reading, and cross-referencing with special collections.",
+      "hash": "8477c774ee2ea4d489e5cb8cf2d5396f",
+      "created_at": "2026-08-28T22:49:24.205250+00:00",
+      "updated_at": "2026-08-28T22:49:24.205250+00:00",
+      "attributed_to": "assistant"
+    },
+    "3e42f985-6403-451d-8a13-721af81ef767": {
+      "user_id": "persona445",
+      "data": "Small shifts in room temperature or light layering can affect mental sharpness over multi-hour strategy sessions, with some research suggesting that optimal conditions for focus and productivity include a room temperature between 22-25\u00b0C and moderate to bright lighting.",
+      "text_lemmatized": "Small shifts in room temperature or light layering can affect mental sharpness over multi-hour strategy sessions, with some research suggesting that optimal conditions for focus and productivity include a room temperature between 22-25\u00b0C and moderate to bright lighting.",
+      "hash": "a0c966a93bc4628b3e64b47b433b1c77",
+      "created_at": "2026-08-28T22:49:24.205258+00:00",
+      "updated_at": "2026-08-28T22:49:24.205258+00:00",
+      "attributed_to": "assistant"
+    },
+    "4c2d6fed-208c-4471-b58e-7a9c1f6efcd6": {
+      "user_id": "persona445",
+      "data": "Scenic routes may not be as effective for retaining memorable details as semi-direct routes with predictable anchor points and occasional, deliberate scenic pauses.",
+      "text_lemmatized": "Scenic routes may not be as effective for retaining memorable details as semi-direct routes with predictable anchor points and occasional, deliberate scenic pauses.",
+      "hash": "3483d7e3f641a1b28b4459ac0a81c5c4",
+      "created_at": "2026-08-28T22:49:32.813058+00:00",
+      "updated_at": "2026-08-28T22:49:32.813058+00:00",
+      "attributed_to": "assistant"
+    },
+    "68205850-312c-4f9b-ad0e-0981a20d2997": {
+      "user_id": "persona445",
+      "data": "Strength-oriented circuit classes are more effective for building functional power compared to longer rhythmic cardio sessions due to training adaptations, energy systems targeted, and the nature of the workload.",
+      "text_lemmatized": "Strength-oriented circuit classes are more effective for building functional power compared to longer rhythmic cardio sessions due to training adaptations, energy systems targeted, and the nature of the workload.",
+      "hash": "154161b99dd959b281312bf6cae50f64",
+      "created_at": "2026-08-28T22:49:32.813078+00:00",
+      "updated_at": "2026-08-28T22:49:32.813078+00:00",
+      "attributed_to": "assistant"
+    },
+    "48d5f445-3b4f-4ff3-862a-5176d3c4accb": {
+      "user_id": "persona445",
+      "data": "The lack of a permanent play area can change how often or effectively people play complex board games like Catan by introducing setup friction, reducing the possibility of persistent states, and affecting social momentum.",
+      "text_lemmatized": "The lack of a permanent play area can change how often or effectively people play complex board games like Catan by introducing setup friction, reducing the possibility of persistent states, and affecting social momentum.",
+      "hash": "f58d3acbb93e1512edfea1ca95a591bb",
+      "created_at": "2026-08-28T22:49:32.813086+00:00",
+      "updated_at": "2026-08-28T22:49:32.813086+00:00",
+      "attributed_to": "assistant"
+    },
+    "38f519e6-5b6a-4e63-b747-de14841ebb84": {
+      "user_id": "persona445",
+      "data": "There are several interlocking factors\u2014both psychological and statistical\u2014that can make a focused rotation of familiar restaurants produce more consistently satisfying results than constant novelty-seeking.",
+      "text_lemmatized": "There are several interlocking factors\u2014both psychological and statistical\u2014that can make a focused rotation of familiar restaurants produce more consistently satisfying results than constant novelty-seeking.",
+      "hash": "1c35be029e0147c437b5fc6ef1f35238",
+      "created_at": "2026-08-28T22:49:32.813093+00:00",
+      "updated_at": "2026-08-28T22:49:32.813093+00:00",
+      "attributed_to": "assistant"
+    },
+    "7650d3e4-5ac9-41d7-9d62-4a03034e2403": {
+      "user_id": "persona445",
+      "data": "The type of audio can affect cognitive performance, with low-volume ambient sounds being less disruptive than music with rhythm or lyrics when analyzing data.",
+      "text_lemmatized": "The type of audio can affect cognitive performance, with low-volume ambient sounds being less disruptive than music with rhythm or lyrics when analyzing data.",
+      "hash": "91e5a5bc66314d5427acda63a8d0b1bf",
+      "created_at": "2026-08-28T22:49:32.813100+00:00",
+      "updated_at": "2026-08-28T22:49:32.813100+00:00",
+      "attributed_to": "assistant"
+    },
+    "ad025dcf-7b9a-4a06-8c68-da1f13ccdb93": {
+      "user_id": "persona445",
+      "data": "There are several fairly well-understood physiological and biomechanical explanations for why some people may not experience lower back stiffness during prolonged desk work, including postural micro-adjustments, muscle conditioning, ergonomic alignment, anthropometry, and built-in mental pacing.",
+      "text_lemmatized": "There are several fairly well-understood physiological and biomechanical explanations for why some people may not experience lower back stiffness during prolonged desk work, including postural micro-adjustments, muscle conditioning, ergonomic alignment, anthropometry, and built-in mental pacing.",
+      "hash": "71b0f005a3b5284526e2c691d44b59c3",
+      "created_at": "2026-08-28T22:49:32.813107+00:00",
+      "updated_at": "2026-08-28T22:49:32.813107+00:00",
+      "attributed_to": "assistant"
+    },
+    "4789bbcf-5e0c-4cbf-92a2-a763a3c2c591": {
+      "user_id": "persona445",
+      "data": "Aged cheese can be a safer option for people who are highly lactose intolerant due to the reduction of lactose during the aging process.",
+      "text_lemmatized": "Aged cheese can be a safer option for people who are highly lactose intolerant due to the reduction of lactose during the aging process.",
+      "hash": "df71a2af6eb60917755ff49fbd01bdc9",
+      "created_at": "2026-08-28T22:49:32.813113+00:00",
+      "updated_at": "2026-08-28T22:49:32.813113+00:00",
+      "attributed_to": "assistant"
+    },
+    "9e5d7429-e05c-40cc-935d-51444974a480": {
+      "user_id": "persona445",
+      "data": "There is a body of research that suggests that people who spend long uninterrupted desk sessions may not experience lower back stiffness due to various factors.",
+      "text_lemmatized": "There is a body of research that suggests that people who spend long uninterrupted desk sessions may not experience lower back stiffness due to various factors.",
+      "hash": "4aab8677b4c4f073aec49c0b9462948d",
+      "created_at": "2026-08-28T22:49:32.813119+00:00",
+      "updated_at": "2026-08-28T22:49:32.813119+00:00",
+      "attributed_to": "assistant"
+    },
+    "74bba7b7-cabd-4351-ab87-5be4dce84aab": {
+      "user_id": "persona445",
+      "data": "Historically, vitamin D sufficiency was largely maintained through a combination of lifestyle, environment, and adaptive physiology, including outdoor-centric lifestyles, skin pigmentation adaptation, geographic and seasonal movement, dietary sources, and physiological storage and efficiency.",
+      "text_lemmatized": "Historically, vitamin D sufficiency was largely maintained through a combination of lifestyle, environment, and adaptive physiology, including outdoor-centric lifestyles, skin pigmentation adaptation, geographic and seasonal movement, dietary sources, and physiological storage and efficiency.",
+      "hash": "6cf0fc12463e8f93b75dd71af5d852f0",
+      "created_at": "2026-08-28T22:49:32.813125+00:00",
+      "updated_at": "2026-08-28T22:49:32.813125+00:00",
+      "attributed_to": "assistant"
+    },
+    "c1924aa1-1cb3-43ff-bc4f-a3973fbc9b1e": {
+      "user_id": "persona445",
+      "data": "The difference between strength-oriented circuit classes and longer rhythmic cardio sessions comes down to training adaptations, energy systems targeted, and the nature of the workload.",
+      "text_lemmatized": "The difference between strength-oriented circuit classes and longer rhythmic cardio sessions comes down to training adaptations, energy systems targeted, and the nature of the workload.",
+      "hash": "126a9628b886d90ddcb68dd1f3efdec2",
+      "created_at": "2026-08-28T22:49:32.813131+00:00",
+      "updated_at": "2026-08-28T22:49:32.813131+00:00",
+      "attributed_to": "assistant"
+    },
+    "4a8db3d1-a78a-4c42-af1f-73ae71fe916e": {
+      "user_id": "persona445",
+      "data": "The lack of a permanent play area can affect the frequency and quality of play for complex board games like Catan, introducing setup friction, reducing the possibility of persistent states, and affecting social momentum.",
+      "text_lemmatized": "The lack of a permanent play area can affect the frequency and quality of play for complex board games like Catan, introducing setup friction, reducing the possibility of persistent states, and affecting social momentum.",
+      "hash": "5f56c5bdb26abc9d81445d8d9f0a0df1",
+      "created_at": "2026-08-28T22:49:32.813136+00:00",
+      "updated_at": "2026-08-28T22:49:32.813136+00:00",
+      "attributed_to": "assistant"
+    },
+    "17c1e7ed-5eff-44c4-9a10-8547313275d9": {
+      "user_id": "persona445",
+      "data": "There are several factors that can affect how mentally engaging media feels during commutes, including the type of content, the level of cognitive load, and the individual's personal preferences and habits.",
+      "text_lemmatized": "There are several factors that can affect how mentally engaging media feels during commutes, including the type of content, the level of cognitive load, and the individual's personal preferences and habits.",
+      "hash": "839bee017308135eb645af7f90cc5592",
+      "created_at": "2026-08-28T22:49:32.813141+00:00",
+      "updated_at": "2026-08-28T22:49:32.813141+00:00",
+      "attributed_to": "assistant"
+    },
+    "936680f6-868f-49a6-88d8-3233243cc2c9": {
+      "user_id": "persona445",
+      "data": "The type of media that works best on a commute often uses multiple sensory channels, offers low penalty for partial attention, and matches the mental arousal level for that time of day.",
+      "text_lemmatized": "The type of media that works best on a commute often uses multiple sensory channels, offers low penalty for partial attention, and matches the mental arousal level for that time of day.",
+      "hash": "aabba6e9f9cb11460ae0c5fef158290b",
+      "created_at": "2026-08-28T22:49:38.488457+00:00",
+      "updated_at": "2026-08-28T22:49:38.488457+00:00",
+      "attributed_to": "assistant"
+    },
+    "daf037b9-619a-4626-9022-cd08f012458c": {
+      "user_id": "persona445",
+      "data": "Wine tasting is often presented as a refined skill because professional tasters engage in a structured sensory analysis process that combines learned techniques, palate training, and a shared descriptive framework.",
+      "text_lemmatized": "Wine tasting is often presented as a refined skill because professional tasters engage in a structured sensory analysis process that combines learned techniques, palate training, and a shared descriptive framework.",
+      "hash": "32e13dd2418cc7c95f0af741a9c8e66f",
+      "created_at": "2026-08-28T22:49:38.488481+00:00",
+      "updated_at": "2026-08-28T22:49:38.488481+00:00",
+      "attributed_to": "assistant"
+    },
+    "db5d8a02-d8ed-433b-9546-36fbf8d5ef3a": {
+      "user_id": "persona445",
+      "data": "The benefits of doing something physically intense right after waking up can measurably boost certain aspects of strategic thinking for a few hours afterward, but the effect is nuanced depending on the intensity, duration, and personal circadian profile.",
+      "text_lemmatized": "The benefits of doing something physically intense right after waking up can measurably boost certain aspects of strategic thinking for a few hours afterward, but the effect is nuanced depending on the intensity, duration, and personal circadian profile.",
+      "hash": "96608419397c6fd84cadb145fb74edef",
+      "created_at": "2026-08-28T22:49:38.488492+00:00",
+      "updated_at": "2026-08-28T22:49:38.488492+00:00",
+      "attributed_to": "assistant"
+    },
+    "7232ebcf-ca2c-4888-8bbe-6c34a82148e0": {
+      "user_id": "persona445",
+      "data": "Low-intensity stretching does offer benefits, but they're generally more subtle and indirect compared to moderate-to-high intensity cardio, and it's almost always negligible compared to environmental losses from air exchange, heating, and occupant activity.",
+      "text_lemmatized": "Low-intensity stretching does offer benefits, but they're generally more subtle and indirect compared to moderate-to-high intensity cardio, and it's almost always negligible compared to environmental losses from air exchange, heating, and occupant activity.",
+      "hash": "64142346881ba9ab5309852e5213f135",
+      "created_at": "2026-08-28T22:49:38.488502+00:00",
+      "updated_at": "2026-08-28T22:49:38.488502+00:00",
+      "attributed_to": "assistant"
+    },
+    "6cbb5442-8490-4880-9bb7-eeed0cfc466a": {
+      "user_id": "persona445",
+      "data": "Moving from beginner work to advanced glazing techniques in ceramics is a blend of learning new chemical principles and refining the same foundations with better execution, with the biggest shift being in how you integrate that theory into consistently executed, intentional work.",
+      "text_lemmatized": "Moving from beginner work to advanced glazing techniques in ceramics is a blend of learning new chemical principles and refining the same foundations with better execution, with the biggest shift being in how you integrate that theory into consistently executed, intentional work.",
+      "hash": "f9be64d70dc43a12f8e15e930fede0ac",
+      "created_at": "2026-08-28T22:49:38.488512+00:00",
+      "updated_at": "2026-08-28T22:49:38.488512+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "68baaac3-62f4-41d8-a376-a2b75ba95420",
+    "1": "c0a84ac4-158d-4dfe-9e80-1eb760cfcc54",
+    "2": "739043e5-17c0-44e1-b752-91c9d50f7459",
+    "3": "a44a6c61-9cfc-4e90-965e-7f79cc2e35ca",
+    "4": "829fe736-9d69-4252-aabe-ba39d52a9215",
+    "5": "6228c2ff-54bc-42e1-9e25-c6e4bf8d7f1d",
+    "6": "ee60dbd7-80ac-46e2-9e05-d5fa5f5d470f",
+    "7": "224fb657-9d62-4c25-9a70-bf5130a521c0",
+    "8": "ea1d5425-4423-4d64-a0fc-e075af99151c",
+    "9": "1719c9a6-d4a9-4c53-92e4-efdb3bf438b1",
+    "10": "0cb5c1b3-01f9-4119-bddf-67846b9efdbe",
+    "11": "1b716b1a-a139-4be6-8086-5e4d4c70bea1",
+    "12": "5cf23627-ffa9-48d1-92de-6db84709d26d",
+    "13": "e2d9e199-41a8-4f7b-9dfb-da37b7bfc570",
+    "14": "cacd4554-74e9-47b4-8e9f-cbc9b360b07a",
+    "15": "1d0a3f28-3c46-4f59-8917-e58b5a6a52c0",
+    "16": "32148729-1bdb-476c-b7f2-e2eff4b80aaf",
+    "17": "4214ce9e-fae9-4e0d-8a1c-584c272a44e7",
+    "18": "f85e52e2-0cd4-473f-896d-1d2e5c68ac80",
+    "19": "d3c172cf-8b88-406b-b8f1-6a0c0443f00a",
+    "20": "ed5e2bb0-431e-4fb8-a3a9-6fcd2d56fb38",
+    "21": "2e211ad1-06e2-4699-8f5d-ddaf5d1c6a66",
+    "22": "ef314584-7567-40b1-ba83-7a23b957ce7d",
+    "23": "461ff85f-c8e8-4c9c-aab3-95723ff49e71",
+    "24": "997d188c-bc5c-479c-9981-1dcd928b3d31",
+    "25": "4f4019d7-8e9c-4f07-9966-161e8b42113d",
+    "26": "03e19cf7-87c2-4f7c-a8d5-82b3d68ff024",
+    "27": "ed4719c6-3fec-456b-b04e-9f30591418ce",
+    "28": "c3c44757-7464-4497-abca-cf57020d8de9",
+    "29": "85193457-135f-43b4-a095-8070ecaa5971",
+    "30": "611e093b-e911-4329-aa77-b5e8c5534807",
+    "31": "155637dc-d3df-4489-a779-25346697960e",
+    "32": "238581d0-8e62-49b5-aa9b-cd60bf22ae67",
+    "33": "29c901d2-5975-4d54-9229-85355d4f2d31",
+    "34": "788a502c-08f8-4769-9804-a154d5803c99",
+    "35": "94aea434-81af-4678-9dc8-15621423026e",
+    "36": "4c995def-e211-47b3-afae-e05c7e54afbe",
+    "37": "c44da6f8-9f56-4e61-9449-5ecb0df8640f",
+    "38": "796dcbc8-ebad-4562-9d76-1320b3ef0c83",
+    "39": "ab611e7d-e13f-43f7-8eb7-b24d6fc99946",
+    "40": "9aff3a9e-e8a0-429b-a3c9-0c18ad50ddf2",
+    "41": "80982691-e88a-4b1e-ab58-dee4bfb1fa89",
+    "42": "03fab346-7453-468b-9feb-e4ff38d52fc6",
+    "43": "5b4d9049-112f-44ca-8b8a-8868046e3757",
+    "44": "89843a0a-3b44-4e32-89c8-39c7c57a5025",
+    "45": "a3c729f3-62b8-4e2b-b489-d543737fca0e",
+    "46": "338537f1-1b7e-4639-92ea-5d54eae10334",
+    "47": "539e6071-3fa8-42e6-8b8a-12fbcf534857",
+    "48": "1f9dc9fc-13ad-415e-a64c-d49edcf1cef9",
+    "49": "a6a26cad-3ab7-4572-a573-c1300fdc2cb4",
+    "50": "4ca84b35-b406-47ff-a1a4-7ddea958f5f4",
+    "51": "9e737048-41cd-4229-8ef7-0562d10fabba",
+    "52": "864a86d7-a4bb-479c-bf2a-fe7109314122",
+    "53": "52a8b2c2-ea06-4b95-8588-d32a4c29526e",
+    "54": "ca509b5f-c86e-40a9-b8a9-abae7d5246d3",
+    "55": "e964d242-91dd-4a3f-9eb8-15220e2d45d0",
+    "56": "c46c0aa3-dbed-4b7a-90bb-6c56605279a1",
+    "57": "8f97b2f4-797c-48cd-af55-90f9d9c625e0",
+    "58": "8e2ff80d-46f3-4da4-bf0f-7a5c1f37d6d6",
+    "59": "a3e006e0-574d-4228-bac8-53fa8bd91d50",
+    "60": "24f12be6-943f-456b-9e38-7b4c42789044",
+    "61": "8af9c132-7801-4349-9195-07e7c2f0a023",
+    "62": "fca67f9d-8b4e-46b8-93c9-61ea1f07c547",
+    "63": "63c8910c-524c-4559-8690-970eac569790",
+    "64": "3913f5a5-5b4a-4070-877c-c6a5e5b3cb26",
+    "65": "90c5f2fd-68e2-4919-a905-f7993f1d8dbf",
+    "66": "552ef746-ba6c-4861-9eb7-4084ffbe96bc",
+    "67": "8bbbfc87-63df-4a94-a1b3-a879aaf7ac78",
+    "68": "8ff43339-d19f-414b-8dcb-5565cebbb043",
+    "69": "2947068c-320f-4d8b-8070-d247ee111455",
+    "70": "efc46415-3b86-4051-891f-4c3a0454e7db",
+    "71": "fab7fc03-5030-46ee-9188-e89f5866fd6b",
+    "72": "de4d9be5-3da1-4cb1-a7bd-4039cb85e04b",
+    "73": "1742e16d-a548-49f7-a703-aea345c8b468",
+    "74": "ee4897c0-a9ef-4580-bedb-bb0cb8a2c9c8",
+    "75": "55ae1f66-c9df-4a8b-9172-6a76e9b91bcc",
+    "76": "a1469d96-404b-420c-89ba-674da4f73e72",
+    "77": "674456bb-129a-4f33-9b24-77e4fd269b63",
+    "78": "fd59dd14-ebb3-452b-957d-faf8d32422d7",
+    "79": "fcd02479-d722-4156-b490-55b1312944c6",
+    "80": "8566827b-dcf8-4c41-93c9-a71fbad37cbb",
+    "81": "d9863ec9-0ee8-4bb8-b9d0-9fa58a1c61d9",
+    "82": "6a7a115c-761f-4d30-a494-a6c031edd245",
+    "83": "276df547-56fd-46ed-a558-527b98402899",
+    "84": "f3335533-9f68-4bc1-8824-0b7fa0ba3088",
+    "85": "bc5dedbc-acec-4f2c-916a-5c5cc9029550",
+    "86": "e46b3fa8-928f-4dcb-8eb2-b7b507508000",
+    "87": "157b5206-2e2a-42be-b940-8a02ab5ead6a",
+    "88": "1a2d61d1-5b0c-4ea2-8bba-6f113eb2ec02",
+    "89": "4f707fa4-69dd-4be9-943d-3c1901532357",
+    "90": "83b962ad-83b6-465a-b7db-436c1b0c0b70",
+    "91": "c99c60d4-7786-4343-a856-9d4f5eea7736",
+    "92": "afa3be45-ffa9-46a6-b860-290b9367b3bd",
+    "93": "10bd3bd7-c998-456d-85a5-fa8ce7e99985",
+    "94": "c32b32be-ceaa-4641-9412-019a5ed4044a",
+    "95": "156bd5a2-c18c-49ba-8b99-77f2472e2695",
+    "96": "f421b1aa-e45a-49f8-9679-1b8ca3299380",
+    "97": "db3aa738-8e41-4fd4-86fc-bff9d8c2aac8",
+    "98": "44ad8d45-931d-45b1-9414-1d4bc9529a90",
+    "99": "9490b1c7-4d90-40aa-a364-bbdcf27d0a0c",
+    "100": "89288e75-fac6-4af3-88b6-dd895f24f4d7",
+    "101": "4509b5a1-2d32-41b8-8b44-c4089d88cb91",
+    "102": "8dca3b14-ee25-4a19-bc73-bd55620b4261",
+    "103": "8a06eef4-d4f7-4864-a42c-9025a7b2cb15",
+    "104": "7303bfe7-2eb8-494d-9938-de9ece31ba62",
+    "105": "f1a60168-3fbe-448d-927b-d070506b5df9",
+    "106": "dcdd24e4-cd4c-4d3b-9ef0-bb9ae403e3eb",
+    "107": "3927fe70-c06f-49ed-bc5a-64ef1b92653b",
+    "108": "7a6dd814-5467-465d-ada8-1d72085a9fd4",
+    "109": "6e2d7256-4ca6-4789-b551-f66723f93d0a",
+    "110": "267bcdc6-6a79-4e1e-bd05-01f7dad31509",
+    "111": "26606bc4-3947-4a02-96a7-e63fa4467eec",
+    "112": "6dd3ee84-89b4-49bc-a1ec-5c4042818b79",
+    "113": "2e9caa1f-1224-4eea-9926-186e5997926d",
+    "114": "aaafdeda-485d-4aa7-86c2-2bed91670bdc",
+    "115": "d19f42a9-4f3f-4850-8843-8289347f2ca7",
+    "116": "d397d107-982c-422d-b6e6-bfa524904f6a",
+    "117": "62ecee73-b6a7-4ae5-859b-3f0c133963fa",
+    "118": "f26f87bb-f877-48de-bc1e-1d5066b4f25d",
+    "119": "1f8060ac-d337-4ca1-b20b-b18910b0d08f",
+    "120": "51866ca2-27c6-4246-88a8-bcb7c5e0ae3d",
+    "121": "5e790c44-2154-4870-ad23-e75de34c7b16",
+    "122": "2be7caba-a977-40b8-ba6c-e09b2fb2d792",
+    "123": "de41ab49-ae56-4c80-bf6d-80ff846a16b7",
+    "124": "1328c44e-bc53-4f96-9e4b-929d131b8bb1",
+    "125": "1ab95ffb-4b34-4948-9201-39da9cd8f370",
+    "126": "268fc30f-2458-41ea-86b9-79bbffdfad68",
+    "127": "efbdb954-6d11-4b4c-8e76-c43084bcdcfc",
+    "128": "fb617e37-f16a-45e1-98d8-c3d97a7e2aec",
+    "129": "7afb8df4-5cff-4918-aad2-20bb16ac8d9a",
+    "130": "ef69cad8-d637-42f9-8e01-88760aa98b4a",
+    "131": "d20f96c9-1739-471c-840f-74a09826e5fb",
+    "132": "bf6de526-88a8-4fbe-a5da-bcd29e4aba66",
+    "133": "b3c23ed5-cfc4-4902-936a-e99243115875",
+    "134": "74e4b04b-8635-4bbd-8f13-5648fb5d588b",
+    "135": "3e42f985-6403-451d-8a13-721af81ef767",
+    "136": "4c2d6fed-208c-4471-b58e-7a9c1f6efcd6",
+    "137": "68205850-312c-4f9b-ad0e-0981a20d2997",
+    "138": "48d5f445-3b4f-4ff3-862a-5176d3c4accb",
+    "139": "38f519e6-5b6a-4e63-b747-de14841ebb84",
+    "140": "7650d3e4-5ac9-41d7-9d62-4a03034e2403",
+    "141": "ad025dcf-7b9a-4a06-8c68-da1f13ccdb93",
+    "142": "4789bbcf-5e0c-4cbf-92a2-a763a3c2c591",
+    "143": "9e5d7429-e05c-40cc-935d-51444974a480",
+    "144": "74bba7b7-cabd-4351-ab87-5be4dce84aab",
+    "145": "c1924aa1-1cb3-43ff-bc4f-a3973fbc9b1e",
+    "146": "4a8db3d1-a78a-4c42-af1f-73ae71fe916e",
+    "147": "17c1e7ed-5eff-44c4-9a10-8547313275d9",
+    "148": "936680f6-868f-49a6-88d8-3233243cc2c9",
+    "149": "daf037b9-619a-4626-9022-cd08f012458c",
+    "150": "db5d8a02-d8ed-433b-9546-36fbf8d5ef3a",
+    "151": "7232ebcf-ca2c-4888-8bbe-6c34a82148e0",
+    "152": "6cbb5442-8490-4880-9bb7-eeed0cfc466a"
+  }
+}

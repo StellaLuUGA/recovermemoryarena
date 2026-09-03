@@ -1,0 +1,2031 @@
+{
+  "docstore": {
+    "0301923a-a38b-4147-abb5-91b4e3fd05da": {
+      "user_id": "persona254",
+      "data": "Tony bought 3 sets of Lego blocks at $250 each, totaling $750",
+      "text_lemmatized": "Tony bought 3 sets of Lego blocks at $250 each, totaling $750",
+      "hash": "3e971cd1dc7f0363a301277c5f14045f",
+      "created_at": "2026-08-28T23:12:46.067124+00:00",
+      "updated_at": "2026-08-28T23:12:46.067124+00:00",
+      "attributed_to": "user"
+    },
+    "3212116d-f9a1-44de-8a23-ad99ef26b220": {
+      "user_id": "persona254",
+      "data": "Tony bought 7 toy swords at $120 each, totaling $840",
+      "text_lemmatized": "Tony bought 7 toy swords at $120 each, totaling $840",
+      "hash": "878239c58391587626fe9e0f2a48b3e7",
+      "created_at": "2026-08-28T23:12:46.067142+00:00",
+      "updated_at": "2026-08-28T23:12:46.067142+00:00",
+      "attributed_to": "user"
+    },
+    "3e34dc45-7d2e-438d-99e1-26fcb3ca81e5": {
+      "user_id": "persona254",
+      "data": "Tony bought 10 play doughs at $35 each, totaling $350",
+      "text_lemmatized": "Tony bought 10 play doughs at $35 each, totaling $350",
+      "hash": "9ad2733bdfe13220bc2c6d02ab1fff97",
+      "created_at": "2026-08-28T23:12:46.067150+00:00",
+      "updated_at": "2026-08-28T23:12:46.067150+00:00",
+      "attributed_to": "user"
+    },
+    "64eabb8b-b238-4c3d-b145-737c9964763a": {
+      "user_id": "persona254",
+      "data": "Tony spent a total of $750 + $840 + $350 = $1940 on toys",
+      "text_lemmatized": "Tony spent a total of $750 + $840 + $350 = $1940 on toys",
+      "hash": "74ee1d3462a4035171c763f847b9c3d3",
+      "created_at": "2026-08-28T23:12:46.067157+00:00",
+      "updated_at": "2026-08-28T23:12:46.067157+00:00",
+      "attributed_to": "assistant"
+    },
+    "3484bc41-a299-4e1a-aba3-931cea7e450b": {
+      "user_id": "persona254",
+      "data": "Elyse had 100 pieces of gum and gave half to her brother Rick, who then gave half of his to Shane, and Shane chewed 11 pieces, leaving him with 14 pieces",
+      "text_lemmatized": "Elyse had 100 pieces of gum and gave half to her brother Rick, who then gave half of his to Shane, and Shane chewed 11 pieces, leaving him with 14 pieces",
+      "hash": "f7f61fdc29af89739c7ac4e36f923ec0",
+      "created_at": "2026-08-28T23:12:49.476113+00:00",
+      "updated_at": "2026-08-28T23:12:49.476113+00:00"
+    },
+    "1f3c4644-0864-4be0-85d9-5239470ca8c7": {
+      "user_id": "persona254",
+      "data": "The school band has 5 flute players, 3 times as many trumpet players, 8 fewer trombone players than trumpeters, 11 more drummers than trombone players, twice as many clarinet players as flute players, and 3 more French horn players than trombone players",
+      "text_lemmatized": "The school band has 5 flute players, 3 times as many trumpet players, 8 fewer trombone players than trumpeters, 11 more drummers than trombone players, twice as many clarinet players as flute players, and 3 more French horn players than trombone players",
+      "hash": "8c5ebb73f9c25d17e430b3e5b5fb1727",
+      "created_at": "2026-08-28T23:12:49.476134+00:00",
+      "updated_at": "2026-08-28T23:12:49.476134+00:00"
+    },
+    "4d2b938e-e9a4-4fa3-9345-234c865b93d3": {
+      "user_id": "persona254",
+      "data": "Tony bought 3 sets of Lego blocks at $250 each, totaling $750, 7 toy swords at $120 each, totaling $840, and 10 play doughs at $35 each, totaling $350, for a total of $1940",
+      "text_lemmatized": "Tony bought 3 sets of Lego blocks at $250 each, totaling $750, 7 toy swords at $120 each, totaling $840, and 10 play doughs at $35 each, totaling $350, for a total of $1940",
+      "hash": "d9e31fb48f1e66ac94faef477dc82ccd",
+      "created_at": "2026-08-28T23:12:57.922106+00:00",
+      "updated_at": "2026-08-28T23:12:57.922106+00:00"
+    },
+    "b64ba846-ec60-4137-a8b8-d2c90c3a01b0": {
+      "user_id": "persona254",
+      "data": "A colony of bees can contain up to 80000 individuals and starts to lose 1200 bees per day, and it will take 50 days for the colony to reach a quarter of its initial number",
+      "text_lemmatized": "A colony of bees can contain up to 80000 individuals and starts to lose 1200 bees per day, and it will take 50 days for the colony to reach a quarter of its initial number",
+      "hash": "ea5dcb477badfc519675f75da84c4404",
+      "created_at": "2026-08-28T23:12:57.922126+00:00",
+      "updated_at": "2026-08-28T23:12:57.922126+00:00"
+    },
+    "fb75f62d-bc34-47fa-9535-d8fbc405e816": {
+      "user_id": "persona254",
+      "data": "Rick can iron 4 dress shirts in an hour and 3 dress pants in an hour, and he irons a total of 12 dress shirts and 15 dress pants in 8 hours",
+      "text_lemmatized": "Rick can iron 4 dress shirts in an hour and 3 dress pants in an hour, and he irons a total of 12 dress shirts and 15 dress pants in 8 hours",
+      "hash": "a171405b99f5aa2fcf0c4bcd7395bf1c",
+      "created_at": "2026-08-28T23:12:57.922135+00:00",
+      "updated_at": "2026-08-28T23:12:57.922135+00:00"
+    },
+    "93f76906-3e6a-484e-b9da-4c2641114814": {
+      "user_id": "persona254",
+      "data": "A paper company decides to plant three trees for every tree they chop down, and they need to plant 1500 trees after chopping down 500 trees",
+      "text_lemmatized": "A paper company decides to plant three trees for every tree they chop down, and they need to plant 1500 trees after chopping down 500 trees",
+      "hash": "59f61472cdd8615488eb67fb9ebea3a9",
+      "created_at": "2026-08-28T23:12:57.922142+00:00",
+      "updated_at": "2026-08-28T23:12:57.922142+00:00"
+    },
+    "eecdaf5b-db8e-4a32-8b08-b7a734d417b7": {
+      "user_id": "persona254",
+      "data": "Lowry sells bonsai, a small bonsai costs $30 and a big bonsai costs $20, and he earned $190 from selling 3 small and 5 big bonsai",
+      "text_lemmatized": "Lowry sells bonsai, a small bonsai costs $30 and a big bonsai costs $20, and he earned $190 from selling 3 small and 5 big bonsai",
+      "hash": "f32a2b74f18ba622ff136195efe80b4c",
+      "created_at": "2026-08-28T23:12:57.922149+00:00",
+      "updated_at": "2026-08-28T23:12:57.922149+00:00"
+    },
+    "999a2d46-1b93-495a-847b-438496dc0fe0": {
+      "user_id": "persona254",
+      "data": "Donny bought 6 small and medium apples and 8 big apples, and he paid $34.50 for the small and medium apples and $24.00 for the big apples, for a total of $58.50",
+      "text_lemmatized": "Donny bought 6 small and medium apples and 8 big apples, and he paid $34.50 for the small and medium apples and $24.00 for the big apples, for a total of $58.50",
+      "hash": "ce800fab406717b9c70d92c929d0c25b",
+      "created_at": "2026-08-28T23:12:57.922156+00:00",
+      "updated_at": "2026-08-28T23:12:57.922156+00:00"
+    },
+    "a6db2012-4038-40c7-a86b-80f5bd9a9da4": {
+      "user_id": "persona254",
+      "data": "There are 6 oranges in a fruit basket, 2 fewer apples than oranges, 3 times as many bananas as apples, and half as many peaches as bananas, for a total of 28 pieces of fruit",
+      "text_lemmatized": "There are 6 oranges in a fruit basket, 2 fewer apples than oranges, 3 times as many bananas as apples, and half as many peaches as bananas, for a total of 28 pieces of fruit",
+      "hash": "2da4c9a7e2585cbfb0f0ad9ace479d91",
+      "created_at": "2026-08-28T23:12:57.922162+00:00",
+      "updated_at": "2026-08-28T23:12:57.922162+00:00"
+    },
+    "3da22176-6be7-4e6b-82b8-896adbc95bc3": {
+      "user_id": "persona254",
+      "data": "Sabrina started with 20 cookies, gave 10 to her brother, received 5 from her mother, and gave 10 to her sister, leaving her with 5 cookies",
+      "text_lemmatized": "Sabrina started with 20 cookies, gave 10 to her brother, received 5 from her mother, and gave 10 to her sister, leaving her with 5 cookies",
+      "hash": "b58b75041a203c95d546c4dc0fb0985d",
+      "created_at": "2026-08-28T23:12:57.922169+00:00",
+      "updated_at": "2026-08-28T23:12:57.922169+00:00"
+    },
+    "b2a42cb8-b44a-4bd5-aa06-0c91df66588d": {
+      "user_id": "persona254",
+      "data": "A carnival snack booth made $50 selling popcorn each day and three times as much selling cotton candy, for a total daily revenue of $200, and it earned $895 after paying $105 in expenses for 5 days",
+      "text_lemmatized": "A carnival snack booth made $50 selling popcorn each day and three times as much selling cotton candy, for a total daily revenue of $200, and it earned $895 after paying $105 in expenses for 5 days",
+      "hash": "8deb4e17d773ab35e7b806c516a8aec2",
+      "created_at": "2026-08-28T23:12:57.922175+00:00",
+      "updated_at": "2026-08-28T23:12:57.922175+00:00"
+    },
+    "b411df96-c449-4c10-a47c-baae3cc94e73": {
+      "user_id": "persona254",
+      "data": "Elijah needs 20 meters of masking tape to cover the entire width of each wall, with 2 walls that are 4 meters wide and 2 walls that are 6 meters wide",
+      "text_lemmatized": "Elijah needs 20 meters of masking tape to cover the entire width of each wall, with 2 walls that are 4 meters wide and 2 walls that are 6 meters wide",
+      "hash": "0ba915e7c9f93357d594c4e65147a3f4",
+      "created_at": "2026-08-28T23:12:57.922182+00:00",
+      "updated_at": "2026-08-28T23:12:57.922182+00:00"
+    },
+    "77a31622-6f31-4dad-9e21-05b38e9791ed": {
+      "user_id": "persona254",
+      "data": "The smallest positive integer with exactly 2015 positive factors has a sum of prime factors equal to the sum of the prime factors of the number",
+      "text_lemmatized": "The smallest positive integer with exactly 2015 positive factors has a sum of prime factors equal to the sum of the prime factors of the number",
+      "hash": "b5bbe421685da793d8f0a6fe198f4a07",
+      "created_at": "2026-08-28T23:12:57.922188+00:00",
+      "updated_at": "2026-08-28T23:12:57.922188+00:00"
+    },
+    "583edabd-d50a-4cf7-a866-51b8a9166c42": {
+      "user_id": "persona254",
+      "data": "The most expensive lamp in the store costs 3 times more than the cheapest lamp, which is $20, so the most expensive lamp costs $20 * 3 = $60",
+      "text_lemmatized": "The most expensive lamp in the store costs 3 times more than the cheapest lamp, which is $20, so the most expensive lamp costs $20 * 3 = $60",
+      "hash": "05f35a1e5bc72770e88e745233114713",
+      "created_at": "2026-08-28T23:13:00.563176+00:00",
+      "updated_at": "2026-08-28T23:13:00.563176+00:00"
+    },
+    "11d4a08f-5c9e-4b9c-bcfb-81d4c4aaadf1": {
+      "user_id": "persona254",
+      "data": "Frank currently has $90 and buys the most expensive lamp for $60, so he will have $90 - $60 = $30 remaining",
+      "text_lemmatized": "Frank currently has $90 and buys the most expensive lamp for $60, so he will have $90 - $60 = $30 remaining",
+      "hash": "00b9a2a2c082438934c5bb3ed51dc8d7",
+      "created_at": "2026-08-28T23:13:00.563195+00:00",
+      "updated_at": "2026-08-28T23:13:00.563195+00:00"
+    },
+    "78a132c8-5ee2-4731-b29b-1bc58d3dfafb": {
+      "user_id": "persona254",
+      "data": "The problem is to find the smallest number of elements that a 2-configuration of A can have, where A has n elements and n is greater than or equal to 2, and the configuration is not m-separable for any m less than n.",
+      "text_lemmatized": "The problem is to find the smallest number of elements that a 2-configuration of A can have, where A has n elements and n is greater than or equal to 2, and the configuration is not m-separable for any m less than n.",
+      "hash": "aed318c861b3197ee8f0cc9cb18cad0b",
+      "created_at": "2026-08-28T23:13:09.742045+00:00",
+      "updated_at": "2026-08-28T23:13:09.742045+00:00",
+      "attributed_to": "assistant"
+    },
+    "e1dbebdc-137a-4c20-a51f-20b66b2eed14": {
+      "user_id": "persona254",
+      "data": "The expected number of cuts that Katherine makes is 1 + ln(2016).",
+      "text_lemmatized": "The expected number of cuts that Katherine makes is 1 + ln(2016).",
+      "hash": "ee84f09e1744eda1b5384f11f07ea4f3",
+      "created_at": "2026-08-28T23:13:09.742070+00:00",
+      "updated_at": "2026-08-28T23:13:09.742070+00:00",
+      "attributed_to": "assistant"
+    },
+    "c6c7fcca-d45f-42f3-abff-2c41e0ff87fd": {
+      "user_id": "persona254",
+      "data": "If a family planted 3 times as many peaches as apricots and 58 apricot trees were planted, then the total number of trees planted was 232.",
+      "text_lemmatized": "If a family planted 3 times as many peaches as apricots and 58 apricot trees were planted, then the total number of trees planted was 232.",
+      "hash": "d409964776bbb829c156e645d4b88c89",
+      "created_at": "2026-08-28T23:13:09.742082+00:00",
+      "updated_at": "2026-08-28T23:13:09.742082+00:00",
+      "attributed_to": "assistant"
+    },
+    "3b107185-0579-4ca6-9113-701f7771d853": {
+      "user_id": "persona254",
+      "data": "At Mrs. Dawson's rose garden, there are 10 rows of roses, and in each row, there are 20 roses where 1/2 of these roses are red, 3/5 of the remaining are white, and the rest are pink. The total number of pink roses is 40.",
+      "text_lemmatized": "At Mrs. Dawson's rose garden, there are 10 rows of roses, and in each row, there are 20 roses where 1/2 of these roses are red, 3/5 of the remaining are white, and the rest are pink. The total number of pink roses is 40.",
+      "hash": "7b41f7a77a9929f477efe99373031512",
+      "created_at": "2026-08-28T23:13:09.742092+00:00",
+      "updated_at": "2026-08-28T23:13:09.742092+00:00",
+      "attributed_to": "assistant"
+    },
+    "4137dbe9-987f-4638-bb7c-da088f3b0623": {
+      "user_id": "persona254",
+      "data": "James has a small tree outside his window with 30 branches with 90 twigs per branch. 30% of the twigs sprout 4 leaves, and the rest sprout 5 leaves. The total number of leaves on the tree is 12,690.",
+      "text_lemmatized": "James has a small tree outside his window with 30 branches with 90 twigs per branch. 30% of the twigs sprout 4 leaves, and the rest sprout 5 leaves. The total number of leaves on the tree is 12,690.",
+      "hash": "aeede291e3bb1f572c8a11bdce3de2de",
+      "created_at": "2026-08-28T23:13:09.742102+00:00",
+      "updated_at": "2026-08-28T23:13:09.742102+00:00",
+      "attributed_to": "assistant"
+    },
+    "29bdada4-0431-47f5-b046-38fa101a68db": {
+      "user_id": "persona254",
+      "data": "Hannah fills her kids' stockings with 4 candy canes, 2 beanie babies, and 1 book. If she has 3 kids, she buys a total of 21 stocking stuffers.",
+      "text_lemmatized": "Hannah fills her kids' stockings with 4 candy canes, 2 beanie babies, and 1 book. If she has 3 kids, she buys a total of 21 stocking stuffers.",
+      "hash": "27748b54f70d9b839ba9d8fa6fa6e3bc",
+      "created_at": "2026-08-28T23:13:09.742111+00:00",
+      "updated_at": "2026-08-28T23:13:09.742111+00:00",
+      "attributed_to": "assistant"
+    },
+    "ce357da2-8976-4d75-908a-fcc9f8c47e4f": {
+      "user_id": "persona254",
+      "data": "The fifth-grade class at Rosa Parks Elementary School is holding a food drive. Half the students in Ms. Perez's class collected 12 cans each, two students didn't collect any, and the remaining 13 students each collected 4 cans. The total number of cans collected is 232.",
+      "text_lemmatized": "The fifth-grade class at Rosa Parks Elementary School is holding a food drive. Half the students in Ms. Perez's class collected 12 cans each, two students didn't collect any, and the remaining 13 students each collected 4 cans. The total number of cans collected is 232.",
+      "hash": "1c9152f16c98ce3fa45768ae6ffa8a16",
+      "created_at": "2026-08-28T23:13:09.742120+00:00",
+      "updated_at": "2026-08-28T23:13:09.742120+00:00",
+      "attributed_to": "assistant"
+    },
+    "074be2f8-8f60-4cd9-a360-74a0d3b7d838": {
+      "user_id": "persona254",
+      "data": "Every day Janet spends 8 minutes looking for her keys and another 3 minutes complaining after she finds them. If Janet stops losing her keys, she'll save 77 minutes every week.",
+      "text_lemmatized": "Every day Janet spends 8 minutes looking for her keys and another 3 minutes complaining after she finds them. If Janet stops losing her keys, she'll save 77 minutes every week.",
+      "hash": "3a63669e3418519cadcf660627a77a06",
+      "created_at": "2026-08-28T23:13:09.742129+00:00",
+      "updated_at": "2026-08-28T23:13:09.742129+00:00",
+      "attributed_to": "assistant"
+    },
+    "c6e2d1a8-dad4-4677-a89a-9aed1258478a": {
+      "user_id": "persona254",
+      "data": "The email to Mrs. Alvarez is about a local history project and a cultural celebration, and the sender, Marisol Vega, wants to arrange an interview with the performers or the event coordinator and knows the exact time the dance presentation will take place.",
+      "text_lemmatized": "The email to Mrs. Alvarez is about a local history project and a cultural celebration, and the sender, Marisol Vega, wants to arrange an interview with the performers or the event coordinator and knows the exact time the dance presentation will take place.",
+      "hash": "a8d73e1c6dbcefb3b63ce0814be23149",
+      "created_at": "2026-08-28T23:13:09.742138+00:00",
+      "updated_at": "2026-08-28T23:13:09.742138+00:00",
+      "attributed_to": "assistant"
+    },
+    "b0b3df57-498f-4307-940e-a2689a15b94f": {
+      "user_id": "persona254",
+      "data": "Adding a sentence about how the project will be shared with the community would make the email stronger.",
+      "text_lemmatized": "Adding a sentence about how the project will be shared with the community would make the email stronger.",
+      "hash": "da94b528edbf2ed21f3476b6fac55742",
+      "created_at": "2026-08-28T23:13:09.742146+00:00",
+      "updated_at": "2026-08-28T23:13:09.742146+00:00",
+      "attributed_to": "assistant"
+    },
+    "ffe816d2-51b9-4f14-9cdc-14244cc7c97d": {
+      "user_id": "persona254",
+      "data": "Pam has 10 bags of apples, each containing as many apples as 3 of Gerald's bags, and Gerald's bags have 40 apples each.",
+      "text_lemmatized": "Pam has 10 bags of apples, each containing as many apples as 3 of Gerald's bags, and Gerald's bags have 40 apples each.",
+      "hash": "846a63581881b7aaa7265f46186e26e2",
+      "created_at": "2026-08-28T23:13:34.064074+00:00",
+      "updated_at": "2026-08-28T23:13:34.064074+00:00",
+      "attributed_to": "assistant"
+    },
+    "dbb118a5-f388-4d29-b7fe-1e6d2632c5f5": {
+      "user_id": "persona254",
+      "data": "When 542 is multiplied by 3, the ones digit of the result is 6.",
+      "text_lemmatized": "When 542 is multiplied by 3, the ones digit of the result is 6.",
+      "hash": "d4d4ffafdbafd7cf418119ae0b1b3456",
+      "created_at": "2026-08-28T23:13:34.064092+00:00",
+      "updated_at": "2026-08-28T23:13:34.064092+00:00",
+      "attributed_to": "assistant"
+    },
+    "12528a63-42a6-4d88-8afa-939699650e47": {
+      "user_id": "persona254",
+      "data": "There are 35 fruits on the display in total, with twice as many apples as oranges and twice as many oranges as bananas, and there are 5 bananas on the display.",
+      "text_lemmatized": "There are 35 fruits on the display in total, with twice as many apples as oranges and twice as many oranges as bananas, and there are 5 bananas on the display.",
+      "hash": "bcfa1da0ea130bd0ad2ce3c0437de1b8",
+      "created_at": "2026-08-28T23:13:34.064100+00:00",
+      "updated_at": "2026-08-28T23:13:34.064100+00:00",
+      "attributed_to": "assistant"
+    },
+    "c8ac31ca-8cb0-4982-904d-931e541165ca": {
+      "user_id": "persona254",
+      "data": "In square PQRS with side length 2, each of P, Q, R, and S is the centre of a circle with radius 1, and the area of the shaded region is 4 - \u03c0.",
+      "text_lemmatized": "In square PQRS with side length 2, each of P, Q, R, and S is the centre of a circle with radius 1, and the area of the shaded region is 4 - \u03c0.",
+      "hash": "4a988511dac25921dbf7aa6216d00532",
+      "created_at": "2026-08-28T23:13:34.064107+00:00",
+      "updated_at": "2026-08-28T23:13:34.064107+00:00",
+      "attributed_to": "assistant"
+    },
+    "19ab3b18-679c-4ef1-83d1-dc3a69a52d37": {
+      "user_id": "persona254",
+      "data": "Marcy can make 27 spears out of 6 saplings and 1 log, with 3 spears from one sapling and 9 spears from one log.",
+      "text_lemmatized": "Marcy can make 27 spears out of 6 saplings and 1 log, with 3 spears from one sapling and 9 spears from one log.",
+      "hash": "0e5c365294b266a4c82db4a42fc3cd12",
+      "created_at": "2026-08-28T23:13:34.064114+00:00",
+      "updated_at": "2026-08-28T23:13:34.064114+00:00",
+      "attributed_to": "assistant"
+    },
+    "2caa8501-03bc-4e1c-babc-cb4abe12c6ba": {
+      "user_id": "persona254",
+      "data": "Evan\u2019s dog weighs 9 pounds, and together with Evan\u2019s dog, the weight of the dogs is 72 pounds, with Evan\u2019s dog weighing 7 times as much as Ivan\u2019s dog.",
+      "text_lemmatized": "Evan\u2019s dog weighs 9 pounds, and together with Evan\u2019s dog, the weight of the dogs is 72 pounds, with Evan\u2019s dog weighing 7 times as much as Ivan\u2019s dog.",
+      "hash": "23f8ef0a344bc26e5cd66a85298c21df",
+      "created_at": "2026-08-28T23:13:34.064121+00:00",
+      "updated_at": "2026-08-28T23:13:34.064121+00:00",
+      "attributed_to": "assistant"
+    },
+    "3d9b29a5-0931-445b-b3cb-9696594172f8": {
+      "user_id": "persona254",
+      "data": "Janet needs to work 4 weeks to purchase a $4640 car, with a weekly earnings of $1160, and she earns $20 per hour at work.",
+      "text_lemmatized": "Janet needs to work 4 weeks to purchase a $4640 car, with a weekly earnings of $1160, and she earns $20 per hour at work.",
+      "hash": "b4ccd86254895247ecfabc9d376e89df",
+      "created_at": "2026-08-28T23:13:34.064127+00:00",
+      "updated_at": "2026-08-28T23:13:34.064127+00:00",
+      "attributed_to": "assistant"
+    },
+    "24f0d20c-0200-4ef8-814f-967b4ec3174c": {
+      "user_id": "persona254",
+      "data": "Jimmy needs to eat 10 crackers to have consumed a total of 500 calories, with 7 cookies consuming 350 calories and each cracker having 15 calories.",
+      "text_lemmatized": "Jimmy needs to eat 10 crackers to have consumed a total of 500 calories, with 7 cookies consuming 350 calories and each cracker having 15 calories.",
+      "hash": "19a7560bafb2ddc794d2a38cf05072d1",
+      "created_at": "2026-08-28T23:13:34.064134+00:00",
+      "updated_at": "2026-08-28T23:13:34.064134+00:00",
+      "attributed_to": "assistant"
+    },
+    "f1a33e67-8843-41ea-9500-80eca54e1b34": {
+      "user_id": "persona254",
+      "data": "Vaishali has a combined total of 34 stripes on all her hats, with 4 hats having 3 stripes each, 3 hats having 4 stripes each, 6 hats having no stripes, and 2 hats having 5 stripes each.",
+      "text_lemmatized": "Vaishali has a combined total of 34 stripes on all her hats, with 4 hats having 3 stripes each, 3 hats having 4 stripes each, 6 hats having no stripes, and 2 hats having 5 stripes each.",
+      "hash": "f210f2c57c0158dd67a7fb6b169d1a78",
+      "created_at": "2026-08-28T23:13:34.064140+00:00",
+      "updated_at": "2026-08-28T23:13:34.064140+00:00",
+      "attributed_to": "assistant"
+    },
+    "59ef4576-fb32-44c9-83d7-e7fe84158594": {
+      "user_id": "persona254",
+      "data": "There are 12 male contestants at the singing competition, with 18 contestants in total and one third of them being female.",
+      "text_lemmatized": "There are 12 male contestants at the singing competition, with 18 contestants in total and one third of them being female.",
+      "hash": "2968a26ce69c34bf6d8106f9b2173524",
+      "created_at": "2026-08-28T23:13:34.064146+00:00",
+      "updated_at": "2026-08-28T23:13:34.064146+00:00",
+      "attributed_to": "assistant"
+    },
+    "0509d911-dc54-458c-a986-4f031b4a47e1": {
+      "user_id": "persona254",
+      "data": "Willy has 48 stuffed animals in total, with 10 initially, 2 more from his mom, and 3 times more from his dad, and his dad gives him 36 stuffed animals.",
+      "text_lemmatized": "Willy has 48 stuffed animals in total, with 10 initially, 2 more from his mom, and 3 times more from his dad, and his dad gives him 36 stuffed animals.",
+      "hash": "56f70d1b1bf36799fd1b4b7554c6f965",
+      "created_at": "2026-08-28T23:13:34.064151+00:00",
+      "updated_at": "2026-08-28T23:13:34.064151+00:00",
+      "attributed_to": "assistant"
+    },
+    "aa5110d1-359e-4f33-8bd4-f73bb84ff308": {
+      "user_id": "persona254",
+      "data": "John pays $250 per year for EpiPens, with each costing $500 and insurance covering 75%, and he gets one every 6 months.",
+      "text_lemmatized": "John pays $250 per year for EpiPens, with each costing $500 and insurance covering 75%, and he gets one every 6 months.",
+      "hash": "5402f60399c19b8ad188f4cfa69f831f",
+      "created_at": "2026-08-28T23:13:34.064157+00:00",
+      "updated_at": "2026-08-28T23:13:34.064157+00:00",
+      "attributed_to": "assistant"
+    },
+    "b59fbd00-c0be-4f4a-86bd-3e21f8ca97bd": {
+      "user_id": "persona254",
+      "data": "Carol can drive an additional 100 miles without filling her tank again, with a full tank giving a total range of 320 miles and a remaining fuel of 5 gallons.",
+      "text_lemmatized": "Carol can drive an additional 100 miles without filling her tank again, with a full tank giving a total range of 320 miles and a remaining fuel of 5 gallons.",
+      "hash": "a32577c0cdacf2393e9e8b0c32854d1f",
+      "created_at": "2026-08-28T23:13:34.064163+00:00",
+      "updated_at": "2026-08-28T23:13:34.064163+00:00",
+      "attributed_to": "assistant"
+    },
+    "479b985d-7880-41eb-9be2-d0fc90c56b3d": {
+      "user_id": "persona254",
+      "data": "The average of the other eight numbers is 90, with a total sum of 870 and two numbers being 51 and 99, and the average of all ten numbers being 87.",
+      "text_lemmatized": "The average of the other eight numbers is 90, with a total sum of 870 and two numbers being 51 and 99, and the average of all ten numbers being 87.",
+      "hash": "9203256e06623e1a060ffddf89aaf942",
+      "created_at": "2026-08-28T23:13:34.064168+00:00",
+      "updated_at": "2026-08-28T23:13:34.064168+00:00",
+      "attributed_to": "assistant"
+    },
+    "ea388794-979e-46b3-9828-a0c7cde2076d": {
+      "user_id": "persona254",
+      "data": "Terez has 22 pregnant female cows, with 50 percent of the cows being female and 50 percent of the females being pregnant, and he has 44 cows on his farm.",
+      "text_lemmatized": "Terez has 22 pregnant female cows, with 50 percent of the cows being female and 50 percent of the females being pregnant, and he has 44 cows on his farm.",
+      "hash": "6ae080311a082c83c4c4afe4eef9ef52",
+      "created_at": "2026-08-28T23:13:34.064174+00:00",
+      "updated_at": "2026-08-28T23:13:34.064174+00:00",
+      "attributed_to": "assistant"
+    },
+    "10a8a0a7-1f38-4f9b-ba1e-45c94311e7b1": {
+      "user_id": "persona254",
+      "data": "Terez has 44 cows, with 22 being female and 11 pregnant.",
+      "text_lemmatized": "Terez has 44 cows, with 22 being female and 11 pregnant.",
+      "hash": "9c1619db022e14999b68ac2272461a2b",
+      "created_at": "2026-08-28T23:13:45.590116+00:00",
+      "updated_at": "2026-08-28T23:13:45.590116+00:00",
+      "attributed_to": "assistant"
+    },
+    "3f2691a0-84df-48bd-a2c4-5f1dc3a2999f": {
+      "user_id": "persona254",
+      "data": "User wants to improve the flow and word choice in a message for a class project update.",
+      "text_lemmatized": "User wants to improve the flow and word choice in a message for a class project update.",
+      "hash": "0b8c4d5b0a3d1abd1bad09cc1558638f",
+      "created_at": "2026-08-28T23:13:45.590140+00:00",
+      "updated_at": "2026-08-28T23:13:45.590140+00:00",
+      "attributed_to": "user"
+    },
+    "36d991cd-ef35-44fa-b602-50c1b8a46163": {
+      "user_id": "persona254",
+      "data": "Assistant refined a message to make it sound more polished for a project report.",
+      "text_lemmatized": "Assistant refined a message to make it sound more polished for a project report.",
+      "hash": "6c8b977f283d3d81cd5c2d28d662e26f",
+      "created_at": "2026-08-28T23:13:45.590151+00:00",
+      "updated_at": "2026-08-28T23:13:45.590151+00:00",
+      "attributed_to": "assistant"
+    },
+    "58f95872-2f47-4d02-8229-b64725b22d35": {
+      "user_id": "persona254",
+      "data": "User asked for a possible transition sentence to bridge from dances to the closure in a project report.",
+      "text_lemmatized": "User asked for a possible transition sentence to bridge from dances to the closure in a project report.",
+      "hash": "4c3ff5de3161587fc933d08fa233581f",
+      "created_at": "2026-08-28T23:13:45.590160+00:00",
+      "updated_at": "2026-08-28T23:13:45.590160+00:00",
+      "attributed_to": "user"
+    },
+    "cab5ace1-99dd-4089-bef1-27e7b165822d": {
+      "user_id": "persona254",
+      "data": "Assistant suggested a transition sentence to bridge from dances to the closure in a project report.",
+      "text_lemmatized": "Assistant suggested a transition sentence to bridge from dances to the closure in a project report.",
+      "hash": "ba871d4d51bb1b0204a8ae8d2e761d02",
+      "created_at": "2026-08-28T23:13:45.590170+00:00",
+      "updated_at": "2026-08-28T23:13:45.590170+00:00",
+      "attributed_to": "assistant"
+    },
+    "63152c08-38d2-4c71-83ea-45644bdb8010": {
+      "user_id": "persona254",
+      "data": "Kenny practiced swimming for 24 hours in a week, with 12 hours of butterfly stroke and 12 hours of backstroke.",
+      "text_lemmatized": "Kenny practiced swimming for 24 hours in a week, with 12 hours of butterfly stroke and 12 hours of backstroke.",
+      "hash": "c936e1159c2d2ab3d338932786e4a043",
+      "created_at": "2026-08-28T23:13:45.590178+00:00",
+      "updated_at": "2026-08-28T23:13:45.590178+00:00",
+      "attributed_to": "assistant"
+    },
+    "e599fecb-7c1e-475c-ae4e-d0dd77ff2501": {
+      "user_id": "persona254",
+      "data": "Bingo has two dogs, with the first dog walking an average of 2 miles a day and the second dog averaging 8 miles a day.",
+      "text_lemmatized": "Bingo has two dogs, with the first dog walking an average of 2 miles a day and the second dog averaging 8 miles a day.",
+      "hash": "c2df1f864ead0f3896e09e8ded8fb74d",
+      "created_at": "2026-08-28T23:13:45.590187+00:00",
+      "updated_at": "2026-08-28T23:13:45.590187+00:00",
+      "attributed_to": "assistant"
+    },
+    "4e4f815c-e953-492c-a3fe-13648205686f": {
+      "user_id": "persona254",
+      "data": "Zane purchased 2 polo shirts at a 40% discount, with each shirt costing $30 and a total cost of $60.",
+      "text_lemmatized": "Zane purchased 2 polo shirts at a 40% discount, with each shirt costing $30 and a total cost of $60.",
+      "hash": "f3e542f354dfbb16080679689773d01d",
+      "created_at": "2026-08-28T23:13:45.590195+00:00",
+      "updated_at": "2026-08-28T23:13:45.590195+00:00",
+      "attributed_to": "assistant"
+    },
+    "a1f69a57-b79d-4a21-b6f2-d6a0ffc27d66": {
+      "user_id": "persona254",
+      "data": "James needs 21 yards of velvet to make 6 cloaks and 12 hats, with 18 yards for the cloaks and 3 yards for the hats.",
+      "text_lemmatized": "James needs 21 yards of velvet to make 6 cloaks and 12 hats, with 18 yards for the cloaks and 3 yards for the hats.",
+      "hash": "c032e89a70a8a694d68e5181ae8750fd",
+      "created_at": "2026-08-28T23:13:45.590203+00:00",
+      "updated_at": "2026-08-28T23:13:45.590203+00:00",
+      "attributed_to": "assistant"
+    },
+    "907fe248-e5f1-476f-b60e-d4105809d142": {
+      "user_id": "persona254",
+      "data": "Ali spent $240 on food and then $80 on glasses, with a total of $320 spent.",
+      "text_lemmatized": "Ali spent $240 on food and then $80 on glasses, with a total of $320 spent.",
+      "hash": "ff35c7f7a2c819d2ae97ebc8621e16f5",
+      "created_at": "2026-08-28T23:13:45.590212+00:00",
+      "updated_at": "2026-08-28T23:13:45.590212+00:00",
+      "attributed_to": "assistant"
+    },
+    "6d92ee2a-ff14-40c4-b7e6-7f4371d83093": {
+      "user_id": "persona254",
+      "data": "Dale and Andrew's breakfast cost $15, with Dale's breakfast costing $8 and Andrew's costing $7.",
+      "text_lemmatized": "Dale and Andrew's breakfast cost $15, with Dale's breakfast costing $8 and Andrew's costing $7.",
+      "hash": "1ea8860ec0ccde546c8b90dfcd7dbf2a",
+      "created_at": "2026-08-28T23:13:45.590220+00:00",
+      "updated_at": "2026-08-28T23:13:45.590220+00:00",
+      "attributed_to": "assistant"
+    },
+    "a98e22bf-ae9e-4e3e-92f4-01f3d7020568": {
+      "user_id": "persona254",
+      "data": "Declan's younger son will be 60 years old in 30 years, with the current age difference being 10 years.",
+      "text_lemmatized": "Declan's younger son will be 60 years old in 30 years, with the current age difference being 10 years.",
+      "hash": "bb6de3058a2db7ebe8205dac09c44aac",
+      "created_at": "2026-08-28T23:13:45.590228+00:00",
+      "updated_at": "2026-08-28T23:13:45.590228+00:00",
+      "attributed_to": "assistant"
+    },
+    "596aeab1-2739-40f4-92a7-0adb4f6e1a21": {
+      "user_id": "persona254",
+      "data": "User asked for help making a morning routine sound more exciting without taking much extra time.",
+      "text_lemmatized": "User asked for help making a morning routine sound more exciting without taking much extra time.",
+      "hash": "79417862661e34fd5dc4d245cea6a31d",
+      "created_at": "2026-08-28T23:13:45.590236+00:00",
+      "updated_at": "2026-08-28T23:13:45.590236+00:00",
+      "attributed_to": "user"
+    },
+    "90c7c565-64ab-4d29-8a3a-6eeee16e4688": {
+      "user_id": "persona254",
+      "data": "Assistant suggested 6 quick and healthy ways to change up a morning routine, including overnight parfait jars and smoothie rotation.",
+      "text_lemmatized": "Assistant suggested 6 quick and healthy ways to change up a morning routine, including overnight parfait jars and smoothie rotation.",
+      "hash": "88d3159bb829d374697eaf04f2c414d7",
+      "created_at": "2026-08-28T23:13:45.590244+00:00",
+      "updated_at": "2026-08-28T23:13:45.590244+00:00",
+      "attributed_to": "assistant"
+    },
+    "ba80f538-7748-45da-8c43-918a370d548f": {
+      "user_id": "persona254",
+      "data": "Mary can fit 2 more pounds of groceries in a 20-pound capacity bag, with 18 pounds already filled.",
+      "text_lemmatized": "Mary can fit 2 more pounds of groceries in a 20-pound capacity bag, with 18 pounds already filled.",
+      "hash": "7dafa20710ffb348d150497be25c6304",
+      "created_at": "2026-08-28T23:13:45.590253+00:00",
+      "updated_at": "2026-08-28T23:13:45.590253+00:00",
+      "attributed_to": "assistant"
+    },
+    "c4e88130-fa56-4afd-94c9-f2cdcccd3143": {
+      "user_id": "persona254",
+      "data": "Michael will spend $51 at the market buying fruit for his pie order, with peaches costing $2 per pound and apples and blueberries costing $1 per pound.",
+      "text_lemmatized": "Michael will spend $51 at the market buying fruit for his pie order, with peaches costing $2 per pound and apples and blueberries costing $1 per pound.",
+      "hash": "87413581ca51445f324c4a4edbb11f37",
+      "created_at": "2026-08-28T23:13:45.590261+00:00",
+      "updated_at": "2026-08-28T23:13:45.590261+00:00",
+      "attributed_to": "assistant"
+    },
+    "0e88af40-696f-4d5d-a0ba-92b26297a7b2": {
+      "user_id": "persona254",
+      "data": "Crystal's vehicle speed is 30 miles per hour, with a 50% decrease in speed while ascending and a 20% increase in speed while descending.",
+      "text_lemmatized": "Crystal's vehicle speed is 30 miles per hour, with a 50% decrease in speed while ascending and a 20% increase in speed while descending.",
+      "hash": "bfd5d695947d0bfd68232de929d0b6ce",
+      "created_at": "2026-08-28T23:13:45.590270+00:00",
+      "updated_at": "2026-08-28T23:13:45.590270+00:00",
+      "attributed_to": "assistant"
+    },
+    "58a2ea6b-d399-4c68-af14-532d02cb50ea": {
+      "user_id": "persona254",
+      "data": "Biff needs to work for 3 hours to break even on his bus trip, with a net earning of $10 per hour and a total expense of $30.",
+      "text_lemmatized": "Biff needs to work for 3 hours to break even on his bus trip, with a net earning of $10 per hour and a total expense of $30.",
+      "hash": "1849106d3ef7d7a991e8fc8be6f7190a",
+      "created_at": "2026-08-28T23:13:45.590278+00:00",
+      "updated_at": "2026-08-28T23:13:45.590278+00:00",
+      "attributed_to": "assistant"
+    },
+    "7ec8f0e8-9554-47c5-b4e0-43c7772d0fb8": {
+      "user_id": "persona254",
+      "data": "Beth bakes 4 batches of cookies, with each batch consisting of 2 dozen cookies and a total of 96 cookies shared equally among 16 people.",
+      "text_lemmatized": "Beth bakes 4 batches of cookies, with each batch consisting of 2 dozen cookies and a total of 96 cookies shared equally among 16 people.",
+      "hash": "d39b7d0f1eb47eb2a8989332d16ef170",
+      "created_at": "2026-08-28T23:13:45.590287+00:00",
+      "updated_at": "2026-08-28T23:13:45.590287+00:00",
+      "attributed_to": "assistant"
+    },
+    "3504a7fe-7713-4b26-abf3-1e310f6cb805": {
+      "user_id": "persona254",
+      "data": "User asked for help making the language in an email sound smoother and more professional.",
+      "text_lemmatized": "User asked for help making the language in an email sound smoother and more professional.",
+      "hash": "9592f349dfa7ef8fbb487879bc10709b",
+      "created_at": "2026-08-28T23:13:55.910174+00:00",
+      "updated_at": "2026-08-28T23:13:55.910174+00:00",
+      "attributed_to": "user"
+    },
+    "329eb44e-f677-4676-9eb4-755e690a0a1d": {
+      "user_id": "persona254",
+      "data": "Assistant suggested a polished version of the email to make it sound more professional.",
+      "text_lemmatized": "Assistant suggested a polished version of the email to make it sound more professional.",
+      "hash": "f4645784e0ffa7a1e197ec73f1a583c6",
+      "created_at": "2026-08-28T23:13:55.910193+00:00",
+      "updated_at": "2026-08-28T23:13:55.910193+00:00",
+      "attributed_to": "assistant"
+    },
+    "4e0f9761-47fb-4b3e-9dfa-d3810bd934ca": {
+      "user_id": "persona254",
+      "data": "User asked if including a mention of how the interview will be used in the project would be helpful.",
+      "text_lemmatized": "User asked if including a mention of how the interview will be used in the project would be helpful.",
+      "hash": "09e3af542dc9bd112b95509902d7335a",
+      "created_at": "2026-08-28T23:13:55.910201+00:00",
+      "updated_at": "2026-08-28T23:13:55.910201+00:00",
+      "attributed_to": "user"
+    },
+    "df038378-352e-40a9-9c1b-d71752333327": {
+      "user_id": "persona254",
+      "data": "Assistant suggested adding a sentence to explain how the interview will be used in the project.",
+      "text_lemmatized": "Assistant suggested adding a sentence to explain how the interview will be used in the project.",
+      "hash": "8163671d7004772d58a60228e6bda047",
+      "created_at": "2026-08-28T23:13:55.910207+00:00",
+      "updated_at": "2026-08-28T23:13:55.910207+00:00",
+      "attributed_to": "assistant"
+    },
+    "d1ac64be-c828-4eb5-a28a-442a9cd012ba": {
+      "user_id": "persona254",
+      "data": "User asked for suggestions on lively, festive music for a big family get-together.",
+      "text_lemmatized": "User asked for suggestions on lively, festive music for a big family get-together.",
+      "hash": "4d347d5145e802345255fc6a25025361",
+      "created_at": "2026-08-28T23:13:55.910213+00:00",
+      "updated_at": "2026-08-28T23:13:55.910213+00:00",
+      "attributed_to": "user"
+    },
+    "1830201e-f7a0-4a19-bafe-55d1210210f8": {
+      "user_id": "persona254",
+      "data": "Assistant suggested various types of music, including Latin, swing, Motown, and folk, to create a fun atmosphere.",
+      "text_lemmatized": "Assistant suggested various types of music, including Latin, swing, Motown, and folk, to create a fun atmosphere.",
+      "hash": "725e8a145953a83dd0e36b8063bbe8bb",
+      "created_at": "2026-08-28T23:13:55.910220+00:00",
+      "updated_at": "2026-08-28T23:13:55.910220+00:00",
+      "attributed_to": "assistant"
+    },
+    "78857b71-538a-4fd6-892f-1cc7bb2ad67a": {
+      "user_id": "persona254",
+      "data": "User asked to forget a previous detail about enjoying mariachi music during family gatherings.",
+      "text_lemmatized": "User asked to forget a previous detail about enjoying mariachi music during family gatherings.",
+      "hash": "2ab5fbd1b0eb7424c4de2194d4963781",
+      "created_at": "2026-08-28T23:13:55.910226+00:00",
+      "updated_at": "2026-08-28T23:13:55.910226+00:00",
+      "attributed_to": "user"
+    },
+    "6ac37764-2bb9-447d-8717-1399a36fd961": {
+      "user_id": "persona254",
+      "data": "User asked how many mangoes all three of them have combined if Alexis has 60 mangoes and has four times as many as Dilan and Ashley combined.",
+      "text_lemmatized": "User asked how many mangoes all three of them have combined if Alexis has 60 mangoes and has four times as many as Dilan and Ashley combined.",
+      "hash": "16d53e0d65b00ad8c185b1b3afaa7eaa",
+      "created_at": "2026-08-28T23:13:55.910232+00:00",
+      "updated_at": "2026-08-28T23:13:55.910232+00:00",
+      "attributed_to": "user"
+    },
+    "bbd2230f-96cc-4873-85ec-c15ddb4d3c41": {
+      "user_id": "persona254",
+      "data": "Assistant calculated that Dilan and Ashley have 15 mangoes combined and all three have 75 mangoes in total.",
+      "text_lemmatized": "Assistant calculated that Dilan and Ashley have 15 mangoes combined and all three have 75 mangoes in total.",
+      "hash": "cf35381a2eb93c02339b1f4980d5e41b",
+      "created_at": "2026-08-28T23:13:55.910237+00:00",
+      "updated_at": "2026-08-28T23:13:55.910237+00:00",
+      "attributed_to": "assistant"
+    },
+    "5254c036-769e-4a2e-9a72-299b6c6e45c4": {
+      "user_id": "persona254",
+      "data": "User asked how many fish are in river Trout now if there were 500 salmons initially and the number increased by ten times the initial number.",
+      "text_lemmatized": "User asked how many fish are in river Trout now if there were 500 salmons initially and the number increased by ten times the initial number.",
+      "hash": "f548be573efcc60ecfd94122b917d114",
+      "created_at": "2026-08-28T23:13:55.910243+00:00",
+      "updated_at": "2026-08-28T23:13:55.910243+00:00",
+      "attributed_to": "user"
+    },
+    "f7a96b67-8a2f-4429-9e08-4ef8a8de9f3c": {
+      "user_id": "persona254",
+      "data": "Assistant calculated that the total number of fish in river Trout now is 5500.",
+      "text_lemmatized": "Assistant calculated that the total number of fish in river Trout now is 5500.",
+      "hash": "72f06d14dc1219315f225f03b5649891",
+      "created_at": "2026-08-28T23:13:55.910249+00:00",
+      "updated_at": "2026-08-28T23:13:55.910249+00:00",
+      "attributed_to": "assistant"
+    },
+    "3e9a1dde-626e-443d-9beb-12ae6658c88c": {
+      "user_id": "persona254",
+      "data": "User asked how long Cassidy is grounded for if she is grounded for 14 days for lying about her report card and gets 3 extra days for each grade below a B and got four grades below a B.",
+      "text_lemmatized": "User asked how long Cassidy is grounded for if she is grounded for 14 days for lying about her report card and gets 3 extra days for each grade below a B and got four grades below a B.",
+      "hash": "e3a841207be70826341431b41b2254fe",
+      "created_at": "2026-08-28T23:13:55.910255+00:00",
+      "updated_at": "2026-08-28T23:13:55.910255+00:00",
+      "attributed_to": "user"
+    },
+    "95bb2e45-752b-4c2f-8ffb-0281ad0d11e9": {
+      "user_id": "persona254",
+      "data": "Assistant calculated that Cassidy is grounded for a total of 26 days.",
+      "text_lemmatized": "Assistant calculated that Cassidy is grounded for a total of 26 days.",
+      "hash": "c39f2b989f9ae786db6d19b64546b837",
+      "created_at": "2026-08-28T23:13:55.910261+00:00",
+      "updated_at": "2026-08-28T23:13:55.910261+00:00",
+      "attributed_to": "assistant"
+    },
+    "06d7ebd2-815c-4b90-bc60-0cd93ea2692e": {
+      "user_id": "persona254",
+      "data": "User asked how much money Janet makes if she does 20 hours of exterminator work and makes $70 an hour and sells a 5-pound sculpture and a 7-pound sculpture for $20/pound.",
+      "text_lemmatized": "User asked how much money Janet makes if she does 20 hours of exterminator work and makes $70 an hour and sells a 5-pound sculpture and a 7-pound sculpture for $20/pound.",
+      "hash": "102678d4aaf2fe4c77395634099ca8ac",
+      "created_at": "2026-08-28T23:13:55.910267+00:00",
+      "updated_at": "2026-08-28T23:13:55.910267+00:00",
+      "attributed_to": "user"
+    },
+    "94c67455-4d02-4668-8ed1-3b672be33804": {
+      "user_id": "persona254",
+      "data": "Assistant calculated that Janet makes $1400 from exterminator work and $240 from sculptures, for a total of $1640.",
+      "text_lemmatized": "Assistant calculated that Janet makes $1400 from exterminator work and $240 from sculptures, for a total of $1640.",
+      "hash": "d4a1ce0ee2cae246d94a9d13d46d6de1",
+      "created_at": "2026-08-28T23:13:55.910273+00:00",
+      "updated_at": "2026-08-28T23:13:55.910273+00:00",
+      "attributed_to": "assistant"
+    },
+    "de4309e3-5381-439e-b442-aaeea68895ab": {
+      "user_id": "persona254",
+      "data": "User asked how many jellybeans are left in the jar if there are 100 jellybeans initially and 22 children eat 3 jellybeans each.",
+      "text_lemmatized": "User asked how many jellybeans are left in the jar if there are 100 jellybeans initially and 22 children eat 3 jellybeans each.",
+      "hash": "7ea0fc2c20e13ec07ba335f7602e2838",
+      "created_at": "2026-08-28T23:13:55.910278+00:00",
+      "updated_at": "2026-08-28T23:13:55.910278+00:00",
+      "attributed_to": "user"
+    },
+    "5a43b07f-68a9-4b00-afe6-41035619f53b": {
+      "user_id": "persona254",
+      "data": "Assistant calculated that 22 children ate 66 jellybeans, leaving 34 jellybeans in the jar.",
+      "text_lemmatized": "Assistant calculated that 22 children ate 66 jellybeans, leaving 34 jellybeans in the jar.",
+      "hash": "4f00ef9b07a19c03e565fa9af58c24a3",
+      "created_at": "2026-08-28T23:13:55.910284+00:00",
+      "updated_at": "2026-08-28T23:13:55.910284+00:00",
+      "attributed_to": "assistant"
+    },
+    "f25b6758-ed72-4683-89da-c5b2418f6f97": {
+      "user_id": "persona254",
+      "data": "User volunteers with the Riverside Heritage Society, spending weekends visiting historic landmarks and interviewing longtime residents.",
+      "text_lemmatized": "User volunteers with the Riverside Heritage Society, spending weekends visiting historic landmarks and interviewing longtime residents.",
+      "hash": "60851d2395c95f54db322a2f549f9c4b",
+      "created_at": "2026-08-28T23:13:59.605282+00:00",
+      "updated_at": "2026-08-28T23:13:59.605282+00:00",
+      "attributed_to": "user"
+    },
+    "e2c3e93b-d7cc-4838-b248-6a8f2630bc4d": {
+      "user_id": "persona254",
+      "data": "User often brings homemade lunch to historic sites to take their time exploring without leaving for food.",
+      "text_lemmatized": "User often brings homemade lunch to historic sites to take their time exploring without leaving for food.",
+      "hash": "cc8295c7e8463e1a949da4a3f1cb8607",
+      "created_at": "2026-08-28T23:13:59.605300+00:00",
+      "updated_at": "2026-08-28T23:13:59.605300+00:00",
+      "attributed_to": "user"
+    },
+    "f07a6f0c-03c0-49d1-94a9-3a3835ad1f65": {
+      "user_id": "persona254",
+      "data": "User documents architectural features, collects personal stories, and understands cultural evolution through volunteer work.",
+      "text_lemmatized": "User documents architectural features, collects personal stories, and understands cultural evolution through volunteer work.",
+      "hash": "a9f84eb8fac24c031e77b852ce1669a5",
+      "created_at": "2026-08-28T23:13:59.605308+00:00",
+      "updated_at": "2026-08-28T23:13:59.605308+00:00",
+      "attributed_to": "user"
+    },
+    "b4e61485-7736-4f0a-b302-6b83310260fd": {
+      "user_id": "persona254",
+      "data": "User's volunteer work with the Riverside Heritage Society inspires their academic and professional goals.",
+      "text_lemmatized": "User's volunteer work with the Riverside Heritage Society inspires their academic and professional goals.",
+      "hash": "33850be810853744b87a1bb3e81944d2",
+      "created_at": "2026-08-28T23:13:59.605315+00:00",
+      "updated_at": "2026-08-28T23:13:59.605315+00:00",
+      "attributed_to": "user"
+    },
+    "6e28359c-645f-478e-9358-083f2cc231b2": {
+      "user_id": "persona254",
+      "data": "User volunteers with the Riverside Heritage Society, documenting stories of long-time residents and preserving photographs to capture the town's evolution.",
+      "text_lemmatized": "User volunteers with the Riverside Heritage Society, documenting stories of long-time residents and preserving photographs to capture the town's evolution.",
+      "hash": "8aacf6f9671270281a7db36918c540f2",
+      "created_at": "2026-08-28T23:14:03.601226+00:00",
+      "updated_at": "2026-08-28T23:14:03.601226+00:00",
+      "attributed_to": "user"
+    },
+    "d60ee379-fda9-4f76-b9fd-963527bc7ed7": {
+      "user_id": "persona254",
+      "data": "User draws inspiration from informal conversations with caf\u00e9 regulars and weekend discussions on historical literature with community members.",
+      "text_lemmatized": "User draws inspiration from informal conversations with caf\u00e9 regulars and weekend discussions on historical literature with community members.",
+      "hash": "93d00442253300824b5891be2cf9ff0f",
+      "created_at": "2026-08-28T23:14:03.601244+00:00",
+      "updated_at": "2026-08-28T23:14:03.601244+00:00",
+      "attributed_to": "user"
+    },
+    "2b77318b-9627-4062-b50f-c23841a8b879": {
+      "user_id": "persona254",
+      "data": "User's experiences with the Riverside Heritage Society deepen their understanding of the cultural threads that make up Riverside's identity.",
+      "text_lemmatized": "User's experiences with the Riverside Heritage Society deepen their understanding of the cultural threads that make up Riverside's identity.",
+      "hash": "43a980b1743c7be061f5bd5aaf9d01f1",
+      "created_at": "2026-08-28T23:14:03.601252+00:00",
+      "updated_at": "2026-08-28T23:14:03.601252+00:00",
+      "attributed_to": "user"
+    },
+    "99627659-30b1-47d1-a242-9864bc1e8828": {
+      "user_id": "persona254",
+      "data": "User's work with the Riverside Heritage Society inspires creative approaches to presenting findings to the public.",
+      "text_lemmatized": "User's work with the Riverside Heritage Society inspires creative approaches to presenting findings to the public.",
+      "hash": "cb616441bf8b1568f1d0d016bf5b7af3",
+      "created_at": "2026-08-28T23:14:03.601259+00:00",
+      "updated_at": "2026-08-28T23:14:03.601259+00:00",
+      "attributed_to": "user"
+    },
+    "b610aa18-f832-4f04-9bc5-0c9cc94d25ec": {
+      "user_id": "persona254",
+      "data": "Elena has 8 lilies with 6 petals each and 5 tulips with 3 petals each in her garden",
+      "text_lemmatized": "Elena has 8 lilies with 6 petals each and 5 tulips with 3 petals each in her garden",
+      "hash": "7cf8521d1a85796085a1220859ad70a4",
+      "created_at": "2026-08-28T23:14:05.874167+00:00",
+      "updated_at": "2026-08-28T23:14:05.874167+00:00",
+      "attributed_to": "user"
+    },
+    "6489e814-0ea4-46cf-bff9-6c556d7b7a9d": {
+      "user_id": "persona254",
+      "data": "User collects rainwater and initially had 100 L in the tank",
+      "text_lemmatized": "User collects rainwater and initially had 100 L in the tank",
+      "hash": "b257dee43c1856ca8b6e308034bc1c68",
+      "created_at": "2026-08-28T23:14:09.942168+00:00",
+      "updated_at": "2026-08-28T23:14:09.942168+00:00",
+      "attributed_to": "user"
+    },
+    "513299f5-2aee-4b31-902a-e464d8697418": {
+      "user_id": "persona254",
+      "data": "Rory's rainwater tank received 2 L/min of water for 90 minutes during a heavy rainstorm",
+      "text_lemmatized": "Rory's rainwater tank received 2 L/min of water for 90 minutes during a heavy rainstorm",
+      "hash": "86ee458aab6ddb65dfbf72e554533770",
+      "created_at": "2026-08-28T23:14:09.942190+00:00",
+      "updated_at": "2026-08-28T23:14:09.942190+00:00",
+      "attributed_to": "assistant"
+    },
+    "9e82a3c8-5ba6-4e37-9de6-1080192bacd0": {
+      "user_id": "persona254",
+      "data": "The rainwater tank received a total of 2 L/min \u00d7 90 min = 180 L of water during the heavy rainstorm",
+      "text_lemmatized": "The rainwater tank received a total of 2 L/min \u00d7 90 min = 180 L of water during the heavy rainstorm",
+      "hash": "541403393d5aa8cac1fe13d3bc751537",
+      "created_at": "2026-08-28T23:14:09.942199+00:00",
+      "updated_at": "2026-08-28T23:14:09.942199+00:00",
+      "attributed_to": "assistant"
+    },
+    "1e33c4e0-c70d-4021-a5ff-802fee42632c": {
+      "user_id": "persona254",
+      "data": "The total amount of water in the tank at the end of the heavy rain is 100 L (initial) + 180 L (added) = 280 L",
+      "text_lemmatized": "The total amount of water in the tank at the end of the heavy rain is 100 L (initial) + 180 L (added) = 280 L",
+      "hash": "9894f524f1f56aa73b304f9c2f609e44",
+      "created_at": "2026-08-28T23:14:09.942208+00:00",
+      "updated_at": "2026-08-28T23:14:09.942208+00:00",
+      "attributed_to": "assistant"
+    },
+    "76dbc855-006e-4696-84aa-b3df3afd2acd": {
+      "user_id": "persona254",
+      "data": "There are 22 people in a waiting room.",
+      "text_lemmatized": "There are 22 people in a waiting room.",
+      "hash": "aabbc1bfca5677cff1da6ad13b0f7762",
+      "created_at": "2026-08-28T23:14:13.981985+00:00",
+      "updated_at": "2026-08-28T23:14:13.981985+00:00",
+      "attributed_to": "user"
+    },
+    "049edc76-ea45-4621-bd91-b403d5bbbf33": {
+      "user_id": "persona254",
+      "data": "If 3 more people arrive, the number of people in the waiting room becomes 5 times the number of people inside the interview room.",
+      "text_lemmatized": "If 3 more people arrive, the number of people in the waiting room becomes 5 times the number of people inside the interview room.",
+      "hash": "96852b6d01872a7025810c6e4a777c7b",
+      "created_at": "2026-08-28T23:14:13.982006+00:00",
+      "updated_at": "2026-08-28T23:14:13.982006+00:00",
+      "attributed_to": "user"
+    },
+    "b825cfe6-838a-4908-846a-e5260a62d31a": {
+      "user_id": "persona254",
+      "data": "Let x be the number of people in the interview room. The total number of people in the waiting room after 3 more people arrive is 22 + 3 = 25. This is equal to 5 times the number of people in the interview room, so 25 = 5x. Solving for x, we get x = 25 / 5 = 5.",
+      "text_lemmatized": "Let x be the number of people in the interview room. The total number of people in the waiting room after 3 more people arrive is 22 + 3 = 25. This is equal to 5 times the number of people in the interview room, so 25 = 5x. Solving for x, we get x = 25 / 5 = 5.",
+      "hash": "1cc0f707eebc88502a56e8a339a4257c",
+      "created_at": "2026-08-28T23:14:13.982016+00:00",
+      "updated_at": "2026-08-28T23:14:13.982016+00:00",
+      "attributed_to": "assistant"
+    },
+    "301801ec-54b1-4745-8ee3-78c6d6e6d6be": {
+      "user_id": "persona254",
+      "data": "Gina initially had $400",
+      "text_lemmatized": "Gina initially had $400",
+      "hash": "7e32243575f0f45d235229cc2629b76f",
+      "created_at": "2026-08-28T23:14:30.816230+00:00",
+      "updated_at": "2026-08-28T23:14:30.816230+00:00",
+      "attributed_to": "user"
+    },
+    "43184b95-6b35-484a-bed6-fa628d40d7b4": {
+      "user_id": "persona254",
+      "data": "Gina gave 1/4 of her money to her mom, which is $100",
+      "text_lemmatized": "Gina gave 1/4 of her money to her mom, which is $100",
+      "hash": "76fd2df9bccfd8b94d0a22db2f2c3448",
+      "created_at": "2026-08-28T23:14:30.816252+00:00",
+      "updated_at": "2026-08-28T23:14:30.816252+00:00",
+      "attributed_to": "user"
+    },
+    "b050750d-21b6-4f12-aa06-a054cfef9566": {
+      "user_id": "persona254",
+      "data": "Gina used 1/8 of her money to buy clothes, which is $50",
+      "text_lemmatized": "Gina used 1/8 of her money to buy clothes, which is $50",
+      "hash": "9efa2893800bd7f1eefd9b5a60ee3cec",
+      "created_at": "2026-08-28T23:14:30.816261+00:00",
+      "updated_at": "2026-08-28T23:14:30.816261+00:00",
+      "attributed_to": "user"
+    },
+    "78a5698d-dfaa-4137-91f2-d0eeb12ecab5": {
+      "user_id": "persona254",
+      "data": "Gina gave 1/5 of her money to a charity, which is $80",
+      "text_lemmatized": "Gina gave 1/5 of her money to a charity, which is $80",
+      "hash": "35d545592714ec30c7db83b1e52092bd",
+      "created_at": "2026-08-28T23:14:30.816268+00:00",
+      "updated_at": "2026-08-28T23:14:30.816268+00:00",
+      "attributed_to": "user"
+    },
+    "df968803-68b8-49a1-8468-d8da746c4e49": {
+      "user_id": "persona254",
+      "data": "Gina kept the remaining money, which is $170",
+      "text_lemmatized": "Gina kept the remaining money, which is $170",
+      "hash": "45e7f4271925f4e5cd3f9ce58c894e68",
+      "created_at": "2026-08-28T23:14:30.816275+00:00",
+      "updated_at": "2026-08-28T23:14:30.816275+00:00",
+      "attributed_to": "user"
+    },
+    "08b539cd-b63a-49f6-b63f-1d53f6326e49": {
+      "user_id": "persona254",
+      "data": "User is working on a history project about the old citrus packing houses in their town, using local archives and family stories as inspiration",
+      "text_lemmatized": "User is working on a history project about the old citrus packing houses in their town, using local archives and family stories as inspiration",
+      "hash": "ad3fb41f86b6e6dcdbdbc14f274139a3",
+      "created_at": "2026-08-28T23:14:48.376448+00:00",
+      "updated_at": "2026-08-28T23:14:48.376448+00:00",
+      "attributed_to": "user"
+    },
+    "082aca68-b585-4ddb-9acc-386d6d4cfdef": {
+      "user_id": "persona254",
+      "data": "User took a weekend trip to the mountains with friends, enjoying the crisp air and gliding down the slopes",
+      "text_lemmatized": "User took a weekend trip to the mountains with friends, enjoying the crisp air and gliding down the slopes",
+      "hash": "7b77bc0ea893ca32af89cdbbfccd7c64",
+      "created_at": "2026-08-28T23:14:48.376467+00:00",
+      "updated_at": "2026-08-28T23:14:48.376467+00:00",
+      "attributed_to": "user"
+    },
+    "a004a704-6872-4290-8de3-1f65e06165da": {
+      "user_id": "persona254",
+      "data": "User aims to complete the first draft of their history project report by the end of the month",
+      "text_lemmatized": "User aims to complete the first draft of their history project report by the end of the month",
+      "hash": "f81d6d13af4d4e4244a2ec963d3e4c22",
+      "created_at": "2026-08-28T23:14:48.376476+00:00",
+      "updated_at": "2026-08-28T23:14:48.376476+00:00",
+      "attributed_to": "user"
+    },
+    "154acc6c-ccd4-4c63-804e-8d0cb1494b09": {
+      "user_id": "persona254",
+      "data": "User wants to share their history project report with Mrs. Ramirez, who mentioned her father worked in one of the packing houses",
+      "text_lemmatized": "User wants to share their history project report with Mrs. Ramirez, who mentioned her father worked in one of the packing houses",
+      "hash": "46423ffb20038d0b5d923e19fcae325f",
+      "created_at": "2026-08-28T23:14:48.376483+00:00",
+      "updated_at": "2026-08-28T23:14:48.376483+00:00",
+      "attributed_to": "user"
+    },
+    "ed8b065c-65fd-4343-98b2-f08f7b0af8c7": {
+      "user_id": "persona254",
+      "data": "User is working on a problem involving a biased coin with probabilities p for heads, q for tails, and 1/6 for landing on its side",
+      "text_lemmatized": "User is working on a problem involving a biased coin with probabilities p for heads, q for tails, and 1/6 for landing on its side",
+      "hash": "4d85477fd94b46ff4a1413702e34090b",
+      "created_at": "2026-08-28T23:14:48.376490+00:00",
+      "updated_at": "2026-08-28T23:14:48.376490+00:00",
+      "attributed_to": "user"
+    },
+    "3f1dd274-1e27-4e3a-bc07-24be6b1614f2": {
+      "user_id": "persona254",
+      "data": "The problem states that the likelihood of both flips of the biased coin having the same result is 1/2",
+      "text_lemmatized": "The problem states that the likelihood of both flips of the biased coin having the same result is 1/2",
+      "hash": "27cef7131acf90d80d0d09ff67ad344a",
+      "created_at": "2026-08-28T23:14:48.376496+00:00",
+      "updated_at": "2026-08-28T23:14:48.376496+00:00",
+      "attributed_to": "assistant"
+    },
+    "087995ce-5ac6-4ba7-ba0d-dbad964a726f": {
+      "user_id": "persona254",
+      "data": "The problem asks to find the probability p of the biased coin landing heads",
+      "text_lemmatized": "The problem asks to find the probability p of the biased coin landing heads",
+      "hash": "22119e5596bafbad7c3b5a25ba2f25dd",
+      "created_at": "2026-08-28T23:14:48.376502+00:00",
+      "updated_at": "2026-08-28T23:14:48.376502+00:00",
+      "attributed_to": "assistant"
+    },
+    "d8bf3652-9f9f-4556-b0e8-560d60eb196d": {
+      "user_id": "persona254",
+      "data": "Betsy is sewing a quilt with 16 squares on each side, totaling 32 squares. She has already sewn 25% of the quilt together.",
+      "text_lemmatized": "Betsy is sewing a quilt with 16 squares on each side, totaling 32 squares. She has already sewn 25% of the quilt together.",
+      "hash": "23d888f200df790801328ecbdb80f232",
+      "created_at": "2026-08-28T23:15:04.032886+00:00",
+      "updated_at": "2026-08-28T23:15:04.032886+00:00",
+      "attributed_to": "user"
+    },
+    "990e234d-f553-4c16-8fef-68ad91cdb77e": {
+      "user_id": "persona254",
+      "data": "To find out how many squares Betsy needs to sew, first calculate 25% of 32 squares, which is 0.25 * 32 = 8 squares. Then, subtract this from the total number of squares to find the remaining squares: 32 - 8 = 24 squares.",
+      "text_lemmatized": "To find out how many squares Betsy needs to sew, first calculate 25% of 32 squares, which is 0.25 * 32 = 8 squares. Then, subtract this from the total number of squares to find the remaining squares: 32 - 8 = 24 squares.",
+      "hash": "73dc88871db0a747d3c232d042971399",
+      "created_at": "2026-08-28T23:15:04.032906+00:00",
+      "updated_at": "2026-08-28T23:15:04.032906+00:00",
+      "attributed_to": "assistant"
+    },
+    "1611d17d-9e96-4f71-8313-403e5b8f0e0f": {
+      "user_id": "persona254",
+      "data": "User bought 20 key chains at a lower price by purchasing packs of 10 for $20 and packs of 4 for $12.",
+      "text_lemmatized": "User bought 20 key chains at a lower price by purchasing packs of 10 for $20 and packs of 4 for $12.",
+      "hash": "800c75c3cf59a73af581d8a46443ea32",
+      "created_at": "2026-08-28T23:15:23.922656+00:00",
+      "updated_at": "2026-08-28T23:15:23.922656+00:00",
+      "attributed_to": "assistant"
+    },
+    "d211ee50-1dd6-4ee1-8799-18a1408fb0b0": {
+      "user_id": "persona254",
+      "data": "User can save money by buying 20 key chains in packs of 10 for $20 instead of packs of 4 for $12.",
+      "text_lemmatized": "User can save money by buying 20 key chains in packs of 10 for $20 instead of packs of 4 for $12.",
+      "hash": "d8d1e34d6a2ca089c3fb7cfc517bd0f4",
+      "created_at": "2026-08-28T23:15:23.922678+00:00",
+      "updated_at": "2026-08-28T23:15:23.922678+00:00",
+      "attributed_to": "assistant"
+    },
+    "f3a6e633-9ac0-44c1-95f7-c1c8947d6449": {
+      "user_id": "persona254",
+      "data": "User can save money by buying 20 key chains at a lower price.",
+      "text_lemmatized": "User can save money by buying 20 key chains at a lower price.",
+      "hash": "df9e48afeba724c817f6b63e68649b3f",
+      "created_at": "2026-08-28T23:15:23.922688+00:00",
+      "updated_at": "2026-08-28T23:15:23.922688+00:00",
+      "attributed_to": "assistant"
+    },
+    "5c00920a-1038-4380-9313-07afb1e32792": {
+      "user_id": "persona254",
+      "data": "User can save money by choosing to buy 20 key chains at a lower price.",
+      "text_lemmatized": "User can save money by choosing to buy 20 key chains at a lower price.",
+      "hash": "3e2b5c65e47c8d95a590b1c77dbe2ab4",
+      "created_at": "2026-08-28T23:15:23.922698+00:00",
+      "updated_at": "2026-08-28T23:15:23.922698+00:00",
+      "attributed_to": "assistant"
+    },
+    "f20d32f9-a1b2-4869-bb31-26e377da27e7": {
+      "user_id": "persona254",
+      "data": "User can save money by buying 20 key chains in packs of 10 for $20.",
+      "text_lemmatized": "User can save money by buying 20 key chains in packs of 10 for $20.",
+      "hash": "6f73b3e44fc17442b0aaeadd6fa6fcb7",
+      "created_at": "2026-08-28T23:15:23.922707+00:00",
+      "updated_at": "2026-08-28T23:15:23.922707+00:00",
+      "attributed_to": "assistant"
+    },
+    "348e963d-a260-47f4-9997-fde78c3a2bc0": {
+      "user_id": "persona254",
+      "data": "User can save money by buying 20 key chains at a lower price by purchasing packs of 10 for $20.",
+      "text_lemmatized": "User can save money by buying 20 key chains at a lower price by purchasing packs of 10 for $20.",
+      "hash": "979d605b0720b8798c8ebb6ca13035cc",
+      "created_at": "2026-08-28T23:15:23.922716+00:00",
+      "updated_at": "2026-08-28T23:15:23.922716+00:00",
+      "attributed_to": "assistant"
+    },
+    "120394b7-9c4c-4019-85ef-a0f08729795b": {
+      "user_id": "persona254",
+      "data": "User can save money by buying 20 key chains at a lower price by purchasing packs of 10 for $20 and packs of 4 for $12.",
+      "text_lemmatized": "User can save money by buying 20 key chains at a lower price by purchasing packs of 10 for $20 and packs of 4 for $12.",
+      "hash": "d03df6ce5f035e371e57c849774719d4",
+      "created_at": "2026-08-28T23:15:23.922731+00:00",
+      "updated_at": "2026-08-28T23:15:23.922731+00:00",
+      "attributed_to": "assistant"
+    },
+    "90e299df-a878-4083-8ffa-73a39f4c6591": {
+      "user_id": "persona254",
+      "data": "User can save money by buying 20 key chains in packs of 10 for $20 and packs of 4 for $12.",
+      "text_lemmatized": "User can save money by buying 20 key chains in packs of 10 for $20 and packs of 4 for $12.",
+      "hash": "773c03678b0ce5c49918b5e68dcc91fc",
+      "created_at": "2026-08-28T23:15:23.922739+00:00",
+      "updated_at": "2026-08-28T23:15:23.922739+00:00",
+      "attributed_to": "assistant"
+    },
+    "9381807e-486f-4a38-9415-8e6ceda5be18": {
+      "user_id": "persona254",
+      "data": "User asked why coffeehouses historically became important places for community discussions in some towns, but not tea houses.",
+      "text_lemmatized": "User asked why coffeehouses historically became important places for community discussions in some towns, but not tea houses.",
+      "hash": "411aa57cef438b8be9ef16acd78c051c",
+      "created_at": "2026-08-28T23:15:32.486035+00:00",
+      "updated_at": "2026-08-28T23:15:32.486035+00:00",
+      "attributed_to": "user"
+    },
+    "cbd8a7fc-587f-4092-84c0-9f9cfd5ee1e7": {
+      "user_id": "persona254",
+      "data": "Historically, coffeehouses rose to prominence in different periods and places as hubs of public life, serving as neutral meeting grounds for a mix of social classes, and serving a stimulating beverage that encouraged longer, more engaged conversations.",
+      "text_lemmatized": "Historically, coffeehouses rose to prominence in different periods and places as hubs of public life, serving as neutral meeting grounds for a mix of social classes, and serving a stimulating beverage that encouraged longer, more engaged conversations.",
+      "hash": "771863b8a9ffbf7d96c4b9b8c8d29c00",
+      "created_at": "2026-08-28T23:15:32.486057+00:00",
+      "updated_at": "2026-08-28T23:15:32.486057+00:00",
+      "attributed_to": "assistant"
+    },
+    "ba83be9b-1a68-4d36-938d-8a4b8f80f581": {
+      "user_id": "persona254",
+      "data": "Coffeehouses became associated with the 'Penny University' in London, where people could engage in discussion, debate, and idea exchange, fueled by the energizing qualities of coffee.",
+      "text_lemmatized": "Coffeehouses became associated with the 'Penny University' in London, where people could engage in discussion, debate, and idea exchange, fueled by the energizing qualities of coffee.",
+      "hash": "61b82df9ca74657e2bf2f83b1dc8058b",
+      "created_at": "2026-08-28T23:15:32.486069+00:00",
+      "updated_at": "2026-08-28T23:15:32.486069+00:00",
+      "attributed_to": "assistant"
+    },
+    "d0b066d5-2ffb-4938-9cc4-4110697a6bbd": {
+      "user_id": "persona254",
+      "data": "Tea houses, on the other hand, often evolved differently depending on the region, becoming associated with ceremonial preparation, aesthetic refinement, and hospitality, and were less likely to be used as open forums for political or intellectual conversation.",
+      "text_lemmatized": "Tea houses, on the other hand, often evolved differently depending on the region, becoming associated with ceremonial preparation, aesthetic refinement, and hospitality, and were less likely to be used as open forums for political or intellectual conversation.",
+      "hash": "0638b1de8d770914df738a48637c3a80",
+      "created_at": "2026-08-28T23:15:32.486078+00:00",
+      "updated_at": "2026-08-28T23:15:32.486078+00:00",
+      "attributed_to": "assistant"
+    },
+    "cc3c485e-aada-453b-9bd2-d44c1429e48e": {
+      "user_id": "persona254",
+      "data": "In colonial America, coffeehouses modeled after the English ones became central to community life and even political plotting, such as the Boston Tea Party planning meetings being held in coffeehouses.",
+      "text_lemmatized": "In colonial America, coffeehouses modeled after the English ones became central to community life and even political plotting, such as the Boston Tea Party planning meetings being held in coffeehouses.",
+      "hash": "73b9894b55c1f3b82aab5cc46d675727",
+      "created_at": "2026-08-28T23:15:32.486089+00:00",
+      "updated_at": "2026-08-28T23:15:32.486089+00:00",
+      "attributed_to": "assistant"
+    },
+    "a4e0ec57-6b2a-4d4d-87d8-9b78deebea41": {
+      "user_id": "persona254",
+      "data": "In 19th- and 20th-century U.S. towns, coffee's affordability and quick preparation, combined with the rise of diner culture and later independent caf\u00e9s, kept it central to working people's daily routines and informal debates.",
+      "text_lemmatized": "In 19th- and 20th-century U.S. towns, coffee's affordability and quick preparation, combined with the rise of diner culture and later independent caf\u00e9s, kept it central to working people's daily routines and informal debates.",
+      "hash": "670338b837f05c2e8c759a27e8d440ec",
+      "created_at": "2026-08-28T23:15:32.486099+00:00",
+      "updated_at": "2026-08-28T23:15:32.486099+00:00",
+      "attributed_to": "assistant"
+    },
+    "c278b2f0-2ef9-447e-9cde-d35728e32331": {
+      "user_id": "persona254",
+      "data": "Coffeehouses in the late 20th century became intertwined with the art and music scene, from Beat poets in San Francisco caf\u00e9s to bohemian communities in smaller historic districts.",
+      "text_lemmatized": "Coffeehouses in the late 20th century became intertwined with the art and music scene, from Beat poets in San Francisco caf\u00e9s to bohemian communities in smaller historic districts.",
+      "hash": "866dd5629609a6023195cc70ab2a5e41",
+      "created_at": "2026-08-28T23:15:32.486108+00:00",
+      "updated_at": "2026-08-28T23:15:32.486108+00:00",
+      "attributed_to": "assistant"
+    },
+    "75ac42a4-7dd8-41b0-9a53-8928bbfb659d": {
+      "user_id": "persona254",
+      "data": "Some notable historic California coffeehouses that played a role in community discussions include the City Lights Bookstore in San Francisco, which was a hub for the Beat Generation, and the Cozy Dog Drive In in Riverside, which was a gathering place for local artists and activists.",
+      "text_lemmatized": "Some notable historic California coffeehouses that played a role in community discussions include the City Lights Bookstore in San Francisco, which was a hub for the Beat Generation, and the Cozy Dog Drive In in Riverside, which was a gathering place for local artists and activists.",
+      "hash": "513354ac6e9516d5fd154035d00e09e5",
+      "created_at": "2026-08-28T23:15:32.486118+00:00",
+      "updated_at": "2026-08-28T23:15:32.486118+00:00",
+      "attributed_to": "assistant"
+    },
+    "f650c925-0a1d-411f-9dfc-4c40159e7a01": {
+      "user_id": "persona254",
+      "data": "The City Lights Bookstore was a key location for the Beat poets, including Allen Ginsberg and Jack Kerouac, who would gather there to discuss literature and politics.",
+      "text_lemmatized": "The City Lights Bookstore was a key location for the Beat poets, including Allen Ginsberg and Jack Kerouac, who would gather there to discuss literature and politics.",
+      "hash": "81ee068d6f8097f4cf8ef90fe17ad089",
+      "created_at": "2026-08-28T23:15:32.486127+00:00",
+      "updated_at": "2026-08-28T23:15:32.486127+00:00",
+      "attributed_to": "assistant"
+    },
+    "4422c1bc-7d82-4b60-b9a3-4d4c3e12a9a1": {
+      "user_id": "persona254",
+      "data": "The Cozy Dog Drive In in Riverside was a popular gathering place for local artists and activists, who would meet there to discuss social justice issues and plan community events.",
+      "text_lemmatized": "The Cozy Dog Drive In in Riverside was a popular gathering place for local artists and activists, who would meet there to discuss social justice issues and plan community events.",
+      "hash": "23986008ef9de96f2059cdb80ac6bdc6",
+      "created_at": "2026-08-28T23:15:32.486136+00:00",
+      "updated_at": "2026-08-28T23:15:32.486136+00:00",
+      "attributed_to": "assistant"
+    },
+    "9e5a7050-d3b8-4f88-8c11-549b9e2d9536": {
+      "user_id": "persona254",
+      "data": "Candice drives for 5 minutes starting at 5:00 PM and arrives at her house at 5:05 PM",
+      "text_lemmatized": "Candice drives for 5 minutes starting at 5:00 PM and arrives at her house at 5:05 PM",
+      "hash": "a237f7679bd0b8e362d22e6e5cc2b179",
+      "created_at": "2026-08-28T23:15:55.085168+00:00",
+      "updated_at": "2026-08-28T23:15:55.085168+00:00",
+      "attributed_to": "assistant"
+    },
+    "dd2afbe2-8441-4862-b98b-bec12c4ec8ae": {
+      "user_id": "persona254",
+      "data": "It takes 20 minutes for John to go to the bathroom 8 times, so each trip takes 20 \u00f7 8 = 2.5 minutes, and for 6 trips, it would take 6 \u00d7 2.5 = 15 minutes",
+      "text_lemmatized": "It takes 20 minutes for John to go to the bathroom 8 times, so each trip takes 20 \u00f7 8 = 2.5 minutes, and for 6 trips, it would take 6 \u00d7 2.5 = 15 minutes",
+      "hash": "a3a2ee67e82af59fe1b43c7f9d867ec6",
+      "created_at": "2026-08-28T23:15:55.085189+00:00",
+      "updated_at": "2026-08-28T23:15:55.085189+00:00",
+      "attributed_to": "assistant"
+    },
+    "ce610b1c-57e2-4f9c-b174-c6ef0eee75ec": {
+      "user_id": "persona254",
+      "data": "Tent decoration was common in California\u2019s early festival and fair culture, particularly from the mid-19th century through the early 20th century, and served purposes such as cultural expression, social signaling, comfort & atmosphere, and preservation of traditions",
+      "text_lemmatized": "Tent decoration was common in California\u2019s early festival and fair culture, particularly from the mid-19th century through the early 20th century, and served purposes such as cultural expression, social signaling, comfort & atmosphere, and preservation of traditions",
+      "hash": "85c47baf9e0602081a66c7247e3baae4",
+      "created_at": "2026-08-28T23:15:55.085198+00:00",
+      "updated_at": "2026-08-28T23:15:55.085198+00:00",
+      "attributed_to": "assistant"
+    },
+    "f6dbe51b-732e-4a08-b9cb-bd9faca4582a": {
+      "user_id": "persona254",
+      "data": "Tom rents a helicopter for 2 hours a day for 3 days, which means he rents it for a total of 2 \u00d7 3 = 6 hours, and since it costs $75 per hour, the total cost is 6 \u00d7 $75 = $450",
+      "text_lemmatized": "Tom rents a helicopter for 2 hours a day for 3 days, which means he rents it for a total of 2 \u00d7 3 = 6 hours, and since it costs $75 per hour, the total cost is 6 \u00d7 $75 = $450",
+      "hash": "e35f09ace9dc9655e353ca46143c5f33",
+      "created_at": "2026-08-28T23:15:55.085207+00:00",
+      "updated_at": "2026-08-28T23:15:55.085207+00:00",
+      "attributed_to": "assistant"
+    },
+    "46ddf395-ca4f-4c71-bd0e-b80d120b0612": {
+      "user_id": "persona254",
+      "data": "Chuck has 3 pregnant dogs, and each gives birth to 4 puppies, so there are a total of 3 \u00d7 4 = 12 puppies, and each puppy needs 2 shots, which means the total number of shots is 12 \u00d7 2 = 24, and since each shot costs $5, the total cost is 24 \u00d7 $5 = $120",
+      "text_lemmatized": "Chuck has 3 pregnant dogs, and each gives birth to 4 puppies, so there are a total of 3 \u00d7 4 = 12 puppies, and each puppy needs 2 shots, which means the total number of shots is 12 \u00d7 2 = 24, and since each shot costs $5, the total cost is 24 \u00d7 $5 = $120",
+      "hash": "b5f60194c93dcf706a802fe338ec4f9c",
+      "created_at": "2026-08-28T23:15:55.085215+00:00",
+      "updated_at": "2026-08-28T23:15:55.085215+00:00",
+      "attributed_to": "assistant"
+    },
+    "4c592f74-100e-417c-a6c6-ee3509d016e8": {
+      "user_id": "persona254",
+      "data": "Marcus paints 2 paintings on the first day, then doubles his output each day, so the number of paintings he paints each day is 2, 4, 8, 16, and 32, and to find the total number of paintings over 5 days, add the paintings from each day: 2 + 4 + 8 + 16 + 32 = 62",
+      "text_lemmatized": "Marcus paints 2 paintings on the first day, then doubles his output each day, so the number of paintings he paints each day is 2, 4, 8, 16, and 32, and to find the total number of paintings over 5 days, add the paintings from each day: 2 + 4 + 8 + 16 + 32 = 62",
+      "hash": "32dd8ad8b75a5e062e8889aef96b49c2",
+      "created_at": "2026-08-28T23:15:55.085223+00:00",
+      "updated_at": "2026-08-28T23:15:55.085223+00:00",
+      "attributed_to": "assistant"
+    },
+    "765fd23b-8d95-42d8-9cfc-4cdd95309694": {
+      "user_id": "persona254",
+      "data": "In a regular pentagon PQRST, the measure of \u2220PRS is half of its intercepted arc, which is 72\u00b0, so \u2220PRS = \u00bd \u00d7 144\u00b0 = 72\u00b0",
+      "text_lemmatized": "In a regular pentagon PQRST, the measure of \u2220PRS is half of its intercepted arc, which is 72\u00b0, so \u2220PRS = \u00bd \u00d7 144\u00b0 = 72\u00b0",
+      "hash": "a692be665e1a5ee3a5f6c7439b6c7d9d",
+      "created_at": "2026-08-28T23:15:55.085230+00:00",
+      "updated_at": "2026-08-28T23:15:55.085230+00:00",
+      "attributed_to": "assistant"
+    },
+    "21fae0b0-d42f-43e2-9951-1e278e15eb50": {
+      "user_id": "persona254",
+      "data": "Yuan is 7 years older than his brother David and twice his age, so let David's age be x, then Yuan's age is x + 7, and since Yuan's age is twice David's, x + 7 = 2x, subtracting x from both sides gives 7 = x, so David is 7 years old",
+      "text_lemmatized": "Yuan is 7 years older than his brother David and twice his age, so let David's age be x, then Yuan's age is x + 7, and since Yuan's age is twice David's, x + 7 = 2x, subtracting x from both sides gives 7 = x, so David is 7 years old",
+      "hash": "b232dc6424fac92f6f7fe49bea9f9494",
+      "created_at": "2026-08-28T23:15:55.085237+00:00",
+      "updated_at": "2026-08-28T23:15:55.085237+00:00",
+      "attributed_to": "assistant"
+    },
+    "25bf6d1e-7ee4-4c01-8f14-d3bb2ded6be4": {
+      "user_id": "persona254",
+      "data": "British crime shows often focus on small towns and tight-knit communities instead of big cities, which allows for a more intimate and detailed portrayal of the characters and their relationships, and also provides a sense of isolation and confinement that can heighten the tension and suspense",
+      "text_lemmatized": "British crime shows often focus on small towns and tight-knit communities instead of big cities, which allows for a more intimate and detailed portrayal of the characters and their relationships, and also provides a sense of isolation and confinement that can heighten the tension and suspense",
+      "hash": "556663b9c743345bf9068178b9467e13",
+      "created_at": "2026-08-28T23:15:55.085243+00:00",
+      "updated_at": "2026-08-28T23:15:55.085243+00:00",
+      "attributed_to": "assistant"
+    },
+    "3eb551ee-93b0-47de-91d1-c4210b921c69": {
+      "user_id": "persona254",
+      "data": "A hungry squirrel steals half a cup of birdseed from Ivan's bird feeder every week.",
+      "text_lemmatized": "A hungry squirrel steals half a cup of birdseed from Ivan's bird feeder every week.",
+      "hash": "8a123ab843692e73962ee1d6c9036de2",
+      "created_at": "2026-08-28T23:16:05.704520+00:00",
+      "updated_at": "2026-08-28T23:16:05.704520+00:00",
+      "attributed_to": "assistant"
+    },
+    "46eea9c9-e647-4a6d-8649-82ca6d565db3": {
+      "user_id": "persona254",
+      "data": "Ivan's bird feeder holds 2 cups of birdseed and feeds 14 birds per cup.",
+      "text_lemmatized": "Ivan's bird feeder holds 2 cups of birdseed and feeds 14 birds per cup.",
+      "hash": "d083c98a5e95743ba5787830ce32cbe4",
+      "created_at": "2026-08-28T23:16:05.704541+00:00",
+      "updated_at": "2026-08-28T23:16:05.704541+00:00",
+      "attributed_to": "assistant"
+    },
+    "7e8f040e-f7b7-4ea0-bd69-15cfe1fb9254": {
+      "user_id": "persona254",
+      "data": "Ivan's bird feeder feeds 28 birds if nothing is stolen.",
+      "text_lemmatized": "Ivan's bird feeder feeds 28 birds if nothing is stolen.",
+      "hash": "a7a3f5aded6fc7b9a1dcffb66738be1d",
+      "created_at": "2026-08-28T23:16:05.704550+00:00",
+      "updated_at": "2026-08-28T23:16:05.704550+00:00",
+      "attributed_to": "assistant"
+    },
+    "c46aa5c2-73d3-448f-83bc-231962b6fa4b": {
+      "user_id": "persona254",
+      "data": "The squirrel steals \u00bd cup of birdseed, which feeds 7 birds.",
+      "text_lemmatized": "The squirrel steals \u00bd cup of birdseed, which feeds 7 birds.",
+      "hash": "3263afe096a2a6fd637c25e4131663d8",
+      "created_at": "2026-08-28T23:16:05.704557+00:00",
+      "updated_at": "2026-08-28T23:16:05.704557+00:00",
+      "attributed_to": "assistant"
+    },
+    "60369932-fbd3-4d7d-a1e3-8067fef7dc49": {
+      "user_id": "persona254",
+      "data": "Ivan's bird feeder feeds 21 birds weekly after the squirrel steals half a cup.",
+      "text_lemmatized": "Ivan's bird feeder feeds 21 birds weekly after the squirrel steals half a cup.",
+      "hash": "0edee5a4f8ed4424c8a1101b8a715bf1",
+      "created_at": "2026-08-28T23:16:05.704564+00:00",
+      "updated_at": "2026-08-28T23:16:05.704564+00:00",
+      "attributed_to": "assistant"
+    },
+    "5d57a677-e08e-4279-b1ba-9b1647497691": {
+      "user_id": "persona254",
+      "data": "The coefficient of x\u00b2 in the expanded expression is 3m\u00b2 + 2m + 1.",
+      "text_lemmatized": "The coefficient of x\u00b2 in the expanded expression is 3m\u00b2 + 2m + 1.",
+      "hash": "e017e263cafb87ea1f58d866c00a4476",
+      "created_at": "2026-08-28T23:16:05.704571+00:00",
+      "updated_at": "2026-08-28T23:16:05.704571+00:00",
+      "attributed_to": "assistant"
+    },
+    "d2e94e5c-b83d-46c1-83a4-68bf12abc4c3": {
+      "user_id": "persona254",
+      "data": "The coefficient of x\u00b2 is equal to 1, so 3m\u00b2 + 2m + 1 = 1.",
+      "text_lemmatized": "The coefficient of x\u00b2 is equal to 1, so 3m\u00b2 + 2m + 1 = 1.",
+      "hash": "3fa5adc2529674ed28df14f823297308",
+      "created_at": "2026-08-28T23:16:05.704577+00:00",
+      "updated_at": "2026-08-28T23:16:05.704577+00:00",
+      "attributed_to": "assistant"
+    },
+    "33b99ab9-c3f2-4136-88b6-bb7d0c2e5023": {
+      "user_id": "persona254",
+      "data": "Subtracting 1 from both sides gives 3m\u00b2 + 2m = 0.",
+      "text_lemmatized": "Subtracting 1 from both sides gives 3m\u00b2 + 2m = 0.",
+      "hash": "9f5f2b6c3d6bfc9f88c4b9eac5ce60d9",
+      "created_at": "2026-08-28T23:16:05.704584+00:00",
+      "updated_at": "2026-08-28T23:16:05.704584+00:00",
+      "attributed_to": "assistant"
+    },
+    "cffaaa11-ca61-45de-82d3-cf228db93b5c": {
+      "user_id": "persona254",
+      "data": "Factoring out m gives m(3m + 2) = 0.",
+      "text_lemmatized": "Factoring out m gives m(3m + 2) = 0.",
+      "hash": "0a0f5d24764a79a518fbb8ab9206229c",
+      "created_at": "2026-08-28T23:16:05.704589+00:00",
+      "updated_at": "2026-08-28T23:16:05.704589+00:00",
+      "attributed_to": "assistant"
+    },
+    "08be155d-30e0-412a-8443-1c5cd8611a29": {
+      "user_id": "persona254",
+      "data": "Setting each factor equal to zero yields m = 0 or 3m + 2 = 0.",
+      "text_lemmatized": "Setting each factor equal to zero yields m = 0 or 3m + 2 = 0.",
+      "hash": "8e8b3c00da7f3e3bfb5be5aee7d46f43",
+      "created_at": "2026-08-28T23:16:05.704596+00:00",
+      "updated_at": "2026-08-28T23:16:05.704596+00:00",
+      "attributed_to": "assistant"
+    },
+    "15d0d81e-06dc-4772-88fe-691532e16be7": {
+      "user_id": "persona254",
+      "data": "Solving for m gives m = 0 or m = -2/3.",
+      "text_lemmatized": "Solving for m gives m = 0 or m = -2/3.",
+      "hash": "500d535cb6e221da702e07a13adc0a61",
+      "created_at": "2026-08-28T23:16:05.704601+00:00",
+      "updated_at": "2026-08-28T23:16:05.704601+00:00",
+      "attributed_to": "assistant"
+    },
+    "245be269-b5d5-474f-9532-ecaf3a516d20": {
+      "user_id": "persona254",
+      "data": "Alster caught 2 frogs.",
+      "text_lemmatized": "Alster caught 2 frogs.",
+      "hash": "de1985c60b1137dcd2f6b697389e255f",
+      "created_at": "2026-08-28T23:16:05.704615+00:00",
+      "updated_at": "2026-08-28T23:16:05.704615+00:00",
+      "attributed_to": "assistant"
+    },
+    "db48fdf0-d4fa-4d98-ad8a-648aac78c1ed": {
+      "user_id": "persona254",
+      "data": "Quinn caught twice as many frogs as Alster, which is 2 \u00d7 2 = 4 frogs.",
+      "text_lemmatized": "Quinn caught twice as many frogs as Alster, which is 2 \u00d7 2 = 4 frogs.",
+      "hash": "332f02c70a24d04810a205f49b055fe7",
+      "created_at": "2026-08-28T23:16:05.704622+00:00",
+      "updated_at": "2026-08-28T23:16:05.704622+00:00",
+      "attributed_to": "assistant"
+    },
+    "5a22d384-ffb8-4eb3-8dc3-350cc72cab18": {
+      "user_id": "persona254",
+      "data": "Bret caught three times as many frogs as Quinn, so he caught 3 \u00d7 4 = 12 frogs.",
+      "text_lemmatized": "Bret caught three times as many frogs as Quinn, so he caught 3 \u00d7 4 = 12 frogs.",
+      "hash": "d49190a72ca366e46a5e765a78130dc6",
+      "created_at": "2026-08-28T23:16:05.704627+00:00",
+      "updated_at": "2026-08-28T23:16:05.704627+00:00",
+      "attributed_to": "assistant"
+    },
+    "0d4f2482-e21c-4659-9987-b603ae85ad3c": {
+      "user_id": "persona254",
+      "data": "Eight liters is 20% the capacity of a container filled with water.",
+      "text_lemmatized": "Eight liters is 20% the capacity of a container filled with water.",
+      "hash": "e8eff8d111800e8a1ce3240a8601fdfe",
+      "created_at": "2026-08-28T23:16:05.704633+00:00",
+      "updated_at": "2026-08-28T23:16:05.704633+00:00",
+      "attributed_to": "assistant"
+    },
+    "d1822bf6-c1df-46f5-a30e-fbf0269ef8bd": {
+      "user_id": "persona254",
+      "data": "To find the full capacity of one container, we set up the equation 0.20 \u00d7 (full capacity) = 8 liters.",
+      "text_lemmatized": "To find the full capacity of one container, we set up the equation 0.20 \u00d7 (full capacity) = 8 liters.",
+      "hash": "3991c765804981cb6e294a77f6191413",
+      "created_at": "2026-08-28T23:16:05.704639+00:00",
+      "updated_at": "2026-08-28T23:16:05.704639+00:00",
+      "attributed_to": "assistant"
+    },
+    "c1249591-bcf7-45e1-a001-33913fd755e8": {
+      "user_id": "persona254",
+      "data": "Solving for the full capacity gives full capacity = 8 liters \u00f7 0.20 = 40 liters.",
+      "text_lemmatized": "Solving for the full capacity gives full capacity = 8 liters \u00f7 0.20 = 40 liters.",
+      "hash": "1ffd1ca65f1d670aa582caefe58be2c4",
+      "created_at": "2026-08-28T23:16:05.704644+00:00",
+      "updated_at": "2026-08-28T23:16:05.704644+00:00",
+      "attributed_to": "assistant"
+    },
+    "40e1a243-a185-478c-9513-7bf56f1ec889": {
+      "user_id": "persona254",
+      "data": "Since there are 40 such containers, the total capacity is 40 containers \u00d7 40 liters/container = 1600 liters.",
+      "text_lemmatized": "Since there are 40 such containers, the total capacity is 40 containers \u00d7 40 liters/container = 1600 liters.",
+      "hash": "2b28fd07ec43100da71b300f1a43ef93",
+      "created_at": "2026-08-28T23:16:05.704651+00:00",
+      "updated_at": "2026-08-28T23:16:05.704651+00:00",
+      "attributed_to": "assistant"
+    },
+    "9b21e8f4-6422-4fce-b751-07c9ce4da357": {
+      "user_id": "persona254",
+      "data": "The sum of all possible values of m is -2/3.",
+      "text_lemmatized": "The sum of all possible values of m is -2/3.",
+      "hash": "5e9c1a3cfbb0623660bf6c609fb0c354",
+      "created_at": "2026-08-28T23:16:05.704657+00:00",
+      "updated_at": "2026-08-28T23:16:05.704657+00:00",
+      "attributed_to": "assistant"
+    },
+    "57a5def8-efcd-42da-81b7-b558516bc915": {
+      "user_id": "persona254",
+      "data": "Bret caught 12 frogs.",
+      "text_lemmatized": "Bret caught 12 frogs.",
+      "hash": "81c3d9fc7906f442930df060c67d5dc1",
+      "created_at": "2026-08-28T23:16:05.704662+00:00",
+      "updated_at": "2026-08-28T23:16:05.704662+00:00",
+      "attributed_to": "assistant"
+    },
+    "0ccbc2f9-3f0c-4ce5-bbf7-958e3931ca92": {
+      "user_id": "persona254",
+      "data": "A hardware store sold 10 graphics cards for $600 each, 14 hard drives for $80 each, 8 CPUs for $200 each, and 4 pairs of RAM for $60 each. The total revenue is $8960.",
+      "text_lemmatized": "A hardware store sold 10 graphics cards for $600 each, 14 hard drives for $80 each, 8 CPUs for $200 each, and 4 pairs of RAM for $60 each. The total revenue is $8960.",
+      "hash": "375be170cc419eba166a33e0ab989e33",
+      "created_at": "2026-08-28T23:16:15.724204+00:00",
+      "updated_at": "2026-08-28T23:16:15.724204+00:00",
+      "attributed_to": "assistant"
+    },
+    "e26f9bec-3b42-4c7b-acd4-20c52a9347ea": {
+      "user_id": "persona254",
+      "data": "The library has 9900 books. After selling some, only four sixths of the books are left. The number of books sold is 3300.",
+      "text_lemmatized": "The library has 9900 books. After selling some, only four sixths of the books are left. The number of books sold is 3300.",
+      "hash": "ad10d4849edc1495e868bbb8d4f48c90",
+      "created_at": "2026-08-28T23:16:15.724223+00:00",
+      "updated_at": "2026-08-28T23:16:15.724223+00:00",
+      "attributed_to": "assistant"
+    },
+    "c78c4443-84d0-426a-9494-881b2eaf3cb2": {
+      "user_id": "persona254",
+      "data": "Ali has $5 less than Nada, and John has 4 times more than Nada. The total amount is $67. John has $48.",
+      "text_lemmatized": "Ali has $5 less than Nada, and John has 4 times more than Nada. The total amount is $67. John has $48.",
+      "hash": "c599d4032238b821971386f924a9e4ea",
+      "created_at": "2026-08-28T23:16:15.724232+00:00",
+      "updated_at": "2026-08-28T23:16:15.724232+00:00",
+      "attributed_to": "assistant"
+    },
+    "29c3b3f3-6e37-4c6c-8558-44536edd7057": {
+      "user_id": "persona254",
+      "data": "James needs a new pair of glasses. The frames cost $200, and the lenses cost $500. Insurance covers 80% of the lenses, and he has a $50 off coupon for frames. The total cost is $250.",
+      "text_lemmatized": "James needs a new pair of glasses. The frames cost $200, and the lenses cost $500. Insurance covers 80% of the lenses, and he has a $50 off coupon for frames. The total cost is $250.",
+      "hash": "dbaf9b54e849af3198f44a0b561e6575",
+      "created_at": "2026-08-28T23:16:15.724239+00:00",
+      "updated_at": "2026-08-28T23:16:15.724239+00:00",
+      "attributed_to": "assistant"
+    },
+    "6fe9721a-4198-4181-9360-9fbed2f23a46": {
+      "user_id": "persona254",
+      "data": "Donald bought a laptop that originally costs $800. There is a 15% reduction in price. He will pay $680 for the laptop.",
+      "text_lemmatized": "Donald bought a laptop that originally costs $800. There is a 15% reduction in price. He will pay $680 for the laptop.",
+      "hash": "4fb8511f4d02c6f00d4ddf8d378ea0bb",
+      "created_at": "2026-08-28T23:16:15.724246+00:00",
+      "updated_at": "2026-08-28T23:16:15.724246+00:00",
+      "attributed_to": "assistant"
+    },
+    "6b61cb7c-b889-46b5-b43b-5d1223d248bd": {
+      "user_id": "persona254",
+      "data": "At the Greene Nursery, there are 1491 red roses, 3025 yellow carnations, and 1768 white roses. The total number of flowers is 6284.",
+      "text_lemmatized": "At the Greene Nursery, there are 1491 red roses, 3025 yellow carnations, and 1768 white roses. The total number of flowers is 6284.",
+      "hash": "079d44875b793d7520fe09ff6e33ac7c",
+      "created_at": "2026-08-28T23:16:15.724253+00:00",
+      "updated_at": "2026-08-28T23:16:15.724253+00:00",
+      "attributed_to": "assistant"
+    },
+    "831c1a25-7ae3-4b05-a298-906412f130da": {
+      "user_id": "persona254",
+      "data": "Older communities scheduled events in open plazas during late afternoons due to climate, comfort, lighting, daily work rhythms, religious and cultural schedules, marketplace strategy, and acoustic and sensory appeal.",
+      "text_lemmatized": "Older communities scheduled events in open plazas during late afternoons due to climate, comfort, lighting, daily work rhythms, religious and cultural schedules, marketplace strategy, and acoustic and sensory appeal.",
+      "hash": "8e1bc69a48df9433b09a58f233207e69",
+      "created_at": "2026-08-28T23:16:15.724259+00:00",
+      "updated_at": "2026-08-28T23:16:15.724259+00:00",
+      "attributed_to": "assistant"
+    },
+    "6406abf3-84ae-468e-861c-d9a044597dc5": {
+      "user_id": "persona254",
+      "data": "John lists the integers from 1 to 20 in increasing order, erases the first half, and rewrites them in order at the end of the second half. The integer with exactly 12 integers to its left is 3.",
+      "text_lemmatized": "John lists the integers from 1 to 20 in increasing order, erases the first half, and rewrites them in order at the end of the second half. The integer with exactly 12 integers to its left is 3.",
+      "hash": "fdbee6f46d5a81dbc688d1560a9eb679",
+      "created_at": "2026-08-28T23:16:15.724266+00:00",
+      "updated_at": "2026-08-28T23:16:15.724266+00:00",
+      "attributed_to": "assistant"
+    },
+    "fdef2621-3741-4c96-b6a3-ffa47bf6cf3a": {
+      "user_id": "persona254",
+      "data": "Nurse Missy has 12 patients. One-third of them have special dietary requirements, increasing serving time by 20%. It takes 5 minutes to serve each standard care patient and 6 minutes for special dietary patients. The total time to serve dinner is 64 minutes.",
+      "text_lemmatized": "Nurse Missy has 12 patients. One-third of them have special dietary requirements, increasing serving time by 20%. It takes 5 minutes to serve each standard care patient and 6 minutes for special dietary patients. The total time to serve dinner is 64 minutes.",
+      "hash": "861d605d40904a3a7f89a4f7cd098435",
+      "created_at": "2026-08-28T23:16:15.724272+00:00",
+      "updated_at": "2026-08-28T23:16:15.724272+00:00",
+      "attributed_to": "assistant"
+    },
+    "6d7474e6-3fe3-4d9b-8705-14a2902be835": {
+      "user_id": "persona254",
+      "data": "Zach rented a car for $150 plus 50 cents per mile. He drove 620 miles on Monday and 744 miles on Thursday. The total cost is $832.",
+      "text_lemmatized": "Zach rented a car for $150 plus 50 cents per mile. He drove 620 miles on Monday and 744 miles on Thursday. The total cost is $832.",
+      "hash": "1fcaed065945a5c94c9396d21dbc7716",
+      "created_at": "2026-08-28T23:16:15.724277+00:00",
+      "updated_at": "2026-08-28T23:16:15.724277+00:00",
+      "attributed_to": "assistant"
+    },
+    "771a2a18-1051-4000-83ba-a2144b43a167": {
+      "user_id": "persona254",
+      "data": "At a pool party, there are 4 pizzas cut into 12 slices each. If the guests eat 39 slices, the number of slices left is 9.",
+      "text_lemmatized": "At a pool party, there are 4 pizzas cut into 12 slices each. If the guests eat 39 slices, the number of slices left is 9.",
+      "hash": "9008a799f5e4c068aaad9255cb825758",
+      "created_at": "2026-08-28T23:16:15.724283+00:00",
+      "updated_at": "2026-08-28T23:16:15.724283+00:00",
+      "attributed_to": "assistant"
+    },
+    "0d94d891-08b0-41d9-8904-4bcdcb2d51f8": {
+      "user_id": "persona254",
+      "data": "Some people stop feeling satisfied by making something they used to like, even if the recipe turns out fine, due to various psychological and emotional factors.",
+      "text_lemmatized": "Some people stop feeling satisfied by making something they used to like, even if the recipe turns out fine, due to various psychological and emotional factors.",
+      "hash": "92f65d072e3a77fca6d42abb0d517950",
+      "created_at": "2026-08-28T23:16:15.724289+00:00",
+      "updated_at": "2026-08-28T23:16:15.724289+00:00",
+      "attributed_to": "assistant"
+    },
+    "ead45d53-a7df-4ea2-bd05-307c530c5f5e": {
+      "user_id": "persona254",
+      "data": "The ratio of Oreos to cookies in a box is 4:9.",
+      "text_lemmatized": "The ratio of Oreos to cookies in a box is 4:9.",
+      "hash": "ca95207d5f1c5aeebede06e20d939404",
+      "created_at": "2026-08-28T23:16:26.145267+00:00",
+      "updated_at": "2026-08-28T23:16:26.145267+00:00",
+      "attributed_to": "assistant"
+    },
+    "7b49838b-4ec7-4113-8010-e16f473d789b": {
+      "user_id": "persona254",
+      "data": "The number of Oreos in the box is 20 and the number of cookies is 45.",
+      "text_lemmatized": "The number of Oreos in the box is 20 and the number of cookies is 45.",
+      "hash": "e96d282c9d74e7688e4a1c38a547fdbe",
+      "created_at": "2026-08-28T23:16:26.145287+00:00",
+      "updated_at": "2026-08-28T23:16:26.145287+00:00",
+      "attributed_to": "assistant"
+    },
+    "9a19edaf-415d-4f41-8adc-3db668d0551b": {
+      "user_id": "persona254",
+      "data": "Zane spent $95 more on cookies than on Oreos.",
+      "text_lemmatized": "Zane spent $95 more on cookies than on Oreos.",
+      "hash": "acf1320f24596b33d34fc565d65e53fa",
+      "created_at": "2026-08-28T23:16:26.145295+00:00",
+      "updated_at": "2026-08-28T23:16:26.145295+00:00",
+      "attributed_to": "assistant"
+    },
+    "4d32f5e7-a956-4af0-b722-ce468fd0a959": {
+      "user_id": "persona254",
+      "data": "Ian's original order was $25 before delivery and tip.",
+      "text_lemmatized": "Ian's original order was $25 before delivery and tip.",
+      "hash": "4a45bd5666a98a6506c59a85988906d4",
+      "created_at": "2026-08-28T23:16:26.145303+00:00",
+      "updated_at": "2026-08-28T23:16:26.145303+00:00",
+      "attributed_to": "assistant"
+    },
+    "bc1b366a-890a-44ad-8d8a-bad873bed711": {
+      "user_id": "persona254",
+      "data": "Ian's new bill is $35.00, including the food substitutes and delivery/tip.",
+      "text_lemmatized": "Ian's new bill is $35.00, including the food substitutes and delivery/tip.",
+      "hash": "5aa04e74a6712c4ab2c1d05bc219c196",
+      "created_at": "2026-08-28T23:16:26.145309+00:00",
+      "updated_at": "2026-08-28T23:16:26.145309+00:00",
+      "attributed_to": "assistant"
+    },
+    "224ba10b-522c-47e1-8ad9-fe99845eac2f": {
+      "user_id": "persona254",
+      "data": "Card games as a holiday tradition have roots stretching back several centuries.",
+      "text_lemmatized": "Card games as a holiday tradition have roots stretching back several centuries.",
+      "hash": "327bde139c2313e93c9109745de368b5",
+      "created_at": "2026-08-28T23:16:26.145316+00:00",
+      "updated_at": "2026-08-28T23:16:26.145316+00:00",
+      "attributed_to": "assistant"
+    },
+    "5af76239-2939-4a6f-9a56-813bd31d3338": {
+      "user_id": "persona254",
+      "data": "Whist was a staple in English holiday gatherings during the 18th and 19th centuries.",
+      "text_lemmatized": "Whist was a staple in English holiday gatherings during the 18th and 19th centuries.",
+      "hash": "cc3f78c67539d7c9446a71c7de3f858f",
+      "created_at": "2026-08-28T23:16:26.145323+00:00",
+      "updated_at": "2026-08-28T23:16:26.145323+00:00",
+      "attributed_to": "assistant"
+    },
+    "41b61c5f-9094-487a-b044-90c62913a1d2": {
+      "user_id": "persona254",
+      "data": "\u00c9cart\u00e9 and Piquet were fashionable among the middle and upper classes in France during festive periods.",
+      "text_lemmatized": "\u00c9cart\u00e9 and Piquet were fashionable among the middle and upper classes in France during festive periods.",
+      "hash": "6b31319dc015973e9b42f97f798f2472",
+      "created_at": "2026-08-28T23:16:26.145328+00:00",
+      "updated_at": "2026-08-28T23:16:26.145328+00:00",
+      "attributed_to": "assistant"
+    },
+    "fc268e66-2814-43b0-96f7-35042e9981fa": {
+      "user_id": "persona254",
+      "data": "Brisca, Scopa, and Tressette were popular in Spain and Italy during holiday celebrations.",
+      "text_lemmatized": "Brisca, Scopa, and Tressette were popular in Spain and Italy during holiday celebrations.",
+      "hash": "0f150562ecfff3ea1b5e32154baae46d",
+      "created_at": "2026-08-28T23:16:26.145334+00:00",
+      "updated_at": "2026-08-28T23:16:26.145334+00:00",
+      "attributed_to": "assistant"
+    },
+    "29a88557-3b6a-4234-8f4f-bd6a1cba7d9d": {
+      "user_id": "persona254",
+      "data": "Skat and Schafkopf were favored in central Europe, particularly among German-speaking communities.",
+      "text_lemmatized": "Skat and Schafkopf were favored in central Europe, particularly among German-speaking communities.",
+      "hash": "d4f995269d872d10b91ac6fab06af864",
+      "created_at": "2026-08-28T23:16:26.145340+00:00",
+      "updated_at": "2026-08-28T23:16:26.145340+00:00",
+      "attributed_to": "assistant"
+    },
+    "f7a2b811-e167-481a-bbe8-bb1cd2889a91": {
+      "user_id": "persona254",
+      "data": "The tradition of playing card games during holidays with friends came from a combination of practical and social factors.",
+      "text_lemmatized": "The tradition of playing card games during holidays with friends came from a combination of practical and social factors.",
+      "hash": "aefc4ec72ac6a9409a99a851270673de",
+      "created_at": "2026-08-28T23:16:26.145346+00:00",
+      "updated_at": "2026-08-28T23:16:26.145346+00:00",
+      "attributed_to": "assistant"
+    },
+    "07defb33-1d51-4077-a89d-2526557ef7b2": {
+      "user_id": "persona254",
+      "data": "The most common card games at European holiday gatherings often varied by region.",
+      "text_lemmatized": "The most common card games at European holiday gatherings often varied by region.",
+      "hash": "2fe20fb7f8ccae0a0fc68791131ddc60",
+      "created_at": "2026-08-28T23:16:26.145353+00:00",
+      "updated_at": "2026-08-28T23:16:26.145353+00:00",
+      "attributed_to": "assistant"
+    },
+    "ec09b3ac-d6a3-460c-ba1c-bf49fffc2468": {
+      "user_id": "persona254",
+      "data": "Historically, many holiday card games in Europe did involve some form of gambling.",
+      "text_lemmatized": "Historically, many holiday card games in Europe did involve some form of gambling.",
+      "hash": "8640b9b70ef9f2db1dcbf4a7ec3d3359",
+      "created_at": "2026-08-28T23:16:26.145359+00:00",
+      "updated_at": "2026-08-28T23:16:26.145359+00:00",
+      "attributed_to": "assistant"
+    },
+    "55d4f21b-5f7e-4999-a737-b49097585ca1": {
+      "user_id": "persona254",
+      "data": "The stakes varied widely, from small coins to significant sums.",
+      "text_lemmatized": "The stakes varied widely, from small coins to significant sums.",
+      "hash": "44dd429e54e94a2b30a14762079823cd",
+      "created_at": "2026-08-28T23:16:26.145365+00:00",
+      "updated_at": "2026-08-28T23:16:26.145365+00:00",
+      "attributed_to": "assistant"
+    },
+    "d6e1fd90-f143-4123-89e3-a5379914484a": {
+      "user_id": "persona254",
+      "data": "By the 20th century, holiday card games were more often played purely for fun.",
+      "text_lemmatized": "By the 20th century, holiday card games were more often played purely for fun.",
+      "hash": "ec5eff45f918d7ed401b18bf405cb07a",
+      "created_at": "2026-08-28T23:16:26.145370+00:00",
+      "updated_at": "2026-08-28T23:16:26.145370+00:00",
+      "attributed_to": "assistant"
+    },
+    "ad6996b0-5089-48e4-9834-9c3cd68b5d63": {
+      "user_id": "persona254",
+      "data": "Mr. Finnegan has 3 tanks with a capacity of 7000 gallons, 5000 gallons, and 3000 gallons, respectively.",
+      "text_lemmatized": "Mr. Finnegan has 3 tanks with a capacity of 7000 gallons, 5000 gallons, and 3000 gallons, respectively.",
+      "hash": "cf29079aac46543b9c3ca956858b540b",
+      "created_at": "2026-08-28T23:16:26.145376+00:00",
+      "updated_at": "2026-08-28T23:16:26.145376+00:00",
+      "attributed_to": "assistant"
+    },
+    "c8b68b82-a30b-4b0c-a3f7-2318f6bb4769": {
+      "user_id": "persona254",
+      "data": "The total amount of water in the tanks is 10,750 gallons.",
+      "text_lemmatized": "The total amount of water in the tanks is 10,750 gallons.",
+      "hash": "f519fa91f352dce02829961cbdbdc51c",
+      "created_at": "2026-08-28T23:16:26.145381+00:00",
+      "updated_at": "2026-08-28T23:16:26.145381+00:00",
+      "attributed_to": "assistant"
+    },
+    "25011ced-53e5-424a-8d94-b91856fa775f": {
+      "user_id": "persona254",
+      "data": "James visits 20 houses to try and make a sale, selling something in every house.",
+      "text_lemmatized": "James visits 20 houses to try and make a sale, selling something in every house.",
+      "hash": "2a1c59b78ca0d934f2f98648fdde4a9c",
+      "created_at": "2026-08-28T23:16:26.145387+00:00",
+      "updated_at": "2026-08-28T23:16:26.145387+00:00",
+      "attributed_to": "assistant"
+    },
+    "159e150d-663b-43d6-86a5-ac9b91772376": {
+      "user_id": "persona254",
+      "data": "The next day, James visits twice as many houses but only sold to 80% of houses.",
+      "text_lemmatized": "The next day, James visits twice as many houses but only sold to 80% of houses.",
+      "hash": "0c91389a82901f863d7aa97056e9f264",
+      "created_at": "2026-08-28T23:16:26.145393+00:00",
+      "updated_at": "2026-08-28T23:16:26.145393+00:00",
+      "attributed_to": "assistant"
+    },
+    "41abbdb5-6486-491b-acd8-ab6de4526937": {
+      "user_id": "persona254",
+      "data": "James sold two things at each house in each of the two days, for a total of 40 items.",
+      "text_lemmatized": "James sold two things at each house in each of the two days, for a total of 40 items.",
+      "hash": "fa2140a40ed40d855200ad99533331c8",
+      "created_at": "2026-08-28T23:16:26.145398+00:00",
+      "updated_at": "2026-08-28T23:16:26.145398+00:00",
+      "attributed_to": "assistant"
+    },
+    "88ec098e-6274-4279-9564-d7fe207eeae6": {
+      "user_id": "persona254",
+      "data": "The concept of ambient noise and its relationship to the brain\u2019s attentional system is studied by psychologists, neuroscientists, and urban sociologists.",
+      "text_lemmatized": "The concept of ambient noise and its relationship to the brain\u2019s attentional system is studied by psychologists, neuroscientists, and urban sociologists.",
+      "hash": "65626ecfc4977e2c6b594f59d91ffb69",
+      "created_at": "2026-08-28T23:16:36.273084+00:00",
+      "updated_at": "2026-08-28T23:16:36.273084+00:00",
+      "attributed_to": "assistant"
+    },
+    "c17d0a89-e340-4155-ae3d-d275cc03b4b9": {
+      "user_id": "persona254",
+      "data": "Some people gain energy from external stimulation, which can enhance focus, while others are more sensitive to overstimulation.",
+      "text_lemmatized": "Some people gain energy from external stimulation, which can enhance focus, while others are more sensitive to overstimulation.",
+      "hash": "76697643dc916d2e14dbbc1433cd3237",
+      "created_at": "2026-08-28T23:16:36.273108+00:00",
+      "updated_at": "2026-08-28T23:16:36.273108+00:00",
+      "attributed_to": "assistant"
+    },
+    "77eb841b-51e8-4922-b065-58021964102a": {
+      "user_id": "persona254",
+      "data": "Lactose tolerance depends on whether the small intestine produces enough lactase, an enzyme that breaks down lactose sugar in milk.",
+      "text_lemmatized": "Lactose tolerance depends on whether the small intestine produces enough lactase, an enzyme that breaks down lactose sugar in milk.",
+      "hash": "d4f16f3617df644948c507881d45b985",
+      "created_at": "2026-08-28T23:16:36.273119+00:00",
+      "updated_at": "2026-08-28T23:16:36.273119+00:00",
+      "attributed_to": "assistant"
+    },
+    "20004c25-940e-4181-9d88-c912526f2d98": {
+      "user_id": "persona254",
+      "data": "Gut microbiome adaptation, changes in overall health or digestion, variability in dairy products, and genetic factors can influence lactose tolerance.",
+      "text_lemmatized": "Gut microbiome adaptation, changes in overall health or digestion, variability in dairy products, and genetic factors can influence lactose tolerance.",
+      "hash": "5dff3986c75d40d765555cae8741bd7d",
+      "created_at": "2026-08-28T23:16:36.273129+00:00",
+      "updated_at": "2026-08-28T23:16:36.273129+00:00",
+      "attributed_to": "assistant"
+    },
+    "af6df002-9ff2-467d-8179-954d6454e90a": {
+      "user_id": "persona254",
+      "data": "The benefits of ambient noise and social facilitation can vary between introverts and extroverts, with extroverts generally gaining energy from external stimulation.",
+      "text_lemmatized": "The benefits of ambient noise and social facilitation can vary between introverts and extroverts, with extroverts generally gaining energy from external stimulation.",
+      "hash": "7d4c94148becdf722942b3e4a0a32df7",
+      "created_at": "2026-08-28T23:16:36.273138+00:00",
+      "updated_at": "2026-08-28T23:16:36.273138+00:00",
+      "attributed_to": "assistant"
+    },
+    "eaa75588-5b0a-423c-bce4-51d78915733f": {
+      "user_id": "persona254",
+      "data": "Ned, an explosives specialist, has to climb 20 flights of stairs to reach the top floor of a building, where he has 72 seconds to diffuse a time bomb.",
+      "text_lemmatized": "Ned, an explosives specialist, has to climb 20 flights of stairs to reach the top floor of a building, where he has 72 seconds to diffuse a time bomb.",
+      "hash": "66705e89ccd8f1056b04d2a814ba1723",
+      "created_at": "2026-08-28T23:16:36.273146+00:00",
+      "updated_at": "2026-08-28T23:16:36.273146+00:00",
+      "attributed_to": "assistant"
+    },
+    "2395a548-210e-4cf9-84fd-9c83a3ff7397": {
+      "user_id": "persona254",
+      "data": "Ned has already spent 165 seconds running up the stairs and has 72 seconds left on the timer, with 5 flights remaining.",
+      "text_lemmatized": "Ned has already spent 165 seconds running up the stairs and has 72 seconds left on the timer, with 5 flights remaining.",
+      "hash": "8c20a952cce3d3e5f03185e61bd8b9b0",
+      "created_at": "2026-08-28T23:16:36.273156+00:00",
+      "updated_at": "2026-08-28T23:16:36.273156+00:00",
+      "attributed_to": "assistant"
+    },
+    "da452683-24e9-4ee9-9b2e-68073f742f55": {
+      "user_id": "persona254",
+      "data": "Ned will have 17 seconds to diffuse the bomb when he reaches the top floor.",
+      "text_lemmatized": "Ned will have 17 seconds to diffuse the bomb when he reaches the top floor.",
+      "hash": "34949a820e45102f0ebbdff8751510e7",
+      "created_at": "2026-08-28T23:16:36.273165+00:00",
+      "updated_at": "2026-08-28T23:16:36.273165+00:00",
+      "attributed_to": "assistant"
+    },
+    "520fa3a9-37f0-4c98-95a6-4be44f737983": {
+      "user_id": "persona254",
+      "data": "Bea sells lemonade at 25 cents per glass and Dawn sells hers at 28 cents per glass, with Bea selling 10 glasses and Dawn selling 8 glasses.",
+      "text_lemmatized": "Bea sells lemonade at 25 cents per glass and Dawn sells hers at 28 cents per glass, with Bea selling 10 glasses and Dawn selling 8 glasses.",
+      "hash": "a9aefdaeb0e226cd159bc80ed83a161b",
+      "created_at": "2026-08-28T23:16:36.273174+00:00",
+      "updated_at": "2026-08-28T23:16:36.273174+00:00",
+      "attributed_to": "assistant"
+    },
+    "389e0ebf-b4c4-4937-a394-1966b95ba87c": {
+      "user_id": "persona254",
+      "data": "Bea earned 26 cents more than Dawn after selling 10 glasses and Dawn selling 8 glasses.",
+      "text_lemmatized": "Bea earned 26 cents more than Dawn after selling 10 glasses and Dawn selling 8 glasses.",
+      "hash": "bef1eaffb22d7101908738b6f4f930c0",
+      "created_at": "2026-08-28T23:16:36.273182+00:00",
+      "updated_at": "2026-08-28T23:16:36.273182+00:00",
+      "attributed_to": "assistant"
+    },
+    "2391c4a0-dd17-4559-980a-0e2d16b00cf1": {
+      "user_id": "persona254",
+      "data": "Brooke adds 8 balloons to his current 12, and Tracy adds 24 to her current 6, with Tracy popping half of her balloons.",
+      "text_lemmatized": "Brooke adds 8 balloons to his current 12, and Tracy adds 24 to her current 6, with Tracy popping half of her balloons.",
+      "hash": "68313b1c97af9c94dc50298c5b2ec1ea",
+      "created_at": "2026-08-28T23:16:36.273191+00:00",
+      "updated_at": "2026-08-28T23:16:36.273191+00:00",
+      "attributed_to": "assistant"
+    },
+    "1ad4208a-144f-47fd-b0ff-8dfaafd5bf37": {
+      "user_id": "persona254",
+      "data": "Brooke has 20 balloons, and Tracy has 15 balloons left after popping half, with a total of 35 balloons.",
+      "text_lemmatized": "Brooke has 20 balloons, and Tracy has 15 balloons left after popping half, with a total of 35 balloons.",
+      "hash": "cd8c302502d0d44ae6a08630c1c6992a",
+      "created_at": "2026-08-28T23:16:36.273199+00:00",
+      "updated_at": "2026-08-28T23:16:36.273199+00:00",
+      "attributed_to": "assistant"
+    },
+    "aa61c166-b535-4c25-840f-ac43d4574953": {
+      "user_id": "persona254",
+      "data": "Near-sightedness, or myopia, occurs when the eyeball is too long or the cornea has a curve that bends light more than needed, causing distant objects to be blurred.",
+      "text_lemmatized": "Near-sightedness, or myopia, occurs when the eyeball is too long or the cornea has a curve that bends light more than needed, causing distant objects to be blurred.",
+      "hash": "df25124b33541ea29e7cc06fda23f49a",
+      "created_at": "2026-08-28T23:16:36.273207+00:00",
+      "updated_at": "2026-08-28T23:16:36.273207+00:00",
+      "attributed_to": "assistant"
+    },
+    "cba0667f-4382-4f70-b9fb-855b4e71c5c4": {
+      "user_id": "persona254",
+      "data": "Near-sighted people can often read fine without glasses but struggle with things far away due to their eyes focusing light rays in front of the retina.",
+      "text_lemmatized": "Near-sighted people can often read fine without glasses but struggle with things far away due to their eyes focusing light rays in front of the retina.",
+      "hash": "787ec956244a14739bdf337652e4596a",
+      "created_at": "2026-08-28T23:16:36.273215+00:00",
+      "updated_at": "2026-08-28T23:16:36.273215+00:00",
+      "attributed_to": "assistant"
+    },
+    "05156882-e12b-4413-bc94-b2aa61989094": {
+      "user_id": "persona254",
+      "data": "Literary discussion groups are often scheduled on weekends instead of weekday evenings due to various reasons such as personal preferences, scheduling conflicts, and social habits.",
+      "text_lemmatized": "Literary discussion groups are often scheduled on weekends instead of weekday evenings due to various reasons such as personal preferences, scheduling conflicts, and social habits.",
+      "hash": "e30f11658b0cf609635a29526a074e18",
+      "created_at": "2026-08-28T23:16:36.273223+00:00",
+      "updated_at": "2026-08-28T23:16:36.273223+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "0301923a-a38b-4147-abb5-91b4e3fd05da",
+    "1": "3212116d-f9a1-44de-8a23-ad99ef26b220",
+    "2": "3e34dc45-7d2e-438d-99e1-26fcb3ca81e5",
+    "3": "64eabb8b-b238-4c3d-b145-737c9964763a",
+    "4": "3484bc41-a299-4e1a-aba3-931cea7e450b",
+    "5": "1f3c4644-0864-4be0-85d9-5239470ca8c7",
+    "6": "4d2b938e-e9a4-4fa3-9345-234c865b93d3",
+    "7": "b64ba846-ec60-4137-a8b8-d2c90c3a01b0",
+    "8": "fb75f62d-bc34-47fa-9535-d8fbc405e816",
+    "9": "93f76906-3e6a-484e-b9da-4c2641114814",
+    "10": "eecdaf5b-db8e-4a32-8b08-b7a734d417b7",
+    "11": "999a2d46-1b93-495a-847b-438496dc0fe0",
+    "12": "a6db2012-4038-40c7-a86b-80f5bd9a9da4",
+    "13": "3da22176-6be7-4e6b-82b8-896adbc95bc3",
+    "14": "b2a42cb8-b44a-4bd5-aa06-0c91df66588d",
+    "15": "b411df96-c449-4c10-a47c-baae3cc94e73",
+    "16": "77a31622-6f31-4dad-9e21-05b38e9791ed",
+    "17": "583edabd-d50a-4cf7-a866-51b8a9166c42",
+    "18": "11d4a08f-5c9e-4b9c-bcfb-81d4c4aaadf1",
+    "19": "78a132c8-5ee2-4731-b29b-1bc58d3dfafb",
+    "20": "e1dbebdc-137a-4c20-a51f-20b66b2eed14",
+    "21": "c6c7fcca-d45f-42f3-abff-2c41e0ff87fd",
+    "22": "3b107185-0579-4ca6-9113-701f7771d853",
+    "23": "4137dbe9-987f-4638-bb7c-da088f3b0623",
+    "24": "29bdada4-0431-47f5-b046-38fa101a68db",
+    "25": "ce357da2-8976-4d75-908a-fcc9f8c47e4f",
+    "26": "074be2f8-8f60-4cd9-a360-74a0d3b7d838",
+    "27": "c6e2d1a8-dad4-4677-a89a-9aed1258478a",
+    "28": "b0b3df57-498f-4307-940e-a2689a15b94f",
+    "29": "ffe816d2-51b9-4f14-9cdc-14244cc7c97d",
+    "30": "dbb118a5-f388-4d29-b7fe-1e6d2632c5f5",
+    "31": "12528a63-42a6-4d88-8afa-939699650e47",
+    "32": "c8ac31ca-8cb0-4982-904d-931e541165ca",
+    "33": "19ab3b18-679c-4ef1-83d1-dc3a69a52d37",
+    "34": "2caa8501-03bc-4e1c-babc-cb4abe12c6ba",
+    "35": "3d9b29a5-0931-445b-b3cb-9696594172f8",
+    "36": "24f0d20c-0200-4ef8-814f-967b4ec3174c",
+    "37": "f1a33e67-8843-41ea-9500-80eca54e1b34",
+    "38": "59ef4576-fb32-44c9-83d7-e7fe84158594",
+    "39": "0509d911-dc54-458c-a986-4f031b4a47e1",
+    "40": "aa5110d1-359e-4f33-8bd4-f73bb84ff308",
+    "41": "b59fbd00-c0be-4f4a-86bd-3e21f8ca97bd",
+    "42": "479b985d-7880-41eb-9be2-d0fc90c56b3d",
+    "43": "ea388794-979e-46b3-9828-a0c7cde2076d",
+    "44": "10a8a0a7-1f38-4f9b-ba1e-45c94311e7b1",
+    "45": "3f2691a0-84df-48bd-a2c4-5f1dc3a2999f",
+    "46": "36d991cd-ef35-44fa-b602-50c1b8a46163",
+    "47": "58f95872-2f47-4d02-8229-b64725b22d35",
+    "48": "cab5ace1-99dd-4089-bef1-27e7b165822d",
+    "49": "63152c08-38d2-4c71-83ea-45644bdb8010",
+    "50": "e599fecb-7c1e-475c-ae4e-d0dd77ff2501",
+    "51": "4e4f815c-e953-492c-a3fe-13648205686f",
+    "52": "a1f69a57-b79d-4a21-b6f2-d6a0ffc27d66",
+    "53": "907fe248-e5f1-476f-b60e-d4105809d142",
+    "54": "6d92ee2a-ff14-40c4-b7e6-7f4371d83093",
+    "55": "a98e22bf-ae9e-4e3e-92f4-01f3d7020568",
+    "56": "596aeab1-2739-40f4-92a7-0adb4f6e1a21",
+    "57": "90c7c565-64ab-4d29-8a3a-6eeee16e4688",
+    "58": "ba80f538-7748-45da-8c43-918a370d548f",
+    "59": "c4e88130-fa56-4afd-94c9-f2cdcccd3143",
+    "60": "0e88af40-696f-4d5d-a0ba-92b26297a7b2",
+    "61": "58a2ea6b-d399-4c68-af14-532d02cb50ea",
+    "62": "7ec8f0e8-9554-47c5-b4e0-43c7772d0fb8",
+    "63": "3504a7fe-7713-4b26-abf3-1e310f6cb805",
+    "64": "329eb44e-f677-4676-9eb4-755e690a0a1d",
+    "65": "4e0f9761-47fb-4b3e-9dfa-d3810bd934ca",
+    "66": "df038378-352e-40a9-9c1b-d71752333327",
+    "67": "d1ac64be-c828-4eb5-a28a-442a9cd012ba",
+    "68": "1830201e-f7a0-4a19-bafe-55d1210210f8",
+    "69": "78857b71-538a-4fd6-892f-1cc7bb2ad67a",
+    "70": "6ac37764-2bb9-447d-8717-1399a36fd961",
+    "71": "bbd2230f-96cc-4873-85ec-c15ddb4d3c41",
+    "72": "5254c036-769e-4a2e-9a72-299b6c6e45c4",
+    "73": "f7a96b67-8a2f-4429-9e08-4ef8a8de9f3c",
+    "74": "3e9a1dde-626e-443d-9beb-12ae6658c88c",
+    "75": "95bb2e45-752b-4c2f-8ffb-0281ad0d11e9",
+    "76": "06d7ebd2-815c-4b90-bc60-0cd93ea2692e",
+    "77": "94c67455-4d02-4668-8ed1-3b672be33804",
+    "78": "de4309e3-5381-439e-b442-aaeea68895ab",
+    "79": "5a43b07f-68a9-4b00-afe6-41035619f53b",
+    "80": "f25b6758-ed72-4683-89da-c5b2418f6f97",
+    "81": "e2c3e93b-d7cc-4838-b248-6a8f2630bc4d",
+    "82": "f07a6f0c-03c0-49d1-94a9-3a3835ad1f65",
+    "83": "b4e61485-7736-4f0a-b302-6b83310260fd",
+    "84": "6e28359c-645f-478e-9358-083f2cc231b2",
+    "85": "d60ee379-fda9-4f76-b9fd-963527bc7ed7",
+    "86": "2b77318b-9627-4062-b50f-c23841a8b879",
+    "87": "99627659-30b1-47d1-a242-9864bc1e8828",
+    "88": "b610aa18-f832-4f04-9bc5-0c9cc94d25ec",
+    "89": "6489e814-0ea4-46cf-bff9-6c556d7b7a9d",
+    "90": "513299f5-2aee-4b31-902a-e464d8697418",
+    "91": "9e82a3c8-5ba6-4e37-9de6-1080192bacd0",
+    "92": "1e33c4e0-c70d-4021-a5ff-802fee42632c",
+    "93": "76dbc855-006e-4696-84aa-b3df3afd2acd",
+    "94": "049edc76-ea45-4621-bd91-b403d5bbbf33",
+    "95": "b825cfe6-838a-4908-846a-e5260a62d31a",
+    "96": "301801ec-54b1-4745-8ee3-78c6d6e6d6be",
+    "97": "43184b95-6b35-484a-bed6-fa628d40d7b4",
+    "98": "b050750d-21b6-4f12-aa06-a054cfef9566",
+    "99": "78a5698d-dfaa-4137-91f2-d0eeb12ecab5",
+    "100": "df968803-68b8-49a1-8468-d8da746c4e49",
+    "101": "08b539cd-b63a-49f6-b63f-1d53f6326e49",
+    "102": "082aca68-b585-4ddb-9acc-386d6d4cfdef",
+    "103": "a004a704-6872-4290-8de3-1f65e06165da",
+    "104": "154acc6c-ccd4-4c63-804e-8d0cb1494b09",
+    "105": "ed8b065c-65fd-4343-98b2-f08f7b0af8c7",
+    "106": "3f1dd274-1e27-4e3a-bc07-24be6b1614f2",
+    "107": "087995ce-5ac6-4ba7-ba0d-dbad964a726f",
+    "108": "d8bf3652-9f9f-4556-b0e8-560d60eb196d",
+    "109": "990e234d-f553-4c16-8fef-68ad91cdb77e",
+    "110": "1611d17d-9e96-4f71-8313-403e5b8f0e0f",
+    "111": "d211ee50-1dd6-4ee1-8799-18a1408fb0b0",
+    "112": "f3a6e633-9ac0-44c1-95f7-c1c8947d6449",
+    "113": "5c00920a-1038-4380-9313-07afb1e32792",
+    "114": "f20d32f9-a1b2-4869-bb31-26e377da27e7",
+    "115": "348e963d-a260-47f4-9997-fde78c3a2bc0",
+    "116": "120394b7-9c4c-4019-85ef-a0f08729795b",
+    "117": "90e299df-a878-4083-8ffa-73a39f4c6591",
+    "118": "9381807e-486f-4a38-9415-8e6ceda5be18",
+    "119": "cbd8a7fc-587f-4092-84c0-9f9cfd5ee1e7",
+    "120": "ba83be9b-1a68-4d36-938d-8a4b8f80f581",
+    "121": "d0b066d5-2ffb-4938-9cc4-4110697a6bbd",
+    "122": "cc3c485e-aada-453b-9bd2-d44c1429e48e",
+    "123": "a4e0ec57-6b2a-4d4d-87d8-9b78deebea41",
+    "124": "c278b2f0-2ef9-447e-9cde-d35728e32331",
+    "125": "75ac42a4-7dd8-41b0-9a53-8928bbfb659d",
+    "126": "f650c925-0a1d-411f-9dfc-4c40159e7a01",
+    "127": "4422c1bc-7d82-4b60-b9a3-4d4c3e12a9a1",
+    "128": "9e5a7050-d3b8-4f88-8c11-549b9e2d9536",
+    "129": "dd2afbe2-8441-4862-b98b-bec12c4ec8ae",
+    "130": "ce610b1c-57e2-4f9c-b174-c6ef0eee75ec",
+    "131": "f6dbe51b-732e-4a08-b9cb-bd9faca4582a",
+    "132": "46ddf395-ca4f-4c71-bd0e-b80d120b0612",
+    "133": "4c592f74-100e-417c-a6c6-ee3509d016e8",
+    "134": "765fd23b-8d95-42d8-9cfc-4cdd95309694",
+    "135": "21fae0b0-d42f-43e2-9951-1e278e15eb50",
+    "136": "25bf6d1e-7ee4-4c01-8f14-d3bb2ded6be4",
+    "137": "3eb551ee-93b0-47de-91d1-c4210b921c69",
+    "138": "46eea9c9-e647-4a6d-8649-82ca6d565db3",
+    "139": "7e8f040e-f7b7-4ea0-bd69-15cfe1fb9254",
+    "140": "c46aa5c2-73d3-448f-83bc-231962b6fa4b",
+    "141": "60369932-fbd3-4d7d-a1e3-8067fef7dc49",
+    "142": "5d57a677-e08e-4279-b1ba-9b1647497691",
+    "143": "d2e94e5c-b83d-46c1-83a4-68bf12abc4c3",
+    "144": "33b99ab9-c3f2-4136-88b6-bb7d0c2e5023",
+    "145": "cffaaa11-ca61-45de-82d3-cf228db93b5c",
+    "146": "08be155d-30e0-412a-8443-1c5cd8611a29",
+    "147": "15d0d81e-06dc-4772-88fe-691532e16be7",
+    "148": "245be269-b5d5-474f-9532-ecaf3a516d20",
+    "149": "db48fdf0-d4fa-4d98-ad8a-648aac78c1ed",
+    "150": "5a22d384-ffb8-4eb3-8dc3-350cc72cab18",
+    "151": "0d4f2482-e21c-4659-9987-b603ae85ad3c",
+    "152": "d1822bf6-c1df-46f5-a30e-fbf0269ef8bd",
+    "153": "c1249591-bcf7-45e1-a001-33913fd755e8",
+    "154": "40e1a243-a185-478c-9513-7bf56f1ec889",
+    "155": "9b21e8f4-6422-4fce-b751-07c9ce4da357",
+    "156": "57a5def8-efcd-42da-81b7-b558516bc915",
+    "157": "0ccbc2f9-3f0c-4ce5-bbf7-958e3931ca92",
+    "158": "e26f9bec-3b42-4c7b-acd4-20c52a9347ea",
+    "159": "c78c4443-84d0-426a-9494-881b2eaf3cb2",
+    "160": "29c3b3f3-6e37-4c6c-8558-44536edd7057",
+    "161": "6fe9721a-4198-4181-9360-9fbed2f23a46",
+    "162": "6b61cb7c-b889-46b5-b43b-5d1223d248bd",
+    "163": "831c1a25-7ae3-4b05-a298-906412f130da",
+    "164": "6406abf3-84ae-468e-861c-d9a044597dc5",
+    "165": "fdef2621-3741-4c96-b6a3-ffa47bf6cf3a",
+    "166": "6d7474e6-3fe3-4d9b-8705-14a2902be835",
+    "167": "771a2a18-1051-4000-83ba-a2144b43a167",
+    "168": "0d94d891-08b0-41d9-8904-4bcdcb2d51f8",
+    "169": "ead45d53-a7df-4ea2-bd05-307c530c5f5e",
+    "170": "7b49838b-4ec7-4113-8010-e16f473d789b",
+    "171": "9a19edaf-415d-4f41-8adc-3db668d0551b",
+    "172": "4d32f5e7-a956-4af0-b722-ce468fd0a959",
+    "173": "bc1b366a-890a-44ad-8d8a-bad873bed711",
+    "174": "224ba10b-522c-47e1-8ad9-fe99845eac2f",
+    "175": "5af76239-2939-4a6f-9a56-813bd31d3338",
+    "176": "41b61c5f-9094-487a-b044-90c62913a1d2",
+    "177": "fc268e66-2814-43b0-96f7-35042e9981fa",
+    "178": "29a88557-3b6a-4234-8f4f-bd6a1cba7d9d",
+    "179": "f7a2b811-e167-481a-bbe8-bb1cd2889a91",
+    "180": "07defb33-1d51-4077-a89d-2526557ef7b2",
+    "181": "ec09b3ac-d6a3-460c-ba1c-bf49fffc2468",
+    "182": "55d4f21b-5f7e-4999-a737-b49097585ca1",
+    "183": "d6e1fd90-f143-4123-89e3-a5379914484a",
+    "184": "ad6996b0-5089-48e4-9834-9c3cd68b5d63",
+    "185": "c8b68b82-a30b-4b0c-a3f7-2318f6bb4769",
+    "186": "25011ced-53e5-424a-8d94-b91856fa775f",
+    "187": "159e150d-663b-43d6-86a5-ac9b91772376",
+    "188": "41abbdb5-6486-491b-acd8-ab6de4526937",
+    "189": "88ec098e-6274-4279-9564-d7fe207eeae6",
+    "190": "c17d0a89-e340-4155-ae3d-d275cc03b4b9",
+    "191": "77eb841b-51e8-4922-b065-58021964102a",
+    "192": "20004c25-940e-4181-9d88-c912526f2d98",
+    "193": "af6df002-9ff2-467d-8179-954d6454e90a",
+    "194": "eaa75588-5b0a-423c-bce4-51d78915733f",
+    "195": "2395a548-210e-4cf9-84fd-9c83a3ff7397",
+    "196": "da452683-24e9-4ee9-9b2e-68073f742f55",
+    "197": "520fa3a9-37f0-4c98-95a6-4be44f737983",
+    "198": "389e0ebf-b4c4-4937-a394-1966b95ba87c",
+    "199": "2391c4a0-dd17-4559-980a-0e2d16b00cf1",
+    "200": "1ad4208a-144f-47fd-b0ff-8dfaafd5bf37",
+    "201": "aa61c166-b535-4c25-840f-ac43d4574953",
+    "202": "cba0667f-4382-4f70-b9fb-855b4e71c5c4",
+    "203": "05156882-e12b-4413-bc94-b2aa61989094"
+  }
+}

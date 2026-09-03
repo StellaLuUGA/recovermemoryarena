@@ -1,0 +1,32 @@
+{
+  "note": "split identities reused verbatim from the canonical B=1024 freeze; NOT resplit, NOT reordered, no games moved or removed",
+  "seed": 13,
+  "manifests": {
+    "CLEAN_64": {
+      "n": 64,
+      "canonical_list_sha256": "4183cb627d9c716af5294eee1ea9b5734e061291046a2be3650a876fec4d30bb",
+      "b512_list_sha256": "4183cb627d9c716af5294eee1ea9b5734e061291046a2be3650a876fec4d30bb",
+      "equal": true
+    },
+    "PREDICTOR_TRAIN_16": {
+      "n": 16,
+      "canonical_list_sha256": "0236ef7af6127806176fa56ba29e81f32814aa96b37aaa1ef390f1520922ffb4",
+      "b512_list_sha256": "0236ef7af6127806176fa56ba29e81f32814aa96b37aaa1ef390f1520922ffb4",
+      "equal": true
+    },
+    "CALIBRATION_24": {
+      "n": 24,
+      "canonical_list_sha256": "8a4a95035a284f7454bf70298028697156a472cbaecbde47c1b73a6075ff7dcf",
+      "b512_list_sha256": "8a4a95035a284f7454bf70298028697156a472cbaecbde47c1b73a6075ff7dcf",
+      "equal": true
+    },
+    "FINAL_TEST_24": {
+      "n": 24,
+      "canonical_list_sha256": "2941a3d9592288ca2e194d61d4dce901b45d9eeb5ac305b4ae3f1538b493c873",
+      "b512_list_sha256": "2941a3d9592288ca2e194d61d4dce901b45d9eeb5ac305b4ae3f1538b493c873",
+      "equal": true
+    }
+  },
+  "pairwise_disjoint": true,
+  "union_equals_clean_64": true
+}

@@ -1,0 +1,56 @@
+{
+  "note": "PersonaMem-v1 cross-size overlap. shared_context_id is a content hash, so ID overlap is 0 by construction; persona identity is what matters.",
+  "matrix": {
+    "32k_vs_128k": {
+      "persona_overlap": 20,
+      "persona_a": 20,
+      "persona_b": 20,
+      "persona_identical_sets": true,
+      "shared_context_id_overlap": 0,
+      "exact_context_hash_overlap": 0,
+      "system_persona_hash_overlap": 20,
+      "same_persona_message_jaccard": {
+        "n_pairs": 111,
+        "min": 0.001,
+        "median": 0.0716,
+        "max": 0.2203,
+        "pairs_with_shared_messages": 111
+      },
+      "same_underlying_histories": "YES (identical persona definitions; contexts are separately ordered draws from the same per-persona session pool)"
+    },
+    "32k_vs_1M": {
+      "persona_overlap": 20,
+      "persona_a": 20,
+      "persona_b": 20,
+      "persona_identical_sets": true,
+      "shared_context_id_overlap": 0,
+      "exact_context_hash_overlap": 0,
+      "system_persona_hash_overlap": 20,
+      "same_persona_message_jaccard": {
+        "n_pairs": 57,
+        "min": 0.0215,
+        "median": 0.0505,
+        "max": 0.0701,
+        "pairs_with_shared_messages": 57
+      },
+      "same_underlying_histories": "YES (identical persona definitions; contexts are separately ordered draws from the same per-persona session pool)"
+    },
+    "128k_vs_1M": {
+      "persona_overlap": 20,
+      "persona_a": 20,
+      "persona_b": 20,
+      "persona_identical_sets": true,
+      "shared_context_id_overlap": 0,
+      "exact_context_hash_overlap": 0,
+      "system_persona_hash_overlap": 20,
+      "same_persona_message_jaccard": {
+        "n_pairs": 93,
+        "min": 0.1667,
+        "median": 0.2129,
+        "max": 0.2385,
+        "pairs_with_shared_messages": 93
+      },
+      "same_underlying_histories": "YES (identical persona definitions; contexts are separately ordered draws from the same per-persona session pool)"
+    }
+  }
+}

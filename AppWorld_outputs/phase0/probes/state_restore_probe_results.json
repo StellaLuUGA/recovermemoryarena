@@ -1,0 +1,130 @@
+[
+  {
+    "task_id": "50e1ac9_1",
+    "apps": [
+      "api_docs",
+      "supervisor",
+      "amazon",
+      "phone",
+      "file_system",
+      "spotify",
+      "venmo",
+      "gmail",
+      "splitwise",
+      "simple_note",
+      "todoist"
+    ],
+    "task_datetime": "2023-05-18 12:00:00",
+    "protocol_a": {
+      "hashes": {
+        "at_checkpoint": "2b91c2145cc15959bc0cadd430e13b80d9536fb3cf65ce7da25ea17723c7b0ed",
+        "after_mutation_1": "c880edbe6515cf88d7926581f6487a1174bcce6d175d93eeace013e69bd691ff",
+        "after_restore": "2b91c2145cc15959bc0cadd430e13b80d9536fb3cf65ce7da25ea17723c7b0ed",
+        "after_mutation_2": "c880edbe6515cf88d7926581f6487a1174bcce6d175d93eeace013e69bd691ff"
+      },
+      "task_completed_flags": {
+        "at_checkpoint": false,
+        "after_mutation_1": true,
+        "after_restore": false
+      },
+      "num_interactions": {
+        "at_checkpoint": 2,
+        "after_restore": 3
+      },
+      "datetime_before_checkpoint": "Execution failed. Traceback:\n  File \"<python-input>\", line 1, in <module>\n    print(datetime.now().isoformat())\n          ^^^^^^^^^^^^\nAttributeError: module 'datetime' has no attribute 'now'",
+      "datetime_after_restore": "Execution failed. Traceback:\n  File \"<python-input>\", line 1, in <module>\n    print(datetime.now().isoformat())\n          ^^^^^^^^^^^^\nAttributeError: module 'datetime' has no attribute 'now'",
+      "shell_vars_at_checkpoint": [
+        "ApiCollection",
+        "Counter",
+        "Date",
+        "DateTime",
+        "FRIDAY",
+        "Iterator",
+        "MONDAY",
+        "Requester",
+        "SATURDAY",
+        "SUNDAY",
+        "THURSDAY",
+        "TUESDAY",
+        "Time",
+        "WEDNESDAY",
+        "apis",
+        "builtins",
+        "calendar",
+        "datetime",
+        "deepcopy",
+        "defaultdict",
+        "input",
+        "itertools",
+        "json",
+        "math",
+        "pendulum",
+        "print",
+        "random",
+        "re",
+        "reduce",
+        "requester"
+      ],
+      "shell_vars_after_restore": [
+        "ApiCollection",
+        "Counter",
+        "Date",
+        "DateTime",
+        "FRIDAY",
+        "Iterator",
+        "MONDAY",
+        "Requester",
+        "SATURDAY",
+        "SUNDAY",
+        "THURSDAY",
+        "TUESDAY",
+        "Time",
+        "WEDNESDAY",
+        "apis",
+        "builtins",
+        "calendar",
+        "datetime",
+        "deepcopy",
+        "defaultdict",
+        "input",
+        "itertools",
+        "json",
+        "math",
+        "pendulum",
+        "print",
+        "random",
+        "re",
+        "reduce",
+        "requester"
+      ],
+      "mutation_output_1": "Execution successful.",
+      "mutation_output_2": "Execution successful.",
+      "checks": {
+        "mutation_changed_db": true,
+        "restore_reproduces_checkpoint_db": true,
+        "replayed_action_reproduces_db": true,
+        "replayed_action_reproduces_output": true,
+        "task_completed_flag_rolled_back": true,
+        "interaction_counter_rolled_back": false,
+        "frozen_datetime_preserved_after_restore": true,
+        "shell_namespace_rolled_back": true
+      },
+      "unrestored_db_files": [],
+      "close_status": "AttributeError: '_freeze_time' object has no attribute 'fake_names'"
+    },
+    "protocol_b": {
+      "error": "IndexError: pop from empty list",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 151, in probe\n    world_b = AppWorld(task_id=task_id, experiment_name=EXPERIMENT)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 776, in __init__\n    self.initialize()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 853, in initialize\n    AppWorld.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 1405, in close_all\n    ApiCollection.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/collections/apis.py\", line 211, in close_all\n    Requester.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/requester.py\", line 442, in close_all\n    unset_local_date_and_time(time_freezer_or_id)\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/apps/lib/apis/local_remote.py\", line 69, in unset_local_date_and_time\n    freezer.stop()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/common/time.py\", line 118, in stop\n    self._freezer.stop()\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/freezegun/api.py\", line 807, in stop\n    freeze_factories.pop()\nIndexError: pop from empty list\n"
+    }
+  },
+  {
+    "task_id": "50e1ac9_2",
+    "fatal_error": "IndexError: pop from empty list",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 197, in main\n    results.append(probe(task_id))\n                   ^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 78, in probe\n    world = AppWorld(task_id=task_id, experiment_name=EXPERIMENT)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 776, in __init__\n    self.initialize()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 853, in initialize\n    AppWorld.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 1405, in close_all\n    ApiCollection.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/collections/apis.py\", line 211, in close_all\n    Requester.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/requester.py\", line 442, in close_all\n    unset_local_date_and_time(time_freezer_or_id)\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/apps/lib/apis/local_remote.py\", line 69, in unset_local_date_and_time\n    freezer.stop()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/common/time.py\", line 118, in stop\n    self._freezer.stop()\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/freezegun/api.py\", line 807, in stop\n    freeze_factories.pop()\nIndexError: pop from empty list\n"
+  },
+  {
+    "task_id": "50e1ac9_3",
+    "fatal_error": "IndexError: pop from empty list",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 197, in main\n    results.append(probe(task_id))\n                   ^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 78, in probe\n    world = AppWorld(task_id=task_id, experiment_name=EXPERIMENT)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 776, in __init__\n    self.initialize()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 853, in initialize\n    AppWorld.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 1405, in close_all\n    ApiCollection.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/collections/apis.py\", line 211, in close_all\n    Requester.close_all()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/requester.py\", line 442, in close_all\n    unset_local_date_and_time(time_freezer_or_id)\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/apps/lib/apis/local_remote.py\", line 69, in unset_local_date_and_time\n    freezer.stop()\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/common/time.py\", line 118, in stop\n    self._freezer.stop()\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/environment/venv_appworld/lib/python3.12/site-packages/freezegun/api.py\", line 807, in stop\n    freeze_factories.pop()\nIndexError: pop from empty list\n"
+  }
+]

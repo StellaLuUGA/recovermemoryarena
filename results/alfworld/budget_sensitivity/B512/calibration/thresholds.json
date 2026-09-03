@@ -1,0 +1,192 @@
+{
+  "predictor_sha256": "72ad3e440474bb1350a33d6c0fa8a8bb926d8566215c0f76b1d57e6f0ba1de49",
+  "calibration_manifest_sha256": "8a4a95035a284f7454bf70298028697156a472cbaecbde47c1b73a6075ff7dcf",
+  "calibration_episodes_total": 24,
+  "calibration_nonempty_episodes": 18,
+  "calibration_empty_episodes": 6,
+  "n_calibration_decisions": 66,
+  "gamma": 1.0,
+  "seed": 13,
+  "alphas": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "crc_min_achievable": 0.05263,
+  "random_score_seed": 13,
+  "random_score_key": "episode_id::decision_id",
+  "rules": {
+    "fixed_f1": {
+      "rule": "fixed_f1",
+      "tau": 0.05898175751401853,
+      "calibration_f1": 0.9767441860465117,
+      "calibration_precision": 0.9545454545454546,
+      "calibration_recall": 1.0,
+      "n_cal_episodes": 18,
+      "n_cal_decisions": 66,
+      "note": "F1 is decision-level by definition; FS/Cov remain episode-equal-weighted"
+    },
+    "empirical_risk_0.05": {
+      "rule": "empirical_risk",
+      "alpha": 0.05,
+      "tau": 0.4548200868883819,
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.027777777777777776,
+      "feasible": true,
+      "note": ""
+    },
+    "random_crc_0.05": {
+      "rule": "marginal_crc",
+      "alpha": 0.05,
+      "tau": "Infinity",
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.0,
+      "feasible": false,
+      "note": "infeasible: even Always Recover gives 1/(n+1)=0.0526 > alpha=0.05. Needs n >= 19 calibration episodes. Falling back to Always Recover."
+    },
+    "recovermem_crc_0.05": {
+      "rule": "marginal_crc",
+      "alpha": 0.05,
+      "tau": "Infinity",
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.0,
+      "feasible": false,
+      "note": "infeasible: even Always Recover gives 1/(n+1)=0.0526 > alpha=0.05. Needs n >= 19 calibration episodes. Falling back to Always Recover."
+    },
+    "empirical_risk_0.10": {
+      "rule": "empirical_risk",
+      "alpha": 0.1,
+      "tau": "-Infinity",
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.05555555555555555,
+      "feasible": true,
+      "note": ""
+    },
+    "random_crc_0.10": {
+      "rule": "marginal_crc",
+      "alpha": 0.1,
+      "tau": 0.054514811423870047,
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.027777777777777776,
+      "feasible": true,
+      "note": ""
+    },
+    "recovermem_crc_0.10": {
+      "rule": "marginal_crc",
+      "alpha": 0.1,
+      "tau": 0.4548200868883819,
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.027777777777777776,
+      "feasible": true,
+      "note": ""
+    },
+    "empirical_risk_0.20": {
+      "rule": "empirical_risk",
+      "alpha": 0.2,
+      "tau": "-Infinity",
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.05555555555555555,
+      "feasible": true,
+      "note": ""
+    },
+    "random_crc_0.20": {
+      "rule": "marginal_crc",
+      "alpha": 0.2,
+      "tau": "-Infinity",
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.05555555555555555,
+      "feasible": true,
+      "note": ""
+    },
+    "recovermem_crc_0.20": {
+      "rule": "marginal_crc",
+      "alpha": 0.2,
+      "tau": "-Infinity",
+      "n_cal_episodes": 18,
+      "calibration_loss": 0.05555555555555555,
+      "feasible": true,
+      "note": ""
+    },
+    "always_trust": {
+      "rule": "always_trust",
+      "tau": "-Infinity",
+      "feasible": true
+    },
+    "always_recover": {
+      "rule": "always_recover",
+      "tau": "Infinity",
+      "feasible": true
+    }
+  },
+  "excluded": [],
+  "diagnostics": {
+    "split": "calibration",
+    "n_episodes_total": 24,
+    "n_episodes_nonempty": 18,
+    "n_episodes_empty": 6,
+    "empty_episode_ids": [
+      "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080730_211959",
+      "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022321_380927",
+      "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113432_673307"
+    ],
+    "n_controlled_decisions": 66,
+    "mean_controlled_states_per_nonempty_episode": 3.667,
+    "r_mem_prevalence_decision": 0.9545,
+    "r_rec_prevalence_decision": 0.9091,
+    "r_mem_prevalence_episode_weighted": 0.9444,
+    "joint_cells": {
+      "00": 2,
+      "01": 1,
+      "10": 4,
+      "11": 59
+    },
+    "history_tokens": {
+      "n": 66,
+      "min": 175,
+      "q05": 207.0,
+      "median": 385.0,
+      "mean": 471.7,
+      "q75": 547.0,
+      "q90": 914.5,
+      "q95": 1005.2,
+      "max": 1076
+    },
+    "common_state_tokens": {
+      "n": 66,
+      "min": 168,
+      "q05": 173.0,
+      "median": 251.0,
+      "mean": 237.7,
+      "q75": 261.0,
+      "q90": 270.0,
+      "q95": 276.0,
+      "max": 391
+    },
+    "e_mem_tokens": {
+      "n": 66,
+      "min": 21,
+      "q05": 40.5,
+      "median": 140.5,
+      "mean": 206.7,
+      "q75": 277.0,
+      "q90": 488.0,
+      "q95": 504.8,
+      "max": 512
+    },
+    "e_rec_tokens": {
+      "n": 66,
+      "min": 185,
+      "q05": 221.0,
+      "median": 447.0,
+      "mean": 410.0,
+      "q75": 506.8,
+      "q90": 510.0,
+      "q95": 511.0,
+      "max": 512
+    }
+  },
+  "thresholds_sha256": "6d66ddeb40b3caf4683f76bed649c8817efbde54a411f6517a3337dbd79f94bf"
+}

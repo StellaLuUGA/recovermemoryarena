@@ -1,0 +1,170 @@
+{
+  "repo": {
+    "url": "https://github.com/facebookresearch/meta-agents-research-environments.git",
+    "commit": "87ebd38f31aafae0f11e14f55617903196236cfb",
+    "commit_date": "2026-08-26T09:27:46+02:00",
+    "source_tree_modified": false
+  },
+  "dataset": {
+    "hf_repo": "meta-agents-research-environments/gaia2",
+    "offline_cache": true,
+    "cache_fingerprint": "78ea3bdbdeec2bdcd6afa5420915d8a22f23ed99",
+    "cache_size_gb": 2.3,
+    "configs_loaded": [
+      "adaptability",
+      "ambiguity",
+      "execution",
+      "search",
+      "time"
+    ],
+    "config_excluded": {
+      "mini": "160 rows, a subset drawn from the five capability configs; excluded to avoid double-counting",
+      "demo": "tutorial/demo content, not benchmark"
+    },
+    "split": "validation",
+    "rows_per_config": 160
+  },
+  "A_multiturn_census": {
+    "turn_definition": "Scenario.build_event_id_to_turn_idx: the turn of an event is the number of AgentUserInterface.send_message_to_user events among its ancestors. A turn boundary IS a send_message_to_user event. ReAct/reasoning steps are NOT turns and are not scored decisions.",
+    "scored_decision_definition": "one OracleEvent of event_type=AGENT, matched by the judge to an agent event",
+    "total_scenarios": 800,
+    "unique_scenario_ids": 800,
+    "unique_content_hashes": 800,
+    "turns_distribution": {
+      "1": 576,
+      "2": 206,
+      "3": 18
+    },
+    "user_message_distribution": {
+      "1": 799,
+      "2": 1
+    },
+    "multiturn_scenarios": 224,
+    "multiturn_by_capability": {
+      "adaptability": 160,
+      "ambiguity": 1,
+      "time": 63
+    },
+    "oracle_agent_events": {
+      "min": 1,
+      "max": 41,
+      "total": 5342
+    }
+  },
+  "B_verifier_census": {
+    "mechanism": "validation/tool_judge.MildToolJudge: hard checks first; if they pass AND the tool has at least one arg registered as CheckerType.llm_checker, the SoftToolJudge (LLM) also runs. SoftToolJudge.no_arg_to_check is True iff no arg uses llm_checker.",
+    "default_judge_model": "meta-llama/Meta-Llama-3.3-70B-Instruct via LiteLLM, provider 'huggingface' (external API)",
+    "registry_tools": 89,
+    "tools_programmatic_hard": 61,
+    "tools_llm_judged": 28,
+    "llm_judged_tools": [
+      "AgentUserInterface__send_message_to_user",
+      "CabApp__order_ride",
+      "Cabs__order_ride",
+      "CalendarApp__add_calendar_event",
+      "Calendar__add_calendar_event",
+      "Chats__change_conversation_title",
+      "Chats__create_group_conversation",
+      "Chats__send_message",
+      "Chats__send_message_to_group_conversation",
+      "ContactsApp__edit_contact",
+      "Contacts__edit_contact",
+      "EmailClientApp__reply_to_email",
+      "EmailClientApp__send_email",
+      "EmailClientV2__reply_to_email",
+      "EmailClientV2__send_email",
+      "Emails__reply_to_email",
+      "Emails__send_email",
+      "Mail__reply_to_email",
+      "Mail__send_email",
+      "Messages__change_conversation_title",
+      "Messages__create_group_conversation",
+      "Messages__send_message",
+      "Messages__send_message_to_group_conversation",
+      "MessagingAppV2__change_conversation_title",
+      "MessagingAppV2__create_group_conversation",
+      "MessagingAppV2__send_message",
+      "MessagingAppV2__send_message_to_group_conversation",
+      "MessagingApp__send_message"
+    ],
+    "scored_event_totals": {
+      "LLM_JUDGE": 2930,
+      "PROGRAMMATIC_HARD": 2412
+    },
+    "UNKNOWN_scored_events": 0,
+    "scenarios_with_zero_llm_judge": 13,
+    "zero_llm_scenarios_turn_distribution": {
+      "1": 13
+    },
+    "multiturn_with_ge2_programmatic_hard": 173,
+    "multiturn_with_ge2_programmatic_hard_and_zero_llm": 0,
+    "multiturn_containing_send_message_to_user_oracle_event": 224,
+    "structural_reason": "send_message_to_user is BOTH the turn delimiter and an LLM-judged tool, so every multi-turn scenario necessarily contains at least one LLM-judged scored event."
+  },
+  "C_independence": {
+    "verdict": "INDEPENDENT_RESET",
+    "mechanism": "Scenario.soft_reset(): per-app app.reset() then app.load_state(json.loads(_initial_apps[name]['serialized_state'])), then apply_augmentation_configs(), then per-app set_seed(self.seed)",
+    "kind": "in-process state reload (scenario reconstruction from released JSON is also available)",
+    "evidence": [
+      "are/simulation/scenarios/scenario.py:181 soft_reset",
+      "are/simulation/environment.py:361 reset_app_states",
+      "are/simulation/apps/app.py:96-103 get_state/load_state/reset",
+      "concrete implementations in apps/{calendar,contacts,email_client,messaging,shopping,cab,city,apartment_listing,virtual_file_system}.py"
+    ],
+    "note": "Each benchmark scenario is rebuilt from its own released JSON row; no mutable state is shared between scenarios."
+  },
+  "D_restore": {
+    "verdict": "RESTORE_SUPPORTED",
+    "cheapest_mechanism": "per-app get_state()/load_state() snapshot + Environment.get_state() (apps + event_log + event_queue + current_time)",
+    "alternatives": [
+      "are/simulation/replay.py replay_logs(world_logs, env) \u2014 deterministic replay from the world log",
+      "App._skip_deepcopy_fields indicates apps are deepcopy-safe for in-process snapshots"
+    ],
+    "caveats": [
+      "Environment runs a time-based event loop with a background thread; a checkpoint must pause() the environment first",
+      "app.reset() reseeds from app.seed, so RNG-dependent apps are restorable only if the seed is restored with the state",
+      "determinism of a replay-based restore was NOT empirically verified in Phase 0"
+    ]
+  },
+  "E_observable_boundary": {
+    "verdict": "OBSERVABLE_BOUNDARY_CLEAN",
+    "evidence": [
+      "are/simulation/environment.py:646 \u2014 `if type(event) is OracleEvent: if self.oracle_mode: ... else: 'Oracle event ignored as oracle_mode = False'`; in agent mode oracle events are neither executed nor logged",
+      "EnvironmentConfig.oracle_mode defaults False and dump_dir/queue_based_loop are rejected unless oracle_mode is on",
+      "the judge consumes oracle events and gold graphs through validation/*, a separate object graph from the agent's world logs"
+    ],
+    "note": "H_t for ReCoverMem would be Environment.get_world_logs() plus AUI messages and tool observations; oracle events, the oracle graph and judge state are structurally separate and never reach the agent."
+  },
+  "F_cross_turn": {
+    "method": "structural only: (a) token overlap between argument/message strings introduced in earlier turns and those required in a later turn; (b) DAG ancestry of a later-turn oracle event on a non-boundary earlier-turn event. No model outcome used.",
+    "classification": {
+      "CLEAR_CROSS_TURN_DEPENDENCE": 224
+    },
+    "clear": 224,
+    "possible": 0,
+    "none": 0
+  },
+  "decision": {
+    "TOTAL_SCENARIOS": 800,
+    "MULTITURN_SCENARIOS": 224,
+    "HARD_MULTITURN_SCENARIOS_loose": 173,
+    "HARD_MULTITURN_SCENARIOS_strict": 0,
+    "CLEAR_MEMORY_DEPENDENT_SCENARIOS": 224,
+    "HARD_AND_CLEAR_SCENARIOS": 0,
+    "required": 72,
+    "INDEPENDENT_RESET": "INDEPENDENT_RESET",
+    "RESTORE_MECHANISM": "RESTORE_SUPPORTED (app get_state/load_state snapshot)",
+    "OBSERVABLE_BOUNDARY": "OBSERVABLE_BOUNDARY_CLEAN",
+    "MAIN_TABLE_DECISION": "FAIL",
+    "failing_conditions": [
+      "HARD_AND_CLEAR_SCENARIOS = 0 < 72",
+      "a mandatory LLM judge is required for every multi-turn scenario"
+    ],
+    "passing_conditions": [
+      "independent reset",
+      "checkpoint/restore",
+      "observable-history boundary",
+      "no mandatory external API for the environment itself"
+    ]
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "name": "PREDICTOR_TRAIN_16",
+  "n": 16,
+  "seed": 13,
+  "ordering_rule": "preflight seed-13 ordering (sorted -> Random(13).shuffle), filtered to the 84 never-touched games, NOT reshuffled",
+  "exclusion_manifest_sha256": "b3283d99343c6e79c89ea8f2b8a80617939a51987cf08d4208e291bd0cffd468",
+  "games": [
+    {
+      "idx": 0,
+      "rank_in_seed13_order": 70,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/game.tw-pddl",
+      "episode_id": "pick_two_obj_and_place-ToiletPaper-None-Cabinet-424__trial_T20190906_202926_527010",
+      "sha256": "b97ee4b6abe12bdaa448ed2495b6877bc0bc2b907caed0dd6bc00e74ea54b71d",
+      "task_type": "pick_two_obj_and_place",
+      "K_USABLE": 8,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "toiletpaper"
+        },
+        {
+          "action": "take",
+          "param": "toiletpaper"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        },
+        {
+          "action": "find",
+          "param": "toiletpaper"
+        },
+        {
+          "action": "take",
+          "param": "toiletpaper"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "rank_in_seed13_order": 71,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168/game.tw-pddl",
+      "episode_id": "pick_two_obj_and_place-SoapBar-None-GarbageCan-424__trial_T20190909_064309_357168",
+      "sha256": "a3bcb45fa205a62b84dceaae288625ca8a1d7cb82193547a695b34a42bbdd88f",
+      "task_type": "pick_two_obj_and_place",
+      "K_USABLE": 8,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        },
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "rank_in_seed13_order": 72,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501/game.tw-pddl",
+      "episode_id": "pick_and_place_simple-PepperShaker-None-Drawer-10__trial_T20190918_154326_823501",
+      "sha256": "a55a31b7eae06078d0bf9ba6d513ba3594cecd43f2eab717e7c73730bab51247",
+      "task_type": "pick_and_place_simple",
+      "K_USABLE": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "peppershaker"
+        },
+        {
+          "action": "take",
+          "param": "peppershaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "rank_in_seed13_order": 73,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_011803_423115/game.tw-pddl",
+      "episode_id": "pick_two_obj_and_place-KeyChain-None-Safe-219__trial_T20190909_011803_423115",
+      "sha256": "f0e4f825c940331f5d29fe9193ead4fafe9126c1746f19e33fddaf54ef48a132",
+      "task_type": "pick_two_obj_and_place",
+      "K_USABLE": 8,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "keychain"
+        },
+        {
+          "action": "take",
+          "param": "keychain"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        },
+        {
+          "action": "find",
+          "param": "keychain"
+        },
+        {
+          "action": "take",
+          "param": "keychain"
+        },
+        {
+          "action": "find",
+          "param": "safe"
+        },
+        {
+          "action": "put",
+          "param": "safe"
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "rank_in_seed13_order": 74,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056/game.tw-pddl",
+      "episode_id": "pick_and_place_simple-Pencil-None-Shelf-308__trial_T20190908_122024_052056",
+      "sha256": "8fdfe8b4374c77c15ddd89ed0a23a0a73be73ff1c4a6c0ef26ee9028e55f1753",
+      "task_type": "pick_and_place_simple",
+      "K_USABLE": 4,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "pencil"
+        },
+        {
+          "action": "take",
+          "param": "pencil"
+        },
+        {
+          "action": "find",
+          "param": "shelf"
+        },
+        {
+          "action": "put",
+          "param": "shelf"
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "rank_in_seed13_order": 75,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/game.tw-pddl",
+      "episode_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "sha256": "7954e62bf7e14e8817e5332ead174d63b03f87520fcbca7dadee4b7a97cf6122",
+      "task_type": "pick_two_obj_and_place",
+      "K_USABLE": 8,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "peppershaker"
+        },
+        {
+          "action": "take",
+          "param": "peppershaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        },
+        {
+          "action": "find",
+          "param": "peppershaker"
+        },
+        {
+          "action": "take",
+          "param": "peppershaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "rank_in_seed13_order": 76,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+      "episode_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "sha256": "729e21d96156592822736e691a4efd7e48a54974aaf6cabef096662cd89d2c5b",
+      "task_type": "pick_heat_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "tomato"
+        },
+        {
+          "action": "take",
+          "param": "tomato"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "tomato"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "rank_in_seed13_order": 77,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221300_362511/game.tw-pddl",
+      "episode_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "sha256": "e710dcb6524496c4b9a7e718f320b2a13d9e4dd46a8a9f41d5cd4cdadf209d6b",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "coffeemachine"
+        },
+        {
+          "action": "put",
+          "param": "coffeemachine"
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "rank_in_seed13_order": 78,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221016_460197/game.tw-pddl",
+      "episode_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221016_460197",
+      "sha256": "0622d63dfac2848786c9751cb9f60b7b9996a5474430d04e7c2b4421a7463f0c",
+      "task_type": "pick_two_obj_and_place",
+      "K_USABLE": 8,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "peppershaker"
+        },
+        {
+          "action": "take",
+          "param": "peppershaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        },
+        {
+          "action": "find",
+          "param": "peppershaker"
+        },
+        {
+          "action": "take",
+          "param": "peppershaker"
+        },
+        {
+          "action": "find",
+          "param": "drawer"
+        },
+        {
+          "action": "put",
+          "param": "drawer"
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "rank_in_seed13_order": 79,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174840_771703/game.tw-pddl",
+      "episode_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "sha256": "ca96ae5d83766405d4c150752cc7fdae4d9f3c0c0f31a76e8c8c16aebb40cf21",
+      "task_type": "pick_cool_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "lettuce"
+        },
+        {
+          "action": "take",
+          "param": "lettuce"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "lettuce"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "rank_in_seed13_order": 80,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171933_349922/game.tw-pddl",
+      "episode_id": "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "sha256": "6fe7e3977b4f0258111554e9af6c44ca8cb8300def14ac99e0a0f0210fc6521f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "coffeemachine"
+        },
+        {
+          "action": "put",
+          "param": "coffeemachine"
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "rank_in_seed13_order": 81,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+      "episode_id": "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113523_123938",
+      "sha256": "3cf3c37d8dab940bcff6b988715e08f0148f0406705b417c0ac72e506e31ec8d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "egg"
+        },
+        {
+          "action": "take",
+          "param": "egg"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "egg"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "rank_in_seed13_order": 82,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113610_425142/game.tw-pddl",
+      "episode_id": "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113610_425142",
+      "sha256": "8a4cb55dc35220203a9454192803170cedccc2bd9325c3f1e0bfeb3014eb28a9",
+      "task_type": "pick_heat_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "egg"
+        },
+        {
+          "action": "take",
+          "param": "egg"
+        },
+        {
+          "action": "goto",
+          "param": "microwave"
+        },
+        {
+          "action": "heat",
+          "param": "egg"
+        },
+        {
+          "action": "find",
+          "param": "garbagecan"
+        },
+        {
+          "action": "put",
+          "param": "garbagecan"
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "rank_in_seed13_order": 83,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678/game.tw-pddl",
+      "episode_id": "pick_cool_then_place_in_recep-Potato-None-Microwave-10__trial_T20190907_033228_194678",
+      "sha256": "0c1526514d4f15e418f42762db0fa79763e42bde04bf4fd88ba0fb5e98bd5291",
+      "task_type": "pick_cool_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "potato"
+        },
+        {
+          "action": "take",
+          "param": "potato"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "potato"
+        },
+        {
+          "action": "find",
+          "param": "microwave"
+        },
+        {
+          "action": "put",
+          "param": "microwave"
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "rank_in_seed13_order": 84,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_123133_763972/game.tw-pddl",
+      "episode_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972",
+      "sha256": "02d540d2357da71f8a6850ed3298d0dd408b72f037bfd8313fc398858ebc4159",
+      "task_type": "pick_cool_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "lettuce"
+        },
+        {
+          "action": "take",
+          "param": "lettuce"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "lettuce"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "rank_in_seed13_order": 85,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061232_368489/game.tw-pddl",
+      "episode_id": "pick_clean_then_place_in_recep-Bowl-None-Cabinet-10__trial_T20190909_061232_368489",
+      "sha256": "316810b692de200367e11c02d8dd7598480464762511b871a278e29b19c8b5e2",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K_USABLE": 6,
+      "tw_subgoals": [
+        {
+          "action": "find",
+          "param": "bowl"
+        },
+        {
+          "action": "take",
+          "param": "bowl"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "bowl"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ]
+    }
+  ],
+  "list_sha256": "0236ef7af6127806176fa56ba29e81f32814aa96b37aaa1ef390f1520922ffb4"
+}

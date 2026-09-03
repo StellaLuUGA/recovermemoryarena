@@ -1,0 +1,20 @@
+# --- Python virtualenvs / toolchains (excluded from this repo) ---
+AppWorld_outputs/environment/venv_appworld/
+AppWorld_outputs/environment/tmuxenv/
+.venv/
+venv/
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Node ---
+node_modules/
+
+# --- OS / editor cruft ---
+.DS_Store
+*.swp

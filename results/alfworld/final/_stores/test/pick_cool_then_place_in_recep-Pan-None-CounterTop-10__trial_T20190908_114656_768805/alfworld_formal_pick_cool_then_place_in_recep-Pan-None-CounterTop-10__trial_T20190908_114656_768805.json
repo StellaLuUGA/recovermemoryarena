@@ -1,0 +1,300 @@
+{
+  "docstore": {
+    "3a99b524-099c-4a2a-b4c0-a24daade1fd5": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User's task is to cool some pan and put it in countertop",
+      "text_lemmatized": "user task cool pan countertop",
+      "hash": "535803daf87ab92b03d2873d0e0730d0",
+      "created_at": "2026-08-31T09:27:58.312756+00:00",
+      "updated_at": "2026-08-31T09:27:58.312756+00:00",
+      "attributed_to": "user"
+    },
+    "4de43246-e9fb-4b88-96b6-57177c860a41": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at fridge 1, which is closed",
+      "text_lemmatized": "user arrive fridge 1 close",
+      "hash": "210583a1f4acc81c8022374c49ea9ceb",
+      "created_at": "2026-08-31T09:28:02.528099+00:00",
+      "updated_at": "2026-08-31T09:28:02.528099+00:00",
+      "attributed_to": "user"
+    },
+    "2de7a077-225e-4d8a-9f42-3090813dd95e": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened fridge 1, which was empty",
+      "text_lemmatized": "user open fridge 1",
+      "hash": "ed5e9c4a6a14af1ddf9abd4af6dd0944",
+      "created_at": "2026-08-31T09:28:07.552698+00:00",
+      "updated_at": "2026-08-31T09:28:07.552698+00:00",
+      "attributed_to": "user"
+    },
+    "c22336da-88b9-4d60-98df-db06781d6227": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at cabinet 1, where they found a peppershaker 2, a soapbottle 2, and a vase 1 on top",
+      "text_lemmatized": "user arrive cabinet 1 find peppershaker 2 soapbottle 2 vase 1",
+      "hash": "a24287939d1d2abac81af895f4217f84",
+      "created_at": "2026-08-31T09:28:12.060117+00:00",
+      "updated_at": "2026-08-31T09:28:12.060117+00:00"
+    },
+    "21bec1ae-323e-4b1b-90db-3e4bbaaa83c6": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T09:28:16.400689+00:00",
+      "updated_at": "2026-08-31T09:28:16.400689+00:00",
+      "attributed_to": "user"
+    },
+    "5a884bca-fb1d-49da-bf34-00aebf7f5865": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened cabinet 2 and found a bowl 1 and a glassbottle 1 inside",
+      "text_lemmatized": "user open cabinet 2 find bowl 1 glassbottle 1 inside",
+      "hash": "207c1d8a83d33a3688941ee2debcd221",
+      "created_at": "2026-08-31T09:28:21.411631+00:00",
+      "updated_at": "2026-08-31T09:28:21.411631+00:00",
+      "attributed_to": "user"
+    },
+    "5ebcf136-820e-44b3-9bd3-15d82157beda": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at cabinet 3 and found a bowl 2 and a plate 1 on top",
+      "text_lemmatized": "user arrive cabinet 3 find bowl 2 plate 1",
+      "hash": "d69ded3ec427627e6ab2bc93e75c6a1b",
+      "created_at": "2026-08-31T09:28:26.119754+00:00",
+      "updated_at": "2026-08-31T09:28:26.119754+00:00",
+      "attributed_to": "user"
+    },
+    "ab751f87-b356-48a8-bed2-a1cbf764fb65": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at cabinet 4 and found a peppershaker 1 and a soapbottle 1 on top",
+      "text_lemmatized": "user arrive cabinet 4 find peppershaker 1 soapbottle 1",
+      "hash": "9689af25f433ff85126eba76ad3469ad",
+      "created_at": "2026-08-31T09:28:30.930849+00:00",
+      "updated_at": "2026-08-31T09:28:30.930849+00:00",
+      "attributed_to": "user"
+    },
+    "ed5dff85-39c3-4df4-b4fb-904afc007d37": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T09:28:35.423122+00:00",
+      "updated_at": "2026-08-31T09:28:35.423122+00:00",
+      "attributed_to": "user"
+    },
+    "908c922c-72c2-4ca0-9d4c-650fd68d27d1": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened cabinet 5 and found a saltshaker 3 inside",
+      "text_lemmatized": "user open cabinet 5 find saltshaker 3 inside",
+      "hash": "49e7341a1c08590b1a7f63749fc51bd6",
+      "created_at": "2026-08-31T09:28:40.232091+00:00",
+      "updated_at": "2026-08-31T09:28:40.232091+00:00",
+      "attributed_to": "user"
+    },
+    "b01f331f-88eb-45ee-8185-358c9062f494": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at cabinet 6, which is closed",
+      "text_lemmatized": "user arrive cabinet 6 close",
+      "hash": "426e0890ad3d4d00cb5ab1a465eadd3e",
+      "created_at": "2026-08-31T09:28:44.375741+00:00",
+      "updated_at": "2026-08-31T09:28:44.375741+00:00"
+    },
+    "ddb2aa74-f78d-4f06-a49a-a54cee237355": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened cabinet 6 and found a cup 1 inside",
+      "text_lemmatized": "user open cabinet 6 find cup 1 inside",
+      "hash": "65eaf1ac5e68ecb9cc498697f1dec2c5",
+      "created_at": "2026-08-31T09:28:49.066437+00:00",
+      "updated_at": "2026-08-31T09:28:49.066437+00:00",
+      "attributed_to": "user"
+    },
+    "35fb4200-e22d-441f-9526-61b8abf3db15": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at fridge 1, which is open and empty",
+      "text_lemmatized": "user arrive fridge 1 open",
+      "hash": "8365448f44614a36eff8aaafadedb496",
+      "created_at": "2026-08-31T09:28:53.929876+00:00",
+      "updated_at": "2026-08-31T09:28:53.929876+00:00",
+      "attributed_to": "user"
+    },
+    "8580940a-6052-4e25-9cdd-f8b7bc63eb3d": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T09:28:58.398609+00:00",
+      "updated_at": "2026-08-31T09:28:58.398609+00:00"
+    },
+    "1246b004-0a47-471b-b81e-54fc256cef4b": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened drawer 1 and found a knife 1 inside",
+      "text_lemmatized": "user open drawer 1 find knife 1 inside",
+      "hash": "19c0b78f333d99dbc91fcaa535f68727",
+      "created_at": "2026-08-31T09:29:03.196658+00:00",
+      "updated_at": "2026-08-31T09:29:03.196658+00:00",
+      "attributed_to": "user"
+    },
+    "6fb0c7dd-8bd5-43ef-8261-6c56163b7537": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at drawer 2, which is closed",
+      "text_lemmatized": "user arrive drawer 2 close",
+      "hash": "ae6b0fea7d1c0d0d01331bed6970163f",
+      "created_at": "2026-08-31T09:29:07.725661+00:00",
+      "updated_at": "2026-08-31T09:29:07.725661+00:00"
+    },
+    "32e3b481-36c8-422a-928c-c52fae3eaa04": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened drawer 2 and found a saltshaker 2 inside",
+      "text_lemmatized": "user open drawer 2 find saltshaker 2 inside",
+      "hash": "59b7583a25e0407ae8265b80fca77a05",
+      "created_at": "2026-08-31T09:29:12.249167+00:00",
+      "updated_at": "2026-08-31T09:29:12.249167+00:00",
+      "attributed_to": "user"
+    },
+    "abca73dd-f24a-40f6-8f94-674acfdbb084": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at drawer 3, which is closed",
+      "text_lemmatized": "user arrive drawer 3 close",
+      "hash": "f8967d55ff209d1b81b86dd22e6f416f",
+      "created_at": "2026-08-31T09:29:16.923968+00:00",
+      "updated_at": "2026-08-31T09:29:16.923968+00:00",
+      "attributed_to": "user"
+    },
+    "24b1303d-39dc-45b6-a24d-08298ae1f77b": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User opened drawer 3 and found a dishsponge 1, a saltshaker 1, and a spatula 1 inside",
+      "text_lemmatized": "user open drawer 3 find dishsponge 1 saltshaker 1 spatula 1 inside",
+      "hash": "916aa4a6cb9644d15eb7a8ea0996f06b",
+      "created_at": "2026-08-31T09:29:22.093944+00:00",
+      "updated_at": "2026-08-31T09:29:22.093944+00:00",
+      "attributed_to": "user"
+    },
+    "36bf8ec9-abb8-4411-82d6-8ade3ac77e17": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at stoveburner 1 and saw a pot 1 on it",
+      "text_lemmatized": "user arrive stoveburn 1 see pot 1",
+      "hash": "a1d762cd06a4abdb009c516c10160a92",
+      "created_at": "2026-08-31T09:29:26.802721+00:00",
+      "updated_at": "2026-08-31T09:29:26.802721+00:00"
+    },
+    "2af4ff04-f714-4181-8a92-93b2dca88c61": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User took the pot 1 from the stoveburner 1",
+      "text_lemmatized": "user take pot 1 stoveburn 1",
+      "hash": "16e86861d9c68eb3c678ed79ddf0a2da",
+      "created_at": "2026-08-31T09:29:31.809541+00:00",
+      "updated_at": "2026-08-31T09:29:31.809541+00:00",
+      "attributed_to": "user"
+    },
+    "afa19590-f00c-4e91-90cb-143d3ee1d5a1": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User cooled the pot 1 using the fridge 1",
+      "text_lemmatized": "user cool pot 1 fridge 1",
+      "hash": "10903b90825b35046d621c1f3a4e445d",
+      "created_at": "2026-08-31T09:29:41.424714+00:00",
+      "updated_at": "2026-08-31T09:29:41.424714+00:00",
+      "attributed_to": "user"
+    },
+    "c6d706bb-4067-45de-826c-3a327ca6b831": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User attempted to move the pot 1 to countertop 1 but nothing happened",
+      "text_lemmatized": "user attempt pot 1 countertop 1 happen",
+      "hash": "f873697ac9ad7d78e0bd793eb3e491ba",
+      "created_at": "2026-08-31T09:29:46.145952+00:00",
+      "updated_at": "2026-08-31T09:29:46.145952+00:00",
+      "attributed_to": "user"
+    },
+    "17a08192-488e-4bc8-82e1-4775ee36bfec": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User arrived at countertop 1 and found a mug 1 on it",
+      "text_lemmatized": "user arrive countertop 1 find mug 1",
+      "hash": "02396de9e4aad394081c97b216df8880",
+      "created_at": "2026-08-31T09:29:50.642092+00:00",
+      "updated_at": "2026-08-31T09:29:50.642092+00:00"
+    },
+    "b6645c04-8395-4652-b6f9-359ef6605487": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User successfully moved the pot 1 to countertop 1",
+      "text_lemmatized": "user successfully move pot 1 countertop 1",
+      "hash": "680c6a1b94dc3d64d897a57fe3ec349e",
+      "created_at": "2026-08-31T09:29:55.755631+00:00",
+      "updated_at": "2026-08-31T09:29:55.755631+00:00",
+      "attributed_to": "user"
+    },
+    "97148bb8-4496-446f-8b34-2ab3e45e702b": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User picked up the pot 1 from the countertop 1",
+      "text_lemmatized": "user pick pot 1 countertop 1",
+      "hash": "ea9b36627caeef2e6a9c3dd1238844cd",
+      "created_at": "2026-08-31T09:30:00.425920+00:00",
+      "updated_at": "2026-08-31T09:30:00.425920+00:00",
+      "attributed_to": "user"
+    },
+    "1d78b602-dcc5-4640-ab0b-1d397c1b08c1": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User picked up the mug 1 from countertop 1",
+      "text_lemmatized": "user pick mug 1 countertop 1",
+      "hash": "848b39f2094fdd79089b1ff89510cd7c",
+      "created_at": "2026-08-31T09:30:10.148652+00:00",
+      "updated_at": "2026-08-31T09:30:10.148652+00:00",
+      "attributed_to": "user"
+    },
+    "b2d7b85d-80b0-48e7-a97e-c224ee329978": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User attempted to go to countertop 1 but nothing happened",
+      "text_lemmatized": "user attempt countertop 1 happen",
+      "hash": "78854a3b98001c14e590e16d1c88fe1e",
+      "created_at": "2026-08-31T09:30:14.951866+00:00",
+      "updated_at": "2026-08-31T09:30:14.951866+00:00",
+      "attributed_to": "user"
+    },
+    "53bfbfd1-fe9e-4cdf-a062-04830c0d9a84": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User moved the mug 1 to countertop 1",
+      "text_lemmatized": "user move mug 1 countertop 1",
+      "hash": "cf616069435e4f41081b48281aa08ce9",
+      "created_at": "2026-08-31T09:30:19.967623+00:00",
+      "updated_at": "2026-08-31T09:30:19.967623+00:00",
+      "attributed_to": "user"
+    },
+    "18a397b2-d2ab-4469-986e-30a8f2e8776c": {
+      "user_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+      "data": "User picked up the pot 1 from countertop 1",
+      "text_lemmatized": "user pick pot 1 countertop 1",
+      "hash": "ced0279a197125108d2f41aab08cb105",
+      "created_at": "2026-08-31T09:30:54.156084+00:00",
+      "updated_at": "2026-08-31T09:30:54.156084+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "3a99b524-099c-4a2a-b4c0-a24daade1fd5",
+    "1": "4de43246-e9fb-4b88-96b6-57177c860a41",
+    "2": "2de7a077-225e-4d8a-9f42-3090813dd95e",
+    "3": "c22336da-88b9-4d60-98df-db06781d6227",
+    "4": "21bec1ae-323e-4b1b-90db-3e4bbaaa83c6",
+    "5": "5a884bca-fb1d-49da-bf34-00aebf7f5865",
+    "6": "5ebcf136-820e-44b3-9bd3-15d82157beda",
+    "7": "ab751f87-b356-48a8-bed2-a1cbf764fb65",
+    "8": "ed5dff85-39c3-4df4-b4fb-904afc007d37",
+    "9": "908c922c-72c2-4ca0-9d4c-650fd68d27d1",
+    "10": "b01f331f-88eb-45ee-8185-358c9062f494",
+    "11": "ddb2aa74-f78d-4f06-a49a-a54cee237355",
+    "12": "35fb4200-e22d-441f-9526-61b8abf3db15",
+    "13": "8580940a-6052-4e25-9cdd-f8b7bc63eb3d",
+    "14": "1246b004-0a47-471b-b81e-54fc256cef4b",
+    "15": "6fb0c7dd-8bd5-43ef-8261-6c56163b7537",
+    "16": "32e3b481-36c8-422a-928c-c52fae3eaa04",
+    "17": "abca73dd-f24a-40f6-8f94-674acfdbb084",
+    "18": "24b1303d-39dc-45b6-a24d-08298ae1f77b",
+    "19": "36bf8ec9-abb8-4411-82d6-8ade3ac77e17",
+    "20": "2af4ff04-f714-4181-8a92-93b2dca88c61",
+    "21": "afa19590-f00c-4e91-90cb-143d3ee1d5a1",
+    "22": "c6d706bb-4067-45de-826c-3a327ca6b831",
+    "23": "17a08192-488e-4bc8-82e1-4775ee36bfec",
+    "24": "b6645c04-8395-4652-b6f9-359ef6605487",
+    "25": "97148bb8-4496-446f-8b34-2ab3e45e702b",
+    "26": "1d78b602-dcc5-4640-ab0b-1d397c1b08c1",
+    "27": "b2d7b85d-80b0-48e7-a97e-c224ee329978",
+    "28": "53bfbfd1-fe9e-4cdf-a062-04830c0d9a84",
+    "29": "18a397b2-d2ab-4469-986e-30a8f2e8776c"
+  }
+}

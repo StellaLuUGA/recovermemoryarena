@@ -1,0 +1,1494 @@
+{
+  "docstore": {
+    "a5c2b84b-a726-406e-8201-cf32ec8837a0": {
+      "user_id": "persona692",
+      "data": "Zach baked 32 cookies on Monday",
+      "text_lemmatized": "Zach baked 32 cookies on Monday",
+      "hash": "239aefb89c76e17c738d28ffc2c339b3",
+      "created_at": "2026-08-28T21:35:23.910340+00:00",
+      "updated_at": "2026-08-28T21:35:23.910340+00:00",
+      "attributed_to": "user"
+    },
+    "f2ded4f7-9406-4b38-9b39-912280e03754": {
+      "user_id": "persona692",
+      "data": "Zach baked half the number of cookies on Tuesday compared to Monday",
+      "text_lemmatized": "Zach baked half the number of cookies on Tuesday compared to Monday",
+      "hash": "0dabba799ea443534f1efa03dbb9e70a",
+      "created_at": "2026-08-28T21:35:23.910358+00:00",
+      "updated_at": "2026-08-28T21:35:23.910358+00:00",
+      "attributed_to": "user"
+    },
+    "a731c409-3f17-4329-9b68-2bec6a3c1a70": {
+      "user_id": "persona692",
+      "data": "Zach baked 3 times the number of cookies on Wednesday compared to Tuesday, but his brother ate 4 of those cookies",
+      "text_lemmatized": "Zach baked 3 times the number of cookies on Wednesday compared to Tuesday, but his brother ate 4 of those cookies",
+      "hash": "e59eb04b35fdf5cf3c4fb67b46c35b52",
+      "created_at": "2026-08-28T21:35:23.910366+00:00",
+      "updated_at": "2026-08-28T21:35:23.910366+00:00",
+      "attributed_to": "user"
+    },
+    "0d3183d9-fb4d-433e-9dcd-1f4138fccfc5": {
+      "user_id": "persona692",
+      "data": "Zach baked 16 cookies on Tuesday",
+      "text_lemmatized": "Zach baked 16 cookies on Tuesday",
+      "hash": "7307d52a2f74c80e41f3cd30c0feb4c6",
+      "created_at": "2026-08-28T21:35:23.910373+00:00",
+      "updated_at": "2026-08-28T21:35:23.910373+00:00",
+      "attributed_to": "assistant"
+    },
+    "71607330-58c7-4dbc-b8e6-325745dff4a1": {
+      "user_id": "persona692",
+      "data": "Zach baked 48 cookies on Wednesday, but his brother ate 4 of those cookies",
+      "text_lemmatized": "Zach baked 48 cookies on Wednesday, but his brother ate 4 of those cookies",
+      "hash": "85a4d33a5c58dfc1ad57e9591f65f1ad",
+      "created_at": "2026-08-28T21:35:23.910379+00:00",
+      "updated_at": "2026-08-28T21:35:23.910379+00:00",
+      "attributed_to": "assistant"
+    },
+    "f94a827b-b4a9-4ab5-a8c7-68b1ade7d549": {
+      "user_id": "persona692",
+      "data": "Zach had 32 + 16 + 44 = 92 cookies at the end of the three days",
+      "text_lemmatized": "Zach had 32 + 16 + 44 = 92 cookies at the end of the three days",
+      "hash": "d8067649feceeda7b9266fab80a35362",
+      "created_at": "2026-08-28T21:35:23.910385+00:00",
+      "updated_at": "2026-08-28T21:35:23.910385+00:00",
+      "attributed_to": "assistant"
+    },
+    "6d476fae-21f9-44c8-8c21-f894c2c435ea": {
+      "user_id": "persona692",
+      "data": "Sylvia chose positive integers a, b, and c, and Peter determined the value of a + b/c and got an answer of 101",
+      "text_lemmatized": "Sylvia chose positive integers a, b, and c, and Peter determined the value of a + b/c and got an answer of 101",
+      "hash": "fc911b99ba13cce164fcda3616d5204e",
+      "created_at": "2026-08-28T21:35:35.657125+00:00",
+      "updated_at": "2026-08-28T21:35:35.657125+00:00",
+      "attributed_to": "assistant"
+    },
+    "56baa15b-9bba-4de1-84e8-ec3216eedca7": {
+      "user_id": "persona692",
+      "data": "Paul determined the value of a/c + b and got an answer of 68",
+      "text_lemmatized": "Paul determined the value of a/c + b and got an answer of 68",
+      "hash": "4c6795a73047f83c909d3e02f6073109",
+      "created_at": "2026-08-28T21:35:35.657147+00:00",
+      "updated_at": "2026-08-28T21:35:35.657147+00:00",
+      "attributed_to": "assistant"
+    },
+    "dc5ec26a-52be-40be-8ea5-07d85b1e2e51": {
+      "user_id": "persona692",
+      "data": "Mary determined the value of (a + b)/c and got an answer of k",
+      "text_lemmatized": "Mary determined the value of (a + b)/c and got an answer of k",
+      "hash": "b75642495498e0173c9267ceb98802df",
+      "created_at": "2026-08-28T21:35:35.657158+00:00",
+      "updated_at": "2026-08-28T21:35:35.657158+00:00",
+      "attributed_to": "assistant"
+    },
+    "3e3fb5ae-d66e-49b3-bb9f-a02ecb901125": {
+      "user_id": "persona692",
+      "data": "The problem asks for integers n from 1 to 15 for which n^n + 1 is a prime number",
+      "text_lemmatized": "The problem asks for integers n from 1 to 15 for which n^n + 1 is a prime number",
+      "hash": "efe3158218c2af8c091e924ce1820f94",
+      "created_at": "2026-08-28T21:35:46.158095+00:00",
+      "updated_at": "2026-08-28T21:35:46.158095+00:00"
+    },
+    "36fe33a1-fd34-4b68-a695-768a39ce280d": {
+      "user_id": "persona692",
+      "data": "To find the values of n for which n^n + 1 is prime, we need to check each value of n from 1 to 15",
+      "text_lemmatized": "To find the values of n for which n^n + 1 is prime, we need to check each value of n from 1 to 15",
+      "hash": "14114db095c42e96e7e8f43de0f9cb2c",
+      "created_at": "2026-08-28T21:35:46.158119+00:00",
+      "updated_at": "2026-08-28T21:35:46.158119+00:00"
+    },
+    "65955bf6-c52f-4aca-83e9-b996f78330d6": {
+      "user_id": "persona692",
+      "data": "We will evaluate n^n + 1 for each n from 1 to 15 and determine if the result is a prime number",
+      "text_lemmatized": "We will evaluate n^n + 1 for each n from 1 to 15 and determine if the result is a prime number",
+      "hash": "dcf161b0f65a76c444fc35ef9d555025",
+      "created_at": "2026-08-28T21:35:46.158129+00:00",
+      "updated_at": "2026-08-28T21:35:46.158129+00:00"
+    },
+    "53129f84-8333-4c06-93c9-5c8be7adacb8": {
+      "user_id": "persona692",
+      "data": "For n = 1, n^n + 1 = 1^1 + 1 = 2, which is a prime number",
+      "text_lemmatized": "For n = 1, n^n + 1 = 1^1 + 1 = 2, which is a prime number",
+      "hash": "4f1068f43b0b98f11b050a24a5d09ae5",
+      "created_at": "2026-08-28T21:35:46.158139+00:00",
+      "updated_at": "2026-08-28T21:35:46.158139+00:00"
+    },
+    "3fde15ba-b24b-40e4-8ac7-36cfb689daef": {
+      "user_id": "persona692",
+      "data": "For n = 2, n^n + 1 = 2^2 + 1 = 5, which is a prime number",
+      "text_lemmatized": "For n = 2, n^n + 1 = 2^2 + 1 = 5, which is a prime number",
+      "hash": "2673b0d66cfe38c5d9a8853d85f3c16f",
+      "created_at": "2026-08-28T21:35:46.158148+00:00",
+      "updated_at": "2026-08-28T21:35:46.158148+00:00"
+    },
+    "d1bfbe60-d5d7-4f56-8fa4-93bed011ede1": {
+      "user_id": "persona692",
+      "data": "For n = 3, n^n + 1 = 3^3 + 1 = 28, which is not a prime number",
+      "text_lemmatized": "For n = 3, n^n + 1 = 3^3 + 1 = 28, which is not a prime number",
+      "hash": "cb8620493517285a3b9143a709cf00da",
+      "created_at": "2026-08-28T21:35:46.158156+00:00",
+      "updated_at": "2026-08-28T21:35:46.158156+00:00"
+    },
+    "67c58b1d-c5f8-454b-9bd4-76ef6db35678": {
+      "user_id": "persona692",
+      "data": "For n = 4, n^n + 1 = 4^4 + 1 = 257, which is a prime number",
+      "text_lemmatized": "For n = 4, n^n + 1 = 4^4 + 1 = 257, which is a prime number",
+      "hash": "64e0b8f0f1d8760debc9fa81690c2beb",
+      "created_at": "2026-08-28T21:35:46.158164+00:00",
+      "updated_at": "2026-08-28T21:35:46.158164+00:00"
+    },
+    "f3ba3648-ec46-4c3c-9c35-deeebf3c4efd": {
+      "user_id": "persona692",
+      "data": "For n = 5, n^n + 1 = 5^5 + 1 = 3126, which is not a prime number",
+      "text_lemmatized": "For n = 5, n^n + 1 = 5^5 + 1 = 3126, which is not a prime number",
+      "hash": "c92c00da8a9321c97a9f1a14570790c1",
+      "created_at": "2026-08-28T21:35:46.158173+00:00",
+      "updated_at": "2026-08-28T21:35:46.158173+00:00"
+    },
+    "a2000f49-b378-4cb5-91c4-cba038e7d607": {
+      "user_id": "persona692",
+      "data": "For n = 6, n^n + 1 = 6^6 + 1 = 46657, which is not a prime number",
+      "text_lemmatized": "For n = 6, n^n + 1 = 6^6 + 1 = 46657, which is not a prime number",
+      "hash": "11258350b81633068e92cf3b516e16d2",
+      "created_at": "2026-08-28T21:35:46.158182+00:00",
+      "updated_at": "2026-08-28T21:35:46.158182+00:00"
+    },
+    "431e0730-0309-40c8-9386-f31487ce25dc": {
+      "user_id": "persona692",
+      "data": "For n = 7, n^n + 1 = 7^7 + 1 = 823544, which is not a prime number",
+      "text_lemmatized": "For n = 7, n^n + 1 = 7^7 + 1 = 823544, which is not a prime number",
+      "hash": "da4079cfda0950def8d833986fe4f6b8",
+      "created_at": "2026-08-28T21:35:46.158190+00:00",
+      "updated_at": "2026-08-28T21:35:46.158190+00:00"
+    },
+    "2726aa32-73f3-4ed0-a25e-b0aba4be7a72": {
+      "user_id": "persona692",
+      "data": "For n = 8, n^n + 1 = 8^8 + 1 = 16777217, which is not a prime number",
+      "text_lemmatized": "For n = 8, n^n + 1 = 8^8 + 1 = 16777217, which is not a prime number",
+      "hash": "8322bf3829e18e1e5f461256fc3f3305",
+      "created_at": "2026-08-28T21:35:46.158199+00:00",
+      "updated_at": "2026-08-28T21:35:46.158199+00:00"
+    },
+    "d86c3339-1d51-43ea-bfad-caa4ee08891c": {
+      "user_id": "persona692",
+      "data": "For n = 9, n^n + 1 = 9^9 + 1 = 387420490, which is not a prime number",
+      "text_lemmatized": "For n = 9, n^n + 1 = 9^9 + 1 = 387420490, which is not a prime number",
+      "hash": "d3d7a034883077c71242f777d43c42bb",
+      "created_at": "2026-08-28T21:35:46.158207+00:00",
+      "updated_at": "2026-08-28T21:35:46.158207+00:00"
+    },
+    "ac3f4e28-9422-4328-9a9e-bdf0277dfa28": {
+      "user_id": "persona692",
+      "data": "For n = 10, n^n + 1 = 10^10 + 1 = 10000000001, which is not a prime number",
+      "text_lemmatized": "For n = 10, n^n + 1 = 10^10 + 1 = 10000000001, which is not a prime number",
+      "hash": "8a3bb9f2b0adf27fdd5fdf96838d2c00",
+      "created_at": "2026-08-28T21:35:46.158215+00:00",
+      "updated_at": "2026-08-28T21:35:46.158215+00:00"
+    },
+    "0c7ee02f-8859-480f-8091-a726a86011ab": {
+      "user_id": "persona692",
+      "data": "For n = 11, n^n + 1 = 11^11 + 1 = 121932631112, which is not a prime number",
+      "text_lemmatized": "For n = 11, n^n + 1 = 11^11 + 1 = 121932631112, which is not a prime number",
+      "hash": "fa26885ed1883ccdf4ac9e5d3a3955fe",
+      "created_at": "2026-08-28T21:35:46.158223+00:00",
+      "updated_at": "2026-08-28T21:35:46.158223+00:00"
+    },
+    "2b85888f-2eb7-4b3c-8edc-9a314dd6fbc2": {
+      "user_id": "persona692",
+      "data": "For n = 12, n^n + 1 = 12^12 + 1 = 1721035461761, which is not a prime number",
+      "text_lemmatized": "For n = 12, n^n + 1 = 12^12 + 1 = 1721035461761, which is not a prime number",
+      "hash": "789aaeb6294e1e92f27c26f7e5aa47ba",
+      "created_at": "2026-08-28T21:35:46.158231+00:00",
+      "updated_at": "2026-08-28T21:35:46.158231+00:00"
+    },
+    "d9a0c649-9bcc-4d50-98a9-5e0d085f54a4": {
+      "user_id": "persona692",
+      "data": "For n = 13, n^n + 1 = 13^13 + 1 = 28661115111111, which is not a prime number",
+      "text_lemmatized": "For n = 13, n^n + 1 = 13^13 + 1 = 28661115111111, which is not a prime number",
+      "hash": "1b77191574f8e6410abc013a4d823e20",
+      "created_at": "2026-08-28T21:35:46.158239+00:00",
+      "updated_at": "2026-08-28T21:35:46.158239+00:00"
+    },
+    "c957c9c3-0e22-4f34-bc6c-509ffa421af0": {
+      "user_id": "persona692",
+      "data": "For n = 14, n^n + 1 = 14^14 + 1 = 465813759449441, which is not a prime number",
+      "text_lemmatized": "For n = 14, n^n + 1 = 14^14 + 1 = 465813759449441, which is not a prime number",
+      "hash": "338fa892841eb669ff2205ce6821589c",
+      "created_at": "2026-08-28T21:35:46.158248+00:00",
+      "updated_at": "2026-08-28T21:35:46.158248+00:00"
+    },
+    "1f49e682-5089-4795-bf8e-0b62569c4ad2": {
+      "user_id": "persona692",
+      "data": "For n = 15, n^n + 1 = 15^15 + 1 = 7596074451111111, which is not a prime number",
+      "text_lemmatized": "For n = 15, n^n + 1 = 15^15 + 1 = 7596074451111111, which is not a prime number",
+      "hash": "003ca9f9da7211d961148ebc7dba82ab",
+      "created_at": "2026-08-28T21:35:46.158256+00:00",
+      "updated_at": "2026-08-28T21:35:46.158256+00:00"
+    },
+    "3faa3ecd-f49c-46b5-8034-7c33c8e14ad2": {
+      "user_id": "persona692",
+      "data": "The gym charges its members $18 twice a month, totaling $36 per member, and has 300 members, making $10,800 in a month",
+      "text_lemmatized": "The gym charges its members $18 twice a month, totaling $36 per member, and has 300 members, making $10,800 in a month",
+      "hash": "400a13cffe03054d205a1d9e4b9f6295",
+      "created_at": "2026-08-28T21:36:06.033355+00:00",
+      "updated_at": "2026-08-28T21:36:06.033355+00:00"
+    },
+    "ceccc252-313c-4256-8a23-3eda64054b62": {
+      "user_id": "persona692",
+      "data": "Bill and Jean are cleaning out their garages, with Bill making a certain number of trips to the dump and Jean making that many trips plus 6, totaling 40 trips, and Jean makes 23 trips",
+      "text_lemmatized": "Bill and Jean are cleaning out their garages, with Bill making a certain number of trips to the dump and Jean making that many trips plus 6, totaling 40 trips, and Jean makes 23 trips",
+      "hash": "6d46b459238908f75c1d1a43f25a4cc3",
+      "created_at": "2026-08-28T21:36:06.033374+00:00",
+      "updated_at": "2026-08-28T21:36:06.033374+00:00"
+    },
+    "f1387822-7b8b-49e2-860d-e9154b075716": {
+      "user_id": "persona692",
+      "data": "A gym with 300 members charges $18 twice a month, making $10,800 in a month",
+      "text_lemmatized": "A gym with 300 members charges $18 twice a month, making $10,800 in a month",
+      "hash": "2c31ba612ff8ff936d98b5da8f40ac15",
+      "created_at": "2026-08-28T21:36:06.033383+00:00",
+      "updated_at": "2026-08-28T21:36:06.033383+00:00"
+    },
+    "116590f5-5e4e-4a03-8c54-8944dc499ed6": {
+      "user_id": "persona692",
+      "data": "Jean makes 23 trips to the dump while cleaning out her garage, 6 more than Bill",
+      "text_lemmatized": "Jean makes 23 trips to the dump while cleaning out her garage, 6 more than Bill",
+      "hash": "c522e84b33ef93fb10fc0b1fb560551a",
+      "created_at": "2026-08-28T21:36:06.033389+00:00",
+      "updated_at": "2026-08-28T21:36:06.033389+00:00"
+    },
+    "904b0b9b-fbc2-49db-8cbd-f0fb30409193": {
+      "user_id": "persona692",
+      "data": "Bill and Jean are cleaning out their garages, with Jean making 23 trips to the dump, 6 more than Bill",
+      "text_lemmatized": "Bill and Jean are cleaning out their garages, with Jean making 23 trips to the dump, 6 more than Bill",
+      "hash": "e45df1291c5b5937b4973108d4124b87",
+      "created_at": "2026-08-28T21:36:06.033396+00:00",
+      "updated_at": "2026-08-28T21:36:06.033396+00:00"
+    },
+    "12cc9417-baf0-4b23-b85d-93e8aaaaf01b": {
+      "user_id": "persona692",
+      "data": "Jean makes 23 trips to the dump, 6 more than Bill, while cleaning out her garage",
+      "text_lemmatized": "Jean makes 23 trips to the dump, 6 more than Bill, while cleaning out her garage",
+      "hash": "7f0109115d5c5ac68fc71ab22e434612",
+      "created_at": "2026-08-28T21:36:06.033402+00:00",
+      "updated_at": "2026-08-28T21:36:06.033402+00:00"
+    },
+    "0cc8a7c3-ab67-4bd0-84ba-d06eb21ae3d2": {
+      "user_id": "persona692",
+      "data": "Bill makes 17 trips to the dump, and Jean makes 23 trips, 6 more than Bill, while cleaning out their garages",
+      "text_lemmatized": "Bill makes 17 trips to the dump, and Jean makes 23 trips, 6 more than Bill, while cleaning out their garages",
+      "hash": "216e5f265261bfbb72d75f855ed21dfa",
+      "created_at": "2026-08-28T21:36:06.033409+00:00",
+      "updated_at": "2026-08-28T21:36:06.033409+00:00"
+    },
+    "da326117-8287-41cb-93d1-918cfcb0b221": {
+      "user_id": "persona692",
+      "data": "Bill and Jean are cleaning out their garages, with Bill making 17 trips to the dump and Jean making 23 trips, 6 more than Bill",
+      "text_lemmatized": "Bill and Jean are cleaning out their garages, with Bill making 17 trips to the dump and Jean making 23 trips, 6 more than Bill",
+      "hash": "9405ea3406486fcd98583e8bbf92156f",
+      "created_at": "2026-08-28T21:36:06.033415+00:00",
+      "updated_at": "2026-08-28T21:36:06.033415+00:00"
+    },
+    "70d4f989-407f-47ef-a07c-175ef4d41b45": {
+      "user_id": "persona692",
+      "data": "The gym charges its members $18 twice a month, totaling $36 per member, and has 300 members, making $10,800 in a month, and Bill and Jean are cleaning out their garages",
+      "text_lemmatized": "The gym charges its members $18 twice a month, totaling $36 per member, and has 300 members, making $10,800 in a month, and Bill and Jean are cleaning out their garages",
+      "hash": "4fabc80624f4e76900dedd548f3a71b3",
+      "created_at": "2026-08-28T21:36:06.033421+00:00",
+      "updated_at": "2026-08-28T21:36:06.033421+00:00"
+    },
+    "e800604a-2b6d-4e86-98c0-56ca0b693e30": {
+      "user_id": "persona692",
+      "data": "Bill makes 17 trips to the dump, and Jean makes 23 trips, 6 more than Bill, while cleaning out their garages, and the gym charges its members $18 twice a month, totaling $36 per member, and has 300 members, making $10,800 in a month",
+      "text_lemmatized": "Bill makes 17 trips to the dump, and Jean makes 23 trips, 6 more than Bill, while cleaning out their garages, and the gym charges its members $18 twice a month, totaling $36 per member, and has 300 members, making $10,800 in a month",
+      "hash": "9ef88ca746c63ee88f0da9ccd8b25da0",
+      "created_at": "2026-08-28T21:36:06.033428+00:00",
+      "updated_at": "2026-08-28T21:36:06.033428+00:00"
+    },
+    "31779656-2bcc-4675-80e6-f8d9f9fa1df0": {
+      "user_id": "persona692",
+      "data": "User experiences mid-afternoon sluggishness, especially on overcast days in Seattle, despite getting 7-8 hours of sleep and morning sunlight exposure",
+      "text_lemmatized": "User experiences mid-afternoon sluggishness, especially on overcast days in Seattle, despite getting 7-8 hours of sleep and morning sunlight exposure",
+      "hash": "c93433c8e6d9734affff89af5f8d74d9",
+      "created_at": "2026-08-28T21:36:09.787144+00:00",
+      "updated_at": "2026-08-28T21:36:09.787144+00:00",
+      "attributed_to": "user"
+    },
+    "c1714f71-23d7-4153-a574-4406c55e66e4": {
+      "user_id": "persona692",
+      "data": "User's archive digitization projects in the afternoons are affected by their difficulty in focusing due to the weather",
+      "text_lemmatized": "User's archive digitization projects in the afternoons are affected by their difficulty in focusing due to the weather",
+      "hash": "60bd55080c1c55d7ab0abe6a8c53cc66",
+      "created_at": "2026-08-28T21:36:09.787165+00:00",
+      "updated_at": "2026-08-28T21:36:09.787165+00:00",
+      "attributed_to": "user"
+    },
+    "13c6664f-0cd0-4872-aa22-93619698a12f": {
+      "user_id": "persona692",
+      "data": "Seattle has been experiencing nonstop overcast days, which may be contributing to the user's energy and focus issues",
+      "text_lemmatized": "Seattle has been experiencing nonstop overcast days, which may be contributing to the user's energy and focus issues",
+      "hash": "d9fae6cf79a708a1f31de65d263b6445",
+      "created_at": "2026-08-28T21:36:09.787174+00:00",
+      "updated_at": "2026-08-28T21:36:09.787174+00:00",
+      "attributed_to": "assistant"
+    },
+    "ed60d069-d5cd-4640-bbc6-5b64a9a23da5": {
+      "user_id": "persona692",
+      "data": "Janet bought 3 pounds of broccoli for $4 a pound, 3 oranges for $0.75 each, a cabbage for $3.75, a pound of bacon for $3, and two pounds of chicken for $3 a pound",
+      "text_lemmatized": "Janet bought 3 pounds of broccoli for $4 a pound, 3 oranges for $0.75 each, a cabbage for $3.75, a pound of bacon for $3, and two pounds of chicken for $3 a pound",
+      "hash": "aaa2334d773c9282f12315853284fd84",
+      "created_at": "2026-08-28T21:36:54.727955+00:00",
+      "updated_at": "2026-08-28T21:36:54.727955+00:00",
+      "attributed_to": "user"
+    },
+    "d3988587-24c9-4675-a47d-d670be939600": {
+      "user_id": "persona692",
+      "data": "Janet spent $4 \u00d7 3 = $12 on broccoli, $0.75 \u00d7 3 = $2.25 on oranges, $3.75 on cabbage, $3 on bacon, and $3 \u00d7 2 = $6 on chicken",
+      "text_lemmatized": "Janet spent $4 \u00d7 3 = $12 on broccoli, $0.75 \u00d7 3 = $2.25 on oranges, $3.75 on cabbage, $3 on bacon, and $3 \u00d7 2 = $6 on chicken",
+      "hash": "3f9ac1931b23bb335485b49a1be5c386",
+      "created_at": "2026-08-28T21:36:54.727979+00:00",
+      "updated_at": "2026-08-28T21:36:54.727979+00:00",
+      "attributed_to": "assistant"
+    },
+    "e5315200-fbef-4479-b34f-81b84e72527b": {
+      "user_id": "persona692",
+      "data": "Janet spent a total of $12 + $2.25 + $3.75 + $3 + $6 = $27 on groceries",
+      "text_lemmatized": "Janet spent a total of $12 + $2.25 + $3.75 + $3 + $6 = $27 on groceries",
+      "hash": "e7fe1de2c7b81ef7e252fcd8c6ef40e4",
+      "created_at": "2026-08-28T21:36:54.727990+00:00",
+      "updated_at": "2026-08-28T21:36:54.727990+00:00",
+      "attributed_to": "assistant"
+    },
+    "6989b7be-fd6a-4b62-b2bc-9ee45cc4f8e3": {
+      "user_id": "persona692",
+      "data": "Janet spent $3 + $6 = $9 on meat",
+      "text_lemmatized": "Janet spent $3 + $6 = $9 on meat",
+      "hash": "d3d07e8a671582b56208f1e519d84d68",
+      "created_at": "2026-08-28T21:36:54.727999+00:00",
+      "updated_at": "2026-08-28T21:36:54.727999+00:00",
+      "attributed_to": "assistant"
+    },
+    "b44a91d3-d091-49a8-90d6-b592ef62e3d7": {
+      "user_id": "persona692",
+      "data": "Janet spent $9 on meat out of a total of $27, which is ($9 \u00f7 $27) \u00d7 100% = 33.33% of her grocery budget",
+      "text_lemmatized": "Janet spent $9 on meat out of a total of $27, which is ($9 \u00f7 $27) \u00d7 100% = 33.33% of her grocery budget",
+      "hash": "eee91d8bd6fc47141dcbd53b03d0934c",
+      "created_at": "2026-08-28T21:36:54.728008+00:00",
+      "updated_at": "2026-08-28T21:36:54.728008+00:00",
+      "attributed_to": "assistant"
+    },
+    "dc357899-94f3-45fd-b2bc-4997e17aa6ef": {
+      "user_id": "persona692",
+      "data": "Rounded to the nearest percent, Janet spent 33% of her grocery budget on meat",
+      "text_lemmatized": "Rounded to the nearest percent, Janet spent 33% of her grocery budget on meat",
+      "hash": "01ee7e8293bd5873c81c529a49eff642",
+      "created_at": "2026-08-28T21:36:54.728017+00:00",
+      "updated_at": "2026-08-28T21:36:54.728017+00:00",
+      "attributed_to": "assistant"
+    },
+    "b66badff-f796-4585-a565-1707d280eba3": {
+      "user_id": "persona692",
+      "data": "User wants to refine the wording in an email to read more smoothly while keeping a warm, professional tone",
+      "text_lemmatized": "User wants to refine the wording in an email to read more smoothly while keeping a warm, professional tone",
+      "hash": "08f9a2469726d28cb88e20e9fe3288dc",
+      "created_at": "2026-08-28T21:37:33.047646+00:00",
+      "updated_at": "2026-08-28T21:37:33.047646+00:00",
+      "attributed_to": "user"
+    },
+    "0d701b8a-af3d-4160-8e00-29abd8404620": {
+      "user_id": "persona692",
+      "data": "User is looking for a subject line option that feels inviting and creative for an email about a potential collaboration on a community arts archive",
+      "text_lemmatized": "User is looking for a subject line option that feels inviting and creative for an email about a potential collaboration on a community arts archive",
+      "hash": "7e5e4758b45a42fdbe41c330c8309628",
+      "created_at": "2026-08-28T21:37:33.047670+00:00",
+      "updated_at": "2026-08-28T21:37:33.047670+00:00",
+      "attributed_to": "user"
+    },
+    "3660b5f0-6f9a-4f8a-b0b8-df97c0507b9b": {
+      "user_id": "persona692",
+      "data": "User is seeking a refined version of an email about a potential collaboration on a community arts archive that maintains a warm-professional tone and artistic metaphor",
+      "text_lemmatized": "User is seeking a refined version of an email about a potential collaboration on a community arts archive that maintains a warm-professional tone and artistic metaphor",
+      "hash": "9ac4eeeb9fc4e54dc89c93ee7c6f3c46",
+      "created_at": "2026-08-28T21:37:33.047681+00:00",
+      "updated_at": "2026-08-28T21:37:33.047681+00:00",
+      "attributed_to": "user"
+    },
+    "01199b22-eb07-4eda-9ed2-06e20b837416": {
+      "user_id": "persona692",
+      "data": "User is looking for a shorter subject line option that still conveys warmth, creativity, and the collaborative spirit for an email about a potential collaboration on a community arts archive",
+      "text_lemmatized": "User is looking for a shorter subject line option that still conveys warmth, creativity, and the collaborative spirit for an email about a potential collaboration on a community arts archive",
+      "hash": "68add0e488599a6eff01f6d09e09d09b",
+      "created_at": "2026-08-28T21:37:33.047691+00:00",
+      "updated_at": "2026-08-28T21:37:33.047691+00:00",
+      "attributed_to": "user"
+    },
+    "cca5e1fb-6670-4db8-a90c-6d3f94bdec8d": {
+      "user_id": "persona692",
+      "data": "User is seeking a subject line option that feels inviting and creative for an email about a potential collaboration on a community arts archive",
+      "text_lemmatized": "User is seeking a subject line option that feels inviting and creative for an email about a potential collaboration on a community arts archive",
+      "hash": "33ac142055cb259dfeb87871520047a3",
+      "created_at": "2026-08-28T21:37:33.047700+00:00",
+      "updated_at": "2026-08-28T21:37:33.047700+00:00",
+      "attributed_to": "user"
+    },
+    "f3566bb2-692f-4bd1-8542-796d743b5b70": {
+      "user_id": "persona692",
+      "data": "User is looking for a subject line option that conveys warmth, creativity, and the collaborative spirit for an email about a potential collaboration on a community arts archive",
+      "text_lemmatized": "User is looking for a subject line option that conveys warmth, creativity, and the collaborative spirit for an email about a potential collaboration on a community arts archive",
+      "hash": "347bbc350c9474b1fd57df45e5177379",
+      "created_at": "2026-08-28T21:37:33.047709+00:00",
+      "updated_at": "2026-08-28T21:37:33.047709+00:00",
+      "attributed_to": "user"
+    },
+    "95916169-6d39-42f1-91eb-c86d9ba6fb61": {
+      "user_id": "persona692",
+      "data": "Some strategy games initially encourage cooperation but ultimately lead players to betrayal due to the nature of the game's progression and the players' evolving interests.",
+      "text_lemmatized": "Some strategy games initially encourage cooperation but ultimately lead players to betrayal due to the nature of the game's progression and the players' evolving interests.",
+      "hash": "2be515014350c1347d3db3fcc7d9d62b",
+      "created_at": "2026-08-28T21:38:00.851261+00:00",
+      "updated_at": "2026-08-28T21:38:00.851261+00:00",
+      "attributed_to": "assistant"
+    },
+    "b7e42fa3-20cd-40cf-ba08-30fa3c12fbf1": {
+      "user_id": "persona692",
+      "data": "There are 100 weasels and 50 rabbits in a section of the forest.",
+      "text_lemmatized": "There are 100 weasels and 50 rabbits in a section of the forest.",
+      "hash": "6da5431f5ab78748189fe18aee2b54c6",
+      "created_at": "2026-08-28T21:38:05.556141+00:00",
+      "updated_at": "2026-08-28T21:38:05.556141+00:00",
+      "attributed_to": "assistant"
+    },
+    "aef21bef-b283-4806-9636-1060d3b8840f": {
+      "user_id": "persona692",
+      "data": "Three foxes invade the region and hunt the rodents.",
+      "text_lemmatized": "Three foxes invade the region and hunt the rodents.",
+      "hash": "e8dbc0e5debac41d8a07e615c9d74fc2",
+      "created_at": "2026-08-28T21:38:05.556160+00:00",
+      "updated_at": "2026-08-28T21:38:05.556160+00:00",
+      "attributed_to": "assistant"
+    },
+    "73545e02-2f44-4d8b-b964-b484a1d84ded": {
+      "user_id": "persona692",
+      "data": "Each fox catches an average of 4 weasels and 2 rabbits per week.",
+      "text_lemmatized": "Each fox catches an average of 4 weasels and 2 rabbits per week.",
+      "hash": "40c2918b3b420961acbabf3e05617abe",
+      "created_at": "2026-08-28T21:38:05.556167+00:00",
+      "updated_at": "2026-08-28T21:38:05.556167+00:00",
+      "attributed_to": "assistant"
+    },
+    "ff2d6619-6460-4f0e-8b4a-0e3e609eee60": {
+      "user_id": "persona692",
+      "data": "After 3 weeks, the total number of weasels caught is 3 * 4 * 3 = 36.",
+      "text_lemmatized": "After 3 weeks, the total number of weasels caught is 3 * 4 * 3 = 36.",
+      "hash": "27fcb65e08210b40f0f67dfacc1c1a8e",
+      "created_at": "2026-08-28T21:38:05.556174+00:00",
+      "updated_at": "2026-08-28T21:38:05.556174+00:00",
+      "attributed_to": "assistant"
+    },
+    "d10c2c88-9402-4c8b-8488-d5c3cac4d96e": {
+      "user_id": "persona692",
+      "data": "The total number of rabbits caught is 3 * 2 * 3 = 18.",
+      "text_lemmatized": "The total number of rabbits caught is 3 * 2 * 3 = 18.",
+      "hash": "8583eedc52e51174598eedfbf0eafc9e",
+      "created_at": "2026-08-28T21:38:05.556180+00:00",
+      "updated_at": "2026-08-28T21:38:05.556180+00:00",
+      "attributed_to": "assistant"
+    },
+    "4621ae3f-f782-43c7-8fec-a3e050ec1dcb": {
+      "user_id": "persona692",
+      "data": "The number of weasels left is 100 - 36 = 64.",
+      "text_lemmatized": "The number of weasels left is 100 - 36 = 64.",
+      "hash": "5a8f9f0cf9e034ad621c43b454c8fd4b",
+      "created_at": "2026-08-28T21:38:05.556186+00:00",
+      "updated_at": "2026-08-28T21:38:05.556186+00:00",
+      "attributed_to": "assistant"
+    },
+    "a6b8aafe-8929-4174-a1b6-6a9bd12f734d": {
+      "user_id": "persona692",
+      "data": "The number of rabbits left is 50 - 18 = 32.",
+      "text_lemmatized": "The number of rabbits left is 50 - 18 = 32.",
+      "hash": "24e8e5cb95b222ed10b4e97034b3abb7",
+      "created_at": "2026-08-28T21:38:05.556192+00:00",
+      "updated_at": "2026-08-28T21:38:05.556192+00:00",
+      "attributed_to": "assistant"
+    },
+    "241eddbe-d546-4595-9ae4-a1901d7d7a85": {
+      "user_id": "persona692",
+      "data": "After 3 weeks, there will be 64 weasels and 32 rabbits left.",
+      "text_lemmatized": "After 3 weeks, there will be 64 weasels and 32 rabbits left.",
+      "hash": "baeb8086958da05cede8db32548a21c0",
+      "created_at": "2026-08-28T21:38:05.556198+00:00",
+      "updated_at": "2026-08-28T21:38:05.556198+00:00",
+      "attributed_to": "assistant"
+    },
+    "cd2e69f3-02cd-4645-8007-e15f531eae5d": {
+      "user_id": "persona692",
+      "data": "Modern strategy games often use early-game cooperation to create a sense of community and shared goals, but eventually shift to competition to introduce complexity and challenge.",
+      "text_lemmatized": "Modern strategy games often use early-game cooperation to create a sense of community and shared goals, but eventually shift to competition to introduce complexity and challenge.",
+      "hash": "4924f87d29d37c1ece4550cd91128a07",
+      "created_at": "2026-08-28T21:38:16.356866+00:00",
+      "updated_at": "2026-08-28T21:38:16.356866+00:00",
+      "attributed_to": "assistant"
+    },
+    "b34002ca-cb40-46a6-aae8-f219158e6ff2": {
+      "user_id": "persona692",
+      "data": "Designers use resource scarcity events to signal the transition from cooperation to competition, making it clear that resources are limited and players must compete for them.",
+      "text_lemmatized": "Designers use resource scarcity events to signal the transition from cooperation to competition, making it clear that resources are limited and players must compete for them.",
+      "hash": "9ebb404ec34d74be36f79804cf243baf",
+      "created_at": "2026-08-28T21:38:16.356885+00:00",
+      "updated_at": "2026-08-28T21:38:16.356885+00:00",
+      "attributed_to": "assistant"
+    },
+    "aa5e7127-08cf-4a95-9e7b-41d6db6acc10": {
+      "user_id": "persona692",
+      "data": "Resource scarcity events can include new shortages or limitations on existing resources, making it harder for players to achieve their goals and creating tension and competition.",
+      "text_lemmatized": "Resource scarcity events can include new shortages or limitations on existing resources, making it harder for players to achieve their goals and creating tension and competition.",
+      "hash": "d4c9f914f1261b2d8fd0f10c66bd2db3",
+      "created_at": "2026-08-28T21:38:16.356894+00:00",
+      "updated_at": "2026-08-28T21:38:16.356894+00:00",
+      "attributed_to": "assistant"
+    },
+    "8dc71be7-abc0-48f2-8d1b-bbb5c495e29d": {
+      "user_id": "persona692",
+      "data": "The Seattle Seahawks scored 37 points in total, with 9 points coming from field goals, leaving 28 points from touchdowns.",
+      "text_lemmatized": "The Seattle Seahawks scored 37 points in total, with 9 points coming from field goals, leaving 28 points from touchdowns.",
+      "hash": "87aa20b4bf79a31c565e0a1d2bc7a240",
+      "created_at": "2026-08-28T21:38:16.356901+00:00",
+      "updated_at": "2026-08-28T21:38:16.356901+00:00",
+      "attributed_to": "assistant"
+    },
+    "fbe4a82a-965e-4ab5-b1eb-e0e933ef4a91": {
+      "user_id": "persona692",
+      "data": "The Seattle Seahawks scored 4 touchdowns in the game.",
+      "text_lemmatized": "The Seattle Seahawks scored 4 touchdowns in the game.",
+      "hash": "4df4ad070431f28c801a387650b75ed2",
+      "created_at": "2026-08-28T21:38:16.356908+00:00",
+      "updated_at": "2026-08-28T21:38:16.356908+00:00",
+      "attributed_to": "assistant"
+    },
+    "e048a6a8-48b4-42dc-9113-3e253caf17a6": {
+      "user_id": "persona692",
+      "data": "Rosie runs 6 miles per hour and needs to run 3 more miles to reach her goal of 20 miles for the week.",
+      "text_lemmatized": "Rosie runs 6 miles per hour and needs to run 3 more miles to reach her goal of 20 miles for the week.",
+      "hash": "6ee4eafe33c13f9a851c605349f539b8",
+      "created_at": "2026-08-28T21:38:16.356914+00:00",
+      "updated_at": "2026-08-28T21:38:16.356914+00:00",
+      "attributed_to": "assistant"
+    },
+    "65380ad9-4d15-4629-805e-a6f65d8f13c9": {
+      "user_id": "persona692",
+      "data": "Rosie should run for 30 minutes on Friday to reach her goal of 20 miles for the week.",
+      "text_lemmatized": "Rosie should run for 30 minutes on Friday to reach her goal of 20 miles for the week.",
+      "hash": "b52589498e67074cf9da1734dae11902",
+      "created_at": "2026-08-28T21:38:16.356920+00:00",
+      "updated_at": "2026-08-28T21:38:16.356920+00:00",
+      "attributed_to": "assistant"
+    },
+    "4e125b0f-6b52-4d1f-ac8a-e2491b17adb5": {
+      "user_id": "persona692",
+      "data": "The jasmine green tea detail works well as a warm, sensory flourish, but placing it in its own sentence could make it stand out more and keep the earlier part more concise.",
+      "text_lemmatized": "The jasmine green tea detail works well as a warm, sensory flourish, but placing it in its own sentence could make it stand out more and keep the earlier part more concise.",
+      "hash": "27953a5446780bea73e0b9d20ef06ca9",
+      "created_at": "2026-08-28T21:38:16.356926+00:00",
+      "updated_at": "2026-08-28T21:38:16.356926+00:00",
+      "attributed_to": "assistant"
+    },
+    "ee929bd4-a91c-4bb0-bb6d-d449fb1a0a11": {
+      "user_id": "persona692",
+      "data": "The slope of the three parallel lines is -1/4.",
+      "text_lemmatized": "The slope of the three parallel lines is -1/4.",
+      "hash": "778597a10a2c09baf82bf382f0483452",
+      "created_at": "2026-08-28T21:38:16.356931+00:00",
+      "updated_at": "2026-08-28T21:38:16.356931+00:00",
+      "attributed_to": "assistant"
+    },
+    "20c2011e-d1df-4685-bbd9-f5acae097dba": {
+      "user_id": "persona692",
+      "data": "Elyse gave half of her 100 pieces of gum to Rick, and Rick gave half of his 50 pieces to Shane, leaving Shane with 14 pieces of gum.",
+      "text_lemmatized": "Elyse gave half of her 100 pieces of gum to Rick, and Rick gave half of his 50 pieces to Shane, leaving Shane with 14 pieces of gum.",
+      "hash": "e247ab14786ee299d28dc97304d25039",
+      "created_at": "2026-08-28T21:38:16.356937+00:00",
+      "updated_at": "2026-08-28T21:38:16.356937+00:00",
+      "attributed_to": "assistant"
+    },
+    "0a798263-8288-4814-a9e2-4878a4b23578": {
+      "user_id": "persona692",
+      "data": "James sold 40 items on the first day and 64 items on the second day, for a total of 104 items sold.",
+      "text_lemmatized": "James sold 40 items on the first day and 64 items on the second day, for a total of 104 items sold.",
+      "hash": "a00d322872d3351c78e8dcdbd4066bc7",
+      "created_at": "2026-08-28T21:38:16.356943+00:00",
+      "updated_at": "2026-08-28T21:38:16.356943+00:00",
+      "attributed_to": "assistant"
+    },
+    "8e454893-e49a-4e3d-bb8e-e1b2f78fe234": {
+      "user_id": "persona692",
+      "data": "Mr. Julien's store had 400 marbles remaining after the previous day's sales, and 20 customers bought 15 marbles each, leaving 100 marbles in the store.",
+      "text_lemmatized": "Mr. Julien's store had 400 marbles remaining after the previous day's sales, and 20 customers bought 15 marbles each, leaving 100 marbles in the store.",
+      "hash": "60a8679d0fd98949adcba73e98cc66f9",
+      "created_at": "2026-08-28T21:38:16.356949+00:00",
+      "updated_at": "2026-08-28T21:38:16.356949+00:00",
+      "attributed_to": "assistant"
+    },
+    "83e0d0cc-88ce-4739-94d5-25be1d1444c7": {
+      "user_id": "persona692",
+      "data": "The Cascadia Literary Festival is happening next month, and Lilian has already registered for the event, taking advantage of the discounted ticket price.",
+      "text_lemmatized": "The Cascadia Literary Festival is happening next month, and Lilian has already registered for the event, taking advantage of the discounted ticket price.",
+      "hash": "d823eaf96592765045996023ac74f715",
+      "created_at": "2026-08-28T21:38:16.356954+00:00",
+      "updated_at": "2026-08-28T21:38:16.356954+00:00",
+      "attributed_to": "assistant"
+    },
+    "0dea2038-ddbe-4bcd-a08a-6faa6da389e8": {
+      "user_id": "persona692",
+      "data": "Harry's book has 180 pages, which is 20 fewer than half the number of pages in Selena's book.",
+      "text_lemmatized": "Harry's book has 180 pages, which is 20 fewer than half the number of pages in Selena's book.",
+      "hash": "46dc701bf899b1727b26ea385a22b5f0",
+      "created_at": "2026-08-28T21:38:16.356959+00:00",
+      "updated_at": "2026-08-28T21:38:16.356959+00:00",
+      "attributed_to": "assistant"
+    },
+    "d7fbc947-ec70-4503-8a25-adf3aa1e708c": {
+      "user_id": "persona692",
+      "data": "Chuck has 12 puppies, and each needs 2 shots, which will cost $120 in total.",
+      "text_lemmatized": "Chuck has 12 puppies, and each needs 2 shots, which will cost $120 in total.",
+      "hash": "70daeb4f71f0df869a216c1e5c2cbc25",
+      "created_at": "2026-08-28T21:38:16.356964+00:00",
+      "updated_at": "2026-08-28T21:38:16.356964+00:00",
+      "attributed_to": "assistant"
+    },
+    "979bfa6c-d178-4ad8-bd0b-001eca6ea660": {
+      "user_id": "persona692",
+      "data": "Peter is buying 16 pounds of bone-in chicken, 8 pounds of hamburgers, 10 pounds of hot dogs, and 5 pounds of sides for the family reunion.",
+      "text_lemmatized": "Peter is buying 16 pounds of bone-in chicken, 8 pounds of hamburgers, 10 pounds of hot dogs, and 5 pounds of sides for the family reunion.",
+      "hash": "d9d7fb059873560a55fa58ecd7e70c8e",
+      "created_at": "2026-08-28T21:38:16.356970+00:00",
+      "updated_at": "2026-08-28T21:38:16.356970+00:00",
+      "attributed_to": "assistant"
+    },
+    "b3148972-a9a9-40f1-8562-56ecd7b60d04": {
+      "user_id": "persona692",
+      "data": "The rectangle's perimeter is 30 inches, and its width is 4 inches, so its length is 11 inches, and its area is 44 square inches.",
+      "text_lemmatized": "The rectangle's perimeter is 30 inches, and its width is 4 inches, so its length is 11 inches, and its area is 44 square inches.",
+      "hash": "9cca493f0968a2a125053bd99e47704c",
+      "created_at": "2026-08-28T21:38:16.356976+00:00",
+      "updated_at": "2026-08-28T21:38:16.356976+00:00",
+      "attributed_to": "assistant"
+    },
+    "3fdf5560-b18b-46f7-9dcb-3cdb854fb698": {
+      "user_id": "persona692",
+      "data": "Claudia earns $10 per kid and makes $300 in total from Saturday's and Sunday's classes.",
+      "text_lemmatized": "Claudia earns $10 per kid and makes $300 in total from Saturday's and Sunday's classes.",
+      "hash": "ca3d28affe4e3c649838534085b883f9",
+      "created_at": "2026-08-28T21:38:16.356981+00:00",
+      "updated_at": "2026-08-28T21:38:16.356981+00:00",
+      "attributed_to": "assistant"
+    },
+    "c0170a27-080a-4d48-ae60-38bf5a5f7986": {
+      "user_id": "persona692",
+      "data": "The concept of ma in Japanese design refers to the intentional space between objects, valued for its meaning and contribution to the overall composition.",
+      "text_lemmatized": "The concept of ma in Japanese design refers to the intentional space between objects, valued for its meaning and contribution to the overall composition.",
+      "hash": "09395b3d2ade61d93ba3cd5ef0b3895f",
+      "created_at": "2026-08-28T21:39:12.483942+00:00",
+      "updated_at": "2026-08-28T21:39:12.483942+00:00",
+      "attributed_to": "assistant"
+    },
+    "778415a6-81c6-488a-8be6-d593332c58b8": {
+      "user_id": "persona692",
+      "data": "In interior spaces, ma is applied by creating a balance between objects and empty space, allowing for visual unity and a sense of harmony.",
+      "text_lemmatized": "In interior spaces, ma is applied by creating a balance between objects and empty space, allowing for visual unity and a sense of harmony.",
+      "hash": "941a0100f23579d35d8c1ae96be5d036",
+      "created_at": "2026-08-28T21:39:12.483963+00:00",
+      "updated_at": "2026-08-28T21:39:12.483963+00:00",
+      "attributed_to": "assistant"
+    },
+    "f37b9138-bc30-4646-b1d8-d731ced20e9f": {
+      "user_id": "persona692",
+      "data": "Japanese designers use ma to create a sense of depth and layering, guiding the viewer's eye through the space and emphasizing the importance of negative space.",
+      "text_lemmatized": "Japanese designers use ma to create a sense of depth and layering, guiding the viewer's eye through the space and emphasizing the importance of negative space.",
+      "hash": "989696cc4a477ac86038a59edf494449",
+      "created_at": "2026-08-28T21:39:12.483974+00:00",
+      "updated_at": "2026-08-28T21:39:12.483974+00:00",
+      "attributed_to": "assistant"
+    },
+    "c58cda79-2699-47c9-b347-4185e0bb83c1": {
+      "user_id": "persona692",
+      "data": "The application of ma in interior design involves careful consideration of the relationships between objects, surfaces, and the surrounding environment, with the goal of creating a cohesive and balanced space.",
+      "text_lemmatized": "The application of ma in interior design involves careful consideration of the relationships between objects, surfaces, and the surrounding environment, with the goal of creating a cohesive and balanced space.",
+      "hash": "a69a2686f82f4db06567f86d812c9989",
+      "created_at": "2026-08-28T21:39:12.483984+00:00",
+      "updated_at": "2026-08-28T21:39:12.483984+00:00",
+      "attributed_to": "assistant"
+    },
+    "fb22f13c-a5a8-450f-bd44-722cacbde362": {
+      "user_id": "persona692",
+      "data": "In a room with fewer objects, the intentional use of ma can make the space feel more complete and harmonious, rather than empty or sparse.",
+      "text_lemmatized": "In a room with fewer objects, the intentional use of ma can make the space feel more complete and harmonious, rather than empty or sparse.",
+      "hash": "618782cde93cc6e933912e53d21a80df",
+      "created_at": "2026-08-28T21:39:12.483993+00:00",
+      "updated_at": "2026-08-28T21:39:12.483993+00:00",
+      "attributed_to": "assistant"
+    },
+    "2677b266-ca14-462a-86c9-a57d1bee9ab6": {
+      "user_id": "persona692",
+      "data": "Rural walking trails often have detailed historical markers compared to urban ones due to cultural preservation, tourism strategy, and the rhythms of rural life.",
+      "text_lemmatized": "Rural walking trails often have detailed historical markers compared to urban ones due to cultural preservation, tourism strategy, and the rhythms of rural life.",
+      "hash": "5bc67503bd8ba48c210d19592328bd1b",
+      "created_at": "2026-08-28T21:39:31.956210+00:00",
+      "updated_at": "2026-08-28T21:39:31.956210+00:00",
+      "attributed_to": "assistant"
+    },
+    "34402d50-6fa4-4eed-8783-6ef797ca0a52": {
+      "user_id": "persona692",
+      "data": "Historical markers on rural trails are often intended for local audiences, but some may include translations for international tourists.",
+      "text_lemmatized": "Historical markers on rural trails are often intended for local audiences, but some may include translations for international tourists.",
+      "hash": "f0d32230bb3fa7154d1b08073327d77e",
+      "created_at": "2026-08-28T21:39:31.956229+00:00",
+      "updated_at": "2026-08-28T21:39:31.956229+00:00",
+      "attributed_to": "assistant"
+    },
+    "7fd49951-b1c4-485f-85d4-577cad557b00": {
+      "user_id": "persona692",
+      "data": "Jennifer will travel a total of 40 miles if she visits two museums, one 5 miles away and one 15 miles away, on two separate days.",
+      "text_lemmatized": "Jennifer will travel a total of 40 miles if she visits two museums, one 5 miles away and one 15 miles away, on two separate days.",
+      "hash": "1d1a46e04560829a7f60910067c1a2bf",
+      "created_at": "2026-08-28T21:39:31.956238+00:00",
+      "updated_at": "2026-08-28T21:39:31.956238+00:00",
+      "attributed_to": "assistant"
+    },
+    "842f7b7f-639d-414c-9fbc-bd9e6005210c": {
+      "user_id": "persona692",
+      "data": "A married couple and their 6 children need 3 pizzas with 4 slices each to satisfy their pizza order.",
+      "text_lemmatized": "A married couple and their 6 children need 3 pizzas with 4 slices each to satisfy their pizza order.",
+      "hash": "707e8832c11b89db36d25bda6890aa89",
+      "created_at": "2026-08-28T21:39:31.956245+00:00",
+      "updated_at": "2026-08-28T21:39:31.956245+00:00",
+      "attributed_to": "assistant"
+    },
+    "30ef28b0-5ad8-42bc-8bbc-d944214b87f5": {
+      "user_id": "persona692",
+      "data": "If you read 4 novels of 200 pages each in a month, you'll read 9,600 pages in a year.",
+      "text_lemmatized": "If you read 4 novels of 200 pages each in a month, you'll read 9,600 pages in a year.",
+      "hash": "e810692fa5c181ddf8f11cc1cf8580f1",
+      "created_at": "2026-08-28T21:39:31.956252+00:00",
+      "updated_at": "2026-08-28T21:39:31.956252+00:00",
+      "attributed_to": "assistant"
+    },
+    "edfd9bd6-2717-4a9d-8d87-9a71eab43e2f": {
+      "user_id": "persona692",
+      "data": "24 divides into 100! exactly 32 times.",
+      "text_lemmatized": "24 divides into 100! exactly 32 times.",
+      "hash": "49b032dabcdfb39c5df59b782edf0ba3",
+      "created_at": "2026-08-28T21:39:31.956258+00:00",
+      "updated_at": "2026-08-28T21:39:31.956258+00:00",
+      "attributed_to": "assistant"
+    },
+    "632eacda-a93e-4106-856e-3198bf73ed2a": {
+      "user_id": "persona692",
+      "data": "The volume of a cube with a surface area of 24 is 8.",
+      "text_lemmatized": "The volume of a cube with a surface area of 24 is 8.",
+      "hash": "f1d2acbb1cd644fdd7972dba0b21c536",
+      "created_at": "2026-08-28T21:39:31.956264+00:00",
+      "updated_at": "2026-08-28T21:39:31.956264+00:00",
+      "attributed_to": "assistant"
+    },
+    "202bcd41-e5bc-4387-ae26-9b6e9d19bcf1": {
+      "user_id": "persona692",
+      "data": "Biographers use migratory birds as metaphors for human memory in literature to suggest that our recollections follow trails laid down early in life, resurfacing no matter how far we travel in time or geography.",
+      "text_lemmatized": "Biographers use migratory birds as metaphors for human memory in literature to suggest that our recollections follow trails laid down early in life, resurfacing no matter how far we travel in time or geography.",
+      "hash": "44f4bff63b671cddc95f16a6e5d9a4f2",
+      "created_at": "2026-08-28T21:39:31.956271+00:00",
+      "updated_at": "2026-08-28T21:39:31.956271+00:00",
+      "attributed_to": "assistant"
+    },
+    "c6d9384f-76b9-444b-841a-5c3188aa7307": {
+      "user_id": "persona692",
+      "data": "The seasonal cycles of migration parallel the timing of memory recall in biographies, where memories resurface predictably, tied to emotional seasons or personal anniversaries.",
+      "text_lemmatized": "The seasonal cycles of migration parallel the timing of memory recall in biographies, where memories resurface predictably, tied to emotional seasons or personal anniversaries.",
+      "hash": "76cb09f8b1d017e0a9ef01b0ca215dc9",
+      "created_at": "2026-08-28T21:39:31.956277+00:00",
+      "updated_at": "2026-08-28T21:39:31.956277+00:00",
+      "attributed_to": "assistant"
+    },
+    "7bc754c9-9d9a-4125-8ba0-78ec0b49688b": {
+      "user_id": "persona692",
+      "data": "Historical fiction novels often blend factual accuracy with creative liberties to explore themes and periods, whereas biographical novels prioritize fidelity to the subject's life, though may still use imagination to fill gaps.",
+      "text_lemmatized": "Historical fiction novels often blend factual accuracy with creative liberties to explore themes and periods, whereas biographical novels prioritize fidelity to the subject's life, though may still use imagination to fill gaps.",
+      "hash": "dca160a93c281c45f9252a3a79321f9d",
+      "created_at": "2026-08-28T21:39:38.293963+00:00",
+      "updated_at": "2026-08-28T21:39:38.293963+00:00",
+      "attributed_to": "assistant"
+    },
+    "c846ff3f-45f5-4d98-8d58-9a3d00700905": {
+      "user_id": "persona692",
+      "data": "Authors of biographical novels may signal to readers which parts are fictionalized through author's notes, prefaces, or subtle cues in the narrative.",
+      "text_lemmatized": "Authors of biographical novels may signal to readers which parts are fictionalized through author's notes, prefaces, or subtle cues in the narrative.",
+      "hash": "105b3c84755df95a9a7b831f95509909",
+      "created_at": "2026-08-28T21:39:38.293987+00:00",
+      "updated_at": "2026-08-28T21:39:38.293987+00:00",
+      "attributed_to": "assistant"
+    },
+    "e5694e47-41d8-4a63-ba48-1827c6b27799": {
+      "user_id": "persona692",
+      "data": "To find the fraction of the original rectangle that is shaded, divide the left strip into 3 equal parts and the right strip into 4 equal parts, then calculate the area of the shaded pieces and add them together.",
+      "text_lemmatized": "To find the fraction of the original rectangle that is shaded, divide the left strip into 3 equal parts and the right strip into 4 equal parts, then calculate the area of the shaded pieces and add them together.",
+      "hash": "269a96e690c01cd200cc21077e412be3",
+      "created_at": "2026-08-28T21:39:38.293998+00:00",
+      "updated_at": "2026-08-28T21:39:38.293998+00:00",
+      "attributed_to": "assistant"
+    },
+    "5996cef8-aac9-4adc-be89-0ce19f052799": {
+      "user_id": "persona692",
+      "data": "The shaded area is 5/12 of the total area of the rectangle.",
+      "text_lemmatized": "The shaded area is 5/12 of the total area of the rectangle.",
+      "hash": "7d1eeacf90738864b30f89e326f159b7",
+      "created_at": "2026-08-28T21:39:38.294008+00:00",
+      "updated_at": "2026-08-28T21:39:38.294008+00:00",
+      "attributed_to": "assistant"
+    },
+    "2b9b4b59-2e8e-4c21-97fc-314f656f16a3": {
+      "user_id": "persona692",
+      "data": "If Steve has S guitars, Barbeck has 2S guitars and Davey has 6S guitars. The total number of guitars is 9S, which equals 27. Therefore, S = 3 and Davey has 18 guitars.",
+      "text_lemmatized": "If Steve has S guitars, Barbeck has 2S guitars and Davey has 6S guitars. The total number of guitars is 9S, which equals 27. Therefore, S = 3 and Davey has 18 guitars.",
+      "hash": "abd50524f07cf41fff9e16941dedafcb",
+      "created_at": "2026-08-28T21:39:38.294018+00:00",
+      "updated_at": "2026-08-28T21:39:38.294018+00:00",
+      "attributed_to": "assistant"
+    },
+    "f9d4907a-0edd-4733-a94f-276e256182e0": {
+      "user_id": "persona692",
+      "data": "Sue's sister drives the car 4 days a week, so Sue gets the other 3 days. This means Sue uses the car 3/7 of the time, and her share of the $2,100 cost is $900.",
+      "text_lemmatized": "Sue's sister drives the car 4 days a week, so Sue gets the other 3 days. This means Sue uses the car 3/7 of the time, and her share of the $2,100 cost is $900.",
+      "hash": "8787e0b6ba9a647e89b85e432d140216",
+      "created_at": "2026-08-28T21:39:38.294027+00:00",
+      "updated_at": "2026-08-28T21:39:38.294027+00:00",
+      "attributed_to": "assistant"
+    },
+    "219f41dc-7beb-4bc4-85a1-147b9793f811": {
+      "user_id": "persona692",
+      "data": "In-depth nonfiction books about historical events often feel more nuanced than televised documentary versions because they allow for a more detailed and in-depth exploration of the subject matter, including primary sources, expert opinions, and personal accounts.",
+      "text_lemmatized": "In-depth nonfiction books about historical events often feel more nuanced than televised documentary versions because they allow for a more detailed and in-depth exploration of the subject matter, including primary sources, expert opinions, and personal accounts.",
+      "hash": "9bd655959e7b54c20b663320b5d240ed",
+      "created_at": "2026-08-28T21:39:46.880017+00:00",
+      "updated_at": "2026-08-28T21:39:46.880017+00:00",
+      "attributed_to": "assistant"
+    },
+    "aa1ab6c4-683c-4c72-94c5-e7a98a55e84d": {
+      "user_id": "persona692",
+      "data": "The written format of books provides more space to delve into complexities and subtleties of historical events, whereas documentaries are often constrained by time and the need for a more general audience.",
+      "text_lemmatized": "The written format of books provides more space to delve into complexities and subtleties of historical events, whereas documentaries are often constrained by time and the need for a more general audience.",
+      "hash": "11e7bdaeb95d62b022bb1d49f8b0f43e",
+      "created_at": "2026-08-28T21:39:46.880042+00:00",
+      "updated_at": "2026-08-28T21:39:46.880042+00:00",
+      "attributed_to": "assistant"
+    },
+    "0f9dbd6f-6956-4cb0-91fe-22f69c324a24": {
+      "user_id": "persona692",
+      "data": "Books can also include footnotes, endnotes, and bibliographies that provide additional context and sources, which can be lacking in documentaries.",
+      "text_lemmatized": "Books can also include footnotes, endnotes, and bibliographies that provide additional context and sources, which can be lacking in documentaries.",
+      "hash": "f9d82b59183ff9a7e54ec426bfb3961b",
+      "created_at": "2026-08-28T21:39:46.880053+00:00",
+      "updated_at": "2026-08-28T21:39:46.880053+00:00",
+      "attributed_to": "assistant"
+    },
+    "2a51b425-e284-4622-8e4e-6ac186e52a66": {
+      "user_id": "persona692",
+      "data": "The author's perspective and expertise can also shine through in a book, offering a more personal and nuanced view of the historical event.",
+      "text_lemmatized": "The author's perspective and expertise can also shine through in a book, offering a more personal and nuanced view of the historical event.",
+      "hash": "9e2369a1e0af784f9e3253b852214dd4",
+      "created_at": "2026-08-28T21:39:46.880063+00:00",
+      "updated_at": "2026-08-28T21:39:46.880063+00:00",
+      "attributed_to": "assistant"
+    },
+    "b0ed74cc-986d-4c4b-a2aa-f931c3f93551": {
+      "user_id": "persona692",
+      "data": "In contrast, documentaries often rely on a more general narrative and may not be able to explore the same level of detail and complexity as a book.",
+      "text_lemmatized": "In contrast, documentaries often rely on a more general narrative and may not be able to explore the same level of detail and complexity as a book.",
+      "hash": "a525f0214944f81723bd049a519fb977",
+      "created_at": "2026-08-28T21:39:46.880072+00:00",
+      "updated_at": "2026-08-28T21:39:46.880072+00:00",
+      "attributed_to": "assistant"
+    },
+    "957854c7-bafd-4322-b686-5883bf1553a2": {
+      "user_id": "persona692",
+      "data": "The format of a book also allows for a more in-depth analysis of the historical context and the social, political, and economic factors that contributed to the event.",
+      "text_lemmatized": "The format of a book also allows for a more in-depth analysis of the historical context and the social, political, and economic factors that contributed to the event.",
+      "hash": "1f1179955d4ca7ed245eb5196872bd2e",
+      "created_at": "2026-08-28T21:39:46.880081+00:00",
+      "updated_at": "2026-08-28T21:39:46.880081+00:00",
+      "attributed_to": "assistant"
+    },
+    "b8c26513-e372-44de-b60c-d5067dbf185b": {
+      "user_id": "persona692",
+      "data": "Overall, the written format of books provides a more nuanced and detailed exploration of historical events, making them feel more in-depth and complex than televised documentaries.",
+      "text_lemmatized": "Overall, the written format of books provides a more nuanced and detailed exploration of historical events, making them feel more in-depth and complex than televised documentaries.",
+      "hash": "780a772c002f556436d3e576dc221c89",
+      "created_at": "2026-08-28T21:39:46.880090+00:00",
+      "updated_at": "2026-08-28T21:39:46.880090+00:00",
+      "attributed_to": "assistant"
+    },
+    "9969cc4b-76ce-4f13-9f81-a9af5b9e026d": {
+      "user_id": "persona692",
+      "data": "The author's ability to explore the complexities of historical events in a book is also influenced by the fact that they have more control over the narrative and can choose to include or exclude certain information.",
+      "text_lemmatized": "The author's ability to explore the complexities of historical events in a book is also influenced by the fact that they have more control over the narrative and can choose to include or exclude certain information.",
+      "hash": "219cbfe18221774fef3466f74bd52649",
+      "created_at": "2026-08-28T21:39:46.880099+00:00",
+      "updated_at": "2026-08-28T21:39:46.880099+00:00",
+      "attributed_to": "assistant"
+    },
+    "604a7dc1-fd10-4c67-9b3d-e8c5f33ca650": {
+      "user_id": "persona692",
+      "data": "In contrast, documentaries are often subject to the constraints of time and the need to appeal to a general audience, which can limit the level of detail and complexity that can be explored.",
+      "text_lemmatized": "In contrast, documentaries are often subject to the constraints of time and the need to appeal to a general audience, which can limit the level of detail and complexity that can be explored.",
+      "hash": "1d2e2877da23d04a64e6f17a27b5f3ea",
+      "created_at": "2026-08-28T21:39:46.880107+00:00",
+      "updated_at": "2026-08-28T21:39:46.880107+00:00",
+      "attributed_to": "assistant"
+    },
+    "576a583c-4e51-489f-b273-66f63c508202": {
+      "user_id": "persona692",
+      "data": "The written format of books also allows for a more personal and reflective approach to historical events, which can provide a more nuanced and detailed understanding of the subject matter.",
+      "text_lemmatized": "The written format of books also allows for a more personal and reflective approach to historical events, which can provide a more nuanced and detailed understanding of the subject matter.",
+      "hash": "4398ad1d65c5fc9c7fa8c1bf2efc5989",
+      "created_at": "2026-08-28T21:39:46.880116+00:00",
+      "updated_at": "2026-08-28T21:39:46.880116+00:00",
+      "attributed_to": "assistant"
+    },
+    "01b3fbdf-511c-4bf5-a766-0e4e10b6f2a2": {
+      "user_id": "persona692",
+      "data": "Megan works 8 hours a day and earns $7.50 per hour",
+      "text_lemmatized": "Megan works 8 hours a day and earns $7.50 per hour",
+      "hash": "31050b036340832eb2b7cbcd37ccdae2",
+      "created_at": "2026-08-28T21:39:50.348919+00:00",
+      "updated_at": "2026-08-28T21:39:50.348919+00:00"
+    },
+    "91d12810-8a5e-4591-96e7-2b3cb5515576": {
+      "user_id": "persona692",
+      "data": "Megan works 20 days a month",
+      "text_lemmatized": "Megan works 20 days a month",
+      "hash": "43842a72e9bd6462f5c739f2e882160a",
+      "created_at": "2026-08-28T21:39:50.348941+00:00",
+      "updated_at": "2026-08-28T21:39:50.348941+00:00"
+    },
+    "7d55e553-4946-42ba-9d8b-1e1215d567a6": {
+      "user_id": "persona692",
+      "data": "Megan's total earnings for one month of work is 8 hours/day * $7.50/hour * 20 days = $1200",
+      "text_lemmatized": "Megan's total earnings for one month of work is 8 hours/day * $7.50/hour * 20 days = $1200",
+      "hash": "8e31d4dca26f469dac379afe46191f87",
+      "created_at": "2026-08-28T21:39:50.348951+00:00",
+      "updated_at": "2026-08-28T21:39:50.348951+00:00"
+    },
+    "401faaf0-3dde-4d58-856b-2393401b071f": {
+      "user_id": "persona692",
+      "data": "Megan's total earnings for two months of work is $1200 * 2 = $2400",
+      "text_lemmatized": "Megan's total earnings for two months of work is $1200 * 2 = $2400",
+      "hash": "8e6cfbb2e8287afbf69135a7e1b5dae3",
+      "created_at": "2026-08-28T21:39:50.348960+00:00",
+      "updated_at": "2026-08-28T21:39:50.348960+00:00"
+    },
+    "a5ffc2a2-d5a2-4b86-a3aa-53a050405dd6": {
+      "user_id": "persona692",
+      "data": "The central reason for the difference in documentaries and nonfiction books is the constraints and affordances of the two mediums.",
+      "text_lemmatized": "The central reason for the difference in documentaries and nonfiction books is the constraints and affordances of the two mediums.",
+      "hash": "f6831d396c2dc6bf62b302b691dd3473",
+      "created_at": "2026-08-28T21:39:58.830214+00:00",
+      "updated_at": "2026-08-28T21:39:58.830214+00:00",
+      "attributed_to": "assistant"
+    },
+    "02531c46-9896-434a-a38e-6832a13e39fb": {
+      "user_id": "persona692",
+      "data": "The condensed nature of documentaries can make them more effective at reaching a broader audience, even if they sacrifice nuance.",
+      "text_lemmatized": "The condensed nature of documentaries can make them more effective at reaching a broader audience, even if they sacrifice nuance.",
+      "hash": "62f67a48eac65f8852300451e9c947ea",
+      "created_at": "2026-08-28T21:39:58.830234+00:00",
+      "updated_at": "2026-08-28T21:39:58.830234+00:00",
+      "attributed_to": "assistant"
+    },
+    "0e048544-332d-4cff-98ff-ef2a72759926": {
+      "user_id": "persona692",
+      "data": "Johann needs to deliver 98 pieces of mail.",
+      "text_lemmatized": "Johann needs to deliver 98 pieces of mail.",
+      "hash": "9dbe3865cca858cedd28abb63b5b295f",
+      "created_at": "2026-08-28T21:39:58.830243+00:00",
+      "updated_at": "2026-08-28T21:39:58.830243+00:00",
+      "attributed_to": "assistant"
+    },
+    "5d365fa8-9488-47f0-a8f4-5d52ad1c7315": {
+      "user_id": "persona692",
+      "data": "Ariana bought 14 carnations.",
+      "text_lemmatized": "Ariana bought 14 carnations.",
+      "hash": "2e8e10e1bd5553c2d9ee37adbd452661",
+      "created_at": "2026-08-28T21:39:58.830251+00:00",
+      "updated_at": "2026-08-28T21:39:58.830251+00:00",
+      "attributed_to": "assistant"
+    },
+    "e118917c-e593-49c7-ad35-02a1e8050f59": {
+      "user_id": "persona692",
+      "data": "John and his dog Max went on a camping trip in the summer of 2023 where they hiked, swam, and found it a peaceful experience.",
+      "text_lemmatized": "John and his dog Max went on a camping trip in the summer of 2023 where they hiked, swam, and found it a peaceful experience.",
+      "hash": "c2b089ac359219533be03071721ef378",
+      "created_at": "2026-08-28T21:39:58.830257+00:00",
+      "updated_at": "2026-08-28T21:39:58.830257+00:00",
+      "attributed_to": "assistant"
+    },
+    "387e998b-834a-449d-b2dc-bc89ba2cd5e0": {
+      "user_id": "persona692",
+      "data": "Maria got a new cat named Bailey around early August 2023 and describes her as a joy.",
+      "text_lemmatized": "Maria got a new cat named Bailey around early August 2023 and describes her as a joy.",
+      "hash": "47f7f967c73f8667f7d2eb96310e6af0",
+      "created_at": "2026-08-28T21:39:58.830263+00:00",
+      "updated_at": "2026-08-28T21:39:58.830263+00:00",
+      "attributed_to": "assistant"
+    },
+    "815db52b-ff78-47c8-a1b6-63f5200738df": {
+      "user_id": "persona692",
+      "data": "John has a daughter named Sara and the family took a trip for her birthday in fall 2022.",
+      "text_lemmatized": "John has a daughter named Sara and the family took a trip for her birthday in fall 2022.",
+      "hash": "d7dade320cf0479e564535c8ecdfb5ab",
+      "created_at": "2026-08-28T21:39:58.830268+00:00",
+      "updated_at": "2026-08-28T21:39:58.830268+00:00",
+      "attributed_to": "assistant"
+    },
+    "02ef54b4-2a30-4153-bde4-66624c32e0c1": {
+      "user_id": "persona692",
+      "data": "Rachel should drink 4 glasses of water on Saturday.",
+      "text_lemmatized": "Rachel should drink 4 glasses of water on Saturday.",
+      "hash": "7bd845b1c7507629e3eefb072bc135a1",
+      "created_at": "2026-08-28T21:39:58.830274+00:00",
+      "updated_at": "2026-08-28T21:39:58.830274+00:00",
+      "attributed_to": "assistant"
+    },
+    "0d1d72cd-d2aa-4ff1-8ef9-1a5399a332fd": {
+      "user_id": "persona692",
+      "data": "Bruce put 45 dollars in the bank.",
+      "text_lemmatized": "Bruce put 45 dollars in the bank.",
+      "hash": "5352bf59dbd966c2026d010695fee675",
+      "created_at": "2026-08-28T21:39:58.830280+00:00",
+      "updated_at": "2026-08-28T21:39:58.830280+00:00",
+      "attributed_to": "assistant"
+    },
+    "6effdc9a-5cba-4044-a617-36a6e7bbd02f": {
+      "user_id": "persona692",
+      "data": "Marcus saves $46 compared to his assumed maximum expenditure.",
+      "text_lemmatized": "Marcus saves $46 compared to his assumed maximum expenditure.",
+      "hash": "d8bb592060a2c68bbc16401b8e383484",
+      "created_at": "2026-08-28T21:39:58.830285+00:00",
+      "updated_at": "2026-08-28T21:39:58.830285+00:00",
+      "attributed_to": "assistant"
+    },
+    "0c9c7354-a7c1-4297-a837-5bf3fc2a8a47": {
+      "user_id": "persona692",
+      "data": "They should have received $3 in change.",
+      "text_lemmatized": "They should have received $3 in change.",
+      "hash": "50733c69ea2cc552176094a1b0ce0723",
+      "created_at": "2026-08-28T21:39:58.830290+00:00",
+      "updated_at": "2026-08-28T21:39:58.830290+00:00",
+      "attributed_to": "assistant"
+    },
+    "f8396c95-7924-47c7-b4fc-5b32c56603c2": {
+      "user_id": "persona692",
+      "data": "One kid's ticket costs $5.",
+      "text_lemmatized": "One kid's ticket costs $5.",
+      "hash": "952d17325b1ac142c8c8c1d961f692d6",
+      "created_at": "2026-08-28T21:39:58.830296+00:00",
+      "updated_at": "2026-08-28T21:39:58.830296+00:00",
+      "attributed_to": "assistant"
+    },
+    "4c4c20d6-3554-4317-904a-54e0f96d21ca": {
+      "user_id": "persona692",
+      "data": "A pint of strawberries costs $2 more when not on sale.",
+      "text_lemmatized": "A pint of strawberries costs $2 more when not on sale.",
+      "hash": "c2f483a3d8d2d61eeb51e31d4750c7cf",
+      "created_at": "2026-08-28T21:39:58.830300+00:00",
+      "updated_at": "2026-08-28T21:39:58.830300+00:00",
+      "attributed_to": "assistant"
+    },
+    "2a927171-b3d9-440b-b5fa-7f158bbc5f02": {
+      "user_id": "persona692",
+      "data": "50 animals in total got sick.",
+      "text_lemmatized": "50 animals in total got sick.",
+      "hash": "c41505435a2c2a815601a340048362d6",
+      "created_at": "2026-08-28T21:39:58.830305+00:00",
+      "updated_at": "2026-08-28T21:39:58.830305+00:00",
+      "attributed_to": "assistant"
+    },
+    "97cb1498-c3be-4bec-bc1f-d9ed9dcf4f08": {
+      "user_id": "persona692",
+      "data": "The distance between the two signs is 375 feet.",
+      "text_lemmatized": "The distance between the two signs is 375 feet.",
+      "hash": "0f47b660693e9c056c01f5ce0aaf3905",
+      "created_at": "2026-08-28T21:39:58.830311+00:00",
+      "updated_at": "2026-08-28T21:39:58.830311+00:00",
+      "attributed_to": "assistant"
+    },
+    "8980df83-7595-4e8a-bac1-d3405c42c0af": {
+      "user_id": "persona692",
+      "data": "Sam's morning run was 2 miles.",
+      "text_lemmatized": "Sam's morning run was 2 miles.",
+      "hash": "ae1e6a5d8a041d7e03dbd2cbf42af3a1",
+      "created_at": "2026-08-28T21:39:58.830317+00:00",
+      "updated_at": "2026-08-28T21:39:58.830317+00:00",
+      "attributed_to": "assistant"
+    },
+    "8788f62d-12c7-4e70-9da1-6774debc0e2c": {
+      "user_id": "persona692",
+      "data": "It will take 50 minutes for the pot to be full.",
+      "text_lemmatized": "It will take 50 minutes for the pot to be full.",
+      "hash": "091bf82c78d65fca1f89d4f8650a2f9e",
+      "created_at": "2026-08-28T21:39:58.830322+00:00",
+      "updated_at": "2026-08-28T21:39:58.830322+00:00",
+      "attributed_to": "assistant"
+    },
+    "e30cd98f-6408-4117-87b8-d6480c1604f2": {
+      "user_id": "persona692",
+      "data": "Jessica has 15 dollars more than Rodney.",
+      "text_lemmatized": "Jessica has 15 dollars more than Rodney.",
+      "hash": "9174230eb5a02c5332ba8f72532f2d12",
+      "created_at": "2026-08-28T21:39:58.830327+00:00",
+      "updated_at": "2026-08-28T21:39:58.830327+00:00",
+      "attributed_to": "assistant"
+    },
+    "45c28b2f-73fe-4d73-a7af-cd67d1467a4f": {
+      "user_id": "persona692",
+      "data": "There is solid research comparing how much information we retain from spoken audio formats versus reading the same material.",
+      "text_lemmatized": "There is solid research comparing how much information we retain from spoken audio formats versus reading the same material.",
+      "hash": "fa2bfcb47fc9753f18f451f583ca3531",
+      "created_at": "2026-08-28T21:39:58.830333+00:00",
+      "updated_at": "2026-08-28T21:39:58.830333+00:00",
+      "attributed_to": "assistant"
+    },
+    "a77ce65a-19a6-4bd9-8097-bebfaed63430": {
+      "user_id": "persona692",
+      "data": "There is research comparing comprehension and retention between listening and reading, though the findings are more nuanced than a simple 'one is better' answer.",
+      "text_lemmatized": "There is research comparing comprehension and retention between listening and reading, though the findings are more nuanced than a simple 'one is better' answer.",
+      "hash": "6b0c8bcc20ed70d12c3a3a39734f53ee",
+      "created_at": "2026-08-28T21:40:05.499967+00:00",
+      "updated_at": "2026-08-28T21:40:05.499967+00:00",
+      "attributed_to": "assistant"
+    },
+    "e9257d1b-c7b2-4bde-9091-ae4d965f96a5": {
+      "user_id": "persona692",
+      "data": "Reading often has an edge for fine-grained, detail-oriented retention, especially for analytical learners, but spoken formats can excel for narrative immersion, emotional resonance, and accessibility.",
+      "text_lemmatized": "Reading often has an edge for fine-grained, detail-oriented retention, especially for analytical learners, but spoken formats can excel for narrative immersion, emotional resonance, and accessibility.",
+      "hash": "078438b67982e741ca8de0663e7a3c7b",
+      "created_at": "2026-08-28T21:40:05.499986+00:00",
+      "updated_at": "2026-08-28T21:40:05.499986+00:00",
+      "attributed_to": "assistant"
+    },
+    "5b98740b-5702-41b2-9f7b-0a521dca5e41": {
+      "user_id": "persona692",
+      "data": "The variability in long-term physical changes when someone stops gender-affirming hormone therapy is due to a mix of endocrine kinetics, tissue biology, and uniquely human variability.",
+      "text_lemmatized": "The variability in long-term physical changes when someone stops gender-affirming hormone therapy is due to a mix of endocrine kinetics, tissue biology, and uniquely human variability.",
+      "hash": "9af461971fbc0f3bdf7b295bdb79b55f",
+      "created_at": "2026-08-28T21:40:05.499995+00:00",
+      "updated_at": "2026-08-28T21:40:05.499995+00:00",
+      "attributed_to": "assistant"
+    },
+    "d41be14c-925c-4624-b25a-0858c3c75173": {
+      "user_id": "persona692",
+      "data": "110% of 500 is 550.",
+      "text_lemmatized": "110% of 500 is 550.",
+      "hash": "fea10c06d1925caba24a8a51e126bc6b",
+      "created_at": "2026-08-28T21:40:05.500002+00:00",
+      "updated_at": "2026-08-28T21:40:05.500002+00:00",
+      "attributed_to": "assistant"
+    },
+    "1e8bd88c-691a-44f0-954d-b01bb3278434": {
+      "user_id": "persona692",
+      "data": "Erin has 4 large green curlers in her hair.",
+      "text_lemmatized": "Erin has 4 large green curlers in her hair.",
+      "hash": "1905d0a4c063d0200caafcef62335209",
+      "created_at": "2026-08-28T21:40:05.500008+00:00",
+      "updated_at": "2026-08-28T21:40:05.500008+00:00",
+      "attributed_to": "assistant"
+    },
+    "5a55e933-0b8c-4ab3-af22-c39f3a9a5b19": {
+      "user_id": "persona692",
+      "data": "Ben would need 8 hours to travel 12 km at a speed of 1.5 km per hour.",
+      "text_lemmatized": "Ben would need 8 hours to travel 12 km at a speed of 1.5 km per hour.",
+      "hash": "684dc1fbf820ab5758f4943ddab252dd",
+      "created_at": "2026-08-28T21:40:05.500015+00:00",
+      "updated_at": "2026-08-28T21:40:05.500015+00:00",
+      "attributed_to": "assistant"
+    },
+    "05743fde-8544-42c8-b643-521324da1035": {
+      "user_id": "persona692",
+      "data": "The difference in the fees collected when the stadium was 3/4 full and if it would have been full is $10,000.",
+      "text_lemmatized": "The difference in the fees collected when the stadium was 3/4 full and if it would have been full is $10,000.",
+      "hash": "ce51e4137f54564d3f72108318cd1c09",
+      "created_at": "2026-08-28T21:40:05.500021+00:00",
+      "updated_at": "2026-08-28T21:40:05.500021+00:00",
+      "attributed_to": "assistant"
+    },
+    "fbf1357b-a518-4dc8-9164-42d707dc8797": {
+      "user_id": "persona692",
+      "data": "5/12 of the entire wall is painted red.",
+      "text_lemmatized": "5/12 of the entire wall is painted red.",
+      "hash": "4c4fad27e4ff58c3715b16f2616da498",
+      "created_at": "2026-08-28T21:40:05.500028+00:00",
+      "updated_at": "2026-08-28T21:40:05.500028+00:00",
+      "attributed_to": "assistant"
+    },
+    "bd472ce8-2e06-4c97-8b72-a126eadcaa9b": {
+      "user_id": "persona692",
+      "data": "James writes 730 comics in 4 years.",
+      "text_lemmatized": "James writes 730 comics in 4 years.",
+      "hash": "8d58390e278913afb348486c698c491b",
+      "created_at": "2026-08-28T21:40:05.500034+00:00",
+      "updated_at": "2026-08-28T21:40:05.500034+00:00",
+      "attributed_to": "assistant"
+    },
+    "6df3adab-2371-4e40-8d7f-bd112403de41": {
+      "user_id": "persona692",
+      "data": "Some stage adaptations lose the emotional depth of the original novel due to medium-specific affordances and the way our minds process narrative across different forms.",
+      "text_lemmatized": "Some stage adaptations lose the emotional depth of the original novel due to medium-specific affordances and the way our minds process narrative across different forms.",
+      "hash": "c5f258efd85203f5e2b3f5a2deac83ea",
+      "created_at": "2026-08-28T21:40:05.500039+00:00",
+      "updated_at": "2026-08-28T21:40:05.500039+00:00",
+      "attributed_to": "assistant"
+    },
+    "bc543879-505a-46f1-8551-1c5f14f2f687": {
+      "user_id": "persona692",
+      "data": "The concept of 'quiet resistance' in literature refers to subtle, often implicit forms of dissent or nonconformity that challenge societal norms without direct confrontation.",
+      "text_lemmatized": "The concept of 'quiet resistance' in literature refers to subtle, often implicit forms of dissent or nonconformity that challenge societal norms without direct confrontation.",
+      "hash": "139aff504b3397fcf03551f70d106856",
+      "created_at": "2026-08-28T21:40:14.377038+00:00",
+      "updated_at": "2026-08-28T21:40:14.377038+00:00",
+      "attributed_to": "assistant"
+    },
+    "b3ca7787-5619-48c0-9e1f-4d52dd6f314d": {
+      "user_id": "persona692",
+      "data": "In contrast to direct political activism, quiet resistance often involves a more nuanced, introspective approach, where the focus is on personal transformation and individual agency rather than overt collective action.",
+      "text_lemmatized": "In contrast to direct political activism, quiet resistance often involves a more nuanced, introspective approach, where the focus is on personal transformation and individual agency rather than overt collective action.",
+      "hash": "4e95f6ac7dddf71556e10afb75d1ea0e",
+      "created_at": "2026-08-28T21:40:14.377057+00:00",
+      "updated_at": "2026-08-28T21:40:14.377057+00:00",
+      "attributed_to": "assistant"
+    },
+    "b9020667-8e85-4c14-ae54-3d20ba307c3a": {
+      "user_id": "persona692",
+      "data": "Quiet resistance can manifest in various ways, such as through character development, narrative structure, or even the use of language and imagery, allowing authors to critique societal norms without being overtly confrontational.",
+      "text_lemmatized": "Quiet resistance can manifest in various ways, such as through character development, narrative structure, or even the use of language and imagery, allowing authors to critique societal norms without being overtly confrontational.",
+      "hash": "431ffcbe8a8e86e50c2b227277220157",
+      "created_at": "2026-08-28T21:40:14.377066+00:00",
+      "updated_at": "2026-08-28T21:40:14.377066+00:00",
+      "attributed_to": "assistant"
+    },
+    "aa2d4ab8-ee01-4e6d-9737-cdc901e4dd49": {
+      "user_id": "persona692",
+      "data": "In a literary context, quiet resistance can be seen as a form of 'subversive storytelling,' where authors use subtle, suggestive narratives to challenge dominant ideologies and promote social change.",
+      "text_lemmatized": "In a literary context, quiet resistance can be seen as a form of 'subversive storytelling,' where authors use subtle, suggestive narratives to challenge dominant ideologies and promote social change.",
+      "hash": "fb112119068d1bf51585c960333e2fbd",
+      "created_at": "2026-08-28T21:40:14.377074+00:00",
+      "updated_at": "2026-08-28T21:40:14.377074+00:00",
+      "attributed_to": "assistant"
+    },
+    "059e8392-9292-486f-a5b4-541f9fe2e7c6": {
+      "user_id": "persona692",
+      "data": "The idea of quiet resistance is closely tied to the concept of 'slow activism,' which emphasizes the importance of gradual, incremental change through personal actions and choices rather than sudden, dramatic gestures.",
+      "text_lemmatized": "The idea of quiet resistance is closely tied to the concept of 'slow activism,' which emphasizes the importance of gradual, incremental change through personal actions and choices rather than sudden, dramatic gestures.",
+      "hash": "2284b6c57a923e1c1b0decc886032633",
+      "created_at": "2026-08-28T21:40:14.377082+00:00",
+      "updated_at": "2026-08-28T21:40:14.377082+00:00",
+      "attributed_to": "assistant"
+    },
+    "b676df7f-88d9-4e7a-bd8b-b22e1ca892c5": {
+      "user_id": "persona692",
+      "data": "Quiet resistance can also be seen as a form of 'everyday activism,' where individuals engage in small, everyday acts of resistance that collectively contribute to larger social change.",
+      "text_lemmatized": "Quiet resistance can also be seen as a form of 'everyday activism,' where individuals engage in small, everyday acts of resistance that collectively contribute to larger social change.",
+      "hash": "0f836f3b54be36a5533f59cc23cc1139",
+      "created_at": "2026-08-28T21:40:14.377088+00:00",
+      "updated_at": "2026-08-28T21:40:14.377088+00:00",
+      "attributed_to": "assistant"
+    },
+    "844f8f83-67ea-4f4a-b73e-c2d31dd4cd28": {
+      "user_id": "persona692",
+      "data": "In the context of the provided conversation, the discussion on 'quiet resistance' highlights the importance of subtle, nuanced forms of dissent and nonconformity in literature and everyday life.",
+      "text_lemmatized": "In the context of the provided conversation, the discussion on 'quiet resistance' highlights the importance of subtle, nuanced forms of dissent and nonconformity in literature and everyday life.",
+      "hash": "945c666e59ab606681afc02fe08f1f38",
+      "created_at": "2026-08-28T21:40:14.377094+00:00",
+      "updated_at": "2026-08-28T21:40:14.377094+00:00",
+      "attributed_to": "assistant"
+    },
+    "cd566771-91f2-4ea2-9a74-6cd66a5f95a9": {
+      "user_id": "persona692",
+      "data": "The conversation also touches on the idea that quiet resistance can be a powerful tool for social change, as it allows individuals to challenge societal norms without being overtly confrontational.",
+      "text_lemmatized": "The conversation also touches on the idea that quiet resistance can be a powerful tool for social change, as it allows individuals to challenge societal norms without being overtly confrontational.",
+      "hash": "e82e941081653c5b85e3ef6cfc9950fe",
+      "created_at": "2026-08-28T21:40:14.377100+00:00",
+      "updated_at": "2026-08-28T21:40:14.377100+00:00",
+      "attributed_to": "assistant"
+    },
+    "f29f2ea6-df20-4b74-a5e4-73e4f9c66aa2": {
+      "user_id": "persona692",
+      "data": "The concept of quiet resistance is closely tied to the idea of 'personal agency' and 'individual transformation,' highlighting the importance of personal actions and choices in driving social change.",
+      "text_lemmatized": "The concept of quiet resistance is closely tied to the idea of 'personal agency' and 'individual transformation,' highlighting the importance of personal actions and choices in driving social change.",
+      "hash": "3455578b58c2c56791f13f1e27b4a6e9",
+      "created_at": "2026-08-28T21:40:14.377106+00:00",
+      "updated_at": "2026-08-28T21:40:14.377106+00:00",
+      "attributed_to": "assistant"
+    },
+    "69eb826d-6d53-4f65-b9da-b8750d02131c": {
+      "user_id": "persona692",
+      "data": "The discussion on quiet resistance also emphasizes the importance of 'subversive storytelling' in literature, where authors use subtle, suggestive narratives to challenge dominant ideologies and promote social change.",
+      "text_lemmatized": "The discussion on quiet resistance also emphasizes the importance of 'subversive storytelling' in literature, where authors use subtle, suggestive narratives to challenge dominant ideologies and promote social change.",
+      "hash": "c1b0c79abe7a3a20e3f05ec194160efa",
+      "created_at": "2026-08-28T21:40:14.377112+00:00",
+      "updated_at": "2026-08-28T21:40:14.377112+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "a5c2b84b-a726-406e-8201-cf32ec8837a0",
+    "1": "f2ded4f7-9406-4b38-9b39-912280e03754",
+    "2": "a731c409-3f17-4329-9b68-2bec6a3c1a70",
+    "3": "0d3183d9-fb4d-433e-9dcd-1f4138fccfc5",
+    "4": "71607330-58c7-4dbc-b8e6-325745dff4a1",
+    "5": "f94a827b-b4a9-4ab5-a8c7-68b1ade7d549",
+    "6": "6d476fae-21f9-44c8-8c21-f894c2c435ea",
+    "7": "56baa15b-9bba-4de1-84e8-ec3216eedca7",
+    "8": "dc5ec26a-52be-40be-8ea5-07d85b1e2e51",
+    "9": "3e3fb5ae-d66e-49b3-bb9f-a02ecb901125",
+    "10": "36fe33a1-fd34-4b68-a695-768a39ce280d",
+    "11": "65955bf6-c52f-4aca-83e9-b996f78330d6",
+    "12": "53129f84-8333-4c06-93c9-5c8be7adacb8",
+    "13": "3fde15ba-b24b-40e4-8ac7-36cfb689daef",
+    "14": "d1bfbe60-d5d7-4f56-8fa4-93bed011ede1",
+    "15": "67c58b1d-c5f8-454b-9bd4-76ef6db35678",
+    "16": "f3ba3648-ec46-4c3c-9c35-deeebf3c4efd",
+    "17": "a2000f49-b378-4cb5-91c4-cba038e7d607",
+    "18": "431e0730-0309-40c8-9386-f31487ce25dc",
+    "19": "2726aa32-73f3-4ed0-a25e-b0aba4be7a72",
+    "20": "d86c3339-1d51-43ea-bfad-caa4ee08891c",
+    "21": "ac3f4e28-9422-4328-9a9e-bdf0277dfa28",
+    "22": "0c7ee02f-8859-480f-8091-a726a86011ab",
+    "23": "2b85888f-2eb7-4b3c-8edc-9a314dd6fbc2",
+    "24": "d9a0c649-9bcc-4d50-98a9-5e0d085f54a4",
+    "25": "c957c9c3-0e22-4f34-bc6c-509ffa421af0",
+    "26": "1f49e682-5089-4795-bf8e-0b62569c4ad2",
+    "27": "3faa3ecd-f49c-46b5-8034-7c33c8e14ad2",
+    "28": "ceccc252-313c-4256-8a23-3eda64054b62",
+    "29": "f1387822-7b8b-49e2-860d-e9154b075716",
+    "30": "116590f5-5e4e-4a03-8c54-8944dc499ed6",
+    "31": "904b0b9b-fbc2-49db-8cbd-f0fb30409193",
+    "32": "12cc9417-baf0-4b23-b85d-93e8aaaaf01b",
+    "33": "0cc8a7c3-ab67-4bd0-84ba-d06eb21ae3d2",
+    "34": "da326117-8287-41cb-93d1-918cfcb0b221",
+    "35": "70d4f989-407f-47ef-a07c-175ef4d41b45",
+    "36": "e800604a-2b6d-4e86-98c0-56ca0b693e30",
+    "37": "31779656-2bcc-4675-80e6-f8d9f9fa1df0",
+    "38": "c1714f71-23d7-4153-a574-4406c55e66e4",
+    "39": "13c6664f-0cd0-4872-aa22-93619698a12f",
+    "40": "ed60d069-d5cd-4640-bbc6-5b64a9a23da5",
+    "41": "d3988587-24c9-4675-a47d-d670be939600",
+    "42": "e5315200-fbef-4479-b34f-81b84e72527b",
+    "43": "6989b7be-fd6a-4b62-b2bc-9ee45cc4f8e3",
+    "44": "b44a91d3-d091-49a8-90d6-b592ef62e3d7",
+    "45": "dc357899-94f3-45fd-b2bc-4997e17aa6ef",
+    "46": "b66badff-f796-4585-a565-1707d280eba3",
+    "47": "0d701b8a-af3d-4160-8e00-29abd8404620",
+    "48": "3660b5f0-6f9a-4f8a-b0b8-df97c0507b9b",
+    "49": "01199b22-eb07-4eda-9ed2-06e20b837416",
+    "50": "cca5e1fb-6670-4db8-a90c-6d3f94bdec8d",
+    "51": "f3566bb2-692f-4bd1-8542-796d743b5b70",
+    "52": "95916169-6d39-42f1-91eb-c86d9ba6fb61",
+    "53": "b7e42fa3-20cd-40cf-ba08-30fa3c12fbf1",
+    "54": "aef21bef-b283-4806-9636-1060d3b8840f",
+    "55": "73545e02-2f44-4d8b-b964-b484a1d84ded",
+    "56": "ff2d6619-6460-4f0e-8b4a-0e3e609eee60",
+    "57": "d10c2c88-9402-4c8b-8488-d5c3cac4d96e",
+    "58": "4621ae3f-f782-43c7-8fec-a3e050ec1dcb",
+    "59": "a6b8aafe-8929-4174-a1b6-6a9bd12f734d",
+    "60": "241eddbe-d546-4595-9ae4-a1901d7d7a85",
+    "61": "cd2e69f3-02cd-4645-8007-e15f531eae5d",
+    "62": "b34002ca-cb40-46a6-aae8-f219158e6ff2",
+    "63": "aa5e7127-08cf-4a95-9e7b-41d6db6acc10",
+    "64": "8dc71be7-abc0-48f2-8d1b-bbb5c495e29d",
+    "65": "fbe4a82a-965e-4ab5-b1eb-e0e933ef4a91",
+    "66": "e048a6a8-48b4-42dc-9113-3e253caf17a6",
+    "67": "65380ad9-4d15-4629-805e-a6f65d8f13c9",
+    "68": "4e125b0f-6b52-4d1f-ac8a-e2491b17adb5",
+    "69": "ee929bd4-a91c-4bb0-bb6d-d449fb1a0a11",
+    "70": "20c2011e-d1df-4685-bbd9-f5acae097dba",
+    "71": "0a798263-8288-4814-a9e2-4878a4b23578",
+    "72": "8e454893-e49a-4e3d-bb8e-e1b2f78fe234",
+    "73": "83e0d0cc-88ce-4739-94d5-25be1d1444c7",
+    "74": "0dea2038-ddbe-4bcd-a08a-6faa6da389e8",
+    "75": "d7fbc947-ec70-4503-8a25-adf3aa1e708c",
+    "76": "979bfa6c-d178-4ad8-bd0b-001eca6ea660",
+    "77": "b3148972-a9a9-40f1-8562-56ecd7b60d04",
+    "78": "3fdf5560-b18b-46f7-9dcb-3cdb854fb698",
+    "79": "c0170a27-080a-4d48-ae60-38bf5a5f7986",
+    "80": "778415a6-81c6-488a-8be6-d593332c58b8",
+    "81": "f37b9138-bc30-4646-b1d8-d731ced20e9f",
+    "82": "c58cda79-2699-47c9-b347-4185e0bb83c1",
+    "83": "fb22f13c-a5a8-450f-bd44-722cacbde362",
+    "84": "2677b266-ca14-462a-86c9-a57d1bee9ab6",
+    "85": "34402d50-6fa4-4eed-8783-6ef797ca0a52",
+    "86": "7fd49951-b1c4-485f-85d4-577cad557b00",
+    "87": "842f7b7f-639d-414c-9fbc-bd9e6005210c",
+    "88": "30ef28b0-5ad8-42bc-8bbc-d944214b87f5",
+    "89": "edfd9bd6-2717-4a9d-8d87-9a71eab43e2f",
+    "90": "632eacda-a93e-4106-856e-3198bf73ed2a",
+    "91": "202bcd41-e5bc-4387-ae26-9b6e9d19bcf1",
+    "92": "c6d9384f-76b9-444b-841a-5c3188aa7307",
+    "93": "7bc754c9-9d9a-4125-8ba0-78ec0b49688b",
+    "94": "c846ff3f-45f5-4d98-8d58-9a3d00700905",
+    "95": "e5694e47-41d8-4a63-ba48-1827c6b27799",
+    "96": "5996cef8-aac9-4adc-be89-0ce19f052799",
+    "97": "2b9b4b59-2e8e-4c21-97fc-314f656f16a3",
+    "98": "f9d4907a-0edd-4733-a94f-276e256182e0",
+    "99": "219f41dc-7beb-4bc4-85a1-147b9793f811",
+    "100": "aa1ab6c4-683c-4c72-94c5-e7a98a55e84d",
+    "101": "0f9dbd6f-6956-4cb0-91fe-22f69c324a24",
+    "102": "2a51b425-e284-4622-8e4e-6ac186e52a66",
+    "103": "b0ed74cc-986d-4c4b-a2aa-f931c3f93551",
+    "104": "957854c7-bafd-4322-b686-5883bf1553a2",
+    "105": "b8c26513-e372-44de-b60c-d5067dbf185b",
+    "106": "9969cc4b-76ce-4f13-9f81-a9af5b9e026d",
+    "107": "604a7dc1-fd10-4c67-9b3d-e8c5f33ca650",
+    "108": "576a583c-4e51-489f-b273-66f63c508202",
+    "109": "01b3fbdf-511c-4bf5-a766-0e4e10b6f2a2",
+    "110": "91d12810-8a5e-4591-96e7-2b3cb5515576",
+    "111": "7d55e553-4946-42ba-9d8b-1e1215d567a6",
+    "112": "401faaf0-3dde-4d58-856b-2393401b071f",
+    "113": "a5ffc2a2-d5a2-4b86-a3aa-53a050405dd6",
+    "114": "02531c46-9896-434a-a38e-6832a13e39fb",
+    "115": "0e048544-332d-4cff-98ff-ef2a72759926",
+    "116": "5d365fa8-9488-47f0-a8f4-5d52ad1c7315",
+    "117": "e118917c-e593-49c7-ad35-02a1e8050f59",
+    "118": "387e998b-834a-449d-b2dc-bc89ba2cd5e0",
+    "119": "815db52b-ff78-47c8-a1b6-63f5200738df",
+    "120": "02ef54b4-2a30-4153-bde4-66624c32e0c1",
+    "121": "0d1d72cd-d2aa-4ff1-8ef9-1a5399a332fd",
+    "122": "6effdc9a-5cba-4044-a617-36a6e7bbd02f",
+    "123": "0c9c7354-a7c1-4297-a837-5bf3fc2a8a47",
+    "124": "f8396c95-7924-47c7-b4fc-5b32c56603c2",
+    "125": "4c4c20d6-3554-4317-904a-54e0f96d21ca",
+    "126": "2a927171-b3d9-440b-b5fa-7f158bbc5f02",
+    "127": "97cb1498-c3be-4bec-bc1f-d9ed9dcf4f08",
+    "128": "8980df83-7595-4e8a-bac1-d3405c42c0af",
+    "129": "8788f62d-12c7-4e70-9da1-6774debc0e2c",
+    "130": "e30cd98f-6408-4117-87b8-d6480c1604f2",
+    "131": "45c28b2f-73fe-4d73-a7af-cd67d1467a4f",
+    "132": "a77ce65a-19a6-4bd9-8097-bebfaed63430",
+    "133": "e9257d1b-c7b2-4bde-9091-ae4d965f96a5",
+    "134": "5b98740b-5702-41b2-9f7b-0a521dca5e41",
+    "135": "d41be14c-925c-4624-b25a-0858c3c75173",
+    "136": "1e8bd88c-691a-44f0-954d-b01bb3278434",
+    "137": "5a55e933-0b8c-4ab3-af22-c39f3a9a5b19",
+    "138": "05743fde-8544-42c8-b643-521324da1035",
+    "139": "fbf1357b-a518-4dc8-9164-42d707dc8797",
+    "140": "bd472ce8-2e06-4c97-8b72-a126eadcaa9b",
+    "141": "6df3adab-2371-4e40-8d7f-bd112403de41",
+    "142": "bc543879-505a-46f1-8551-1c5f14f2f687",
+    "143": "b3ca7787-5619-48c0-9e1f-4d52dd6f314d",
+    "144": "b9020667-8e85-4c14-ae54-3d20ba307c3a",
+    "145": "aa2d4ab8-ee01-4e6d-9737-cdc901e4dd49",
+    "146": "059e8392-9292-486f-a5b4-541f9fe2e7c6",
+    "147": "b676df7f-88d9-4e7a-bd8b-b22e1ca892c5",
+    "148": "844f8f83-67ea-4f4a-b73e-c2d31dd4cd28",
+    "149": "cd566771-91f2-4ea2-9a74-6cd66a5f95a9",
+    "150": "f29f2ea6-df20-4b74-a5e4-73e4f9c66aa2",
+    "151": "69eb826d-6d53-4f65-b9da-b8750d02131c"
+  }
+}

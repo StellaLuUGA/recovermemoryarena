@@ -1,0 +1,84 @@
+{
+  "config_id": "AGENT_CONFIG_C_QWEN32B",
+  "config_sha256": "9de15556a9d1aa3e638c76cd1740d1860015e0428b143e30af54dd677791d629",
+  "CONFIG_C_20_HASH": "3250bc02df510146db6e86cbba0f101699e118423237e317a82814f9cb238a7f",
+
+  "FINAL_BACKBONE": "Qwen3-32B-AWQ (requested as Qwen3-32B-Instruct-AWQ; no separate -Instruct-AWQ release exists)",
+  "backbone_mode": "non-thinking / direct-answer via chat_template_kwargs.enable_thinking=false",
+  "backbone_details": {
+    "local_path": "/home/aristella/models/Qwen3-32B-AWQ",
+    "quantization": "AWQ 4-bit group_size 128 gemm; runtime kernel awq_marlin",
+    "dtype": "torch.float16", "vllm_version": "0.18.0", "torch": "2.10.0+cu128",
+    "max_model_len": 16384, "kv_cache_dtype": "auto (fp16)",
+    "gpu_kv_cache_size_tokens": 34192, "gpu_memory_utilization": 0.90,
+    "attention_backend": "FLASH_ATTN (FlashAttention 2)",
+    "enforce_eager": false, "enable_prefix_caching": false,
+    "device": "NVIDIA GeForce RTX 5090 32607 MiB, driver 595.71.05, CUDA 13.2",
+    "endpoint": "http://localhost:8124/v1", "external_api_traffic": "none"
+  },
+  "only_change_vs_config_b": "backbone; prompt/parser/ICL/serialisation/monitor/horizons imported verbatim from agent_b",
+  "temperature": 0, "seed": 13,
+  "MAX_AGENT_STEPS": 50, "MAX_NEXT_SUBGOAL_STEPS": 20,
+
+  "NON_THINKING_VERIFIED": "YES",
+  "smoke": {"no_hidden_reasoning": "3/3", "exactly_one_parseable_action": "3/3",
+            "entity_identity_preserved": "3/3", "in_admissible_commands": "3/3",
+            "external_api_traffic": "none"},
+
+  "OLD_SUFFIX_STATES": "5 / 5",
+  "B32": 5,
+  "gate1_verdict": "PASS_SUFFIX_COMPETENCE",
+  "gate1_replay_rank_matches_reference": "5 / 5",
+  "gate1_states_source": "identical five Config-B controlled states",
+
+  "NEW_NATIVE_CONTROLLED_REACHABILITY": "14 / 20",
+  "W32": 14,
+  "gate2_verdict": "PASS (W32 >= 5)",
+  "NEW_NATIVE_FULL_TASK_SUCCESS": "13 / 20",
+  "native_max_rank_ge_2": "14 / 20",
+  "native_max_rank_ge_4": "8 / 20",
+  "VALID_ACTION_RATE": 0.7801,
+  "valid_actions": 415, "total_actions": 532,
+  "DISTINCT_ACTIONS": {"mean": 16.45, "median": 14.5},
+  "LONGEST_REPEAT_STREAK": {"mean": 3.80, "median": 1.0},
+  "actions_per_episode": {"mean": 26.6, "median": 18.5},
+
+  "NEW_SUFFIX_SUCCESS": "5 / 5",
+  "B32_new": 5,
+  "gate3_replay_rank_matches_native": "5 / 5",
+
+  "HISTORY_TOKENS": {
+    "scope": "67 controlled states across 14 episodes, Qwen3-32B tokenizer",
+    "median": 340.0, "p75": 715.0, "p90": 1211.8, "max": 1649,
+    "first_controlled_state_only": {"median": 280.5, "p75": 646.5, "p90": 1029.5, "max": 1555},
+    "note": "DIAGNOSTIC ONLY - shorter than before because a competent agent reaches its first controlled state in a median of 6 actions"
+  },
+
+  "cross_configuration_diagnosis_only": {
+    "disclaimer": "three disjoint game sets, three separately pre-registered configs; NOT an ablation",
+    "W": {"A": 8, "B": 6, "C": 14},
+    "full_task_success": {"A": 0, "B": 0, "C": 13},
+    "valid_action_rate": {"A": 0.221, "B": 0.073, "C": 0.780},
+    "distinct_actions_mean": {"A": 2.60, "B": 1.65, "C": 16.45},
+    "longest_repeat_streak_mean": {"A": 35.95, "B": 45.60, "C": 3.80},
+    "suffix_success": {"A": "0/5", "B": "0/5", "C": "5/5 (old states) and 5/5 (new states)"}
+  },
+
+  "environment_gates_reconfirmed": {
+    "structural_30": "30 / 30 with K_USABLE >= 2",
+    "subgoal_validator": "PASS (upstream handcoded_expert check_subgoal_completion, CASE 2)",
+    "replay": "9/9 original + 5/5 gate-1 + 5/5 gate-3 exact rank matches"
+  },
+
+  "preserved_prior_results": {
+    "AGENT_CONFIG_A_MINIMAL": "FAIL_SUFFIX_COMPETENCE (W=8/20, won=0/20, B=0/5)",
+    "AGENT_CONFIG_B_ADMISSIBLE_COMMANDS": "FAIL_SUFFIX_COMPETENCE (W_B=6/20, won=0/20, B_B=0/5)",
+    "artifacts": "competence/*, competence_b/*, ALFWORLD_PREFLIGHT_REPORT.md, ALFWORLD_PREFLIGHT.json - unmodified"
+  },
+
+  "ALFWORLD_32B_PREFLIGHT": "PASS",
+  "READY_FOR_FORMAL_RECOVERMEM": "YES",
+
+  "not_run_by_design": ["Mem0", "budget audit", "B_mem", "B_rec", "R_mem", "R_rec",
+                        "scorer training", "CRC", "FS", "coverage", "Table 1", "Table 2"]
+}

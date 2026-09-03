@@ -1,0 +1,86 @@
+{
+  "source": "PREDICTOR_TRAIN only; scorer-independent; no R_mem/R_rec computed",
+  "n_controlled_states": 36,
+  "n_episodes": 7,
+  "candidate_budget_ladder": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384
+  ],
+  "tokenizer": "Qwen3-32B-AWQ (exact, server tokenizer)",
+  "serving": {
+    "max_model_len": 16384,
+    "reserved_output_tokens": 32,
+    "safety_margin": 256
+  },
+  "current_state_tokens": {
+    "n": 36,
+    "min": 158,
+    "q05": 164.0,
+    "median": 245.5,
+    "mean": 230.1,
+    "q75": 261.2,
+    "q90": 279.5,
+    "q95": 285.8,
+    "max": 409
+  },
+  "native_mem0_evidence_tokens": {
+    "n": 36,
+    "min": 43,
+    "q05": 49.8,
+    "median": 235.5,
+    "mean": 207.8,
+    "q75": 276.5,
+    "q90": 349.0,
+    "q95": 399.8,
+    "max": 516
+  },
+  "raw_observable_history_tokens": {
+    "n": 36,
+    "min": 179,
+    "q05": 197.5,
+    "median": 503.5,
+    "mean": 495.9,
+    "q75": 578.5,
+    "q90": 737.5,
+    "q95": 881.8,
+    "max": 1060
+  },
+  "base_prompt_tokens": {
+    "n": 36,
+    "min": 924,
+    "q05": 930.0,
+    "median": 1011.5,
+    "mean": 996.1,
+    "q75": 1027.2,
+    "q90": 1045.5,
+    "q95": 1051.8,
+    "max": 1175
+  },
+  "available_evidence_capacity_tokens": {
+    "n": 36,
+    "min": 14921,
+    "q05": 15044.2,
+    "median": 15084.5,
+    "mean": 15099.9,
+    "q75": 15146.5,
+    "q90": 15163.0,
+    "q95": 15166.0,
+    "max": 15172
+  },
+  "two_stage_rule": {
+    "B_cap": 8192,
+    "B_cap_basis": "largest ladder budget <= Q0.05(avail)=15044.2",
+    "B_host": 1024,
+    "B_host_basis": "smallest ladder budget >= max native Mem0 evidence=516"
+  },
+  "B_mem_frozen": 1024,
+  "B_rec_frozen": 1024,
+  "fraction_states_where_raw_history_exceeds_B_rec": 0.0556,
+  "fraction_states_where_native_mem0_exceeds_B_mem": 0.0,
+  "note": "B was chosen without any paired label, scorer output, AUROC, FS, coverage or task-success quantity, and is frozen regardless of whether it binds."
+}

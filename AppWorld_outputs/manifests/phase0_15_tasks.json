@@ -1,0 +1,308 @@
+{
+  "name": "phase0_15_tasks",
+  "split": "dev",
+  "seed": 13,
+  "n_tasks": 15,
+  "selection_unit": "scenario (one variant per scenario)",
+  "stratification": "round-robin over required-apps signature buckets",
+  "frozen_before_any_model_run_on_dev": true,
+  "task_ids": [
+    "0d8a4ee_2",
+    "23cf851_3",
+    "37a8675_2",
+    "383cbac_1",
+    "396c5a2_1",
+    "3ab5b8b_1",
+    "4fab96f_2",
+    "50e1ac9_1",
+    "530b157_2",
+    "68ee2c9_1",
+    "6bdbc26_3",
+    "6c2c621_3",
+    "b119b1f_1",
+    "d4e9306_2",
+    "df61dc5_2"
+  ],
+  "tasks": [
+    {
+      "task_id": "0d8a4ee_2",
+      "scenario_id": "0d8a4ee",
+      "required_apps": [
+        "phone",
+        "venmo"
+      ],
+      "app_signature": "phone+venmo",
+      "difficulty": 2,
+      "num_apps": 2,
+      "num_apis": 8,
+      "num_api_calls_reference": 36,
+      "num_solution_code_lines": 34,
+      "n_call_sites": 8,
+      "max_substantive_span": 3,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Send the following phone message to my siblings and roommates, who do not have a venmo account, \"Get on venmo please!\"."
+    },
+    {
+      "task_id": "23cf851_3",
+      "scenario_id": "23cf851",
+      "required_apps": [
+        "venmo"
+      ],
+      "app_signature": "venmo",
+      "difficulty": 1,
+      "num_apps": 1,
+      "num_apis": 5,
+      "num_api_calls_reference": 14,
+      "num_solution_code_lines": 21,
+      "n_call_sites": 5,
+      "max_substantive_span": 1,
+      "dependency_class": "MULTI-STEP BUT SELF-CONTAINED",
+      "instruction": "How many likes did all Venmo transactions, I sent or received this month, have in total?"
+    },
+    {
+      "task_id": "37a8675_2",
+      "scenario_id": "37a8675",
+      "required_apps": [
+        "phone",
+        "venmo"
+      ],
+      "app_signature": "phone+venmo",
+      "difficulty": 2,
+      "num_apps": 2,
+      "num_apis": 8,
+      "num_api_calls_reference": 9,
+      "num_solution_code_lines": 40,
+      "n_call_sites": 8,
+      "max_substantive_span": 3,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Send $100 publicly on Venmo to the person with this phone number 5734599766."
+    },
+    {
+      "task_id": "383cbac_1",
+      "scenario_id": "383cbac",
+      "required_apps": [
+        "phone",
+        "venmo"
+      ],
+      "app_signature": "phone+venmo",
+      "difficulty": 1,
+      "num_apps": 2,
+      "num_apis": 7,
+      "num_api_calls_reference": 26,
+      "num_solution_code_lines": 62,
+      "n_call_sites": 8,
+      "max_substantive_span": 4,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "I went on dinner with my coworkers yesterday at Azure Harbor Bistro. My manager paid for food and everyone venmoed them. Everyones' transactions except mine should be on my social feed. My share was $38. How much did my manager pay for the others, including me, yesterday?"
+    },
+    {
+      "task_id": "396c5a2_1",
+      "scenario_id": "396c5a2",
+      "required_apps": [
+        "spotify"
+      ],
+      "app_signature": "spotify",
+      "difficulty": 1,
+      "num_apps": 1,
+      "num_apis": 7,
+      "num_api_calls_reference": 7,
+      "num_solution_code_lines": 14,
+      "n_call_sites": 7,
+      "max_substantive_span": 2,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Add all the songs from Lily Moon that have been played over 980 times to my Spotify player queue."
+    },
+    {
+      "task_id": "3ab5b8b_1",
+      "scenario_id": "3ab5b8b",
+      "required_apps": [
+        "spotify"
+      ],
+      "app_signature": "spotify",
+      "difficulty": 1,
+      "num_apps": 1,
+      "num_apis": 7,
+      "num_api_calls_reference": 46,
+      "num_solution_code_lines": 28,
+      "n_call_sites": 7,
+      "max_substantive_span": 2,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Download all the songs from my Spotify playlists that I have liked."
+    },
+    {
+      "task_id": "4fab96f_2",
+      "scenario_id": "4fab96f",
+      "required_apps": [
+        "phone",
+        "venmo"
+      ],
+      "app_signature": "phone+venmo",
+      "difficulty": 2,
+      "num_apps": 2,
+      "num_apis": 8,
+      "num_api_calls_reference": 41,
+      "num_solution_code_lines": 41,
+      "n_call_sites": 8,
+      "max_substantive_span": 3,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Send a reminder on Venmo for all my payment requests to my coworkers which have not been approved or denied for 40 or more days."
+    },
+    {
+      "task_id": "50e1ac9_1",
+      "scenario_id": "50e1ac9",
+      "required_apps": [
+        "spotify"
+      ],
+      "app_signature": "spotify",
+      "difficulty": 2,
+      "num_apps": 1,
+      "num_apis": 10,
+      "num_api_calls_reference": 132,
+      "num_solution_code_lines": 51,
+      "n_call_sites": 12,
+      "max_substantive_span": 8,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Give me a comma-separated list of top 4 most played r&b song titles from across my Spotify song, album and playlist libraries."
+    },
+    {
+      "task_id": "530b157_2",
+      "scenario_id": "530b157",
+      "required_apps": [
+        "phone",
+        "venmo"
+      ],
+      "app_signature": "phone+venmo",
+      "difficulty": 3,
+      "num_apps": 2,
+      "num_apis": 9,
+      "num_api_calls_reference": 18,
+      "num_solution_code_lines": 47,
+      "n_call_sites": 9,
+      "max_substantive_span": 4,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Joseph paid for my grocery recently as my payment cards were not working at the time. Send them the owed money with a description note \"Grocery Bill\" as per my phone text conversation, and then send them a phone text message, \"Done.\"."
+    },
+    {
+      "task_id": "68ee2c9_1",
+      "scenario_id": "68ee2c9",
+      "required_apps": [
+        "file_system"
+      ],
+      "app_signature": "file_system",
+      "difficulty": 1,
+      "num_apps": 1,
+      "num_apis": 7,
+      "num_api_calls_reference": 205,
+      "num_solution_code_lines": 31,
+      "n_call_sites": 8,
+      "max_substantive_span": 3,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "In my file system, add the prefix \"YYYY-MM-DD_\" to all file names in the ~/downloads/ directory, based on their creation dates, and then move all files not from this year to ~/trash/."
+    },
+    {
+      "task_id": "6bdbc26_3",
+      "scenario_id": "6bdbc26",
+      "required_apps": [
+        "spotify"
+      ],
+      "app_signature": "spotify",
+      "difficulty": 1,
+      "num_apps": 1,
+      "num_apis": 6,
+      "num_api_calls_reference": 6,
+      "num_solution_code_lines": 13,
+      "n_call_sites": 6,
+      "max_substantive_span": 2,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "How many people follow the artist of the currently playing song on Spotify?"
+    },
+    {
+      "task_id": "6c2c621_3",
+      "scenario_id": "6c2c621",
+      "required_apps": [
+        "file_system",
+        "simple_note"
+      ],
+      "app_signature": "file_system+simple_note",
+      "difficulty": 2,
+      "num_apps": 2,
+      "num_apis": 8,
+      "num_api_calls_reference": 91,
+      "num_solution_code_lines": 29,
+      "n_call_sites": 8,
+      "max_substantive_span": 3,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Export all my Simple Note notes to \"~/backups/simple_notes/\" directory in my file system. The files should be named according to the note title, replacing white space with \"_\", and the extension should be \".md\"."
+    },
+    {
+      "task_id": "b119b1f_1",
+      "scenario_id": "b119b1f",
+      "required_apps": [
+        "spotify"
+      ],
+      "app_signature": "spotify",
+      "difficulty": 2,
+      "num_apps": 1,
+      "num_apis": 7,
+      "num_api_calls_reference": 13,
+      "num_solution_code_lines": 16,
+      "n_call_sites": 7,
+      "max_substantive_span": 0,
+      "dependency_class": "MULTI-STEP BUT SELF-CONTAINED",
+      "instruction": "Keep going to the previous song on Spotify until you reach a song by Luna Starlight."
+    },
+    {
+      "task_id": "d4e9306_2",
+      "scenario_id": "d4e9306",
+      "required_apps": [
+        "spotify"
+      ],
+      "app_signature": "spotify",
+      "difficulty": 1,
+      "num_apps": 1,
+      "num_apis": 9,
+      "num_api_calls_reference": 71,
+      "num_solution_code_lines": 30,
+      "n_call_sites": 9,
+      "max_substantive_span": 4,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Follow artists of all the songs and albums I have ever liked on Spotify."
+    },
+    {
+      "task_id": "df61dc5_2",
+      "scenario_id": "df61dc5",
+      "required_apps": [
+        "phone",
+        "venmo"
+      ],
+      "app_signature": "phone+venmo",
+      "difficulty": 1,
+      "num_apps": 2,
+      "num_apis": 8,
+      "num_api_calls_reference": 129,
+      "num_solution_code_lines": 39,
+      "n_call_sites": 8,
+      "max_substantive_span": 3,
+      "dependency_class": "LONG-HORIZON PAST-OBSERVATION DEPENDENT",
+      "instruction": "Like all the venmo transactions of the ongoing month to and from my friends."
+    }
+  ],
+  "summary": {
+    "by_app_signature": {
+      "phone+venmo": 6,
+      "venmo": 1,
+      "spotify": 6,
+      "file_system": 1,
+      "file_system+simple_note": 1
+    },
+    "by_dependency_class": {
+      "LONG-HORIZON PAST-OBSERVATION DEPENDENT": 13,
+      "MULTI-STEP BUT SELF-CONTAINED": 2
+    },
+    "by_difficulty": {
+      "2": 6,
+      "1": 8,
+      "3": 1
+    }
+  }
+}

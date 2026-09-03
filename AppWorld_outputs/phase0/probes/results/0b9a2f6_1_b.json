@@ -1,0 +1,6 @@
+{
+  "task_id": "0b9a2f6_1",
+  "protocol": "b",
+  "fatal_error": "Exception: The task directory (/home/aristella/recoverappworld/AppWorld_outputs/environment/appworld_root/data/tasks/0b9a2f6_1) doesn't exist.",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 199, in main\n    result = protocol_b(task_id, reference)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/AppWorld_outputs/phase0/probes/state_restore_probe.py\", line 159, in protocol_b\n    world = AppWorld(task_id=task_id, experiment_name=EXPERIMENT)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/environment.py\", line 652, in __init__\n    self.task = Task.load(\n                ^^^^^^^^^^\n  File \"/home/aristella/recoverappworld/appworld/src/appworld/task.py\", line 108, in load\n    raise Exception(f\"The task directory ({task_directory}) doesn't exist.\")\nException: The task directory (/home/aristella/recoverappworld/AppWorld_outputs/environment/appworld_root/data/tasks/0b9a2f6_1) doesn't exist.\n"
+}

@@ -1,0 +1,7 @@
+[00] look_at_obj_in_light             rank0=1 target=2 next={'action': 'take', 'param': 'mug'} success=False steps=20 replay_ok=True
+[04] pick_clean_then_place_in_recep   rank0=1 target=2 next={'action': 'take', 'param': 'soapbar'} success=False steps=20 replay_ok=True
+[06] pick_clean_then_place_in_recep   rank0=1 target=2 next={'action': 'take', 'param': 'soapbar'} success=False steps=20 replay_ok=True
+[10] pick_cool_then_place_in_recep    rank0=1 target=2 next={'action': 'take', 'param': 'mug'} success=False steps=20 replay_ok=True
+[13] pick_clean_then_place_in_recep   rank0=1 target=2 next={'action': 'take', 'param': 'bowl'} success=False steps=20 replay_ok=True
+
+B = 0/5 -> FAIL_SUFFIX_COMPETENCE

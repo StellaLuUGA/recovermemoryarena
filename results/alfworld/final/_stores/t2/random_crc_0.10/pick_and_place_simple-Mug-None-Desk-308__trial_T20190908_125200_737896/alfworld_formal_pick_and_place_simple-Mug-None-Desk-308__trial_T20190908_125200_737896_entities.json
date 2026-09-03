@@ -1,0 +1,33 @@
+{
+  "docstore": {
+    "788de13a-cfb6-455e-971b-46d1b7e8ef51": {
+      "data": "alarm clock",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "29d7b532-2d94-43e5-98d0-cacbb224a06c"
+      ],
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896"
+    },
+    "ca5ee374-ff65-4457-9dc2-fb6034e4acac": {
+      "data": "desk lamp",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "29d7b532-2d94-43e5-98d0-cacbb224a06c"
+      ],
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896"
+    },
+    "ad8b4ac2-7f91-482c-aa55-df2175786d7a": {
+      "data": "credit card",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0724f360-4a95-4e6d-9970-a1a76cfba7fc"
+      ],
+      "user_id": "pick_and_place_simple-Mug-None-Desk-308__trial_T20190908_125200_737896"
+    }
+  },
+  "index_to_id": {
+    "0": "788de13a-cfb6-455e-971b-46d1b7e8ef51",
+    "1": "ca5ee374-ff65-4457-9dc2-fb6034e4acac",
+    "2": "ad8b4ac2-7f91-482c-aa55-df2175786d7a"
+  }
+}

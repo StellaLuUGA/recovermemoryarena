@@ -1,0 +1,75 @@
+{
+  "diagnostics": {
+    "split": "predictor_train",
+    "n_episodes_total": 16,
+    "n_episodes_nonempty": 7,
+    "n_episodes_empty": 9,
+    "empty_episode_ids": [
+      "pick_two_obj_and_place-KeyChain-None-Safe-219__trial_T20190909_011803_423115",
+      "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+      "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+      "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+      "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113523_123938",
+      "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113610_425142",
+      "pick_cool_then_place_in_recep-Potato-None-Microwave-10__trial_T20190907_033228_194678",
+      "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972"
+    ],
+    "n_controlled_decisions": 36,
+    "mean_controlled_states_per_nonempty_episode": 5.143,
+    "r_mem_prevalence_decision": 0.9444,
+    "r_rec_prevalence_decision": 0.9722,
+    "r_mem_prevalence_episode_weighted": 0.9439,
+    "joint_cells": {
+      "00": 1,
+      "01": 1,
+      "10": 0,
+      "11": 34
+    },
+    "history_tokens": {
+      "n": 36,
+      "min": 179,
+      "q05": 197.5,
+      "median": 503.5,
+      "mean": 495.9,
+      "q75": 578.5,
+      "q90": 737.5,
+      "q95": 881.8,
+      "max": 1060
+    },
+    "common_state_tokens": {
+      "n": 36,
+      "min": 158,
+      "q05": 164.0,
+      "median": 245.5,
+      "mean": 230.1,
+      "q75": 261.2,
+      "q90": 279.5,
+      "q95": 285.8,
+      "max": 409
+    },
+    "e_mem_tokens": {
+      "n": 36,
+      "min": 43,
+      "q05": 49.8,
+      "median": 235.5,
+      "mean": 207.3,
+      "q75": 276.5,
+      "q90": 349.0,
+      "q95": 399.8,
+      "max": 501
+    },
+    "e_rec_tokens": {
+      "n": 36,
+      "min": 189,
+      "q05": 213.5,
+      "median": 506.0,
+      "mean": 438.7,
+      "q75": 509.2,
+      "q90": 512.0,
+      "q95": 512.0,
+      "max": 512
+    }
+  },
+  "excluded": []
+}

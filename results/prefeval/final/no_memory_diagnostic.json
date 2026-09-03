@@ -1,0 +1,265 @@
+{
+  "purpose": "quantify task shortcuts and actual memory contribution; NOT used for training, calibration, R_mem or thresholds",
+  "n_final_test_units": 24,
+  "answerer": "llama-3.1-8b-instruct-local",
+  "temperature": 0.0,
+  "evidence": "none (query + shuffled options only)",
+  "identical_to_routes": {
+    "answerer": true,
+    "option_ordering": true,
+    "prompt_formatting": true,
+    "tokenizer": true,
+    "temperature": true,
+    "parser": true
+  },
+  "no_memory_accuracy": 0.3333333333333333,
+  "final_test_longest_option_accuracy": 0.5416666666666666,
+  "random_choice_baseline": 0.25,
+  "global_longest_option_heuristic": 0.446,
+  "memory_route_accuracy": 0.4166666666666667,
+  "recovery_route_accuracy": 0.625,
+  "parse_failures": 0,
+  "runtime_s": 2.0920059168711305,
+  "per_instance": [
+    {
+      "pair_id": "entertain_games#040",
+      "gold": "A",
+      "choice": "C",
+      "correct": 0,
+      "completion": " C </choice>",
+      "prompt_tokens": 267,
+      "longest_option_letter": "A",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "shop_motors#002",
+      "gold": "B",
+      "choice": "A",
+      "correct": 0,
+      "completion": " A </choice>",
+      "prompt_tokens": 278,
+      "longest_option_letter": "D",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "education_learning_styles#009",
+      "gold": "B",
+      "choice": "A",
+      "correct": 0,
+      "completion": " A </choice>",
+      "prompt_tokens": 263,
+      "longest_option_letter": "B",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "shop_home#053",
+      "gold": "A",
+      "choice": "A",
+      "correct": 1,
+      "completion": " A </choice>",
+      "prompt_tokens": 251,
+      "longest_option_letter": "A",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "travel_restaurant#023",
+      "gold": "C",
+      "choice": "C",
+      "correct": 1,
+      "completion": " C </choice>",
+      "prompt_tokens": 267,
+      "longest_option_letter": "D",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "lifestyle_dietary#028",
+      "gold": "D",
+      "choice": "B",
+      "correct": 0,
+      "completion": " B </choice>",
+      "prompt_tokens": 278,
+      "longest_option_letter": "D",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "lifestyle_beauty#021",
+      "gold": "A",
+      "choice": "A",
+      "correct": 1,
+      "completion": " A </choice>",
+      "prompt_tokens": 267,
+      "longest_option_letter": "A",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "education_learning_styles#006",
+      "gold": "A",
+      "choice": "A",
+      "correct": 1,
+      "completion": " A </choice>",
+      "prompt_tokens": 264,
+      "longest_option_letter": "A",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "entertain_sports#040",
+      "gold": "C",
+      "choice": "A",
+      "correct": 0,
+      "completion": " A </choice>",
+      "prompt_tokens": 244,
+      "longest_option_letter": "C",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "lifestyle_dietary#030",
+      "gold": "B",
+      "choice": "D",
+      "correct": 0,
+      "completion": " D </choice>",
+      "prompt_tokens": 252,
+      "longest_option_letter": "B",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "travel_transportation#011",
+      "gold": "C",
+      "choice": "B",
+      "correct": 0,
+      "completion": " B </choice>",
+      "prompt_tokens": 262,
+      "longest_option_letter": "B",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "shop_motors#027",
+      "gold": "A",
+      "choice": "D",
+      "correct": 0,
+      "completion": " D </choice>",
+      "prompt_tokens": 245,
+      "longest_option_letter": "A",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "entertain_sports#004",
+      "gold": "C",
+      "choice": "A",
+      "correct": 0,
+      "completion": " A </choice>",
+      "prompt_tokens": 249,
+      "longest_option_letter": "C",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "shop_home#047",
+      "gold": "B",
+      "choice": "B",
+      "correct": 1,
+      "completion": " B </choice>",
+      "prompt_tokens": 274,
+      "longest_option_letter": "D",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "entertain_shows#017",
+      "gold": "C",
+      "choice": "B",
+      "correct": 0,
+      "completion": " B </choice>",
+      "prompt_tokens": 267,
+      "longest_option_letter": "D",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "travel_activities#000",
+      "gold": "D",
+      "choice": "D",
+      "correct": 1,
+      "completion": " D </choice>",
+      "prompt_tokens": 260,
+      "longest_option_letter": "D",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "shop_motors#000",
+      "gold": "D",
+      "choice": "A",
+      "correct": 0,
+      "completion": " A </choice>",
+      "prompt_tokens": 270,
+      "longest_option_letter": "B",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "travel_activities#008",
+      "gold": "A",
+      "choice": "C",
+      "correct": 0,
+      "completion": " C </choice>",
+      "prompt_tokens": 256,
+      "longest_option_letter": "C",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "shop_motors#030",
+      "gold": "A",
+      "choice": "A",
+      "correct": 1,
+      "completion": "AB</choice>",
+      "prompt_tokens": 246,
+      "longest_option_letter": "A",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "entertain_music_book#034",
+      "gold": "A",
+      "choice": "C",
+      "correct": 0,
+      "completion": " C </choice>",
+      "prompt_tokens": 291,
+      "longest_option_letter": "C",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "entertain_shows#010",
+      "gold": "A",
+      "choice": "B",
+      "correct": 0,
+      "completion": " B </choice>",
+      "prompt_tokens": 264,
+      "longest_option_letter": "B",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "entertain_games#025",
+      "gold": "D",
+      "choice": "D",
+      "correct": 1,
+      "completion": " D </choice>",
+      "prompt_tokens": 238,
+      "longest_option_letter": "C",
+      "longest_option_correct": 0
+    },
+    {
+      "pair_id": "entertain_sports#044",
+      "gold": "C",
+      "choice": "D",
+      "correct": 0,
+      "completion": " D </choice>",
+      "prompt_tokens": 282,
+      "longest_option_letter": "C",
+      "longest_option_correct": 1
+    },
+    {
+      "pair_id": "travel_activities#048",
+      "gold": "A",
+      "choice": "D",
+      "correct": 0,
+      "completion": " D </choice>",
+      "prompt_tokens": 267,
+      "longest_option_letter": "B",
+      "longest_option_correct": 0
+    }
+  ]
+}

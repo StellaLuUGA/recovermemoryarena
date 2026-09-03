@@ -1,0 +1,5921 @@
+{
+ "32k": {
+  "questions": 589,
+  "unique_question_id": 589,
+  "unique_persona_id": 20,
+  "unique_shared_context_id": 37,
+  "unique_raw_context_sha256": 37,
+  "unique_system_persona_sha256": 20,
+  "contexts_in_jsonl": 37,
+  "contexts_referenced": 37,
+  "unreferenced_extra_contexts": 0,
+  "questions_per_shared_context": {
+   "min": 5,
+   "median": 16.0,
+   "max": 28
+  },
+  "questions_per_persona": {
+   "min": 17,
+   "median": 30.0,
+   "max": 43
+  },
+  "shared_contexts_per_persona": {
+   "min": 1,
+   "median": 2.0,
+   "max": 2
+  },
+  "personas_per_shared_context_max": 1,
+  "one_context_maps_to_multiple_personas": false,
+  "one_persona_maps_to_multiple_contexts": true,
+  "defensible_independent_source_histories": 20,
+  "contexts": {
+   "e898d03fec683b1cabf29f57287ff66f8a31842543ecef44b56766844c1c1301": {
+    "persona_id": 0,
+    "n_questions": 9,
+    "question_types": {
+     "recall_user_shared_facts": 1,
+     "provide_preference_aligned_recommendations": 1,
+     "suggest_new_ideas": 2,
+     "recalling_the_reasons_behind_previous_updates": 2,
+     "track_full_preference_evolution": 3
+    },
+    "topics": [
+     "musicRecommendation"
+    ],
+    "context_tokens": {
+     "min": 23849,
+     "max": 26994
+    },
+    "end_index_values": [
+     159,
+     168,
+     169,
+     171,
+     182
+    ],
+    "n_messages": 183,
+    "raw_context_sha256": "68d10cf4b0cbc83bd5b7263c9eead7728895cec80a3b7eb506f4a9b0bc7aa554",
+    "raw_context_serialized_len": 160771,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "1b0b224347aea71887603d63880b90c8d37b1f58073098513b839209034c2f3b": {
+    "persona_id": 0,
+    "n_questions": 8,
+    "question_types": {
+     "recall_user_shared_facts": 2,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 3,
+     "recalling_the_reasons_behind_previous_updates": 1
+    },
+    "topics": [
+     "musicRecommendation"
+    ],
+    "context_tokens": {
+     "min": 27057,
+     "max": 27080
+    },
+    "end_index_values": [
+     182
+    ],
+    "n_messages": 183,
+    "raw_context_sha256": "fc2b535cb06f4728ac9bcadb1692ad26f2340fb3bda0d7d573aa79de73ab6232",
+    "raw_context_serialized_len": 160771,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "ae5c969c32dafa28ff3f884495f4655de811b061007afaf3307d7b858ff7cfae": {
+    "persona_id": 1,
+    "n_questions": 20,
+    "question_types": {
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 1,
+     "provide_preference_aligned_recommendations": 2,
+     "generalizing_to_new_scenarios": 4,
+     "recalling_the_reasons_behind_previous_updates": 5,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "bookRecommendation"
+    ],
+    "context_tokens": {
+     "min": 22767,
+     "max": 26206
+    },
+    "end_index_values": [
+     145,
+     150,
+     151,
+     155,
+     158,
+     162,
+     163,
+     168,
+     169,
+     170
+    ],
+    "n_messages": 171,
+    "raw_context_sha256": "770639cf2fc1e9f43e1f50cfa0cc3b66fecdbf3bf6eb508923f23e092f4341e4",
+    "raw_context_serialized_len": 152506,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "5c8fb86fe80da5b203e7926407dc3a35f763d32e5891082aaae632210734b5a5": {
+    "persona_id": 1,
+    "n_questions": 15,
+    "question_types": {
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 2,
+     "provide_preference_aligned_recommendations": 2,
+     "generalizing_to_new_scenarios": 6,
+     "recalling_the_reasons_behind_previous_updates": 2
+    },
+    "topics": [
+     "bookRecommendation"
+    ],
+    "context_tokens": {
+     "min": 26033,
+     "max": 26061
+    },
+    "end_index_values": [
+     169
+    ],
+    "n_messages": 170,
+    "raw_context_sha256": "397b4f35ffbfd2a762786c3b2a16fb5e9ffe753b82341fa6747acd42d209818f",
+    "raw_context_serialized_len": 151728,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "aa95cf5880d83a73bb98512a07a64fb873fb24d9dac2bb1862f7c00008632260": {
+    "persona_id": 3,
+    "n_questions": 15,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "provide_preference_aligned_recommendations": 1,
+     "suggest_new_ideas": 1,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "musicRecommendation"
+    ],
+    "context_tokens": {
+     "min": 23024,
+     "max": 25991
+    },
+    "end_index_values": [
+     140,
+     141,
+     144,
+     145,
+     148,
+     149,
+     150,
+     156,
+     157,
+     159
+    ],
+    "n_messages": 160,
+    "raw_context_sha256": "c6c84483ed4f24d19ef67b8c296c7446eb9c26171f57d81ea70c473d6544096b",
+    "raw_context_serialized_len": 151169,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "06f12a0c4085193a32bd1658c5f4b8a5e6e7e1f5221d7169f296130c8d69480d": {
+    "persona_id": 3,
+    "n_questions": 10,
+    "question_types": {
+     "recall_user_shared_facts": 5,
+     "provide_preference_aligned_recommendations": 1,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 1
+    },
+    "topics": [
+     "datingConsultation"
+    ],
+    "context_tokens": {
+     "min": 26861,
+     "max": 26888
+    },
+    "end_index_values": [
+     194
+    ],
+    "n_messages": 195,
+    "raw_context_sha256": "2ae52cb1c393a57f7402fc9a355cc704c33dd320d61f5fdf2531febb55c82daf",
+    "raw_context_serialized_len": 155953,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "8c336cac503ae78c7fe58a6aef0965963041cd579d1a885db4709293b1853829": {
+    "persona_id": 6,
+    "n_questions": 16,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "suggest_new_ideas": 1,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "medicalConsultation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 24271,
+     "max": 27229
+    },
+    "end_index_values": [
+     193,
+     194,
+     195,
+     196,
+     197,
+     199,
+     201,
+     203,
+     204,
+     211,
+     212
+    ],
+    "n_messages": 213,
+    "raw_context_sha256": "48a8a51943fb87d8411cacc1d5cf057e9fa458946aa9ebb4559abe89738923c9",
+    "raw_context_serialized_len": 164013,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "ad5320ec1416e1e17665cee3d166d459ee29357af2a08f63131443bacc85931a": {
+    "persona_id": 6,
+    "n_questions": 11,
+    "question_types": {
+     "recall_user_shared_facts": 6,
+     "suggest_new_ideas": 3,
+     "provide_preference_aligned_recommendations": 2
+    },
+    "topics": [
+     "datingConsultation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 26258,
+     "max": 26277
+    },
+    "end_index_values": [
+     211
+    ],
+    "n_messages": 212,
+    "raw_context_sha256": "b496283d7579a9423c8645a7c3b1565aa85499887e5c5d36c725ec4e0ccc4738",
+    "raw_context_serialized_len": 157076,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "a9f46aff0bd886c1e45562554ffc4d67fcee974f8cdcd41611e465971692a6f5": {
+    "persona_id": 7,
+    "n_questions": 20,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "generalizing_to_new_scenarios": 3,
+     "recalling_the_reasons_behind_previous_updates": 5,
+     "suggest_new_ideas": 2,
+     "recall_user_shared_facts": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "foodRecommendation"
+    ],
+    "context_tokens": {
+     "min": 23499,
+     "max": 25710
+    },
+    "end_index_values": [
+     151,
+     152,
+     153,
+     155,
+     160,
+     161,
+     164,
+     165,
+     167
+    ],
+    "n_messages": 168,
+    "raw_context_sha256": "86f5a3d1954c0bb394e9083d83cae5e43d86a0a99af6da0ec8a3f6ebfbebc3d3",
+    "raw_context_serialized_len": 150092,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "cf26537544446b92554000ab50a3c44983a1e0b3de21e9923099792f103d84ef": {
+    "persona_id": 7,
+    "n_questions": 18,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "generalizing_to_new_scenarios": 3,
+     "recalling_the_reasons_behind_previous_updates": 5,
+     "suggest_new_ideas": 2,
+     "recall_user_shared_facts": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation"
+    ],
+    "context_tokens": {
+     "min": 22967,
+     "max": 25178
+    },
+    "end_index_values": [
+     144,
+     145,
+     146,
+     148,
+     153,
+     154,
+     157,
+     158,
+     160
+    ],
+    "n_messages": 161,
+    "raw_context_sha256": "9e7bc7c3b632c6981896a1f15b05e2e0e5c8dcac07800fffa832621139f57beb",
+    "raw_context_serialized_len": 148874,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "5c00a991550b5222efae1b357a4ab788855512ca85edcf467bab7a2816abd852": {
+    "persona_id": 8,
+    "n_questions": 16,
+    "question_types": {
+     "recall_user_shared_facts": 2,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "datingConsultation"
+    ],
+    "context_tokens": {
+     "min": 24662,
+     "max": 27504
+    },
+    "end_index_values": [
+     193,
+     194,
+     197,
+     198,
+     199,
+     203,
+     204,
+     211
+    ],
+    "n_messages": 212,
+    "raw_context_sha256": "ff5fe8b8fa3365e62c2b40004921aff795c5b9aecb76e48c3e2d553bc7ed32dc",
+    "raw_context_serialized_len": 159941,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "3cc19ddf369632cd2b14888f59d787245be29268ed480ccb6b2bd5df8ef8f95b": {
+    "persona_id": 8,
+    "n_questions": 16,
+    "question_types": {
+     "recall_user_shared_facts": 2,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "datingConsultation"
+    ],
+    "context_tokens": {
+     "min": 22281,
+     "max": 25123
+    },
+    "end_index_values": [
+     145,
+     146,
+     149,
+     150,
+     151,
+     155,
+     156,
+     163
+    ],
+    "n_messages": 164,
+    "raw_context_sha256": "5696063feddb8d63e946b73e6b1a4cdd18e8635c3bd694623c951fd53d4a69bd",
+    "raw_context_serialized_len": 147823,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "6546821cd2f05f8df39d4b987545f71420fe48c2d7282230d1a92c7a77037893": {
+    "persona_id": 9,
+    "n_questions": 23,
+    "question_types": {
+     "recall_user_shared_facts": 6,
+     "provide_preference_aligned_recommendations": 3,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "homeDecoration",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 21002,
+     "max": 23642
+    },
+    "end_index_values": [
+     131,
+     132,
+     135,
+     137,
+     141,
+     142,
+     145,
+     147,
+     150
+    ],
+    "n_messages": 151,
+    "raw_context_sha256": "43c4c816d9cd873e7d026b31c3408d43d02eca71fb2efa77e1070daeaf5ace2c",
+    "raw_context_serialized_len": 138561,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "28249d3fb6f594de0bf9a6708d5eb4ea140c4f157ffbf51dfeeb413452ef0291": {
+    "persona_id": 9,
+    "n_questions": 17,
+    "question_types": {
+     "recall_user_shared_facts": 6,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 4,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 2,
+     "recalling_facts_mentioned_by_the_user": 1
+    },
+    "topics": [
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 23602,
+     "max": 23632
+    },
+    "end_index_values": [
+     150
+    ],
+    "n_messages": 151,
+    "raw_context_sha256": "edb3444ff383ef1dc3b8983968fd3e9782ecd7fd8be342f81653b2eb3bf9c239",
+    "raw_context_serialized_len": 138561,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "7797915581c01170c2a46616041687c09d59240b417898659034cd31cdc8cebf": {
+    "persona_id": 10,
+    "n_questions": 21,
+    "question_types": {
+     "recall_user_shared_facts": 5,
+     "suggest_new_ideas": 3,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "provide_preference_aligned_recommendations": 1,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 24934,
+     "max": 28392
+    },
+    "end_index_values": [
+     164,
+     165,
+     170,
+     173,
+     174,
+     178,
+     179,
+     184,
+     185,
+     188
+    ],
+    "n_messages": 189,
+    "raw_context_sha256": "93d34c8c47975fe34ce1e33df4f0f2018752d08509e93963694d2ea78bdba8d0",
+    "raw_context_serialized_len": 168285,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "b4127adbc8c10f9343857e4f6c3f6b5d9324402871319e13f3c2420ca764809b": {
+    "persona_id": 10,
+    "n_questions": 12,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 5,
+     "recall_user_shared_facts": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "generalizing_to_new_scenarios": 1
+    },
+    "topics": [
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 23297,
+     "max": 23314
+    },
+    "end_index_values": [
+     154
+    ],
+    "n_messages": 155,
+    "raw_context_sha256": "01d2d2022cf5ea0f433be576beb186030b1988c6a1f626560e9c257439349a84",
+    "raw_context_serialized_len": 137288,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "a44f332994eedfff13f2c4870ee7e7da35a682625f25b789a5beccde572f5f0b": {
+    "persona_id": 13,
+    "n_questions": 19,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "suggest_new_ideas": 3,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 22361,
+     "max": 25983
+    },
+    "end_index_values": [
+     143,
+     146,
+     147,
+     153,
+     154,
+     158,
+     160,
+     166,
+     170
+    ],
+    "n_messages": 171,
+    "raw_context_sha256": "255668f2fc3fe2b18c584a3ed59ed06915ecd2215485ecf4b3d6c4a113fc405b",
+    "raw_context_serialized_len": 152763,
+    "system_persona_sha256": "c0a309052f57262d27efc6269555a1eefa93d24d2ab1ebd417b5e99282f33ec2"
+   },
+   "f56dc82b80270d4a2d45ddff57844726783aa968c7ede0114de9894b782c8ac9": {
+    "persona_id": 13,
+    "n_questions": 17,
+    "question_types": {
+     "recall_user_shared_facts": 6,
+     "suggest_new_ideas": 4,
+     "generalizing_to_new_scenarios": 3,
+     "recalling_the_reasons_behind_previous_updates": 2,
+     "provide_preference_aligned_recommendations": 1,
+     "recalling_facts_mentioned_by_the_user": 1
+    },
+    "topics": [
+     "financialConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 28592,
+     "max": 28615
+    },
+    "end_index_values": [
+     236
+    ],
+    "n_messages": 237,
+    "raw_context_sha256": "f8537b2a3b6f833aa289da081087af4753ea70339497f3c9e360262b89aaacfd",
+    "raw_context_serialized_len": 168464,
+    "system_persona_sha256": "c0a309052f57262d27efc6269555a1eefa93d24d2ab1ebd417b5e99282f33ec2"
+   },
+   "5f9be905f1374d0906caf04903eebe4f027af9d3d36acd2fef957928864bd8e6": {
+    "persona_id": 15,
+    "n_questions": 14,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "financialConsultation"
+    ],
+    "context_tokens": {
+     "min": 18321,
+     "max": 21467
+    },
+    "end_index_values": [
+     129,
+     130,
+     133,
+     135,
+     136,
+     139,
+     141,
+     142,
+     150
+    ],
+    "n_messages": 151,
+    "raw_context_sha256": "b757aa0e1d49fc9b79a323af001eae145c6ad3f8ae87f2f351b48d372bf1bc17",
+    "raw_context_serialized_len": 129406,
+    "system_persona_sha256": "e1aae2757d732561113f782fcfe8ec98d353eca4a467f560f8ed785f3d5dadb3"
+   },
+   "98d9b178256013b02fc07fa1bf558117907a33092519997fd1605074184e6708": {
+    "persona_id": 15,
+    "n_questions": 9,
+    "question_types": {
+     "recall_user_shared_facts": 5,
+     "provide_preference_aligned_recommendations": 2,
+     "generalizing_to_new_scenarios": 1,
+     "suggest_new_ideas": 1
+    },
+    "topics": [
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 23939,
+     "max": 23977
+    },
+    "end_index_values": [
+     159
+    ],
+    "n_messages": 160,
+    "raw_context_sha256": "01d10ab6ba486020f9c4e049c086b3ab95779248ec6dbc2d0926d57a66d2c6dc",
+    "raw_context_serialized_len": 142789,
+    "system_persona_sha256": "e1aae2757d732561113f782fcfe8ec98d353eca4a467f560f8ed785f3d5dadb3"
+   },
+   "1ee4be06b43a991eeb7c78772fdf2a1b795f46f336b5fc46a5c711d07cc1c052": {
+    "persona_id": 17,
+    "n_questions": 19,
+    "question_types": {
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 2,
+     "provide_preference_aligned_recommendations": 1,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "track_full_preference_evolution": 10
+    },
+    "topics": [
+     "bookRecommendation"
+    ],
+    "context_tokens": {
+     "min": 15765,
+     "max": 18733
+    },
+    "end_index_values": [
+     96,
+     97,
+     99,
+     101,
+     103,
+     105,
+     107,
+     109,
+     111,
+     113,
+     115,
+     116
+    ],
+    "n_messages": 117,
+    "raw_context_sha256": "628acd0a342230c3e4abe4e1dbb0dfec76ecde4db87cd587e5893ec2a1a1c20a",
+    "raw_context_serialized_len": 111167,
+    "system_persona_sha256": "ed1a290b2fa0c88ca5fb2ac0a21384453b98c88993afb24c7ad96057761a432f"
+   },
+   "40027b883505bfc53148a5b86c418f9374c3bdd49ebd5160d8f6901cfca51d06": {
+    "persona_id": 17,
+    "n_questions": 16,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "suggest_new_ideas": 3,
+     "provide_preference_aligned_recommendations": 1,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 2,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 26592,
+     "max": 29165
+    },
+    "end_index_values": [
+     163,
+     165,
+     167,
+     169,
+     180
+    ],
+    "n_messages": 181,
+    "raw_context_sha256": "31d6ed84fc9281f18d71088622c2146959539105646b7de27e8008908d966484",
+    "raw_context_serialized_len": 172605,
+    "system_persona_sha256": "ed1a290b2fa0c88ca5fb2ac0a21384453b98c88993afb24c7ad96057761a432f"
+   },
+   "246eaab75dc40bee43ca87c3eddd4b5b9e229e3f1481cc72c6d44b62f985560e": {
+    "persona_id": 18,
+    "n_questions": 18,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 2,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "musicRecommendation"
+    ],
+    "context_tokens": {
+     "min": 23021,
+     "max": 26106
+    },
+    "end_index_values": [
+     164,
+     165,
+     168,
+     184,
+     185
+    ],
+    "n_messages": 186,
+    "raw_context_sha256": "2779b7ff404641a58ec36edf8798f46df109358d2bbdf65589a8b5628be42138",
+    "raw_context_serialized_len": 153866,
+    "system_persona_sha256": "34200a0f838b4dc3b7231a0f84fd445c51980a3c285b1c9db1277cd5ca16ec6d"
+   },
+   "4b3812acb9161991c5abf24d8f4005c6819ddca7b75883b8850ec4ccd1b7f353": {
+    "persona_id": 19,
+    "n_questions": 15,
+    "question_types": {
+     "recalling_facts_mentioned_by_the_user": 1,
+     "provide_preference_aligned_recommendations": 3,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 1,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "financialConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 21654,
+     "max": 23948
+    },
+    "end_index_values": [
+     137,
+     141,
+     149,
+     150,
+     151,
+     152
+    ],
+    "n_messages": 153,
+    "raw_context_sha256": "2964d99b4fc6ccb487830822e44ba536a6e7054ab5a920036d8e592c9c1e9dec",
+    "raw_context_serialized_len": 141857,
+    "system_persona_sha256": "1cca62358dc92014019b0afc775863a793b2a74adbbbb1fb66f8fc4b802e2086"
+   },
+   "947ec42fcf5d327ccb9640332b5fabe4b7a25acc46be08b925861fa0c6e8eaf0": {
+    "persona_id": 19,
+    "n_questions": 12,
+    "question_types": {
+     "recalling_facts_mentioned_by_the_user": 1,
+     "provide_preference_aligned_recommendations": 2,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 3,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 1
+    },
+    "topics": [
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 23888,
+     "max": 23909
+    },
+    "end_index_values": [
+     152
+    ],
+    "n_messages": 153,
+    "raw_context_sha256": "0556cabca2a2810609066adb20b61b0b7c39ebaa1b819f8fcf773327e156a39b",
+    "raw_context_serialized_len": 141857,
+    "system_persona_sha256": "1cca62358dc92014019b0afc775863a793b2a74adbbbb1fb66f8fc4b802e2086"
+   },
+   "1621543a17bd464feaf4ba73d83d579d0160987536bde8725ac29131ecf235c3": {
+    "persona_id": 2,
+    "n_questions": 28,
+    "question_types": {
+     "recall_user_shared_facts": 6,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 4,
+     "recalling_the_reasons_behind_previous_updates": 6,
+     "track_full_preference_evolution": 10
+    },
+    "topics": [
+     "financialConsultation"
+    ],
+    "context_tokens": {
+     "min": 16191,
+     "max": 19265
+    },
+    "end_index_values": [
+     106,
+     108,
+     112,
+     113,
+     119,
+     123,
+     124,
+     126
+    ],
+    "n_messages": 127,
+    "raw_context_sha256": "c823979297fa855ba8da533d8f3e4b6311e6e4be64c0540d5046c7be82a4c6ea",
+    "raw_context_serialized_len": 118561,
+    "system_persona_sha256": "826712d99d119d4e269d09c5bd6422aacd61c80e170d4d8b254d31ee6165a0cb"
+   },
+   "ea6147f6dc11130b410e00146e314d9370b7fff04f994639c4a3d46ce1255e64": {
+    "persona_id": 4,
+    "n_questions": 26,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 2,
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 6,
+     "recalling_facts_mentioned_by_the_user": 2,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "track_full_preference_evolution": 8
+    },
+    "topics": [
+     "financialConsultation"
+    ],
+    "context_tokens": {
+     "min": 15560,
+     "max": 18127
+    },
+    "end_index_values": [
+     98,
+     104,
+     105,
+     108,
+     110,
+     115
+    ],
+    "n_messages": 116,
+    "raw_context_sha256": "e88cbb1ae9eb664e7b59e375140e0714836b2790c87821eb65d237cf1b544b56",
+    "raw_context_serialized_len": 112538,
+    "system_persona_sha256": "2d93f49a7790097262fceb99af83422bb69e209d98f9d4588677820fd7700a2a"
+   },
+   "19032c09f22266d8977a072d72d169ee109508c4362e5bf5d9ac630dddb573c6": {
+    "persona_id": 5,
+    "n_questions": 16,
+    "question_types": {
+     "recall_user_shared_facts": 1,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "familyRelations"
+    ],
+    "context_tokens": {
+     "min": 25570,
+     "max": 28681
+    },
+    "end_index_values": [
+     181,
+     183,
+     184,
+     188,
+     189,
+     192,
+     193,
+     199,
+     204
+    ],
+    "n_messages": 205,
+    "raw_context_sha256": "c5440e90451717b23a92df9a613e6cc3fd6d851bacedcb7cf1a28a193b6ce236",
+    "raw_context_serialized_len": 171074,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "bc7411051b57e9cd98f3a7861f5215815b6212013d05ad447915ce8442b92845": {
+    "persona_id": 5,
+    "n_questions": 16,
+    "question_types": {
+     "recall_user_shared_facts": 1,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "familyRelations"
+    ],
+    "context_tokens": {
+     "min": 25570,
+     "max": 28681
+    },
+    "end_index_values": [
+     181,
+     183,
+     184,
+     188,
+     189,
+     192,
+     193,
+     199,
+     204
+    ],
+    "n_messages": 205,
+    "raw_context_sha256": "11ba8f3d5548a1523b691de271c7c381e87b4275545165c0472d9037e53a3dc7",
+    "raw_context_serialized_len": 171074,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "7860e54f4cee5267176f112e951a7796b199e833227c43426272c210d2f1bf42": {
+    "persona_id": 11,
+    "n_questions": 21,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "recall_user_shared_facts": 6,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 4,
+     "suggest_new_ideas": 3,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 24769,
+     "max": 27780
+    },
+    "end_index_values": [
+     160,
+     161,
+     164,
+     165,
+     168,
+     170,
+     174,
+     178,
+     179
+    ],
+    "n_messages": 180,
+    "raw_context_sha256": "af0c9d2458d8aa55fb853a5d0474d30894bcbbf22c39ba513b6ef61e5756e015",
+    "raw_context_serialized_len": 165083,
+    "system_persona_sha256": "0e642271ea1c220750dd8d527ab2e8346026f9307d4d8322ff7c2ac8489bca31"
+   },
+   "87fcbc7f2659effa29e8588b521c937634a53fcc516ee1ca85eeddfe8190708a": {
+    "persona_id": 11,
+    "n_questions": 12,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "recall_user_shared_facts": 4,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 1,
+     "suggest_new_ideas": 5
+    },
+    "topics": [
+     "legalConsultation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 29515,
+     "max": 29539
+    },
+    "end_index_values": [
+     189
+    ],
+    "n_messages": 190,
+    "raw_context_sha256": "ed730c6fa2f43e1a34d078db77707116c365cea35db31888de97a9ebe3570df6",
+    "raw_context_serialized_len": 171982,
+    "system_persona_sha256": "0e642271ea1c220750dd8d527ab2e8346026f9307d4d8322ff7c2ac8489bca31"
+   },
+   "ff31ea4f6e893e623d262de49b003f3a833571df525d7468689a4d6365f5f688": {
+    "persona_id": 14,
+    "n_questions": 13,
+    "question_types": {
+     "recalling_facts_mentioned_by_the_user": 1,
+     "provide_preference_aligned_recommendations": 1,
+     "suggest_new_ideas": 2,
+     "generalizing_to_new_scenarios": 1,
+     "recall_user_shared_facts": 1,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "movieRecommendation",
+     "musicRecommendation"
+    ],
+    "context_tokens": {
+     "min": 24799,
+     "max": 27428
+    },
+    "end_index_values": [
+     221,
+     225,
+     226,
+     231,
+     232,
+     235,
+     236,
+     237
+    ],
+    "n_messages": 238,
+    "raw_context_sha256": "b877f0711aaa607b2221f704802e203b68c20b9714bfac2e35e1eba711995ad8",
+    "raw_context_serialized_len": 158432,
+    "system_persona_sha256": "3fc96f45600b4c443f80eebc7cd03f6daae46b5352075a16b09973a5736f3f03"
+   },
+   "357073b65588cc3017575f7f4dde34dac5d5e0cd376ac2fc1fb693f216e0878b": {
+    "persona_id": 14,
+    "n_questions": 10,
+    "question_types": {
+     "recalling_facts_mentioned_by_the_user": 1,
+     "provide_preference_aligned_recommendations": 2,
+     "suggest_new_ideas": 3,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 2,
+     "recall_user_shared_facts": 1
+    },
+    "topics": [
+     "musicRecommendation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 29295,
+     "max": 29316
+    },
+    "end_index_values": [
+     183
+    ],
+    "n_messages": 184,
+    "raw_context_sha256": "4d58dfb88c6d3b3b3b0787c0c99a13d7ea12898845c536584735fa91e6807be3",
+    "raw_context_serialized_len": 171632,
+    "system_persona_sha256": "3fc96f45600b4c443f80eebc7cd03f6daae46b5352075a16b09973a5736f3f03"
+   },
+   "793db46bf4b7b99a33af860c6afe583bc9ede18fa80506e6952ccb5a1d01e693": {
+    "persona_id": 16,
+    "n_questions": 13,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "recall_user_shared_facts": 3,
+     "recalling_facts_mentioned_by_the_user": 1,
+     "recalling_the_reasons_behind_previous_updates": 3,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "medicalConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 21394,
+     "max": 23991
+    },
+    "end_index_values": [
+     135,
+     136,
+     139,
+     140,
+     143,
+     145,
+     149,
+     150,
+     152
+    ],
+    "n_messages": 153,
+    "raw_context_sha256": "255ec6ecb807504b5937e56f9fd4c251a41cef497bcae0dbb1f3b1c1ef529ebd",
+    "raw_context_serialized_len": 142262,
+    "system_persona_sha256": "bda18ea4f8ce0629e9a9e7caf24d8d213632b4acd9b50528cb236add085a26b1"
+   },
+   "373af9983d986370903d4202bcbf9c05874f425666e0a84dc0ce80d938342866": {
+    "persona_id": 16,
+    "n_questions": 5,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 2
+    },
+    "topics": [
+     "medicalConsultation"
+    ],
+    "context_tokens": {
+     "min": 23952,
+     "max": 23969
+    },
+    "end_index_values": [
+     152
+    ],
+    "n_messages": 153,
+    "raw_context_sha256": "94cfd9da33f449fdf0de9ce5f867818bdea2981f8f5142b9fbce7a13b4f483d9",
+    "raw_context_serialized_len": 142262,
+    "system_persona_sha256": "bda18ea4f8ce0629e9a9e7caf24d8d213632b4acd9b50528cb236add085a26b1"
+   },
+   "d4a1f9dcaab3b0eb522c4a7e1521a05eed6b02ca443f0ee9331df07306511255": {
+    "persona_id": 12,
+    "n_questions": 24,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 2,
+     "recall_user_shared_facts": 7,
+     "suggest_new_ideas": 4,
+     "generalizing_to_new_scenarios": 1,
+     "recalling_the_reasons_behind_previous_updates": 5,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "legalConsultation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 25612,
+     "max": 28281
+    },
+    "end_index_values": [
+     164,
+     165,
+     166,
+     167,
+     170,
+     171,
+     174,
+     175,
+     178,
+     181
+    ],
+    "n_messages": 182,
+    "raw_context_sha256": "34178c4997e2e4bd455354f14f0fd893217a29a14cc557c0c3de71be12979d4e",
+    "raw_context_serialized_len": 171930,
+    "system_persona_sha256": "fd04b221cdc8d1d9e7c9dee74efce3d6715d8f5d89806c3423b6516c2de64516"
+   },
+   "97c532a381a079396499e11df92f6b69c99bc3ce999e2aff2c81aedea4b4c45d": {
+    "persona_id": 12,
+    "n_questions": 19,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 1,
+     "recall_user_shared_facts": 6,
+     "suggest_new_ideas": 3,
+     "generalizing_to_new_scenarios": 2,
+     "recalling_the_reasons_behind_previous_updates": 1,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "legalConsultation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 25182,
+     "max": 28336
+    },
+    "end_index_values": [
+     158,
+     160,
+     162,
+     168,
+     170,
+     174,
+     181
+    ],
+    "n_messages": 182,
+    "raw_context_sha256": "3ab1f76105d89a151b7239e0eabfd1fdc8231071c26a8e9486cf34adc7860cb7",
+    "raw_context_serialized_len": 171930,
+    "system_persona_sha256": "fd04b221cdc8d1d9e7c9dee74efce3d6715d8f5d89806c3423b6516c2de64516"
+   }
+  },
+  "within_persona_relations": {
+   "0": [
+    {
+     "a": "1b0b224347aea71887603d63880b90c8d37b1f58073098513b839209034c2f3b",
+     "b": "e898d03fec683b1cabf29f57287ff66f8a31842543ecef44b56766844c1c1301",
+     "jaccard_on_messages": 1.0,
+     "relation": "SAME_HISTORY_REORDERING",
+     "same_system_persona": true
+    }
+   ],
+   "1": [
+    {
+     "a": "5c8fb86fe80da5b203e7926407dc3a35f763d32e5891082aaae632210734b5a5",
+     "b": "ae5c969c32dafa28ff3f884495f4655de811b061007afaf3307d7b858ff7cfae",
+     "jaccard_on_messages": 0.5857,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "3": [
+    {
+     "a": "06f12a0c4085193a32bd1658c5f4b8a5e6e7e1f5221d7169f296130c8d69480d",
+     "b": "aa95cf5880d83a73bb98512a07a64fb873fb24d9dac2bb1862f7c00008632260",
+     "jaccard_on_messages": 0.8211,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "6": [
+    {
+     "a": "8c336cac503ae78c7fe58a6aef0965963041cd579d1a885db4709293b1853829",
+     "b": "ad5320ec1416e1e17665cee3d166d459ee29357af2a08f63131443bacc85931a",
+     "jaccard_on_messages": 0.6023,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "7": [
+    {
+     "a": "a9f46aff0bd886c1e45562554ffc4d67fcee974f8cdcd41611e465971692a6f5",
+     "b": "cf26537544446b92554000ab50a3c44983a1e0b3de21e9923099792f103d84ef",
+     "jaccard_on_messages": 0.5311,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "8": [
+    {
+     "a": "3cc19ddf369632cd2b14888f59d787245be29268ed480ccb6b2bd5df8ef8f95b",
+     "b": "5c00a991550b5222efae1b357a4ab788855512ca85edcf467bab7a2816abd852",
+     "jaccard_on_messages": 0.7767,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "9": [
+    {
+     "a": "28249d3fb6f594de0bf9a6708d5eb4ea140c4f157ffbf51dfeeb413452ef0291",
+     "b": "6546821cd2f05f8df39d4b987545f71420fe48c2d7282230d1a92c7a77037893",
+     "jaccard_on_messages": 1.0,
+     "relation": "SAME_HISTORY_REORDERING",
+     "same_system_persona": true
+    }
+   ],
+   "10": [
+    {
+     "a": "7797915581c01170c2a46616041687c09d59240b417898659034cd31cdc8cebf",
+     "b": "b4127adbc8c10f9343857e4f6c3f6b5d9324402871319e13f3c2420ca764809b",
+     "jaccard_on_messages": 0.1468,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "13": [
+    {
+     "a": "a44f332994eedfff13f2c4870ee7e7da35a682625f25b789a5beccde572f5f0b",
+     "b": "f56dc82b80270d4a2d45ddff57844726783aa968c7ede0114de9894b782c8ac9",
+     "jaccard_on_messages": 0.4457,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "15": [
+    {
+     "a": "5f9be905f1374d0906caf04903eebe4f027af9d3d36acd2fef957928864bd8e6",
+     "b": "98d9b178256013b02fc07fa1bf558117907a33092519997fd1605074184e6708",
+     "jaccard_on_messages": 0.0033,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "17": [
+    {
+     "a": "1ee4be06b43a991eeb7c78772fdf2a1b795f46f336b5fc46a5c711d07cc1c052",
+     "b": "40027b883505bfc53148a5b86c418f9374c3bdd49ebd5160d8f6901cfca51d06",
+     "jaccard_on_messages": 0.6477,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "18": [],
+   "19": [
+    {
+     "a": "4b3812acb9161991c5abf24d8f4005c6819ddca7b75883b8850ec4ccd1b7f353",
+     "b": "947ec42fcf5d327ccb9640332b5fabe4b7a25acc46be08b925861fa0c6e8eaf0",
+     "jaccard_on_messages": 1.0,
+     "relation": "SAME_HISTORY_REORDERING",
+     "same_system_persona": true
+    }
+   ],
+   "2": [],
+   "4": [],
+   "5": [
+    {
+     "a": "19032c09f22266d8977a072d72d169ee109508c4362e5bf5d9ac630dddb573c6",
+     "b": "bc7411051b57e9cd98f3a7861f5215815b6212013d05ad447915ce8442b92845",
+     "jaccard_on_messages": 1.0,
+     "relation": "SAME_HISTORY_REORDERING",
+     "same_system_persona": true
+    }
+   ],
+   "11": [
+    {
+     "a": "7860e54f4cee5267176f112e951a7796b199e833227c43426272c210d2f1bf42",
+     "b": "87fcbc7f2659effa29e8588b521c937634a53fcc516ee1ca85eeddfe8190708a",
+     "jaccard_on_messages": 0.5885,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "14": [
+    {
+     "a": "357073b65588cc3017575f7f4dde34dac5d5e0cd376ac2fc1fb693f216e0878b",
+     "b": "ff31ea4f6e893e623d262de49b003f3a833571df525d7468689a4d6365f5f688",
+     "jaccard_on_messages": 0.3725,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "16": [
+    {
+     "a": "373af9983d986370903d4202bcbf9c05874f425666e0a84dc0ce80d938342866",
+     "b": "793db46bf4b7b99a33af860c6afe583bc9ede18fa80506e6952ccb5a1d01e693",
+     "jaccard_on_messages": 1.0,
+     "relation": "SAME_HISTORY_REORDERING",
+     "same_system_persona": true
+    }
+   ],
+   "12": [
+    {
+     "a": "97c532a381a079396499e11df92f6b69c99bc3ce999e2aff2c81aedea4b4c45d",
+     "b": "d4a1f9dcaab3b0eb522c4a7e1521a05eed6b02ca443f0ee9331df07306511255",
+     "jaccard_on_messages": 1.0,
+     "relation": "SAME_HISTORY_REORDERING",
+     "same_system_persona": true
+    }
+   ]
+  }
+ },
+ "128k": {
+  "questions": 2727,
+  "unique_question_id": 2727,
+  "unique_persona_id": 20,
+  "unique_shared_context_id": 60,
+  "unique_raw_context_sha256": 60,
+  "unique_system_persona_sha256": 20,
+  "contexts_in_jsonl": 110,
+  "contexts_referenced": 60,
+  "unreferenced_extra_contexts": 50,
+  "questions_per_shared_context": {
+   "min": 24,
+   "median": 45.0,
+   "max": 64
+  },
+  "questions_per_persona": {
+   "min": 105,
+   "median": 139.5,
+   "max": 184
+  },
+  "shared_contexts_per_persona": {
+   "min": 3,
+   "median": 3.0,
+   "max": 3
+  },
+  "personas_per_shared_context_max": 1,
+  "one_context_maps_to_multiple_personas": false,
+  "one_persona_maps_to_multiple_contexts": true,
+  "defensible_independent_source_histories": 20,
+  "contexts": {
+   "bc3e373251e1bd6df201d2e30f895011cc18db0b39d4c78acec252be154bad8a": {
+    "persona_id": 0,
+    "n_questions": 55,
+    "question_types": {
+     "recall_user_shared_facts": 6,
+     "suggest_new_ideas": 15,
+     "provide_preference_aligned_recommendations": 4,
+     "acknowledge_latest_user_preferences": 15,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "onlineShopping"
+    ],
+    "context_tokens": {
+     "min": 114763,
+     "max": 117645
+    },
+    "end_index_values": [
+     728,
+     729,
+     730,
+     732,
+     734,
+     735,
+     738,
+     742,
+     744,
+     747
+    ],
+    "n_messages": 748,
+    "raw_context_sha256": "bea2d94c794e4532f40c95e96529305a19686a4a45ead9fea6c68dbe19ea945f",
+    "raw_context_serialized_len": 683779,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "b2e64fe5b1482aba3aa0fbf135586117e31701dbda03e50a744be9b19fce7ec7": {
+    "persona_id": 0,
+    "n_questions": 52,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 17,
+     "provide_preference_aligned_recommendations": 4,
+     "suggest_new_ideas": 15,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 3,
+     "recall_user_shared_facts": 5,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "onlineShopping"
+    ],
+    "context_tokens": {
+     "min": 116800,
+     "max": 119626
+    },
+    "end_index_values": [
+     737,
+     739,
+     740,
+     743,
+     744,
+     747,
+     751,
+     755
+    ],
+    "n_messages": 756,
+    "raw_context_sha256": "8aac5f0ef6f5f0c6428cbe82f985f0e4a36a693af9f331f0ece390a05c68cd2f",
+    "raw_context_serialized_len": 692708,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "0ba374860c73de4828f8f52517d9777422817b85c956b4f12e58c567228c1c91": {
+    "persona_id": 1,
+    "n_questions": 52,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "acknowledge_latest_user_preferences": 15,
+     "provide_preference_aligned_recommendations": 10,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 7,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "movieRecommendation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 114165,
+     "max": 116938
+    },
+    "end_index_values": [
+     728,
+     729,
+     730,
+     731,
+     734,
+     738,
+     742,
+     745
+    ],
+    "n_messages": 746,
+    "raw_context_sha256": "8594b034404f379674e696df1b147901671edcfd4c19438e919d651da3e16932",
+    "raw_context_serialized_len": 678558,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "40e0caed4267111c84de5533c4abc3032e2edc339f5ea73f44e8026baaadb9d8": {
+    "persona_id": 1,
+    "n_questions": 52,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "provide_preference_aligned_recommendations": 10,
+     "suggest_new_ideas": 7,
+     "recall_user_shared_facts": 4,
+     "generalize_to_new_scenarios": 7,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "movieRecommendation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 109217,
+     "max": 111990
+    },
+    "end_index_values": [
+     720,
+     721,
+     722,
+     723,
+     726,
+     730,
+     734,
+     737
+    ],
+    "n_messages": 738,
+    "raw_context_sha256": "523b7f19f0572f1e44daa6b384b276911970745ceb240f8c88282c6ad094ca6f",
+    "raw_context_serialized_len": 653064,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "c12d3fec029bae9a4afc60ec7de82972bb456b9d0eef5ca6084649b3e184ec22": {
+    "persona_id": 2,
+    "n_questions": 26,
+    "question_types": {
+     "suggest_new_ideas": 5,
+     "acknowledge_latest_user_preferences": 10,
+     "recall_user_shared_facts": 2,
+     "provide_preference_aligned_recommendations": 1,
+     "generalize_to_new_scenarios": 2,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "financialConsultation",
+     "medicalConsultation",
+     "musicRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 107685,
+     "max": 109920
+    },
+    "end_index_values": [
+     656,
+     658,
+     660,
+     662,
+     670,
+     672,
+     674
+    ],
+    "n_messages": 675,
+    "raw_context_sha256": "a3ad01a3a6b520cda2bea0d98ed0de3b0e39d5d2c860ec2217f54d939e864df2",
+    "raw_context_serialized_len": 590042,
+    "system_persona_sha256": "826712d99d119d4e269d09c5bd6422aacd61c80e170d4d8b254d31ee6165a0cb"
+   },
+   "eb0a9a9f70575697dc8b4f188b5a8f2cfdd444b778b48c2404fe86785c178746": {
+    "persona_id": 2,
+    "n_questions": 35,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 2,
+     "acknowledge_latest_user_preferences": 14,
+     "suggest_new_ideas": 8,
+     "generalize_to_new_scenarios": 2,
+     "recall_user_shared_facts": 2,
+     "revisit_reasons_behind_preference_updates": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "financialConsultation",
+     "homeDecoration",
+     "medicalConsultation",
+     "musicRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 111260,
+     "max": 116180
+    },
+    "end_index_values": [
+     733,
+     737,
+     744,
+     745,
+     752,
+     759,
+     767
+    ],
+    "n_messages": 768,
+    "raw_context_sha256": "c2dc9c7458c8215cc67d7595739c8b44e16b5924c9e8c32b087b8f130f940af0",
+    "raw_context_serialized_len": 633427,
+    "system_persona_sha256": "826712d99d119d4e269d09c5bd6422aacd61c80e170d4d8b254d31ee6165a0cb"
+   },
+   "26583ac0c06e94141c1639361f89c19ae8f0e21f61363f582cbd7f5092795ccf": {
+    "persona_id": 3,
+    "n_questions": 48,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 14,
+     "suggest_new_ideas": 11,
+     "generalize_to_new_scenarios": 2,
+     "revisit_reasons_behind_preference_updates": 6,
+     "recall_user_shared_facts": 3,
+     "provide_preference_aligned_recommendations": 5,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "familyRelations",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 114385,
+     "max": 119121
+    },
+    "end_index_values": [
+     739,
+     740,
+     742,
+     749,
+     750,
+     756,
+     760,
+     764,
+     765,
+     768,
+     769,
+     772
+    ],
+    "n_messages": 773,
+    "raw_context_sha256": "d5fcdb14bf5ed4745c6f963483004392376f0ba75b1818582ba73b89e051917d",
+    "raw_context_serialized_len": 691495,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "d7cf8830d751c485f4286e2669e1d826456ea44f5ffdb447a5597deeac631234": {
+    "persona_id": 3,
+    "n_questions": 48,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 5,
+     "acknowledge_latest_user_preferences": 14,
+     "suggest_new_ideas": 11,
+     "recall_user_shared_facts": 3,
+     "generalize_to_new_scenarios": 2,
+     "revisit_reasons_behind_preference_updates": 6,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "familyRelations",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 113848,
+     "max": 118584
+    },
+    "end_index_values": [
+     739,
+     740,
+     742,
+     749,
+     750,
+     756,
+     760,
+     764,
+     765,
+     768,
+     769,
+     772
+    ],
+    "n_messages": 773,
+    "raw_context_sha256": "e77637ca8aca515e414c54100bb625938ad8be8660f66b98b07e0bac1b1bfdc2",
+    "raw_context_serialized_len": 688962,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "4971d8d71d51c7b0d40d928b37f60fd928df3571c16af5f989322f3d5ffe3f76": {
+    "persona_id": 4,
+    "n_questions": 52,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 9,
+     "suggest_new_ideas": 10,
+     "acknowledge_latest_user_preferences": 14,
+     "generalize_to_new_scenarios": 5,
+     "revisit_reasons_behind_preference_updates": 7,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "legalConsultation",
+     "onlineShopping",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 109468,
+     "max": 112286
+    },
+    "end_index_values": [
+     680,
+     681,
+     684,
+     688,
+     689,
+     690,
+     691,
+     697
+    ],
+    "n_messages": 698,
+    "raw_context_sha256": "25c8c3a1715575ffd25664ff5ddebc75a206d23d2fa6141f7156e32253fba4ec",
+    "raw_context_serialized_len": 651374,
+    "system_persona_sha256": "2d93f49a7790097262fceb99af83422bb69e209d98f9d4588677820fd7700a2a"
+   },
+   "5fa9c2b9e3d3f5e476d2a59210ae5d74f94da5f9aa062b7ccdfc650e936944ad": {
+    "persona_id": 4,
+    "n_questions": 52,
+    "question_types": {
+     "recall_user_shared_facts": 3,
+     "provide_preference_aligned_recommendations": 9,
+     "acknowledge_latest_user_preferences": 14,
+     "suggest_new_ideas": 10,
+     "revisit_reasons_behind_preference_updates": 7,
+     "generalize_to_new_scenarios": 5,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "legalConsultation",
+     "onlineShopping",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 106545,
+     "max": 109363
+    },
+    "end_index_values": [
+     672,
+     673,
+     676,
+     680,
+     681,
+     682,
+     683,
+     689
+    ],
+    "n_messages": 690,
+    "raw_context_sha256": "bb3eaf2dbebc5a686a3e00d60c57afef7615f6f5ade86b45b192b25a5f958a84",
+    "raw_context_serialized_len": 634103,
+    "system_persona_sha256": "2d93f49a7790097262fceb99af83422bb69e209d98f9d4588677820fd7700a2a"
+   },
+   "1604a50e1041da17f048e9c85a887c840ad6abd8a06c8928b3fb583fa9526953": {
+    "persona_id": 5,
+    "n_questions": 64,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 23,
+     "suggest_new_ideas": 13,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 6,
+     "provide_preference_aligned_recommendations": 6,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_evolution": 10
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "sportsRecommendation"
+    ],
+    "context_tokens": {
+     "min": 109549,
+     "max": 112360
+    },
+    "end_index_values": [
+     -1,
+     722,
+     724,
+     726,
+     732,
+     734,
+     736,
+     737
+    ],
+    "n_messages": 738,
+    "raw_context_sha256": "bf1dfa33c14165ffd91ede4727ccfd89d3e48a3777a5297ca0306fb4de17467f",
+    "raw_context_serialized_len": 649792,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "bb7f46b01bc93add9dc337aa563a8a9bbc4a8245adcffc5a527e6a389dd81743": {
+    "persona_id": 5,
+    "n_questions": 64,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 23,
+     "provide_preference_aligned_recommendations": 6,
+     "suggest_new_ideas": 13,
+     "track_full_preference_evolution": 10,
+     "recall_user_shared_facts": 3,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "sportsRecommendation"
+    ],
+    "context_tokens": {
+     "min": 111360,
+     "max": 114171
+    },
+    "end_index_values": [
+     -1,
+     730,
+     732,
+     734,
+     740,
+     742,
+     744,
+     745
+    ],
+    "n_messages": 746,
+    "raw_context_sha256": "64280d762792cf2b2fab4193621b87a9d3c5e12364b1ae56c1a196485441e9a4",
+    "raw_context_serialized_len": 655710,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "6b9607f4ae1e8c2da9c09e25ad317ca8002338b8f3d8edfa61722d6f734322af": {
+    "persona_id": 6,
+    "n_questions": 42,
+    "question_types": {
+     "suggest_new_ideas": 11,
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 9,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "medicalConsultation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 114059,
+     "max": 116879
+    },
+    "end_index_values": [
+     742,
+     744,
+     750,
+     751,
+     754,
+     758,
+     759
+    ],
+    "n_messages": 760,
+    "raw_context_sha256": "c76c84e2ab4ed5f06f8ef3c17336e2a06fb364f88c01d1f7d4bd63eb678fadfe",
+    "raw_context_serialized_len": 680154,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "0bb733fef8f355b21b8a307f5513568c4d5391ed4271605278e991b3bd1d3ae7": {
+    "persona_id": 6,
+    "n_questions": 42,
+    "question_types": {
+     "suggest_new_ideas": 11,
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 9,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "medicalConsultation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 103792,
+     "max": 106612
+    },
+    "end_index_values": [
+     718,
+     720,
+     726,
+     727,
+     730,
+     734,
+     735
+    ],
+    "n_messages": 736,
+    "raw_context_sha256": "5ee02502a00fc6634e30c43a5cf4c677219a895b14ce3088882a89ed39f1f41e",
+    "raw_context_serialized_len": 627081,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "58a2f91b0e09e57ebfcac96a8320fb5523df7334dadc82783fe2dc4594f73885": {
+    "persona_id": 7,
+    "n_questions": 43,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 3,
+     "acknowledge_latest_user_preferences": 15,
+     "generalize_to_new_scenarios": 5,
+     "revisit_reasons_behind_preference_updates": 4,
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 7,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "datingConsultation",
+     "financialConsultation",
+     "legalConsultation",
+     "medicalConsultation",
+     "musicRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 114536,
+     "max": 117426
+    },
+    "end_index_values": [
+     737,
+     739,
+     741,
+     747,
+     749,
+     753,
+     755,
+     756
+    ],
+    "n_messages": 757,
+    "raw_context_sha256": "96b77aef23e9f2d2f5a2cb56779dd70895817f65650551b7cb89eba7c4a47f39",
+    "raw_context_serialized_len": 684306,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "ed6f7899979ad09e04c1c26cbe0f3c4e3768c4f71109bbec51c8b672b0fd9591": {
+    "persona_id": 7,
+    "n_questions": 43,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "recall_user_shared_facts": 2,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 5,
+     "provide_preference_aligned_recommendations": 3,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "datingConsultation",
+     "financialConsultation",
+     "legalConsultation",
+     "medicalConsultation",
+     "musicRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 112230,
+     "max": 115120
+    },
+    "end_index_values": [
+     729,
+     731,
+     733,
+     739,
+     741,
+     745,
+     747,
+     748
+    ],
+    "n_messages": 749,
+    "raw_context_sha256": "2a25820de2516af0afeeb826bd6065a8c14a8359110ce53c79667d79b5032dd1",
+    "raw_context_serialized_len": 669046,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "9dc38e078cf069c5e8f4d5961f401f6f625cf5d0c52178b6b675e94a5cc7d495": {
+    "persona_id": 8,
+    "n_questions": 46,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 18,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 5,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 1,
+     "revisit_reasons_behind_preference_updates": 6,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "legalConsultation",
+     "onlineShopping",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 117525,
+     "max": 122431
+    },
+    "end_index_values": [
+     745,
+     746,
+     753,
+     761,
+     762,
+     769,
+     777,
+     778
+    ],
+    "n_messages": 779,
+    "raw_context_sha256": "90306ed61855c2f7198cc979757f1b6a1f013b5a18bb79e96ec5c7f9e863b52c",
+    "raw_context_serialized_len": 712252,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "6102f173b3aa1449490f690982869f05cc83736cb15c2faddf7cd926e1713d22": {
+    "persona_id": 8,
+    "n_questions": 35,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 1,
+     "suggest_new_ideas": 4,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "homeDecoration",
+     "movieRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 116151,
+     "max": 121056
+    },
+    "end_index_values": [
+     753,
+     754,
+     761,
+     769,
+     770,
+     777,
+     785,
+     786
+    ],
+    "n_messages": 787,
+    "raw_context_sha256": "ee4d8f470f067489a98b20979dfdc2d5492e567f28ba5295e860697c6f672226",
+    "raw_context_serialized_len": 700269,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "97793fffd535672dd42c84bdf9f995b52adae9adba571beedd69d6265ac1f4d3": {
+    "persona_id": 9,
+    "n_questions": 45,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 16,
+     "provide_preference_aligned_recommendations": 8,
+     "suggest_new_ideas": 9,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 2,
+     "recall_user_shared_facts": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "foodRecommendation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 120119,
+     "max": 123027
+    },
+    "end_index_values": [
+     807,
+     811,
+     815,
+     819,
+     823,
+     826
+    ],
+    "n_messages": 827,
+    "raw_context_sha256": "8a70cc48c2612ae17a6f02fedbf71b2bb921fbca2b77bb7b7b1596710275aff4",
+    "raw_context_serialized_len": 706013,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "7d54b46404eda9bd7710cbbd70d0c294aa188f9839b5af95703c9a3bae9c82b4": {
+    "persona_id": 9,
+    "n_questions": 45,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 16,
+     "provide_preference_aligned_recommendations": 8,
+     "suggest_new_ideas": 9,
+     "recall_user_shared_facts": 2,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "foodRecommendation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 124020,
+     "max": 126928
+    },
+    "end_index_values": [
+     819,
+     823,
+     827,
+     831,
+     835,
+     838
+    ],
+    "n_messages": 839,
+    "raw_context_sha256": "b466b1fcfa7eed05ca58cc0613e366eeef033436cb5cfcd4cba7020a7affe327",
+    "raw_context_serialized_len": 726385,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "d6d62480381ea1876cc4b8cf8fb3146c7f622eb0403e9b90156403ed99e12e5f": {
+    "persona_id": 10,
+    "n_questions": 42,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 9,
+     "suggest_new_ideas": 10,
+     "recall_user_shared_facts": 1,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 1,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 110871,
+     "max": 113367
+    },
+    "end_index_values": [
+     713,
+     715,
+     716,
+     721,
+     725,
+     730
+    ],
+    "n_messages": 731,
+    "raw_context_sha256": "3d9294d23c30b297f1d55833f31a5bf7365e61134334bf6529cf831ed4c8c25a",
+    "raw_context_serialized_len": 651759,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "dcb703f06d316809116ecd8524829830edf7863b1d2c105b1efa4c9706f76522": {
+    "persona_id": 10,
+    "n_questions": 42,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 9,
+     "suggest_new_ideas": 10,
+     "acknowledge_latest_user_preferences": 14,
+     "generalize_to_new_scenarios": 3,
+     "recall_user_shared_facts": 1,
+     "revisit_reasons_behind_preference_updates": 1,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 108565,
+     "max": 111061
+    },
+    "end_index_values": [
+     705,
+     707,
+     708,
+     713,
+     717,
+     722
+    ],
+    "n_messages": 723,
+    "raw_context_sha256": "b243013eb94c96d7489af92f9e28a62986a6aa79391eaada69370fb9c0a3fdcd",
+    "raw_context_serialized_len": 636499,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "a0cd10b24b8a30235864eeb90a8e9c164dc42fc6c4bb945113d6281ee12156c4": {
+    "persona_id": 11,
+    "n_questions": 43,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 12,
+     "suggest_new_ideas": 11,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 4,
+     "provide_preference_aligned_recommendations": 5,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "datingConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 119540,
+     "max": 123992
+    },
+    "end_index_values": [
+     782,
+     790,
+     791,
+     794,
+     795,
+     806,
+     807,
+     811
+    ],
+    "n_messages": 812,
+    "raw_context_sha256": "723acd9863fb34540c50da09c26432cc94316d1da9a58346b506c6a609ea4a08",
+    "raw_context_serialized_len": 715879,
+    "system_persona_sha256": "0e642271ea1c220750dd8d527ab2e8346026f9307d4d8322ff7c2ac8489bca31"
+   },
+   "cae49376a08a21848973b0e0a60e6b624da5708dd4cbf44501be9334ed4c4a0c": {
+    "persona_id": 11,
+    "n_questions": 45,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 5,
+     "acknowledge_latest_user_preferences": 13,
+     "suggest_new_ideas": 9,
+     "generalize_to_new_scenarios": 3,
+     "recall_user_shared_facts": 3,
+     "revisit_reasons_behind_preference_updates": 6,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 113700,
+     "max": 116558
+    },
+    "end_index_values": [
+     771,
+     773,
+     774,
+     775,
+     776,
+     781,
+     782,
+     785,
+     786,
+     787,
+     788,
+     791
+    ],
+    "n_messages": 792,
+    "raw_context_sha256": "df593210bd8c1c8ab9dd74a66275891a44d50aa97e405629fa41e57e79a6f5ca",
+    "raw_context_serialized_len": 678849,
+    "system_persona_sha256": "0e642271ea1c220750dd8d527ab2e8346026f9307d4d8322ff7c2ac8489bca31"
+   },
+   "35b510c7bf14fa2d16fe97d8aaa35299bdffc2585de5a916866eb47dcbd37f16": {
+    "persona_id": 12,
+    "n_questions": 35,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 13,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 4,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 5,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "sportsRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 111334,
+     "max": 114021
+    },
+    "end_index_values": [
+     704,
+     705,
+     706,
+     707,
+     710,
+     711,
+     714,
+     715,
+     718,
+     721
+    ],
+    "n_messages": 722,
+    "raw_context_sha256": "6d3214c7499471d103da5c30bdf0db6aced8cea4bdc6a4557fd6e83b8174d991",
+    "raw_context_serialized_len": 656992,
+    "system_persona_sha256": "fd04b221cdc8d1d9e7c9dee74efce3d6715d8f5d89806c3423b6516c2de64516"
+   },
+   "6d68c487f874da88637480ce5e63631124bc07e83bbcede841b40aabd28d4f77": {
+    "persona_id": 12,
+    "n_questions": 38,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 13,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 6,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 5,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "sportsRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 113367,
+     "max": 116724
+    },
+    "end_index_values": [
+     705,
+     708,
+     709,
+     714,
+     715,
+     720,
+     723,
+     725,
+     726,
+     729
+    ],
+    "n_messages": 730,
+    "raw_context_sha256": "02e8dedbe22ac15c69b02784ade2fef73e6c86ad2201c3d7182df4177b0a989d",
+    "raw_context_serialized_len": 672782,
+    "system_persona_sha256": "fd04b221cdc8d1d9e7c9dee74efce3d6715d8f5d89806c3423b6516c2de64516"
+   },
+   "336340deb8caf7231d0ecffed6b98edd18b3f39df232cc6690b77ffa1b314778": {
+    "persona_id": 13,
+    "n_questions": 45,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 17,
+     "suggest_new_ideas": 8,
+     "provide_preference_aligned_recommendations": 5,
+     "recall_user_shared_facts": 3,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "sportsRecommendation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 114536,
+     "max": 117477
+    },
+    "end_index_values": [
+     678,
+     679,
+     680,
+     684,
+     686,
+     687,
+     697
+    ],
+    "n_messages": 698,
+    "raw_context_sha256": "85d25e318f7ad7c64c1e40149c74c21bdbf7e7850306b6c37ccb0e1f4a1a8f60",
+    "raw_context_serialized_len": 627996,
+    "system_persona_sha256": "c0a309052f57262d27efc6269555a1eefa93d24d2ab1ebd417b5e99282f33ec2"
+   },
+   "bbf5fc655d049563655b0f4514520305b17e5404c0a22fe991e7866369af7200": {
+    "persona_id": 13,
+    "n_questions": 50,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 17,
+     "provide_preference_aligned_recommendations": 5,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 8,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "sportsRecommendation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 114182,
+     "max": 117963
+    },
+    "end_index_values": [
+     -1,
+     671,
+     678,
+     680,
+     681,
+     686,
+     687,
+     689,
+     694,
+     696,
+     697
+    ],
+    "n_messages": 698,
+    "raw_context_sha256": "4d210aa5a30d10ca61fc121a08fdca960a1850fdac638725074f7fe055d1b925",
+    "raw_context_serialized_len": 626214,
+    "system_persona_sha256": "c0a309052f57262d27efc6269555a1eefa93d24d2ab1ebd417b5e99282f33ec2"
+   },
+   "92d76bcce12c7a7bd76003b4bbb285583f3862315fefc629ef09a16cdbae9273": {
+    "persona_id": 14,
+    "n_questions": 42,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "provide_preference_aligned_recommendations": 6,
+     "suggest_new_ideas": 5,
+     "recall_user_shared_facts": 2,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "bookRecommendation",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 114357,
+     "max": 117852
+    },
+    "end_index_values": [
+     738,
+     739,
+     741,
+     744,
+     745,
+     750,
+     753,
+     754,
+     759,
+     762,
+     763
+    ],
+    "n_messages": 764,
+    "raw_context_sha256": "91df6a85db82cf38fa7659b540ac3b9c5a4ed567ac5e3b8bb80b1ddb4d14fd75",
+    "raw_context_serialized_len": 684975,
+    "system_persona_sha256": "3fc96f45600b4c443f80eebc7cd03f6daae46b5352075a16b09973a5736f3f03"
+   },
+   "2cfeeb350d0ac7dc7d0d61870b1902bcafad68f17b7738996f986ac37dd2ecba": {
+    "persona_id": 14,
+    "n_questions": 37,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 13,
+     "provide_preference_aligned_recommendations": 6,
+     "suggest_new_ideas": 6,
+     "recall_user_shared_facts": 2,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 114790,
+     "max": 117694
+    },
+    "end_index_values": [
+     747,
+     748,
+     750,
+     751,
+     755,
+     758,
+     767
+    ],
+    "n_messages": 768,
+    "raw_context_sha256": "ee553d1b663bd93a4b653f175359ffb564434023311cf8412b5bb02118c618da",
+    "raw_context_serialized_len": 683773,
+    "system_persona_sha256": "3fc96f45600b4c443f80eebc7cd03f6daae46b5352075a16b09973a5736f3f03"
+   },
+   "d1b2ea0cf46b44ae5ca835542215f0bcf9fb93a9188b79af7cb3c0b9678e483f": {
+    "persona_id": 15,
+    "n_questions": 36,
+    "question_types": {
+     "suggest_new_ideas": 8,
+     "recall_user_shared_facts": 3,
+     "acknowledge_latest_user_preferences": 12,
+     "provide_preference_aligned_recommendations": 4,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 1,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "legalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 114046,
+     "max": 117128
+    },
+    "end_index_values": [
+     693,
+     697,
+     701,
+     705,
+     709,
+     712
+    ],
+    "n_messages": 713,
+    "raw_context_sha256": "74b66f776a60305170c80bb3b7cb787f6549c5df1df7608189f94d45f013de4a",
+    "raw_context_serialized_len": 626069,
+    "system_persona_sha256": "e1aae2757d732561113f782fcfe8ec98d353eca4a467f560f8ed785f3d5dadb3"
+   },
+   "c2237a7c5b8a926909fe9f7fdc5c3b0161ce8eb8f6531d3b96a5531eca958d16": {
+    "persona_id": 15,
+    "n_questions": 36,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 12,
+     "suggest_new_ideas": 8,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 1,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "legalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 124649,
+     "max": 127731
+    },
+    "end_index_values": [
+     721,
+     725,
+     729,
+     733,
+     737,
+     740
+    ],
+    "n_messages": 741,
+    "raw_context_sha256": "95314ed33255a983cd5df43b604a96b7696e9771024bf3e4a495dc1f74e574f3",
+    "raw_context_serialized_len": 679290,
+    "system_persona_sha256": "e1aae2757d732561113f782fcfe8ec98d353eca4a467f560f8ed785f3d5dadb3"
+   },
+   "b8c71397b9cdc392e37bf53a5b8f3e1b47cfb1490270401eafe29e2c3d92b620": {
+    "persona_id": 16,
+    "n_questions": 40,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 4,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 7,
+     "provide_preference_aligned_recommendations": 2,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "homeDecoration",
+     "legalConsultation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 119465,
+     "max": 121822
+    },
+    "end_index_values": [
+     738,
+     739,
+     742,
+     743,
+     744,
+     748,
+     752,
+     753,
+     755
+    ],
+    "n_messages": 756,
+    "raw_context_sha256": "e5ef8ddaa8650318bca2dfa46ae4289e9f9a0a4d8c3f8e5c9726304992809e7c",
+    "raw_context_serialized_len": 715167,
+    "system_persona_sha256": "bda18ea4f8ce0629e9a9e7caf24d8d213632b4acd9b50528cb236add085a26b1"
+   },
+   "dbe63e505bd0ae605f8d226256847671c18f3494ed63add017365e83878796f3": {
+    "persona_id": 16,
+    "n_questions": 40,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 16,
+     "suggest_new_ideas": 4,
+     "provide_preference_aligned_recommendations": 2,
+     "recall_user_shared_facts": 2,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 7,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 125319,
+     "max": 127676
+    },
+    "end_index_values": [
+     772,
+     773,
+     776,
+     777,
+     778,
+     782,
+     786,
+     787,
+     789
+    ],
+    "n_messages": 790,
+    "raw_context_sha256": "ba72df1b462fe5b186ebda1854abfeb642b071a6ba9954a3af33154c1d5c1bca",
+    "raw_context_serialized_len": 749736,
+    "system_persona_sha256": "bda18ea4f8ce0629e9a9e7caf24d8d213632b4acd9b50528cb236add085a26b1"
+   },
+   "18e3e69a1f175b641915416a89800f5215c02b767b82cfdbbfbb5b8ef7a4d525": {
+    "persona_id": 17,
+    "n_questions": 52,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 8,
+     "recall_user_shared_facts": 7,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 6,
+     "revisit_reasons_behind_preference_updates": 5,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "homeDecoration",
+     "musicRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 111410,
+     "max": 114341
+    },
+    "end_index_values": [
+     728,
+     733,
+     737,
+     741,
+     745,
+     748
+    ],
+    "n_messages": 749,
+    "raw_context_sha256": "667c3b412df85788ca8f7f5c2838b52ced358923d8f77be812d505f69726f960",
+    "raw_context_serialized_len": 660969,
+    "system_persona_sha256": "ed1a290b2fa0c88ca5fb2ac0a21384453b98c88993afb24c7ad96057761a432f"
+   },
+   "a263b6651a3d6f6cf060fa70da2d5b7b6d6f194367e2f3718094035744343bee": {
+    "persona_id": 17,
+    "n_questions": 52,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 8,
+     "acknowledge_latest_user_preferences": 14,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 6,
+     "revisit_reasons_behind_preference_updates": 5,
+     "recall_user_shared_facts": 7,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "homeDecoration",
+     "musicRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 110127,
+     "max": 113058
+    },
+    "end_index_values": [
+     724,
+     729,
+     733,
+     737,
+     741,
+     744
+    ],
+    "n_messages": 745,
+    "raw_context_sha256": "2d861901831d4f373b335a6a670c6683ce364b5755706cfa0339d4113ad1eb02",
+    "raw_context_serialized_len": 651102,
+    "system_persona_sha256": "ed1a290b2fa0c88ca5fb2ac0a21384453b98c88993afb24c7ad96057761a432f"
+   },
+   "43642c897ef8efd9a6441d576fd0a63fc1390ebfc4390ac057dffded5859f059": {
+    "persona_id": 18,
+    "n_questions": 47,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 16,
+     "suggest_new_ideas": 10,
+     "generalize_to_new_scenarios": 2,
+     "revisit_reasons_behind_preference_updates": 4,
+     "provide_preference_aligned_recommendations": 8,
+     "recall_user_shared_facts": 4,
+     "track_full_preference_evolution": 3
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 110516,
+     "max": 112305
+    },
+    "end_index_values": [
+     771,
+     772,
+     773,
+     779,
+     780,
+     784
+    ],
+    "n_messages": 785,
+    "raw_context_sha256": "4f4e16fbd90452f8055d70491e0c7afd628b37c03c6fd28ec1f96ff929dd2869",
+    "raw_context_serialized_len": 649001,
+    "system_persona_sha256": "34200a0f838b4dc3b7231a0f84fd445c51980a3c285b1c9db1277cd5ca16ec6d"
+   },
+   "48b3dc17975d534edea4f6e284d210251bed085a6d43a20ee2869f867e6ba3a9": {
+    "persona_id": 18,
+    "n_questions": 47,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "acknowledge_latest_user_preferences": 16,
+     "provide_preference_aligned_recommendations": 8,
+     "suggest_new_ideas": 10,
+     "generalize_to_new_scenarios": 2,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 3
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 105461,
+     "max": 107250
+    },
+    "end_index_values": [
+     759,
+     760,
+     761,
+     767,
+     768,
+     772
+    ],
+    "n_messages": 773,
+    "raw_context_sha256": "80bc97a1c370aa52077e4ddd08074d3ed681adb7f436a32de5f30ca4792159d7",
+    "raw_context_serialized_len": 625643,
+    "system_persona_sha256": "34200a0f838b4dc3b7231a0f84fd445c51980a3c285b1c9db1277cd5ca16ec6d"
+   },
+   "12735b3e2a7fb78a50dd09d79a3d462d818f052d422d666b352f694825f98314": {
+    "persona_id": 19,
+    "n_questions": 49,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "recall_user_shared_facts": 3,
+     "provide_preference_aligned_recommendations": 6,
+     "suggest_new_ideas": 8,
+     "generalize_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 6,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "sportsRecommendation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 124514,
+     "max": 127479
+    },
+    "end_index_values": [
+     -1,
+     686,
+     688,
+     691,
+     693,
+     697,
+     699,
+     701,
+     704
+    ],
+    "n_messages": 705,
+    "raw_context_sha256": "9187da699cd1feb353edd426d35479f089372b03e5b6cd5b77ab3735a0467fdc",
+    "raw_context_serialized_len": 673742,
+    "system_persona_sha256": "1cca62358dc92014019b0afc775863a793b2a74adbbbb1fb66f8fc4b802e2086"
+   },
+   "a48002ebd888737139f5194c95cce122d00ee91e79cd26e058b60200168e37ab": {
+    "persona_id": 19,
+    "n_questions": 38,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 12,
+     "recall_user_shared_facts": 2,
+     "provide_preference_aligned_recommendations": 9,
+     "suggest_new_ideas": 7,
+     "generalize_to_new_scenarios": 2,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 124104,
+     "max": 126800
+    },
+    "end_index_values": [
+     684,
+     686,
+     688,
+     692,
+     695,
+     701,
+     702
+    ],
+    "n_messages": 703,
+    "raw_context_sha256": "02d9a46c82383c49e80f60ecea5530f915bb4232ed68adf7289d5967a4dc035f",
+    "raw_context_serialized_len": 661204,
+    "system_persona_sha256": "1cca62358dc92014019b0afc775863a793b2a74adbbbb1fb66f8fc4b802e2086"
+   },
+   "5b4e4d07255b47503a2e32085c1bb6f40eea5a0f6e72af054651380fd4afbb86": {
+    "persona_id": 0,
+    "n_questions": 47,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 11,
+     "provide_preference_aligned_recommendations": 5,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "movieRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 123392,
+     "max": 126531
+    },
+    "end_index_values": [
+     819,
+     822,
+     830,
+     833,
+     835,
+     837,
+     841
+    ],
+    "n_messages": 842,
+    "raw_context_sha256": "5e7a4bf0edd416e9c0902618c4885f2b2b49e52b4bcb561b75c2f37e426f32e8",
+    "raw_context_serialized_len": 737397,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "6def5b194d06e1157db522ce68d25f9ed325bf028c1bb6c7636912b7e073e881": {
+    "persona_id": 1,
+    "n_questions": 36,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 13,
+     "recall_user_shared_facts": 5,
+     "provide_preference_aligned_recommendations": 4,
+     "suggest_new_ideas": 5,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "foodRecommendation",
+     "homeDecoration",
+     "medicalConsultation",
+     "movieRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 124523,
+     "max": 127291
+    },
+    "end_index_values": [
+     753,
+     754,
+     755,
+     756,
+     759,
+     763,
+     767,
+     770
+    ],
+    "n_messages": 771,
+    "raw_context_sha256": "654849ef497eead90637e25a465621cba8081e5320741175fec26bd42a3d0dee",
+    "raw_context_serialized_len": 733242,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "7ed3b8d4bdf91403d928fc439f5232155550b806635819f86a9fa9943388b7b3": {
+    "persona_id": 2,
+    "n_questions": 44,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 17,
+     "suggest_new_ideas": 8,
+     "generalize_to_new_scenarios": 2,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 3,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "medicalConsultation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 117719,
+     "max": 119965
+    },
+    "end_index_values": [
+     735,
+     736,
+     737,
+     739,
+     740,
+     743,
+     747,
+     749,
+     750,
+     752
+    ],
+    "n_messages": 753,
+    "raw_context_sha256": "ac359f2cec540b602f9b36042d24acb57e479dd4c9836e44418f22ee557cd71a",
+    "raw_context_serialized_len": 696341,
+    "system_persona_sha256": "826712d99d119d4e269d09c5bd6422aacd61c80e170d4d8b254d31ee6165a0cb"
+   },
+   "847f8601dce502779c4a0b4fa1922f76653f2082373cb7427a114447e30b36d8": {
+    "persona_id": 3,
+    "n_questions": 49,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "acknowledge_latest_user_preferences": 12,
+     "provide_preference_aligned_recommendations": 8,
+     "suggest_new_ideas": 12,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 120128,
+     "max": 123537
+    },
+    "end_index_values": [
+     796,
+     797,
+     799,
+     804,
+     810,
+     812,
+     813,
+     815,
+     819
+    ],
+    "n_messages": 820,
+    "raw_context_sha256": "628349e18e4ee0136dfd2d6ec5d5f0acb6084937b8d64676c40f20bb363ae303",
+    "raw_context_serialized_len": 720489,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "4c751f33079c4ce024458355d4e09e0297a7b13ba4e8cb35a27a6c8160ef3ee9": {
+    "persona_id": 4,
+    "n_questions": 43,
+    "question_types": {
+     "recall_user_shared_facts": 4,
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 10,
+     "suggest_new_ideas": 8,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_evolution": 3
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "medicalConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 109382,
+     "max": 111714
+    },
+    "end_index_values": [
+     651,
+     652,
+     657,
+     658,
+     659,
+     666
+    ],
+    "n_messages": 667,
+    "raw_context_sha256": "6657a1a2c6467bd19e797074db1ecc11c5320517fc75b640670ce97cce4f8aeb",
+    "raw_context_serialized_len": 644956,
+    "system_persona_sha256": "2d93f49a7790097262fceb99af83422bb69e209d98f9d4588677820fd7700a2a"
+   },
+   "696bd099aa76dd3b7eba31ff5c06c84829b271ca6629de09059820cc40e1a3ef": {
+    "persona_id": 5,
+    "n_questions": 56,
+    "question_types": {
+     "recall_user_shared_facts": 3,
+     "suggest_new_ideas": 8,
+     "acknowledge_latest_user_preferences": 14,
+     "generalize_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 9,
+     "provide_preference_aligned_recommendations": 5,
+     "track_full_preference_evolution": 9
+    },
+    "topics": [
+     "familyRelations",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 111894,
+     "max": 115439
+    },
+    "end_index_values": [
+     817,
+     820,
+     826,
+     829,
+     835,
+     836,
+     838,
+     839,
+     841,
+     842
+    ],
+    "n_messages": 843,
+    "raw_context_sha256": "4e75cc7545cce895aba34cd3c0c7f0db38c7a24c24873eefed740d63e73eda64",
+    "raw_context_serialized_len": 668555,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "bc6921a0f37b8123a598c5bf1a457d81f41e3c3eec94500c3eb92810b11ba6a5": {
+    "persona_id": 6,
+    "n_questions": 40,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 7,
+     "acknowledge_latest_user_preferences": 13,
+     "recall_user_shared_facts": 1,
+     "suggest_new_ideas": 8,
+     "generalize_to_new_scenarios": 2,
+     "revisit_reasons_behind_preference_updates": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "sportsRecommendation"
+    ],
+    "context_tokens": {
+     "min": 117910,
+     "max": 120134
+    },
+    "end_index_values": [
+     774,
+     776,
+     777,
+     780,
+     781,
+     782,
+     783,
+     786,
+     789
+    ],
+    "n_messages": 790,
+    "raw_context_sha256": "ace095d28bfba9c365ed0e64d6ddc5747ac2b8c100087d653b455034cfebbc67",
+    "raw_context_serialized_len": 688721,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "d63bfd1b8c5f8a1fe6414e99b07e92b4a0df2b0226b010a6820900e6ed363d31": {
+    "persona_id": 7,
+    "n_questions": 24,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 1,
+     "acknowledge_latest_user_preferences": 8,
+     "suggest_new_ideas": 3,
+     "generalize_to_new_scenarios": 1,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_evolution": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation"
+    ],
+    "context_tokens": {
+     "min": 110690,
+     "max": 113707
+    },
+    "end_index_values": [
+     707,
+     711,
+     712,
+     715,
+     719,
+     720,
+     726
+    ],
+    "n_messages": 727,
+    "raw_context_sha256": "5373880ffbf1840791073a3814307f4bb764698fbebfac6f97bee4a63f81d0d8",
+    "raw_context_serialized_len": 653217,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "6359d78e179a5b1c2afa995e93d7d163719aade2ec399e0b2f5dab877178253b": {
+    "persona_id": 8,
+    "n_questions": 44,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 17,
+     "suggest_new_ideas": 6,
+     "generalize_to_new_scenarios": 4,
+     "provide_preference_aligned_recommendations": 3,
+     "recall_user_shared_facts": 2,
+     "revisit_reasons_behind_preference_updates": 6,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "musicRecommendation",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 120555,
+     "max": 125812
+    },
+    "end_index_values": [
+     802,
+     803,
+     809,
+     813,
+     821,
+     822,
+     829,
+     830,
+     836,
+     837
+    ],
+    "n_messages": 838,
+    "raw_context_sha256": "c8b334bc94ff6d81b0a9409aca686e2238f7dadd7f527fbee939da889a412b81",
+    "raw_context_serialized_len": 727353,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "aee7ce367b6cf0eece864983f656545ebb57c87b54c7a0f0bbe16419cf81b311": {
+    "persona_id": 9,
+    "n_questions": 46,
+    "question_types": {
+     "suggest_new_ideas": 12,
+     "provide_preference_aligned_recommendations": 9,
+     "generalize_to_new_scenarios": 3,
+     "acknowledge_latest_user_preferences": 11,
+     "revisit_reasons_behind_preference_updates": 5,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "sportsRecommendation"
+    ],
+    "context_tokens": {
+     "min": 121227,
+     "max": 126287
+    },
+    "end_index_values": [
+     797,
+     801,
+     805,
+     808,
+     818,
+     819,
+     822,
+     823,
+     830
+    ],
+    "n_messages": 831,
+    "raw_context_sha256": "9c10a699d606209310f48fbb5f63d85b5e39b0ef0f0b7c6b2088b1188726be5b",
+    "raw_context_serialized_len": 732270,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "19b0dbd5d8002f9a9b65259ab6fa4cb61412c1821206b8e31a9494a0e685ee97": {
+    "persona_id": 10,
+    "n_questions": 56,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 14,
+     "provide_preference_aligned_recommendations": 7,
+     "suggest_new_ideas": 12,
+     "generalize_to_new_scenarios": 8,
+     "recall_user_shared_facts": 3,
+     "revisit_reasons_behind_preference_updates": 7,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "legalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 116250,
+     "max": 119069
+    },
+    "end_index_values": [
+     787,
+     788,
+     789,
+     790,
+     795,
+     796,
+     797,
+     798,
+     801,
+     802,
+     804
+    ],
+    "n_messages": 805,
+    "raw_context_sha256": "ea4ebd6ede880bb093a6156163bba20743cc80aedaacc2a598fd06e2b3282607",
+    "raw_context_serialized_len": 691864,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "e32159d206a8b36fd2e62799a56562a24564c4576b6c4c93ee9f74fb2ce0658f": {
+    "persona_id": 11,
+    "n_questions": 58,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 7,
+     "suggest_new_ideas": 15,
+     "acknowledge_latest_user_preferences": 14,
+     "generalize_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 4,
+     "recall_user_shared_facts": 4,
+     "track_full_preference_evolution": 6
+    },
+    "topics": [
+     "familyRelations",
+     "financialConsultation",
+     "medicalConsultation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 120127,
+     "max": 123239
+    },
+    "end_index_values": [
+     752,
+     754,
+     756,
+     760,
+     766,
+     770,
+     771
+    ],
+    "n_messages": 772,
+    "raw_context_sha256": "803092143d41f4f6a19e080b7dbcc84af607279bdadb5f3df87a446417d42fee",
+    "raw_context_serialized_len": 713631,
+    "system_persona_sha256": "0e642271ea1c220750dd8d527ab2e8346026f9307d4d8322ff7c2ac8489bca31"
+   },
+   "7e27f939c39dc681438506857bcca1bdb502f74bb68a8f1a04463b4b449d0261": {
+    "persona_id": 12,
+    "n_questions": 40,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "provide_preference_aligned_recommendations": 4,
+     "suggest_new_ideas": 2,
+     "recall_user_shared_facts": 1,
+     "generalize_to_new_scenarios": 2,
+     "revisit_reasons_behind_preference_updates": 8,
+     "track_full_preference_evolution": 8
+    },
+    "topics": [
+     "bookRecommendation",
+     "familyRelations",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "sportsRecommendation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 120246,
+     "max": 123063
+    },
+    "end_index_values": [
+     763,
+     764,
+     765,
+     766,
+     767,
+     768,
+     773,
+     775,
+     776,
+     777,
+     779,
+     780,
+     781,
+     782
+    ],
+    "n_messages": 783,
+    "raw_context_sha256": "d03c8934efa706d54bcbc12a74c6c28247bf268f17901e1035d72c1793305ff2",
+    "raw_context_serialized_len": 697801,
+    "system_persona_sha256": "fd04b221cdc8d1d9e7c9dee74efce3d6715d8f5d89806c3423b6516c2de64516"
+   },
+   "ae34ea30887b807ca7554f40b8c6d310d29b0d189764d12e8557002fb8866142": {
+    "persona_id": 13,
+    "n_questions": 52,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 15,
+     "recall_user_shared_facts": 4,
+     "provide_preference_aligned_recommendations": 7,
+     "suggest_new_ideas": 9,
+     "revisit_reasons_behind_preference_updates": 8,
+     "generalize_to_new_scenarios": 4,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "datingConsultation",
+     "financialConsultation",
+     "homeDecoration",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 122921,
+     "max": 125643
+    },
+    "end_index_values": [
+     755,
+     759,
+     763,
+     765,
+     767,
+     768,
+     772
+    ],
+    "n_messages": 773,
+    "raw_context_sha256": "432b47103c7058d30982bb5f7b9a7168c11e7961d9193efcc09375bac98c1c11",
+    "raw_context_serialized_len": 729047,
+    "system_persona_sha256": "c0a309052f57262d27efc6269555a1eefa93d24d2ab1ebd417b5e99282f33ec2"
+   },
+   "27795342926d0f13aa701b5ee41f6423463d2da4a4e01b6c33e20c3f8ebcced0": {
+    "persona_id": 14,
+    "n_questions": 50,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 12,
+     "suggest_new_ideas": 9,
+     "generalize_to_new_scenarios": 5,
+     "revisit_reasons_behind_preference_updates": 8,
+     "provide_preference_aligned_recommendations": 8,
+     "recall_user_shared_facts": 1,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 122942,
+     "max": 126237
+    },
+    "end_index_values": [
+     823,
+     824,
+     825,
+     830,
+     834,
+     835,
+     836,
+     837,
+     839,
+     840,
+     844,
+     845
+    ],
+    "n_messages": 846,
+    "raw_context_sha256": "4f951732431dbab480cb874c4ca336f8552a61492cf21d4a62d49a596c0304f6",
+    "raw_context_serialized_len": 728815,
+    "system_persona_sha256": "3fc96f45600b4c443f80eebc7cd03f6daae46b5352075a16b09973a5736f3f03"
+   },
+   "8d42d864b2b012e2711741b70e107e978aa678ae002d3743070412174e566b51": {
+    "persona_id": 15,
+    "n_questions": 46,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 13,
+     "recall_user_shared_facts": 5,
+     "suggest_new_ideas": 10,
+     "generalize_to_new_scenarios": 3,
+     "revisit_reasons_behind_preference_updates": 6,
+     "provide_preference_aligned_recommendations": 1,
+     "track_full_preference_evolution": 8
+    },
+    "topics": [
+     "datingConsultation",
+     "homeDecoration",
+     "movieRecommendation",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 105753,
+     "max": 108503
+    },
+    "end_index_values": [
+     570,
+     572,
+     574,
+     575,
+     578,
+     579,
+     582,
+     584,
+     585,
+     586,
+     587,
+     588,
+     589
+    ],
+    "n_messages": 590,
+    "raw_context_sha256": "6db85aee404c8d0a71f5c9ab4bd5e76123d2e1c4f8230a3e4ee2533b307edc90",
+    "raw_context_serialized_len": 571794,
+    "system_persona_sha256": "e1aae2757d732561113f782fcfe8ec98d353eca4a467f560f8ed785f3d5dadb3"
+   },
+   "2ead1f74d2322cdf638ae4d2fd3466d42cb6c8d8db59815673d9fae99f5c186a": {
+    "persona_id": 16,
+    "n_questions": 59,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 19,
+     "suggest_new_ideas": 9,
+     "generalize_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 7,
+     "provide_preference_aligned_recommendations": 6,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "legalConsultation",
+     "medicalConsultation",
+     "onlineShopping",
+     "studyConsultation"
+    ],
+    "context_tokens": {
+     "min": 116922,
+     "max": 121872
+    },
+    "end_index_values": [
+     772,
+     773,
+     775,
+     782,
+     786,
+     790,
+     798,
+     802,
+     803
+    ],
+    "n_messages": 804,
+    "raw_context_sha256": "12810eb93c81260745e57df496fcf548d966ee940cb2ba4d4c87483eaf7ed97d",
+    "raw_context_serialized_len": 717288,
+    "system_persona_sha256": "bda18ea4f8ce0629e9a9e7caf24d8d213632b4acd9b50528cb236add085a26b1"
+   },
+   "7e1aab3c8ac41824c8ab04021f60c51a68cad3c25f2ee7d9f6316df2db168fca": {
+    "persona_id": 17,
+    "n_questions": 51,
+    "question_types": {
+     "suggest_new_ideas": 12,
+     "acknowledge_latest_user_preferences": 8,
+     "generalize_to_new_scenarios": 6,
+     "revisit_reasons_behind_preference_updates": 9,
+     "provide_preference_aligned_recommendations": 6,
+     "recall_user_shared_facts": 5,
+     "track_full_preference_evolution": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "sportsRecommendation"
+    ],
+    "context_tokens": {
+     "min": 112143,
+     "max": 115140
+    },
+    "end_index_values": [
+     811,
+     812,
+     813,
+     814,
+     817,
+     818,
+     821,
+     822,
+     823,
+     824,
+     830
+    ],
+    "n_messages": 831,
+    "raw_context_sha256": "01ccfe9af0b6e90aa30316a05d5c2f212cf894c2d3a270f6d09fcdb3551c1db0",
+    "raw_context_serialized_len": 663722,
+    "system_persona_sha256": "ed1a290b2fa0c88ca5fb2ac0a21384453b98c88993afb24c7ad96057761a432f"
+   },
+   "762b17b69a65070754e58ff23c7db4e305ebc288437a26e7b4c4a3d8d13a0278": {
+    "persona_id": 18,
+    "n_questions": 35,
+    "question_types": {
+     "suggest_new_ideas": 10,
+     "provide_preference_aligned_recommendations": 2,
+     "acknowledge_latest_user_preferences": 13,
+     "recall_user_shared_facts": 2,
+     "track_full_preference_evolution": 8
+    },
+    "topics": [
+     "foodRecommendation",
+     "homeDecoration",
+     "movieRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 100463,
+     "max": 103616
+    },
+    "end_index_values": [
+     702,
+     704,
+     706,
+     708,
+     712,
+     716,
+     718,
+     721,
+     724
+    ],
+    "n_messages": 725,
+    "raw_context_sha256": "7d645dc4a16bcfbccfbc113745e06e538ec06b0c45dc86912ee2385347fced21",
+    "raw_context_serialized_len": 592870,
+    "system_persona_sha256": "34200a0f838b4dc3b7231a0f84fd445c51980a3c285b1c9db1277cd5ca16ec6d"
+   },
+   "e1aaf2ff2f125f3ae530e84ef6a8dd7342a13c4162d0e5b11e5db1ef66a6659a": {
+    "persona_id": 19,
+    "n_questions": 54,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 16,
+     "recall_user_shared_facts": 4,
+     "provide_preference_aligned_recommendations": 6,
+     "suggest_new_ideas": 10,
+     "generalize_to_new_scenarios": 5,
+     "revisit_reasons_behind_preference_updates": 6,
+     "track_full_preference_evolution": 7
+    },
+    "topics": [
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "sportsRecommendation",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 122568,
+     "max": 125533
+    },
+    "end_index_values": [
+     -1,
+     769,
+     771,
+     774,
+     776,
+     780,
+     782,
+     784,
+     787
+    ],
+    "n_messages": 788,
+    "raw_context_sha256": "92aecc6ec55d09dc2e71b7ef645ba2e07e809cedd7f0ab97b706af6c8b937773",
+    "raw_context_serialized_len": 724772,
+    "system_persona_sha256": "1cca62358dc92014019b0afc775863a793b2a74adbbbb1fb66f8fc4b802e2086"
+   }
+  },
+  "within_persona_relations": {
+   "0": [
+    {
+     "a": "5b4e4d07255b47503a2e32085c1bb6f40eea5a0f6e72af054651380fd4afbb86",
+     "b": "b2e64fe5b1482aba3aa0fbf135586117e31701dbda03e50a744be9b19fce7ec7",
+     "jaccard_on_messages": 0.1175,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "5b4e4d07255b47503a2e32085c1bb6f40eea5a0f6e72af054651380fd4afbb86",
+     "b": "bc3e373251e1bd6df201d2e30f895011cc18db0b39d4c78acec252be154bad8a",
+     "jaccard_on_messages": 0.1182,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "b2e64fe5b1482aba3aa0fbf135586117e31701dbda03e50a744be9b19fce7ec7",
+     "b": "bc3e373251e1bd6df201d2e30f895011cc18db0b39d4c78acec252be154bad8a",
+     "jaccard_on_messages": 0.9064,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "1": [
+    {
+     "a": "0ba374860c73de4828f8f52517d9777422817b85c956b4f12e58c567228c1c91",
+     "b": "40e0caed4267111c84de5533c4abc3032e2edc339f5ea73f44e8026baaadb9d8",
+     "jaccard_on_messages": 0.9251,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "0ba374860c73de4828f8f52517d9777422817b85c956b4f12e58c567228c1c91",
+     "b": "6def5b194d06e1157db522ce68d25f9ed325bf028c1bb6c7636912b7e073e881",
+     "jaccard_on_messages": 0.3701,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "40e0caed4267111c84de5533c4abc3032e2edc339f5ea73f44e8026baaadb9d8",
+     "b": "6def5b194d06e1157db522ce68d25f9ed325bf028c1bb6c7636912b7e073e881",
+     "jaccard_on_messages": 0.3729,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "2": [
+    {
+     "a": "7ed3b8d4bdf91403d928fc439f5232155550b806635819f86a9fa9943388b7b3",
+     "b": "c12d3fec029bae9a4afc60ec7de82972bb456b9d0eef5ca6084649b3e184ec22",
+     "jaccard_on_messages": 0.2111,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "7ed3b8d4bdf91403d928fc439f5232155550b806635819f86a9fa9943388b7b3",
+     "b": "eb0a9a9f70575697dc8b4f188b5a8f2cfdd444b778b48c2404fe86785c178746",
+     "jaccard_on_messages": 0.2641,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "c12d3fec029bae9a4afc60ec7de82972bb456b9d0eef5ca6084649b3e184ec22",
+     "b": "eb0a9a9f70575697dc8b4f188b5a8f2cfdd444b778b48c2404fe86785c178746",
+     "jaccard_on_messages": 0.6766,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "3": [
+    {
+     "a": "26583ac0c06e94141c1639361f89c19ae8f0e21f61363f582cbd7f5092795ccf",
+     "b": "847f8601dce502779c4a0b4fa1922f76653f2082373cb7427a114447e30b36d8",
+     "jaccard_on_messages": 0.2244,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "26583ac0c06e94141c1639361f89c19ae8f0e21f61363f582cbd7f5092795ccf",
+     "b": "d7cf8830d751c485f4286e2669e1d826456ea44f5ffdb447a5597deeac631234",
+     "jaccard_on_messages": 0.9186,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "847f8601dce502779c4a0b4fa1922f76653f2082373cb7427a114447e30b36d8",
+     "b": "d7cf8830d751c485f4286e2669e1d826456ea44f5ffdb447a5597deeac631234",
+     "jaccard_on_messages": 0.2244,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "4": [
+    {
+     "a": "4971d8d71d51c7b0d40d928b37f60fd928df3571c16af5f989322f3d5ffe3f76",
+     "b": "4c751f33079c4ce024458355d4e09e0297a7b13ba4e8cb35a27a6c8160ef3ee9",
+     "jaccard_on_messages": 0.276,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "4971d8d71d51c7b0d40d928b37f60fd928df3571c16af5f989322f3d5ffe3f76",
+     "b": "5fa9c2b9e3d3f5e476d2a59210ae5d74f94da5f9aa062b7ccdfc650e936944ad",
+     "jaccard_on_messages": 0.9203,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "4c751f33079c4ce024458355d4e09e0297a7b13ba4e8cb35a27a6c8160ef3ee9",
+     "b": "5fa9c2b9e3d3f5e476d2a59210ae5d74f94da5f9aa062b7ccdfc650e936944ad",
+     "jaccard_on_messages": 0.2781,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "5": [
+    {
+     "a": "1604a50e1041da17f048e9c85a887c840ad6abd8a06c8928b3fb583fa9526953",
+     "b": "696bd099aa76dd3b7eba31ff5c06c84829b271ca6629de09059820cc40e1a3ef",
+     "jaccard_on_messages": 0.1933,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "1604a50e1041da17f048e9c85a887c840ad6abd8a06c8928b3fb583fa9526953",
+     "b": "bb7f46b01bc93add9dc337aa563a8a9bbc4a8245adcffc5a527e6a389dd81743",
+     "jaccard_on_messages": 0.9051,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "696bd099aa76dd3b7eba31ff5c06c84829b271ca6629de09059820cc40e1a3ef",
+     "b": "bb7f46b01bc93add9dc337aa563a8a9bbc4a8245adcffc5a527e6a389dd81743",
+     "jaccard_on_messages": 0.1922,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "6": [
+    {
+     "a": "0bb733fef8f355b21b8a307f5513568c4d5391ed4271605278e991b3bd1d3ae7",
+     "b": "6b9607f4ae1e8c2da9c09e25ad317ca8002338b8f3d8edfa61722d6f734322af",
+     "jaccard_on_messages": 0.9466,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "0bb733fef8f355b21b8a307f5513568c4d5391ed4271605278e991b3bd1d3ae7",
+     "b": "bc6921a0f37b8123a598c5bf1a457d81f41e3c3eec94500c3eb92810b11ba6a5",
+     "jaccard_on_messages": 0.3064,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "6b9607f4ae1e8c2da9c09e25ad317ca8002338b8f3d8edfa61722d6f734322af",
+     "b": "bc6921a0f37b8123a598c5bf1a457d81f41e3c3eec94500c3eb92810b11ba6a5",
+     "jaccard_on_messages": 0.3001,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "7": [
+    {
+     "a": "58a2f91b0e09e57ebfcac96a8320fb5523df7334dadc82783fe2dc4594f73885",
+     "b": "d63bfd1b8c5f8a1fe6414e99b07e92b4a0df2b0226b010a6820900e6ed363d31",
+     "jaccard_on_messages": 0.2729,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "58a2f91b0e09e57ebfcac96a8320fb5523df7334dadc82783fe2dc4594f73885",
+     "b": "ed6f7899979ad09e04c1c26cbe0f3c4e3768c4f71109bbec51c8b672b0fd9591",
+     "jaccard_on_messages": 0.9265,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "d63bfd1b8c5f8a1fe6414e99b07e92b4a0df2b0226b010a6820900e6ed363d31",
+     "b": "ed6f7899979ad09e04c1c26cbe0f3c4e3768c4f71109bbec51c8b672b0fd9591",
+     "jaccard_on_messages": 0.2748,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "8": [
+    {
+     "a": "6102f173b3aa1449490f690982869f05cc83736cb15c2faddf7cd926e1713d22",
+     "b": "6359d78e179a5b1c2afa995e93d7d163719aade2ec399e0b2f5dab877178253b",
+     "jaccard_on_messages": 0.2964,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "6102f173b3aa1449490f690982869f05cc83736cb15c2faddf7cd926e1713d22",
+     "b": "9dc38e078cf069c5e8f4d5961f401f6f625cf5d0c52178b6b675e94a5cc7d495",
+     "jaccard_on_messages": 0.662,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "6359d78e179a5b1c2afa995e93d7d163719aade2ec399e0b2f5dab877178253b",
+     "b": "9dc38e078cf069c5e8f4d5961f401f6f625cf5d0c52178b6b675e94a5cc7d495",
+     "jaccard_on_messages": 0.2989,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "9": [
+    {
+     "a": "7d54b46404eda9bd7710cbbd70d0c294aa188f9839b5af95703c9a3bae9c82b4",
+     "b": "97793fffd535672dd42c84bdf9f995b52adae9adba571beedd69d6265ac1f4d3",
+     "jaccard_on_messages": 0.9102,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "7d54b46404eda9bd7710cbbd70d0c294aa188f9839b5af95703c9a3bae9c82b4",
+     "b": "aee7ce367b6cf0eece864983f656545ebb57c87b54c7a0f0bbe16419cf81b311",
+     "jaccard_on_messages": 0.3579,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "97793fffd535672dd42c84bdf9f995b52adae9adba571beedd69d6265ac1f4d3",
+     "b": "aee7ce367b6cf0eece864983f656545ebb57c87b54c7a0f0bbe16419cf81b311",
+     "jaccard_on_messages": 0.3616,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "10": [
+    {
+     "a": "19b0dbd5d8002f9a9b65259ab6fa4cb61412c1821206b8e31a9494a0e685ee97",
+     "b": "d6d62480381ea1876cc4b8cf8fb3146c7f622eb0403e9b90156403ed99e12e5f",
+     "jaccard_on_messages": 0.3835,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "19b0dbd5d8002f9a9b65259ab6fa4cb61412c1821206b8e31a9494a0e685ee97",
+     "b": "dcb703f06d316809116ecd8524829830edf7863b1d2c105b1efa4c9706f76522",
+     "jaccard_on_messages": 0.3864,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "d6d62480381ea1876cc4b8cf8fb3146c7f622eb0403e9b90156403ed99e12e5f",
+     "b": "dcb703f06d316809116ecd8524829830edf7863b1d2c105b1efa4c9706f76522",
+     "jaccard_on_messages": 0.9238,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "11": [
+    {
+     "a": "a0cd10b24b8a30235864eeb90a8e9c164dc42fc6c4bb945113d6281ee12156c4",
+     "b": "cae49376a08a21848973b0e0a60e6b624da5708dd4cbf44501be9334ed4c4a0c",
+     "jaccard_on_messages": 0.9453,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "a0cd10b24b8a30235864eeb90a8e9c164dc42fc6c4bb945113d6281ee12156c4",
+     "b": "e32159d206a8b36fd2e62799a56562a24564c4576b6c4c93ee9f74fb2ce0658f",
+     "jaccard_on_messages": 0.2078,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "cae49376a08a21848973b0e0a60e6b624da5708dd4cbf44501be9334ed4c4a0c",
+     "b": "e32159d206a8b36fd2e62799a56562a24564c4576b6c4c93ee9f74fb2ce0658f",
+     "jaccard_on_messages": 0.2111,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "12": [
+    {
+     "a": "35b510c7bf14fa2d16fe97d8aaa35299bdffc2585de5a916866eb47dcbd37f16",
+     "b": "6d68c487f874da88637480ce5e63631124bc07e83bbcede841b40aabd28d4f77",
+     "jaccard_on_messages": 0.9133,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "35b510c7bf14fa2d16fe97d8aaa35299bdffc2585de5a916866eb47dcbd37f16",
+     "b": "7e27f939c39dc681438506857bcca1bdb502f74bb68a8f1a04463b4b449d0261",
+     "jaccard_on_messages": 0.4391,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "6d68c487f874da88637480ce5e63631124bc07e83bbcede841b40aabd28d4f77",
+     "b": "7e27f939c39dc681438506857bcca1bdb502f74bb68a8f1a04463b4b449d0261",
+     "jaccard_on_messages": 0.4357,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "13": [
+    {
+     "a": "336340deb8caf7231d0ecffed6b98edd18b3f39df232cc6690b77ffa1b314778",
+     "b": "ae34ea30887b807ca7554f40b8c6d310d29b0d189764d12e8557002fb8866142",
+     "jaccard_on_messages": 0.2258,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "336340deb8caf7231d0ecffed6b98edd18b3f39df232cc6690b77ffa1b314778",
+     "b": "bbf5fc655d049563655b0f4514520305b17e5404c0a22fe991e7866369af7200",
+     "jaccard_on_messages": 0.9208,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "ae34ea30887b807ca7554f40b8c6d310d29b0d189764d12e8557002fb8866142",
+     "b": "bbf5fc655d049563655b0f4514520305b17e5404c0a22fe991e7866369af7200",
+     "jaccard_on_messages": 0.2258,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "14": [
+    {
+     "a": "27795342926d0f13aa701b5ee41f6423463d2da4a4e01b6c33e20c3f8ebcced0",
+     "b": "2cfeeb350d0ac7dc7d0d61870b1902bcafad68f17b7738996f986ac37dd2ecba",
+     "jaccard_on_messages": 0.2058,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "27795342926d0f13aa701b5ee41f6423463d2da4a4e01b6c33e20c3f8ebcced0",
+     "b": "92d76bcce12c7a7bd76003b4bbb285583f3862315fefc629ef09a16cdbae9273",
+     "jaccard_on_messages": 0.2065,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "2cfeeb350d0ac7dc7d0d61870b1902bcafad68f17b7738996f986ac37dd2ecba",
+     "b": "92d76bcce12c7a7bd76003b4bbb285583f3862315fefc629ef09a16cdbae9273",
+     "jaccard_on_messages": 0.9225,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "15": [
+    {
+     "a": "8d42d864b2b012e2711741b70e107e978aa678ae002d3743070412174e566b51",
+     "b": "c2237a7c5b8a926909fe9f7fdc5c3b0161ce8eb8f6531d3b96a5531eca958d16",
+     "jaccard_on_messages": 0.2471,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "8d42d864b2b012e2711741b70e107e978aa678ae002d3743070412174e566b51",
+     "b": "d1b2ea0cf46b44ae5ca835542215f0bcf9fb93a9188b79af7cb3c0b9678e483f",
+     "jaccard_on_messages": 0.254,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "c2237a7c5b8a926909fe9f7fdc5c3b0161ce8eb8f6531d3b96a5531eca958d16",
+     "b": "d1b2ea0cf46b44ae5ca835542215f0bcf9fb93a9188b79af7cb3c0b9678e483f",
+     "jaccard_on_messages": 0.878,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "16": [
+    {
+     "a": "2ead1f74d2322cdf638ae4d2fd3466d42cb6c8d8db59815673d9fae99f5c186a",
+     "b": "b8c71397b9cdc392e37bf53a5b8f3e1b47cfb1490270401eafe29e2c3d92b620",
+     "jaccard_on_messages": 0.3892,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "2ead1f74d2322cdf638ae4d2fd3466d42cb6c8d8db59815673d9fae99f5c186a",
+     "b": "dbe63e505bd0ae605f8d226256847671c18f3494ed63add017365e83878796f3",
+     "jaccard_on_messages": 0.4049,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "b8c71397b9cdc392e37bf53a5b8f3e1b47cfb1490270401eafe29e2c3d92b620",
+     "b": "dbe63e505bd0ae605f8d226256847671c18f3494ed63add017365e83878796f3",
+     "jaccard_on_messages": 0.732,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "17": [
+    {
+     "a": "18e3e69a1f175b641915416a89800f5215c02b767b82cfdbbfbb5b8ef7a4d525",
+     "b": "7e1aab3c8ac41824c8ab04021f60c51a68cad3c25f2ee7d9f6316df2db168fca",
+     "jaccard_on_messages": 0.1726,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "18e3e69a1f175b641915416a89800f5215c02b767b82cfdbbfbb5b8ef7a4d525",
+     "b": "a263b6651a3d6f6cf060fa70da2d5b7b6d6f194367e2f3718094035744343bee",
+     "jaccard_on_messages": 0.931,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "7e1aab3c8ac41824c8ab04021f60c51a68cad3c25f2ee7d9f6316df2db168fca",
+     "b": "a263b6651a3d6f6cf060fa70da2d5b7b6d6f194367e2f3718094035744343bee",
+     "jaccard_on_messages": 0.1732,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "18": [
+    {
+     "a": "43642c897ef8efd9a6441d576fd0a63fc1390ebfc4390ac057dffded5859f059",
+     "b": "48b3dc17975d534edea4f6e284d210251bed085a6d43a20ee2869f867e6ba3a9",
+     "jaccard_on_messages": 0.9338,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "43642c897ef8efd9a6441d576fd0a63fc1390ebfc4390ac057dffded5859f059",
+     "b": "762b17b69a65070754e58ff23c7db4e305ebc288437a26e7b4c4a3d8d13a0278",
+     "jaccard_on_messages": 0.1798,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "48b3dc17975d534edea4f6e284d210251bed085a6d43a20ee2869f867e6ba3a9",
+     "b": "762b17b69a65070754e58ff23c7db4e305ebc288437a26e7b4c4a3d8d13a0278",
+     "jaccard_on_messages": 0.1815,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "19": [
+    {
+     "a": "12735b3e2a7fb78a50dd09d79a3d462d818f052d422d666b352f694825f98314",
+     "b": "a48002ebd888737139f5194c95cce122d00ee91e79cd26e058b60200168e37ab",
+     "jaccard_on_messages": 0.5583,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "12735b3e2a7fb78a50dd09d79a3d462d818f052d422d666b352f694825f98314",
+     "b": "e1aaf2ff2f125f3ae530e84ef6a8dd7342a13c4162d0e5b11e5db1ef66a6659a",
+     "jaccard_on_messages": 0.3373,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    },
+    {
+     "a": "a48002ebd888737139f5194c95cce122d00ee91e79cd26e058b60200168e37ab",
+     "b": "e1aaf2ff2f125f3ae530e84ef6a8dd7342a13c4162d0e5b11e5db1ef66a6659a",
+     "jaccard_on_messages": 0.2736,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ]
+  }
+ },
+ "1M": {
+  "questions": 2674,
+  "unique_question_id": 2674,
+  "unique_persona_id": 20,
+  "unique_shared_context_id": 31,
+  "unique_raw_context_sha256": 31,
+  "unique_system_persona_sha256": 20,
+  "contexts_in_jsonl": 33,
+  "contexts_referenced": 31,
+  "unreferenced_extra_contexts": 2,
+  "questions_per_shared_context": {
+   "min": 61,
+   "median": 85.0,
+   "max": 114
+  },
+  "questions_per_persona": {
+   "min": 75,
+   "median": 150.0,
+   "max": 227
+  },
+  "shared_contexts_per_persona": {
+   "min": 1,
+   "median": 2.0,
+   "max": 2
+  },
+  "personas_per_shared_context_max": 1,
+  "one_context_maps_to_multiple_personas": false,
+  "one_persona_maps_to_multiple_contexts": true,
+  "defensible_independent_source_histories": 20,
+  "contexts": {
+   "660aef69c2287151c7fe11e203879023c516c8e759c05af5e0d18c62ee953a24": {
+    "persona_id": 0,
+    "n_questions": 89,
+    "question_types": {
+     "recall_user_shared_facts": 3,
+     "acknowledge_latest_user_preferences": 29,
+     "suggest_new_ideas": 27,
+     "provide_preference_aligned_recommendations": 9,
+     "generalizing_to_new_scenarios": 12,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 922921,
+     "max": 927801
+    },
+    "end_index_values": [
+     3592,
+     3604,
+     3605,
+     3607,
+     3611,
+     3617,
+     3618,
+     3621,
+     3622,
+     3625
+    ],
+    "n_messages": 3626,
+    "raw_context_sha256": "7fde986d83726dfee56f7e4370cd8ae0af9882cff6db0602d0337c859f9d9f73",
+    "raw_context_serialized_len": 4941517,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "9c17657c735acc9d9817cae99f63d95a280b4fe2d716603560efb09482256236": {
+    "persona_id": 0,
+    "n_questions": 87,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 25,
+     "recall_user_shared_facts": 6,
+     "suggest_new_ideas": 31,
+     "generalizing_to_new_scenarios": 10,
+     "revisit_reasons_behind_preference_updates": 5,
+     "provide_preference_aligned_recommendations": 4,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 891588,
+     "max": 896468
+    },
+    "end_index_values": [
+     3501,
+     3513,
+     3514,
+     3516,
+     3520,
+     3526,
+     3527,
+     3530,
+     3531,
+     3534
+    ],
+    "n_messages": 3535,
+    "raw_context_sha256": "0f7f41bd10da228d0f5aad86e274c9d701a62c34b949f0d1486f3022a5e107bb",
+    "raw_context_serialized_len": 4790503,
+    "system_persona_sha256": "ff15c85e140b153dff55d3ad6a1482a300bcee8bce326ee1ebf1eee5ffd12763"
+   },
+   "cb6dba19acdd3cc5a5735f1d2bba5c682a9d38adaba97a02cb9c6bd7566a7e4e": {
+    "persona_id": 1,
+    "n_questions": 77,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 7,
+     "acknowledge_latest_user_preferences": 21,
+     "recall_user_shared_facts": 4,
+     "suggest_new_ideas": 22,
+     "revisit_reasons_behind_preference_updates": 8,
+     "generalizing_to_new_scenarios": 9,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 918917,
+     "max": 921532
+    },
+    "end_index_values": [
+     3523,
+     3524,
+     3525,
+     3526,
+     3527,
+     3528,
+     3531,
+     3532,
+     3535,
+     3539,
+     3540,
+     3541
+    ],
+    "n_messages": 3542,
+    "raw_context_sha256": "5a1e1008c0b4e4a3f0e0778f5cf49621956328688627b90fbd992053e240ed46",
+    "raw_context_serialized_len": 4908452,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "7ad040cc037ead012625c350441efecf4f8b1b572e1c58f4c15668e7385bc4a1": {
+    "persona_id": 1,
+    "n_questions": 90,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 27,
+     "provide_preference_aligned_recommendations": 8,
+     "suggest_new_ideas": 26,
+     "generalizing_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 9,
+     "recall_user_shared_facts": 6,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 882608,
+     "max": 885222
+    },
+    "end_index_values": [
+     3459,
+     3460,
+     3461,
+     3462,
+     3463,
+     3464,
+     3467,
+     3468,
+     3471,
+     3475,
+     3476,
+     3477
+    ],
+    "n_messages": 3478,
+    "raw_context_sha256": "9fe2081c27c4d9b694f95c9b583c540fe127492d76f6695faaaa19a4a6f1e6a4",
+    "raw_context_serialized_len": 4748909,
+    "system_persona_sha256": "5bfa325b5598f5b3aba36edbd0f1de7d37e748c725fc3d6ffd3e1d79dbfb2fad"
+   },
+   "4c82a1e17e045568adc3abb5101964bb4e81b10fbb21f997afa065795c5911dd": {
+    "persona_id": 2,
+    "n_questions": 92,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 24,
+     "suggest_new_ideas": 26,
+     "generalizing_to_new_scenarios": 11,
+     "revisit_reasons_behind_preference_updates": 12,
+     "recall_user_shared_facts": 6,
+     "provide_preference_aligned_recommendations": 7,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 925164,
+     "max": 927411
+    },
+    "end_index_values": [
+     3641,
+     3642,
+     3643,
+     3645,
+     3646,
+     3649,
+     3653,
+     3655,
+     3656,
+     3658
+    ],
+    "n_messages": 3659,
+    "raw_context_sha256": "ad8466bafcce60e2a6087eefe0bb85bea794191caf402fb1b6bbcfdc39248e7f",
+    "raw_context_serialized_len": 4925192,
+    "system_persona_sha256": "826712d99d119d4e269d09c5bd6422aacd61c80e170d4d8b254d31ee6165a0cb"
+   },
+   "b7147c2e727bcefe6cd193e673b20f22f5900dab3b0f1e940b3d6395daab8ca9": {
+    "persona_id": 2,
+    "n_questions": 72,
+    "question_types": {
+     "recall_user_shared_facts": 7,
+     "suggest_new_ideas": 21,
+     "acknowledge_latest_user_preferences": 17,
+     "provide_preference_aligned_recommendations": 7,
+     "generalizing_to_new_scenarios": 7,
+     "revisit_reasons_behind_preference_updates": 7,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 899839,
+     "max": 902086
+    },
+    "end_index_values": [
+     3562,
+     3563,
+     3564,
+     3566,
+     3567,
+     3570,
+     3574,
+     3576,
+     3577,
+     3579
+    ],
+    "n_messages": 3580,
+    "raw_context_sha256": "63815c2224b6e3edd272570aadff7a6449230206ec65a278cd3056f7bb5f0158",
+    "raw_context_serialized_len": 4804170,
+    "system_persona_sha256": "826712d99d119d4e269d09c5bd6422aacd61c80e170d4d8b254d31ee6165a0cb"
+   },
+   "5cabc3ac3b8bb91baa951cf33bc81df5cc2a03bd8a550858de64018a3b91cba8": {
+    "persona_id": 3,
+    "n_questions": 81,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 22,
+     "suggest_new_ideas": 20,
+     "provide_preference_aligned_recommendations": 14,
+     "generalizing_to_new_scenarios": 9,
+     "revisit_reasons_behind_preference_updates": 7,
+     "recall_user_shared_facts": 5,
+     "track_full_preference_updates": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 956766,
+     "max": 959494
+    },
+    "end_index_values": [
+     3691,
+     3692,
+     3694,
+     3696,
+     3698,
+     3713
+    ],
+    "n_messages": 3714,
+    "raw_context_sha256": "d2b9bc9d9d159165fc1a27bd1311a0768304000abf5383fc7ed28b41fd749e0d",
+    "raw_context_serialized_len": 5108708,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "b9aadbe86b132b6b269de71f3d96e68ae4cf53b63f442c8e100d098a3ff6966c": {
+    "persona_id": 3,
+    "n_questions": 88,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 9,
+     "acknowledge_latest_user_preferences": 25,
+     "recall_user_shared_facts": 7,
+     "suggest_new_ideas": 25,
+     "generalizing_to_new_scenarios": 9,
+     "revisit_reasons_behind_preference_updates": 7,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 906491,
+     "max": 909975
+    },
+    "end_index_values": [
+     3591,
+     3596,
+     3597,
+     3599,
+     3600,
+     3602,
+     3605,
+     3606,
+     3614,
+     3617
+    ],
+    "n_messages": 3618,
+    "raw_context_sha256": "f35b3415f611d13fa64db14bb13698f0ef7ec0c932702c156d04dfe426ad05a2",
+    "raw_context_serialized_len": 4880402,
+    "system_persona_sha256": "33ec8e607117a6e43ab1ed2be28c29cac78aa58720fca51ea67938bbbff3bcdb"
+   },
+   "a8992c5974f30bc67bef8159e391b2b6ae4d2f4c283f000bccdeb928f9e7cbeb": {
+    "persona_id": 4,
+    "n_questions": 77,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 23,
+     "suggest_new_ideas": 21,
+     "recall_user_shared_facts": 7,
+     "provide_preference_aligned_recommendations": 5,
+     "generalizing_to_new_scenarios": 6,
+     "revisit_reasons_behind_preference_updates": 9,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 918843,
+     "max": 921926
+    },
+    "end_index_values": [
+     3491,
+     3495,
+     3499,
+     3501,
+     3505,
+     3510,
+     3511
+    ],
+    "n_messages": 3512,
+    "raw_context_sha256": "a400cfa231906e1a6ed1dfd96bb1af9f1949f098573be00cbbf964b6f1c7ebfb",
+    "raw_context_serialized_len": 4922127,
+    "system_persona_sha256": "2d93f49a7790097262fceb99af83422bb69e209d98f9d4588677820fd7700a2a"
+   },
+   "e19d97d6bb6803a1aaadfee0d9af56998f811235ccf68cd428baf9e19ead4e85": {
+    "persona_id": 4,
+    "n_questions": 86,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 23,
+     "provide_preference_aligned_recommendations": 8,
+     "generalizing_to_new_scenarios": 7,
+     "revisit_reasons_behind_preference_updates": 12,
+     "suggest_new_ideas": 23,
+     "recall_user_shared_facts": 7,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 827665,
+     "max": 830694
+    },
+    "end_index_values": [
+     3283,
+     3284,
+     3286,
+     3287,
+     3290,
+     3294,
+     3295,
+     3298,
+     3300,
+     3303
+    ],
+    "n_messages": 3304,
+    "raw_context_sha256": "9326691044e29caae15cd0310f665a85fc2ce9afce71e120626c232ba8241d7b",
+    "raw_context_serialized_len": 4475699,
+    "system_persona_sha256": "2d93f49a7790097262fceb99af83422bb69e209d98f9d4588677820fd7700a2a"
+   },
+   "ccbdecb668bf9ddc4341396b79e9818c125711e11d00e00f69deeff3db45b919": {
+    "persona_id": 5,
+    "n_questions": 113,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 13,
+     "acknowledge_latest_user_preferences": 23,
+     "generalizing_to_new_scenarios": 11,
+     "revisit_reasons_behind_preference_updates": 11,
+     "suggest_new_ideas": 24,
+     "recall_user_shared_facts": 4,
+     "track_full_preference_updates": 27
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 951543,
+     "max": 954146
+    },
+    "end_index_values": [
+     3778,
+     3779,
+     3780,
+     3784,
+     3785,
+     3788,
+     3792,
+     3793,
+     3794,
+     3795
+    ],
+    "n_messages": 3796,
+    "raw_context_sha256": "f87bb5d506e7898aaffeeced04f8283d44b58b57327fd6832dedfa139b4cf032",
+    "raw_context_serialized_len": 5085684,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "d35a8f25208bc4f57a528ccc2834ca28989af0c6a4c550f05c2da14ebbe760ef": {
+    "persona_id": 5,
+    "n_questions": 114,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 11,
+     "acknowledge_latest_user_preferences": 24,
+     "generalizing_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 12,
+     "suggest_new_ideas": 24,
+     "recall_user_shared_facts": 6,
+     "track_full_preference_updates": 29
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 886387,
+     "max": 888987
+    },
+    "end_index_values": [
+     3634,
+     3635,
+     3636,
+     3640,
+     3641,
+     3644,
+     3648,
+     3649,
+     3650,
+     3651
+    ],
+    "n_messages": 3652,
+    "raw_context_sha256": "fb2bb798862f837a1253317d0dd513d4f5d94daaebfa85026b4b7026d912297a",
+    "raw_context_serialized_len": 4774464,
+    "system_persona_sha256": "f1ebc0de05219e33accb0ae2120196ab1034ade5ede243448118eebc26361997"
+   },
+   "3d648c43b1fae04744cf692927eb6649f18b00d90b8f8e2fcd5ea58b1feecc10": {
+    "persona_id": 6,
+    "n_questions": 61,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 6,
+     "acknowledge_latest_user_preferences": 19,
+     "recall_user_shared_facts": 4,
+     "suggest_new_ideas": 15,
+     "revisit_reasons_behind_preference_updates": 2,
+     "generalizing_to_new_scenarios": 10,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 937476,
+     "max": 940051
+    },
+    "end_index_values": [
+     3590,
+     3594,
+     3595,
+     3599,
+     3604,
+     3608,
+     3609
+    ],
+    "n_messages": 3610,
+    "raw_context_sha256": "fe25f2e8df06ed35f4d8f42f081aa33a616d15989268696096faaa05b463fca7",
+    "raw_context_serialized_len": 4996347,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "1fcdaf16e061a14b979a61101b0ba247a63f0d33aedf51cc07ad55e83cb60487": {
+    "persona_id": 6,
+    "n_questions": 79,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 26,
+     "provide_preference_aligned_recommendations": 9,
+     "suggest_new_ideas": 21,
+     "generalizing_to_new_scenarios": 9,
+     "revisit_reasons_behind_preference_updates": 7,
+     "recall_user_shared_facts": 2,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy"
+    ],
+    "context_tokens": {
+     "min": 850314,
+     "max": 852890
+    },
+    "end_index_values": [
+     3382,
+     3386,
+     3387,
+     3391,
+     3396,
+     3400,
+     3401
+    ],
+    "n_messages": 3402,
+    "raw_context_sha256": "a113dac1872e85aaa47a60fa81405e587871fec5bcca2f73662acad6b15dde50",
+    "raw_context_serialized_len": 4567965,
+    "system_persona_sha256": "3c5a77bdb1fc27d0854e08cda08d8f2e87fdd8b418d334d4c9899966c556574b"
+   },
+   "e3d062275fdf24253643257d5e0427e007d70e774f2f4cd6be80f242ccb509d7": {
+    "persona_id": 7,
+    "n_questions": 81,
+    "question_types": {
+     "suggest_new_ideas": 21,
+     "acknowledge_latest_user_preferences": 26,
+     "provide_preference_aligned_recommendations": 10,
+     "revisit_reasons_behind_preference_updates": 5,
+     "generalizing_to_new_scenarios": 8,
+     "recall_user_shared_facts": 5,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 935611,
+     "max": 938599
+    },
+    "end_index_values": [
+     3556,
+     3560,
+     3564,
+     3565,
+     3568,
+     3570,
+     3571,
+     3575,
+     3576
+    ],
+    "n_messages": 3577,
+    "raw_context_sha256": "2d224c2b12ecbca9a16e118d3fc8227b5aa2ab64153765cf81afe32195cdca80",
+    "raw_context_serialized_len": 4994260,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "a5e56f6184718db5cdd0a7511334e739a6061099e79866c87fe337978940df94": {
+    "persona_id": 7,
+    "n_questions": 85,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 10,
+     "suggest_new_ideas": 22,
+     "acknowledge_latest_user_preferences": 26,
+     "generalizing_to_new_scenarios": 11,
+     "revisit_reasons_behind_preference_updates": 7,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 886119,
+     "max": 889107
+    },
+    "end_index_values": [
+     3460,
+     3464,
+     3468,
+     3469,
+     3472,
+     3474,
+     3475,
+     3479,
+     3480
+    ],
+    "n_messages": 3481,
+    "raw_context_sha256": "68e6b892c2dd8558e19b2a90285c47e05e2cf20dd9f4652f48070fb00a99d53e",
+    "raw_context_serialized_len": 4765954,
+    "system_persona_sha256": "661ab6052381c38087010a6b6cd9f15290583d90174c9679e2da717b7ce221e7"
+   },
+   "c028292052d9ac0723bf3295cfc3e23171c8a0cb94f82f1fb39cb8ac22519bf5": {
+    "persona_id": 8,
+    "n_questions": 90,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 6,
+     "acknowledge_latest_user_preferences": 30,
+     "suggest_new_ideas": 23,
+     "generalizing_to_new_scenarios": 13,
+     "revisit_reasons_behind_preference_updates": 10,
+     "recall_user_shared_facts": 4,
+     "track_full_preference_updates": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 931123,
+     "max": 933908
+    },
+    "end_index_values": [
+     3781,
+     3782,
+     3786,
+     3793,
+     3798,
+     3802
+    ],
+    "n_messages": 3803,
+    "raw_context_sha256": "0b8e335e763630c5f2d32bad27ab9bcef5767273e728d1cfa58ae9a39ca22c97",
+    "raw_context_serialized_len": 4999192,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "3523639bd714ce70f1354edb9dbca7dee7727cb24dbfcbd56658d0edd4fc76dc": {
+    "persona_id": 8,
+    "n_questions": 99,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 28,
+     "provide_preference_aligned_recommendations": 8,
+     "suggest_new_ideas": 25,
+     "generalizing_to_new_scenarios": 14,
+     "recall_user_shared_facts": 6,
+     "revisit_reasons_behind_preference_updates": 9,
+     "track_full_preference_updates": 9
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 404725,
+     "max": 895540
+    },
+    "end_index_values": [
+     1755,
+     1791,
+     2921,
+     2922,
+     2929,
+     3655,
+     3663,
+     3664,
+     3667,
+     3668,
+     3675,
+     3687,
+     3688,
+     3691
+    ],
+    "n_messages": 3692,
+    "raw_context_sha256": "54b3dc498b9de1cd0e0edcdf0041d8a09640d14332e86a0855fd4dda225041c0",
+    "raw_context_serialized_len": 4807352,
+    "system_persona_sha256": "73311e0a911cbcdd119e0b16405f2f84791ff7fd04d30cfb3579a92ce04862e0"
+   },
+   "983d5c92d6ba84a7bc6c2dcd40aea6e7d3de23cf112cbfcc5e58f40eb2fe1838": {
+    "persona_id": 9,
+    "n_questions": 76,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 7,
+     "recall_user_shared_facts": 5,
+     "acknowledge_latest_user_preferences": 19,
+     "suggest_new_ideas": 24,
+     "revisit_reasons_behind_preference_updates": 7,
+     "generalizing_to_new_scenarios": 7,
+     "track_full_preference_updates": 7
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 942176,
+     "max": 944912
+    },
+    "end_index_values": [
+     3714,
+     3716,
+     3718,
+     3720,
+     3724,
+     3726,
+     3731,
+     3732
+    ],
+    "n_messages": 3733,
+    "raw_context_sha256": "86cbe0392eca668dec129b9d943722801e031377cc32b34c61d17a5c81dc9e31",
+    "raw_context_serialized_len": 5059871,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "cbe79467a54cb0cc8d07852b46aa1138557edfa831f06f207dc30840c29f4326": {
+    "persona_id": 9,
+    "n_questions": 84,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 9,
+     "suggest_new_ideas": 19,
+     "acknowledge_latest_user_preferences": 26,
+     "generalizing_to_new_scenarios": 15,
+     "recall_user_shared_facts": 3,
+     "revisit_reasons_behind_preference_updates": 5,
+     "track_full_preference_updates": 7
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 905867,
+     "max": 908606
+    },
+    "end_index_values": [
+     3650,
+     3652,
+     3654,
+     3656,
+     3660,
+     3662,
+     3667,
+     3668
+    ],
+    "n_messages": 3669,
+    "raw_context_sha256": "5a7909b2a1a4a26c6b2ab5ac3681e6b2029e1edef8939af4edb9cc1d2038be1a",
+    "raw_context_serialized_len": 4900328,
+    "system_persona_sha256": "3784dd24dbf897d8abe1ac9138e6484300ae82cb2830844367b915cbcb17a43e"
+   },
+   "1d87245f57dee6a1ced3a91dbf61d2e9802f7190aa8910c20b58077adc366b42": {
+    "persona_id": 10,
+    "n_questions": 89,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 27,
+     "provide_preference_aligned_recommendations": 11,
+     "suggest_new_ideas": 25,
+     "generalizing_to_new_scenarios": 13,
+     "recall_user_shared_facts": 3,
+     "revisit_reasons_behind_preference_updates": 5,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 921151,
+     "max": 924618
+    },
+    "end_index_values": [
+     3703,
+     3704,
+     3709,
+     3712,
+     3713,
+     3717,
+     3718,
+     3723,
+     3724,
+     3727
+    ],
+    "n_messages": 3728,
+    "raw_context_sha256": "5f27b9680b4b5e228f563c6907e8b65cbfa5ed6b326fecbbe4264a2a8b93d00f",
+    "raw_context_serialized_len": 4951965,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "82b53b65d0ae1c66db18ed930a2a0b22816f70ec6e51b9b14eb9895d3c751781": {
+    "persona_id": 10,
+    "n_questions": 84,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 4,
+     "suggest_new_ideas": 28,
+     "acknowledge_latest_user_preferences": 25,
+     "recall_user_shared_facts": 4,
+     "generalizing_to_new_scenarios": 10,
+     "revisit_reasons_behind_preference_updates": 8,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 889644,
+     "max": 893114
+    },
+    "end_index_values": [
+     3612,
+     3613,
+     3618,
+     3621,
+     3622,
+     3626,
+     3627,
+     3632,
+     3633,
+     3636
+    ],
+    "n_messages": 3637,
+    "raw_context_sha256": "8a4281a452087c3af4cc5ec5b39ae82fdec8c182c688cbde1aa372cad1378044",
+    "raw_context_serialized_len": 4795383,
+    "system_persona_sha256": "ff5bd535f3cc81f9253b8ff2ab2c2d160a851b95ba876826ce8fa358446cbe19"
+   },
+   "38e78a2d7aee857e137eda424ef0a6fc86ee11c70a68b8779699864cd77ceed5": {
+    "persona_id": 11,
+    "n_questions": 94,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 28,
+     "provide_preference_aligned_recommendations": 10,
+     "suggest_new_ideas": 31,
+     "generalizing_to_new_scenarios": 13,
+     "revisit_reasons_behind_preference_updates": 6,
+     "recall_user_shared_facts": 1,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 922714,
+     "max": 925816
+    },
+    "end_index_values": [
+     3542,
+     3544,
+     3546,
+     3550,
+     3560,
+     3561
+    ],
+    "n_messages": 3562,
+    "raw_context_sha256": "f124b187b0de2b65406230740981c92af7e97bd7f3563dc570236660b5bcd4ee",
+    "raw_context_serialized_len": 4929307,
+    "system_persona_sha256": "0e642271ea1c220750dd8d527ab2e8346026f9307d4d8322ff7c2ac8489bca31"
+   },
+   "2f73067aca71ef542cad93cfd9a40e3e14ec65186216352493eefe04481b7a8d": {
+    "persona_id": 12,
+    "n_questions": 105,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 36,
+     "recall_user_shared_facts": 5,
+     "suggest_new_ideas": 26,
+     "generalizing_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 8,
+     "provide_preference_aligned_recommendations": 17,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 879413,
+     "max": 881857
+    },
+    "end_index_values": [
+     3417,
+     3421,
+     3422,
+     3423,
+     3427,
+     3428,
+     3429,
+     3434
+    ],
+    "n_messages": 3435,
+    "raw_context_sha256": "3c00797a8b863b7947e56069bbbff317d8f8c7c4485b61fd9e0566a09ccc5ba5",
+    "raw_context_serialized_len": 4707413,
+    "system_persona_sha256": "fd04b221cdc8d1d9e7c9dee74efce3d6715d8f5d89806c3423b6516c2de64516"
+   },
+   "9e41bb6ce379cbac1a31d294130d2b3be68c5707bc2ca64cd4c55e7668031673": {
+    "persona_id": 13,
+    "n_questions": 78,
+    "question_types": {
+     "recall_user_shared_facts": 5,
+     "provide_preference_aligned_recommendations": 11,
+     "suggest_new_ideas": 20,
+     "generalizing_to_new_scenarios": 4,
+     "revisit_reasons_behind_preference_updates": 8,
+     "acknowledge_latest_user_preferences": 23,
+     "track_full_preference_updates": 7
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 921284,
+     "max": 925249
+    },
+    "end_index_values": [
+     3526,
+     3527,
+     3532,
+     3533,
+     3539,
+     3542,
+     3549,
+     3551,
+     3552,
+     3554,
+     3555
+    ],
+    "n_messages": 3556,
+    "raw_context_sha256": "418e4a5a803ba8190d78c4e361853a8373359dbbfe8a545a27332408f2c3e4f0",
+    "raw_context_serialized_len": 4883517,
+    "system_persona_sha256": "c0a309052f57262d27efc6269555a1eefa93d24d2ab1ebd417b5e99282f33ec2"
+   },
+   "5d03d37366db4e788f89f35c52ad5026bb70bdaaff312820ee9277e536f5ae05": {
+    "persona_id": 14,
+    "n_questions": 75,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 24,
+     "suggest_new_ideas": 19,
+     "provide_preference_aligned_recommendations": 12,
+     "generalizing_to_new_scenarios": 7,
+     "revisit_reasons_behind_preference_updates": 6,
+     "recall_user_shared_facts": 2,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 939179,
+     "max": 943112
+    },
+    "end_index_values": [
+     3662,
+     3668,
+     3678,
+     3679,
+     3684,
+     3687,
+     3688
+    ],
+    "n_messages": 3689,
+    "raw_context_sha256": "551e2c63414b223b0db833509802ba0b0b6413f6bf0daed8c97777463d7635da",
+    "raw_context_serialized_len": 5018310,
+    "system_persona_sha256": "3fc96f45600b4c443f80eebc7cd03f6daae46b5352075a16b09973a5736f3f03"
+   },
+   "bff6711e83c373eabe04245fb389fb90c9551baab912166e638382008c40e6c1": {
+    "persona_id": 15,
+    "n_questions": 78,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 10,
+     "acknowledge_latest_user_preferences": 24,
+     "suggest_new_ideas": 19,
+     "recall_user_shared_facts": 5,
+     "generalizing_to_new_scenarios": 7,
+     "revisit_reasons_behind_preference_updates": 3,
+     "track_full_preference_updates": 10
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 888681,
+     "max": 893791
+    },
+    "end_index_values": [
+     3458,
+     3465,
+     3473,
+     3477,
+     3478,
+     3489,
+     3493
+    ],
+    "n_messages": 3494,
+    "raw_context_sha256": "a37181182e9d2252e997bd5695d83186728fd9bacc7004a002fe4404bf4509d4",
+    "raw_context_serialized_len": 4722233,
+    "system_persona_sha256": "e1aae2757d732561113f782fcfe8ec98d353eca4a467f560f8ed785f3d5dadb3"
+   },
+   "67435e6db03ca576e31e4a43d59a31afcf015fd07768d90f7b2e2bfa3a208fd7": {
+    "persona_id": 16,
+    "n_questions": 92,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 26,
+     "suggest_new_ideas": 20,
+     "recall_user_shared_facts": 9,
+     "generalizing_to_new_scenarios": 12,
+     "provide_preference_aligned_recommendations": 9,
+     "revisit_reasons_behind_preference_updates": 11,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 921796,
+     "max": 925287
+    },
+    "end_index_values": [
+     3637,
+     3638,
+     3643,
+     3644,
+     3649,
+     3653,
+     3654,
+     3658,
+     3659,
+     3662
+    ],
+    "n_messages": 3663,
+    "raw_context_sha256": "8389809555f952c2b452c521930e320b02d553f13c7bc71eb33b62105b7401b7",
+    "raw_context_serialized_len": 4957846,
+    "system_persona_sha256": "bda18ea4f8ce0629e9a9e7caf24d8d213632b4acd9b50528cb236add085a26b1"
+   },
+   "8b114bc95e5171b7ea123afd2ad37700ef9ca282d87599409b82afe3d447f84b": {
+    "persona_id": 17,
+    "n_questions": 85,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 11,
+     "suggest_new_ideas": 28,
+     "acknowledge_latest_user_preferences": 21,
+     "generalizing_to_new_scenarios": 9,
+     "revisit_reasons_behind_preference_updates": 7,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_updates": 6
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 947445,
+     "max": 951145
+    },
+    "end_index_values": [
+     3716,
+     3718,
+     3724,
+     3725,
+     3733,
+     3736,
+     3739,
+     3743
+    ],
+    "n_messages": 3744,
+    "raw_context_sha256": "a27558b02200dceea6b0375e2c206bf13dc261616532998beb41c3f37d9b100c",
+    "raw_context_serialized_len": 5047899,
+    "system_persona_sha256": "ed1a290b2fa0c88ca5fb2ac0a21384453b98c88993afb24c7ad96057761a432f"
+   },
+   "1317c3c5d75e6b9fe751d84cdf238dc3bc06f87442cce0731fa57879a48db221": {
+    "persona_id": 18,
+    "n_questions": 77,
+    "question_types": {
+     "acknowledge_latest_user_preferences": 24,
+     "suggest_new_ideas": 24,
+     "generalizing_to_new_scenarios": 8,
+     "revisit_reasons_behind_preference_updates": 9,
+     "provide_preference_aligned_recommendations": 4,
+     "recall_user_shared_facts": 3,
+     "track_full_preference_updates": 5
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 940246,
+     "max": 942907
+    },
+    "end_index_values": [
+     3683,
+     3687,
+     3688,
+     3689,
+     3693,
+     3697,
+     3698,
+     3700
+    ],
+    "n_messages": 3701,
+    "raw_context_sha256": "92115c4062cfd6e022107b46543aa61603a52d8f12e9673204281065acdce996",
+    "raw_context_serialized_len": 5015709,
+    "system_persona_sha256": "34200a0f838b4dc3b7231a0f84fd445c51980a3c285b1c9db1277cd5ca16ec6d"
+   },
+   "3f4e30fbd7c64384ee5c38f08863f56c5855c879325ee5d271440516e1e64a48": {
+    "persona_id": 19,
+    "n_questions": 96,
+    "question_types": {
+     "provide_preference_aligned_recommendations": 14,
+     "suggest_new_ideas": 27,
+     "acknowledge_latest_user_preferences": 27,
+     "recall_user_shared_facts": 4,
+     "generalizing_to_new_scenarios": 10,
+     "revisit_reasons_behind_preference_updates": 10,
+     "track_full_preference_updates": 4
+    },
+    "topics": [
+     "bookRecommendation",
+     "datingConsultation",
+     "familyRelations",
+     "financialConsultation",
+     "foodRecommendation",
+     "homeDecoration",
+     "legalConsultation",
+     "medicalConsultation",
+     "movieRecommendation",
+     "musicRecommendation",
+     "onlineShopping",
+     "sportsRecommendation",
+     "studyConsultation",
+     "therapy",
+     "travelPlanning"
+    ],
+    "context_tokens": {
+     "min": 944330,
+     "max": 946629
+    },
+    "end_index_values": [
+     3698,
+     3702,
+     3710,
+     3711,
+     3712,
+     3713
+    ],
+    "n_messages": 3714,
+    "raw_context_sha256": "4c5cc1eb44bdeb76b6d199f888ce2d954bb02f5da2a33f71eac6b5de159ede98",
+    "raw_context_serialized_len": 5013686,
+    "system_persona_sha256": "1cca62358dc92014019b0afc775863a793b2a74adbbbb1fb66f8fc4b802e2086"
+   }
+  },
+  "within_persona_relations": {
+   "0": [
+    {
+     "a": "660aef69c2287151c7fe11e203879023c516c8e759c05af5e0d18c62ee953a24",
+     "b": "9c17657c735acc9d9817cae99f63d95a280b4fe2d716603560efb09482256236",
+     "jaccard_on_messages": 0.5616,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "1": [
+    {
+     "a": "7ad040cc037ead012625c350441efecf4f8b1b572e1c58f4c15668e7385bc4a1",
+     "b": "cb6dba19acdd3cc5a5735f1d2bba5c682a9d38adaba97a02cb9c6bd7566a7e4e",
+     "jaccard_on_messages": 0.527,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "2": [
+    {
+     "a": "4c82a1e17e045568adc3abb5101964bb4e81b10fbb21f997afa065795c5911dd",
+     "b": "b7147c2e727bcefe6cd193e673b20f22f5900dab3b0f1e940b3d6395daab8ca9",
+     "jaccard_on_messages": 0.5648,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "3": [
+    {
+     "a": "5cabc3ac3b8bb91baa951cf33bc81df5cc2a03bd8a550858de64018a3b91cba8",
+     "b": "b9aadbe86b132b6b269de71f3d96e68ae4cf53b63f442c8e100d098a3ff6966c",
+     "jaccard_on_messages": 0.5483,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "4": [
+    {
+     "a": "a8992c5974f30bc67bef8159e391b2b6ae4d2f4c283f000bccdeb928f9e7cbeb",
+     "b": "e19d97d6bb6803a1aaadfee0d9af56998f811235ccf68cd428baf9e19ead4e85",
+     "jaccard_on_messages": 0.5137,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "5": [
+    {
+     "a": "ccbdecb668bf9ddc4341396b79e9818c125711e11d00e00f69deeff3db45b919",
+     "b": "d35a8f25208bc4f57a528ccc2834ca28989af0c6a4c550f05c2da14ebbe760ef",
+     "jaccard_on_messages": 0.5581,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "6": [
+    {
+     "a": "1fcdaf16e061a14b979a61101b0ba247a63f0d33aedf51cc07ad55e83cb60487",
+     "b": "3d648c43b1fae04744cf692927eb6649f18b00d90b8f8e2fcd5ea58b1feecc10",
+     "jaccard_on_messages": 0.5318,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "7": [
+    {
+     "a": "a5e56f6184718db5cdd0a7511334e739a6061099e79866c87fe337978940df94",
+     "b": "e3d062275fdf24253643257d5e0427e007d70e774f2f4cd6be80f242ccb509d7",
+     "jaccard_on_messages": 0.5337,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "8": [
+    {
+     "a": "3523639bd714ce70f1354edb9dbca7dee7727cb24dbfcbd56658d0edd4fc76dc",
+     "b": "c028292052d9ac0723bf3295cfc3e23171c8a0cb94f82f1fb39cb8ac22519bf5",
+     "jaccard_on_messages": 0.5784,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "9": [
+    {
+     "a": "983d5c92d6ba84a7bc6c2dcd40aea6e7d3de23cf112cbfcc5e58f40eb2fe1838",
+     "b": "cbe79467a54cb0cc8d07852b46aa1138557edfa831f06f207dc30840c29f4326",
+     "jaccard_on_messages": 0.5471,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "10": [
+    {
+     "a": "1d87245f57dee6a1ced3a91dbf61d2e9802f7190aa8910c20b58077adc366b42",
+     "b": "82b53b65d0ae1c66db18ed930a2a0b22816f70ec6e51b9b14eb9895d3c751781",
+     "jaccard_on_messages": 0.5699,
+     "relation": "SAME_UNDERLYING_SESSION_POOL",
+     "same_system_persona": true
+    }
+   ],
+   "11": [],
+   "12": [],
+   "13": [],
+   "14": [],
+   "15": [],
+   "16": [],
+   "17": [],
+   "18": [],
+   "19": []
+  }
+ }
+}

@@ -1,0 +1,181 @@
+{
+  "file": "benchmark/text/benchmark.csv",
+  "rows": 5000,
+  "sha256": "95f2a8a324aab7baf2af937feae12731369e2abf7cad5ab3e170594cb25a3e52",
+  "source_of_meaning": "bowen-upenn/ImplicitPersona column_descriptions.md (official) + PersonaMem-v2 inference.py",
+  "columns": {
+    "persona_id": {
+      "dtype": "int64",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "chat_history_32k_link": {
+      "dtype": "object",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "chat_history_128k_link": {
+      "dtype": "object",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "raw_persona_file": {
+      "dtype": "object",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "short_persona": {
+      "dtype": "object",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "expanded_persona": {
+      "dtype": "object",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "user_query": {
+      "dtype": "object",
+      "n_unique": 4949,
+      "n_null": 0
+    },
+    "correct_answer": {
+      "dtype": "object",
+      "n_unique": 5000,
+      "n_null": 0
+    },
+    "incorrect_answers": {
+      "dtype": "object",
+      "n_unique": 5000,
+      "n_null": 0
+    },
+    "topic_query": {
+      "dtype": "object",
+      "n_unique": 335,
+      "n_null": 0
+    },
+    "preference": {
+      "dtype": "object",
+      "n_unique": 4733,
+      "n_null": 0
+    },
+    "topic_preference": {
+      "dtype": "object",
+      "n_unique": 325,
+      "n_null": 0
+    },
+    "conversation_scenario": {
+      "dtype": "object",
+      "n_unique": 9,
+      "n_null": 0
+    },
+    "pref_type": {
+      "dtype": "object",
+      "n_unique": 7,
+      "n_null": 0
+    },
+    "related_conversation_snippet": {
+      "dtype": "object",
+      "n_unique": 5000,
+      "n_null": 0
+    },
+    "who": {
+      "dtype": "object",
+      "n_unique": 2,
+      "n_null": 0
+    },
+    "updated": {
+      "dtype": "bool",
+      "n_unique": 2,
+      "n_null": 0
+    },
+    "prev_pref": {
+      "dtype": "object",
+      "n_unique": 1028,
+      "n_null": 3952
+    },
+    "sensitive_info": {
+      "dtype": "bool",
+      "n_unique": 2,
+      "n_null": 0
+    },
+    "total_tokens_in_chat_history_32k": {
+      "dtype": "int64",
+      "n_unique": 159,
+      "n_null": 0
+    },
+    "total_tokens_in_chat_history_128k": {
+      "dtype": "int64",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "distance_from_related_snippet_to_query_32k": {
+      "dtype": "int64",
+      "n_unique": 4081,
+      "n_null": 0
+    },
+    "distance_from_related_snippet_to_query_128k": {
+      "dtype": "int64",
+      "n_unique": 4397,
+      "n_null": 0
+    },
+    "num_persona_relevant_tokens_32k": {
+      "dtype": "int64",
+      "n_unique": 159,
+      "n_null": 0
+    },
+    "num_persona_irrelevant_tokens_32k": {
+      "dtype": "int64",
+      "n_unique": 1,
+      "n_null": 0
+    },
+    "num_persona_relevant_tokens_128k": {
+      "dtype": "int64",
+      "n_unique": 200,
+      "n_null": 0
+    },
+    "num_persona_irrelevant_tokens_128k": {
+      "dtype": "int64",
+      "n_unique": 199,
+      "n_null": 0
+    }
+  },
+  "field_roles": {
+    "persona_user_id": "persona_id (official: unique identifier for each persona, 0-999)",
+    "history_reference": [
+      "chat_history_32k_link",
+      "chat_history_128k_link"
+    ],
+    "persona_source_file": "raw_persona_file",
+    "query": "user_query (a {'role','content'} dict literal)",
+    "answer": "correct_answer (free-form personalized response text)",
+    "distractors": "incorrect_answers (JSON list, exactly 3)",
+    "correct_option_label": "NOT stored; the option letter is created at evaluation time by inference.py::create_mcq_options",
+    "categories": [
+      "topic_query",
+      "topic_preference",
+      "conversation_scenario",
+      "pref_type",
+      "who",
+      "updated",
+      "sensitive_info"
+    ],
+    "evidence_pointer": "related_conversation_snippet (the turns where the preference was implicitly revealed)",
+    "context_metadata": [
+      "total_tokens_in_chat_history_32k",
+      "total_tokens_in_chat_history_128k",
+      "distance_from_related_snippet_to_query_32k",
+      "distance_from_related_snippet_to_query_128k",
+      "num_persona_relevant_tokens_32k",
+      "num_persona_irrelevant_tokens_32k",
+      "num_persona_relevant_tokens_128k",
+      "num_persona_irrelevant_tokens_128k"
+    ],
+    "absent": [
+      "question_id",
+      "history_id",
+      "modality column (the text/multimodal split is the FILE, not a column)",
+      "inline context text"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "docstore": {
+    "b13fabc4-6d1a-44d0-84b6-fd496a22b7e2": {
+      "data": "open fridge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "05a8285a-0e30-4a87-8aa7-165f2e2b5555",
+        "0e1424b7-2a32-4b1f-9cae-7a8b5894b356",
+        "16b89bfe-cc9c-4ddb-8111-d41c095d93fa",
+        "1753e680-2b30-4264-a000-a4c6d5e96790",
+        "7b82612e-69cf-40ac-af93-dfbce1bfe53c",
+        "7b8c65dd-a50c-4d9e-b840-418fc04e119b",
+        "98c0161a-f6a8-4e46-8212-51f91587ab58",
+        "bb38003e-a308-49ec-8aac-dca1985f53f2",
+        "bdfd79a4-119a-4728-9b7e-7c0bfe240e01",
+        "e0310581-82bf-49ed-8c36-1e951a25d4ca"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972"
+    },
+    "66108a08-c51a-4971-8273-ba9e6fdfab53": {
+      "data": "cooled potato",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "01ebeb09-6f52-4241-b1c9-1518b6f42e62",
+        "a3936203-8920-41cb-9188-eb93c19bf138"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972"
+    },
+    "ce20cd66-dc7b-48e6-abd7-4cfe409db9ae": {
+      "data": "cooled apple",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "6c27c96a-bafa-443a-9972-0ccc852c7bce"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972"
+    }
+  },
+  "index_to_id": {
+    "0": "b13fabc4-6d1a-44d0-84b6-fd496a22b7e2",
+    "1": "66108a08-c51a-4971-8273-ba9e6fdfab53",
+    "2": "ce20cd66-dc7b-48e6-abd7-4cfe409db9ae"
+  }
+}

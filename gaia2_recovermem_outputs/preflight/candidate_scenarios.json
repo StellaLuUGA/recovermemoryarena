@@ -1,0 +1,4124 @@
+{
+  "status": "NOT A FROZEN SPLIT \u2014 reference only",
+  "warning": "MAIN_TABLE_DECISION = FAIL. HARD_AND_CLEAR (multi-turn AND >=2 programmatic-hard AND zero LLM-judged scored events) = 0. The pool below is the appendix option-1 candidate set: multi-turn + >=2 PROGRAMMATIC_HARD + CLEAR cross-turn dependence, but EVERY member still contains LLM-judged scored events (the send_message_to_user turn boundary). Scoring only its hard sub-events would be a DERIVED metric, not Gaia2's released validation semantics.",
+  "n_scenarios": 173,
+  "by_capability": {
+    "adaptability": 126,
+    "ambiguity": 1,
+    "time": 46
+  },
+  "turns": {
+    "2": 158,
+    "3": 15
+  },
+  "programmatic_hard_per_scenario": {
+    "min": 2,
+    "max": 15
+  },
+  "llm_judged_per_scenario": {
+    "min": 1,
+    "max": 11
+  },
+  "scenarios": [
+    {
+      "scenario_id": "scenario_universe_21_1qgjj6",
+      "id": "0686_g7xymw4gh5ccwcdpn1rqqnni2jli2g25",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 7,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "d83d0cd249e8f298"
+    },
+    {
+      "scenario_id": "scenario_universe_21_2frnen",
+      "id": "0639_b8jmhd3n7gjyw99jd3rhcmbea4baqfqg",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "72653304a52b7f51"
+    },
+    {
+      "scenario_id": "scenario_universe_21_44vlco",
+      "id": "0649_gp4sofsqx8szhnsbwg7bqv4isvgpb7sw",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "d45d7dc470f9c886"
+    },
+    {
+      "scenario_id": "scenario_universe_21_4o5b3h",
+      "id": "0666_2dsmofbug7ytmczfxa1a7y8xch0suuzh",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "626c9e72ede1a3bd"
+    },
+    {
+      "scenario_id": "scenario_universe_21_4syut5",
+      "id": "0874_jwipcum33yrsye0s1vuidtqtpg6jcly1",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "a066d875ae1d1283"
+    },
+    {
+      "scenario_id": "scenario_universe_21_55o5n0",
+      "id": "0709_gsfrbf2asw3amyt6tngt58pn9iwopo3u",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 5,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "7ddb1fd1be1612e2"
+    },
+    {
+      "scenario_id": "scenario_universe_21_5e0gvz",
+      "id": "0601_mz4dh4tml93gims9dxwrcz7i16t0p5ud",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 7,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "4a28e672fd25c1bb"
+    },
+    {
+      "scenario_id": "scenario_universe_21_5flf8t",
+      "id": "0612_nxnlsgo0crpgkmib1mkfbcg744f1u09k",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 16,
+      "programmatic_hard": 7,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 7
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 7,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "d9ed8608445be207"
+    },
+    {
+      "scenario_id": "scenario_universe_21_5fny1x",
+      "id": "0660_l3y0egytbn6wqk388pgjllndgy1eeckw",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "067747a0bfa194aa"
+    },
+    {
+      "scenario_id": "scenario_universe_21_7tb9tp",
+      "id": "0618_tzjsm881uzdzc8bkicb27xhbwpcqcq3a",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 5,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "6578127a22a94bfa"
+    },
+    {
+      "scenario_id": "scenario_universe_21_9iqyr8",
+      "id": "0907_o8lhhq00pjqngpvp00cu0ireperv6ssu",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "db0c3a9da20c060c"
+    },
+    {
+      "scenario_id": "scenario_universe_21_amsya0",
+      "id": "0677_zneihwsxs6i9lcuqz2vb8naly0gvuv2a",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 4,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "77c70d3e4c9296c7"
+    },
+    {
+      "scenario_id": "scenario_universe_21_d0wx3m",
+      "id": "0906_w0obmcfkf49ac3pynm0mr3cc14upscut",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 6,
+      "programmatic_hard": 2,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "1ae635b6578a7c06"
+    },
+    {
+      "scenario_id": "scenario_universe_21_ejxzy0",
+      "id": "0916_dniwu8k32oxma8fyul0hxk4k0388fu5t",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 9,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6
+        }
+      },
+      "data_sha256_16": "c0ef2955387690db"
+    },
+    {
+      "scenario_id": "scenario_universe_21_fed6nl",
+      "id": "0863_77j2gnywa1mxhzecvsrep6ejbvj2tzra",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "9ba43291abb70cd2"
+    },
+    {
+      "scenario_id": "scenario_universe_21_kgqyjr",
+      "id": "0608_f9dnksx1xvs5mvxg8qcax32clsp3b3bo",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "89b38839824c541e"
+    },
+    {
+      "scenario_id": "scenario_universe_21_m6f6da",
+      "id": "0687_p9ddvrdogimp0tgvt5046f2i3uer0lwa",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "638828c106cf3c91"
+    },
+    {
+      "scenario_id": "scenario_universe_21_nc6nqf",
+      "id": "0704_lui2dl8fcrr4qp8syekzbkaaj1s0o1ce",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 3,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "dba0355ebc606f42"
+    },
+    {
+      "scenario_id": "scenario_universe_21_q64dyh",
+      "id": "0899_c60ap7b4g1fyrp4oy73so7pifq7xhuw6",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "fefe4c0084bb5db7"
+    },
+    {
+      "scenario_id": "scenario_universe_21_u71y3v",
+      "id": "0657_ckq67khpa3sgw4jynmjz00j70m93xd2l",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 8,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "097c4a0b1f168408"
+    },
+    {
+      "scenario_id": "scenario_universe_21_x1l1om",
+      "id": "0914_y70s9nda9x1kae513hc6vs39oi568yak",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "5132f5da73869cb4"
+    },
+    {
+      "scenario_id": "scenario_universe_21_xhm2tb",
+      "id": "0939_81gl1ikfo8vxdghpe4sqxlb5vzg1971y",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 10,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "43f6ccdfd6876ff9"
+    },
+    {
+      "scenario_id": "scenario_universe_21_y6td7z",
+      "id": "0859_0955qpz7w3j9ib9vml2osvr8fxjzswxs",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 17,
+      "programmatic_hard": 8,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 7
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 8,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "6892dec9822f5d3a"
+    },
+    {
+      "scenario_id": "scenario_universe_22_0421h2",
+      "id": "0637_wz3bcrlckr0fmca6xlgc3grjipbvgr0p",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 18,
+      "programmatic_hard": 9,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 6,
+          "PROGRAMMATIC_HARD": 9
+        }
+      },
+      "data_sha256_16": "c0e744908ac7c321"
+    },
+    {
+      "scenario_id": "scenario_universe_22_4bgywn",
+      "id": "0611_xz3gx15p5p2iffhdg8eqs0uj83eecplm",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 4,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "6529369b7350566d"
+    },
+    {
+      "scenario_id": "scenario_universe_22_52zclh",
+      "id": "0610_ciifop2jmjyeph0bly3rqpeyz3t2b4lc",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "859d044849f5aa00"
+    },
+    {
+      "scenario_id": "scenario_universe_22_6gvby5",
+      "id": "0634_vl1sn9gyr68c5hgigh6r2aoutdgo5pjd",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 5,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "fee896a4931e9f04"
+    },
+    {
+      "scenario_id": "scenario_universe_22_6jpphb",
+      "id": "0684_czfzxqol5wzfbed4rk9l2zcys6i2cbjt",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 5,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "dc813fafa2ef7b69"
+    },
+    {
+      "scenario_id": "scenario_universe_22_6wkrhc",
+      "id": "0692_0titoqjx5uvsesykkno5fxxjccpdd827",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "da0b05c255cdbd5e"
+    },
+    {
+      "scenario_id": "scenario_universe_22_96az3k",
+      "id": "0870_jlczezv7tauo4495lc19a6fg0tnjibvh",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 5,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "9a079d83e32cb887"
+    },
+    {
+      "scenario_id": "scenario_universe_22_avv6xk",
+      "id": "0653_vsec8bpjbdf8gz2yiiuap0aaixcd2whj",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 5,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "3df29d09c8d2af48"
+    },
+    {
+      "scenario_id": "scenario_universe_22_c1o49t",
+      "id": "0670_hfkpojfb4myigbc32a5xl6zcv249alao",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "e518d1ce0d81c203"
+    },
+    {
+      "scenario_id": "scenario_universe_22_dwshqq",
+      "id": "0602_sy6r944liwulln91ravyrcctdirinr0d",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "942dcad3888906cf"
+    },
+    {
+      "scenario_id": "scenario_universe_22_h34zyy",
+      "id": "0885_xprway7wdx5vwlrh2upaefyi7qkmzy6b",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "1": {
+          "LLM_JUDGE": 5,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "b665809801484807"
+    },
+    {
+      "scenario_id": "scenario_universe_22_mwaju2",
+      "id": "0702_j5wq87el1nyh1yyjwsjdcjof2tqrwi8w",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "5e4fe64e10735b04"
+    },
+    {
+      "scenario_id": "scenario_universe_22_n4g3g5",
+      "id": "0697_sn451pnnoz19j0o0fylr8onyo828f3tn",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 4,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "415e8ac52df2565f"
+    },
+    {
+      "scenario_id": "scenario_universe_22_o2zgk8",
+      "id": "0636_rmskjxrfmi05z4zftlr3li5tr96qxeas",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 4,
+      "llm_judge": 11,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 5
+        }
+      },
+      "data_sha256_16": "c70c0df32f4da5e4"
+    },
+    {
+      "scenario_id": "scenario_universe_22_pof2c4",
+      "id": "0707_i706q09ixk7eh1bghozdtp5b7mz9jb7n",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 3,
+      "llm_judge": 10,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 7
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "26e9f7180028ea85"
+    },
+    {
+      "scenario_id": "scenario_universe_22_prjgw5",
+      "id": "0918_8kzhquq1fm25r7w0lgnus7u33g2023yx",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 2,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "810d5263f43435a8"
+    },
+    {
+      "scenario_id": "scenario_universe_22_rkk8lj",
+      "id": "0928_ihbgtmf866yart8bkcrrqqvjnx9eh1bo",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 5,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "3ec19c5ce2a3b232"
+    },
+    {
+      "scenario_id": "scenario_universe_22_skv55f",
+      "id": "0654_twn8m4w9f4yix6f7zh8kn2bpiwr84vk0",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 4,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "3c7e3aa46aac3c9b"
+    },
+    {
+      "scenario_id": "scenario_universe_22_txmcil",
+      "id": "0927_ox4f2a4q0zjrgo92ach8m88gdyzxkavq",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 6,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "4679b0e4c018041f"
+    },
+    {
+      "scenario_id": "scenario_universe_22_zwe506",
+      "id": "0883_20h78i8ptuul6yuhk6cke8lzvmp929c2",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4
+        },
+        "2": {
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "7e8923474aecd080"
+    },
+    {
+      "scenario_id": "scenario_universe_23_0ekokg",
+      "id": "0910_4matypzvi03is4q0ep163xzp833mzfhh",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "5c7526221d3913a0"
+    },
+    {
+      "scenario_id": "scenario_universe_23_10lmow",
+      "id": "0699_lt56m9qzd9t14dp58spmpaybf4el4h4k",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 4,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "d39ced8ef1de7e3e"
+    },
+    {
+      "scenario_id": "scenario_universe_23_3sha6c",
+      "id": "0879_0bgirm32atvzazj3lu5x66kuyvccljtg",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 8,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "c2d2c165ab0c112a"
+    },
+    {
+      "scenario_id": "scenario_universe_23_4l98uz",
+      "id": "0865_uewqhv9xlg9bg9ggsfdnrecvgj8xcmkm",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 5,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "db0fb7d81e652bc7"
+    },
+    {
+      "scenario_id": "scenario_universe_23_55q1sv",
+      "id": "0691_aw5sqbzfv1bjmj3vmxwpxmj0l3rx5br2",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "1f253d2325e48490"
+    },
+    {
+      "scenario_id": "scenario_universe_23_7qvlu8",
+      "id": "0941_wmtksn84uf7brrcuj1jz5o8l0mtoqd0d",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 7,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "0a6eedada3eb480b"
+    },
+    {
+      "scenario_id": "scenario_universe_23_9xsavm",
+      "id": "0635_mmp4hksqjnf1g52oexxaxmntjix11g2l",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 2,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "afa554215e27107a"
+    },
+    {
+      "scenario_id": "scenario_universe_23_avf1ow",
+      "id": "0890_p76cdsnqnnh13rpy12z7sj6f55ngiqdy",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 4,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "649f65c0da43ceaf"
+    },
+    {
+      "scenario_id": "scenario_universe_23_c8v2a0",
+      "id": "0607_mo3yh3fqpxo6jdsrdabi02k9p19vyvzx",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "447155e677f8ca5d"
+    },
+    {
+      "scenario_id": "scenario_universe_23_ekcbfh",
+      "id": "0625_0ks0aepjjmzjfqpzdm570w2nnwo6pg15",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 20,
+      "programmatic_hard": 9,
+      "llm_judge": 11,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 7,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "2": {
+          "LLM_JUDGE": 5,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "c470c1a39be13846"
+    },
+    {
+      "scenario_id": "scenario_universe_23_fzwgqh",
+      "id": "0864_t919667iik8znxy567rbje8zxnqxs7q7",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 8,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 8
+        }
+      },
+      "data_sha256_16": "932fb802e38822dd"
+    },
+    {
+      "scenario_id": "scenario_universe_23_h61xk3",
+      "id": "0682_1uar8bic22j0mqn5dcobx595b7227d1y",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 8,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6
+        }
+      },
+      "data_sha256_16": "1835f9fc49fe0a1c"
+    },
+    {
+      "scenario_id": "scenario_universe_23_hgbxo2",
+      "id": "0942_ittipbqa3jcxj9dgt8loojtlh354c1i2",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 14,
+      "programmatic_hard": 9,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "76b626b30441aa48"
+    },
+    {
+      "scenario_id": "scenario_universe_23_ljnkla",
+      "id": "0643_750ea4udiytzv2211crwkewkhydnq5lx",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "7a1b768337abcc44"
+    },
+    {
+      "scenario_id": "scenario_universe_23_mplh60",
+      "id": "0940_0obvk9h6p47p5f65f7de9lgkt3uva1lb",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "2": {
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "863f4b9ce93110ab"
+    },
+    {
+      "scenario_id": "scenario_universe_23_qjkt81",
+      "id": "0659_xpfi0s9ueivppstn8gps8ig8h8nnrjn9",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 4,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "cf4113285f7924f8"
+    },
+    {
+      "scenario_id": "scenario_universe_23_sh928e",
+      "id": "0646_qef4b0bzewo5qfffljf0sgxeelm2zcbl",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 3,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "78bce074f6c253e7"
+    },
+    {
+      "scenario_id": "scenario_universe_23_tbrkm7",
+      "id": "0606_54dqfl4ouibqrqlt0q4jql406rd3zww3",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "7d8747829a654e97"
+    },
+    {
+      "scenario_id": "scenario_universe_23_to4bay",
+      "id": "0932_5jfayayraae5kkh471epw5qhdjb6c5sl",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 17,
+      "programmatic_hard": 8,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 5
+        },
+        "2": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 7
+        }
+      },
+      "data_sha256_16": "6bad4afc87830784"
+    },
+    {
+      "scenario_id": "scenario_universe_23_vzhs4o",
+      "id": "0656_3drd9ztjpzcq0jv0akdvfqfubkgwkove",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "de026c32d2f3e7ff"
+    },
+    {
+      "scenario_id": "scenario_universe_24_3qpd16",
+      "id": "0620_23nfq5tjilb4u29n1o010ew0c35jo843",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 8,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "7ac0acc80123867b"
+    },
+    {
+      "scenario_id": "scenario_universe_24_4pjsme",
+      "id": "0644_2zmiyh1q3stoa9243ctp7ygwq87ffvkx",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "745b15717bfbceb6"
+    },
+    {
+      "scenario_id": "scenario_universe_24_ithv71",
+      "id": "0701_vmapv8jm29lndnxu3e0hmxz4nq9v2pza",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "74582f63d57f3d8e"
+    },
+    {
+      "scenario_id": "scenario_universe_24_iv4qe0",
+      "id": "0605_dydb3p6l38hpusrecwguna7puzvem294",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "b1a70c6dc494763e"
+    },
+    {
+      "scenario_id": "scenario_universe_24_j4zbwt",
+      "id": "0894_h7puknzg8w4z1zx470pupa6fdl5tseg8",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 5,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "9bf8df8fcfa7f138"
+    },
+    {
+      "scenario_id": "scenario_universe_24_pnbdhf",
+      "id": "0892_b2dgv8tqb7y7xmgso10xkbgbjoeifuwt",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "39c672201dc0ebd5"
+    },
+    {
+      "scenario_id": "scenario_universe_24_srcjx4",
+      "id": "0917_wyfwulm018zdh4m9xw59mzmw3zgl0k5l",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 11,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "7fce7a8c6741efd0"
+    },
+    {
+      "scenario_id": "scenario_universe_24_t61m2c",
+      "id": "0860_eb73aw922n6616jbjhv4clst7899rlwa",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "fb73bdd040315298"
+    },
+    {
+      "scenario_id": "scenario_universe_24_t6wo0m",
+      "id": "0886_mewr5qqyy99ep0knd1c4bb58z4oogm2b",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 6,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "554f26e2e8fcd120"
+    },
+    {
+      "scenario_id": "scenario_universe_24_tmxihx",
+      "id": "0640_wmhimcz5k59llrdgf6g0fkqppmruk82b",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "4f63f559a27600eb"
+    },
+    {
+      "scenario_id": "scenario_universe_24_y7djmt",
+      "id": "0931_ha2x782vyitu49yq45xaa5kahi7hg9rx",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 3,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "0505e741349e68f5"
+    },
+    {
+      "scenario_id": "scenario_universe_25_0hpxnb",
+      "id": "0934_99zgszdgzsqhouza9b9zxf6uyalahvth",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 6,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "b67d1ec740facbe0"
+    },
+    {
+      "scenario_id": "scenario_universe_25_a3fics",
+      "id": "0926_0ia7wtsv7hi4ifzdwanf230dp3egimqf",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "ff65858f9507b5f3"
+    },
+    {
+      "scenario_id": "scenario_universe_25_c4luyi",
+      "id": "0622_cftp478g1x3kbeidx1yu0yjsrippi8b8",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 4,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 5
+        }
+      },
+      "data_sha256_16": "1a14b36c0f01fda5"
+    },
+    {
+      "scenario_id": "scenario_universe_25_c5gk8d",
+      "id": "0921_92cwy9d3m4rlm3x8ifmm7fkey975fqkq",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 8,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "fb82d402bcc517be"
+    },
+    {
+      "scenario_id": "scenario_universe_25_dippkn",
+      "id": "0924_wfekc3gvbq8mkhwtmygju2exan8hqobr",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 9,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "cbb7c89441676b53"
+    },
+    {
+      "scenario_id": "scenario_universe_25_h0h9fx",
+      "id": "0935_azpbpkj21ocr198mtyfz1dbw37wvyjel",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "039191c3fc376f69"
+    },
+    {
+      "scenario_id": "scenario_universe_25_jq4vg3",
+      "id": "0947_ii9867jghg06uu9wf7e8wtq8lys4al51",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 8,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        },
+        "2": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "e469ec438860e21c"
+    },
+    {
+      "scenario_id": "scenario_universe_25_jr2h7g",
+      "id": "0900_98c6k6847l8dq2a0b640zhq9375polep",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 7,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "34efda4414e37e43"
+    },
+    {
+      "scenario_id": "scenario_universe_25_kyguki",
+      "id": "0949_urnuaqfda6zfnenpisi54e4qy2q349js",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "ee28ac1929f302bb"
+    },
+    {
+      "scenario_id": "scenario_universe_25_sm5tp0",
+      "id": "0911_eg50p4f1ahp9skg9gnv0mfg1a8dtlm33",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 2,
+      "llm_judge": 11,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 6
+        },
+        "1": {
+          "LLM_JUDGE": 5,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "b907b55c3dfb56c3"
+    },
+    {
+      "scenario_id": "scenario_universe_25_swh02o",
+      "id": "0604_ifl4g3s8d6urq1fwtet26rl98sqrsshp",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "f52975e1eb630c09"
+    },
+    {
+      "scenario_id": "scenario_universe_25_uh14rg",
+      "id": "0675_t1zb3c21mvtsarrh5ndc890wfq4t618r",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 5,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "284f598e7040838d"
+    },
+    {
+      "scenario_id": "scenario_universe_25_uhqi5h",
+      "id": "0626_cw20wcc87i9wq2c7i5yun18bbsybo9yr",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 9,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "7272dd4ff66bd664"
+    },
+    {
+      "scenario_id": "scenario_universe_25_up8kds",
+      "id": "0673_ogqcmwevz8lm7rmnaxh65h6wptk8gvhe",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 14,
+      "programmatic_hard": 12,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6
+        }
+      },
+      "data_sha256_16": "4cea252a0372e267"
+    },
+    {
+      "scenario_id": "scenario_universe_25_x2dgq1",
+      "id": "0891_orvr2n92xivf9rm5s6ih12473ypo6t18",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "8b838d7a2794ea80"
+    },
+    {
+      "scenario_id": "scenario_universe_26_77trqh",
+      "id": "0645_gbj8otuliajhbbuncqqie6i64yv36egn",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 17,
+      "programmatic_hard": 15,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 8,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 7
+        }
+      },
+      "data_sha256_16": "2cd35ec827b40d0f"
+    },
+    {
+      "scenario_id": "scenario_universe_26_80off3",
+      "id": "0642_lcg7nwyas88r8922cbukfa94im976c2x",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 9,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 1
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "06e63270edce3d38"
+    },
+    {
+      "scenario_id": "scenario_universe_26_9724nb",
+      "id": "0665_wa4ul66wyinqf8ulxowdjgf6jts7lxu3",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "5acf1638854e1804"
+    },
+    {
+      "scenario_id": "scenario_universe_26_mr44js",
+      "id": "0698_pkyb3pflukov2hhnolhiv5cs9rfkf5tr",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "171fb83d458099ec"
+    },
+    {
+      "scenario_id": "scenario_universe_26_ulia7l",
+      "id": "0871_1ymzmr2fyy0guhqalb0zhah76x78k1vq",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 9,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "485ba8c49909bf8b"
+    },
+    {
+      "scenario_id": "scenario_universe_27_6u1vo2",
+      "id": "0884_bsp7k7t8vx7xntlobdlg4ph26tyfrc2u",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 7,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "f95a60300a6f4d00"
+    },
+    {
+      "scenario_id": "scenario_universe_27_b5lnzm",
+      "id": "0933_38le5i2xsht8at8egwlg15ptvqdu585f",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 16,
+      "programmatic_hard": 13,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 10,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "342d497b51f6a3e1"
+    },
+    {
+      "scenario_id": "scenario_universe_27_g908d8",
+      "id": "0621_uuah385lesh5u44896fr450ntypjb8ge",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 6,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "e483fcaa9679b115"
+    },
+    {
+      "scenario_id": "scenario_universe_27_leiocn",
+      "id": "0662_cm1b7w51hntwqlgxs3vjxfyigezahf5o",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 3,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "1920bac0f19e8bb6"
+    },
+    {
+      "scenario_id": "scenario_universe_27_lvgq33",
+      "id": "0676_6xd4atv0d4vcqppx40utwoskts52vzvb",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 9,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6
+        }
+      },
+      "data_sha256_16": "aa21e4e9ae29045f"
+    },
+    {
+      "scenario_id": "scenario_universe_27_mlotos",
+      "id": "0669_495klcxaz8n9goiax1lueczgn1p5w2qs",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "7a66e43a067c0058"
+    },
+    {
+      "scenario_id": "scenario_universe_27_tbhvjq",
+      "id": "0680_wmve2jrtqqqxwe54zykox0z7ipt59rgg",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 6,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "b3197935e537ef80"
+    },
+    {
+      "scenario_id": "scenario_universe_28_agbdf3",
+      "id": "0880_1aeo5r6r2dfv8ix1viup0311nznv3ke8",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 3,
+      "llm_judge": 10,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 6
+        },
+        "2": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "5ea8fed2c43bcb4f"
+    },
+    {
+      "scenario_id": "scenario_universe_28_c3frja",
+      "id": "0904_gocwz8pnoivooay3vsx1i8aoe729yep5",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "LLM_JUDGE": 2
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "1fced59a456a0e40"
+    },
+    {
+      "scenario_id": "scenario_universe_28_cjvr3k",
+      "id": "0929_gnj6ea1qobi8dn9joe3rf3p8zkj3fnge",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 4,
+      "llm_judge": 11,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 6
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 5
+        }
+      },
+      "data_sha256_16": "31a7f13222c7fdee"
+    },
+    {
+      "scenario_id": "scenario_universe_28_ugxuzm",
+      "id": "0938_c0z8k5bduwb35otlxlk83v2ax8h9ruep",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 8,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "460d110938a4ae42"
+    },
+    {
+      "scenario_id": "scenario_universe_28_umdoef",
+      "id": "0664_f1wk211hccak1x2i2yp4zfu50rh2k1av",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "0fccba1b5af2cb52"
+    },
+    {
+      "scenario_id": "scenario_universe_28_wd1cwr",
+      "id": "0700_mubpxjo0yifsfjiu1knon2rqnqhy83kq",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 8,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 5
+        }
+      },
+      "data_sha256_16": "ac8963976344b82a"
+    },
+    {
+      "scenario_id": "scenario_universe_28_za7aed",
+      "id": "0615_jm4ojcw236ntst78utcy7lbavn40o141",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 5
+        }
+      },
+      "data_sha256_16": "56161e029b531415"
+    },
+    {
+      "scenario_id": "scenario_universe_28_znpabl",
+      "id": "0708_thz5554bjkctrj16gms5gbm1hgt64ubv",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "0a3ed2c1863e9579"
+    },
+    {
+      "scenario_id": "scenario_universe_29_096dyu",
+      "id": "0651_wj9ojjy0vyhg1x5ocia1s0828z2emu8n",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 6,
+      "programmatic_hard": 2,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "92a5ee7dc5c2755f"
+    },
+    {
+      "scenario_id": "scenario_universe_29_0q1dww",
+      "id": "0631_dt84zx45n1yi4idssov7y0h0dwgtklu5",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 6,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "8cd7e452e0df465c"
+    },
+    {
+      "scenario_id": "scenario_universe_29_2rzj8j",
+      "id": "0875_1lmp7uq92664b5yejli3c86encxlquwz",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 3,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 5
+        }
+      },
+      "data_sha256_16": "f49dc2b209411495"
+    },
+    {
+      "scenario_id": "scenario_universe_29_34lgxy",
+      "id": "0658_mx62nptyc2l15aoa2nbmztuqfljq14uf",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 4,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "8264c5b118dc73c2"
+    },
+    {
+      "scenario_id": "scenario_universe_29_8c9am2",
+      "id": "0908_97uwxi3oz3gr2si1b6hp7ffw8b1f80pn",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 7,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "3447e8fefc4d84d4"
+    },
+    {
+      "scenario_id": "scenario_universe_29_9r7j19",
+      "id": "0624_u8fx1mox9nkpxmy0tlmnibgjmklrxknr",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "3deb3774b766246b"
+    },
+    {
+      "scenario_id": "scenario_universe_29_aa11lh",
+      "id": "0913_kip4smczj5eirm6q7y2cj7zbf2390b37",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 7,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "06e7efbc78317099"
+    },
+    {
+      "scenario_id": "scenario_universe_29_i6hy8j",
+      "id": "0902_nr5dyc9smzyyylzduhtvdgheve0z7934",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "95d9352697ca956e"
+    },
+    {
+      "scenario_id": "scenario_universe_29_jremqj",
+      "id": "0603_pofr8ljj8zqoeamwjnrvlu23397rqasi",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 11,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "35cdeac2e003eec0"
+    },
+    {
+      "scenario_id": "scenario_universe_29_wllfb8",
+      "id": "0937_nrl2qrvpwiq9mby9qwcajt1yafjeygbi",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 8,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 7,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "e0b275c5eb24dd8b"
+    },
+    {
+      "scenario_id": "scenario_universe_30_6r6lnh",
+      "id": "0648_qkgzqw6onw3bu26tp9wepkjfsn4r2l8d",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 7,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "ba28e341a164ee1e"
+    },
+    {
+      "scenario_id": "scenario_universe_30_fksavi",
+      "id": "0667_8o4d7q44ig0ej3hrl5vzxylde7t2s72u",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 2,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 4
+        },
+        "2": {
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "cb3384fdf1cb6781"
+    },
+    {
+      "scenario_id": "scenario_universe_30_h2qroi",
+      "id": "0672_m8t96v4a0xtg6841o3opog01kt811l8z",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 4,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "b7f475c49f150b6f"
+    },
+    {
+      "scenario_id": "scenario_universe_30_o4nu9i",
+      "id": "0678_7xyadypwtak671mva24hj4xbd1gqdlcx",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 9,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 6
+        }
+      },
+      "data_sha256_16": "0f73779fc5540c7b"
+    },
+    {
+      "scenario_id": "scenario_universe_30_qhxkqu",
+      "id": "0944_pivnn6sy5oe8huz2lxzhyex22eyvb22l",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 6,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "2": {
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "3bc2b2800163dbff"
+    },
+    {
+      "scenario_id": "scenario_universe_30_wuqrk3",
+      "id": "0915_bwqox01mr92tspli792rfqe2cepxeq89",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 7,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 5
+        }
+      },
+      "data_sha256_16": "6f09ffec9a71a6fb"
+    },
+    {
+      "scenario_id": "scenario_universe_30_zkuo76",
+      "id": "0878_2mw8ul0xxgkyhuquxqhvwbsddocvo4fw",
+      "capability": "adaptability",
+      "tags": [
+        "Universe",
+        "Adaptability"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 3,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "2dc5263739bcb16f"
+    },
+    {
+      "scenario_id": "scenario_universe_27_ok5npx",
+      "id": "0198_np1ttb9tu3n4vsigme0uld5fulbx6bi4",
+      "capability": "ambiguity",
+      "tags": [
+        "Universe",
+        "Ambiguity"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 7,
+      "llm_judge": 1,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 7
+        }
+      },
+      "data_sha256_16": "b5df82551aa5a1d3"
+    },
+    {
+      "scenario_id": "scenario_universe_21_9rpukr",
+      "id": "0826_bptjj3wc2p0327sl91cpeyrqc72yaxg9",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 4,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "99eed1964a5c00df"
+    },
+    {
+      "scenario_id": "scenario_universe_21_bdn1w8",
+      "id": "0961_mhh5cjqipkkn20s7b6wfogqtq8g4mxho",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "6592aae20a426131"
+    },
+    {
+      "scenario_id": "scenario_universe_21_lwmt8g",
+      "id": "0711_acar9gkovf7n11r9zk0ylit3acbd64kj",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "ba868cf8608f4b23"
+    },
+    {
+      "scenario_id": "scenario_universe_21_pe5iyn",
+      "id": "0775_2i8lurt0fk61enyvoebqkhspuis8v8x7",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "ec35f8a35ceebd03"
+    },
+    {
+      "scenario_id": "scenario_universe_21_pvu9el",
+      "id": "0847_sghcp67cjr8odo0l0iaiqrm6b00qiql9",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "fb342678b21ac787"
+    },
+    {
+      "scenario_id": "scenario_universe_21_wezjyh",
+      "id": "0716_xb906jdf3xggr7aqx5gtslepk5ipd65v",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 6,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "130656977c88717a"
+    },
+    {
+      "scenario_id": "scenario_universe_21_xtv9xb",
+      "id": "0763_wyfsmcegfrjh523ps73sf7tbr05ll5ba",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "1982f07e11eea065"
+    },
+    {
+      "scenario_id": "scenario_universe_21_zbui02",
+      "id": "0854_2am9nvz07nhuw21mpi9itzazouq7xb23",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 3,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "0c30de96a97fbfea"
+    },
+    {
+      "scenario_id": "scenario_universe_22_450yc1",
+      "id": "0982_nqa42peg3anfzs7v0mcna20scf6r5dn0",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "6ff6b48c7d6eb556"
+    },
+    {
+      "scenario_id": "scenario_universe_22_eb0ae3",
+      "id": "0738_n4xwmqgsl7dvjsghds5w0d5w3oocex4a",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 2,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "63e3f65ee1fe1e88"
+    },
+    {
+      "scenario_id": "scenario_universe_22_ngxytm",
+      "id": "0856_i32itsbia7kjdqpougc54c7xik50fpti",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 1
+        }
+      },
+      "data_sha256_16": "065daa39a34a7e28"
+    },
+    {
+      "scenario_id": "scenario_universe_22_qprgwp",
+      "id": "0835_3fvz2bnzb3w6avwsl92pkpk8uz28hais",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 4,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "615b01f28240078d"
+    },
+    {
+      "scenario_id": "scenario_universe_22_z079yy",
+      "id": "0836_fmb7fdp4py1yzn1gziwg9fh7zs1sonu7",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 5,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 5
+        }
+      },
+      "data_sha256_16": "1bc3e3f69e67b655"
+    },
+    {
+      "scenario_id": "scenario_universe_22_zll15x",
+      "id": "0817_ccwrcvjz2zbzivq7lf26xlxggjadxux8",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 4
+        }
+      },
+      "data_sha256_16": "7b73cdcbea080dc0"
+    },
+    {
+      "scenario_id": "scenario_universe_23_2lzloa",
+      "id": "0814_exk4hsyya2bywhq5fw5p5m8xp5099i8r",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 5,
+      "programmatic_hard": 3,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "770fdad8805bcdef"
+    },
+    {
+      "scenario_id": "scenario_universe_23_2ue2n7",
+      "id": "0731_qkacutnsz97l78cv97dpcvkhz545u8i9",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 6,
+      "programmatic_hard": 4,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "3fe945cb82722f22"
+    },
+    {
+      "scenario_id": "scenario_universe_23_7l97wv",
+      "id": "0831_xy05tehvc5zeadqnxzq5g61vqqar6z2i",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 5,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "08ba9dac3209c89b"
+    },
+    {
+      "scenario_id": "scenario_universe_23_ugezwz",
+      "id": "0748_2k2wtofqyphx54wtx1d7yzh1ghtulhe6",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 3,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 6
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "39c2cee0811771d7"
+    },
+    {
+      "scenario_id": "scenario_universe_23_vh3j50",
+      "id": "0971_ikai0sd5ibu2gvsk3v65dx5zvutz9pzt",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "32e60c3e064f3c8d"
+    },
+    {
+      "scenario_id": "scenario_universe_24_3d4pbi",
+      "id": "0839_qzbbmodm59ofwuoqr78y848y1u7cdwfc",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 5,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "e0a5fdfdbedf56c5"
+    },
+    {
+      "scenario_id": "scenario_universe_24_isspw1",
+      "id": "0823_rwzr2hwaiw4ei864km2rhwdwgdv52zn2",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "53870d65f6488560"
+    },
+    {
+      "scenario_id": "scenario_universe_24_smjgk6",
+      "id": "0728_25npc6ce4d3j25uprtnaalt1ul2otjvp",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 5,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "201a838628d102ff"
+    },
+    {
+      "scenario_id": "scenario_universe_24_vigrm2",
+      "id": "0973_39wafq8ceuc1afdfh7xucv36hrr7ul2w",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 7,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 7,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "3e3313620cbd9710"
+    },
+    {
+      "scenario_id": "scenario_universe_25_h90t4w",
+      "id": "0714_d72zg6tmwxz71o37swrc8eef6vnjun4a",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 4,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "d47e38b42a274469"
+    },
+    {
+      "scenario_id": "scenario_universe_25_suzn8q",
+      "id": "0974_abiidjv1tdy14y7eoagzlen1ubb1ji57",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 12,
+      "programmatic_hard": 7,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "1324b8856e1fdc75"
+    },
+    {
+      "scenario_id": "scenario_universe_26_40w23t",
+      "id": "0810_597sakpurj7j1yplf42c9i5qaf1gkho9",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 3,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "2a3184227652e522"
+    },
+    {
+      "scenario_id": "scenario_universe_26_6ko4br",
+      "id": "0777_y3r2nol0ujohv1z7evrnx8llf1ce5hjh",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 3,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "LLM_JUDGE": 3
+        },
+        "2": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "0edfef5640dad4c5"
+    },
+    {
+      "scenario_id": "scenario_universe_26_bgqrof",
+      "id": "0833_fr1ha583m0e86zdtmoen0yu4onbk5bvl",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 4,
+          "PROGRAMMATIC_HARD": 3
+        }
+      },
+      "data_sha256_16": "971573e03e332e2b"
+    },
+    {
+      "scenario_id": "scenario_universe_26_pfot2q",
+      "id": "0853_242ovkbi72tuxkmovexnua7fpsd840vj",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "60eb34198b3b5189"
+    },
+    {
+      "scenario_id": "scenario_universe_26_wnyxut",
+      "id": "0720_up5rgapoxep1thccqw0zxs6qzf2pr6kf",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 6,
+      "programmatic_hard": 2,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "362311344b9403dd"
+    },
+    {
+      "scenario_id": "scenario_universe_26_zrr64p",
+      "id": "0751_hg05wxw1rn37kk3f8t1v1mwk7el8a7nz",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 6,
+      "programmatic_hard": 4,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "6b7dd2f7c9b3b98b"
+    },
+    {
+      "scenario_id": "scenario_universe_27_2liozs",
+      "id": "0808_21tld6eec9igjwxnfy2mqzumb5pbq9bt",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 4,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "9677203b9ca77e6d"
+    },
+    {
+      "scenario_id": "scenario_universe_27_39fm69",
+      "id": "0840_dsv5vi74crkfach79434gqawcq614wep",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 3,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 5
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "4d80d2f4e0cde2db"
+    },
+    {
+      "scenario_id": "scenario_universe_27_44qurs",
+      "id": "0822_1slhgnka10l1kjii7nqgamgznxjo4loh",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 15,
+      "programmatic_hard": 13,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 8
+        }
+      },
+      "data_sha256_16": "75003ae006b5ab5b"
+    },
+    {
+      "scenario_id": "scenario_universe_27_8jnnic",
+      "id": "0757_re3sq3a9uj431zkwmeqydxq96goyrlqo",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 6,
+      "programmatic_hard": 2,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 2,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "54ec1ea6c0527763"
+    },
+    {
+      "scenario_id": "scenario_universe_27_ac0ve5",
+      "id": "0964_vnkaekwpyg2ovh4z3lrmqy5pumnyxn1n",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 2,
+      "llm_judge": 7,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 6
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "3a3d351a29c603ca"
+    },
+    {
+      "scenario_id": "scenario_universe_27_rhr2yy",
+      "id": "0857_l115ixer60dr5v00hxk5lchc0l83w62e",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 6,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 1,
+          "PROGRAMMATIC_HARD": 6
+        }
+      },
+      "data_sha256_16": "e56fe6b6d802aea7"
+    },
+    {
+      "scenario_id": "scenario_universe_27_rp2q6b",
+      "id": "0774_l8z1hvo01snf4z0hro725g4fwbq49gsc",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 2,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 4
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "3fc330877b8024fc"
+    },
+    {
+      "scenario_id": "scenario_universe_28_j3y4yc",
+      "id": "0951_o0wr8y4qyelaw1yz473ci1u4nitx35jw",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 5,
+      "llm_judge": 4,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 1
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "42add5155cda1bd2"
+    },
+    {
+      "scenario_id": "scenario_universe_28_nt4j7v",
+      "id": "0978_3iswnd7l3vmtlyrq5uxo0uv043da3qiq",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 9,
+      "programmatic_hard": 4,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "0b86024b6155c53e"
+    },
+    {
+      "scenario_id": "scenario_universe_29_tf35kd",
+      "id": "0825_xh51tsoy3tc5tjnm16hddios9f28zg2e",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 7,
+      "programmatic_hard": 5,
+      "llm_judge": 2,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 1,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4
+        }
+      },
+      "data_sha256_16": "0854022c81a69f0f"
+    },
+    {
+      "scenario_id": "scenario_universe_29_tnxtee",
+      "id": "0765_ayji4cr5rsb0xb2hbtaczingz16lvb3w",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 3,
+      "llm_judge": 5,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        }
+      },
+      "data_sha256_16": "caca596ae7b0f134"
+    },
+    {
+      "scenario_id": "scenario_universe_30_bvujxy",
+      "id": "0769_o9y8sx93prlp5f4zwoxm45ue6smjzm58",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 11,
+      "programmatic_hard": 2,
+      "llm_judge": 9,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "LLM_JUDGE": 7,
+          "PROGRAMMATIC_HARD": 2
+        }
+      },
+      "data_sha256_16": "9684059ceaf9fda5"
+    },
+    {
+      "scenario_id": "scenario_universe_30_h1s2pr",
+      "id": "0818_psh7hxdpc0vdbe39j7e5j5qem0tzu646",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 13,
+      "programmatic_hard": 5,
+      "llm_judge": 8,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 5,
+          "LLM_JUDGE": 7
+        },
+        "1": {
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "47091c928a9dbce1"
+    },
+    {
+      "scenario_id": "scenario_universe_30_hl1yqd",
+      "id": "0858_a5qwuxpnuybrw05twxj4t4wd8p8wewtw",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 10,
+      "programmatic_hard": 7,
+      "llm_judge": 3,
+      "per_turn": {
+        "0": {
+          "PROGRAMMATIC_HARD": 3,
+          "LLM_JUDGE": 2
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 4,
+          "LLM_JUDGE": 1
+        }
+      },
+      "data_sha256_16": "8994e25b602e9e15"
+    },
+    {
+      "scenario_id": "scenario_universe_30_hmpfct",
+      "id": "0781_5zicvzatjwmvh9vk23wpmgsyv3wpm04t",
+      "capability": "time",
+      "tags": [
+        "Universe",
+        "Time"
+      ],
+      "nb_turns": 2,
+      "n_oracle_agent_events": 8,
+      "programmatic_hard": 2,
+      "llm_judge": 6,
+      "per_turn": {
+        "0": {
+          "LLM_JUDGE": 3
+        },
+        "1": {
+          "PROGRAMMATIC_HARD": 2,
+          "LLM_JUDGE": 3
+        }
+      },
+      "data_sha256_16": "3d01715a1bd40dad"
+    }
+  ]
+}

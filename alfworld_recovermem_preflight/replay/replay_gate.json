@@ -1,0 +1,146 @@
+{
+  "n_games": 3,
+  "n_replays_per_game": 3,
+  "games": [
+    {
+      "idx": 0,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "K": 4,
+      "boundary_step": 3,
+      "boundary_rank": 1,
+      "prefix": [
+        "go to shelf 1",
+        "go to shelf 2",
+        "go to shelf 3"
+      ],
+      "reference_rank": 1,
+      "replays": [
+        {
+          "replay": 0,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        },
+        {
+          "replay": 1,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        },
+        {
+          "replay": 2,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        }
+      ],
+      "all_match": true
+    },
+    {
+      "idx": 1,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "boundary_step": 18,
+      "boundary_rank": 1,
+      "prefix": [
+        "go to shelf 1",
+        "go to shelf 2",
+        "go to shelf 3",
+        "go to drawer 1",
+        "open drawer 1",
+        "close drawer 1",
+        "go to drawer 2",
+        "open drawer 2",
+        "close drawer 2",
+        "go to drawer 3",
+        "open drawer 3",
+        "close drawer 3",
+        "go to countertop 1",
+        "go to countertop 2",
+        "go to countertop 3",
+        "go to cabinet 1",
+        "go to cabinet 2",
+        "open cabinet 2"
+      ],
+      "reference_rank": 1,
+      "replays": [
+        {
+          "replay": 0,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        },
+        {
+          "replay": 1,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        },
+        {
+          "replay": 2,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        }
+      ],
+      "all_match": true
+    },
+    {
+      "idx": 2,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "K": 4,
+      "boundary_step": 11,
+      "boundary_rank": 1,
+      "prefix": [
+        "go to sidetable 1",
+        "go to shelf 1",
+        "go to shelf 2",
+        "look",
+        "go to drawer 2",
+        "open drawer 2",
+        "close drawer 2",
+        "go to shelf 3",
+        "go to shelf 4",
+        "go to shelf 5",
+        "go to shelf 6"
+      ],
+      "reference_rank": 1,
+      "replays": [
+        {
+          "replay": 0,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        },
+        {
+          "replay": 1,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        },
+        {
+          "replay": 2,
+          "match": true,
+          "diff_fields": [],
+          "rank": 1,
+          "won": false
+        }
+      ],
+      "all_match": true
+    }
+  ],
+  "matches": 9,
+  "comparisons": 9,
+  "verdict": "PASS"
+}

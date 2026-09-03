@@ -1,0 +1,22 @@
+{
+  "schema_version": "recovermem-features-v1",
+  "feature_names": [
+    "retrieval_coverage",
+    "entity_coverage",
+    "action_arg_support",
+    "top_similarity",
+    "similarity_margin",
+    "support_count_norm",
+    "evidence_utilization",
+    "conflict_density_inv",
+    "action_confidence",
+    "step_progress"
+  ],
+  "n_train_decisions": 36,
+  "n_train_episodes": 7,
+  "train_auroc": 0.9559,
+  "train_auprc": 0.9975,
+  "label_prevalence": 0.9444,
+  "predictor_sha256": "1be2ffa0acb62d9f73b9e079648528a6da3e7af3d1d2d5b14c5fadcd2e746159",
+  "note": "AUROC/AUPRC are diagnostics, not selection criteria; no refit was performed"
+}

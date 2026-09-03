@@ -1,0 +1,56 @@
+{
+  "stage": "COMPLETE",
+  "history": [
+    {
+      "stage": "mirror_split",
+      "at": "2026-08-31 11:41:18"
+    },
+    {
+      "stage": "freeze_budget",
+      "at": "2026-08-31 11:41:18"
+    },
+    {
+      "stage": "collect_predictor_train",
+      "at": "2026-08-31 11:41:18"
+    },
+    {
+      "stage": "fit_predictor",
+      "at": "2026-08-31 12:33:32"
+    },
+    {
+      "stage": "collect_calibration",
+      "at": "2026-08-31 12:33:32"
+    },
+    {
+      "stage": "calibrate",
+      "at": "2026-08-31 13:35:40"
+    },
+    {
+      "stage": "collect_final_test",
+      "at": "2026-08-31 13:35:40",
+      "thresholds_sha256": "6d66ddeb40b3caf4683f76bed649c8817efbde54a411f6517a3337dbd79f94bf"
+    },
+    {
+      "stage": "table1",
+      "at": "2026-08-31 14:34:51"
+    },
+    {
+      "stage": "write_table1_b512",
+      "at": "2026-08-31 14:34:51"
+    },
+    {
+      "stage": "compare_to_canonical",
+      "at": "2026-08-31 14:34:51"
+    },
+    {
+      "stage": "final_report",
+      "at": "2026-08-31 14:34:51"
+    },
+    {
+      "stage": "COMPLETE",
+      "at": "2026-08-31 14:34:51"
+    }
+  ],
+  "updated": "2026-08-31 14:34:51",
+  "thresholds_sha256": "6d66ddeb40b3caf4683f76bed649c8817efbde54a411f6517a3337dbd79f94bf"
+}

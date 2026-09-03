@@ -1,0 +1,20 @@
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "supervisor"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "search_contacts"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "supervisor"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "supervisor", "api_name": "show_profile"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "8944155247", "password": "FiMwOzk"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "relationship": "sibling", "page_index": 0}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "relationship": "sibling", "page_index": 1}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "relationship": "sibling", "page_index": 0}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "relationship": "sibling", "page_index": 1}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "relationship": "roommate", "page_index": 0}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "relationship": "roommate", "page_index": 1}}
+{"method": "post", "url": "/phone/messages/text/3654328626", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "message": "Get on venmo please!"}}
+{"method": "post", "url": "/phone/messages/text/3539110281", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "message": "Get on venmo please!"}}
+{"method": "post", "url": "/phone/messages/text/4886643554", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "message": "Get on venmo please!"}}
+{"method": "post", "url": "/phone/messages/text/7934818191", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "message": "Get on venmo please!"}}
+{"method": "post", "url": "/phone/messages/text/2786837088", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs4OTQ0MTU1MjQ3IiwiZXhwIjoxNjg0NDEyMDk4fQ.-cDqHbXwaI9jwlQz2rezQotRqganrbArSzDMia4obsw", "message": "Get on venmo please!"}}
+{"method": "post", "url": "/supervisor/message", "data": {}}

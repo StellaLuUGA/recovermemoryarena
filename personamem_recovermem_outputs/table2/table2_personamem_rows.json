@@ -1,0 +1,72 @@
+[
+  {
+    "policy": "Always Trust",
+    "alpha": null,
+    "tau": "-Infinity",
+    "Task": 0.2828282828282828,
+    "Rec": 0.0,
+    "Cost": 13.067400888999812,
+    "Cov_reconstructed": 1.0,
+    "n_recover_decisions": 0,
+    "n_test_personas": 24,
+    "Cost_sd_over_personas": 1.2759787195098624,
+    "Cost_min": 10.115319840449105,
+    "Cost_max": 15.386842523438741
+  },
+  {
+    "policy": "Always Recover",
+    "alpha": null,
+    "tau": "Infinity",
+    "Task": 0.3712121212121213,
+    "Rec": 1.0,
+    "Cost": 13.25766796520749,
+    "Cov_reconstructed": 0.0,
+    "n_recover_decisions": 286,
+    "n_test_personas": 24,
+    "Cost_sd_over_personas": 1.2864756415544016,
+    "Cost_min": 10.266804550155118,
+    "Cost_max": 15.657873828062927
+  },
+  {
+    "policy": "Empirical-risk",
+    "alpha": 0.1,
+    "tau": 0.6706030288410617,
+    "Task": 0.34690656565656575,
+    "Rec": 0.8469065656565656,
+    "Cost": 13.912950471602082,
+    "Cov_reconstructed": 0.15309343434343434,
+    "n_recover_decisions": 242,
+    "n_test_personas": 24,
+    "Cost_sd_over_personas": 1.3562705423724586,
+    "Cost_min": 10.69714876643522,
+    "Cost_max": 16.297664071190212
+  },
+  {
+    "policy": "Random score + CRC",
+    "alpha": 0.1,
+    "tau": 0.9299063098699549,
+    "Task": 0.3469065656565657,
+    "Rec": 0.9479166666666669,
+    "Cost": 14.015050015378286,
+    "Cov_reconstructed": 0.05208333333333332,
+    "n_recover_decisions": 271,
+    "n_test_personas": 24,
+    "Cost_sd_over_personas": 1.2998043501250962,
+    "Cost_min": 11.031703353523415,
+    "Cost_max": 16.38684252343874
+  },
+  {
+    "policy": "ReCoverMem + CRC",
+    "alpha": 0.1,
+    "tau": 0.7080483368706152,
+    "Task": 0.3573232323232323,
+    "Rec": 0.90625,
+    "Cost": 13.972618947205136,
+    "Cov_reconstructed": 0.09375,
+    "n_recover_decisions": 259,
+    "n_test_personas": 24,
+    "Cost_sd_over_personas": 1.3474031089778464,
+    "Cost_min": 10.780942532131776,
+    "Cost_max": 16.38684252343874
+  }
+]

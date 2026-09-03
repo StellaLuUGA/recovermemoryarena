@@ -1,0 +1,50 @@
+{
+  "task_id": "4ec8de5_1",
+  "hashes": {
+    "after_restore": "626f14a0d381ceaca82d11afbeb05d37e0826888c5a4650b259299ecea330e96",
+    "after_mutation": "fbccfca473d22fedd8cc0242240fba77fc460cc921ea778367bc9ff47ac2ad3f"
+  },
+  "datetime_after_restore": "Execution failed. Traceback:\n  File \"<python-input>\", line 1, in <module>\n    print(datetime.now().isoformat())\n          ^^^^^^^^^^^^\nAttributeError: module 'datetime' has no attribute 'now'",
+  "shell_var_probe_after_restore": "False ABSENT",
+  "shell_vars_after_restore": [
+    "ApiCollection",
+    "Counter",
+    "Date",
+    "DateTime",
+    "FRIDAY",
+    "Iterator",
+    "MONDAY",
+    "Requester",
+    "SATURDAY",
+    "SUNDAY",
+    "THURSDAY",
+    "TUESDAY",
+    "Time",
+    "WEDNESDAY",
+    "apis",
+    "builtins",
+    "calendar",
+    "datetime",
+    "deepcopy",
+    "defaultdict",
+    "input",
+    "itertools",
+    "json",
+    "math",
+    "pendulum",
+    "print",
+    "random",
+    "re",
+    "reduce",
+    "requester"
+  ],
+  "mutation_output": "Execution successful.",
+  "checks": {
+    "fresh_restore_matches_checkpoint_db": true,
+    "fresh_replay_matches_original_mutation_db": true,
+    "fresh_replay_matches_original_output": true,
+    "frozen_datetime_correct": true,
+    "python_namespace_is_clean": true
+  },
+  "close_status": "AttributeError: '_freeze_time' object has no attribute 'fake_names'"
+}

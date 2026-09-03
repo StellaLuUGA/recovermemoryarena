@@ -1,0 +1,161 @@
+{
+  "docstore": {
+    "b8fd1f2d-d6e3-408b-bb50-463a8e6f58f5": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User's task is to put a hot tomato in the garbagecan",
+      "text_lemmatized": "user task hot tomato garbagecan",
+      "hash": "2ae5a859038c02367f6af3a6799887a3",
+      "created_at": "2026-08-31T17:27:40.475325+00:00",
+      "updated_at": "2026-08-31T17:27:40.475325+00:00",
+      "attributed_to": "user"
+    },
+    "40b6226e-2093-49dd-8a16-03d02f1080e9": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User is in a room with multiple cabinets, countertops, drawers, a fridge, a garbagecan, a microwave, shelves, a sinkbasin, stoveburners, and a toaster",
+      "text_lemmatized": "user room multiple cabinet countertop drawer fridge garbagecan microwave shelf sinkbasin stoveburner toaster",
+      "hash": "6b9e20a2eb53f67b574ab104f8eaa256",
+      "created_at": "2026-08-31T17:27:40.477063+00:00",
+      "updated_at": "2026-08-31T17:27:40.477063+00:00",
+      "attributed_to": "user"
+    },
+    "b5c3ba3c-e915-4300-95a1-83a421aa85c7": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at fridge 1, which is closed",
+      "text_lemmatized": "user arrive fridge 1 close",
+      "hash": "210583a1f4acc81c8022374c49ea9ceb",
+      "created_at": "2026-08-31T17:27:44.611128+00:00",
+      "updated_at": "2026-08-31T17:27:44.611128+00:00",
+      "attributed_to": "user"
+    },
+    "fb8827bf-2f2c-41db-8fb6-00a172f9c6fe": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User opened fridge 1 and found inside: apple 3, apple 2, apple 1, cup 1, egg 1, lettuce 3, lettuce 1, mug 2, potato 1, and tomato 2",
+      "text_lemmatized": "user open fridge 1 find inside apple 3 apple 2 apple 1 cup 1 egg 1 lettuce 3 lettuce 1 mug 2 potato 1 tomato 2",
+      "hash": "aa163353189e5af5039460e027f2b82c",
+      "created_at": "2026-08-31T17:27:51.328352+00:00",
+      "updated_at": "2026-08-31T17:27:51.328352+00:00"
+    },
+    "19d0cfc7-82d2-4557-a5fc-4ea45f989ddf": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User's task remains to put a hot tomato in the garbagecan",
+      "text_lemmatized": "user task remain hot tomato garbagecan",
+      "hash": "123f67384d318ea1ab619f9fab438a4c",
+      "created_at": "2026-08-31T17:27:51.329741+00:00",
+      "updated_at": "2026-08-31T17:27:51.329741+00:00"
+    },
+    "df4538c4-b482-426d-9588-aa632a96a269": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User picked up tomato 2 from the open fridge 1",
+      "text_lemmatized": "user pick tomato 2 open fridge 1",
+      "hash": "dcf970884765657b121ba187cf21e44c",
+      "created_at": "2026-08-31T17:28:00.328625+00:00",
+      "updated_at": "2026-08-31T17:28:00.328625+00:00",
+      "attributed_to": "user"
+    },
+    "fd127e89-2e0a-4f81-911c-1f33711a39c5": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at stoveburner 1 and found a pot 1 on it",
+      "text_lemmatized": "user arrive stoveburn 1 find pot 1",
+      "hash": "79a72412ceace21dfa566686469b609c",
+      "created_at": "2026-08-31T17:28:20.394366+00:00",
+      "updated_at": "2026-08-31T17:28:20.394366+00:00"
+    },
+    "f25a2c50-7487-40b0-b282-c849c117347a": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User attempted to heat tomato 2 with stoveburner 1 but nothing happened",
+      "text_lemmatized": "user attempt heat tomato 2 stoveburn 1 happen",
+      "hash": "b3172ac4c31a49572df2a1f7721dbd3f",
+      "created_at": "2026-08-31T17:28:24.854149+00:00",
+      "updated_at": "2026-08-31T17:28:24.854149+00:00"
+    },
+    "4d3cadc9-5d80-48fb-b7a9-f33883cd203e": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at stoveburner 2 and found it empty",
+      "text_lemmatized": "user arrive stoveburn 2 find",
+      "hash": "e8ec20aac701ea48814f5ddd028679c6",
+      "created_at": "2026-08-31T17:28:29.621794+00:00",
+      "updated_at": "2026-08-31T17:28:29.621794+00:00",
+      "attributed_to": "user"
+    },
+    "49222364-f5bb-4fce-840c-ef58ce7614a2": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at stoveburner 3 and found a pot 1 on it",
+      "text_lemmatized": "user arrive stoveburn 3 find pot 1",
+      "hash": "5febda176d5fbd4d23ef87f8a1f2b6e8",
+      "created_at": "2026-08-31T17:28:34.536439+00:00",
+      "updated_at": "2026-08-31T17:28:34.536439+00:00",
+      "attributed_to": "user"
+    },
+    "def6fadc-1c88-4ab3-82f5-bf3cab347435": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at stoveburner 4 and found it empty",
+      "text_lemmatized": "user arrive stoveburn 4 find",
+      "hash": "837afe724c0ce11963becfe1757d8157",
+      "created_at": "2026-08-31T17:28:39.247123+00:00",
+      "updated_at": "2026-08-31T17:28:39.247123+00:00",
+      "attributed_to": "user"
+    },
+    "7ed741af-9848-448f-b8d3-3c1a74324348": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at microwave 1 and found it closed",
+      "text_lemmatized": "user arrive microwave 1 find close",
+      "hash": "75ad39dfb4be7cb1db4a41ebe030076f",
+      "created_at": "2026-08-31T17:28:43.756530+00:00",
+      "updated_at": "2026-08-31T17:28:43.756530+00:00",
+      "attributed_to": "user"
+    },
+    "2dfc85cf-8173-49ee-9ee6-7ab013372dab": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User opened microwave 1 and found it empty",
+      "text_lemmatized": "user open microwave 1 find",
+      "hash": "e40024717f1de917309c0478c2f08574",
+      "created_at": "2026-08-31T17:28:53.766142+00:00",
+      "updated_at": "2026-08-31T17:28:53.766142+00:00",
+      "attributed_to": "user"
+    },
+    "e9676e2e-fd9f-4868-8fe5-d1a6c21cc537": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User heated tomato 2 using microwave 1",
+      "text_lemmatized": "user heat tomato 2 microwave 1",
+      "hash": "81d2e00435fa8f8431fed5401339fcb1",
+      "created_at": "2026-08-31T17:28:58.452663+00:00",
+      "updated_at": "2026-08-31T17:28:58.452663+00:00",
+      "attributed_to": "user"
+    },
+    "a55de8be-1091-453a-a1c6-adb66bf14ba0": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User arrived at garbagecan 1 and found it empty",
+      "text_lemmatized": "user arrive garbagecan 1 find",
+      "hash": "ef4f59d919a160d3cabf5f50c77e004c",
+      "created_at": "2026-08-31T17:29:08.164680+00:00",
+      "updated_at": "2026-08-31T17:29:08.164680+00:00"
+    },
+    "00767dfd-2e11-4ccd-af2a-a3f1085ae071": {
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533",
+      "data": "User moved the hot tomato 2 to garbagecan 1",
+      "text_lemmatized": "user move hot tomato 2 garbagecan 1",
+      "hash": "4a5e7aee2907dc53a2f8b46f89e98177",
+      "created_at": "2026-08-31T17:29:17.199231+00:00",
+      "updated_at": "2026-08-31T17:29:17.199231+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "b8fd1f2d-d6e3-408b-bb50-463a8e6f58f5",
+    "1": "40b6226e-2093-49dd-8a16-03d02f1080e9",
+    "2": "b5c3ba3c-e915-4300-95a1-83a421aa85c7",
+    "3": "fb8827bf-2f2c-41db-8fb6-00a172f9c6fe",
+    "4": "19d0cfc7-82d2-4557-a5fc-4ea45f989ddf",
+    "5": "df4538c4-b482-426d-9588-aa632a96a269",
+    "6": "fd127e89-2e0a-4f81-911c-1f33711a39c5",
+    "7": "f25a2c50-7487-40b0-b282-c849c117347a",
+    "8": "4d3cadc9-5d80-48fb-b7a9-f33883cd203e",
+    "9": "49222364-f5bb-4fce-840c-ef58ce7614a2",
+    "10": "def6fadc-1c88-4ab3-82f5-bf3cab347435",
+    "11": "7ed741af-9848-448f-b8d3-3c1a74324348",
+    "12": "2dfc85cf-8173-49ee-9ee6-7ab013372dab",
+    "13": "e9676e2e-fd9f-4868-8fe5-d1a6c21cc537",
+    "14": "a55de8be-1091-453a-a1c6-adb66bf14ba0",
+    "15": "00767dfd-2e11-4ccd-af2a-a3f1085ae071"
+  }
+}

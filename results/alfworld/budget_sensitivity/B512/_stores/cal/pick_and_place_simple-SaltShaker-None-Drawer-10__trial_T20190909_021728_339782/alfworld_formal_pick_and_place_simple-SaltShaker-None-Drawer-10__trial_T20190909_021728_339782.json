@@ -1,0 +1,286 @@
+{
+  "docstore": {
+    "3e887e66-b16d-4f49-88d9-12fec4f0f98b": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User's task is to put a saltshaker on a drawer",
+      "text_lemmatized": "user task saltshaker drawer",
+      "hash": "3c2b6f4280d424124a886e6a472b4837",
+      "created_at": "2026-08-31T17:10:12.465226+00:00",
+      "updated_at": "2026-08-31T17:10:12.465226+00:00",
+      "attributed_to": "user"
+    },
+    "d3aa26ef-431d-45cb-8c67-3372d3fe83d3": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T17:10:16.535321+00:00",
+      "updated_at": "2026-08-31T17:10:16.535321+00:00",
+      "attributed_to": "user"
+    },
+    "9d0b0ad4-6d8f-4a08-89e3-f6ce944bd339": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User opened drawer 1, which is now open and contains a fork 1",
+      "text_lemmatized": "user open drawer 1 open contain fork 1",
+      "hash": "07286a9fc765b2bd3ba453512eff48cb",
+      "created_at": "2026-08-31T17:10:21.649819+00:00",
+      "updated_at": "2026-08-31T17:10:21.649819+00:00",
+      "attributed_to": "user"
+    },
+    "7cf0fd78-8e7d-4c3f-b621-257c71203640": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User's task remains to put a saltshaker on a drawer",
+      "text_lemmatized": "user task remain saltshaker drawer",
+      "hash": "4db33f35f1fc17567f82bc775d1517f0",
+      "created_at": "2026-08-31T17:10:21.650786+00:00",
+      "updated_at": "2026-08-31T17:10:21.650786+00:00",
+      "attributed_to": "user"
+    },
+    "3085aa7e-6f3b-4a67-a98d-d1f17d4091e8": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at cabinet 1, which currently has nothing on it",
+      "text_lemmatized": "user arrive cabinet 1 currently",
+      "hash": "c8127d59f31dea2d91bbeda54025b4e2",
+      "created_at": "2026-08-31T17:10:25.890965+00:00",
+      "updated_at": "2026-08-31T17:10:25.890965+00:00"
+    },
+    "d57a6901-6dff-4433-8ebf-c0f9ab4346c6": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T17:10:29.985418+00:00",
+      "updated_at": "2026-08-31T17:10:29.985418+00:00",
+      "attributed_to": "user"
+    },
+    "081a27c0-146a-43a4-959c-1159ac6d23e8": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User opened cabinet 2, which is now open and contains a dishsponge 1 and a plate 1",
+      "text_lemmatized": "user open cabinet 2 open contain dishsponge 1 plate 1",
+      "hash": "48b716389b107385d47a6770bfe13a53",
+      "created_at": "2026-08-31T17:10:34.506743+00:00",
+      "updated_at": "2026-08-31T17:10:34.506743+00:00",
+      "attributed_to": "user"
+    },
+    "38873f04-6d78-40d6-9b39-7c547413972b": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at cabinet 3 and saw a plate 2 on it",
+      "text_lemmatized": "user arrive cabinet 3 see plate 2",
+      "hash": "a05ca72875e3fa1ffb2f66478c73c844",
+      "created_at": "2026-08-31T17:10:38.804841+00:00",
+      "updated_at": "2026-08-31T17:10:38.804841+00:00"
+    },
+    "d0421397-ca0c-425b-a946-1afb63f5c19e": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User picked up plate 2 from cabinet 3",
+      "text_lemmatized": "user pick plate 2 cabinet 3",
+      "hash": "86d7b79e4173d7e6911eba090a70541e",
+      "created_at": "2026-08-31T17:10:43.212144+00:00",
+      "updated_at": "2026-08-31T17:10:43.212144+00:00",
+      "attributed_to": "user"
+    },
+    "9062182d-a5e6-47a6-b52a-b4fba5c2950e": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at cabinet 4 and saw a bowl 1, a cup 1, and a peppershaker 1 on it",
+      "text_lemmatized": "user arrive cabinet 4 see bowl 1 cup 1 peppershaker 1",
+      "hash": "b72affc00e794bf11c16a057ae2a3a8d",
+      "created_at": "2026-08-31T17:10:47.904723+00:00",
+      "updated_at": "2026-08-31T17:10:47.904723+00:00"
+    },
+    "573b26e8-5200-4700-ba61-dbb11220b17a": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T17:10:52.509768+00:00",
+      "updated_at": "2026-08-31T17:10:52.509768+00:00",
+      "attributed_to": "user"
+    },
+    "e4dd6014-632a-47e6-b10e-ad995a8a37f5": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User opened cabinet 5, which is now open and contains nothing",
+      "text_lemmatized": "user open cabinet 5 open contain",
+      "hash": "2698371f1c22d3c2f61c016c20e9744c",
+      "created_at": "2026-08-31T17:10:57.292666+00:00",
+      "updated_at": "2026-08-31T17:10:57.292666+00:00",
+      "attributed_to": "user"
+    },
+    "bb8166cb-6fd8-4117-ba8d-36bc99841063": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at cabinet 6, which is closed",
+      "text_lemmatized": "user arrive cabinet 6 close",
+      "hash": "426e0890ad3d4d00cb5ab1a465eadd3e",
+      "created_at": "2026-08-31T17:11:01.886907+00:00",
+      "updated_at": "2026-08-31T17:11:01.886907+00:00",
+      "attributed_to": "user"
+    },
+    "ade0a051-bbf8-49c3-b216-d9e1f553faf1": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User opened cabinet 6, which is now open and contains a cup 3",
+      "text_lemmatized": "user open cabinet 6 open contain cup 3",
+      "hash": "26bcb634a850ea58d27490b39da045be",
+      "created_at": "2026-08-31T17:11:06.781898+00:00",
+      "updated_at": "2026-08-31T17:11:06.781898+00:00",
+      "attributed_to": "user"
+    },
+    "eb781983-c9e9-409a-ba83-fdcee7962bc1": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at drawer 2, which is closed",
+      "text_lemmatized": "user arrive drawer 2 close",
+      "hash": "ae6b0fea7d1c0d0d01331bed6970163f",
+      "created_at": "2026-08-31T17:11:10.972257+00:00",
+      "updated_at": "2026-08-31T17:11:10.972257+00:00"
+    },
+    "05bcf15f-8ced-422e-9ed7-3233c3895f0f": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User opened drawer 2, which is now open and contains a dishsponge 2 and a peppershaker 3",
+      "text_lemmatized": "user open drawer 2 open contain dishsponge 2 peppershaker 3",
+      "hash": "a56a7fc84f2e5152a9a75600da31fc18",
+      "created_at": "2026-08-31T17:11:15.601184+00:00",
+      "updated_at": "2026-08-31T17:11:15.601184+00:00",
+      "attributed_to": "user"
+    },
+    "5560f5cd-e547-411b-9784-7c2e0d054f89": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at drawer 3, which is closed",
+      "text_lemmatized": "user arrive drawer 3 close",
+      "hash": "f8967d55ff209d1b81b86dd22e6f416f",
+      "created_at": "2026-08-31T17:11:19.825794+00:00",
+      "updated_at": "2026-08-31T17:11:19.825794+00:00"
+    },
+    "082a269a-6fb3-4380-b189-b7b4c5ed953e": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User opened drawer 3, which is now open and contains a creditcard 2 and a spoon 2",
+      "text_lemmatized": "user open drawer 3 open contain creditcard 2 spoon 2",
+      "hash": "17f01a42c009a75aadaa5bfc078908ec",
+      "created_at": "2026-08-31T17:11:24.864114+00:00",
+      "updated_at": "2026-08-31T17:11:24.864114+00:00",
+      "attributed_to": "user"
+    },
+    "d20fec4b-7274-44e3-85e7-cb7b79359358": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at shelf 1 and saw a mug 3 on it",
+      "text_lemmatized": "user arrive shelf 1 see mug 3",
+      "hash": "3de2a2a454abfdab26f7874ab3f27a0c",
+      "created_at": "2026-08-31T17:11:29.115518+00:00",
+      "updated_at": "2026-08-31T17:11:29.115518+00:00"
+    },
+    "f4e037a7-4458-4b5a-88e3-0a58b031a9b0": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at shelf 2 and saw a plate 3 on it",
+      "text_lemmatized": "user arrive shelf 2 see plate 3",
+      "hash": "b5d3bcada9f8af73553f064158b19c35",
+      "created_at": "2026-08-31T17:11:33.418160+00:00",
+      "updated_at": "2026-08-31T17:11:33.418160+00:00"
+    },
+    "816dadf0-e6b7-4124-944f-2b0eb88e7751": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at shelf 3 and found it empty",
+      "text_lemmatized": "user arrive shelf 3 find",
+      "hash": "dbdb463b950325f422d2ba5a15436ffa",
+      "created_at": "2026-08-31T17:11:37.826756+00:00",
+      "updated_at": "2026-08-31T17:11:37.826756+00:00",
+      "attributed_to": "user"
+    },
+    "c7300d6c-3261-4d51-9de6-386a7bd5ccc4": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at countertop 1 and saw a creditcard 3, a papertowelroll 1, a peppershaker 2, and a soapbottle 1 on it",
+      "text_lemmatized": "user arrive countertop 1 see creditcard 3 papertowelroll 1 peppershaker 2 soapbottle 1",
+      "hash": "7b31ae5a970ffc577de307fc116ad18c",
+      "created_at": "2026-08-31T17:11:42.913991+00:00",
+      "updated_at": "2026-08-31T17:11:42.913991+00:00"
+    },
+    "399e45a6-5bf6-4ea7-8a1f-7616d6b86d0a": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at countertop 2 and saw a bowl 3, a bread 2, a cellphone 1, a creditcard 1, a fork 2, a glassbottle 1, a knife 1, a potato 1, a spatula 1, a spoon 3, and a spoon 1 on it",
+      "text_lemmatized": "user arrive countertop 2 see bowl 3 bread 2 cellphone 1 creditcard 1 fork 2 glassbottle 1 knife 1 potato 1 spatula 1 spoon 3 spoon 1",
+      "hash": "5803ac441a5d5a7148884f7451aebde1",
+      "created_at": "2026-08-31T17:11:48.191251+00:00",
+      "updated_at": "2026-08-31T17:11:48.191251+00:00"
+    },
+    "7fad08c8-3b64-4a75-a6d0-0385f9975c08": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at countertop 3 and saw a cellphone 3, a cellphone 2, a fork 3, a glassbottle 2, a houseplant 1, a knife 2, a lettuce 1, a saltshaker 1, a statue 1, a vase 2, and a vase 1 on it",
+      "text_lemmatized": "user arrive countertop 3 see cellphone 3 cellphone 2 fork 3 glassbottle 2 houseplant 1 knife 2 lettuce 1 saltshaker 1 statue 1 vase 2 vase 1",
+      "hash": "dddc0f31740e394c2ac80625346c7f48",
+      "created_at": "2026-08-31T17:11:53.461520+00:00",
+      "updated_at": "2026-08-31T17:11:53.461520+00:00"
+    },
+    "16cc17eb-97ff-404b-adb9-385ca739f6e2": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User attempted to take the saltshaker 1 from countertop 3 but nothing happened",
+      "text_lemmatized": "user attempt saltshaker 1 countertop 3 happen",
+      "hash": "61d4e5017663f97c5b9a416de8d2e190",
+      "created_at": "2026-08-31T17:11:58.476166+00:00",
+      "updated_at": "2026-08-31T17:11:58.476166+00:00",
+      "attributed_to": "user"
+    },
+    "daf27764-553a-45b5-abe8-e983eba9d198": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User moved plate 2 to countertop 3",
+      "text_lemmatized": "user move plate 2 countertop 3",
+      "hash": "34569cfa78fb0a18af64a5f0e3ea561c",
+      "created_at": "2026-08-31T17:12:25.561356+00:00",
+      "updated_at": "2026-08-31T17:12:25.561356+00:00",
+      "attributed_to": "user"
+    },
+    "03215837-bd22-4683-9a3b-be49cde878a4": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User successfully picked up the saltshaker 1 from countertop 3 on August 31, 2026",
+      "text_lemmatized": "user successfully pick saltshaker 1 countertop 3 august 31 2026",
+      "hash": "5e32130f980b7485fdf1e763e91772a0",
+      "created_at": "2026-08-31T17:12:38.240855+00:00",
+      "updated_at": "2026-08-31T17:12:38.240855+00:00",
+      "attributed_to": "user"
+    },
+    "68dece97-df04-4281-bfe9-7d6abacb6ce7": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User arrived at drawer 1, which is open and contains a fork 1",
+      "text_lemmatized": "user arrive drawer 1 open contain fork 1",
+      "hash": "1df6e3cacf1cf3094baed9d91e96ec60",
+      "created_at": "2026-08-31T17:12:49.409833+00:00",
+      "updated_at": "2026-08-31T17:12:49.409833+00:00",
+      "attributed_to": "user"
+    },
+    "cbb0c443-a96a-4822-80b1-8d7d104ea9b0": {
+      "user_id": "pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782",
+      "data": "User moved the saltshaker 1 to drawer 1 on August 31, 2026",
+      "text_lemmatized": "user move saltshaker 1 drawer 1 august 31 2026",
+      "hash": "1ae94a90773d6b0d93a01ce183e50855",
+      "created_at": "2026-08-31T17:13:00.805910+00:00",
+      "updated_at": "2026-08-31T17:13:00.805910+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "3e887e66-b16d-4f49-88d9-12fec4f0f98b",
+    "1": "d3aa26ef-431d-45cb-8c67-3372d3fe83d3",
+    "2": "9d0b0ad4-6d8f-4a08-89e3-f6ce944bd339",
+    "3": "7cf0fd78-8e7d-4c3f-b621-257c71203640",
+    "4": "3085aa7e-6f3b-4a67-a98d-d1f17d4091e8",
+    "5": "d57a6901-6dff-4433-8ebf-c0f9ab4346c6",
+    "6": "081a27c0-146a-43a4-959c-1159ac6d23e8",
+    "7": "38873f04-6d78-40d6-9b39-7c547413972b",
+    "8": "d0421397-ca0c-425b-a946-1afb63f5c19e",
+    "9": "9062182d-a5e6-47a6-b52a-b4fba5c2950e",
+    "10": "573b26e8-5200-4700-ba61-dbb11220b17a",
+    "11": "e4dd6014-632a-47e6-b10e-ad995a8a37f5",
+    "12": "bb8166cb-6fd8-4117-ba8d-36bc99841063",
+    "13": "ade0a051-bbf8-49c3-b216-d9e1f553faf1",
+    "14": "eb781983-c9e9-409a-ba83-fdcee7962bc1",
+    "15": "05bcf15f-8ced-422e-9ed7-3233c3895f0f",
+    "16": "5560f5cd-e547-411b-9784-7c2e0d054f89",
+    "17": "082a269a-6fb3-4380-b189-b7b4c5ed953e",
+    "18": "d20fec4b-7274-44e3-85e7-cb7b79359358",
+    "19": "f4e037a7-4458-4b5a-88e3-0a58b031a9b0",
+    "20": "816dadf0-e6b7-4124-944f-2b0eb88e7751",
+    "21": "c7300d6c-3261-4d51-9de6-386a7bd5ccc4",
+    "22": "399e45a6-5bf6-4ea7-8a1f-7616d6b86d0a",
+    "23": "7fad08c8-3b64-4a75-a6d0-0385f9975c08",
+    "24": "16cc17eb-97ff-404b-adb9-385ca739f6e2",
+    "25": "daf27764-553a-45b5-abe8-e983eba9d198",
+    "26": "03215837-bd22-4683-9a3b-be49cde878a4",
+    "27": "68dece97-df04-4281-bfe9-7d6abacb6ce7",
+    "28": "cbb0c443-a96a-4822-80b1-8d7d104ea9b0"
+  }
+}

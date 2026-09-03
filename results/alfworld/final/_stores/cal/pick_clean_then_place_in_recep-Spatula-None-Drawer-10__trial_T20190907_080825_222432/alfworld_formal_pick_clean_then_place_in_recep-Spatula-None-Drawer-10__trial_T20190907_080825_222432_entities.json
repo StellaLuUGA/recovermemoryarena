@@ -1,0 +1,37 @@
+{
+  "docstore": {
+    "723cb648-091f-4f55-a689-a7124b6279d3": {
+      "data": "credit card",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "3f700873-8e5c-4ac6-921a-028565c85b3a",
+        "52a5bc74-fd88-47f3-a710-74a990fb8ae8",
+        "755291af-20ba-4ab0-a982-ae91972d813d",
+        "e7ade0d8-3929-4b89-86fd-b5021cc3068e"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432"
+    },
+    "ae68eecc-062f-4cc9-9438-9cfabdc4c1a6": {
+      "data": "dish sponge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0ca52774-8108-4bce-a5d6-d3fe03ca1a36",
+        "ef7003e2-7e87-4a42-8435-43407844598c"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432"
+    },
+    "d3480b59-a367-4842-adbd-9bc8c4749e08": {
+      "data": "soap bottle",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "ef7003e2-7e87-4a42-8435-43407844598c"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432"
+    }
+  },
+  "index_to_id": {
+    "0": "723cb648-091f-4f55-a689-a7124b6279d3",
+    "1": "ae68eecc-062f-4cc9-9438-9cfabdc4c1a6",
+    "2": "d3480b59-a367-4842-adbd-9bc8c4749e08"
+  }
+}

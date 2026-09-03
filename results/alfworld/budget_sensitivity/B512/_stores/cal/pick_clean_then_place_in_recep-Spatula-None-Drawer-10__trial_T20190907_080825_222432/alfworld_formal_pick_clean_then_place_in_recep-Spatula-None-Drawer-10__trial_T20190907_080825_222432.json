@@ -1,0 +1,403 @@
+{
+  "docstore": {
+    "76aae50c-97ca-49ce-9342-045ec1c895da": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User's task is to clean a spatula and put it in a drawer",
+      "text_lemmatized": "user task clean spatula drawer",
+      "hash": "8ccd385e8e8f9c3ed11e4f0bf3a1e58a",
+      "created_at": "2026-08-31T16:51:31.554741+00:00",
+      "updated_at": "2026-08-31T16:51:31.554741+00:00",
+      "attributed_to": "user"
+    },
+    "20cf5492-239a-4c6a-b0dc-4f7a219265f8": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T16:51:35.909749+00:00",
+      "updated_at": "2026-08-31T16:51:35.909749+00:00",
+      "attributed_to": "user"
+    },
+    "85bd7425-ac41-4037-83ea-6c2e9d47ecf1": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened drawer 1, which was previously closed, and found it empty",
+      "text_lemmatized": "user open drawer 1 previously close find",
+      "hash": "2666fc4f62a19a3098d3ff999c42e626",
+      "created_at": "2026-08-31T16:51:41.084782+00:00",
+      "updated_at": "2026-08-31T16:51:41.084782+00:00",
+      "attributed_to": "user"
+    },
+    "0a155d40-0b1d-48aa-872b-f87ffdb27f4d": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User's task remains to clean a spatula and put it in a drawer",
+      "text_lemmatized": "user task remain clean spatula drawer",
+      "hash": "41edf934127e9060b6b7d01e951c1284",
+      "created_at": "2026-08-31T16:51:41.085849+00:00",
+      "updated_at": "2026-08-31T16:51:41.085849+00:00",
+      "attributed_to": "user"
+    },
+    "23d98c9b-11dd-41e8-99b7-080bac6bcf93": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 2, which is closed",
+      "text_lemmatized": "user arrive drawer 2 close",
+      "hash": "ae6b0fea7d1c0d0d01331bed6970163f",
+      "created_at": "2026-08-31T16:51:48.699838+00:00",
+      "updated_at": "2026-08-31T16:51:48.699838+00:00",
+      "attributed_to": "user"
+    },
+    "68d96f43-172b-4772-800a-3b2114a128cc": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened drawer 2, which was previously closed, and found it containing a credit card, a peppershaker, a saltshaker, and a spoon",
+      "text_lemmatized": "user open drawer 2 previously close find contain containing credit card peppershaker saltshaker spoon",
+      "hash": "3fb88801ba0ca920d17152aacad19b0e",
+      "created_at": "2026-08-31T16:51:53.791932+00:00",
+      "updated_at": "2026-08-31T16:51:53.791932+00:00",
+      "attributed_to": "user"
+    },
+    "b6bab03f-60cb-4eac-ad53-376343255a6f": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 3, which is closed",
+      "text_lemmatized": "user arrive drawer 3 close",
+      "hash": "f8967d55ff209d1b81b86dd22e6f416f",
+      "created_at": "2026-08-31T16:51:58.758771+00:00",
+      "updated_at": "2026-08-31T16:51:58.758771+00:00",
+      "attributed_to": "user"
+    },
+    "aed1de88-930b-4205-8e1f-1ecce6d3bd5d": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened drawer 3, which was previously closed, and found it containing a spoon.",
+      "text_lemmatized": "user open drawer 3 previously close find contain containing spoon",
+      "hash": "98adcd22bebdb80870102c477805f145",
+      "created_at": "2026-08-31T16:52:03.562000+00:00",
+      "updated_at": "2026-08-31T16:52:03.562000+00:00",
+      "attributed_to": "user"
+    },
+    "3f8122b0-9c4c-4ecd-a394-fac1e3a6129d": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at sinkbasin 1 and observed that it contains a plate, a potato, and a tomato",
+      "text_lemmatized": "user arrive sinkbasin 1 observe contain plate potato tomato",
+      "hash": "eb24d117b766dcbd3d6e5fa5ad33e55c",
+      "created_at": "2026-08-31T16:52:07.717725+00:00",
+      "updated_at": "2026-08-31T16:52:07.717725+00:00"
+    },
+    "e5097c99-2135-468e-b5b0-c2078b255624": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 1, which is open and contains nothing",
+      "text_lemmatized": "user arrive drawer 1 open contain",
+      "hash": "82ab14c3f1c130bb276dee2c12e6eca5",
+      "created_at": "2026-08-31T16:52:12.551900+00:00",
+      "updated_at": "2026-08-31T16:52:12.551900+00:00",
+      "attributed_to": "user"
+    },
+    "3bdee609-30d1-4c4d-8007-ef75d87597bc": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 2, which is open, and observed that it contains a credit card, a peppershaker, a saltshaker, and a spoon",
+      "text_lemmatized": "user arrive drawer 2 open observe contain credit card peppershaker saltshaker spoon",
+      "hash": "5c1ea4b9e1423317154d26f17acd4f7d",
+      "created_at": "2026-08-31T16:52:18.571999+00:00",
+      "updated_at": "2026-08-31T16:52:18.571999+00:00",
+      "attributed_to": "user"
+    },
+    "6b9a92e0-1239-4092-85aa-494fe16904b1": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 3, which is open, and observed that it contains a spoon 3",
+      "text_lemmatized": "user arrive drawer 3 open observe contain spoon 3",
+      "hash": "50c4286b1a840c7929605c9138150718",
+      "created_at": "2026-08-31T16:52:27.769299+00:00",
+      "updated_at": "2026-08-31T16:52:27.769299+00:00",
+      "attributed_to": "user"
+    },
+    "77b67663-a7a6-42c1-af9d-2bea31ac4a0f": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at cabinet 1 and observed that it contains a saltshaker 1, a vase 2, and a vase 1",
+      "text_lemmatized": "user arrive cabinet 1 observe contain saltshaker 1 vase 2 vase 1",
+      "hash": "142644a4a9b2b46c672aa67d70fdee93",
+      "created_at": "2026-08-31T16:52:32.639005+00:00",
+      "updated_at": "2026-08-31T16:52:32.639005+00:00"
+    },
+    "649e884d-5282-4f87-89aa-920e08c04de4": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T16:52:37.029901+00:00",
+      "updated_at": "2026-08-31T16:52:37.029901+00:00"
+    },
+    "2c55feb3-deb0-44f5-a684-96f9eaf4d52f": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened cabinet 2, which was previously closed, and found it containing a dish sponge 1 and a plate 1",
+      "text_lemmatized": "user open cabinet 2 previously close find contain containing dish sponge 1 plate 1",
+      "hash": "df2297789258058860016bc2a420edcf",
+      "created_at": "2026-08-31T16:52:42.144087+00:00",
+      "updated_at": "2026-08-31T16:52:42.144087+00:00",
+      "attributed_to": "user"
+    },
+    "a9519878-df33-44a1-a9eb-0bb905e365bd": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at cabinet 3 and observed that it contains nothing",
+      "text_lemmatized": "user arrive cabinet 3 observe contain",
+      "hash": "4943439f6e3fe3240c23861af0b3db08",
+      "created_at": "2026-08-31T16:52:46.540609+00:00",
+      "updated_at": "2026-08-31T16:52:46.540609+00:00",
+      "attributed_to": "user"
+    },
+    "f38a23ad-a223-4d25-84d7-309142d532bc": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at cabinet 4 and observed that it contains nothing",
+      "text_lemmatized": "user arrive cabinet 4 observe contain",
+      "hash": "2f56b8bd2acc2199d614520a0cad2e7c",
+      "created_at": "2026-08-31T16:52:51.239132+00:00",
+      "updated_at": "2026-08-31T16:52:51.239132+00:00",
+      "attributed_to": "user"
+    },
+    "87119217-e482-42a5-b747-59fe267e6fe5": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T16:52:55.604727+00:00",
+      "updated_at": "2026-08-31T16:52:55.604727+00:00",
+      "attributed_to": "user"
+    },
+    "b690aba2-f3f1-47bb-afc2-ff6c7a03ae76": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened cabinet 5, which was previously closed, and found it to be empty",
+      "text_lemmatized": "user open cabinet 5 previously close find",
+      "hash": "2776fe31b58371fde503887195fd09cd",
+      "created_at": "2026-08-31T16:53:00.521932+00:00",
+      "updated_at": "2026-08-31T16:53:00.521932+00:00",
+      "attributed_to": "user"
+    },
+    "6b001dca-3298-4d94-a338-f3c5cdffd83f": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at cabinet 6, which is closed",
+      "text_lemmatized": "user arrive cabinet 6 close",
+      "hash": "426e0890ad3d4d00cb5ab1a465eadd3e",
+      "created_at": "2026-08-31T16:53:04.848538+00:00",
+      "updated_at": "2026-08-31T16:53:04.848538+00:00",
+      "attributed_to": "user"
+    },
+    "cfeab322-766c-4115-ae2b-f99ec13ddf3c": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened cabinet 6, which was previously closed, and found it containing a dish sponge 2 and a soap bottle 1",
+      "text_lemmatized": "user open cabinet 6 previously close find contain containing dish sponge 2 soap bottle 1",
+      "hash": "875b3829507563d529281b00ded7accc",
+      "created_at": "2026-08-31T16:53:09.942937+00:00",
+      "updated_at": "2026-08-31T16:53:09.942937+00:00",
+      "attributed_to": "user"
+    },
+    "5912c74b-4d4d-46a7-b3fa-3d90f981dbe4": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at sinkbasin 1 and observed that it contains a plate 2, a potato 2, and a tomato 2",
+      "text_lemmatized": "user arrive sinkbasin 1 observe contain plate 2 potato 2 tomato 2",
+      "hash": "d1ea2ed958e30a1c139dac1c9ca1e563",
+      "created_at": "2026-08-31T16:53:15.834953+00:00",
+      "updated_at": "2026-08-31T16:53:15.834953+00:00",
+      "attributed_to": "user"
+    },
+    "3dfe2907-db89-44ba-ac1e-c656c666abe5": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User is currently at sinkbasin 1, which contains a plate 2, a potato 2, and a tomato 2",
+      "text_lemmatized": "user currently sinkbasin 1 contain plate 2 potato 2 tomato 2",
+      "hash": "a4ce96ac9347d85a9525bf29c5fecc15",
+      "created_at": "2026-08-31T16:53:15.836140+00:00",
+      "updated_at": "2026-08-31T16:53:15.836140+00:00",
+      "attributed_to": "assistant"
+    },
+    "872793b1-dad2-4a9e-8c42-d00b21c2dd86": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 2, which is open, and observed that it contains a credit card 1, a peppershaker 2, a saltshaker 2, and a spoon 2",
+      "text_lemmatized": "user arrive drawer 2 open observe contain credit card 1 peppershaker 2 saltshaker 2 spoon 2",
+      "hash": "f40b5a67c1e3cfda6631dbd3264f00ba",
+      "created_at": "2026-08-31T16:53:26.242316+00:00",
+      "updated_at": "2026-08-31T16:53:26.242316+00:00",
+      "attributed_to": "user"
+    },
+    "0ec0d1af-a59c-4524-a99d-18bc8675bb76": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User picked up the spoon 3 from drawer 3",
+      "text_lemmatized": "user pick spoon 3 drawer 3",
+      "hash": "4d188529bf78060f395b6a64730c0971",
+      "created_at": "2026-08-31T16:53:36.290605+00:00",
+      "updated_at": "2026-08-31T16:53:36.290605+00:00",
+      "attributed_to": "user"
+    },
+    "ec0f36f5-34ed-422b-9ba9-94ebc98174cc": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User cleaned the spoon 3 using the sinkbasin 1, which contains a plate 2, a potato 2, and a tomato 2",
+      "text_lemmatized": "user clean spoon 3 sinkbasin 1 contain plate 2 potato 2 tomato 2",
+      "hash": "abdf1ce7773035b66387fcb9e5f1101b",
+      "created_at": "2026-08-31T16:53:45.110913+00:00",
+      "updated_at": "2026-08-31T16:53:45.110913+00:00",
+      "attributed_to": "assistant"
+    },
+    "35dc6328-37a2-43eb-814c-db9f3160a786": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User moved the spoon 3 to drawer 1, which was previously open and empty",
+      "text_lemmatized": "user move spoon 3 drawer 1 previously open",
+      "hash": "e4ca3a5fcfa0d4029fc77d2f30d87169",
+      "created_at": "2026-08-31T16:53:55.164248+00:00",
+      "updated_at": "2026-08-31T16:53:55.164248+00:00",
+      "attributed_to": "user"
+    },
+    "d0c32806-d443-4d6a-88a2-6c4d37b490dd": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User closed drawer 1, which was previously open and empty",
+      "text_lemmatized": "user close drawer 1 previously open",
+      "hash": "3009e21628887e783c525c4273fb8a48",
+      "created_at": "2026-08-31T16:53:59.896782+00:00",
+      "updated_at": "2026-08-31T16:53:59.896782+00:00",
+      "attributed_to": "user"
+    },
+    "194cdfaa-f13c-4d0d-814b-60201c135c1f": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User picked up the spoon 2 from drawer 2, which contains a creditcard 1, a peppershaker 2, a saltshaker 2, and a spoon 2",
+      "text_lemmatized": "user pick spoon 2 drawer 2 contain creditcard 1 peppershaker 2 saltshaker 2 spoon 2",
+      "hash": "c2442eb42d1c98095b00f3f6a533fdb2",
+      "created_at": "2026-08-31T16:54:14.788996+00:00",
+      "updated_at": "2026-08-31T16:54:14.788996+00:00",
+      "attributed_to": "user"
+    },
+    "6ca84560-73ec-4fdc-996f-648d0f41cfae": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User attempted to clean the spoon 2 with sinkbasin 1, but nothing happened",
+      "text_lemmatized": "user attempt clean spoon 2 sinkbasin 1 happen",
+      "hash": "ab4e3b747128c5de645b87a2abf1750f",
+      "created_at": "2026-08-31T16:54:20.428339+00:00",
+      "updated_at": "2026-08-31T16:54:20.428339+00:00",
+      "attributed_to": "user"
+    },
+    "9a82c16e-cfca-4ec4-8535-4c82ea721c28": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User is currently carrying the spoon 2",
+      "text_lemmatized": "user currently carry carrying spoon 2",
+      "hash": "b3e701ba6af0ece3080a164f58fde7cc",
+      "created_at": "2026-08-31T16:54:20.429229+00:00",
+      "updated_at": "2026-08-31T16:54:20.429229+00:00",
+      "attributed_to": "user"
+    },
+    "a54dee31-bbe1-4433-8af0-df45f948b7b6": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User closed drawer 2, which was previously open and contained a credit card, a peppershaker, a saltshaker, and a spoon",
+      "text_lemmatized": "user close drawer 2 previously open contain credit card peppershaker saltshaker spoon",
+      "hash": "d0647386660a2c9cd6fb8594c05439ac",
+      "created_at": "2026-08-31T16:54:25.714451+00:00",
+      "updated_at": "2026-08-31T16:54:25.714451+00:00",
+      "attributed_to": "user"
+    },
+    "43ae80bf-ebb7-4b4e-9143-7e5c2cb62cce": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User successfully cleaned the spoon 2 using the sinkbasin 1, which contains a plate 2, a potato 2, and a tomato 2",
+      "text_lemmatized": "user successfully clean spoon 2 sinkbasin 1 contain plate 2 potato 2 tomato 2",
+      "hash": "f13064acdb2d710af8e5cee687add9b1",
+      "created_at": "2026-08-31T16:54:36.579193+00:00",
+      "updated_at": "2026-08-31T16:54:36.579193+00:00",
+      "attributed_to": "user"
+    },
+    "10200081-5c68-49e8-8243-79726c1bc773": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened drawer 2, which was previously closed, and found it containing a creditcard 1, a peppershaker 2, and a saltshaker 2",
+      "text_lemmatized": "user open drawer 2 previously close find contain containing creditcard 1 peppershaker 2 saltshaker 2",
+      "hash": "dd56153fe8ecb5dee9cbcc207bc86d4d",
+      "created_at": "2026-08-31T16:54:46.757221+00:00",
+      "updated_at": "2026-08-31T16:54:46.757221+00:00",
+      "attributed_to": "user"
+    },
+    "3e01ed59-f6e2-4eeb-807a-26a8a58d7dc0": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User moved the spoon 2 to drawer 2, which is open and contains a creditcard 1, a peppershaker 2, and a saltshaker 2",
+      "text_lemmatized": "user move spoon 2 drawer 2 open contain creditcard 1 peppershaker 2 saltshaker 2",
+      "hash": "03fb0e0451011c7adffa234106f31606",
+      "created_at": "2026-08-31T16:54:51.932345+00:00",
+      "updated_at": "2026-08-31T16:54:51.932345+00:00",
+      "attributed_to": "user"
+    },
+    "098be1d7-1340-4cac-a316-d2b1341139d4": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User arrived at drawer 3, which is open and currently contains nothing",
+      "text_lemmatized": "user arrive drawer 3 open currently contain",
+      "hash": "3f8e24f3159decba4759c1634bf2138c",
+      "created_at": "2026-08-31T16:55:01.679135+00:00",
+      "updated_at": "2026-08-31T16:55:01.679135+00:00",
+      "attributed_to": "user"
+    },
+    "a672c0de-fb73-48a5-8179-e96c113348a6": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User attempted to go to drawer 3 but observed that nothing happened",
+      "text_lemmatized": "user attempt drawer 3 observe happen",
+      "hash": "9db81b3a4d460a211fab222a84b6025b",
+      "created_at": "2026-08-31T16:55:06.457083+00:00",
+      "updated_at": "2026-08-31T16:55:06.457083+00:00",
+      "attributed_to": "user"
+    },
+    "6900f315-e816-498d-aef1-a92320b3db06": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User closed drawer 3, which was previously open and empty",
+      "text_lemmatized": "user close drawer 3 previously open",
+      "hash": "625222a0aa2b982fd3aba96bdfbef9e1",
+      "created_at": "2026-08-31T16:55:11.559027+00:00",
+      "updated_at": "2026-08-31T16:55:11.559027+00:00",
+      "attributed_to": "user"
+    },
+    "35fa66e7-3b94-49f9-831b-26b7fb9f9367": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User opened drawer 1, which was previously closed and empty, and found it containing a spoon 3",
+      "text_lemmatized": "user open drawer 1 previously closed find contain containing spoon 3",
+      "hash": "75132c1840adbd9298ad4f9dec9006e3",
+      "created_at": "2026-08-31T16:55:32.535091+00:00",
+      "updated_at": "2026-08-31T16:55:32.535091+00:00",
+      "attributed_to": "user"
+    },
+    "e0d9ce10-6693-449f-910b-89fc9b190513": {
+      "user_id": "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+      "data": "User closed drawer 1, which was previously open and contained a spoon 3",
+      "text_lemmatized": "user close drawer 1 previously open contain spoon 3",
+      "hash": "9d2eff1e5c0b966afb043e855edd34af",
+      "created_at": "2026-08-31T16:55:37.665035+00:00",
+      "updated_at": "2026-08-31T16:55:37.665035+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "76aae50c-97ca-49ce-9342-045ec1c895da",
+    "1": "20cf5492-239a-4c6a-b0dc-4f7a219265f8",
+    "2": "85bd7425-ac41-4037-83ea-6c2e9d47ecf1",
+    "3": "0a155d40-0b1d-48aa-872b-f87ffdb27f4d",
+    "4": "23d98c9b-11dd-41e8-99b7-080bac6bcf93",
+    "5": "68d96f43-172b-4772-800a-3b2114a128cc",
+    "6": "b6bab03f-60cb-4eac-ad53-376343255a6f",
+    "7": "aed1de88-930b-4205-8e1f-1ecce6d3bd5d",
+    "8": "3f8122b0-9c4c-4ecd-a394-fac1e3a6129d",
+    "9": "e5097c99-2135-468e-b5b0-c2078b255624",
+    "10": "3bdee609-30d1-4c4d-8007-ef75d87597bc",
+    "11": "6b9a92e0-1239-4092-85aa-494fe16904b1",
+    "12": "77b67663-a7a6-42c1-af9d-2bea31ac4a0f",
+    "13": "649e884d-5282-4f87-89aa-920e08c04de4",
+    "14": "2c55feb3-deb0-44f5-a684-96f9eaf4d52f",
+    "15": "a9519878-df33-44a1-a9eb-0bb905e365bd",
+    "16": "f38a23ad-a223-4d25-84d7-309142d532bc",
+    "17": "87119217-e482-42a5-b747-59fe267e6fe5",
+    "18": "b690aba2-f3f1-47bb-afc2-ff6c7a03ae76",
+    "19": "6b001dca-3298-4d94-a338-f3c5cdffd83f",
+    "20": "cfeab322-766c-4115-ae2b-f99ec13ddf3c",
+    "21": "5912c74b-4d4d-46a7-b3fa-3d90f981dbe4",
+    "22": "3dfe2907-db89-44ba-ac1e-c656c666abe5",
+    "23": "872793b1-dad2-4a9e-8c42-d00b21c2dd86",
+    "24": "0ec0d1af-a59c-4524-a99d-18bc8675bb76",
+    "25": "ec0f36f5-34ed-422b-9ba9-94ebc98174cc",
+    "26": "35dc6328-37a2-43eb-814c-db9f3160a786",
+    "27": "d0c32806-d443-4d6a-88a2-6c4d37b490dd",
+    "28": "194cdfaa-f13c-4d0d-814b-60201c135c1f",
+    "29": "6ca84560-73ec-4fdc-996f-648d0f41cfae",
+    "30": "9a82c16e-cfca-4ec4-8535-4c82ea721c28",
+    "31": "a54dee31-bbe1-4433-8af0-df45f948b7b6",
+    "32": "43ae80bf-ebb7-4b4e-9143-7e5c2cb62cce",
+    "33": "10200081-5c68-49e8-8243-79726c1bc773",
+    "34": "3e01ed59-f6e2-4eeb-807a-26a8a58d7dc0",
+    "35": "098be1d7-1340-4cac-a316-d2b1341139d4",
+    "36": "a672c0de-fb73-48a5-8179-e96c113348a6",
+    "37": "6900f315-e816-498d-aef1-a92320b3db06",
+    "38": "35fa66e7-3b94-49f9-831b-26b7fb9f9367",
+    "39": "e0d9ce10-6693-449f-910b-89fc9b190513"
+  }
+}

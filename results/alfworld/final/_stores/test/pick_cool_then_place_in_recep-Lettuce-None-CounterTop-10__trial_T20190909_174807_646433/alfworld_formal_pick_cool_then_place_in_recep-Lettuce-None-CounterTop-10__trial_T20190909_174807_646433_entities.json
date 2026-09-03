@@ -1,0 +1,36 @@
+{
+  "docstore": {
+    "f9ba5eb1-f8d2-4bb2-a17e-92399ea22d05": {
+      "data": "cool lettuce",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "d795c5a3-ed62-4f70-a09e-05d1b208ce4f"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174807_646433"
+    },
+    "744613fe-8460-4953-9cfd-1ff205b9ac5c": {
+      "data": "open fridge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "5e177d39-4073-4808-9992-60d282599d8f",
+        "76c8b9b6-5dca-438d-b523-b57ee3ae353d",
+        "bc9e09da-5b09-4542-a8de-f12b93c6200e",
+        "fe776884-c237-414b-a412-3c15ec4497e0"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174807_646433"
+    },
+    "d3af5880-bf01-433b-a4e5-d9aa897354b9": {
+      "data": "cooled lettuce",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "02ff9d4c-6e80-4028-86de-2dc62051f043"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174807_646433"
+    }
+  },
+  "index_to_id": {
+    "0": "f9ba5eb1-f8d2-4bb2-a17e-92399ea22d05",
+    "1": "744613fe-8460-4953-9cfd-1ff205b9ac5c",
+    "2": "d3af5880-bf01-433b-a4e5-d9aa897354b9"
+  }
+}

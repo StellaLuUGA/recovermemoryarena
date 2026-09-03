@@ -1,0 +1,56 @@
+{
+  "aggregate": {
+    "task_goal_completion": 0.0,
+    "scenario_goal_completion": 0.0
+  },
+  "individual": {
+    "4ec8de5_1": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert no model changes.",
+          "label": "no_op_pass"
+        }
+      ],
+      "failures": [
+        {
+          "requirement": "assert answers match.",
+          "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.answer(predicted_answer, ground_truth_answer)\n```\n----------\nAssertionError:  '6' == '39'",
+          "label": "no_op_fail"
+        }
+      ]
+    },
+    "57c3486_1": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 5,
+      "passes": [
+        {
+          "requirement": "assert answers match.",
+          "label": "no_op_fail"
+        },
+        {
+          "requirement": "assert model changes match spotify.Song, spotify.SongLike.",
+          "label": "no_op_fail"
+        },
+        {
+          "requirement": "assert all songs from artists main_user follows are liked now by using\nprivate_data.followed_artist_song_ids.",
+          "label": "no_op_fail"
+        },
+        {
+          "requirement": "assert none of the updated or removed song likes are from artists that main_user follows,\nusing private_data.followed_artist_song_ids.",
+          "label": "no_op_pass"
+        }
+      ],
+      "failures": [
+        {
+          "requirement": "assert all newly song likes are from artists that main_user follows via models.changed_records",
+          "trace": "```python\nwith test(\n    \"\"\"\n    assert all newly song likes are from artists that main_user follows via models.changed_records\n    \"\"\"\n):\n    added_song_likes, updated_song_likes, removed_song_likes = models.changed_records(\n        \"spotify.SongLike\"\n    )\n```\n----------\nAssertionError:\n197\nin\n[1, 2, 3, 4, 5, 6, 7, 29, 30, 31, 32, 70, 71, 72, 73, 77, 78, 79, 80, 81, 82, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 118, 119, 120, 121, 122, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 201, 202, 203, 204, 205, 206, 212, 213, 214, 215, 216, 217, 218, 219, 220, 259, 260, 261, 262, 263, 264, 265, 274, 275, 276, 277, 278, 279, 304, 305, 306, 307, 308]",
+          "label": "no_op_fail"
+        }
+      ]
+    }
+  }
+}

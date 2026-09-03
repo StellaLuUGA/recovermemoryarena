@@ -1,0 +1,399 @@
+{
+  "docstore": {
+    "a7569b1e-44ba-41fc-beb8-f8c46a29441a": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User's task is to put a clean knife in a countertop",
+      "text_lemmatized": "user task clean knife countertop",
+      "hash": "54464a5ee3ec5f31f0d7cab5b041d211",
+      "created_at": "2026-08-31T16:47:13.421008+00:00",
+      "updated_at": "2026-08-31T16:47:13.421008+00:00",
+      "attributed_to": "user"
+    },
+    "38cea31c-bee7-438c-bd55-719c5f90a668": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T16:47:17.587333+00:00",
+      "updated_at": "2026-08-31T16:47:17.587333+00:00",
+      "attributed_to": "user"
+    },
+    "277d1a08-c609-428a-9cd7-a6ce749b05e5": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User opened drawer 1 and found a peppershaker 1 inside",
+      "text_lemmatized": "user open drawer 1 find peppershaker 1 inside",
+      "hash": "c602095e000cf30ed3e3b7263eab578b",
+      "created_at": "2026-08-31T16:47:22.509069+00:00",
+      "updated_at": "2026-08-31T16:47:22.509069+00:00"
+    },
+    "377e84e7-e389-41d0-8407-7c86e88ee981": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 2, which is closed",
+      "text_lemmatized": "user arrive drawer 2 close",
+      "hash": "ae6b0fea7d1c0d0d01331bed6970163f",
+      "created_at": "2026-08-31T16:47:26.791855+00:00",
+      "updated_at": "2026-08-31T16:47:26.791855+00:00",
+      "attributed_to": "user"
+    },
+    "d2b347b3-63d0-492d-acbe-4f8b3d65c478": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User opened drawer 2 and found a saltshaker 2 inside",
+      "text_lemmatized": "user open drawer 2 find saltshaker 2 inside",
+      "hash": "59b7583a25e0407ae8265b80fca77a05",
+      "created_at": "2026-08-31T16:47:31.529561+00:00",
+      "updated_at": "2026-08-31T16:47:31.529561+00:00",
+      "attributed_to": "user"
+    },
+    "0e246555-ac14-4073-b73a-fa647bd76b7e": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 3, which is closed",
+      "text_lemmatized": "user arrive drawer 3 close",
+      "hash": "f8967d55ff209d1b81b86dd22e6f416f",
+      "created_at": "2026-08-31T16:47:35.729803+00:00",
+      "updated_at": "2026-08-31T16:47:35.729803+00:00"
+    },
+    "a484217e-4d9f-4d48-82b9-d6b30e0b1ade": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User opened drawer 3 and found a creditcard 2, a saltshaker 3, and a spatula 1 inside",
+      "text_lemmatized": "user open drawer 3 find creditcard 2 saltshaker 3 spatula 1 inside",
+      "hash": "25689310bc1e1e6b5eeadcae189360ed",
+      "created_at": "2026-08-31T16:47:40.687956+00:00",
+      "updated_at": "2026-08-31T16:47:40.687956+00:00",
+      "attributed_to": "user"
+    },
+    "bd490520-5820-4950-8c4f-0192821310b2": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at sinkbasin 1 and observed that a butterknife 2, a cup 2, an egg 2, and a spoon 1 are on it",
+      "text_lemmatized": "user arrive sinkbasin 1 observe butterknife 2 cup 2 egg 2 spoon 1",
+      "hash": "4f5ed12117df250e5b6a67c19779568c",
+      "created_at": "2026-08-31T16:47:45.535210+00:00",
+      "updated_at": "2026-08-31T16:47:45.535210+00:00"
+    },
+    "524797d4-9406-4d7f-98b0-d65ddccd05ae": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User picked up the spoon 1 from the sinkbasin 1",
+      "text_lemmatized": "user pick spoon 1 sinkbasin 1",
+      "hash": "af53fb20273168cb43bb49732823ed5c",
+      "created_at": "2026-08-31T16:47:50.417702+00:00",
+      "updated_at": "2026-08-31T16:47:50.417702+00:00",
+      "attributed_to": "user"
+    },
+    "3ad2ba17-d17f-4d1f-bdf2-e2ede8ea2f14": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at countertop 1 and observed that an apple 3, an apple 2, a creditcard 1, and a peppershaker 2 are on it",
+      "text_lemmatized": "user arrive countertop 1 observe apple 3 apple 2 creditcard 1 peppershaker 2",
+      "hash": "d713af75bca6f41ffcdd6a63d62730bb",
+      "created_at": "2026-08-31T16:47:55.462994+00:00",
+      "updated_at": "2026-08-31T16:47:55.462994+00:00",
+      "attributed_to": "user"
+    },
+    "d87a15d8-e020-4f29-ad98-3ac5c80e9bd5": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 1, which is open. Inside, they see a peppershaker 1",
+      "text_lemmatized": "user arrive drawer 1 open inside peppershaker 1",
+      "hash": "03ec72d267a671971ea384f453e5ee47",
+      "created_at": "2026-08-31T16:48:00.260845+00:00",
+      "updated_at": "2026-08-31T16:48:00.260845+00:00",
+      "attributed_to": "user"
+    },
+    "52dcd127-a688-483e-beb0-802871a8cbaf": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 3, which is open. Inside, they see a creditcard 2, a saltshaker 3, and a spatula 1",
+      "text_lemmatized": "user arrive drawer 3 open inside creditcard 2 saltshaker 3 spatula 1",
+      "hash": "985e38a94dcbbb42c2f569ba0a5f4938",
+      "created_at": "2026-08-31T16:48:05.326136+00:00",
+      "updated_at": "2026-08-31T16:48:05.326136+00:00",
+      "attributed_to": "user"
+    },
+    "87215d51-d6a0-4a62-9a8e-2f76cd5a4e57": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 2, which is open. Inside, they see a saltshaker 2",
+      "text_lemmatized": "user arrive drawer 2 open inside saltshaker 2",
+      "hash": "279b0745e50d56799a13d60e093b1f2c",
+      "created_at": "2026-08-31T16:48:10.017374+00:00",
+      "updated_at": "2026-08-31T16:48:10.017374+00:00",
+      "attributed_to": "user"
+    },
+    "e7eaa9b6-cf5f-4327-a126-1f683d1ccdc1": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at sinkbasin 1 and observed that a butterknife 2, a cup 2, and an egg 2 are on it",
+      "text_lemmatized": "user arrive sinkbasin 1 observe butterknife 2 cup 2 egg 2",
+      "hash": "8fbdc7eb9f786e938088369a8e3ab375",
+      "created_at": "2026-08-31T16:48:15.231076+00:00",
+      "updated_at": "2026-08-31T16:48:15.231076+00:00",
+      "attributed_to": "user"
+    },
+    "088ac0d3-5dbd-4543-b320-92a02f857226": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User cleaned the spoon 1 using the sinkbasin 1",
+      "text_lemmatized": "user clean spoon 1 sinkbasin 1",
+      "hash": "734407883b15796a4174eb1ba7906e3a",
+      "created_at": "2026-08-31T16:48:20.225723+00:00",
+      "updated_at": "2026-08-31T16:48:20.225723+00:00",
+      "attributed_to": "user"
+    },
+    "3aaec747-58fb-4543-ab10-7bcab0e285f7": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User moved the spoon 1 to countertop 1, where it now joins the apple 3, apple 2, creditcard 1, and peppershaker 2",
+      "text_lemmatized": "user move spoon 1 countertop 1 join apple 3 apple 2 creditcard 1 peppershaker 2",
+      "hash": "6c74101d1d71d60a7206a079baabef1b",
+      "created_at": "2026-08-31T16:48:30.904968+00:00",
+      "updated_at": "2026-08-31T16:48:30.904968+00:00",
+      "attributed_to": "user"
+    },
+    "dcae312f-1899-451d-923c-2404e2bdb515": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User previously moved the spoon 1 to countertop 1, where it now joins the apple 3, apple 2, creditcard 1, and peppershaker 2",
+      "text_lemmatized": "user previously move spoon 1 countertop 1 join apple 3 apple 2 creditcard 1 peppershaker 2",
+      "hash": "245c51354dcc2b8576d06100fb3fbfe0",
+      "created_at": "2026-08-31T16:48:47.529008+00:00",
+      "updated_at": "2026-08-31T16:48:47.529008+00:00"
+    },
+    "49114a9f-95e3-4905-9260-f650b9d39317": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User is navigating through multiple drawers and countertops, interacting with objects like creditcards, shakers, and utensils",
+      "text_lemmatized": "user navigate navigating multiple drawer countertop interact interacting object like creditcard shaker utensil",
+      "hash": "819eb68730c20384bbfbe7b6a2db11c4",
+      "created_at": "2026-08-31T16:48:47.531466+00:00",
+      "updated_at": "2026-08-31T16:48:47.531466+00:00"
+    },
+    "c8a4ff9e-a64a-4f0e-82ea-06a4f02dd8aa": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User picked up the spatula 1 from drawer 3",
+      "text_lemmatized": "user pick spatula 1 drawer 3",
+      "hash": "ffb0a8a45adf2de1b288240b9a190771",
+      "created_at": "2026-08-31T16:48:52.293898+00:00",
+      "updated_at": "2026-08-31T16:48:52.293898+00:00",
+      "attributed_to": "user"
+    },
+    "3f0ed3d4-ca53-4e86-8239-ccad5b74cc3c": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User cleaned the spatula 1 using the sinkbasin 1",
+      "text_lemmatized": "user clean spatula 1 sinkbasin 1",
+      "hash": "0c5d64c138495a4a81045fa808d4bea9",
+      "created_at": "2026-08-31T16:49:02.625655+00:00",
+      "updated_at": "2026-08-31T16:49:02.625655+00:00",
+      "attributed_to": "user"
+    },
+    "7ba267fc-f49e-4ed3-b14a-52222012ac3c": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at countertop 1 and observed that an apple 3, an apple 2, a creditcard 1, a peppershaker 2, and a spoon 1 are on it",
+      "text_lemmatized": "user arrive countertop 1 observe apple 3 apple 2 creditcard 1 peppershaker 2 spoon 1",
+      "hash": "fd368cc153c1b140c2a80e2f82eb26b6",
+      "created_at": "2026-08-31T16:49:07.965368+00:00",
+      "updated_at": "2026-08-31T16:49:07.965368+00:00",
+      "attributed_to": "user"
+    },
+    "91006b58-d62a-4962-855a-eabae9bbec24": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User moved the spatula 1 to countertop 1, where it now joins the apple 3, apple 2, creditcard 1, peppershaker 2, and spoon 1",
+      "text_lemmatized": "user move spatula 1 countertop 1 join apple 3 apple 2 creditcard 1 peppershaker 2 spoon 1",
+      "hash": "c354482a5d0a5748d127d1a50747b21e",
+      "created_at": "2026-08-31T16:49:13.238305+00:00",
+      "updated_at": "2026-08-31T16:49:13.238305+00:00",
+      "attributed_to": "user"
+    },
+    "5cb42b9e-28e5-4f18-af4f-44c79923735e": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 3, which is open. Inside, they see a creditcard 2 and a saltshaker 3",
+      "text_lemmatized": "user arrive drawer 3 open inside creditcard 2 saltshaker 3",
+      "hash": "85629461851fb646053eb0c0e0753725",
+      "created_at": "2026-08-31T16:49:23.755143+00:00",
+      "updated_at": "2026-08-31T16:49:23.755143+00:00",
+      "attributed_to": "user"
+    },
+    "dde996ed-695b-4abe-8e2f-8bb5b4bdb44f": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User picked up the saltshaker 2 from drawer 2",
+      "text_lemmatized": "user pick saltshaker 2 drawer 2",
+      "hash": "291b3da8493f801c1d697160b9eb7328",
+      "created_at": "2026-08-31T16:49:33.683231+00:00",
+      "updated_at": "2026-08-31T16:49:33.683231+00:00",
+      "attributed_to": "user"
+    },
+    "1807966c-6b48-43f8-bbf6-6655a1f6571b": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User closed drawer 1, which previously contained a peppershaker 1",
+      "text_lemmatized": "user close drawer 1 previously contain peppershaker 1",
+      "hash": "3540f600f04393718103de2e42c5521d",
+      "created_at": "2026-08-31T16:50:00.020481+00:00",
+      "updated_at": "2026-08-31T16:50:00.020481+00:00",
+      "attributed_to": "user"
+    },
+    "26c92c52-0d83-4079-b0ad-d88aec9bec97": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User closed drawer 3, which previously contained a creditcard 2, a saltshaker 3, and a spatula 1",
+      "text_lemmatized": "user close drawer 3 previously contain creditcard 2 saltshaker 3 spatula 1",
+      "hash": "0e1c8f2b88e9208f6915be528941dc7f",
+      "created_at": "2026-08-31T16:50:10.593740+00:00",
+      "updated_at": "2026-08-31T16:50:10.593740+00:00",
+      "attributed_to": "user"
+    },
+    "a8427f6a-ff21-4ac8-8718-c590570aa246": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at drawer 2, which is open and currently contains nothing",
+      "text_lemmatized": "user arrive drawer 2 open currently contain",
+      "hash": "1c763bf54a7720c7d31cd7bb193155d4",
+      "created_at": "2026-08-31T16:50:15.530905+00:00",
+      "updated_at": "2026-08-31T16:50:15.530905+00:00",
+      "attributed_to": "user"
+    },
+    "51e1b19c-fa63-4511-a7a2-d09ccfd456f7": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User closed drawer 2, which was previously open and contained nothing",
+      "text_lemmatized": "user close drawer 2 previously open contain",
+      "hash": "abe296255c877b50221b04d77be2a6ee",
+      "created_at": "2026-08-31T16:50:20.619700+00:00",
+      "updated_at": "2026-08-31T16:50:20.619700+00:00",
+      "attributed_to": "user"
+    },
+    "ac8e0473-3957-4835-b6a9-2775275d534b": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at cabinet 1, which is open and currently contains nothing",
+      "text_lemmatized": "user arrive cabinet 1 open currently contain",
+      "hash": "5eb8fd54ab4791de8202a961b6b0dab7",
+      "created_at": "2026-08-31T16:50:25.291736+00:00",
+      "updated_at": "2026-08-31T16:50:25.291736+00:00"
+    },
+    "b76173f3-b898-4c8b-9d91-5a810107684d": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T16:50:30.244794+00:00",
+      "updated_at": "2026-08-31T16:50:30.244794+00:00",
+      "attributed_to": "user"
+    },
+    "a442dc35-1e67-46f4-97fe-5c05166c8db0": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User opened cabinet 2 and found a glassbottle 1 and a plate 1 inside",
+      "text_lemmatized": "user open cabinet 2 find glassbottle 1 plate 1 inside",
+      "hash": "cf13d287e9184feb961c546f846dbf7c",
+      "created_at": "2026-08-31T16:50:35.453706+00:00",
+      "updated_at": "2026-08-31T16:50:35.453706+00:00",
+      "attributed_to": "user"
+    },
+    "40bc1b26-79bf-4007-afad-4da9575ae70a": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at cabinet 3 and saw a vase 1 on it",
+      "text_lemmatized": "user arrive cabinet 3 see vase 1",
+      "hash": "e1e7e12c0a6306f73be20d1df858db97",
+      "created_at": "2026-08-31T16:50:40.374853+00:00",
+      "updated_at": "2026-08-31T16:50:40.374853+00:00"
+    },
+    "32abf185-e1dc-4ba1-ace6-6b86e820d8c3": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at cabinet 4 and saw a saltshaker 1 on it",
+      "text_lemmatized": "user arrive cabinet 4 see saltshaker 1",
+      "hash": "021a4728a35930fcaa4fbaa958785db3",
+      "created_at": "2026-08-31T16:50:45.476554+00:00",
+      "updated_at": "2026-08-31T16:50:45.476554+00:00",
+      "attributed_to": "user"
+    },
+    "e004eb1b-24d5-4143-98cf-561c94a35edd": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T16:50:50.863608+00:00",
+      "updated_at": "2026-08-31T16:50:50.863608+00:00",
+      "attributed_to": "user"
+    },
+    "6e7d2eaf-dd69-4385-9656-b160850c795e": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User opened cabinet 5 and found that it is empty",
+      "text_lemmatized": "user open cabinet 5 find",
+      "hash": "80aa82fa08c45050d0ed86e9f5d1d62a",
+      "created_at": "2026-08-31T16:50:56.041819+00:00",
+      "updated_at": "2026-08-31T16:50:56.041819+00:00",
+      "attributed_to": "user"
+    },
+    "aa6dc6f7-121c-49cf-a3d4-07555e2b2c03": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at cabinet 6, which is closed",
+      "text_lemmatized": "user arrive cabinet 6 close",
+      "hash": "426e0890ad3d4d00cb5ab1a465eadd3e",
+      "created_at": "2026-08-31T16:51:01.038847+00:00",
+      "updated_at": "2026-08-31T16:51:01.038847+00:00",
+      "attributed_to": "user"
+    },
+    "a78626c5-0cc6-4c62-881c-13228eb1cf61": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User opened cabinet 6 and found a glassbottle 2 and a vase 2 inside",
+      "text_lemmatized": "user open cabinet 6 find glassbottle 2 vase 2 inside",
+      "hash": "bbbbfe7c50d3fd6758fa37d0588df4ee",
+      "created_at": "2026-08-31T16:51:05.962482+00:00",
+      "updated_at": "2026-08-31T16:51:05.962482+00:00",
+      "attributed_to": "user"
+    },
+    "b36cbf82-5b17-4338-bed4-7c04aaf60f5a": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User moved the saltshaker 2 to cabinet 6, which is now open and contains a glassbottle 2, a vase 2, and the saltshaker 2",
+      "text_lemmatized": "user move saltshaker 2 cabinet 6 open contain glassbottle 2 vase 2 saltshaker 2",
+      "hash": "e90de4189d329ddb7debed33e45d0e48",
+      "created_at": "2026-08-31T16:51:11.259735+00:00",
+      "updated_at": "2026-08-31T16:51:11.259735+00:00",
+      "attributed_to": "user"
+    },
+    "df8d4647-5a6d-474d-ba58-2d5d8e022c1b": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User arrived at countertop 1 and observed that an apple 3, an apple 2, a creditcard 1, a peppershaker 2, a spatula 1, and a spoon 1 are on it",
+      "text_lemmatized": "user arrive countertop 1 observe apple 3 apple 2 creditcard 1 peppershaker 2 spatula 1 spoon 1",
+      "hash": "4f2e60cb8fafa60c4704a7aeb80b82a4",
+      "created_at": "2026-08-31T16:51:16.661911+00:00",
+      "updated_at": "2026-08-31T16:51:16.661911+00:00",
+      "attributed_to": "user"
+    },
+    "bd3126f7-5ef2-4045-9859-54b2470c51e5": {
+      "user_id": "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+      "data": "User picked up the apple 2 from countertop 1",
+      "text_lemmatized": "user pick apple 2 countertop 1",
+      "hash": "e051cf93678d5029347c9b941e426616",
+      "created_at": "2026-08-31T16:51:21.614782+00:00",
+      "updated_at": "2026-08-31T16:51:21.614782+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "a7569b1e-44ba-41fc-beb8-f8c46a29441a",
+    "1": "38cea31c-bee7-438c-bd55-719c5f90a668",
+    "2": "277d1a08-c609-428a-9cd7-a6ce749b05e5",
+    "3": "377e84e7-e389-41d0-8407-7c86e88ee981",
+    "4": "d2b347b3-63d0-492d-acbe-4f8b3d65c478",
+    "5": "0e246555-ac14-4073-b73a-fa647bd76b7e",
+    "6": "a484217e-4d9f-4d48-82b9-d6b30e0b1ade",
+    "7": "bd490520-5820-4950-8c4f-0192821310b2",
+    "8": "524797d4-9406-4d7f-98b0-d65ddccd05ae",
+    "9": "3ad2ba17-d17f-4d1f-bdf2-e2ede8ea2f14",
+    "10": "d87a15d8-e020-4f29-ad98-3ac5c80e9bd5",
+    "11": "52dcd127-a688-483e-beb0-802871a8cbaf",
+    "12": "87215d51-d6a0-4a62-9a8e-2f76cd5a4e57",
+    "13": "e7eaa9b6-cf5f-4327-a126-1f683d1ccdc1",
+    "14": "088ac0d3-5dbd-4543-b320-92a02f857226",
+    "15": "3aaec747-58fb-4543-ab10-7bcab0e285f7",
+    "16": "dcae312f-1899-451d-923c-2404e2bdb515",
+    "17": "49114a9f-95e3-4905-9260-f650b9d39317",
+    "18": "c8a4ff9e-a64a-4f0e-82ea-06a4f02dd8aa",
+    "19": "3f0ed3d4-ca53-4e86-8239-ccad5b74cc3c",
+    "20": "7ba267fc-f49e-4ed3-b14a-52222012ac3c",
+    "21": "91006b58-d62a-4962-855a-eabae9bbec24",
+    "22": "5cb42b9e-28e5-4f18-af4f-44c79923735e",
+    "23": "dde996ed-695b-4abe-8e2f-8bb5b4bdb44f",
+    "24": "1807966c-6b48-43f8-bbf6-6655a1f6571b",
+    "25": "26c92c52-0d83-4079-b0ad-d88aec9bec97",
+    "26": "a8427f6a-ff21-4ac8-8718-c590570aa246",
+    "27": "51e1b19c-fa63-4511-a7a2-d09ccfd456f7",
+    "28": "ac8e0473-3957-4835-b6a9-2775275d534b",
+    "29": "b76173f3-b898-4c8b-9d91-5a810107684d",
+    "30": "a442dc35-1e67-46f4-97fe-5c05166c8db0",
+    "31": "40bc1b26-79bf-4007-afad-4da9575ae70a",
+    "32": "32abf185-e1dc-4ba1-ace6-6b86e820d8c3",
+    "33": "e004eb1b-24d5-4143-98cf-561c94a35edd",
+    "34": "6e7d2eaf-dd69-4385-9656-b160850c795e",
+    "35": "aa6dc6f7-121c-49cf-a3d4-07555e2b2c03",
+    "36": "a78626c5-0cc6-4c62-881c-13228eb1cf61",
+    "37": "b36cbf82-5b17-4338-bed4-7c04aaf60f5a",
+    "38": "df8d4647-5a6d-474d-ba58-2d5d8e022c1b",
+    "39": "bd3126f7-5ef2-4045-9859-54b2470c51e5"
+  }
+}

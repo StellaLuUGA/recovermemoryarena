@@ -1,0 +1,79 @@
+{
+  "config_id": "AGENT_CONFIG_B_ADMISSIBLE_COMMANDS",
+  "config_sha256": "1555ae8d557106e563ea981c4fdf1c0b9937b9c900a3e520d80c33810386086e",
+  "CONFIG_B_20_HASH": "b56fa6534768489cf66d555cfc7dfd08aa4bef121d2d38f43498c2c13d248276",
+
+  "FINAL_PREFLIGHT_AGENT": "Llama-3.1-8B-Instruct + standard admissible-command prompt + entity-preserving exact parser",
+  "alfworld_version": "0.5.0", "repo_commit": "aaba687",
+  "environment": "AlfredTWEnv",
+  "split": "eval_out_of_distribution (= valid_unseen)",
+  "model": "llama-3.1-8b-instruct-local", "endpoint": "http://localhost:8123/v1",
+  "temperature": 0, "seed": 13,
+  "MAX_AGENT_STEPS": 50, "MAX_NEXT_SUBGOAL_STEPS": 20,
+
+  "authorized_changes_vs_config_a": [
+    "entity-preserving exact parser; all digit-stripped/fuzzy matching deleted",
+    "admissible_commands shown to the model at every step (standard TextWorld interface, not oracle information)"
+  ],
+  "everything_else_unchanged": true,
+  "game_set_disjoint_from_config_a": true,
+  "game_set_ranks_in_seed13_ordering": "30-49",
+
+  "smoke": {"parses": "3/3", "entity_numbers_preserved": "3/3",
+            "in_admissible_commands": "1/3",
+            "plumbing_verified": "prompt dump confirmed the admissible list is present; parser exact",
+            "note": "the 2/3 miss is model non-compliance; no configuration change was made in response"},
+
+  "NATIVE_CONTROLLED_REACHABILITY": "6 / 20",
+  "native_gate_verdict": "PASS (W_B >= 5)",
+  "NATIVE_FULL_TASK_SUCCESS": "0 / 20",
+  "native_max_rank_ge_2": "0 / 20",
+  "VALID_ACTION_RATE": 0.073,
+  "valid_actions": 73, "total_actions": 1000,
+  "DISTINCT_ACTIONS": {"mean": 1.65, "median": 2.0},
+  "LONGEST_REPEAT_STREAK": {"mean": 45.6, "median": 49.0},
+
+  "SUFFIX_NEXT_SUBGOAL_SUCCESS": "0 / 5",
+  "suffix_replay_rank_matches_native": "5 / 5",
+  "suffix_take_actions_issued": 0,
+  "suffix_invalid_actions": "99 / 100",
+
+  "HISTORY_TOKENS": {
+    "scope": "223 controlled states across 6 episodes, Llama-3.1-8B tokenizer",
+    "median": 469.0, "p75": 613.5, "p90": 693.8, "max": 977,
+    "first_controlled_state_only": {"median": 223.0, "p75": 234.8, "p90": 238.0, "max": 238},
+    "note": "DIAGNOSTIC ONLY - not a rejection criterion"
+  },
+
+  "config_a_aggregates_for_diagnosis_only": {
+    "disclaimer": "disjoint game sets; NOT an ablation; no statistical comparison claimed",
+    "valid_action_rate": {"A": 0.221, "B": 0.073},
+    "distinct_actions_mean": {"A": 2.6, "B": 1.65},
+    "longest_repeat_streak_mean": {"A": 35.95, "B": 45.6},
+    "W": {"A": 8, "B": 6},
+    "full_task_success": {"A": 0, "B": 0}
+  },
+
+  "ALFWORLD_CONFIG_B_PREFLIGHT": "FAIL_SUFFIX_COMPETENCE",
+  "READY_FOR_FORMAL_RECOVERMEM": "NO",
+  "decision": "ALFWorld CLOSED as a ReCoverMem main-table candidate. No Config C in this experiment line.",
+
+  "preserved_prior_result": {
+    "AGENT_CONFIG_A_MINIMAL": "FAIL_SUFFIX_COMPETENCE",
+    "native_controlled_reachability": "8 / 20",
+    "native_full_task_success": "0 / 20",
+    "suffix_next_subgoal_success": "0 / 5",
+    "artifacts": "competence/*, ALFWORLD_PREFLIGHT_REPORT.md, ALFWORLD_PREFLIGHT.json - unmodified"
+  },
+
+  "environment_gates_unaffected": {
+    "structural_30": "30 / 30 with K_USABLE >= 2",
+    "subgoal_validator": "PASS (upstream handcoded_expert check_subgoal_completion, CASE 2)",
+    "subgoal_validator_verification": "PASS",
+    "replay_gate": "9 / 9 (+ 5/5 re-confirmed in Config-B suffix replays)"
+  },
+
+  "not_run_by_design": ["Mem0", "B_mem", "B_rec", "R_mem", "R_rec", "scorer training",
+                        "paired MEMORY/RECOVERY collection", "AUROC", "CRC", "FS", "coverage",
+                        "Table 1", "Table 2"]
+}

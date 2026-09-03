@@ -1,0 +1,42 @@
+{
+  "docstore": {
+    "1ab37126-f8db-4fa2-8e2f-ff1628a45e9e": {
+      "data": "sink basins",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "2f18f4b3-7022-43d6-b0aa-1d6d0589b246"
+      ],
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868"
+    },
+    "f71304ff-4a18-4d44-a426-330fe2314c32": {
+      "data": "toilet paper hanger",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "2f18f4b3-7022-43d6-b0aa-1d6d0589b246"
+      ],
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868"
+    },
+    "69844d2f-0ee4-4e36-954c-73d1d232b881": {
+      "data": "towel holder",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "2f18f4b3-7022-43d6-b0aa-1d6d0589b246"
+      ],
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868"
+    },
+    "a044e528-aaa5-4f1f-9d65-8ca423bb9d02": {
+      "data": "August",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "572b49fd-0b4a-480b-bee5-0edbcda0ad7a"
+      ],
+      "user_id": "pick_and_place_simple-SoapBottle-None-Toilet-424__trial_T20190907_004321_405868"
+    }
+  },
+  "index_to_id": {
+    "0": "1ab37126-f8db-4fa2-8e2f-ff1628a45e9e",
+    "1": "f71304ff-4a18-4d44-a426-330fe2314c32",
+    "2": "69844d2f-0ee4-4e36-954c-73d1d232b881",
+    "3": "a044e528-aaa5-4f1f-9d65-8ca423bb9d02"
+  }
+}

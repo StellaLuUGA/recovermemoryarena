@@ -1,0 +1,2616 @@
+{
+ "amendment": "A1 -- pre-outcome compute-saving subset + question subsampling",
+ "written_at_utc": "2026-08-28T18:50:39Z",
+ "status": "written BEFORE any formal ReCoverMem outcome; final_test outcomes remain sealed",
+ "parent_split": {
+  "file": "FROZEN_SPLIT.json",
+  "split_hash": "25decf6c9afa2c3ddc8dc009a674e9c70def883146594b8d879593f7a6417e1d",
+  "sizes": {
+   "predictor_train": 24,
+   "calibration": 24,
+   "final_test": 24
+  },
+  "retained": true
+ },
+ "persona_subsets": {
+  "rule": "prefix of the ALREADY-FROZEN seed-13 permutation order, not a re-sample",
+  "ordering_reproduced_from": "numpy default_rng(13).permutation over the 200 sorted eligible persona ids; slices [0:24]/[24:48]/[48:72] reproduce the parent split exactly (asserted)",
+  "predictor_train": [
+   570,
+   601,
+   292,
+   486,
+   208,
+   528,
+   294,
+   370,
+   59,
+   280,
+   371,
+   687,
+   425,
+   70,
+   377,
+   613
+  ],
+  "calibration": [
+   893,
+   883,
+   548,
+   110,
+   692,
+   55,
+   23,
+   307,
+   296,
+   408,
+   974,
+   365,
+   549,
+   985,
+   244,
+   445,
+   902,
+   583,
+   713,
+   254
+  ],
+  "final_test": [
+   901,
+   265,
+   259,
+   995,
+   72,
+   235,
+   137,
+   737,
+   741,
+   76,
+   521,
+   604,
+   199,
+   332,
+   277,
+   716,
+   721,
+   351,
+   184,
+   527,
+   816,
+   209,
+   213,
+   800
+  ],
+  "sizes": {
+   "predictor_train": 16,
+   "calibration": 20,
+   "final_test": 24
+  },
+  "total_personas": 60,
+  "n_cal_note": "n_cal = 20 retained so the marginal-CRC floor 1/(n+1) = 0.0476 <= alpha = .05 stays feasible"
+ },
+ "question_subsampling": {
+  "target_per_persona": 12,
+  "rule": "deterministic stratified sample over the released pref_type, seed = 13*10^6 + persona_id, largest-remainder quotas, ids sorted within each stratum",
+  "applied_after": "the already-frozen distance_from_related_snippet_to_query_128k > 0 filter",
+  "fallback": "personas with <= 12 eligible questions use all of them",
+  "personas_below_12": [
+   [
+    296,
+    10
+   ],
+   [
+    259,
+    11
+   ],
+   [
+    332,
+    11
+   ]
+  ],
+  "total_controlled_decisions": 716,
+  "identical_questions_for_both_routes": true
+ },
+ "weighting": {
+  "unit": "persona",
+  "rule": "average FS / coverage over a persona's selected decisions first, then average equally across personas"
+ },
+ "unchanged": [
+  "PersonaMem-v2 128K text MCQ setting",
+  "history construction",
+  "Mem0 write semantics",
+  "chunking (4096-token write chunks)",
+  "B_mem = B_rec = 2048",
+  "gamma = 0.5",
+  "feature schema",
+  "scorer family",
+  "CRC implementation",
+  "released option shuffle",
+  "PYTHONHASHSEED=13",
+  "final_test 24-persona membership"
+ ],
+ "documented_deviation": {
+  "item": "B_out",
+  "requested": 256,
+  "used": 1024,
+  "reason": "B_out=256 is the value the smoke proved defective: it truncates the released MCQ prompt's reasoning before 'Final Answer: [Letter]', so extract_final_answer returned nothing on 116 of 138 calls. Measured need is 270/350/718 tokens (min/median/max) over 10 held-out predictor_train queries. Retaining 256 would make R_mem and R_rec ~0 for a truncation reason rather than a memory reason. This is an infrastructure correction, not a scientific choice.",
+  "budget_invariance": "recomputed: B_avail Q0.05 30,731 -> B_cap 16,384 (unchanged); B_host 2,048 is derived from Mem0 evidence size and is independent of B_out; B_mem = B_rec = 2,048 unchanged",
+  "evidence_file": "preflight/v2_128k_budget_audit.json -> budget_invariance_under_B_out_correction"
+ },
+ "selected_questions": {
+  "predictor_train": {
+   "570": {
+    "persona_id": 570,
+    "eligible_question_count": 24,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_2a9f73b15212b73d",
+     "q_457d3aa3ee0d7eb8",
+     "q_469f902fb0f7e095",
+     "q_49d32b16ae1f873f",
+     "q_4b37bbae511a66d1",
+     "q_62464800f3ebd752",
+     "q_b3f14dd3aeacdac6",
+     "q_c8236577e3adc26a",
+     "q_d2b73ba93ea71e71",
+     "q_d706186cb8f6da2b",
+     "q_e57dba60c2c1efa5",
+     "q_f9c1da2bacef2c18"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "stereotypical_pref": 1,
+     "ask_to_forget": 3,
+     "anti_stereotypical_pref": 1,
+     "health_and_medical_conditions": 2,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "translation": 3,
+     "professional_email": 1,
+     "professional_writing": 3,
+     "knowledge_query": 1,
+     "personal_email": 1,
+     "creative_writing": 2,
+     "social_media_post": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "d2d51ac4a53ac08d"
+   },
+   "601": {
+    "persona_id": 601,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_0526ae3d6d687f4f",
+     "q_204648b08fcc9860",
+     "q_4d9a9937bb1d14b9",
+     "q_58c42612d2badb2b",
+     "q_6b8740d67d2e17e5",
+     "q_7477abb04b31db35",
+     "q_79775a1e20ac5e70",
+     "q_818c5cf5d12c4ca2",
+     "q_9b244d62c1712a68",
+     "q_9b57d2b6019ead94",
+     "q_e8050f373d3bb5cd",
+     "q_ec73997d60bae437"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 2,
+     "stereotypical_pref": 1,
+     "therapy_background": 4,
+     "health_and_medical_conditions": 2,
+     "ask_to_forget": 1,
+     "neutral_preferences": 2
+    },
+    "conversation_scenario": {
+     "knowledge_query": 2,
+     "translation": 1,
+     "professional_email": 4,
+     "trouble_consult": 3,
+     "chat_message": 2
+    },
+    "who": {
+     "self": 9,
+     "others": 3
+    },
+    "question_selection_hash": "187597ee98879f5e"
+   },
+   "292": {
+    "persona_id": 292,
+    "eligible_question_count": 13,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_009c09868e9b9e55",
+     "q_0a9578a50d0c4b11",
+     "q_1b444c7884eb2a2d",
+     "q_50d6ab39ac52e32f",
+     "q_7818e4764179382d",
+     "q_98a9847bc93d8059",
+     "q_a92f7f4dccf0b4dc",
+     "q_afc24413a712e7e6",
+     "q_e6283e381428e5c5",
+     "q_ece99a0e9e8ccdd7",
+     "q_f8531d3ef931ecbb",
+     "q_fcfa71945e7570be"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 4,
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 4,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "translation": 2,
+     "trouble_consult": 3,
+     "knowledge_query": 1,
+     "social_media_post": 2,
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "personal_email": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "1846bcc03251291b"
+   },
+   "486": {
+    "persona_id": 486,
+    "eligible_question_count": 25,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_02797b0bc1137778",
+     "q_2ba40eb21e0f934f",
+     "q_2cf246c8a7daa629",
+     "q_366c4edacd9f78fc",
+     "q_387970b87f99d54d",
+     "q_5a6ef9ee5fe9f109",
+     "q_961fb5acef2c3514",
+     "q_a2615efbb00c8c8d",
+     "q_c2f70fd43b73da37",
+     "q_c34bd7d0c33515fc",
+     "q_e2b1e0c3b769c955",
+     "q_ff7c3473ef9f36a6"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 3,
+     "ask_to_forget": 4,
+     "health_and_medical_conditions": 2,
+     "therapy_background": 2,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "creative_writing": 1,
+     "knowledge_query": 3,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 2,
+     "professional_email": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "b974efa77aeb9fd1"
+   },
+   "208": {
+    "persona_id": 208,
+    "eligible_question_count": 16,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_05869db6b46e467d",
+     "q_157dde4893f02b32",
+     "q_1dcd1f9f40ca1370",
+     "q_24fb98b19755b742",
+     "q_2bb36edd4eba13ca",
+     "q_4e82f9d62b6be1f3",
+     "q_6ee9d983322dd4db",
+     "q_9ff76a30109dd857",
+     "q_ab963261f316b443",
+     "q_c055ac74b0257866",
+     "q_cf490c2b37cbf017",
+     "q_fce8e80b811cb898"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 2,
+     "ask_to_forget": 3,
+     "neutral_preferences": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "trouble_consult": 3,
+     "translation": 2,
+     "professional_email": 1,
+     "professional_writing": 1,
+     "personal_email": 2,
+     "social_media_post": 2,
+     "chat_message": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "ae5634fca5f92921"
+   },
+   "528": {
+    "persona_id": 528,
+    "eligible_question_count": 26,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_18aba18656052ab5",
+     "q_2c0d1dc627326128",
+     "q_2eda2bdde368afb5",
+     "q_3a2716391b75f56d",
+     "q_63a462cd0a0a188f",
+     "q_7bf72d30717d83e1",
+     "q_bcea15332b1a3863",
+     "q_bf52d4264027558f",
+     "q_c226a4e98818990b",
+     "q_c440e794c885035d",
+     "q_cbd3835e33f3ebb6",
+     "q_e196efe94cdae213"
+    ],
+    "pref_type": {
+     "therapy_background": 1,
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 3,
+     "ask_to_forget": 2,
+     "anti_stereotypical_pref": 2,
+     "stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "creative_writing": 3,
+     "knowledge_query": 1,
+     "personal_email": 1,
+     "translation": 3,
+     "trouble_consult": 3,
+     "chat_message": 1
+    },
+    "who": {
+     "others": 2,
+     "self": 10
+    },
+    "question_selection_hash": "9f7e7fb8efd1c412"
+   },
+   "294": {
+    "persona_id": 294,
+    "eligible_question_count": 13,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_04987ad49314f784",
+     "q_06d9dd9264202bc8",
+     "q_0cf7c15346f5c719",
+     "q_2c32fa9129864b9b",
+     "q_3c1e147f4dabf25c",
+     "q_44a4bd2f75792c5a",
+     "q_4d27a9dff0105d2f",
+     "q_532b5122e6fd9c28",
+     "q_64894ee5673aac64",
+     "q_a4ac4c5c27689d3d",
+     "q_b9323363b352ad8b",
+     "q_c0efeb16fd4a7f60"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 4,
+     "anti_stereotypical_pref": 4,
+     "health_and_medical_conditions": 1,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "creative_writing": 4,
+     "chat_message": 1,
+     "knowledge_query": 3,
+     "professional_writing": 2,
+     "translation": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "b698b9444780b542"
+   },
+   "370": {
+    "persona_id": 370,
+    "eligible_question_count": 20,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1001c67a4722de3b",
+     "q_2d8c6a755cf54852",
+     "q_2e58c2df95c2b6d4",
+     "q_3795cc397ae3c7a5",
+     "q_395c4d1178692e58",
+     "q_59ed30b40543589f",
+     "q_8b3e72f4b89b479b",
+     "q_96eddfed33f9314f",
+     "q_a26e5e4d15872baa",
+     "q_b8f153be9776ab8f",
+     "q_cff2e6086ff64afb",
+     "q_e8908ed2692681e9"
+    ],
+    "pref_type": {
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 2,
+     "therapy_background": 1,
+     "neutral_preferences": 1,
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "trouble_consult": 1,
+     "knowledge_query": 1,
+     "creative_writing": 2,
+     "translation": 2,
+     "social_media_post": 3,
+     "professional_writing": 2,
+     "chat_message": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "18a241327208ea99"
+   },
+   "59": {
+    "persona_id": 59,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_07c48523e4c9b724",
+     "q_170fcdec61f10c21",
+     "q_2464befbe99c8650",
+     "q_2ade5ad7d996538f",
+     "q_37c4551d0a00fd5e",
+     "q_38801d41b2c3d369",
+     "q_46d1fcf5de06dff8",
+     "q_83657fbd364eee30",
+     "q_8d0742db9667b9b8",
+     "q_976852305cc9b5b6",
+     "q_c6cd7b7629a0d106",
+     "q_e6c77056cd74b2e9"
+    ],
+    "pref_type": {
+     "ask_to_forget": 4,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 3,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "creative_writing": 4,
+     "social_media_post": 3,
+     "knowledge_query": 2,
+     "chat_message": 2,
+     "professional_writing": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "78fc911cbd3d5c31"
+   },
+   "280": {
+    "persona_id": 280,
+    "eligible_question_count": 16,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_043e868cf8228dc0",
+     "q_23b7a8d39948bf45",
+     "q_3df984270b0913ab",
+     "q_4aab40624cebde66",
+     "q_54f26e1a5a3a09cd",
+     "q_5ca4d8e561760373",
+     "q_748e2c141aaec28c",
+     "q_8ede7f7f1ac56685",
+     "q_917431ae1558696d",
+     "q_babd8263fe8699d7",
+     "q_dcf33a380b417b71",
+     "q_f8b6dd6c172c50ab"
+    ],
+    "pref_type": {
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 3,
+     "stereotypical_pref": 1,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "professional_email": 3,
+     "knowledge_query": 3,
+     "professional_writing": 3,
+     "social_media_post": 1,
+     "translation": 1,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "e3f4335807143504"
+   },
+   "371": {
+    "persona_id": 371,
+    "eligible_question_count": 19,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_23cbc8c373d4c7b3",
+     "q_2bfe72362e5d8bb6",
+     "q_4548677d4a9c8df8",
+     "q_559743b3e56bc03d",
+     "q_5654068da4008959",
+     "q_6c46c9792b613165",
+     "q_6d8c49958bcd1f79",
+     "q_6ddd6164a60201fb",
+     "q_81d466f21ef5aad7",
+     "q_8a39b41befaecb27",
+     "q_b1a230cb0fc129f5",
+     "q_fedbd58ba5db49f3"
+    ],
+    "pref_type": {
+     "ask_to_forget": 2,
+     "stereotypical_pref": 4,
+     "anti_stereotypical_pref": 2,
+     "neutral_preferences": 3,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "professional_email": 1,
+     "trouble_consult": 1,
+     "chat_message": 1,
+     "knowledge_query": 3,
+     "translation": 1,
+     "personal_email": 1,
+     "social_media_post": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "b6d9e0e4e2ec8481"
+   },
+   "687": {
+    "persona_id": 687,
+    "eligible_question_count": 21,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_04fffb164bd3aa68",
+     "q_09bee764c1fb5ad3",
+     "q_12a158f4288b6f57",
+     "q_35408921351821c8",
+     "q_37c0e942a3119d93",
+     "q_3a2c7fa4e8942f27",
+     "q_57a3983ccaba88b6",
+     "q_5ec008f13831a082",
+     "q_6a53425731116e6e",
+     "q_7620622152f4dfa9",
+     "q_8cb7767eaf16faf2",
+     "q_ba0bd5f21251947f"
+    ],
+    "pref_type": {
+     "health_and_medical_conditions": 1,
+     "anti_stereotypical_pref": 2,
+     "ask_to_forget": 3,
+     "neutral_preferences": 3,
+     "stereotypical_pref": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "chat_message": 3,
+     "knowledge_query": 5,
+     "social_media_post": 1,
+     "personal_email": 1,
+     "professional_email": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "fae9a803181a039a"
+   },
+   "425": {
+    "persona_id": 425,
+    "eligible_question_count": 27,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_090480bbc1d864e5",
+     "q_26c5afb784e7b1e7",
+     "q_32492eeb5c48b5bb",
+     "q_33dd24d235eab001",
+     "q_3cb631966e6c2374",
+     "q_6505fab2e78e568f",
+     "q_80da546418a22798",
+     "q_a8f7237d1d4b2fc4",
+     "q_c29377c3f6942d4c",
+     "q_ca5fa3b682251f07",
+     "q_efca2d669bee18e1",
+     "q_f0b4d8e7612c32cc"
+    ],
+    "pref_type": {
+     "neutral_preferences": 1,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 3,
+     "therapy_background": 1,
+     "ask_to_forget": 3,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "professional_email": 1,
+     "professional_writing": 3,
+     "translation": 2,
+     "trouble_consult": 3,
+     "knowledge_query": 1,
+     "chat_message": 1,
+     "personal_email": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "047ed24933578462"
+   },
+   "70": {
+    "persona_id": 70,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_316f05a74c4f15ec",
+     "q_3e5bcd849519ab00",
+     "q_4478abca382cc5ce",
+     "q_52655ba4e58f2442",
+     "q_59edd29c21a0efc7",
+     "q_6cca499f23c5bae5",
+     "q_787dc5720a3a5731",
+     "q_8a885c19d26c24e6",
+     "q_9631b91a5f6dcf16",
+     "q_9a34344b448249a2",
+     "q_b78bb96016db8561",
+     "q_e0f0e5dbdf184548"
+    ],
+    "pref_type": {
+     "ask_to_forget": 3,
+     "therapy_background": 2,
+     "anti_stereotypical_pref": 2,
+     "stereotypical_pref": 2,
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 2,
+     "professional_writing": 3,
+     "knowledge_query": 2,
+     "chat_message": 1,
+     "professional_email": 2,
+     "social_media_post": 2
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "d11207fff176e044"
+   },
+   "377": {
+    "persona_id": 377,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_2fe9081d044bf9c9",
+     "q_32272e351545bd98",
+     "q_3a52e68c55a57277",
+     "q_600bc5a518bd9c9d",
+     "q_6b0c2eff6ed16a58",
+     "q_7062bbe2e81ea4c9",
+     "q_73b4137be60ba6ca",
+     "q_74ea9930b62a42d9",
+     "q_8dbeb33f674b4849",
+     "q_b57de7fdbe676985",
+     "q_b61089f7e677be12",
+     "q_dd42ca76dfe00b86"
+    ],
+    "pref_type": {
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 2,
+     "ask_to_forget": 5,
+     "neutral_preferences": 2,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "social_media_post": 2,
+     "professional_writing": 1,
+     "professional_email": 4,
+     "chat_message": 2,
+     "personal_email": 1,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "7d95491d413ffa3f"
+   },
+   "613": {
+    "persona_id": 613,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_0ab92ea9eb42bf94",
+     "q_369262144b3e5bf3",
+     "q_400976ec6f93d144",
+     "q_4061825eff8ddcd9",
+     "q_81e24a45fe416569",
+     "q_855e6f013a249599",
+     "q_939dfe08c6d7037b",
+     "q_bc03bd904d2d4b51",
+     "q_caecfef10597375a",
+     "q_cd965c188db9a7f1",
+     "q_dbb1efb8a3cf7691",
+     "q_f6ba2292f3082b5d"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 3,
+     "therapy_background": 3,
+     "anti_stereotypical_pref": 1,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "knowledge_query": 2,
+     "translation": 2,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "personal_email": 1,
+     "trouble_consult": 2
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "2a5242a5cd02c911"
+   }
+  },
+  "calibration": {
+   "893": {
+    "persona_id": 893,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_037dca56633066f8",
+     "q_0a642f20089546dc",
+     "q_15a8a27df87394d8",
+     "q_5837b31b653c397d",
+     "q_8319126d07cbd7c7",
+     "q_90960975cb2606c9",
+     "q_91bc6c6f45ee09b5",
+     "q_c5300e381377c523",
+     "q_ce41ae8b7508ad3e",
+     "q_cf86641fbce55284",
+     "q_dd376fdcfae42d91",
+     "q_e66945c5fd8ea3a7"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 3,
+     "therapy_background": 1,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 4
+    },
+    "conversation_scenario": {
+     "chat_message": 3,
+     "translation": 2,
+     "personal_email": 1,
+     "creative_writing": 2,
+     "trouble_consult": 2,
+     "professional_email": 1,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "a9e9f25e80f9bc5c"
+   },
+   "883": {
+    "persona_id": 883,
+    "eligible_question_count": 24,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1208d50076151774",
+     "q_25ce5fbe803f2fbf",
+     "q_42be93b3719e8333",
+     "q_48d9235b530c90af",
+     "q_52de3b4bf1d9043b",
+     "q_92f67c6cefef795b",
+     "q_a24cc307dd19de01",
+     "q_abfab2342a05dc70",
+     "q_c1d657b38a2b4151",
+     "q_c31fb026eaed24a3",
+     "q_da302aeb9e500153",
+     "q_fc9a3dc9855db12f"
+    ],
+    "pref_type": {
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 3,
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 2
+    },
+    "conversation_scenario": {
+     "professional_email": 2,
+     "personal_email": 3,
+     "translation": 2,
+     "knowledge_query": 2,
+     "trouble_consult": 1,
+     "chat_message": 1,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "ef4d829e54cb36bf"
+   },
+   "548": {
+    "persona_id": 548,
+    "eligible_question_count": 21,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1ae1a7aaa0b4c9b3",
+     "q_3a24ddd45581d1a1",
+     "q_3f28146a20f2b305",
+     "q_95f31ef538bd30d5",
+     "q_97ca9a08951b5814",
+     "q_a91f9d2b8baecfdd",
+     "q_b9eee7a63192403f",
+     "q_bf23f09e0513db79",
+     "q_bf6ab13bd1928867",
+     "q_bf87014100428a28",
+     "q_c61ae9bd1f648409",
+     "q_c8499164e35bc04b"
+    ],
+    "pref_type": {
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 4,
+     "anti_stereotypical_pref": 2,
+     "ask_to_forget": 3,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "professional_writing": 2,
+     "trouble_consult": 2,
+     "personal_email": 1,
+     "translation": 1,
+     "chat_message": 2,
+     "knowledge_query": 2,
+     "social_media_post": 1,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "73cd15743cdf2489"
+   },
+   "110": {
+    "persona_id": 110,
+    "eligible_question_count": 18,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_20220cbdce6f24a2",
+     "q_324864a11557b496",
+     "q_3786fd69df6f229b",
+     "q_423c147185829073",
+     "q_5b4e4e53c1dabe72",
+     "q_6a8596ef967a0a47",
+     "q_6d5ff7aa806636cf",
+     "q_7a523527ea1466e4",
+     "q_97185194a789b400",
+     "q_c5917679185e8d2e",
+     "q_cc07060655df7165",
+     "q_d896c0460d97befb"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 1,
+     "ask_to_forget": 4,
+     "anti_stereotypical_pref": 1,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "social_media_post": 2,
+     "professional_email": 1,
+     "translation": 1,
+     "personal_email": 3,
+     "knowledge_query": 1,
+     "trouble_consult": 2,
+     "chat_message": 2
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "22e551ad82acfd75"
+   },
+   "692": {
+    "persona_id": 692,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_06f801232d22ecff",
+     "q_093e1747aa5976cd",
+     "q_1e05e24a72827d81",
+     "q_277529a4e21b80f9",
+     "q_2fdcc3e0ebb932ed",
+     "q_4161a16cdf057e03",
+     "q_809bd1683c7ade47",
+     "q_8b4f8872264410b7",
+     "q_bc66ef744f5a9589",
+     "q_c3afdfc2382915d1",
+     "q_c6b7d88d79ad65cf",
+     "q_cc795582054d3c35"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "stereotypical_pref": 2,
+     "health_and_medical_conditions": 3,
+     "anti_stereotypical_pref": 1,
+     "therapy_background": 3
+    },
+    "conversation_scenario": {
+     "social_media_post": 2,
+     "professional_writing": 3,
+     "knowledge_query": 1,
+     "personal_email": 2,
+     "professional_email": 2,
+     "creative_writing": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "7c4e1ae2bf9c069b"
+   },
+   "55": {
+    "persona_id": 55,
+    "eligible_question_count": 31,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_05956399248bd6df",
+     "q_1455cd77c7733993",
+     "q_238459d4fc68ef4b",
+     "q_28f65d3dca244757",
+     "q_4732412ebdbb10c5",
+     "q_7c946d542d09ef9c",
+     "q_a755fa56aa6f88e8",
+     "q_b56ba571de811df2",
+     "q_c1d443b4b05a3c3c",
+     "q_eae3b374f75315ed",
+     "q_f77427db2e2b1ad3",
+     "q_f97377f6373c8d59"
+    ],
+    "pref_type": {
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 2,
+     "neutral_preferences": 1,
+     "stereotypical_pref": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "translation": 2,
+     "personal_email": 1,
+     "knowledge_query": 2,
+     "creative_writing": 1,
+     "social_media_post": 1,
+     "professional_email": 3,
+     "chat_message": 2
+    },
+    "who": {
+     "self": 9,
+     "others": 3
+    },
+    "question_selection_hash": "29e71d225354f029"
+   },
+   "23": {
+    "persona_id": 23,
+    "eligible_question_count": 27,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_19a44ef442e72ad3",
+     "q_2f840f35ba6a5a96",
+     "q_334543c1e7d5ba92",
+     "q_632d6a7c14851611",
+     "q_75edcdad491f914e",
+     "q_82dfd12fa48ce6f0",
+     "q_906d940daca5c55c",
+     "q_ae1ebc902f45deb2",
+     "q_e27e1e58b4e6562c",
+     "q_f05824522bd4d52b",
+     "q_f1dccb85478a5a03",
+     "q_f4c65a7dba4e57cc"
+    ],
+    "pref_type": {
+     "ask_to_forget": 2,
+     "neutral_preferences": 3,
+     "therapy_background": 2,
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 3,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "chat_message": 1,
+     "professional_writing": 3,
+     "trouble_consult": 4,
+     "personal_email": 1,
+     "knowledge_query": 2,
+     "translation": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "36257eb0f0800013"
+   },
+   "307": {
+    "persona_id": 307,
+    "eligible_question_count": 21,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_00a5addeb38ff4b7",
+     "q_1321529d2ee7c940",
+     "q_2220322ef0285168",
+     "q_25699a4e067e42fe",
+     "q_3e69c480ec6b04dd",
+     "q_60dfecfa0b3d7c77",
+     "q_6cbf1902d03a34dc",
+     "q_79c58ccdfb2746f5",
+     "q_79f641a81f293d24",
+     "q_9b62dc89d2193bdf",
+     "q_e4a40339be4277ab",
+     "q_faea0c96b2ebcfc6"
+    ],
+    "pref_type": {
+     "therapy_background": 2,
+     "anti_stereotypical_pref": 3,
+     "ask_to_forget": 3,
+     "neutral_preferences": 3,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "translation": 2,
+     "social_media_post": 2,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "professional_email": 1,
+     "knowledge_query": 2,
+     "creative_writing": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "others": 2,
+     "self": 10
+    },
+    "question_selection_hash": "9306744dde2e7a00"
+   },
+   "296": {
+    "persona_id": 296,
+    "eligible_question_count": 10,
+    "selected_question_count": 10,
+    "selection_mode": "all_eligible",
+    "selected_question_ids": [
+     "q_5b69a2a9220b3fc3",
+     "q_6f4725b454ef29b7",
+     "q_78041b53b82aa503",
+     "q_93542beabf284bd7",
+     "q_a83107f37f4b21f4",
+     "q_b15ea3f9ee4ea3f2",
+     "q_c148158c62f255e2",
+     "q_d4164c84f64f812a",
+     "q_db3534978d2a3b6a",
+     "q_def974f7c2243bc0"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 3,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 1,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "knowledge_query": 2,
+     "personal_email": 1,
+     "chat_message": 2,
+     "trouble_consult": 1,
+     "social_media_post": 1,
+     "professional_email": 1,
+     "professional_writing": 1,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 8,
+     "others": 2
+    },
+    "question_selection_hash": "3fa3f30287d02750"
+   },
+   "408": {
+    "persona_id": 408,
+    "eligible_question_count": 27,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_061fde4c586f714a",
+     "q_0833a9a69104f52f",
+     "q_1e4601e40edff5f8",
+     "q_205247d14de40e6a",
+     "q_46d871aeaf437039",
+     "q_54fd4a8dc965a470",
+     "q_75fb19df1dc10986",
+     "q_79103402d81bc9c7",
+     "q_edd8c223e853601a",
+     "q_f26906500b25de83",
+     "q_f9e5af43fd6be6fa",
+     "q_fb304321fd38d7de"
+    ],
+    "pref_type": {
+     "therapy_background": 3,
+     "stereotypical_pref": 2,
+     "neutral_preferences": 3,
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 1
+    },
+    "conversation_scenario": {
+     "professional_writing": 2,
+     "professional_email": 2,
+     "knowledge_query": 3,
+     "translation": 1,
+     "social_media_post": 1,
+     "trouble_consult": 1,
+     "chat_message": 1,
+     "personal_email": 1
+    },
+    "who": {
+     "others": 3,
+     "self": 9
+    },
+    "question_selection_hash": "712b458d23249ebe"
+   },
+   "974": {
+    "persona_id": 974,
+    "eligible_question_count": 18,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_10602a78d456f4a8",
+     "q_225270566a886811",
+     "q_26194bdc5cc56409",
+     "q_533b65da93f5667b",
+     "q_69c9e049000516ec",
+     "q_6d65270691a76581",
+     "q_754e401e8330d08f",
+     "q_91f408aa9042c358",
+     "q_9db44eb36c8e8e9d",
+     "q_9e61912327d8c4c0",
+     "q_a085bbbaf6e4992f",
+     "q_ad9b33a0031053f2"
+    ],
+    "pref_type": {
+     "therapy_background": 3,
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 3,
+     "anti_stereotypical_pref": 3,
+     "stereotypical_pref": 1,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 1,
+     "translation": 2,
+     "knowledge_query": 2,
+     "professional_email": 2,
+     "trouble_consult": 1,
+     "professional_writing": 2,
+     "social_media_post": 1,
+     "personal_email": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "3c2f9b21ab271ded"
+   },
+   "365": {
+    "persona_id": 365,
+    "eligible_question_count": 24,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_11688040389fe427",
+     "q_27e133fdbc21be3d",
+     "q_363e4c68a0ca460b",
+     "q_3871347b172a0648",
+     "q_3e0396da90127034",
+     "q_77fff5ee07396b95",
+     "q_917c40e922dc80d1",
+     "q_9c6ba571ef57a0ea",
+     "q_b1353cb88b4011b7",
+     "q_de14e8809efe9368",
+     "q_f4b2c1a07720e804",
+     "q_f5ff5d3a1dfb4266"
+    ],
+    "pref_type": {
+     "ask_to_forget": 4,
+     "neutral_preferences": 2,
+     "therapy_background": 2,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "social_media_post": 2,
+     "professional_email": 3,
+     "chat_message": 2,
+     "creative_writing": 2,
+     "personal_email": 1,
+     "trouble_consult": 1,
+     "professional_writing": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "73d6266b23190e35"
+   },
+   "549": {
+    "persona_id": 549,
+    "eligible_question_count": 26,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_23396adcbd7415e0",
+     "q_28781ac4759b352f",
+     "q_2b3f53f7f3f20735",
+     "q_31cf308088b528a8",
+     "q_65d1b9b628c98880",
+     "q_850992f9288aa046",
+     "q_86e30858767de2ae",
+     "q_902d695bc013354b",
+     "q_d104522ddd503ecb",
+     "q_daba4b774e27f0f9",
+     "q_f3c037b0e41160f7",
+     "q_f51d466a7dae5ba4"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 3,
+     "neutral_preferences": 4,
+     "health_and_medical_conditions": 1,
+     "therapy_background": 3,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "professional_email": 2,
+     "knowledge_query": 4,
+     "trouble_consult": 3,
+     "creative_writing": 1,
+     "social_media_post": 1,
+     "chat_message": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "6b821b73790b6215"
+   },
+   "985": {
+    "persona_id": 985,
+    "eligible_question_count": 26,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1e8a89a2919a3309",
+     "q_315f66bc550165bd",
+     "q_79dee713a310ebda",
+     "q_81255005aadf3997",
+     "q_8bfc93b52b3e81f3",
+     "q_8c476cd174065efd",
+     "q_b85a01dd54ea6721",
+     "q_ba1c83977301891c",
+     "q_c748a1bf63abde9e",
+     "q_c96bf0614e4d11ae",
+     "q_d3cf7a9c16985f11",
+     "q_f2d79f2a9aa45852"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 3,
+     "ask_to_forget": 3,
+     "therapy_background": 2,
+     "stereotypical_pref": 2,
+     "health_and_medical_conditions": 1,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 2,
+     "professional_email": 3,
+     "trouble_consult": 1,
+     "knowledge_query": 4,
+     "personal_email": 1,
+     "social_media_post": 1
+    },
+    "who": {
+     "others": 3,
+     "self": 9
+    },
+    "question_selection_hash": "b49bcb8f90d282e7"
+   },
+   "244": {
+    "persona_id": 244,
+    "eligible_question_count": 20,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_20c8f180f2f7e5c0",
+     "q_48dbdc2156fe2e9b",
+     "q_702eb24c5621751e",
+     "q_705a2a1651fd2510",
+     "q_7d1786688d579aa0",
+     "q_7d25d824b0c5254b",
+     "q_81a9886aa080b69a",
+     "q_b4ecacccbc9494f6",
+     "q_b9892bbc908cc25b",
+     "q_e15d27ab382defb6",
+     "q_eb98ea58597a1d91",
+     "q_fd1c891365045d53"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "stereotypical_pref": 1,
+     "ask_to_forget": 4,
+     "therapy_background": 1,
+     "health_and_medical_conditions": 2,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "knowledge_query": 3,
+     "chat_message": 1,
+     "social_media_post": 2,
+     "personal_email": 1,
+     "professional_email": 2,
+     "trouble_consult": 1,
+     "creative_writing": 1,
+     "translation": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "0dcb12dad51fbdb0"
+   },
+   "445": {
+    "persona_id": 445,
+    "eligible_question_count": 22,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_06edb4437675b065",
+     "q_0b85a31db408024b",
+     "q_126775f16749b4f5",
+     "q_132da0ca682bcc29",
+     "q_236f8882897bab44",
+     "q_320e175fd418e793",
+     "q_4f965eef9bc720a1",
+     "q_60dba3b12a4216af",
+     "q_9002221224f0094e",
+     "q_90a6b020c5ba4573",
+     "q_abb6b106adfd41dd",
+     "q_edef55add50e2ca0"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 3,
+     "neutral_preferences": 3,
+     "therapy_background": 2,
+     "stereotypical_pref": 3,
+     "ask_to_forget": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 1,
+     "social_media_post": 1,
+     "translation": 3,
+     "knowledge_query": 3,
+     "professional_writing": 1,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "a53ba729570f12ba"
+   },
+   "902": {
+    "persona_id": 902,
+    "eligible_question_count": 19,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_184f200824aba0e3",
+     "q_37da5eaabe60c56a",
+     "q_5210249b1360987b",
+     "q_68ca2621cb417fb3",
+     "q_6be28f0442703709",
+     "q_770f813d0ae8d496",
+     "q_aceb010962df6f7a",
+     "q_b3dafa9f3fda2759",
+     "q_bd22b89f4a0bf3e8",
+     "q_db1340b512f19b11",
+     "q_e2050b0af2f9f329",
+     "q_f1a15047d4a146df"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "therapy_background": 2,
+     "ask_to_forget": 4,
+     "stereotypical_pref": 2,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 2,
+     "professional_email": 1,
+     "translation": 1,
+     "knowledge_query": 2,
+     "social_media_post": 1,
+     "personal_email": 1,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "1eb233f557eacdd9"
+   },
+   "583": {
+    "persona_id": 583,
+    "eligible_question_count": 27,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_303a8e444ef8815d",
+     "q_3fd4fe0499bd6085",
+     "q_403efd5f6fc9c8c3",
+     "q_4728ed2f63ba07a8",
+     "q_7edfafd25beccaa8",
+     "q_99b8dbe6d9f9c871",
+     "q_a7ac4db0ef693874",
+     "q_d4ddc48304bbca30",
+     "q_de287d833d8a2b0e",
+     "q_dec2d62fec98ebfe",
+     "q_e2283e5c324c3e75",
+     "q_fc441e1b0b26e9d6"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 4,
+     "ask_to_forget": 2,
+     "stereotypical_pref": 2,
+     "neutral_preferences": 2,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "trouble_consult": 2,
+     "professional_writing": 3,
+     "social_media_post": 1,
+     "translation": 1,
+     "knowledge_query": 2,
+     "professional_email": 2,
+     "personal_email": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "1d7bcf4d2826ad5a"
+   },
+   "713": {
+    "persona_id": 713,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_05523eb2200d24f1",
+     "q_0f96a8d3a75bc770",
+     "q_1f533c88ce049ab0",
+     "q_2fe060a6eeabb53d",
+     "q_31b717a7dc41a76c",
+     "q_3774650d23dbe378",
+     "q_498b7fd05146da90",
+     "q_559ad7b2c8c042f7",
+     "q_9377d7115ee5aa10",
+     "q_aada0af233a73d74",
+     "q_caa08c3783618b9c",
+     "q_fa5c4ffc8083a6ce"
+    ],
+    "pref_type": {
+     "ask_to_forget": 4,
+     "neutral_preferences": 1,
+     "anti_stereotypical_pref": 2,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "knowledge_query": 2,
+     "trouble_consult": 1,
+     "chat_message": 1,
+     "professional_email": 2,
+     "translation": 4
+    },
+    "who": {
+     "self": 9,
+     "others": 3
+    },
+    "question_selection_hash": "f81de8a8d0440b87"
+   },
+   "254": {
+    "persona_id": 254,
+    "eligible_question_count": 24,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_224b368c4b59e9e1",
+     "q_37116dc76c6aefc2",
+     "q_482fbffe5476a29c",
+     "q_4b4bdbd19d6f4b9f",
+     "q_7369368c87f1c312",
+     "q_81d311bafa99df4d",
+     "q_8c3981010fa28655",
+     "q_9a508f2e588bd281",
+     "q_a52c08e1a8199dc7",
+     "q_f557b391b7ebb8e4",
+     "q_fc36dbdb6d28970f",
+     "q_ff6b4ee7de2e16a0"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 1,
+     "stereotypical_pref": 2,
+     "therapy_background": 2,
+     "ask_to_forget": 5,
+     "health_and_medical_conditions": 1,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "creative_writing": 2,
+     "chat_message": 1,
+     "social_media_post": 1,
+     "professional_email": 2,
+     "knowledge_query": 2,
+     "professional_writing": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "c699f62cf8303fb5"
+   }
+  },
+  "final_test": {
+   "901": {
+    "persona_id": 901,
+    "eligible_question_count": 34,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1f98700d37f8bf67",
+     "q_2647d0c66920f0e5",
+     "q_3e621bf0cc487d4a",
+     "q_4456890cfb218925",
+     "q_5f5519d77e25e0c8",
+     "q_6feb16745b200921",
+     "q_918ffd439a10a31a",
+     "q_a5d7ff9de6611307",
+     "q_ac3db12f30c79be8",
+     "q_e9365ac37b1f8ad4",
+     "q_e9df3adf3a1b659f",
+     "q_fe514f0fb055329f"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 2,
+     "stereotypical_pref": 2,
+     "therapy_background": 1,
+     "ask_to_forget": 4,
+     "health_and_medical_conditions": 1,
+     "neutral_preferences": 2
+    },
+    "conversation_scenario": {
+     "professional_email": 3,
+     "professional_writing": 2,
+     "creative_writing": 3,
+     "translation": 2,
+     "chat_message": 2
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "10857a7666c9ed95"
+   },
+   "265": {
+    "persona_id": 265,
+    "eligible_question_count": 17,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_225651e389459f74",
+     "q_4618ab8a7bc9a23d",
+     "q_54645d8be527e4a0",
+     "q_7e9960f1f0069e06",
+     "q_880916a47e8c1071",
+     "q_c75c2826e4061888",
+     "q_c86e5631a7f0bf06",
+     "q_d0241461eceeb726",
+     "q_d6fdfb8b8eaeb7a0",
+     "q_d8f58fa1c596227b",
+     "q_daf3bac1c3c5995c",
+     "q_dcfe0adbefc7d98a"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 4,
+     "neutral_preferences": 1,
+     "ask_to_forget": 4,
+     "therapy_background": 2,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "social_media_post": 1,
+     "knowledge_query": 2,
+     "creative_writing": 1,
+     "professional_email": 1,
+     "chat_message": 1,
+     "trouble_consult": 1,
+     "translation": 2
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "c46bb5f678850cf4"
+   },
+   "259": {
+    "persona_id": 259,
+    "eligible_question_count": 11,
+    "selected_question_count": 11,
+    "selection_mode": "all_eligible",
+    "selected_question_ids": [
+     "q_0acf3e8c66e681cf",
+     "q_231d443681ad8d88",
+     "q_3ce7622f6cec7dd2",
+     "q_74e16df75a9e0079",
+     "q_97be55594630baa0",
+     "q_a13eaec353306382",
+     "q_a431f0b920a46f1a",
+     "q_a5a70c4ff58f63cf",
+     "q_a61926888800f908",
+     "q_adda8b994d0ab5e3",
+     "q_ffaf5e48bdc61ab3"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 1,
+     "stereotypical_pref": 2,
+     "ask_to_forget": 7,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "knowledge_query": 1,
+     "social_media_post": 2,
+     "professional_email": 1,
+     "trouble_consult": 2,
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "personal_email": 1,
+     "translation": 1
+    },
+    "who": {
+     "self": 11
+    },
+    "question_selection_hash": "82fe1abceb567b66"
+   },
+   "995": {
+    "persona_id": 995,
+    "eligible_question_count": 22,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_0ae9230909e5a7c4",
+     "q_1bc8c73b6039d4b8",
+     "q_39e29403edd5ce75",
+     "q_7b046c9329a60680",
+     "q_83761ecaa0adca8b",
+     "q_bf6dcf72ee71531f",
+     "q_d999a8b945888a56",
+     "q_dc684af4e62983a7",
+     "q_f39fb26fb87fe2e6",
+     "q_f8cf9924b4155d9b",
+     "q_fa2d73e3d74f63ff",
+     "q_fcec221574fba331"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 3,
+     "therapy_background": 2,
+     "ask_to_forget": 2,
+     "health_and_medical_conditions": 1,
+     "neutral_preferences": 3,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "translation": 2,
+     "personal_email": 3,
+     "knowledge_query": 2,
+     "chat_message": 1,
+     "creative_writing": 1,
+     "professional_writing": 1,
+     "social_media_post": 2
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "d91b008f44e779f0"
+   },
+   "72": {
+    "persona_id": 72,
+    "eligible_question_count": 24,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_164b405ff2b52d0f",
+     "q_2e8bc2d5404d31a4",
+     "q_32f0b69b5a0b24c9",
+     "q_413acdec876b0b1e",
+     "q_498dbad8c7bcc4b9",
+     "q_4d0aa24d6bfabcb0",
+     "q_5d89b2afcf1caf43",
+     "q_7d875f5a053ba1f3",
+     "q_c1f74d10ff2caf71",
+     "q_d944fbfc18f34421",
+     "q_ea6958c35f6ea5fe",
+     "q_fd569d9f12a4d351"
+    ],
+    "pref_type": {
+     "ask_to_forget": 2,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 3,
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "trouble_consult": 3,
+     "translation": 2,
+     "professional_email": 3,
+     "creative_writing": 1,
+     "professional_writing": 1,
+     "social_media_post": 2
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "4363c3035525c10f"
+   },
+   "235": {
+    "persona_id": 235,
+    "eligible_question_count": 28,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_2633adfc486ba8fc",
+     "q_2a40407fa05a35ac",
+     "q_3f52072b3d27c8d8",
+     "q_85bf2322282939ac",
+     "q_8dc68d12abf465a7",
+     "q_955fa1a230ab4c5f",
+     "q_9d414cedb3d585cd",
+     "q_c3869defae2ea6cf",
+     "q_c5c4f4a04fe254e0",
+     "q_c6a2bd8f65819f49",
+     "q_c81ff22561b3f4b1",
+     "q_d5edc0898893dbec"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 4,
+     "stereotypical_pref": 1,
+     "ask_to_forget": 2,
+     "therapy_background": 1,
+     "health_and_medical_conditions": 1,
+     "neutral_preferences": 3
+    },
+    "conversation_scenario": {
+     "creative_writing": 1,
+     "trouble_consult": 2,
+     "translation": 2,
+     "knowledge_query": 3,
+     "professional_writing": 1,
+     "social_media_post": 2,
+     "professional_email": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "dfdc17770e2bf25a"
+   },
+   "137": {
+    "persona_id": 137,
+    "eligible_question_count": 22,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_037a3a3848cead75",
+     "q_082acaab38622845",
+     "q_1354510b0eb9d7d9",
+     "q_505d13e932fe26a8",
+     "q_7825305d63c1ea97",
+     "q_8ba010cca8cee290",
+     "q_98913859e204b99b",
+     "q_adf01ae8b6fc9bf3",
+     "q_b363642de7bd98ef",
+     "q_b93c21444cdbfd86",
+     "q_c6037c7bf19ec898",
+     "q_d9742ff60cd99b1e"
+    ],
+    "pref_type": {
+     "stereotypical_pref": 2,
+     "neutral_preferences": 4,
+     "anti_stereotypical_pref": 2,
+     "ask_to_forget": 2,
+     "therapy_background": 1,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "professional_email": 3,
+     "knowledge_query": 3,
+     "translation": 2,
+     "trouble_consult": 1,
+     "chat_message": 1,
+     "creative_writing": 1,
+     "personal_email": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "883d4f7de3682e0e"
+   },
+   "737": {
+    "persona_id": 737,
+    "eligible_question_count": 26,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_11ebcd07ee6a97f3",
+     "q_291a2db57c5304f3",
+     "q_34b51703c529624a",
+     "q_4b7ea040d0da2f43",
+     "q_551c9848c2894613",
+     "q_5561f6d203c6a55a",
+     "q_7c5d12634a0ce5b5",
+     "q_99dbfb54f25064c1",
+     "q_b42bde7accd69b70",
+     "q_da07f65630dd7520",
+     "q_e80adc93c1696df4",
+     "q_f9ae13b6187d60ad"
+    ],
+    "pref_type": {
+     "ask_to_forget": 5,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 1,
+     "anti_stereotypical_pref": 3,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "chat_message": 2,
+     "translation": 1,
+     "trouble_consult": 1,
+     "personal_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "social_media_post": 1,
+     "knowledge_query": 1,
+     "professional_email": 2
+    },
+    "who": {
+     "self": 9,
+     "others": 3
+    },
+    "question_selection_hash": "6949c94631dd7a0a"
+   },
+   "741": {
+    "persona_id": 741,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_19c01b91b03c7def",
+     "q_3759a0e85bd3fae3",
+     "q_5aa3a66551278d15",
+     "q_5edbcd7e2ae60507",
+     "q_6b5ec01f9c7eb1f6",
+     "q_7a225a34a8b143d7",
+     "q_9f06a19bd4221118",
+     "q_a51bd5fc67b47938",
+     "q_b7f5df2a8b4e0ed2",
+     "q_d47e899b29d0767e",
+     "q_de7dcb1d95b86f55",
+     "q_ff768214691b50c3"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "stereotypical_pref": 3,
+     "ask_to_forget": 3,
+     "therapy_background": 1,
+     "health_and_medical_conditions": 2,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "professional_email": 3,
+     "translation": 3,
+     "creative_writing": 1,
+     "trouble_consult": 1,
+     "knowledge_query": 3,
+     "personal_email": 1
+    },
+    "who": {
+     "self": 12
+    },
+    "question_selection_hash": "0a89515862be14c9"
+   },
+   "76": {
+    "persona_id": 76,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_25d1dd07b353939f",
+     "q_308ed9bba4d75000",
+     "q_39118fff32c673bb",
+     "q_3f3dab1b4b9f64e6",
+     "q_64551063111baf8a",
+     "q_6497a19760a4b28c",
+     "q_71103d3d0187ce84",
+     "q_898920761f3cbe68",
+     "q_9530d319768eb490",
+     "q_9e6bfdd5fe9aa7bb",
+     "q_9f2ece15d78b454a",
+     "q_ae43ef29488ddd37"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 3,
+     "stereotypical_pref": 2,
+     "health_and_medical_conditions": 3,
+     "neutral_preferences": 3,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 1,
+     "translation": 1,
+     "knowledge_query": 3,
+     "trouble_consult": 2,
+     "chat_message": 2,
+     "social_media_post": 1,
+     "professional_writing": 1,
+     "professional_email": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "3fa80abf354fcd04"
+   },
+   "521": {
+    "persona_id": 521,
+    "eligible_question_count": 26,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1aed5abb47e72ab2",
+     "q_2f7ed914ff321da3",
+     "q_64eeb921593bbd76",
+     "q_8f8f6d7664178750",
+     "q_a204f79d8d94a0ca",
+     "q_af19a95677529692",
+     "q_b109e5c08211c00d",
+     "q_b2639bbe2fe7ebfa",
+     "q_b62964065bffe21a",
+     "q_ec1dd14d603ab821",
+     "q_f5ec602d9384d1cc",
+     "q_f5f9876bee9e170f"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "anti_stereotypical_pref": 3,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 2,
+     "therapy_background": 2,
+     "ask_to_forget": 1
+    },
+    "conversation_scenario": {
+     "knowledge_query": 5,
+     "chat_message": 5,
+     "professional_writing": 2
+    },
+    "who": {
+     "self": 9,
+     "others": 3
+    },
+    "question_selection_hash": "6d9d056c62b0f67e"
+   },
+   "604": {
+    "persona_id": 604,
+    "eligible_question_count": 25,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_227a6de43210cddb",
+     "q_423dad6456bbd351",
+     "q_448d5591c700e8be",
+     "q_4ba9f8f616cc51d0",
+     "q_67fdc3a97e402c4e",
+     "q_76b5d3cc3ce7584c",
+     "q_8bd09df0213aa68a",
+     "q_98f452b1087ec153",
+     "q_9c76d0aea7c2cf7e",
+     "q_ae42157341827b1c",
+     "q_bb09fe4eae5df37c",
+     "q_d63de806431d268c"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "therapy_background": 2,
+     "stereotypical_pref": 2,
+     "health_and_medical_conditions": 2,
+     "ask_to_forget": 3,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "translation": 3,
+     "knowledge_query": 2,
+     "trouble_consult": 1,
+     "social_media_post": 1,
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "personal_email": 2
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "4cef6a513269386c"
+   },
+   "199": {
+    "persona_id": 199,
+    "eligible_question_count": 18,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_03948991d3a82548",
+     "q_1d81b19abe4c40aa",
+     "q_4463d60cca46fb57",
+     "q_8e07e230e187df2c",
+     "q_902e18a85eef1e0a",
+     "q_c74a601d74ef5f10",
+     "q_c7c21edb72ce0c7c",
+     "q_cea9193dea497c47",
+     "q_d2b728757b1a94d2",
+     "q_e85c62955c9426a1",
+     "q_e9f93f3348987515",
+     "q_ffbe40ecaaa0896b"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "stereotypical_pref": 1,
+     "health_and_medical_conditions": 2,
+     "ask_to_forget": 4,
+     "therapy_background": 1,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "knowledge_query": 5,
+     "social_media_post": 2,
+     "trouble_consult": 1,
+     "professional_writing": 1,
+     "personal_email": 2,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "994d109ad27dde99"
+   },
+   "332": {
+    "persona_id": 332,
+    "eligible_question_count": 11,
+    "selected_question_count": 11,
+    "selection_mode": "all_eligible",
+    "selected_question_ids": [
+     "q_1debd69e41a9b583",
+     "q_521c8b9e7e4158ea",
+     "q_52802bdee8a59356",
+     "q_640620ef40b40ed5",
+     "q_745cdc4288a410b6",
+     "q_9fe322e421957c97",
+     "q_ba9b3b7abdbdb2aa",
+     "q_bff773196b073df0",
+     "q_daa9029048cf2ab3",
+     "q_f2cdebaefbbc6789",
+     "q_ff5d25885ab96932"
+    ],
+    "pref_type": {
+     "ask_to_forget": 7,
+     "neutral_preferences": 1,
+     "anti_stereotypical_pref": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "creative_writing": 1,
+     "chat_message": 2,
+     "professional_email": 1,
+     "professional_writing": 2,
+     "knowledge_query": 1,
+     "social_media_post": 1,
+     "personal_email": 2,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 1
+    },
+    "question_selection_hash": "00408d8a2dbe338f"
+   },
+   "277": {
+    "persona_id": 277,
+    "eligible_question_count": 13,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_0f54e39f402b8f0e",
+     "q_1db9eda0869ea446",
+     "q_3471a730b4c68ebe",
+     "q_3d1d06d8aa334e71",
+     "q_3f9c9ffe8cf068d7",
+     "q_408108df6b1f9a04",
+     "q_5a78c2995cdeb2fa",
+     "q_8edef346a2197b46",
+     "q_92278b8d0cf1e19c",
+     "q_a57c03f35d992110",
+     "q_c8cc841b0dab7e55",
+     "q_e5185d165cc12a14"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "anti_stereotypical_pref": 2,
+     "ask_to_forget": 4,
+     "health_and_medical_conditions": 3,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "knowledge_query": 3,
+     "professional_writing": 3,
+     "personal_email": 1,
+     "chat_message": 2,
+     "professional_email": 1,
+     "creative_writing": 2
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "066b239e20704234"
+   },
+   "716": {
+    "persona_id": 716,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_3294ef0722b91fff",
+     "q_4efb481020bb5358",
+     "q_505efd749eb7ff02",
+     "q_6992493eadfbb6a5",
+     "q_69d1cb0ba1259d02",
+     "q_6c27758782018084",
+     "q_7bc05039d38daf86",
+     "q_92c7dec2be2c6610",
+     "q_9e3b98cd34e08029",
+     "q_b60d0d6f2eab4e76",
+     "q_c27bca2b425f765d",
+     "q_c8e04c115e30dec0"
+    ],
+    "pref_type": {
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 1,
+     "anti_stereotypical_pref": 1,
+     "ask_to_forget": 3,
+     "therapy_background": 3,
+     "stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "chat_message": 3,
+     "translation": 2,
+     "professional_writing": 2,
+     "knowledge_query": 2,
+     "trouble_consult": 1,
+     "personal_email": 1,
+     "creative_writing": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "956f2a21674b0734"
+   },
+   "721": {
+    "persona_id": 721,
+    "eligible_question_count": 29,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1b01909cda9effc1",
+     "q_1f16b0ec3e541b43",
+     "q_512abedb5fae1396",
+     "q_5ed309988df37d16",
+     "q_633f47e0ab4264ce",
+     "q_6a235f6b2c08ddde",
+     "q_7d3d2d7599083a62",
+     "q_80858cd8252bdc07",
+     "q_a9a9440ab4ac7202",
+     "q_be2cdf4a91ea38a7",
+     "q_dbc0408eec4f1727",
+     "q_e78e6ceb65500be9"
+    ],
+    "pref_type": {
+     "therapy_background": 2,
+     "ask_to_forget": 2,
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 1,
+     "neutral_preferences": 3
+    },
+    "conversation_scenario": {
+     "chat_message": 1,
+     "professional_writing": 1,
+     "social_media_post": 1,
+     "knowledge_query": 4,
+     "personal_email": 2,
+     "translation": 1,
+     "professional_email": 1,
+     "trouble_consult": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "31bdb338de964d54"
+   },
+   "351": {
+    "persona_id": 351,
+    "eligible_question_count": 28,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_2d3a26aa1aac610a",
+     "q_7859bb5b98610190",
+     "q_7dc3a230421103b8",
+     "q_7feb2bf6a6538063",
+     "q_8d6b2cef074aa056",
+     "q_a56109a6ebf21338",
+     "q_b87b674cacb6bbc0",
+     "q_d9cf9cfb06ec13f1",
+     "q_dcd24f242094f3bc",
+     "q_dd6e6a19327636f7",
+     "q_e4fb099ef7009c7f",
+     "q_f121fa98e1c0c231"
+    ],
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 2,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 1,
+     "therapy_background": 3
+    },
+    "conversation_scenario": {
+     "knowledge_query": 4,
+     "chat_message": 2,
+     "creative_writing": 2,
+     "trouble_consult": 2,
+     "translation": 1,
+     "professional_email": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "52aba7036411a9f8"
+   },
+   "184": {
+    "persona_id": 184,
+    "eligible_question_count": 25,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_29a0846226e1be5d",
+     "q_44ec16e03312ad9c",
+     "q_4a58751128034121",
+     "q_65019c4430c6275c",
+     "q_6a7676345dbf6d53",
+     "q_804e14502a1e17b0",
+     "q_8bd377f448c51912",
+     "q_b15ceca75a1dc69c",
+     "q_c414496f929ae5e0",
+     "q_c83b88390f771dfe",
+     "q_ca7efa4e97d65cc0",
+     "q_d9751ad8960c09e7"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 2,
+     "anti_stereotypical_pref": 2,
+     "stereotypical_pref": 1,
+     "ask_to_forget": 2
+    },
+    "conversation_scenario": {
+     "knowledge_query": 5,
+     "social_media_post": 1,
+     "creative_writing": 2,
+     "trouble_consult": 1,
+     "translation": 1,
+     "professional_writing": 2
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "993b5d888009c0e2"
+   },
+   "527": {
+    "persona_id": 527,
+    "eligible_question_count": 20,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_3e73ef027d2d83d2",
+     "q_5abeef7e11e36295",
+     "q_659ca40a08613fd8",
+     "q_75eefda5d929f1bf",
+     "q_9fc73ba11a39b968",
+     "q_a912e046e3e362ae",
+     "q_ad923ba772955ebc",
+     "q_d548e66ddd4251df",
+     "q_d81d136c07a24b21",
+     "q_ea58291e12e95a68",
+     "q_ef8c5c4b34e27c26",
+     "q_facb9c28034aa660"
+    ],
+    "pref_type": {
+     "stereotypical_pref": 1,
+     "therapy_background": 3,
+     "neutral_preferences": 2,
+     "ask_to_forget": 2,
+     "health_and_medical_conditions": 2,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "social_media_post": 1,
+     "translation": 3,
+     "professional_writing": 1,
+     "trouble_consult": 2,
+     "personal_email": 2,
+     "professional_email": 2,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "34896e94233f00b2"
+   },
+   "816": {
+    "persona_id": 816,
+    "eligible_question_count": 21,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_006eec8bcadbdb2c",
+     "q_06b48e3c2ee1ae06",
+     "q_47d679b41b3be9e4",
+     "q_47ffc449a26652ad",
+     "q_4f8384afd06ab786",
+     "q_668fac7dcec5b3d6",
+     "q_7015b710da5a1e7b",
+     "q_bcf1554fa24bdb8e",
+     "q_c3fc09cfc8508e63",
+     "q_d7aa1b155abd15ba",
+     "q_dffea83bbb24f2a8",
+     "q_f017ac030aaae43e"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "ask_to_forget": 5,
+     "health_and_medical_conditions": 1,
+     "anti_stereotypical_pref": 1,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "social_media_post": 3,
+     "trouble_consult": 1,
+     "creative_writing": 4,
+     "professional_writing": 1,
+     "personal_email": 1,
+     "knowledge_query": 1,
+     "translation": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "cd81b90754b8117d"
+   },
+   "209": {
+    "persona_id": 209,
+    "eligible_question_count": 26,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_1df1d292a3516ccd",
+     "q_274e457054a28c0c",
+     "q_27ac0d5e7258a80f",
+     "q_428b33d8df1482fd",
+     "q_545c88b944bd004e",
+     "q_63be20f028b23435",
+     "q_7338a3001bf153c8",
+     "q_93228c99a16174ca",
+     "q_d350ec5d10ba4707",
+     "q_e7dce5c5f322b523",
+     "q_ef245ec182596176",
+     "q_f995fcf51e3a551f"
+    ],
+    "pref_type": {
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 1,
+     "ask_to_forget": 2,
+     "therapy_background": 1,
+     "neutral_preferences": 4
+    },
+    "conversation_scenario": {
+     "knowledge_query": 3,
+     "creative_writing": 1,
+     "personal_email": 1,
+     "social_media_post": 3,
+     "chat_message": 1,
+     "professional_writing": 1,
+     "translation": 1,
+     "professional_email": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 2
+    },
+    "question_selection_hash": "63bc798860bcb634"
+   },
+   "213": {
+    "persona_id": 213,
+    "eligible_question_count": 22,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_00ba3702ec446b95",
+     "q_29bc0e0735bd9272",
+     "q_2aa5f9eafc5b977b",
+     "q_5f165f2acacc9165",
+     "q_68bc5050784b6e27",
+     "q_7afceb951b60facc",
+     "q_7fdf61af3a7b8c73",
+     "q_a8a330c711793a0d",
+     "q_c60cb269db68eb27",
+     "q_e1e797aeec5aad9e",
+     "q_e567c741d075426f",
+     "q_ec786855d41f857f"
+    ],
+    "pref_type": {
+     "therapy_background": 2,
+     "neutral_preferences": 4,
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 2,
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "chat_message": 1,
+     "professional_email": 2,
+     "trouble_consult": 3,
+     "knowledge_query": 2,
+     "professional_writing": 4
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "25bb5b30718bb656"
+   },
+   "800": {
+    "persona_id": 800,
+    "eligible_question_count": 23,
+    "selected_question_count": 12,
+    "selection_mode": "stratified_by_pref_type",
+    "selected_question_ids": [
+     "q_27dd169d9307c276",
+     "q_2c7123ddc056824f",
+     "q_4f8177511b3eee16",
+     "q_50726dc822e97040",
+     "q_620cc1184eae36d1",
+     "q_7e4b24ae22247789",
+     "q_81acd4e0fed53273",
+     "q_8a2940e45b6006b0",
+     "q_ba37d460c9962309",
+     "q_e16449b77e65277f",
+     "q_ebe6af0cfc8cf143",
+     "q_f52649fc1efd77e3"
+    ],
+    "pref_type": {
+     "neutral_preferences": 3,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 4,
+     "therapy_background": 1,
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 3,
+     "knowledge_query": 4,
+     "creative_writing": 1,
+     "trouble_consult": 1,
+     "social_media_post": 1,
+     "professional_writing": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 1
+    },
+    "question_selection_hash": "3c661f0cc78be4df"
+   }
+  }
+ }
+}

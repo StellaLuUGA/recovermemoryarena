@@ -1,0 +1,68 @@
+{
+  "docstore": {
+    "0c0afb7f-f361-4479-98b4-04ed1f0dc7dd": {
+      "data": "credit card",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0ccf25a9-41dd-4222-aa6b-bd570cde0408",
+        "716bdd56-a906-4227-975b-c6d2bb4ad834",
+        "7b3c86bb-c82e-489a-9d14-d489c8af5f3c",
+        "95570c5a-cff0-4df6-933e-a3f81629ca8d",
+        "9e4f77b1-8058-4752-9969-c833bfc76794",
+        "d4dbd82f-40d4-4579-b6d2-509038a4c46b"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703"
+    },
+    "4d359a21-7dde-4a9f-a2f7-6d562bc925bb": {
+      "data": "following items",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0ccf25a9-41dd-4222-aa6b-bd570cde0408",
+        "716bdd56-a906-4227-975b-c6d2bb4ad834",
+        "7b3c86bb-c82e-489a-9d14-d489c8af5f3c",
+        "95570c5a-cff0-4df6-933e-a3f81629ca8d"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703"
+    },
+    "f229a8e1-7b58-4a6f-9524-0c565ac474d1": {
+      "data": "dish sponge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0ccf25a9-41dd-4222-aa6b-bd570cde0408",
+        "716bdd56-a906-4227-975b-c6d2bb4ad834",
+        "95570c5a-cff0-4df6-933e-a3f81629ca8d",
+        "9e4f77b1-8058-4752-9969-c833bfc76794"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703"
+    },
+    "a2764356-831f-4374-b090-620e78865f34": {
+      "data": "glass bottle",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0ccf25a9-41dd-4222-aa6b-bd570cde0408",
+        "716bdd56-a906-4227-975b-c6d2bb4ad834",
+        "95570c5a-cff0-4df6-933e-a3f81629ca8d",
+        "9e4f77b1-8058-4752-9969-c833bfc76794"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703"
+    },
+    "d021c139-cfa9-4554-9a42-9f52c7788dfd": {
+      "data": "August",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "19ecf832-3adb-4212-ad48-9fd7d9f8dd52",
+        "6608ed63-11d5-45f0-9fdc-47fb88419173",
+        "abbfe32c-e9cd-4812-ae8a-ade4cae9ff4e",
+        "d9b902fb-0752-4a64-9d4b-53f3066219b5"
+      ],
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703"
+    }
+  },
+  "index_to_id": {
+    "0": "0c0afb7f-f361-4479-98b4-04ed1f0dc7dd",
+    "1": "4d359a21-7dde-4a9f-a2f7-6d562bc925bb",
+    "2": "f229a8e1-7b58-4a6f-9524-0c565ac474d1",
+    "3": "a2764356-831f-4374-b090-620e78865f34",
+    "4": "d021c139-cfa9-4554-9a42-9f52c7788dfd"
+  }
+}

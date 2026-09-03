@@ -1,0 +1,6016 @@
+{
+ "unit_definition": "persona_id (one persona = one underlying user = one chat history per size)",
+ "eligible_pool": 200,
+ "total_rows": 5000,
+ "rows_per_persona": {
+  "min": 6,
+  "median": 25.0,
+  "max": 42
+ },
+ "raw_unique_history_files": {
+  "text_32k": 200,
+  "text_128k": 200,
+  "raw_persona": 200
+ },
+ "histories_per_persona": {
+  "text_32k": 1,
+  "text_128k": 1,
+  "raw_persona": 1
+ },
+ "personas_per_history_file_max": 1,
+ "multiple_runs_per_persona_in_this_split": false,
+ "run_timestamps_used": {
+  "text_32k": [
+   "250913_163134"
+  ],
+  "text_128k": [
+   "250913_163556"
+  ],
+  "raw_persona": [
+   "250815_155601",
+   "250815_163935",
+   "250817_221909",
+   "250818_011555",
+   "250819_225921",
+   "250820_165412",
+   "250820_224501",
+   "250825_220103",
+   "250826_131038"
+  ]
+ },
+ "defensible_independent_source_units": 200,
+ "units": [
+  {
+   "persona_id": 10,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona10.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona10.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_155601_persona10.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31516,
+   "total_tokens_128k": 124552,
+   "pref_types": {
+    "stereotypical_pref": 6,
+    "therapy_background": 3,
+    "neutral_preferences": 4,
+    "anti_stereotypical_pref": 6,
+    "sensitive_info": 5,
+    "health_and_medical_conditions": 4,
+    "ask_to_forget": 3
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 4,
+    "creative_writing": 5,
+    "professional_writing": 7,
+    "chat_message": 3,
+    "trouble_consult": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 23,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona23.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona23.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona23.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31948,
+   "total_tokens_128k": 98600,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "sensitive_info": 2,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 3,
+    "anti_stereotypical_pref": 7,
+    "neutral_preferences": 6,
+    "ask_to_forget": 4
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 6,
+    "chat_message": 4,
+    "translation": 2,
+    "trouble_consult": 5,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 25,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona25.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona25.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona25.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31759,
+   "total_tokens_128k": 84870,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 5,
+    "ask_to_forget": 3,
+    "stereotypical_pref": 3,
+    "therapy_background": 4,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 4
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 5,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 30,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona30.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona30.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona30.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31988,
+   "total_tokens_128k": 100730,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 10,
+    "neutral_preferences": 5,
+    "therapy_background": 4,
+    "ask_to_forget": 2,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 4,
+    "translation": 1,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 39,
+   "n_rows": 34,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona39.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona39.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona39.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31872,
+   "total_tokens_128k": 124131,
+   "pref_types": {
+    "anti_stereotypical_pref": 7,
+    "ask_to_forget": 13,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 1,
+    "sensitive_info": 3,
+    "neutral_preferences": 6,
+    "therapy_background": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 6,
+    "creative_writing": 5,
+    "professional_writing": 4,
+    "chat_message": 2,
+    "translation": 5,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 44,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona44.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona44.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona44.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31555,
+   "total_tokens_128k": 122695,
+   "pref_types": {
+    "anti_stereotypical_pref": 3,
+    "neutral_preferences": 5,
+    "ask_to_forget": 4,
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 2,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 54,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona54.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona54.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona54.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31960,
+   "total_tokens_128k": 123116,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 4,
+    "neutral_preferences": 5,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 4,
+    "translation": 5,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 55,
+   "n_rows": 41,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona55.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona55.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona55.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31961,
+   "total_tokens_128k": 122839,
+   "pref_types": {
+    "ask_to_forget": 12,
+    "therapy_background": 4,
+    "sensitive_info": 10,
+    "stereotypical_pref": 5,
+    "anti_stereotypical_pref": 6,
+    "health_and_medical_conditions": 2,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 4,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 6,
+    "translation": 6,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 59,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona59.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona59.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona59.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31638,
+   "total_tokens_128k": 124894,
+   "pref_types": {
+    "health_and_medical_conditions": 6,
+    "sensitive_info": 6,
+    "ask_to_forget": 7,
+    "therapy_background": 5,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 1,
+    "neutral_preferences": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 5,
+    "professional_writing": 6,
+    "chat_message": 3,
+    "translation": 2,
+    "social_media_post": 4,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 60,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona60.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona60.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona60.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31945,
+   "total_tokens_128k": 72887,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "ask_to_forget": 5,
+    "neutral_preferences": 6,
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 9
+   }
+  },
+  {
+   "persona_id": 63,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona63.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona63.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona63.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 27977,
+   "total_tokens_128k": 124928,
+   "pref_types": {
+    "ask_to_forget": 10,
+    "therapy_background": 3,
+    "anti_stereotypical_pref": 5,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 2,
+    "neutral_preferences": 6
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 5,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 66,
+   "n_rows": 42,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona66.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona66.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona66.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 28750,
+   "total_tokens_128k": 124273,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "neutral_preferences": 7,
+    "therapy_background": 10,
+    "sensitive_info": 5,
+    "stereotypical_pref": 5,
+    "anti_stereotypical_pref": 3,
+    "health_and_medical_conditions": 5
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "creative_writing": 5,
+    "professional_writing": 2,
+    "chat_message": 5,
+    "translation": 8,
+    "trouble_consult": 5,
+    "social_media_post": 6,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 67,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona67.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona67.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona67.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31874,
+   "total_tokens_128k": 123026,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 4,
+    "therapy_background": 3,
+    "ask_to_forget": 4,
+    "health_and_medical_conditions": 5,
+    "sensitive_info": 5
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 6,
+    "chat_message": 5,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 6,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 70,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona70.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona70.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona70.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31923,
+   "total_tokens_128k": 124363,
+   "pref_types": {
+    "therapy_background": 4,
+    "sensitive_info": 1,
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 3,
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 7,
+    "chat_message": 1,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 72,
+   "n_rows": 33,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona72.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona72.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona72.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31964,
+   "total_tokens_128k": 90007,
+   "pref_types": {
+    "sensitive_info": 9,
+    "anti_stereotypical_pref": 6,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 4,
+    "stereotypical_pref": 5,
+    "ask_to_forget": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 6,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 4,
+    "trouble_consult": 5,
+    "social_media_post": 4,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 76,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona76.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona76.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona76.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31936,
+   "total_tokens_128k": 123615,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "neutral_preferences": 6,
+    "sensitive_info": 8,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 6,
+    "ask_to_forget": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 8,
+    "translation": 3,
+    "trouble_consult": 5,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 78,
+   "n_rows": 6,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona78.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona78.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona78.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31995,
+   "total_tokens_128k": 124041,
+   "pref_types": {
+    "neutral_preferences": 2,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 1,
+    "health_and_medical_conditions": 1,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "professional_email": 3,
+    "knowledge_query": 1,
+    "translation": 1,
+    "personal_email": 1
+   }
+  },
+  {
+   "persona_id": 86,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona86.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona86.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona86.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31890,
+   "total_tokens_128k": 87224,
+   "pref_types": {
+    "neutral_preferences": 8,
+    "sensitive_info": 5,
+    "anti_stereotypical_pref": 6,
+    "ask_to_forget": 2,
+    "health_and_medical_conditions": 3,
+    "stereotypical_pref": 2,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 6,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 88,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona88.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona88.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona88.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31962,
+   "total_tokens_128k": 122824,
+   "pref_types": {
+    "health_and_medical_conditions": 2,
+    "ask_to_forget": 6,
+    "stereotypical_pref": 2,
+    "neutral_preferences": 4,
+    "therapy_background": 3,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "chat_message": 6,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 96,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona96.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona96.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona96.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31709,
+   "total_tokens_128k": 102500,
+   "pref_types": {
+    "anti_stereotypical_pref": 11,
+    "ask_to_forget": 7,
+    "stereotypical_pref": 4,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 2,
+    "neutral_preferences": 4,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 5,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 101,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona101.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona101.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona101.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31997,
+   "total_tokens_128k": 123567,
+   "pref_types": {
+    "therapy_background": 4,
+    "ask_to_forget": 5,
+    "neutral_preferences": 6,
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 2,
+    "sensitive_info": 4,
+    "anti_stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 3,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 6,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 107,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona107.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona107.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona107.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30514,
+   "total_tokens_128k": 124618,
+   "pref_types": {
+    "ask_to_forget": 9,
+    "anti_stereotypical_pref": 6,
+    "therapy_background": 3,
+    "sensitive_info": 5,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 7,
+    "professional_email": 4,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 4,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 110,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona110.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona110.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona110.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31982,
+   "total_tokens_128k": 124783,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "therapy_background": 2,
+    "sensitive_info": 8,
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 5,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 6,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 6,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 120,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona120.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona120.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona120.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31594,
+   "total_tokens_128k": 89185,
+   "pref_types": {
+    "ask_to_forget": 2,
+    "neutral_preferences": 7,
+    "health_and_medical_conditions": 6,
+    "anti_stereotypical_pref": 4,
+    "sensitive_info": 3,
+    "stereotypical_pref": 4,
+    "therapy_background": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "chat_message": 6,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 4,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 136,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona136.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona136.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona136.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31963,
+   "total_tokens_128k": 114660,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "ask_to_forget": 7,
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 5,
+    "neutral_preferences": 1,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 3,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 137,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona137.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona137.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona137.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31908,
+   "total_tokens_128k": 94744,
+   "pref_types": {
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 4,
+    "ask_to_forget": 3,
+    "sensitive_info": 4,
+    "neutral_preferences": 7,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 5,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 2,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 139,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona139.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona139.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona139.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31879,
+   "total_tokens_128k": 123809,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 5,
+    "stereotypical_pref": 3,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "professional_email": 3,
+    "creative_writing": 5,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 4,
+    "social_media_post": 4,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 158,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona158.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona158.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona158.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31882,
+   "total_tokens_128k": 123427,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "therapy_background": 6,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 5,
+    "stereotypical_pref": 3,
+    "sensitive_info": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 168,
+   "n_rows": 34,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona168.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona168.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona168.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31950,
+   "total_tokens_128k": 71117,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "neutral_preferences": 7,
+    "sensitive_info": 4,
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 7,
+    "health_and_medical_conditions": 6,
+    "therapy_background": 3
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 7,
+    "creative_writing": 5,
+    "professional_writing": 5,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 174,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona174.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona174.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona174.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31648,
+   "total_tokens_128k": 116195,
+   "pref_types": {
+    "neutral_preferences": 3,
+    "therapy_background": 2,
+    "ask_to_forget": 6,
+    "health_and_medical_conditions": 5,
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 184,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona184.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona184.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona184.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31670,
+   "total_tokens_128k": 119001,
+   "pref_types": {
+    "neutral_preferences": 6,
+    "health_and_medical_conditions": 4,
+    "therapy_background": 5,
+    "ask_to_forget": 5,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 3,
+    "creative_writing": 6,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 198,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona198.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona198.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona198.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31945,
+   "total_tokens_128k": 91193,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 7,
+    "neutral_preferences": 6,
+    "therapy_background": 4,
+    "ask_to_forget": 5,
+    "sensitive_info": 5,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 5,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 9,
+    "social_media_post": 5,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 199,
+   "n_rows": 19,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona199.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona199.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona199.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31936,
+   "total_tokens_128k": 121522,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "neutral_preferences": 4,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 1,
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 208,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona208.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona208.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona208.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30720,
+   "total_tokens_128k": 122900,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "neutral_preferences": 3,
+    "therapy_background": 2,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 3,
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 209,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona209.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona209.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona209.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31703,
+   "total_tokens_128k": 123966,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 3,
+    "neutral_preferences": 9,
+    "health_and_medical_conditions": 4,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 6,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 210,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona210.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona210.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona210.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31988,
+   "total_tokens_128k": 68497,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 4,
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 5
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 5,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 213,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona213.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona213.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona213.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31951,
+   "total_tokens_128k": 103791,
+   "pref_types": {
+    "neutral_preferences": 8,
+    "health_and_medical_conditions": 2,
+    "therapy_background": 4,
+    "stereotypical_pref": 2,
+    "ask_to_forget": 3,
+    "anti_stereotypical_pref": 3,
+    "sensitive_info": 1
+   },
+   "scenarios": {
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 2,
+    "trouble_consult": 6,
+    "social_media_post": 1,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 215,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona215.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona215.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona215.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31576,
+   "total_tokens_128k": 119982,
+   "pref_types": {
+    "anti_stereotypical_pref": 3,
+    "therapy_background": 3,
+    "ask_to_forget": 7,
+    "neutral_preferences": 3,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 4
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 218,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona218.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona218.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona218.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31981,
+   "total_tokens_128k": 97640,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 3,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 2,
+    "neutral_preferences": 6,
+    "stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 5,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 221,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona221.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona221.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona221.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31902,
+   "total_tokens_128k": 123399,
+   "pref_types": {
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 8,
+    "ask_to_forget": 2,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 5,
+    "neutral_preferences": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 235,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona235.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona235.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona235.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31981,
+   "total_tokens_128k": 117435,
+   "pref_types": {
+    "neutral_preferences": 8,
+    "ask_to_forget": 4,
+    "anti_stereotypical_pref": 8,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 3,
+    "stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 4,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 237,
+   "n_rows": 37,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona237.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona237.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona237.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31953,
+   "total_tokens_128k": 99346,
+   "pref_types": {
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 7,
+    "therapy_background": 4,
+    "sensitive_info": 4,
+    "stereotypical_pref": 4,
+    "ask_to_forget": 7,
+    "anti_stereotypical_pref": 6
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 5,
+    "creative_writing": 5,
+    "professional_writing": 6,
+    "chat_message": 5,
+    "translation": 3,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 244,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona244.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona244.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona244.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31961,
+   "total_tokens_128k": 123970,
+   "pref_types": {
+    "anti_stereotypical_pref": 2,
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 5,
+    "ask_to_forget": 7,
+    "therapy_background": 2,
+    "sensitive_info": 3,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 6,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 247,
+   "n_rows": 35,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona247.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona247.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona247.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31859,
+   "total_tokens_128k": 92669,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 6,
+    "therapy_background": 6,
+    "ask_to_forget": 2,
+    "sensitive_info": 5,
+    "health_and_medical_conditions": 4,
+    "stereotypical_pref": 7
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 5,
+    "translation": 6,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 254,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona254.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona254.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona254.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31736,
+   "total_tokens_128k": 122495,
+   "pref_types": {
+    "anti_stereotypical_pref": 2,
+    "ask_to_forget": 9,
+    "stereotypical_pref": 4,
+    "neutral_preferences": 3,
+    "sensitive_info": 2,
+    "therapy_background": 5,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "trouble_consult": 6,
+    "social_media_post": 4,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 256,
+   "n_rows": 14,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona256.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona256.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona256.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31632,
+   "total_tokens_128k": 126710,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "anti_stereotypical_pref": 4,
+    "sensitive_info": 1,
+    "neutral_preferences": 1,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "trouble_consult": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 259,
+   "n_rows": 12,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona259.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona259.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona259.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31834,
+   "total_tokens_128k": 125777,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "neutral_preferences": 1,
+    "stereotypical_pref": 2,
+    "sensitive_info": 1,
+    "anti_stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 3,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 260,
+   "n_rows": 19,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona260.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona260.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona260.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31790,
+   "total_tokens_128k": 124242,
+   "pref_types": {
+    "ask_to_forget": 10,
+    "sensitive_info": 3,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 3,
+    "health_and_medical_conditions": 1,
+    "neutral_preferences": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 261,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona261.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona261.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona261.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31432,
+   "total_tokens_128k": 123680,
+   "pref_types": {
+    "sensitive_info": 3,
+    "ask_to_forget": 4,
+    "anti_stereotypical_pref": 5,
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 1,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 265,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona265.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona265.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona265.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31831,
+   "total_tokens_128k": 120619,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 3,
+    "neutral_preferences": 2,
+    "sensitive_info": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "chat_message": 1,
+    "translation": 5,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 275,
+   "n_rows": 11,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona275.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona275.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona275.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31876,
+   "total_tokens_128k": 122286,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "neutral_preferences": 2,
+    "sensitive_info": 3,
+    "therapy_background": 1,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 1,
+    "chat_message": 2,
+    "translation": 2,
+    "social_media_post": 2,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 277,
+   "n_rows": 15,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona277.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona277.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona277.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 28863,
+   "total_tokens_128k": 124318,
+   "pref_types": {
+    "neutral_preferences": 2,
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 2,
+    "therapy_background": 1,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 5,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 280,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona280.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona280.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona280.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31257,
+   "total_tokens_128k": 123630,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "anti_stereotypical_pref": 3,
+    "health_and_medical_conditions": 4,
+    "therapy_background": 1,
+    "sensitive_info": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 4,
+    "creative_writing": 1,
+    "professional_writing": 4,
+    "translation": 1,
+    "social_media_post": 1,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 281,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona281.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona281.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona281.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31741,
+   "total_tokens_128k": 124283,
+   "pref_types": {
+    "therapy_background": 3,
+    "ask_to_forget": 8,
+    "stereotypical_pref": 1,
+    "neutral_preferences": 3,
+    "sensitive_info": 1,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "professional_email": 1,
+    "creative_writing": 5,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "trouble_consult": 3,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 289,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona289.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona289.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona289.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31973,
+   "total_tokens_128k": 125069,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "sensitive_info": 6,
+    "anti_stereotypical_pref": 1,
+    "neutral_preferences": 3,
+    "ask_to_forget": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 292,
+   "n_rows": 14,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona292.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona292.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona292.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31877,
+   "total_tokens_128k": 125096,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "sensitive_info": 1,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 2,
+    "therapy_background": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 294,
+   "n_rows": 15,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona294.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona294.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona294.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31851,
+   "total_tokens_128k": 123350,
+   "pref_types": {
+    "neutral_preferences": 2,
+    "sensitive_info": 2,
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 4,
+    "health_and_medical_conditions": 1,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "creative_writing": 5,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 1,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 296,
+   "n_rows": 10,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona296.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona296.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona296.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 29971,
+   "total_tokens_128k": 125894,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "therapy_background": 2,
+    "anti_stereotypical_pref": 2,
+    "neutral_preferences": 2,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 298,
+   "n_rows": 21,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona298.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona298.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona298.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31602,
+   "total_tokens_128k": 122865,
+   "pref_types": {
+    "anti_stereotypical_pref": 4,
+    "ask_to_forget": 11,
+    "sensitive_info": 3,
+    "health_and_medical_conditions": 1,
+    "therapy_background": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 5,
+    "chat_message": 1,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 299,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona299.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona299.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona299.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31966,
+   "total_tokens_128k": 123092,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "neutral_preferences": 3,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 1,
+    "therapy_background": 1,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 307,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona307.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona307.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona307.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31632,
+   "total_tokens_128k": 123064,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "neutral_preferences": 5,
+    "therapy_background": 3,
+    "sensitive_info": 4,
+    "anti_stereotypical_pref": 6,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 309,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona309.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona309.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona309.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31858,
+   "total_tokens_128k": 118034,
+   "pref_types": {
+    "ask_to_forget": 12,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 4,
+    "stereotypical_pref": 3,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 310,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona310.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona310.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona310.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31607,
+   "total_tokens_128k": 122141,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 2,
+    "neutral_preferences": 6,
+    "therapy_background": 2,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 5,
+    "translation": 1,
+    "social_media_post": 5,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 312,
+   "n_rows": 19,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona312.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona312.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona312.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30950,
+   "total_tokens_128k": 126243,
+   "pref_types": {
+    "anti_stereotypical_pref": 6,
+    "sensitive_info": 3,
+    "ask_to_forget": 6,
+    "health_and_medical_conditions": 2,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "professional_email": 4,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "chat_message": 4,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 314,
+   "n_rows": 16,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona314.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona314.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona314.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31495,
+   "total_tokens_128k": 127395,
+   "pref_types": {
+    "therapy_background": 1,
+    "stereotypical_pref": 2,
+    "ask_to_forget": 6,
+    "anti_stereotypical_pref": 3,
+    "sensitive_info": 1,
+    "health_and_medical_conditions": 1,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 5,
+    "professional_writing": 1,
+    "chat_message": 1,
+    "translation": 1,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 318,
+   "n_rows": 10,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona318.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona318.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona318.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30407,
+   "total_tokens_128k": 124692,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 3
+   },
+   "scenarios": {
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 1,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 319,
+   "n_rows": 16,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona319.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona319.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona319.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31818,
+   "total_tokens_128k": 122922,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "sensitive_info": 3,
+    "stereotypical_pref": 2,
+    "health_and_medical_conditions": 2,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 321,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona321.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona321.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona321.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31940,
+   "total_tokens_128k": 123210,
+   "pref_types": {
+    "ask_to_forget": 12,
+    "therapy_background": 4,
+    "neutral_preferences": 1,
+    "anti_stereotypical_pref": 1,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 5,
+    "trouble_consult": 4,
+    "social_media_post": 3
+   }
+  },
+  {
+   "persona_id": 327,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona327.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona327.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona327.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31849,
+   "total_tokens_128k": 116501,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "ask_to_forget": 13,
+    "anti_stereotypical_pref": 4,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 4,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "personal_email": 6,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 1,
+    "chat_message": 6,
+    "translation": 4,
+    "trouble_consult": 2,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 328,
+   "n_rows": 14,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona328.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona328.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona328.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31755,
+   "total_tokens_128k": 124327,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "therapy_background": 1,
+    "anti_stereotypical_pref": 5,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 1,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 332,
+   "n_rows": 14,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona332.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona332.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona332.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31826,
+   "total_tokens_128k": 127027,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 2,
+    "therapy_background": 1,
+    "neutral_preferences": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 346,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona346.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona346.json",
+   "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona346.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31885,
+   "total_tokens_128k": 86427,
+   "pref_types": {
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 6,
+    "ask_to_forget": 3,
+    "therapy_background": 4,
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 5
+   },
+   "scenarios": {
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 7,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 351,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona351.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona351.json",
+   "raw_persona_file": "data/raw_data/raw_data_250817_221909_persona351.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31931,
+   "total_tokens_128k": 89392,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 5,
+    "therapy_background": 7,
+    "sensitive_info": 2,
+    "stereotypical_pref": 5,
+    "ask_to_forget": 3,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "professional_email": 6,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "translation": 4,
+    "trouble_consult": 4,
+    "social_media_post": 1,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 355,
+   "n_rows": 16,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona355.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona355.json",
+   "raw_persona_file": "data/raw_data/raw_data_250817_221909_persona355.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31586,
+   "total_tokens_128k": 122677,
+   "pref_types": {
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 6,
+    "therapy_background": 2,
+    "ask_to_forget": 2,
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 2,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 361,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona361.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona361.json",
+   "raw_persona_file": "data/raw_data/raw_data_250817_221909_persona361.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31998,
+   "total_tokens_128k": 84461,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 5,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 4,
+    "stereotypical_pref": 3,
+    "ask_to_forget": 4
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 5,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 363,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona363.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona363.json",
+   "raw_persona_file": "data/raw_data/raw_data_250817_221909_persona363.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31623,
+   "total_tokens_128k": 122779,
+   "pref_types": {
+    "sensitive_info": 4,
+    "ask_to_forget": 7,
+    "therapy_background": 5,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 4,
+    "professional_writing": 5,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 2,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 365,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona365.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona365.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona365.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31951,
+   "total_tokens_128k": 123174,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "ask_to_forget": 7,
+    "therapy_background": 4,
+    "sensitive_info": 3,
+    "neutral_preferences": 4,
+    "anti_stereotypical_pref": 3,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 6,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 5,
+    "trouble_consult": 3,
+    "social_media_post": 6
+   }
+  },
+  {
+   "persona_id": 370,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona370.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona370.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona370.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31841,
+   "total_tokens_128k": 123388,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "ask_to_forget": 9,
+    "neutral_preferences": 2,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 2,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 4,
+    "trouble_consult": 2,
+    "social_media_post": 3,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 371,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona371.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona371.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona371.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31771,
+   "total_tokens_128k": 123228,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "sensitive_info": 5,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 6,
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 2,
+    "social_media_post": 4,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 377,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona377.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona377.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona377.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31851,
+   "total_tokens_128k": 126812,
+   "pref_types": {
+    "therapy_background": 1,
+    "health_and_medical_conditions": 4,
+    "ask_to_forget": 9,
+    "neutral_preferences": 3,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 382,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona382.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona382.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona382.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31982,
+   "total_tokens_128k": 123368,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 3,
+    "neutral_preferences": 7,
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 2,
+    "ask_to_forget": 5,
+    "therapy_background": 4
+   },
+   "scenarios": {
+    "personal_email": 6,
+    "professional_email": 5,
+    "creative_writing": 4,
+    "professional_writing": 2,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 408,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona408.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona408.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona408.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31929,
+   "total_tokens_128k": 124025,
+   "pref_types": {
+    "ask_to_forget": 1,
+    "stereotypical_pref": 5,
+    "neutral_preferences": 6,
+    "therapy_background": 7,
+    "anti_stereotypical_pref": 5,
+    "sensitive_info": 3,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 6,
+    "professional_writing": 7,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 411,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona411.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona411.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona411.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31588,
+   "total_tokens_128k": 123945,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 7,
+    "stereotypical_pref": 1,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 3,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 425,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona425.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona425.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona425.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31988,
+   "total_tokens_128k": 111941,
+   "pref_types": {
+    "anti_stereotypical_pref": 8,
+    "ask_to_forget": 6,
+    "health_and_medical_conditions": 5,
+    "neutral_preferences": 2,
+    "therapy_background": 2,
+    "sensitive_info": 2,
+    "stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 4,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 5,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 429,
+   "n_rows": 39,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona429.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona429.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona429.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31902,
+   "total_tokens_128k": 91417,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "stereotypical_pref": 7,
+    "neutral_preferences": 8,
+    "health_and_medical_conditions": 8,
+    "sensitive_info": 4,
+    "ask_to_forget": 3,
+    "therapy_background": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 5,
+    "professional_writing": 3,
+    "chat_message": 5,
+    "translation": 5,
+    "trouble_consult": 6,
+    "social_media_post": 3,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 432,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona432.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona432.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona432.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31751,
+   "total_tokens_128k": 122899,
+   "pref_types": {
+    "neutral_preferences": 7,
+    "ask_to_forget": 4,
+    "health_and_medical_conditions": 3,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 2,
+    "therapy_background": 3
+   },
+   "scenarios": {
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 436,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona436.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona436.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona436.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31669,
+   "total_tokens_128k": 121922,
+   "pref_types": {
+    "therapy_background": 5,
+    "neutral_preferences": 8,
+    "anti_stereotypical_pref": 5,
+    "ask_to_forget": 1,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 439,
+   "n_rows": 35,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona439.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona439.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona439.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31926,
+   "total_tokens_128k": 124663,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "therapy_background": 3,
+    "neutral_preferences": 5,
+    "sensitive_info": 6,
+    "anti_stereotypical_pref": 8,
+    "health_and_medical_conditions": 4,
+    "stereotypical_pref": 6
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 5,
+    "translation": 8,
+    "trouble_consult": 5,
+    "social_media_post": 1,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 445,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona445.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona445.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona445.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31788,
+   "total_tokens_128k": 89672,
+   "pref_types": {
+    "ask_to_forget": 1,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 6,
+    "therapy_background": 3,
+    "stereotypical_pref": 6
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 451,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona451.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona451.json",
+   "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona451.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31848,
+   "total_tokens_128k": 123076,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "ask_to_forget": 8,
+    "stereotypical_pref": 4,
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 3,
+    "therapy_background": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 8,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 462,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona462.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona462.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona462.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31766,
+   "total_tokens_128k": 125286,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 2,
+    "stereotypical_pref": 2,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 2,
+    "neutral_preferences": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 7,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "translation": 5,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 479,
+   "n_rows": 21,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona479.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona479.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona479.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 26008,
+   "total_tokens_128k": 124277,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "therapy_background": 2,
+    "ask_to_forget": 7,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 1
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "translation": 5,
+    "trouble_consult": 2,
+    "social_media_post": 3,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 486,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona486.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona486.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona486.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 26302,
+   "total_tokens_128k": 126056,
+   "pref_types": {
+    "anti_stereotypical_pref": 7,
+    "ask_to_forget": 9,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 4,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 2,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 493,
+   "n_rows": 19,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona493.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona493.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona493.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31759,
+   "total_tokens_128k": 123148,
+   "pref_types": {
+    "sensitive_info": 1,
+    "anti_stereotypical_pref": 3,
+    "therapy_background": 4,
+    "ask_to_forget": 3,
+    "neutral_preferences": 4,
+    "stereotypical_pref": 1,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 1,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 494,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona494.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona494.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona494.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31991,
+   "total_tokens_128k": 72420,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "health_and_medical_conditions": 5,
+    "neutral_preferences": 7,
+    "therapy_background": 3,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 9,
+    "creative_writing": 4,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 3,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 499,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona499.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona499.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona499.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 25177,
+   "total_tokens_128k": 123365,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 3,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 3,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "creative_writing": 6,
+    "professional_writing": 1,
+    "translation": 5,
+    "trouble_consult": 1,
+    "social_media_post": 5,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 513,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona513.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona513.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona513.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31938,
+   "total_tokens_128k": 120210,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "neutral_preferences": 2,
+    "therapy_background": 5,
+    "ask_to_forget": 3,
+    "anti_stereotypical_pref": 8,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 521,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona521.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona521.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona521.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31842,
+   "total_tokens_128k": 104178,
+   "pref_types": {
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 5,
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 4,
+    "stereotypical_pref": 4,
+    "ask_to_forget": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 5,
+    "trouble_consult": 4,
+    "knowledge_query": 9
+   }
+  },
+  {
+   "persona_id": 522,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona522.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona522.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona522.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31842,
+   "total_tokens_128k": 123400,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "stereotypical_pref": 6,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 2,
+    "neutral_preferences": 3,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 5
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 5,
+    "chat_message": 4,
+    "translation": 4,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 526,
+   "n_rows": 16,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona526.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona526.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona526.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 27987,
+   "total_tokens_128k": 124230,
+   "pref_types": {
+    "anti_stereotypical_pref": 6,
+    "ask_to_forget": 3,
+    "neutral_preferences": 5,
+    "stereotypical_pref": 1,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "translation": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 527,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona527.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona527.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona527.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31695,
+   "total_tokens_128k": 125644,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "health_and_medical_conditions": 3,
+    "anti_stereotypical_pref": 3,
+    "neutral_preferences": 4,
+    "therapy_background": 5,
+    "stereotypical_pref": 2,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 4,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 5,
+    "social_media_post": 3,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 528,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona528.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona528.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona528.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31884,
+   "total_tokens_128k": 102495,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "ask_to_forget": 5,
+    "neutral_preferences": 7,
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 5,
+    "trouble_consult": 4,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 529,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona529.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona529.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona529.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31856,
+   "total_tokens_128k": 101778,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "neutral_preferences": 1,
+    "therapy_background": 5,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 6,
+    "health_and_medical_conditions": 6,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 6,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 534,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona534.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona534.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona534.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31701,
+   "total_tokens_128k": 124128,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "ask_to_forget": 6,
+    "therapy_background": 4,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 3,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 1,
+    "chat_message": 4,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 542,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona542.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona542.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona542.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31893,
+   "total_tokens_128k": 106371,
+   "pref_types": {
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 5,
+    "therapy_background": 4,
+    "anti_stereotypical_pref": 2,
+    "stereotypical_pref": 4,
+    "ask_to_forget": 6
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 4,
+    "creative_writing": 4,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 543,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona543.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona543.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona543.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31982,
+   "total_tokens_128k": 122814,
+   "pref_types": {
+    "ask_to_forget": 8,
+    "anti_stereotypical_pref": 5,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 3,
+    "therapy_background": 6,
+    "neutral_preferences": 2,
+    "stereotypical_pref": 5
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 5,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 4,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 8,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 548,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona548.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona548.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona548.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31995,
+   "total_tokens_128k": 99912,
+   "pref_types": {
+    "therapy_background": 1,
+    "health_and_medical_conditions": 3,
+    "anti_stereotypical_pref": 4,
+    "ask_to_forget": 5,
+    "sensitive_info": 1,
+    "stereotypical_pref": 1,
+    "neutral_preferences": 7
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 549,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona549.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona549.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona549.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 34137,
+   "total_tokens_128k": 79088,
+   "pref_types": {
+    "health_and_medical_conditions": 3,
+    "therapy_background": 7,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 6,
+    "stereotypical_pref": 2,
+    "neutral_preferences": 8
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "chat_message": 5,
+    "translation": 1,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 9
+   }
+  },
+  {
+   "persona_id": 554,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona554.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona554.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona554.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31748,
+   "total_tokens_128k": 123641,
+   "pref_types": {
+    "ask_to_forget": 9,
+    "anti_stereotypical_pref": 2,
+    "therapy_background": 1,
+    "health_and_medical_conditions": 2,
+    "neutral_preferences": 2,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 559,
+   "n_rows": 15,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona559.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona559.json",
+   "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona559.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31855,
+   "total_tokens_128k": 114200,
+   "pref_types": {
+    "neutral_preferences": 3,
+    "anti_stereotypical_pref": 2,
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 1,
+    "sensitive_info": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 570,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona570.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona570.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona570.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31903,
+   "total_tokens_128k": 118680,
+   "pref_types": {
+    "neutral_preferences": 6,
+    "therapy_background": 4,
+    "stereotypical_pref": 2,
+    "ask_to_forget": 6,
+    "anti_stereotypical_pref": 2,
+    "health_and_medical_conditions": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 6,
+    "translation": 5,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 578,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona578.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona578.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona578.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31894,
+   "total_tokens_128k": 81249,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "stereotypical_pref": 2,
+    "health_and_medical_conditions": 6,
+    "neutral_preferences": 6,
+    "therapy_background": 1,
+    "anti_stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 4,
+    "trouble_consult": 2,
+    "social_media_post": 1,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 583,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona583.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona583.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona583.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31972,
+   "total_tokens_128k": 121391,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 8,
+    "therapy_background": 5,
+    "health_and_medical_conditions": 1,
+    "ask_to_forget": 5,
+    "sensitive_info": 3,
+    "neutral_preferences": 4
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 5,
+    "creative_writing": 2,
+    "professional_writing": 5,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 584,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona584.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona584.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona584.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31755,
+   "total_tokens_128k": 124774,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 1,
+    "health_and_medical_conditions": 5,
+    "neutral_preferences": 5,
+    "ask_to_forget": 2,
+    "sensitive_info": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 5,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 1,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 589,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona589.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona589.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona589.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31863,
+   "total_tokens_128k": 112322,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "anti_stereotypical_pref": 7,
+    "neutral_preferences": 7,
+    "sensitive_info": 1,
+    "stereotypical_pref": 3,
+    "therapy_background": 4
+   },
+   "scenarios": {
+    "personal_email": 6,
+    "professional_email": 3,
+    "creative_writing": 4,
+    "professional_writing": 4,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 590,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona590.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona590.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona590.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31670,
+   "total_tokens_128k": 124472,
+   "pref_types": {
+    "neutral_preferences": 5,
+    "therapy_background": 5,
+    "sensitive_info": 7,
+    "health_and_medical_conditions": 3,
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 5,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 7,
+    "trouble_consult": 1,
+    "social_media_post": 5,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 595,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona595.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona595.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona595.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31941,
+   "total_tokens_128k": 123738,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "ask_to_forget": 4,
+    "anti_stereotypical_pref": 8,
+    "neutral_preferences": 8,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 5
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 4,
+    "trouble_consult": 6,
+    "social_media_post": 4,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 599,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona599.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona599.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona599.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31970,
+   "total_tokens_128k": 120903,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "neutral_preferences": 3,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 1,
+    "ask_to_forget": 1,
+    "anti_stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 601,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona601.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona601.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona601.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31863,
+   "total_tokens_128k": 121724,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 4,
+    "ask_to_forget": 2,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 7,
+    "sensitive_info": 7
+   },
+   "scenarios": {
+    "professional_email": 11,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 4,
+    "trouble_consult": 4,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 604,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona604.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona604.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona604.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 23875,
+   "total_tokens_128k": 123557,
+   "pref_types": {
+    "neutral_preferences": 5,
+    "ask_to_forget": 6,
+    "sensitive_info": 3,
+    "stereotypical_pref": 4,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 5,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 7,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 2,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 613,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona613.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona613.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona613.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31869,
+   "total_tokens_128k": 123751,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "ask_to_forget": 6,
+    "therapy_background": 5,
+    "anti_stereotypical_pref": 2,
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 1,
+    "neutral_preferences": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 5,
+    "trouble_consult": 3,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 617,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona617.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona617.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona617.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 26599,
+   "total_tokens_128k": 124227,
+   "pref_types": {
+    "therapy_background": 8,
+    "health_and_medical_conditions": 3,
+    "ask_to_forget": 5,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 2,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 5,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 1,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 621,
+   "n_rows": 19,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona621.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona621.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona621.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31616,
+   "total_tokens_128k": 125088,
+   "pref_types": {
+    "anti_stereotypical_pref": 1,
+    "neutral_preferences": 3,
+    "health_and_medical_conditions": 4,
+    "ask_to_forget": 7,
+    "sensitive_info": 2,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 8,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 2,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 626,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona626.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona626.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona626.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31822,
+   "total_tokens_128k": 125223,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "therapy_background": 3,
+    "anti_stereotypical_pref": 6,
+    "stereotypical_pref": 5,
+    "sensitive_info": 2,
+    "neutral_preferences": 2,
+    "health_and_medical_conditions": 4
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 5,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 635,
+   "n_rows": 34,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona635.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona635.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona635.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31720,
+   "total_tokens_128k": 121761,
+   "pref_types": {
+    "stereotypical_pref": 8,
+    "ask_to_forget": 10,
+    "sensitive_info": 5,
+    "anti_stereotypical_pref": 1,
+    "health_and_medical_conditions": 1,
+    "therapy_background": 5,
+    "neutral_preferences": 4
+   },
+   "scenarios": {
+    "personal_email": 6,
+    "professional_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 7,
+    "chat_message": 4,
+    "translation": 7,
+    "trouble_consult": 5,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 636,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona636.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona636.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona636.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31985,
+   "total_tokens_128k": 120721,
+   "pref_types": {
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 6,
+    "ask_to_forget": 6,
+    "sensitive_info": 5,
+    "health_and_medical_conditions": 2,
+    "therapy_background": 4,
+    "stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 8,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 4,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 643,
+   "n_rows": 33,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona643.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona643.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona643.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31964,
+   "total_tokens_128k": 102358,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 4,
+    "anti_stereotypical_pref": 6,
+    "therapy_background": 3,
+    "neutral_preferences": 7,
+    "sensitive_info": 5,
+    "stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 7,
+    "translation": 2,
+    "trouble_consult": 6,
+    "social_media_post": 4,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 644,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona644.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona644.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona644.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31993,
+   "total_tokens_128k": 126024,
+   "pref_types": {
+    "anti_stereotypical_pref": 8,
+    "neutral_preferences": 5,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 4,
+    "ask_to_forget": 2
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 649,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona649.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona649.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona649.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31747,
+   "total_tokens_128k": 99318,
+   "pref_types": {
+    "therapy_background": 5,
+    "ask_to_forget": 3,
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 7,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 4,
+    "translation": 4,
+    "social_media_post": 4,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 650,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona650.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona650.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona650.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31943,
+   "total_tokens_128k": 121527,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "neutral_preferences": 4,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 6,
+    "sensitive_info": 5,
+    "anti_stereotypical_pref": 6,
+    "stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 5,
+    "creative_writing": 2,
+    "professional_writing": 5,
+    "chat_message": 6,
+    "translation": 1,
+    "social_media_post": 4,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 652,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona652.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona652.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona652.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31880,
+   "total_tokens_128k": 105487,
+   "pref_types": {
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 6,
+    "stereotypical_pref": 5,
+    "ask_to_forget": 5,
+    "therapy_background": 4,
+    "anti_stereotypical_pref": 5
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 4,
+    "translation": 6,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 656,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona656.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona656.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona656.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31890,
+   "total_tokens_128k": 107557,
+   "pref_types": {
+    "neutral_preferences": 4,
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 7,
+    "health_and_medical_conditions": 3,
+    "ask_to_forget": 7,
+    "therapy_background": 4,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 1,
+    "translation": 6,
+    "trouble_consult": 7,
+    "social_media_post": 4,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 660,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona660.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona660.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona660.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31987,
+   "total_tokens_128k": 124412,
+   "pref_types": {
+    "therapy_background": 4,
+    "health_and_medical_conditions": 3,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 7,
+    "ask_to_forget": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 1,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 662,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona662.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona662.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona662.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30410,
+   "total_tokens_128k": 123943,
+   "pref_types": {
+    "health_and_medical_conditions": 3,
+    "neutral_preferences": 3,
+    "therapy_background": 3,
+    "sensitive_info": 2,
+    "ask_to_forget": 2,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 1,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 668,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona668.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona668.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona668.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31938,
+   "total_tokens_128k": 123778,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 6,
+    "neutral_preferences": 7,
+    "stereotypical_pref": 3,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "professional_email": 3,
+    "creative_writing": 4,
+    "professional_writing": 5,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 8,
+    "social_media_post": 4,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 670,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona670.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona670.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona670.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31727,
+   "total_tokens_128k": 124486,
+   "pref_types": {
+    "sensitive_info": 6,
+    "ask_to_forget": 7,
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 2,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 8,
+    "professional_writing": 3,
+    "chat_message": 5,
+    "translation": 5,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 677,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona677.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona677.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona677.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31998,
+   "total_tokens_128k": 123697,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "therapy_background": 1,
+    "sensitive_info": 4,
+    "health_and_medical_conditions": 4,
+    "anti_stereotypical_pref": 1,
+    "neutral_preferences": 5,
+    "stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 678,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona678.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona678.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona678.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31986,
+   "total_tokens_128k": 122155,
+   "pref_types": {
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 5,
+    "sensitive_info": 1,
+    "ask_to_forget": 4,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 1,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 679,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona679.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona679.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona679.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31676,
+   "total_tokens_128k": 116492,
+   "pref_types": {
+    "anti_stereotypical_pref": 4,
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 4,
+    "therapy_background": 4,
+    "sensitive_info": 2,
+    "neutral_preferences": 4,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 4,
+    "creative_writing": 3,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 687,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona687.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona687.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona687.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30484,
+   "total_tokens_128k": 122220,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 3,
+    "neutral_preferences": 6,
+    "sensitive_info": 1,
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 2,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 1,
+    "professional_writing": 1,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 689,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona689.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona689.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona689.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31922,
+   "total_tokens_128k": 121493,
+   "pref_types": {
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 10,
+    "ask_to_forget": 7,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 4,
+    "stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 3,
+    "creative_writing": 5,
+    "professional_writing": 5,
+    "chat_message": 6,
+    "social_media_post": 5,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 692,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona692.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona692.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona692.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31776,
+   "total_tokens_128k": 120400,
+   "pref_types": {
+    "therapy_background": 5,
+    "health_and_medical_conditions": 6,
+    "ask_to_forget": 1,
+    "anti_stereotypical_pref": 2,
+    "neutral_preferences": 6,
+    "sensitive_info": 6,
+    "stereotypical_pref": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "creative_writing": 6,
+    "professional_writing": 5,
+    "chat_message": 2,
+    "trouble_consult": 2,
+    "social_media_post": 4,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 697,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona697.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona697.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona697.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31781,
+   "total_tokens_128k": 121801,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "therapy_background": 3,
+    "stereotypical_pref": 2,
+    "neutral_preferences": 7,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 5
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 1,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 713,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona713.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona713.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona713.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31900,
+   "total_tokens_128k": 124999,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "health_and_medical_conditions": 4,
+    "therapy_background": 5,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 4,
+    "neutral_preferences": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "chat_message": 2,
+    "translation": 7,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 714,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona714.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona714.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona714.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31588,
+   "total_tokens_128k": 122432,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 4,
+    "neutral_preferences": 5,
+    "stereotypical_pref": 3,
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 3
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 4,
+    "creative_writing": 6,
+    "professional_writing": 5,
+    "chat_message": 1,
+    "translation": 4,
+    "trouble_consult": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 716,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona716.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona716.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona716.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31706,
+   "total_tokens_128k": 120431,
+   "pref_types": {
+    "therapy_background": 5,
+    "health_and_medical_conditions": 4,
+    "ask_to_forget": 5,
+    "stereotypical_pref": 4,
+    "sensitive_info": 3,
+    "neutral_preferences": 3,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 5,
+    "chat_message": 4,
+    "translation": 4,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 721,
+   "n_rows": 33,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona721.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona721.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona721.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31607,
+   "total_tokens_128k": 124536,
+   "pref_types": {
+    "stereotypical_pref": 3,
+    "ask_to_forget": 5,
+    "therapy_background": 4,
+    "sensitive_info": 4,
+    "neutral_preferences": 7,
+    "health_and_medical_conditions": 6,
+    "anti_stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 7,
+    "professional_writing": 2,
+    "chat_message": 5,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 5,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 737,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona737.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona737.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona737.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31856,
+   "total_tokens_128k": 123845,
+   "pref_types": {
+    "anti_stereotypical_pref": 6,
+    "sensitive_info": 4,
+    "ask_to_forget": 10,
+    "therapy_background": 5,
+    "neutral_preferences": 2,
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 6,
+    "creative_writing": 6,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 740,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona740.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona740.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona740.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31998,
+   "total_tokens_128k": 78536,
+   "pref_types": {
+    "neutral_preferences": 6,
+    "therapy_background": 1,
+    "sensitive_info": 4,
+    "ask_to_forget": 5,
+    "health_and_medical_conditions": 6,
+    "anti_stereotypical_pref": 2,
+    "stereotypical_pref": 5
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 741,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona741.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona741.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona741.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31817,
+   "total_tokens_128k": 122642,
+   "pref_types": {
+    "health_and_medical_conditions": 4,
+    "sensitive_info": 3,
+    "stereotypical_pref": 5,
+    "ask_to_forget": 5,
+    "neutral_preferences": 4,
+    "anti_stereotypical_pref": 3,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 5,
+    "creative_writing": 5,
+    "professional_writing": 1,
+    "translation": 4,
+    "trouble_consult": 4,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 749,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona749.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona749.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona749.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31873,
+   "total_tokens_128k": 109830,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "sensitive_info": 3,
+    "ask_to_forget": 9,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 3,
+    "stereotypical_pref": 4,
+    "neutral_preferences": 5
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 7,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 4,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 753,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona753.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona753.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona753.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31831,
+   "total_tokens_128k": 103383,
+   "pref_types": {
+    "ask_to_forget": 11,
+    "sensitive_info": 4,
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 2,
+    "health_and_medical_conditions": 2,
+    "therapy_background": 1,
+    "neutral_preferences": 1
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 3,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 6,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 761,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona761.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona761.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona761.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31649,
+   "total_tokens_128k": 111878,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "neutral_preferences": 7,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 4,
+    "sensitive_info": 3,
+    "health_and_medical_conditions": 4,
+    "stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 4,
+    "creative_writing": 4,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 4,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 764,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona764.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona764.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona764.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31743,
+   "total_tokens_128k": 125225,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "anti_stereotypical_pref": 3,
+    "sensitive_info": 4,
+    "ask_to_forget": 7,
+    "neutral_preferences": 4,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 5,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 767,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona767.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona767.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona767.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30958,
+   "total_tokens_128k": 124850,
+   "pref_types": {
+    "neutral_preferences": 3,
+    "ask_to_forget": 9,
+    "health_and_medical_conditions": 2,
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 5,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 787,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona787.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona787.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona787.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31963,
+   "total_tokens_128k": 99235,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "health_and_medical_conditions": 4,
+    "neutral_preferences": 4,
+    "sensitive_info": 2,
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 6,
+    "therapy_background": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 5,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 800,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona800.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona800.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona800.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31756,
+   "total_tokens_128k": 122895,
+   "pref_types": {
+    "anti_stereotypical_pref": 7,
+    "ask_to_forget": 2,
+    "neutral_preferences": 5,
+    "stereotypical_pref": 4,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "trouble_consult": 2,
+    "social_media_post": 4,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 802,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona802.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona802.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona802.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31458,
+   "total_tokens_128k": 122709,
+   "pref_types": {
+    "ask_to_forget": 2,
+    "neutral_preferences": 5,
+    "therapy_background": 4,
+    "anti_stereotypical_pref": 4,
+    "stereotypical_pref": 2,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 810,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona810.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona810.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona810.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31953,
+   "total_tokens_128k": 123931,
+   "pref_types": {
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 4,
+    "therapy_background": 3,
+    "anti_stereotypical_pref": 5,
+    "ask_to_forget": 1,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 5,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 2,
+    "social_media_post": 1,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 811,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona811.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona811.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona811.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31620,
+   "total_tokens_128k": 120015,
+   "pref_types": {
+    "neutral_preferences": 6,
+    "therapy_background": 3,
+    "sensitive_info": 4,
+    "ask_to_forget": 7,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 1,
+    "social_media_post": 7,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 816,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona816.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona816.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona816.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 30995,
+   "total_tokens_128k": 126433,
+   "pref_types": {
+    "ask_to_forget": 8,
+    "anti_stereotypical_pref": 2,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 2,
+    "neutral_preferences": 5,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "creative_writing": 5,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 6,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 820,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona820.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona820.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona820.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31516,
+   "total_tokens_128k": 123129,
+   "pref_types": {
+    "anti_stereotypical_pref": 3,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 2,
+    "neutral_preferences": 5,
+    "ask_to_forget": 9,
+    "stereotypical_pref": 5
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 822,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona822.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona822.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona822.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31877,
+   "total_tokens_128k": 124051,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "neutral_preferences": 7,
+    "therapy_background": 4,
+    "anti_stereotypical_pref": 6,
+    "health_and_medical_conditions": 5,
+    "sensitive_info": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 4,
+    "creative_writing": 6,
+    "professional_writing": 3,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 2,
+    "social_media_post": 1,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 823,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona823.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona823.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona823.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31995,
+   "total_tokens_128k": 120566,
+   "pref_types": {
+    "ask_to_forget": 10,
+    "neutral_preferences": 1,
+    "anti_stereotypical_pref": 6,
+    "therapy_background": 4,
+    "sensitive_info": 2,
+    "stereotypical_pref": 3,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 6,
+    "creative_writing": 1,
+    "chat_message": 2,
+    "translation": 4,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 826,
+   "n_rows": 16,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona826.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona826.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona826.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31986,
+   "total_tokens_128k": 123643,
+   "pref_types": {
+    "neutral_preferences": 5,
+    "therapy_background": 1,
+    "ask_to_forget": 4,
+    "health_and_medical_conditions": 3,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 1,
+    "sensitive_info": 1
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 3,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 829,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona829.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona829.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona829.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 28275,
+   "total_tokens_128k": 125764,
+   "pref_types": {
+    "ask_to_forget": 6,
+    "sensitive_info": 3,
+    "therapy_background": 1,
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 5,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 3,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 837,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona837.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona837.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona837.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31944,
+   "total_tokens_128k": 114833,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "anti_stereotypical_pref": 4,
+    "health_and_medical_conditions": 4,
+    "neutral_preferences": 5,
+    "sensitive_info": 4,
+    "therapy_background": 1,
+    "stereotypical_pref": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 7
+   }
+  },
+  {
+   "persona_id": 845,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona845.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona845.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona845.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 27938,
+   "total_tokens_128k": 124762,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "stereotypical_pref": 2,
+    "sensitive_info": 1,
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 3,
+    "health_and_medical_conditions": 3,
+    "therapy_background": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 849,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona849.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona849.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona849.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31718,
+   "total_tokens_128k": 99302,
+   "pref_types": {
+    "therapy_background": 3,
+    "health_and_medical_conditions": 5,
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 4,
+    "ask_to_forget": 3,
+    "sensitive_info": 4,
+    "neutral_preferences": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 859,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona859.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona859.json",
+   "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona859.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31937,
+   "total_tokens_128k": 99792,
+   "pref_types": {
+    "anti_stereotypical_pref": 3,
+    "therapy_background": 3,
+    "stereotypical_pref": 7,
+    "sensitive_info": 3,
+    "ask_to_forget": 2,
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 5,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 865,
+   "n_rows": 34,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona865.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona865.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona865.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31709,
+   "total_tokens_128k": 76562,
+   "pref_types": {
+    "anti_stereotypical_pref": 6,
+    "health_and_medical_conditions": 5,
+    "sensitive_info": 5,
+    "therapy_background": 7,
+    "stereotypical_pref": 7,
+    "ask_to_forget": 3,
+    "neutral_preferences": 1
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 1,
+    "professional_writing": 6,
+    "chat_message": 8,
+    "translation": 4,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 866,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona866.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona866.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona866.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31961,
+   "total_tokens_128k": 125134,
+   "pref_types": {
+    "neutral_preferences": 6,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 1,
+    "ask_to_forget": 5,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 5,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 867,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona867.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona867.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona867.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31770,
+   "total_tokens_128k": 122100,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "neutral_preferences": 5,
+    "health_and_medical_conditions": 5,
+    "sensitive_info": 3,
+    "ask_to_forget": 3,
+    "therapy_background": 2,
+    "anti_stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 3,
+    "knowledge_query": 9
+   }
+  },
+  {
+   "persona_id": 879,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona879.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona879.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona879.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 32000,
+   "total_tokens_128k": 123622,
+   "pref_types": {
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 2,
+    "ask_to_forget": 2,
+    "neutral_preferences": 4,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 4
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "chat_message": 2,
+    "translation": 3,
+    "trouble_consult": 3,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 883,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona883.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona883.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona883.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31811,
+   "total_tokens_128k": 122952,
+   "pref_types": {
+    "ask_to_forget": 10,
+    "neutral_preferences": 4,
+    "sensitive_info": 8,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 1,
+    "health_and_medical_conditions": 3,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 5,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 6,
+    "translation": 4,
+    "trouble_consult": 5,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 884,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona884.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona884.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona884.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31849,
+   "total_tokens_128k": 125903,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "ask_to_forget": 8,
+    "neutral_preferences": 5,
+    "sensitive_info": 6,
+    "therapy_background": 4,
+    "anti_stereotypical_pref": 4,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 4,
+    "chat_message": 6,
+    "translation": 1,
+    "trouble_consult": 5,
+    "social_media_post": 5,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 892,
+   "n_rows": 18,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona892.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona892.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona892.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31662,
+   "total_tokens_128k": 125086,
+   "pref_types": {
+    "therapy_background": 3,
+    "sensitive_info": 5,
+    "ask_to_forget": 2,
+    "anti_stereotypical_pref": 2,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 4,
+    "professional_writing": 2,
+    "translation": 5,
+    "trouble_consult": 2,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 893,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona893.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona893.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona893.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31619,
+   "total_tokens_128k": 122181,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 3,
+    "health_and_medical_conditions": 1,
+    "ask_to_forget": 5,
+    "sensitive_info": 4,
+    "neutral_preferences": 3
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 5,
+    "professional_writing": 1,
+    "chat_message": 5,
+    "translation": 5,
+    "trouble_consult": 5,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 899,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona899.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona899.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona899.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31818,
+   "total_tokens_128k": 92871,
+   "pref_types": {
+    "stereotypical_pref": 5,
+    "therapy_background": 4,
+    "sensitive_info": 3,
+    "anti_stereotypical_pref": 8,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 2,
+    "ask_to_forget": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 2,
+    "knowledge_query": 9
+   }
+  },
+  {
+   "persona_id": 901,
+   "n_rows": 37,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona901.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona901.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona901.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31603,
+   "total_tokens_128k": 122715,
+   "pref_types": {
+    "ask_to_forget": 10,
+    "therapy_background": 4,
+    "sensitive_info": 3,
+    "stereotypical_pref": 5,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 6,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 7,
+    "creative_writing": 8,
+    "professional_writing": 3,
+    "chat_message": 7,
+    "translation": 4,
+    "trouble_consult": 1,
+    "social_media_post": 4,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 902,
+   "n_rows": 19,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona902.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona902.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona902.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31888,
+   "total_tokens_128k": 122830,
+   "pref_types": {
+    "health_and_medical_conditions": 2,
+    "therapy_background": 3,
+    "stereotypical_pref": 3,
+    "neutral_preferences": 5,
+    "ask_to_forget": 6
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 2,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 1,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 914,
+   "n_rows": 22,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona914.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona914.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona914.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31739,
+   "total_tokens_128k": 127873,
+   "pref_types": {
+    "stereotypical_pref": 1,
+    "neutral_preferences": 5,
+    "therapy_background": 3,
+    "anti_stereotypical_pref": 3,
+    "ask_to_forget": 8,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 4,
+    "creative_writing": 2,
+    "chat_message": 2,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 917,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona917.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona917.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona917.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31610,
+   "total_tokens_128k": 120925,
+   "pref_types": {
+    "stereotypical_pref": 1,
+    "neutral_preferences": 7,
+    "ask_to_forget": 6,
+    "therapy_background": 4,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 4,
+    "health_and_medical_conditions": 5
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 3,
+    "translation": 4,
+    "social_media_post": 5,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 924,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona924.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona924.json",
+   "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona924.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31954,
+   "total_tokens_128k": 123232,
+   "pref_types": {
+    "ask_to_forget": 5,
+    "therapy_background": 4,
+    "stereotypical_pref": 3,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 6,
+    "health_and_medical_conditions": 3,
+    "sensitive_info": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 5,
+    "creative_writing": 6,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 4,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 936,
+   "n_rows": 33,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona936.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona936.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona936.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31513,
+   "total_tokens_128k": 78571,
+   "pref_types": {
+    "ask_to_forget": 4,
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 6,
+    "health_and_medical_conditions": 5,
+    "sensitive_info": 5,
+    "stereotypical_pref": 5,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "professional_email": 8,
+    "creative_writing": 4,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 7,
+    "knowledge_query": 5
+   }
+  },
+  {
+   "persona_id": 938,
+   "n_rows": 30,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona938.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona938.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona938.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31967,
+   "total_tokens_128k": 76243,
+   "pref_types": {
+    "anti_stereotypical_pref": 8,
+    "ask_to_forget": 6,
+    "stereotypical_pref": 1,
+    "neutral_preferences": 4,
+    "therapy_background": 1,
+    "sensitive_info": 4,
+    "health_and_medical_conditions": 6
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 7,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 3,
+    "translation": 3,
+    "trouble_consult": 1,
+    "social_media_post": 3,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 941,
+   "n_rows": 26,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona941.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona941.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona941.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31781,
+   "total_tokens_128k": 124776,
+   "pref_types": {
+    "neutral_preferences": 5,
+    "therapy_background": 9,
+    "sensitive_info": 3,
+    "ask_to_forget": 3,
+    "health_and_medical_conditions": 2,
+    "anti_stereotypical_pref": 3,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 2,
+    "professional_writing": 7,
+    "chat_message": 2,
+    "translation": 7,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 1
+   }
+  },
+  {
+   "persona_id": 942,
+   "n_rows": 25,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona942.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona942.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona942.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31975,
+   "total_tokens_128k": 90409,
+   "pref_types": {
+    "stereotypical_pref": 2,
+    "anti_stereotypical_pref": 6,
+    "sensitive_info": 1,
+    "therapy_background": 5,
+    "neutral_preferences": 8,
+    "health_and_medical_conditions": 2,
+    "ask_to_forget": 1
+   },
+   "scenarios": {
+    "personal_email": 3,
+    "professional_email": 3,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 3,
+    "social_media_post": 1,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 947,
+   "n_rows": 32,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona947.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona947.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona947.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31979,
+   "total_tokens_128k": 123912,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "neutral_preferences": 6,
+    "therapy_background": 6,
+    "sensitive_info": 4,
+    "ask_to_forget": 4,
+    "health_and_medical_conditions": 3,
+    "stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 4,
+    "creative_writing": 5,
+    "professional_writing": 2,
+    "chat_message": 3,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 948,
+   "n_rows": 14,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona948.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona948.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona948.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31811,
+   "total_tokens_128k": 124790,
+   "pref_types": {
+    "ask_to_forget": 3,
+    "stereotypical_pref": 1,
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 4,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 1,
+    "creative_writing": 4,
+    "professional_writing": 1,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 959,
+   "n_rows": 34,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona959.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona959.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona959.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31781,
+   "total_tokens_128k": 102969,
+   "pref_types": {
+    "neutral_preferences": 6,
+    "stereotypical_pref": 5,
+    "ask_to_forget": 5,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 5,
+    "therapy_background": 8,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 1,
+    "professional_email": 3,
+    "creative_writing": 3,
+    "professional_writing": 4,
+    "chat_message": 4,
+    "translation": 3,
+    "trouble_consult": 4,
+    "social_media_post": 3,
+    "knowledge_query": 9
+   }
+  },
+  {
+   "persona_id": 973,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona973.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona973.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona973.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31916,
+   "total_tokens_128k": 101091,
+   "pref_types": {
+    "ask_to_forget": 8,
+    "therapy_background": 7,
+    "anti_stereotypical_pref": 3,
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 4,
+    "sensitive_info": 2,
+    "neutral_preferences": 5
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 1,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 5,
+    "translation": 5,
+    "trouble_consult": 2,
+    "social_media_post": 4,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 974,
+   "n_rows": 20,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona974.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona974.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona974.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31990,
+   "total_tokens_128k": 88887,
+   "pref_types": {
+    "neutral_preferences": 2,
+    "therapy_background": 4,
+    "ask_to_forget": 4,
+    "sensitive_info": 2,
+    "anti_stereotypical_pref": 5,
+    "stereotypical_pref": 1,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 3,
+    "creative_writing": 1,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 4,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 977,
+   "n_rows": 17,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona977.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona977.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona977.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31098,
+   "total_tokens_128k": 123059,
+   "pref_types": {
+    "therapy_background": 2,
+    "ask_to_forget": 6,
+    "neutral_preferences": 3,
+    "anti_stereotypical_pref": 2,
+    "sensitive_info": 2,
+    "stereotypical_pref": 1,
+    "health_and_medical_conditions": 1
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 1,
+    "creative_writing": 5,
+    "professional_writing": 2,
+    "chat_message": 1,
+    "translation": 2,
+    "trouble_consult": 1,
+    "social_media_post": 1,
+    "knowledge_query": 2
+   }
+  },
+  {
+   "persona_id": 978,
+   "n_rows": 29,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona978.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona978.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona978.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31994,
+   "total_tokens_128k": 123705,
+   "pref_types": {
+    "stereotypical_pref": 4,
+    "anti_stereotypical_pref": 7,
+    "ask_to_forget": 3,
+    "neutral_preferences": 6,
+    "health_and_medical_conditions": 5,
+    "sensitive_info": 2,
+    "therapy_background": 2
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "creative_writing": 5,
+    "professional_writing": 6,
+    "chat_message": 2,
+    "translation": 1,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 6
+   }
+  },
+  {
+   "persona_id": 985,
+   "n_rows": 28,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona985.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona985.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona985.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31984,
+   "total_tokens_128k": 122970,
+   "pref_types": {
+    "ask_to_forget": 7,
+    "health_and_medical_conditions": 2,
+    "sensitive_info": 2,
+    "stereotypical_pref": 5,
+    "anti_stereotypical_pref": 7,
+    "therapy_background": 3,
+    "neutral_preferences": 2
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 7,
+    "creative_writing": 3,
+    "professional_writing": 1,
+    "chat_message": 1,
+    "translation": 1,
+    "trouble_consult": 1,
+    "social_media_post": 2,
+    "knowledge_query": 8
+   }
+  },
+  {
+   "persona_id": 986,
+   "n_rows": 23,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona986.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona986.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona986.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31786,
+   "total_tokens_128k": 126071,
+   "pref_types": {
+    "anti_stereotypical_pref": 5,
+    "sensitive_info": 2,
+    "ask_to_forget": 6,
+    "neutral_preferences": 3,
+    "stereotypical_pref": 2,
+    "therapy_background": 2,
+    "health_and_medical_conditions": 3
+   },
+   "scenarios": {
+    "personal_email": 2,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 3,
+    "chat_message": 3,
+    "translation": 1,
+    "trouble_consult": 5,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 989,
+   "n_rows": 31,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona989.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona989.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona989.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31823,
+   "total_tokens_128k": 120848,
+   "pref_types": {
+    "sensitive_info": 3,
+    "ask_to_forget": 8,
+    "anti_stereotypical_pref": 8,
+    "therapy_background": 3,
+    "neutral_preferences": 4,
+    "health_and_medical_conditions": 1,
+    "stereotypical_pref": 4
+   },
+   "scenarios": {
+    "personal_email": 7,
+    "professional_email": 1,
+    "creative_writing": 3,
+    "professional_writing": 3,
+    "chat_message": 5,
+    "translation": 2,
+    "trouble_consult": 5,
+    "social_media_post": 1,
+    "knowledge_query": 4
+   }
+  },
+  {
+   "persona_id": 995,
+   "n_rows": 24,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona995.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona995.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona995.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31848,
+   "total_tokens_128k": 123486,
+   "pref_types": {
+    "anti_stereotypical_pref": 6,
+    "neutral_preferences": 5,
+    "ask_to_forget": 4,
+    "therapy_background": 4,
+    "sensitive_info": 2,
+    "health_and_medical_conditions": 2,
+    "stereotypical_pref": 1
+   },
+   "scenarios": {
+    "personal_email": 5,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 2,
+    "chat_message": 4,
+    "translation": 2,
+    "trouble_consult": 2,
+    "social_media_post": 2,
+    "knowledge_query": 3
+   }
+  },
+  {
+   "persona_id": 998,
+   "n_rows": 27,
+   "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona998.json",
+   "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona998.json",
+   "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona998.json",
+   "n_distinct_32k_histories": 1,
+   "n_distinct_128k_histories": 1,
+   "total_tokens_32k": 31636,
+   "total_tokens_128k": 120981,
+   "pref_types": {
+    "anti_stereotypical_pref": 4,
+    "therapy_background": 8,
+    "neutral_preferences": 4,
+    "ask_to_forget": 5,
+    "stereotypical_pref": 1,
+    "sensitive_info": 3,
+    "health_and_medical_conditions": 2
+   },
+   "scenarios": {
+    "personal_email": 4,
+    "professional_email": 2,
+    "creative_writing": 2,
+    "professional_writing": 4,
+    "chat_message": 5,
+    "translation": 3,
+    "trouble_consult": 3,
+    "social_media_post": 3,
+    "knowledge_query": 1
+   }
+  }
+ ]
+}

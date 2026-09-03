@@ -1,0 +1,64 @@
+{
+  "docstore": {
+    "c4b5d871-c71e-4935-97f8-fe1f74b1c623": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220545_153480",
+      "data": "User arrived at desk 2 and observed that it contains an alarm clock, a bowl, and a pencil",
+      "text_lemmatized": "user arrive desk 2 observe contain alarm clock bowl pencil",
+      "hash": "a6f101c203bc54a04a938ca9de2f9eaa",
+      "created_at": "2026-08-31T16:33:39.991356+00:00",
+      "updated_at": "2026-08-31T16:33:39.991356+00:00",
+      "attributed_to": "user"
+    },
+    "6f501d8a-a488-4f20-9641-d91f6e6348de": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220545_153480",
+      "data": "User picked up the pencil 1 from desk 2",
+      "text_lemmatized": "user pick pencil 1 desk 2",
+      "hash": "3dd13b1b2dd42dbd11ee5c0a1da0f1c4",
+      "created_at": "2026-08-31T16:33:46.912899+00:00",
+      "updated_at": "2026-08-31T16:33:46.912899+00:00",
+      "attributed_to": "user"
+    },
+    "226a3272-fe6d-4298-9b88-412697e6ad92": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220545_153480",
+      "data": "User is currently holding the pencil 1",
+      "text_lemmatized": "user currently hold holding pencil 1",
+      "hash": "2fe7afe94a4c631cf4b316d7599ba00b",
+      "created_at": "2026-08-31T16:33:46.914044+00:00",
+      "updated_at": "2026-08-31T16:33:46.914044+00:00",
+      "attributed_to": "user"
+    },
+    "ba6da7f3-cde5-49e1-9645-931a375aecc8": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220545_153480",
+      "data": "User arrived at desk 1 and observed that it contains a bowl, a credit card, a desk lamp, a laptop, a mug, and a pen",
+      "text_lemmatized": "user arrive desk 1 observe contain bowl credit card desk lamp laptop mug pen",
+      "hash": "ec6c2237702eb7ba6a0de59973857e5a",
+      "created_at": "2026-08-31T16:34:00.520591+00:00",
+      "updated_at": "2026-08-31T16:34:00.520591+00:00"
+    },
+    "d15b1f24-c079-45e5-af80-d6f3619ec355": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220545_153480",
+      "data": "User is currently at desk 1 and has not picked up any items yet",
+      "text_lemmatized": "user currently desk 1 pick item",
+      "hash": "00876c5f430ce181186375d5ec3504c0",
+      "created_at": "2026-08-31T16:34:00.521800+00:00",
+      "updated_at": "2026-08-31T16:34:00.521800+00:00"
+    },
+    "2964cd28-1679-4e4a-b1fe-54b4ed6e71bc": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220545_153480",
+      "data": "User turned on the desklamp 1 at desk 1",
+      "text_lemmatized": "user turn desklamp 1 desk 1",
+      "hash": "e61616939fcd707f8f76a94882c1f684",
+      "created_at": "2026-08-31T16:34:07.479113+00:00",
+      "updated_at": "2026-08-31T16:34:07.479113+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "c4b5d871-c71e-4935-97f8-fe1f74b1c623",
+    "1": "6f501d8a-a488-4f20-9641-d91f6e6348de",
+    "2": "226a3272-fe6d-4298-9b88-412697e6ad92",
+    "3": "ba6da7f3-cde5-49e1-9645-931a375aecc8",
+    "4": "d15b1f24-c079-45e5-af80-d6f3619ec355",
+    "5": "2964cd28-1679-4e4a-b1fe-54b4ed6e71bc"
+  }
+}

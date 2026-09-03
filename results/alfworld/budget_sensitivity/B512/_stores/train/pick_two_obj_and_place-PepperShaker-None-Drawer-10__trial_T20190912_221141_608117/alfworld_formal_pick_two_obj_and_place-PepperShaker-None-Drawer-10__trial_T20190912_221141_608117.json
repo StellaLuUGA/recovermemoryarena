@@ -1,0 +1,175 @@
+{
+  "docstore": {
+    "55c832dd-0150-4c5a-abc6-6b95bc1de663": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User's task is to find two peppershakers and put them in a drawer",
+      "text_lemmatized": "user task find peppershaker drawer",
+      "hash": "4731ff674b3638481ef99652d527513d",
+      "created_at": "2026-08-31T15:51:11.942491+00:00",
+      "updated_at": "2026-08-31T15:51:11.942491+00:00",
+      "attributed_to": "user"
+    },
+    "68c8962f-2c8e-4284-ba85-9b62b0c98cab": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User found a peppershaker (peppershaker 2) on cabinet 1, along with a dishsponge 1 and a glassbottle 1",
+      "text_lemmatized": "user find peppershaker peppershaker 2 cabinet 1 dishsponge 1 glassbottle 1",
+      "hash": "f5909c106eb65a2a56d38895e48d6a26",
+      "created_at": "2026-08-31T15:51:16.910947+00:00",
+      "updated_at": "2026-08-31T15:51:16.910947+00:00",
+      "attributed_to": "user"
+    },
+    "c681e3f5-8735-4d41-aff0-c92d526554cf": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User picked up peppershaker 2 from cabinet 1",
+      "text_lemmatized": "user pick peppershaker 2 cabinet 1",
+      "hash": "acca32f71014d8524470b80e5e93230f",
+      "created_at": "2026-08-31T15:51:25.393744+00:00",
+      "updated_at": "2026-08-31T15:51:25.393744+00:00",
+      "attributed_to": "user"
+    },
+    "246e0341-3a77-487b-8ac8-45ba4f34a971": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User arrived at cabinet 2, which is closed",
+      "text_lemmatized": "user arrive cabinet 2 close",
+      "hash": "ea034f4d429d41b101b6e03f85053072",
+      "created_at": "2026-08-31T15:51:43.916324+00:00",
+      "updated_at": "2026-08-31T15:51:43.916324+00:00",
+      "attributed_to": "user"
+    },
+    "7a438393-874c-40d6-b392-dc652c265aab": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User opened cabinet 2 and found that it is empty",
+      "text_lemmatized": "user open cabinet 2 find",
+      "hash": "1c07d8a5653552b9c1ccdb730a1577d6",
+      "created_at": "2026-08-31T15:51:48.893436+00:00",
+      "updated_at": "2026-08-31T15:51:48.893436+00:00",
+      "attributed_to": "user"
+    },
+    "db6ed82e-97ca-4473-a2c7-4b8b3b9809cc": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User is searching for a second peppershaker to complete the task of placing two peppershakers in a drawer",
+      "text_lemmatized": "user search searching second peppershaker complete task place placing peppershaker drawer",
+      "hash": "6f76fd8281d4b54f8060aa78f0065f71",
+      "created_at": "2026-08-31T15:51:48.894947+00:00",
+      "updated_at": "2026-08-31T15:51:48.894947+00:00",
+      "attributed_to": "user"
+    },
+    "c743a831-c0a9-44b0-8899-32cde8653f86": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User arrived at cabinet 3 and found a plate 1 on it",
+      "text_lemmatized": "user arrive cabinet 3 find plate 1",
+      "hash": "60a97139b735608cdd793ad93ab519fd",
+      "created_at": "2026-08-31T15:51:53.368735+00:00",
+      "updated_at": "2026-08-31T15:51:53.368735+00:00",
+      "attributed_to": "user"
+    },
+    "b5269829-5d2a-4eed-9762-4a6d13ad1cc0": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User arrived at cabinet 4 and found a peppershaker 1 on it",
+      "text_lemmatized": "user arrive cabinet 4 find peppershaker 1",
+      "hash": "3d21a0bb295e7f9782441398d4487ee8",
+      "created_at": "2026-08-31T15:51:58.193748+00:00",
+      "updated_at": "2026-08-31T15:51:58.193748+00:00",
+      "attributed_to": "user"
+    },
+    "ce09bad4-c1c5-4c8b-a33d-61b2c6385bd3": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User attempted to take peppershaker 1 from cabinet 4 but nothing happened",
+      "text_lemmatized": "user attempt peppershaker 1 cabinet 4 happen",
+      "hash": "4fab477db678100eba61423ba2760a05",
+      "created_at": "2026-08-31T15:52:02.762010+00:00",
+      "updated_at": "2026-08-31T15:52:02.762010+00:00",
+      "attributed_to": "user"
+    },
+    "54ded88d-8470-483c-9253-100f22f903a1": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User arrived at cabinet 5, which is closed",
+      "text_lemmatized": "user arrive cabinet 5 close",
+      "hash": "e043d846ac3ad9ee8cf97f7fb4fb3535",
+      "created_at": "2026-08-31T15:52:07.044632+00:00",
+      "updated_at": "2026-08-31T15:52:07.044632+00:00",
+      "attributed_to": "user"
+    },
+    "8e9e64c4-8c27-4131-b19c-f928069b3afe": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User is still searching for a second peppershaker to complete the task of placing two peppershakers in a drawer",
+      "text_lemmatized": "user search searching second peppershaker complete task place placing peppershaker drawer",
+      "hash": "bf97ea1a8406a825a4d8292dd488f612",
+      "created_at": "2026-08-31T15:52:12.618512+00:00",
+      "updated_at": "2026-08-31T15:52:12.618512+00:00",
+      "attributed_to": "user"
+    },
+    "b5179ceb-243f-4087-905d-1d31c14cb7a6": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User arrived at drawer 1, which is closed",
+      "text_lemmatized": "user arrive drawer 1 close",
+      "hash": "24b2eaa15cda4c75fd9d128d6a4a32fa",
+      "created_at": "2026-08-31T15:52:21.867669+00:00",
+      "updated_at": "2026-08-31T15:52:21.867669+00:00"
+    },
+    "faa41afd-be2d-4c1d-bd48-5b1aabfb71e2": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User opened drawer 1 and found a credit card (creditcard 1) and a spatula (spatula 1) inside",
+      "text_lemmatized": "user open drawer 1 find credit card creditcard 1 spatula spatula 1 inside",
+      "hash": "baa9174644760bf208c5d2f57839ac86",
+      "created_at": "2026-08-31T15:52:26.918991+00:00",
+      "updated_at": "2026-08-31T15:52:26.918991+00:00",
+      "attributed_to": "user"
+    },
+    "cda122ac-e593-45dc-b5ce-8f1e9194d466": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User moved peppershaker 2 to drawer 1, which now contains peppershaker 2, a credit card (creditcard 1), and a spatula (spatula 1)",
+      "text_lemmatized": "user move peppershaker 2 drawer 1 contain peppershaker 2 credit card creditcard 1 spatula spatula 1",
+      "hash": "bce254404abc0a58b1254d41b75a81b9",
+      "created_at": "2026-08-31T15:52:36.953971+00:00",
+      "updated_at": "2026-08-31T15:52:36.953971+00:00",
+      "attributed_to": "user"
+    },
+    "d08a1690-9497-43d2-b9a5-0b61a1869804": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User picked up peppershaker 1 from cabinet 4 on August 31, 2026",
+      "text_lemmatized": "user pick peppershaker 1 cabinet 4 august 31 2026",
+      "hash": "0465e3390b7f98fdec0909220bb2c115",
+      "created_at": "2026-08-31T15:52:57.605915+00:00",
+      "updated_at": "2026-08-31T15:52:57.605915+00:00",
+      "attributed_to": "user"
+    },
+    "be406465-9a3a-47dd-b6d7-4b01c4c53ec3": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User arrived at drawer 1, which is open. Inside, they see a credit card (creditcard 1), a peppershaker (peppershaker 2), and a spatula (spatula 1)",
+      "text_lemmatized": "user arrive drawer 1 open inside credit card creditcard 1 peppershaker peppershaker 2 spatula spatula 1",
+      "hash": "a0a74192f1000bcb3ddf90a531a1d7de",
+      "created_at": "2026-08-31T15:53:08.194156+00:00",
+      "updated_at": "2026-08-31T15:53:08.194156+00:00",
+      "attributed_to": "user"
+    },
+    "15e62735-a944-499d-a88d-9b7d569876df": {
+      "user_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10__trial_T20190912_221141_608117",
+      "data": "User moved peppershaker 1 to drawer 1, which now contains peppershaker 1, peppershaker 2, a credit card (creditcard 1), and a spatula (spatula 1)",
+      "text_lemmatized": "user move peppershaker 1 drawer 1 contain peppershaker 1 peppershaker 2 credit card creditcard 1 spatula spatula 1",
+      "hash": "cfb80340f3d6a44b42c0d7c083bf43ce",
+      "created_at": "2026-08-31T15:53:18.843154+00:00",
+      "updated_at": "2026-08-31T15:53:18.843154+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "55c832dd-0150-4c5a-abc6-6b95bc1de663",
+    "1": "68c8962f-2c8e-4284-ba85-9b62b0c98cab",
+    "2": "c681e3f5-8735-4d41-aff0-c92d526554cf",
+    "3": "246e0341-3a77-487b-8ac8-45ba4f34a971",
+    "4": "7a438393-874c-40d6-b392-dc652c265aab",
+    "5": "db6ed82e-97ca-4473-a2c7-4b8b3b9809cc",
+    "6": "c743a831-c0a9-44b0-8899-32cde8653f86",
+    "7": "b5269829-5d2a-4eed-9762-4a6d13ad1cc0",
+    "8": "ce09bad4-c1c5-4c8b-a33d-61b2c6385bd3",
+    "9": "54ded88d-8470-483c-9253-100f22f903a1",
+    "10": "8e9e64c4-8c27-4131-b19c-f928069b3afe",
+    "11": "b5179ceb-243f-4087-905d-1d31c14cb7a6",
+    "12": "faa41afd-be2d-4c1d-bd48-5b1aabfb71e2",
+    "13": "cda122ac-e593-45dc-b5ce-8f1e9194d466",
+    "14": "d08a1690-9497-43d2-b9a5-0b61a1869804",
+    "15": "be406465-9a3a-47dd-b6d7-4b01c4c53ec3",
+    "16": "15e62735-a944-499d-a88d-9b7d569876df"
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "domain": "ALFWorld (AlfredTWEnv, valid_unseen)",
+  "reproducibility": {
+    "alfworld_version": "0.5.0",
+    "alfworld_commit": "aaba687",
+    "python": "/home/aristella/miniconda3/envs/alfworld/bin/python (3.10)",
+    "backbone": {
+      "model": "qwen3-32b-awq-local",
+      "path": "/home/aristella/models/Qwen3-32B-AWQ",
+      "endpoint": "http://localhost:8124/v1",
+      "enable_thinking": false,
+      "temperature": 0,
+      "seed": 13,
+      "quantization": "AWQ 4-bit / awq_marlin",
+      "dtype": "fp16",
+      "vllm": "0.18.0",
+      "max_model_len": 16384,
+      "kv_cache_dtype": "auto",
+      "device": "RTX 5090"
+    },
+    "mem0": {
+      "mem0_repo": "/home/aristella/RecoverMemMinimal/update_replicate/mem0",
+      "mem0_commit": "39bc02330563764e7d4465f1ecff5f002d94da1a",
+      "llm": "qwen3-32b-awq-local",
+      "llm_base_url": "http://localhost:8124/v1",
+      "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+      "embedding_dims": 384,
+      "vector_store": "faiss",
+      "candidate_top_k": 50,
+      "telemetry": "disabled",
+      "cloud": false
+    },
+    "embedding": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "dims": 384,
+      "device": "cpu"
+    },
+    "tokenizer": "Qwen3-32B-AWQ (exact)",
+    "code_hash": "7c11c87a2d4c80fcb3c1e8dffb4c13020d157e42ecc840c8a6507a6e35f8200a",
+    "exclusion_manifest_sha256": "b3283d99343c6e79c89ea8f2b8a80617939a51987cf08d4208e291bd0cffd468",
+    "split_hashes": {
+      "CLEAN_64": "4183cb627d9c716af5294eee1ea9b5734e061291046a2be3650a876fec4d30bb",
+      "PREDICTOR_TRAIN_16": "0236ef7af6127806176fa56ba29e81f32814aa96b37aaa1ef390f1520922ffb4",
+      "CALIBRATION_24": "8a4a95035a284f7454bf70298028697156a472cbaecbde47c1b73a6075ff7dcf",
+      "FINAL_TEST_24": "2941a3d9592288ca2e194d61d4dce901b45d9eeb5ac305b4ae3f1538b493c873"
+    },
+    "budget_freeze_sha256": "6df85870e9240b851a0ff8272a62e6673f125ac1b71e1e766eb65998005c574f",
+    "predictor_sha256": "1be2ffa0acb62d9f73b9e079648528a6da3e7af3d1d2d5b14c5fadcd2e746159",
+    "thresholds_sha256": "ebad38b0a206f913065bc79a2eb5773c34a7b6714dadba8b896ea65dc1bed12a",
+    "table2_manifest_sha256": "56aef2aeec3f8e45ad976bcae5c5b2411c1a8bf9a69867945115eef244748650",
+    "server_baseline": {
+      "served_models": [
+        "qwen3-32b-awq-local"
+      ],
+      "vllm_processes": [
+        "1560194 /bin/bash -c source /home/aristella/.claude/shell-snapshots/snapshot-bash-1788107367731-km8uvn.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- 'unsetenv'; \\builtin unset -f -- 'unsetenv'; } >/dev/null 2>&1 || true && eval 'mkdir -p results/alfworld/final/logs && until [ \"$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits)\" -lt 2000 ]; do sleep 5; done && nohup ~/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server \\   --model /home/aristella/models/Qwen3-32B-AWQ \\   --served-model-name qwen3-32b-awq-local \\   --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 \\   --no-enable-prefix-caching \\   --default-chat-template-kwargs '\"'\"'{\"enable_thinking\": false}'\"'\"' \\   > results/alfworld/final/logs/vllm_qwen3_formal.log 2>&1 & echo \"qwen pid $!\"' < /dev/null && pwd -P >| /tmp/claude-d9b5-cwd",
+        "1560198 /home/aristella/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server --model /home/aristella/models/Qwen3-32B-AWQ --served-model-name qwen3-32b-awq-local --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 --no-enable-prefix-caching --default-chat-template-kwargs {\"enable_thinking\": false}",
+        "1575434 bash -lc pgrep -af 'vllm.entrypoints' || true"
+      ],
+      "checked_at": "2026-08-31 09:57:04"
+    }
+  },
+  "sample_counts": {
+    "predictor_train": {
+      "split": "predictor_train",
+      "n_episodes_total": 16,
+      "n_episodes_nonempty": 7,
+      "n_episodes_empty": 9,
+      "empty_episode_ids": [
+        "pick_two_obj_and_place-KeyChain-None-Safe-219__trial_T20190909_011803_423115",
+        "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282",
+        "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511",
+        "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+        "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_171933_349922",
+        "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113523_123938",
+        "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113610_425142",
+        "pick_cool_then_place_in_recep-Potato-None-Microwave-10__trial_T20190907_033228_194678",
+        "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972"
+      ],
+      "n_controlled_decisions": 36,
+      "mean_controlled_states_per_nonempty_episode": 5.143,
+      "r_mem_prevalence_decision": 0.9444,
+      "r_rec_prevalence_decision": 0.9722,
+      "r_mem_prevalence_episode_weighted": 0.9439,
+      "joint_cells": {
+        "00": 1,
+        "01": 1,
+        "10": 0,
+        "11": 34
+      },
+      "history_tokens": {
+        "n": 36,
+        "min": 179,
+        "q05": 197.5,
+        "median": 503.5,
+        "mean": 495.9,
+        "q75": 578.5,
+        "q90": 737.5,
+        "q95": 881.8,
+        "max": 1060
+      },
+      "common_state_tokens": {
+        "n": 36,
+        "min": 158,
+        "q05": 164.0,
+        "median": 245.5,
+        "mean": 230.1,
+        "q75": 261.2,
+        "q90": 279.5,
+        "q95": 285.8,
+        "max": 409
+      },
+      "e_mem_tokens": {
+        "n": 36,
+        "min": 43,
+        "q05": 49.8,
+        "median": 235.5,
+        "mean": 207.8,
+        "q75": 276.5,
+        "q90": 349.0,
+        "q95": 399.8,
+        "max": 516
+      },
+      "e_rec_tokens": {
+        "n": 36,
+        "min": 189,
+        "q05": 213.5,
+        "median": 600.0,
+        "mean": 575.8,
+        "q75": 697.2,
+        "q90": 895.5,
+        "q95": 1006.5,
+        "max": 1023
+      }
+    },
+    "calibration": {
+      "split": "calibration",
+      "n_episodes_total": 24,
+      "n_episodes_nonempty": 18,
+      "n_episodes_empty": 6,
+      "empty_episode_ids": [
+        "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+        "pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110531_148235",
+        "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432",
+        "pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080730_211959",
+        "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022321_380927",
+        "pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113432_673307"
+      ],
+      "n_controlled_decisions": 66,
+      "mean_controlled_states_per_nonempty_episode": 3.667,
+      "r_mem_prevalence_decision": 0.9545,
+      "r_rec_prevalence_decision": 0.9091,
+      "r_mem_prevalence_episode_weighted": 0.9444,
+      "joint_cells": {
+        "00": 3,
+        "01": 0,
+        "10": 3,
+        "11": 60
+      },
+      "history_tokens": {
+        "n": 66,
+        "min": 175,
+        "q05": 207.0,
+        "median": 385.0,
+        "mean": 471.7,
+        "q75": 547.0,
+        "q90": 914.5,
+        "q95": 1005.2,
+        "max": 1076
+      },
+      "common_state_tokens": {
+        "n": 66,
+        "min": 168,
+        "q05": 173.0,
+        "median": 251.0,
+        "mean": 237.7,
+        "q75": 261.0,
+        "q90": 270.0,
+        "q95": 276.0,
+        "max": 391
+      },
+      "e_mem_tokens": {
+        "n": 66,
+        "min": 21,
+        "q05": 40.5,
+        "median": 140.5,
+        "mean": 210.1,
+        "q75": 277.0,
+        "q90": 488.0,
+        "q95": 531.2,
+        "max": 580
+      },
+      "e_rec_tokens": {
+        "n": 66,
+        "min": 185,
+        "q05": 221.0,
+        "median": 447.0,
+        "mean": 534.5,
+        "q75": 657.0,
+        "q90": 1019.0,
+        "q95": 1023.0,
+        "max": 1024
+      }
+    },
+    "final_test": {
+      "split": "final_test",
+      "n_episodes_total": 24,
+      "n_episodes_nonempty": 18,
+      "n_episodes_empty": 6,
+      "empty_episode_ids": [
+        "pick_cool_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_114656_768805",
+        "pick_heat_then_place_in_recep-Apple-None-Fridge-10__trial_T20190906_182353_418140",
+        "pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191429_743650",
+        "pick_and_place_simple-Vase-None-Safe-219__trial_T20190908_205221_748352",
+        "pick_clean_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_032518_891433",
+        "pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424__trial_T20190908_215019_162873"
+      ],
+      "n_controlled_decisions": 78,
+      "mean_controlled_states_per_nonempty_episode": 4.333,
+      "r_mem_prevalence_decision": 0.9744,
+      "r_rec_prevalence_decision": 0.9615,
+      "r_mem_prevalence_episode_weighted": 0.963,
+      "joint_cells": {
+        "00": 1,
+        "01": 1,
+        "10": 2,
+        "11": 74
+      },
+      "history_tokens": {
+        "n": 78,
+        "min": 175,
+        "q05": 198.8,
+        "median": 510.5,
+        "mean": 558.3,
+        "q75": 627.8,
+        "q90": 1100.5,
+        "q95": 1164.8,
+        "max": 1233
+      },
+      "common_state_tokens": {
+        "n": 78,
+        "min": 158,
+        "q05": 168.0,
+        "median": 247.5,
+        "mean": 231.5,
+        "q75": 263.8,
+        "q90": 279.0,
+        "q95": 291.7,
+        "max": 436
+      },
+      "e_mem_tokens": {
+        "n": 78,
+        "min": 44,
+        "q05": 55.9,
+        "median": 226.5,
+        "mean": 267.6,
+        "q75": 288.8,
+        "q90": 595.9,
+        "q95": 761.2,
+        "max": 854
+      },
+      "e_rec_tokens": {
+        "n": 78,
+        "min": 193,
+        "q05": 221.8,
+        "median": 614.5,
+        "mean": 610.8,
+        "q75": 755.2,
+        "q90": 1016.6,
+        "q95": 1022.1,
+        "max": 1024
+      }
+    },
+    "split_deviation": "16/24/24 (authorised); 20/32/32 infeasible on 64 clean games"
+  },
+  "data_quality": {
+    "n_paired_records": 180,
+    "n_pair_valid": 180,
+    "pair_valid_rate": 1.0,
+    "reconstruction_violations": 0,
+    "common_state_hash_violations": 0,
+    "budget_violations": 0,
+    "external_api_attempts": 0,
+    "excluded": []
+  },
+  "budget": {
+    "source": "PREDICTOR_TRAIN only; scorer-independent; no R_mem/R_rec computed",
+    "n_controlled_states": 36,
+    "n_episodes": 7,
+    "candidate_budget_ladder": [
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "tokenizer": "Qwen3-32B-AWQ (exact, server tokenizer)",
+    "serving": {
+      "max_model_len": 16384,
+      "reserved_output_tokens": 32,
+      "safety_margin": 256
+    },
+    "current_state_tokens": {
+      "n": 36,
+      "min": 158,
+      "q05": 164.0,
+      "median": 245.5,
+      "mean": 230.1,
+      "q75": 261.2,
+      "q90": 279.5,
+      "q95": 285.8,
+      "max": 409
+    },
+    "native_mem0_evidence_tokens": {
+      "n": 36,
+      "min": 43,
+      "q05": 49.8,
+      "median": 235.5,
+      "mean": 207.8,
+      "q75": 276.5,
+      "q90": 349.0,
+      "q95": 399.8,
+      "max": 516
+    },
+    "raw_observable_history_tokens": {
+      "n": 36,
+      "min": 179,
+      "q05": 197.5,
+      "median": 503.5,
+      "mean": 495.9,
+      "q75": 578.5,
+      "q90": 737.5,
+      "q95": 881.8,
+      "max": 1060
+    },
+    "base_prompt_tokens": {
+      "n": 36,
+      "min": 924,
+      "q05": 930.0,
+      "median": 1011.5,
+      "mean": 996.1,
+      "q75": 1027.2,
+      "q90": 1045.5,
+      "q95": 1051.8,
+      "max": 1175
+    },
+    "available_evidence_capacity_tokens": {
+      "n": 36,
+      "min": 14921,
+      "q05": 15044.2,
+      "median": 15084.5,
+      "mean": 15099.9,
+      "q75": 15146.5,
+      "q90": 15163.0,
+      "q95": 15166.0,
+      "max": 15172
+    },
+    "two_stage_rule": {
+      "B_cap": 8192,
+      "B_cap_basis": "largest ladder budget <= Q0.05(avail)=15044.2",
+      "B_host": 1024,
+      "B_host_basis": "smallest ladder budget >= max native Mem0 evidence=516"
+    },
+    "B_mem_frozen": 1024,
+    "B_rec_frozen": 1024,
+    "fraction_states_where_raw_history_exceeds_B_rec": 0.0556,
+    "fraction_states_where_native_mem0_exceeds_B_mem": 0.0,
+    "note": "B was chosen without any paired label, scorer output, AUROC, FS, coverage or task-success quantity, and is frozen regardless of whether it binds."
+  },
+  "predictor": {
+    "schema_version": "recovermem-features-v1",
+    "feature_names": [
+      "retrieval_coverage",
+      "entity_coverage",
+      "action_arg_support",
+      "top_similarity",
+      "similarity_margin",
+      "support_count_norm",
+      "evidence_utilization",
+      "conflict_density_inv",
+      "action_confidence",
+      "step_progress"
+    ],
+    "n_train_decisions": 36,
+    "n_train_episodes": 7,
+    "train_auroc": 0.9559,
+    "train_auprc": 0.9975,
+    "label_prevalence": 0.9444,
+    "predictor_sha256": "1be2ffa0acb62d9f73b9e079648528a6da3e7af3d1d2d5b14c5fadcd2e746159",
+    "note": "AUROC/AUPRC are diagnostics, not selection criteria; no refit was performed"
+  },
+  "calibration": {
+    "thresholds_sha256": "ebad38b0a206f913065bc79a2eb5773c34a7b6714dadba8b896ea65dc1bed12a",
+    "nonempty_calibration_episodes": 18,
+    "crc_min_achievable": 0.05263,
+    "rules": {
+      "fixed_f1": {
+        "rule": "fixed_f1",
+        "tau": 0.07971189010325666,
+        "calibration_f1": 0.9767441860465117,
+        "calibration_precision": 0.9545454545454546,
+        "calibration_recall": 1.0,
+        "n_cal_episodes": 18,
+        "n_cal_decisions": 66,
+        "note": "F1 is decision-level by definition; FS/Cov remain episode-equal-weighted"
+      },
+      "empirical_risk_0.05": {
+        "rule": "empirical_risk",
+        "alpha": 0.05,
+        "tau": 0.4800924703964429,
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.027777777777777776,
+        "feasible": true,
+        "note": ""
+      },
+      "random_crc_0.05": {
+        "rule": "marginal_crc",
+        "alpha": 0.05,
+        "tau": "Infinity",
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.0,
+        "feasible": false,
+        "note": "infeasible: even Always Recover gives 1/(n+1)=0.0526 > alpha=0.05. Needs n >= 19 calibration episodes. Falling back to Always Recover."
+      },
+      "recovermem_crc_0.05": {
+        "rule": "marginal_crc",
+        "alpha": 0.05,
+        "tau": "Infinity",
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.0,
+        "feasible": false,
+        "note": "infeasible: even Always Recover gives 1/(n+1)=0.0526 > alpha=0.05. Needs n >= 19 calibration episodes. Falling back to Always Recover."
+      },
+      "empirical_risk_0.10": {
+        "rule": "empirical_risk",
+        "alpha": 0.1,
+        "tau": "-Infinity",
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.05555555555555555,
+        "feasible": true,
+        "note": ""
+      },
+      "random_crc_0.10": {
+        "rule": "marginal_crc",
+        "alpha": 0.1,
+        "tau": 0.054514811423870047,
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.027777777777777776,
+        "feasible": true,
+        "note": ""
+      },
+      "recovermem_crc_0.10": {
+        "rule": "marginal_crc",
+        "alpha": 0.1,
+        "tau": 0.4800924703964429,
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.027777777777777776,
+        "feasible": true,
+        "note": ""
+      },
+      "empirical_risk_0.20": {
+        "rule": "empirical_risk",
+        "alpha": 0.2,
+        "tau": "-Infinity",
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.05555555555555555,
+        "feasible": true,
+        "note": ""
+      },
+      "random_crc_0.20": {
+        "rule": "marginal_crc",
+        "alpha": 0.2,
+        "tau": "-Infinity",
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.05555555555555555,
+        "feasible": true,
+        "note": ""
+      },
+      "recovermem_crc_0.20": {
+        "rule": "marginal_crc",
+        "alpha": 0.2,
+        "tau": "-Infinity",
+        "n_cal_episodes": 18,
+        "calibration_loss": 0.05555555555555555,
+        "feasible": true,
+        "note": ""
+      },
+      "always_trust": {
+        "rule": "always_trust",
+        "tau": "-Infinity",
+        "feasible": true
+      },
+      "always_recover": {
+        "rule": "always_recover",
+        "tau": "Infinity",
+        "feasible": true
+      }
+    }
+  },
+  "table1": {
+    "table": [
+      {
+        "policy": "Always Trust",
+        "key": "always_trust",
+        "alpha": null,
+        "tau": "-Infinity",
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 1.0,
+        "AnyFS": 0.1111,
+        "Exc": null
+      },
+      {
+        "policy": "Always Recover",
+        "key": "always_recover",
+        "alpha": null,
+        "tau": "Infinity",
+        "feasible": true,
+        "FS": 0.0,
+        "Cov": 0.0,
+        "AnyFS": 0.0,
+        "Exc": null
+      },
+      {
+        "policy": "Fixed-F1",
+        "key": "fixed_f1",
+        "alpha": null,
+        "tau": 0.079712,
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 0.981,
+        "AnyFS": 0.1111,
+        "Exc": null
+      },
+      {
+        "policy": "Empirical-risk alpha=.05",
+        "key": "empirical_risk_0.05",
+        "alpha": 0.05,
+        "tau": 0.480092,
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 0.8778,
+        "AnyFS": 0.1111,
+        "Exc": 0.0,
+        "FS_mean": 0.037,
+        "FS_sd": 0.0,
+        "Cov_mean": 0.9157,
+        "Cov_sd": 0.0644,
+        "n_resamples_always_recover": 72,
+        "n_resamples_infeasible": 0
+      },
+      {
+        "policy": "Empirical-risk alpha=.10",
+        "key": "empirical_risk_0.10",
+        "alpha": 0.1,
+        "tau": "-Infinity",
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 1.0,
+        "AnyFS": 0.1111,
+        "Exc": 0.0,
+        "FS_mean": 0.037,
+        "FS_sd": 0.0,
+        "Cov_mean": 0.9817,
+        "Cov_sd": 0.0436,
+        "n_resamples_always_recover": 170,
+        "n_resamples_infeasible": 0
+      },
+      {
+        "policy": "Empirical-risk alpha=.20",
+        "key": "empirical_risk_0.20",
+        "alpha": 0.2,
+        "tau": "-Infinity",
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 1.0,
+        "AnyFS": 0.1111,
+        "Exc": 0.0,
+        "FS_mean": 0.037,
+        "FS_sd": 0.0,
+        "Cov_mean": 1.0,
+        "Cov_sd": 0.0,
+        "n_resamples_always_recover": 200,
+        "n_resamples_infeasible": 0
+      },
+      {
+        "policy": "Random+CRC alpha=.05",
+        "key": "random_crc_0.05",
+        "alpha": 0.05,
+        "tau": "Infinity",
+        "feasible": false,
+        "FS": 0.0,
+        "Cov": 0.0,
+        "AnyFS": 0.0,
+        "Exc": 0.0,
+        "FS_mean": 0.0,
+        "FS_sd": 0.0,
+        "Cov_mean": 0.0,
+        "Cov_sd": 0.0,
+        "n_resamples_always_recover": 200,
+        "n_resamples_infeasible": 200
+      },
+      {
+        "policy": "Random+CRC alpha=.10",
+        "key": "random_crc_0.10",
+        "alpha": 0.1,
+        "tau": 0.054515,
+        "feasible": true,
+        "FS": 0.0185,
+        "Cov": 0.9434,
+        "AnyFS": 0.0556,
+        "Exc": 0.0,
+        "FS_mean": 0.0202,
+        "FS_sd": 0.0053,
+        "Cov_mean": 0.4719,
+        "Cov_sd": 0.3408,
+        "n_resamples_always_recover": 18,
+        "n_resamples_infeasible": 0
+      },
+      {
+        "policy": "Random+CRC alpha=.20",
+        "key": "random_crc_0.20",
+        "alpha": 0.2,
+        "tau": "-Infinity",
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 1.0,
+        "AnyFS": 0.1111,
+        "Exc": 0.0,
+        "FS_mean": 0.037,
+        "FS_sd": 0.0,
+        "Cov_mean": 1.0,
+        "Cov_sd": 0.0,
+        "n_resamples_always_recover": 200,
+        "n_resamples_infeasible": 0
+      },
+      {
+        "policy": "ReCoverMem+CRC alpha=.05",
+        "key": "recovermem_crc_0.05",
+        "alpha": 0.05,
+        "tau": "Infinity",
+        "feasible": false,
+        "FS": 0.0,
+        "Cov": 0.0,
+        "AnyFS": 0.0,
+        "Exc": 0.0,
+        "FS_mean": 0.0,
+        "FS_sd": 0.0,
+        "Cov_mean": 0.0,
+        "Cov_sd": 0.0,
+        "n_resamples_always_recover": 200,
+        "n_resamples_infeasible": 200
+      },
+      {
+        "policy": "ReCoverMem+CRC alpha=.10",
+        "key": "recovermem_crc_0.10",
+        "alpha": 0.1,
+        "tau": 0.480092,
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 0.8778,
+        "AnyFS": 0.1111,
+        "Exc": 0.0,
+        "FS_mean": 0.0344,
+        "FS_sd": 0.0064,
+        "Cov_mean": 0.7105,
+        "Cov_sd": 0.1883,
+        "n_resamples_always_recover": 18,
+        "n_resamples_infeasible": 0
+      },
+      {
+        "policy": "ReCoverMem+CRC alpha=.20",
+        "key": "recovermem_crc_0.20",
+        "alpha": 0.2,
+        "tau": "-Infinity",
+        "feasible": true,
+        "FS": 0.037,
+        "Cov": 1.0,
+        "AnyFS": 0.1111,
+        "Exc": 0.0,
+        "FS_mean": 0.037,
+        "FS_sd": 0.0,
+        "Cov_mean": 1.0,
+        "Cov_sd": 0.0,
+        "n_resamples_always_recover": 200,
+        "n_resamples_infeasible": 0
+      }
+    ],
+    "summary": {
+      "predictor_sha256": "1be2ffa0acb62d9f73b9e079648528a6da3e7af3d1d2d5b14c5fadcd2e746159",
+      "thresholds_sha256": "ebad38b0a206f913065bc79a2eb5773c34a7b6714dadba8b896ea65dc1bed12a",
+      "final_test_manifest_sha256": "2941a3d9592288ca2e194d61d4dce901b45d9eeb5ac305b4ae3f1538b493c873",
+      "n_test_episodes_total": 24,
+      "n_test_episodes_nonempty": 18,
+      "n_test_episodes_empty": 6,
+      "n_test_decisions": 78,
+      "test_r_mem_prevalence": 0.9744,
+      "test_r_rec_prevalence": 0.9615,
+      "test_joint_cells": {
+        "00": 1,
+        "01": 1,
+        "10": 2,
+        "11": 74
+      },
+      "test_auroc": 0.3882,
+      "test_auprc": 0.9761,
+      "train_auroc": 0.9559,
+      "train_auprc": 0.9975,
+      "always_trust_sanity": {
+        "FS": 0.037,
+        "episode_weighted_mean_1_minus_r_mem": 0.037
+      },
+      "excluded_test": []
+    },
+    "n_resamples": 200,
+    "convention": "FS/Cov are canonical frozen final-test point estimates; Exc is the 200-resample exceedance frequency. Resampling mean/SD are appendix quantities and are NOT the main-table FS/Cov."
+  },
+  "table2": {
+    "table": [
+      {
+        "policy": "Always Trust",
+        "key": "always_trust",
+        "Task": 0.8,
+        "Rec": 0.0,
+        "Cost": 9.3942
+      },
+      {
+        "policy": "Always Recover",
+        "key": "always_recover",
+        "Task": 0.8,
+        "Rec": 0.8,
+        "Cost": 12.7054
+      },
+      {
+        "policy": "Empirical-risk (.10)",
+        "key": "empirical_risk_0.10",
+        "Task": 0.8,
+        "Rec": 0.0,
+        "Cost": 9.3942
+      },
+      {
+        "policy": "Random + CRC (.10)",
+        "key": "random_crc_0.10",
+        "Task": 0.8,
+        "Rec": 0.0,
+        "Cost": 9.3942
+      },
+      {
+        "policy": "ReCoverMem + CRC (.10)",
+        "key": "recovermem_crc_0.10",
+        "Task": 0.8,
+        "Rec": 0.11,
+        "Cost": 9.7898
+      }
+    ],
+    "appendix": {
+      "always_trust": {
+        "rec_conditional_on_route": 0.0,
+        "n_zero_route_episodes": 4,
+        "n_episodes": 20,
+        "mean_route_decisions": 3.5,
+        "mean_actions": 25.25,
+        "token_buckets": {
+          "ctrl": 0,
+          "mem": 158090,
+          "rec": 0,
+          "write": 4454645,
+          "native": 614957
+        },
+        "mean_final_env_rank": 1.25
+      },
+      "always_recover": {
+        "rec_conditional_on_route": 1.0,
+        "n_zero_route_episodes": 4,
+        "n_episodes": 20,
+        "mean_route_decisions": 3.65,
+        "mean_actions": 26.75,
+        "token_buckets": {
+          "ctrl": 0,
+          "mem": 0,
+          "rec": 244898,
+          "write": 4704995,
+          "native": 614957
+        },
+        "mean_final_env_rank": 1.25
+      },
+      "empirical_risk_0.10": {
+        "rec_conditional_on_route": 0.0,
+        "n_zero_route_episodes": 4,
+        "n_episodes": 20,
+        "mean_route_decisions": 3.5,
+        "mean_actions": 25.25,
+        "token_buckets": {
+          "ctrl": 89699,
+          "mem": 68391,
+          "rec": 0,
+          "write": 4454645,
+          "native": 614957
+        },
+        "mean_final_env_rank": 1.25
+      },
+      "random_crc_0.10": {
+        "rec_conditional_on_route": 0.0,
+        "n_zero_route_episodes": 4,
+        "n_episodes": 20,
+        "mean_route_decisions": 3.5,
+        "mean_actions": 25.25,
+        "token_buckets": {
+          "ctrl": 0,
+          "mem": 158090,
+          "rec": 0,
+          "write": 4454645,
+          "native": 614957
+        },
+        "mean_final_env_rank": 1.25
+      },
+      "recovermem_crc_0.10": {
+        "rec_conditional_on_route": 0.1375,
+        "n_zero_route_episodes": 4,
+        "n_episodes": 20,
+        "mean_route_decisions": 3.5,
+        "mean_actions": 26.0,
+        "token_buckets": {
+          "ctrl": 89803,
+          "mem": 59937,
+          "rec": 52690,
+          "write": 4584775,
+          "native": 614957
+        },
+        "mean_final_env_rank": 1.25
+      }
+    },
+    "raw_history_only": {
+      "Task": 0.8,
+      "Cost": 1.0
+    },
+    "n_rollouts": 120,
+    "n_expected": 120
+  },
+  "table2_rollouts_completed": 120,
+  "elapsed_hours": 0.0,
+  "caveat": "ALFWorld is a SHORT-HORIZON executable-agent environment. It is included to test interactive-agent generality with a native programmatic intermediate progress signal, NOT to demonstrate extreme long-context pressure. Raw observable histories at controlled states are hundreds of tokens, orders of magnitude below MemoryArena."
+}

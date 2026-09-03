@@ -1,0 +1,103 @@
+{
+  "rule": "two-stage scorer-independent budget rule (frozen before any route outcome)",
+  "tokenizer": {
+    "path": "/home/aristella/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "exact": true
+  },
+  "inputs": {
+    "B_ctx": 32768,
+    "B_out": 8,
+    "B_safe": 512,
+    "ladder": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "B_out_note": "PrefEval config.yaml max_mcq_tokens=5; 8 used to leave room for the closing </choice> tag",
+    "B_safe_note": "fixed reservation for chat-template overhead not captured by count_messages"
+  },
+  "stage1": {
+    "pool": "all 1000 classification instances, structural only (no model, no memory)",
+    "B_base": {
+      "min": 207,
+      "median": 239,
+      "max": 363
+    },
+    "B_avail": {
+      "min": 31885,
+      "q05": 31983,
+      "median": 32010,
+      "max": 32041
+    },
+    "B_cap": 16384
+  },
+  "stage2": {
+    "audit_subset": [
+      "lifestyle_beauty#010",
+      "shop_technology#001",
+      "professional_work_location_style#011"
+    ],
+    "write_chunk_tokens": 4096,
+    "per_instance": [
+      {
+        "pair_id": "lifestyle_beauty#010",
+        "history_messages": 604,
+        "history_tokens": 104132,
+        "n_write_chunks": 27,
+        "memory_build_s": 141.31,
+        "mem0_memory_count": 115,
+        "total_s": 142.93,
+        "uncapped_evidence_tokens": 1537,
+        "n_candidates": 50,
+        "n_packed": 50,
+        "retrieval_latency_s": 0.008033859077841043,
+        "candidate_tokens_max": 209
+      },
+      {
+        "pair_id": "shop_technology#001",
+        "history_messages": 604,
+        "history_tokens": 104120,
+        "n_write_chunks": 27,
+        "memory_build_s": 134.56,
+        "mem0_memory_count": 128,
+        "total_s": 135.88,
+        "uncapped_evidence_tokens": 1477,
+        "n_candidates": 50,
+        "n_packed": 50,
+        "retrieval_latency_s": 0.008288226090371609,
+        "candidate_tokens_max": 209
+      },
+      {
+        "pair_id": "professional_work_location_style#011",
+        "history_messages": 604,
+        "history_tokens": 104127,
+        "n_write_chunks": 27,
+        "memory_build_s": 140.92,
+        "mem0_memory_count": 89,
+        "total_s": 142.26,
+        "uncapped_evidence_tokens": 1978,
+        "n_candidates": 50,
+        "n_packed": 50,
+        "retrieval_latency_s": 0.008593092672526836,
+        "candidate_tokens_max": 326
+      }
+    ],
+    "max_uncapped_mem0_evidence_tokens": 1978,
+    "B_host": 2048
+  },
+  "frozen": {
+    "B_mem": 2048,
+    "B_rec": 2048,
+    "binding_stage": "B_host"
+  },
+  "raw_history": {
+    "min": 104079,
+    "median": 104122,
+    "max": 104224,
+    "fraction_exceeding_B_rec": 1.0,
+    "median_over_B_rec": 50.8
+  }
+}

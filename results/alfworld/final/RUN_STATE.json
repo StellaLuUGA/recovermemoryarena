@@ -1,0 +1,66 @@
+{
+  "stage": "COMPLETE",
+  "history": [
+    {
+      "stage": "budget_audit",
+      "at": "2026-08-31 02:00:25"
+    },
+    {
+      "stage": "collect_predictor_train",
+      "at": "2026-08-31 02:49:06"
+    },
+    {
+      "stage": "fit_predictor",
+      "at": "2026-08-31 03:41:11"
+    },
+    {
+      "stage": "collect_predictor_train",
+      "at": "2026-08-31 04:16:43"
+    },
+    {
+      "stage": "fit_predictor",
+      "at": "2026-08-31 04:16:43"
+    },
+    {
+      "stage": "collect_calibration",
+      "at": "2026-08-31 04:16:43"
+    },
+    {
+      "stage": "calibrate",
+      "at": "2026-08-31 05:19:07"
+    },
+    {
+      "stage": "collect_final_test",
+      "at": "2026-08-31 05:19:07"
+    },
+    {
+      "stage": "table1",
+      "at": "2026-08-31 06:18:06"
+    },
+    {
+      "stage": "freeze_table2_manifest",
+      "at": "2026-08-31 06:18:06"
+    },
+    {
+      "stage": "table2_rollouts",
+      "at": "2026-08-31 06:18:06"
+    },
+    {
+      "stage": "table2_summary",
+      "at": "2026-08-31 09:55:57"
+    },
+    {
+      "stage": "final_report",
+      "at": "2026-08-31 09:55:57"
+    },
+    {
+      "stage": "final_report",
+      "at": "2026-08-31 09:57:04"
+    },
+    {
+      "stage": "COMPLETE",
+      "at": "2026-08-31 09:57:04"
+    }
+  ],
+  "updated": "2026-08-31 09:57:04"
+}

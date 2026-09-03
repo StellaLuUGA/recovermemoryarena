@@ -1,0 +1,1246 @@
+{
+  "n": 5,
+  "max_steps": 20,
+  "runs": [
+    {
+      "idx": 0,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "K": 4,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "desklamp"
+        },
+        {
+          "action": "use",
+          "param": "desklamp"
+        }
+      ],
+      "controlled_step": 1,
+      "prefix_len": 1,
+      "prefix": [
+        "go to desk 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "mug"
+      },
+      "success": false,
+      "steps_used": 20,
+      "max_rank_reached": 1,
+      "steps": [
+        {
+          "step": 2,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 932
+        },
+        {
+          "step": 3,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 981
+        },
+        {
+          "step": 4,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1037
+        },
+        {
+          "step": 5,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1086
+        },
+        {
+          "step": 6,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1142
+        },
+        {
+          "step": 7,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1191
+        },
+        {
+          "step": 8,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1247
+        },
+        {
+          "step": 9,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1296
+        },
+        {
+          "step": 10,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1352
+        },
+        {
+          "step": 11,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1401
+        },
+        {
+          "step": 12,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1457
+        },
+        {
+          "step": 13,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1506
+        },
+        {
+          "step": 14,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1562
+        },
+        {
+          "step": 15,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1611
+        },
+        {
+          "step": 16,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1667
+        },
+        {
+          "step": 17,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1716
+        },
+        {
+          "step": 18,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1772
+        },
+        {
+          "step": 19,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1821
+        },
+        {
+          "step": 20,
+          "raw": "go to desk 1",
+          "command": "go to desk 2",
+          "snapped": true,
+          "invalid": false,
+          "obs": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.",
+          "rank": 1,
+          "prompt_tokens": 1877
+        },
+        {
+          "step": 21,
+          "raw": "go to desk 1",
+          "command": "go to desk 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at desk 1. On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.",
+          "rank": 1,
+          "prompt_tokens": 1926
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "controlled_step": 1,
+      "prefix_len": 1,
+      "prefix": [
+        "go to countertop 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "soapbar"
+      },
+      "success": false,
+      "steps_used": 20,
+      "max_rank_reached": 1,
+      "steps": [
+        {
+          "step": 2,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 906
+        },
+        {
+          "step": 3,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 916
+        },
+        {
+          "step": 4,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 926
+        },
+        {
+          "step": 5,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 936
+        },
+        {
+          "step": 6,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 946
+        },
+        {
+          "step": 7,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 956
+        },
+        {
+          "step": 8,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 966
+        },
+        {
+          "step": 9,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 976
+        },
+        {
+          "step": 10,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 986
+        },
+        {
+          "step": 11,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 996
+        },
+        {
+          "step": 12,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1006
+        },
+        {
+          "step": 13,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at cabinet 1. The cabinet 1 is closed.",
+          "rank": 0,
+          "prompt_tokens": 1016
+        },
+        {
+          "step": 14,
+          "raw": "open cabinet 1",
+          "command": "open cabinet 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You open the cabinet 1. The cabinet 1 is open. In it, you see a cloth 1.",
+          "rank": 0,
+          "prompt_tokens": 1037
+        },
+        {
+          "step": 15,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1067
+        },
+        {
+          "step": 16,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1077
+        },
+        {
+          "step": 17,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1087
+        },
+        {
+          "step": 18,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1097
+        },
+        {
+          "step": 19,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1107
+        },
+        {
+          "step": 20,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1117
+        },
+        {
+          "step": 21,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1127
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "soapbar"
+        },
+        {
+          "action": "take",
+          "param": "soapbar"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "soapbar"
+        },
+        {
+          "action": "find",
+          "param": "countertop"
+        },
+        {
+          "action": "put",
+          "param": "countertop"
+        }
+      ],
+      "controlled_step": 1,
+      "prefix_len": 1,
+      "prefix": [
+        "go to countertop 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "soapbar"
+      },
+      "success": false,
+      "steps_used": 20,
+      "max_rank_reached": 1,
+      "steps": [
+        {
+          "step": 2,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 916
+        },
+        {
+          "step": 3,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 926
+        },
+        {
+          "step": 4,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 936
+        },
+        {
+          "step": 5,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 946
+        },
+        {
+          "step": 6,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 956
+        },
+        {
+          "step": 7,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 966
+        },
+        {
+          "step": 8,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 976
+        },
+        {
+          "step": 9,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 986
+        },
+        {
+          "step": 10,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 996
+        },
+        {
+          "step": 11,
+          "raw": "examine soapbar 1",
+          "command": "examine soapbar 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1006
+        },
+        {
+          "step": 12,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at cabinet 1. The cabinet 1 is closed.",
+          "rank": 0,
+          "prompt_tokens": 1016
+        },
+        {
+          "step": 13,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1037
+        },
+        {
+          "step": 14,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1047
+        },
+        {
+          "step": 15,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1057
+        },
+        {
+          "step": 16,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1067
+        },
+        {
+          "step": 17,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1077
+        },
+        {
+          "step": 18,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1087
+        },
+        {
+          "step": 19,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1097
+        },
+        {
+          "step": 20,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1107
+        },
+        {
+          "step": 21,
+          "raw": "go to cabinet 1",
+          "command": "go to cabinet 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1117
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "mug"
+        },
+        {
+          "action": "take",
+          "param": "mug"
+        },
+        {
+          "action": "goto",
+          "param": "fridge"
+        },
+        {
+          "action": "cool",
+          "param": "mug"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "controlled_step": 2,
+      "prefix_len": 2,
+      "prefix": [
+        "go to cabinet 1",
+        "go to countertop 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "mug"
+      },
+      "success": false,
+      "steps_used": 20,
+      "max_rank_reached": 1,
+      "steps": [
+        {
+          "step": 3,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1014
+        },
+        {
+          "step": 4,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1025
+        },
+        {
+          "step": 5,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1036
+        },
+        {
+          "step": 6,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1047
+        },
+        {
+          "step": 7,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1058
+        },
+        {
+          "step": 8,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1069
+        },
+        {
+          "step": 9,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1080
+        },
+        {
+          "step": 10,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1091
+        },
+        {
+          "step": 11,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1102
+        },
+        {
+          "step": 12,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1113
+        },
+        {
+          "step": 13,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1124
+        },
+        {
+          "step": 14,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1135
+        },
+        {
+          "step": 15,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1146
+        },
+        {
+          "step": 16,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1157
+        },
+        {
+          "step": 17,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1168
+        },
+        {
+          "step": 18,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1179
+        },
+        {
+          "step": 19,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1190
+        },
+        {
+          "step": 20,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1201
+        },
+        {
+          "step": 21,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1212
+        },
+        {
+          "step": 22,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1223
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061158_110530/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "K": 6,
+      "subgoals": [
+        {
+          "action": "find",
+          "param": "bowl"
+        },
+        {
+          "action": "take",
+          "param": "bowl"
+        },
+        {
+          "action": "goto",
+          "param": "sinkbasin"
+        },
+        {
+          "action": "clean",
+          "param": "bowl"
+        },
+        {
+          "action": "find",
+          "param": "cabinet"
+        },
+        {
+          "action": "put",
+          "param": "cabinet"
+        }
+      ],
+      "controlled_step": 1,
+      "prefix_len": 1,
+      "prefix": [
+        "go to cabinet 1"
+      ],
+      "rank_at_controlled_state": 1,
+      "replay_rank_matches_native": true,
+      "target_rank": 2,
+      "next_subgoal": {
+        "action": "take",
+        "param": "bowl"
+      },
+      "success": false,
+      "steps_used": 20,
+      "max_rank_reached": 1,
+      "steps": [
+        {
+          "step": 2,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 949
+        },
+        {
+          "step": 3,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 958
+        },
+        {
+          "step": 4,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 967
+        },
+        {
+          "step": 5,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 976
+        },
+        {
+          "step": 6,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 985
+        },
+        {
+          "step": 7,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 994
+        },
+        {
+          "step": 8,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1003
+        },
+        {
+          "step": 9,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1012
+        },
+        {
+          "step": 10,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1021
+        },
+        {
+          "step": 11,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1030
+        },
+        {
+          "step": 12,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1039
+        },
+        {
+          "step": 13,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1048
+        },
+        {
+          "step": 14,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1057
+        },
+        {
+          "step": 15,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1066
+        },
+        {
+          "step": 16,
+          "raw": "examine bowl 1",
+          "command": "examine bowl 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 1,
+          "prompt_tokens": 1075
+        },
+        {
+          "step": 17,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": false,
+          "obs": "You arrive at countertop 1. On the countertop 1, you see a creditcard 1, a egg 3, and a glassbottle 1.",
+          "rank": 0,
+          "prompt_tokens": 1084
+        },
+        {
+          "step": 18,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1128
+        },
+        {
+          "step": 19,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1139
+        },
+        {
+          "step": 20,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1150
+        },
+        {
+          "step": 21,
+          "raw": "go to countertop 1",
+          "command": "go to countertop 1",
+          "snapped": false,
+          "invalid": true,
+          "obs": "Nothing happens.",
+          "rank": 0,
+          "prompt_tokens": 1161
+        }
+      ]
+    }
+  ],
+  "B": 0,
+  "verdict": "FAIL_SUFFIX_COMPETENCE"
+}

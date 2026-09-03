@@ -1,0 +1,1482 @@
+{
+  "docstore": {
+    "82bdc2d3-d581-429a-9e32-c8d9eea4f0f2": {
+      "user_id": "persona137",
+      "data": "Michael needs to buy fruit for 5 peach pies, 4 apple pies, and 3 blueberry pies, with each pie recipe requiring 3 pounds of fruit.",
+      "text_lemmatized": "Michael needs to buy fruit for 5 peach pies, 4 apple pies, and 3 blueberry pies, with each pie recipe requiring 3 pounds of fruit.",
+      "hash": "c53e9d880d2c3a9c2afd0f8d39b8524f",
+      "created_at": "2026-08-29T00:00:43.332939+00:00",
+      "updated_at": "2026-08-29T00:00:43.332939+00:00",
+      "attributed_to": "user"
+    },
+    "f2aa40cc-b41a-4bfc-9e2a-06593d3591f7": {
+      "user_id": "persona137",
+      "data": "The peaches cost $2.00 per pound, while blueberries and apples are on sale for $1.00 per pound.",
+      "text_lemmatized": "The peaches cost $2.00 per pound, while blueberries and apples are on sale for $1.00 per pound.",
+      "hash": "da8048f74a32ee94992742a7e85188b4",
+      "created_at": "2026-08-29T00:00:43.332963+00:00",
+      "updated_at": "2026-08-29T00:00:43.332963+00:00",
+      "attributed_to": "user"
+    },
+    "b8a5f2be-a1fd-4af8-ba1a-975fcfd029ff": {
+      "user_id": "persona137",
+      "data": "Michael will spend $10.00 on peaches (5 pies * 3 pounds * $2.00 per pound), $12.00 on apples (4 pies * 3 pounds * $1.00 per pound), and $9.00 on blueberries (3 pies * 3 pounds * $1.00 per pound).",
+      "text_lemmatized": "Michael will spend $10.00 on peaches (5 pies * 3 pounds * $2.00 per pound), $12.00 on apples (4 pies * 3 pounds * $1.00 per pound), and $9.00 on blueberries (3 pies * 3 pounds * $1.00 per pound).",
+      "hash": "87316d6cab944f74e14d7d92f1c4d8fd",
+      "created_at": "2026-08-29T00:00:43.332974+00:00",
+      "updated_at": "2026-08-29T00:00:43.332974+00:00",
+      "attributed_to": "assistant"
+    },
+    "d2d5c54e-d6df-4c35-a244-94ddf5067d7a": {
+      "user_id": "persona137",
+      "data": "The total cost for the fruit will be $10.00 + $12.00 + $9.00 = $31.00.",
+      "text_lemmatized": "The total cost for the fruit will be $10.00 + $12.00 + $9.00 = $31.00.",
+      "hash": "24576f92a492830955620b4c0cded1ed",
+      "created_at": "2026-08-29T00:00:43.332984+00:00",
+      "updated_at": "2026-08-29T00:00:43.332984+00:00",
+      "attributed_to": "assistant"
+    },
+    "16a00c17-3829-48b9-b176-3bdc6d60fe7b": {
+      "user_id": "persona137",
+      "data": "User has 50 goldfish in a pond, each eating 1.5 ounces of food per day, with 20% needing special food costing $3 an ounce, and wants to know the cost to feed these fish",
+      "text_lemmatized": "User has 50 goldfish in a pond, each eating 1.5 ounces of food per day, with 20% needing special food costing $3 an ounce, and wants to know the cost to feed these fish",
+      "hash": "b42b25009e835c87f93cc70f16b2ca4e",
+      "created_at": "2026-08-29T00:01:45.463252+00:00",
+      "updated_at": "2026-08-29T00:01:45.463252+00:00",
+      "attributed_to": "user"
+    },
+    "9c1de5dd-1e0e-4b6e-abf8-fd9d7f053056": {
+      "user_id": "persona137",
+      "data": "User wants to know the age of Declan's younger son 30 years from now, given the elder son is 40 years old and the age difference is 10 years",
+      "text_lemmatized": "User wants to know the age of Declan's younger son 30 years from now, given the elder son is 40 years old and the age difference is 10 years",
+      "hash": "498325f37b78b93b021c4e183193646c",
+      "created_at": "2026-08-29T00:01:45.463271+00:00",
+      "updated_at": "2026-08-29T00:01:45.463271+00:00",
+      "attributed_to": "user"
+    },
+    "d667a9b9-a3df-4b29-829e-4eda2552469f": {
+      "user_id": "persona137",
+      "data": "User wants to know how much Gerald paid for his guitar, given Hendricks paid 20% less than Gerald",
+      "text_lemmatized": "User wants to know how much Gerald paid for his guitar, given Hendricks paid 20% less than Gerald",
+      "hash": "6e936eff05b3b571a7c7d56718b6cdb9",
+      "created_at": "2026-08-29T00:01:45.463281+00:00",
+      "updated_at": "2026-08-29T00:01:45.463281+00:00",
+      "attributed_to": "user"
+    },
+    "3be2812b-fb5f-478e-a405-49836ec05ec6": {
+      "user_id": "persona137",
+      "data": "User's insurance premium starts at $50/month, goes up 10% for every accident and $5/month for every ticket, and wants to know the new premium after one accident and three tickets",
+      "text_lemmatized": "User's insurance premium starts at $50/month, goes up 10% for every accident and $5/month for every ticket, and wants to know the new premium after one accident and three tickets",
+      "hash": "482ceb78f2211b34be2e2f3656d64e91",
+      "created_at": "2026-08-29T00:01:45.463288+00:00",
+      "updated_at": "2026-08-29T00:01:45.463288+00:00",
+      "attributed_to": "user"
+    },
+    "4510fa70-1cca-4d1b-9103-39c28af3d61e": {
+      "user_id": "persona137",
+      "data": "User wants to know how many hours Tom danced in 10 years, given he dances 4 times a week for 2 hours each time",
+      "text_lemmatized": "User wants to know how many hours Tom danced in 10 years, given he dances 4 times a week for 2 hours each time",
+      "hash": "1ba71240634cbd00027e968c0f8b4f06",
+      "created_at": "2026-08-29T00:01:45.463295+00:00",
+      "updated_at": "2026-08-29T00:01:45.463295+00:00",
+      "attributed_to": "user"
+    },
+    "624988a4-47f4-49d5-a89e-feeda639333c": {
+      "user_id": "persona137",
+      "data": "User has a cake of 400 grams divided into eight equal parts, and wants to know how much Pierre ate, given Nathalie ate one-eighth and Pierre ate double what Nathalie ate",
+      "text_lemmatized": "User has a cake of 400 grams divided into eight equal parts, and wants to know how much Pierre ate, given Nathalie ate one-eighth and Pierre ate double what Nathalie ate",
+      "hash": "fbe0eadeec3607ab47086e98da86ec43",
+      "created_at": "2026-08-29T00:01:45.463301+00:00",
+      "updated_at": "2026-08-29T00:01:45.463301+00:00",
+      "attributed_to": "user"
+    },
+    "eaa26fec-be8a-4bfb-9a34-cb919a1ab458": {
+      "user_id": "persona137",
+      "data": "User wants to know how many sentences Janice started with today, given she typed for 20 minutes, took a break, typed 15 minutes longer, erased 40 sentences, and typed 18 minutes more, and the paper had 536 sentences by the end of the day",
+      "text_lemmatized": "User wants to know how many sentences Janice started with today, given she typed for 20 minutes, took a break, typed 15 minutes longer, erased 40 sentences, and typed 18 minutes more, and the paper had 536 sentences by the end of the day",
+      "hash": "0429dac3aaeda7f6af83a812e3dcff8c",
+      "created_at": "2026-08-29T00:01:45.463307+00:00",
+      "updated_at": "2026-08-29T00:01:45.463307+00:00",
+      "attributed_to": "user"
+    },
+    "5d86d37f-87f3-4e85-a4e9-7db8c9199968": {
+      "user_id": "persona137",
+      "data": "User wants to know how many games a basketball team can lose to win 60% of their games, given they played 40 games, won 70%, and have 10 games left",
+      "text_lemmatized": "User wants to know how many games a basketball team can lose to win 60% of their games, given they played 40 games, won 70%, and have 10 games left",
+      "hash": "29fafe69334eb9d1db6de12165b24f5f",
+      "created_at": "2026-08-29T00:01:45.463314+00:00",
+      "updated_at": "2026-08-29T00:01:45.463314+00:00",
+      "attributed_to": "user"
+    },
+    "ec9a3f26-b9c6-4b4f-be0b-fde87f7c8b39": {
+      "user_id": "persona137",
+      "data": "User is looking for a film with a distinctive artistic style and compelling storytelling, and wants recommendations",
+      "text_lemmatized": "User is looking for a film with a distinctive artistic style and compelling storytelling, and wants recommendations",
+      "hash": "6ad37b57961e3ea5932f76a52682c0c2",
+      "created_at": "2026-08-29T00:01:45.463321+00:00",
+      "updated_at": "2026-08-29T00:01:45.463321+00:00",
+      "attributed_to": "user"
+    },
+    "04092f37-67a0-4254-901a-ff671525d3d8": {
+      "user_id": "persona137",
+      "data": "User wants to know how much Carmela has to give to each of her four cousins so that she and her cousins will have the same amount of money, given Carmela has $7 and each cousin has $2",
+      "text_lemmatized": "User wants to know how much Carmela has to give to each of her four cousins so that she and her cousins will have the same amount of money, given Carmela has $7 and each cousin has $2",
+      "hash": "696c9c4433a1d443f35303db7c4f6c9d",
+      "created_at": "2026-08-29T00:01:45.463327+00:00",
+      "updated_at": "2026-08-29T00:01:45.463327+00:00",
+      "attributed_to": "user"
+    },
+    "0671fb99-faff-4ecb-bba3-1499fb4b1819": {
+      "user_id": "persona137",
+      "data": "User has a bird feeder that holds two cups of birdseed, and wants to know how many birds it feeds weekly, given each cup feeds 14 birds and a squirrel steals half a cup every week",
+      "text_lemmatized": "User has a bird feeder that holds two cups of birdseed, and wants to know how many birds it feeds weekly, given each cup feeds 14 birds and a squirrel steals half a cup every week",
+      "hash": "09b0f07b77098782459a474ca52069a7",
+      "created_at": "2026-08-29T00:01:45.463333+00:00",
+      "updated_at": "2026-08-29T00:01:45.463333+00:00",
+      "attributed_to": "user"
+    },
+    "7eb631f1-a1a8-4e38-831e-e79dd8a155fc": {
+      "user_id": "persona137",
+      "data": "User can get 50 demerits in a month before getting fired, and wants to know how many more demerits he can get this month, given he got 2 demerits per instance for showing up late 6 times and 15 demerits for making an inappropriate joke",
+      "text_lemmatized": "User can get 50 demerits in a month before getting fired, and wants to know how many more demerits he can get this month, given he got 2 demerits per instance for showing up late 6 times and 15 demerits for making an inappropriate joke",
+      "hash": "01ddb5f75b29ad62bba2184942ef3835",
+      "created_at": "2026-08-29T00:01:45.463339+00:00",
+      "updated_at": "2026-08-29T00:01:45.463339+00:00",
+      "attributed_to": "user"
+    },
+    "35dc4418-1d89-4a4d-b825-de70728f7fce": {
+      "user_id": "persona137",
+      "data": "User wants to know the slope of three parallel lines with y-intercepts 2, 3, and 4, and the sum of the x-intercepts is 36",
+      "text_lemmatized": "User wants to know the slope of three parallel lines with y-intercepts 2, 3, and 4, and the sum of the x-intercepts is 36",
+      "hash": "589c7923406a8c44f84c65cba37a29d4",
+      "created_at": "2026-08-29T00:01:45.463345+00:00",
+      "updated_at": "2026-08-29T00:01:45.463345+00:00",
+      "attributed_to": "user"
+    },
+    "90215803-32f9-4431-a01a-9c9d88512fef": {
+      "user_id": "persona137",
+      "data": "User wants to know why some vibrant inks seem to lose their character over time, even when stored carefully",
+      "text_lemmatized": "User wants to know why some vibrant inks seem to lose their character over time, even when stored carefully",
+      "hash": "3bbf81e419365c2dd2619146c2aa39d0",
+      "created_at": "2026-08-29T00:01:45.463351+00:00",
+      "updated_at": "2026-08-29T00:01:45.463351+00:00",
+      "attributed_to": "user"
+    },
+    "0335a47a-d642-43cf-9eed-934bb23b36ce": {
+      "user_id": "persona137",
+      "data": "The difference in color between modern inks is due to a blend of chemistry, physics, and the influence of the surrounding medium.",
+      "text_lemmatized": "The difference in color between modern inks is due to a blend of chemistry, physics, and the influence of the surrounding medium.",
+      "hash": "25b03b26377a043eb2fe2c06bfb5978f",
+      "created_at": "2026-08-29T00:01:55.881215+00:00",
+      "updated_at": "2026-08-29T00:01:55.881215+00:00",
+      "attributed_to": "assistant"
+    },
+    "a31edf39-25dd-4805-97c2-e4a834d2ee6c": {
+      "user_id": "persona137",
+      "data": "Modern writing inks are either dye-based or pigment-based, with dyes being more vulnerable to chemical change and oxidation.",
+      "text_lemmatized": "Modern writing inks are either dye-based or pigment-based, with dyes being more vulnerable to chemical change and oxidation.",
+      "hash": "1232b1c9ae7a450e1e93273a25e6437b",
+      "created_at": "2026-08-29T00:01:55.881234+00:00",
+      "updated_at": "2026-08-29T00:01:55.881234+00:00",
+      "attributed_to": "assistant"
+    },
+    "9def2c45-e644-4d4c-912f-097bf4b1c89b": {
+      "user_id": "persona137",
+      "data": "Pigment-based inks use tiny insoluble particles suspended in the liquid, which tend to be more lightfast and stable.",
+      "text_lemmatized": "Pigment-based inks use tiny insoluble particles suspended in the liquid, which tend to be more lightfast and stable.",
+      "hash": "f4e9dcfb33bbaa10f1fb4b02ca727bf6",
+      "created_at": "2026-08-29T00:01:55.881242+00:00",
+      "updated_at": "2026-08-29T00:01:55.881242+00:00",
+      "attributed_to": "assistant"
+    },
+    "543c9a2d-e78e-4433-9881-b86def110c81": {
+      "user_id": "persona137",
+      "data": "Storage conditions, such as heat and humidity, can also affect the color of inks over time.",
+      "text_lemmatized": "Storage conditions, such as heat and humidity, can also affect the color of inks over time.",
+      "hash": "b32933bc721bbc18abbbffa2b7d49ec6",
+      "created_at": "2026-08-29T00:01:55.881249+00:00",
+      "updated_at": "2026-08-29T00:01:55.881249+00:00",
+      "attributed_to": "assistant"
+    },
+    "de8e87db-a3aa-49d8-a39e-5677fee1026b": {
+      "user_id": "persona137",
+      "data": "To preserve a particular shade, it's recommended to use pigment-rich or bulletproof archival inks, limit light exposure, and choose acid-free, neutral pH paper.",
+      "text_lemmatized": "To preserve a particular shade, it's recommended to use pigment-rich or bulletproof archival inks, limit light exposure, and choose acid-free, neutral pH paper.",
+      "hash": "4b5f29ad7dd20a1c9be350a8d4c3c7ee",
+      "created_at": "2026-08-29T00:01:55.881255+00:00",
+      "updated_at": "2026-08-29T00:01:55.881255+00:00",
+      "attributed_to": "assistant"
+    },
+    "3312ca0b-0d2d-4db6-b7fe-3679d881894c": {
+      "user_id": "persona137",
+      "data": "The reason some blue inks shift towards a violet hue after a few weeks on the page is due to a combination of factors, including the type of ink, storage conditions, and exposure to light.",
+      "text_lemmatized": "The reason some blue inks shift towards a violet hue after a few weeks on the page is due to a combination of factors, including the type of ink, storage conditions, and exposure to light.",
+      "hash": "b380faf4c1a14b9f3881b998973c8fb4",
+      "created_at": "2026-08-29T00:01:55.881261+00:00",
+      "updated_at": "2026-08-29T00:01:55.881261+00:00",
+      "attributed_to": "assistant"
+    },
+    "6cf83870-ca3d-4fb2-9ebb-87d07e628c8e": {
+      "user_id": "persona137",
+      "data": "To determine the value of n in the equation 4^n = 64^2, we can rewrite 64 as 4^3 and then equate the exponents.",
+      "text_lemmatized": "To determine the value of n in the equation 4^n = 64^2, we can rewrite 64 as 4^3 and then equate the exponents.",
+      "hash": "0adad09ceebc1de68e4fc45e32bab97f",
+      "created_at": "2026-08-29T00:01:55.881267+00:00",
+      "updated_at": "2026-08-29T00:01:55.881267+00:00",
+      "attributed_to": "assistant"
+    },
+    "44bfa73f-e2ed-4b8b-8801-a90f4b0749b9": {
+      "user_id": "persona137",
+      "data": "The value of n is 6.",
+      "text_lemmatized": "The value of n is 6.",
+      "hash": "44e1cb083f936538e05905fb9945234e",
+      "created_at": "2026-08-29T00:01:55.881272+00:00",
+      "updated_at": "2026-08-29T00:01:55.881272+00:00",
+      "attributed_to": "assistant"
+    },
+    "bb55a782-151e-4def-b05a-8f974035790b": {
+      "user_id": "persona137",
+      "data": "Tom rents a helicopter for 2 hours a day for 3 days, which costs $75 per hour, and the total cost is $450.",
+      "text_lemmatized": "Tom rents a helicopter for 2 hours a day for 3 days, which costs $75 per hour, and the total cost is $450.",
+      "hash": "b498fa749c0cea7341bb9072e2df9ee6",
+      "created_at": "2026-08-29T00:01:55.881278+00:00",
+      "updated_at": "2026-08-29T00:01:55.881278+00:00",
+      "attributed_to": "assistant"
+    },
+    "e60f74d2-0012-4360-97e0-26bf2c704831": {
+      "user_id": "persona137",
+      "data": "The difference between the number of each color of marble in the basket that has the greatest difference is 6.",
+      "text_lemmatized": "The difference between the number of each color of marble in the basket that has the greatest difference is 6.",
+      "hash": "c9f0a729383f221e29e516c5a06f1f6e",
+      "created_at": "2026-08-29T00:01:55.881283+00:00",
+      "updated_at": "2026-08-29T00:01:55.881283+00:00",
+      "attributed_to": "assistant"
+    },
+    "2fe4f792-966f-40c2-adb9-a68ee3c1df00": {
+      "user_id": "persona137",
+      "data": "Kendra needs 22 shirts to go two weeks without doing laundry.",
+      "text_lemmatized": "Kendra needs 22 shirts to go two weeks without doing laundry.",
+      "hash": "c1d48927fcff771caa4247fb9adbaa09",
+      "created_at": "2026-08-29T00:01:55.881289+00:00",
+      "updated_at": "2026-08-29T00:01:55.881289+00:00",
+      "attributed_to": "assistant"
+    },
+    "4acde3ec-fe83-4660-b1be-90320c63ad36": {
+      "user_id": "persona137",
+      "data": "Catriona has 44 fish in her aquarium.",
+      "text_lemmatized": "Catriona has 44 fish in her aquarium.",
+      "hash": "afc3d9e1ae86c45c9e0c01c5fb9491f0",
+      "created_at": "2026-08-29T00:01:55.881294+00:00",
+      "updated_at": "2026-08-29T00:01:55.881294+00:00",
+      "attributed_to": "assistant"
+    },
+    "b20e9189-3b87-4f1b-8f36-cb317d79363b": {
+      "user_id": "persona137",
+      "data": "Kat trains for 9 hours a week.",
+      "text_lemmatized": "Kat trains for 9 hours a week.",
+      "hash": "b2b3cdb83cb7a6fd34586cb9f3182271",
+      "created_at": "2026-08-29T00:01:55.881300+00:00",
+      "updated_at": "2026-08-29T00:01:55.881300+00:00",
+      "attributed_to": "assistant"
+    },
+    "51e25870-5b83-4cad-824b-1c5d455e5861": {
+      "user_id": "persona137",
+      "data": "Five students need $15 in total if each of them gets 1 candy bar and 2 bags of chips.",
+      "text_lemmatized": "Five students need $15 in total if each of them gets 1 candy bar and 2 bags of chips.",
+      "hash": "e4935402ce5aca288390150fecd92b09",
+      "created_at": "2026-08-29T00:01:55.881306+00:00",
+      "updated_at": "2026-08-29T00:01:55.881306+00:00",
+      "attributed_to": "assistant"
+    },
+    "ec84f7fd-d7be-45cd-815d-876eb5e0fc18": {
+      "user_id": "persona137",
+      "data": "A married couple and their 6 children need 3 pizzas, each with 4 slices, to satisfy their pizza order.",
+      "text_lemmatized": "A married couple and their 6 children need 3 pizzas, each with 4 slices, to satisfy their pizza order.",
+      "hash": "a021081d5af4c660c58b24d83ade069f",
+      "created_at": "2026-08-29T00:01:55.881311+00:00",
+      "updated_at": "2026-08-29T00:01:55.881311+00:00",
+      "attributed_to": "assistant"
+    },
+    "5ccf3a81-9513-4e2c-bfa6-e0662676810b": {
+      "user_id": "persona137",
+      "data": "Steve has 17 mismatching socks altogether.",
+      "text_lemmatized": "Steve has 17 mismatching socks altogether.",
+      "hash": "48972bf6746dac44795b4382244f1dd4",
+      "created_at": "2026-08-29T00:01:55.881317+00:00",
+      "updated_at": "2026-08-29T00:01:55.881317+00:00",
+      "attributed_to": "assistant"
+    },
+    "8b34931d-1aa5-4ece-b4c6-9378d7ac6027": {
+      "user_id": "persona137",
+      "data": "The final cost of the dress is $35 after a 30% discount.",
+      "text_lemmatized": "The final cost of the dress is $35 after a 30% discount.",
+      "hash": "48d36685d52cb16bfab9dda7f4fffe65",
+      "created_at": "2026-08-29T00:01:55.881322+00:00",
+      "updated_at": "2026-08-29T00:01:55.881322+00:00",
+      "attributed_to": "assistant"
+    },
+    "e544ac76-4bae-4f82-a81e-5c43c26b87ae": {
+      "user_id": "persona137",
+      "data": "User has been retired for a year and feels adrift, trying hobbies and volunteering but nothing sparks excitement",
+      "text_lemmatized": "User has been retired for a year and feels adrift, trying hobbies and volunteering but nothing sparks excitement",
+      "hash": "45bd19b289c8dc67739aa6562c380550",
+      "created_at": "2026-08-29T00:02:11.538744+00:00",
+      "updated_at": "2026-08-29T00:02:11.538744+00:00",
+      "attributed_to": "user"
+    },
+    "f2ec79d1-5a45-49ec-8a6d-61679895455a": {
+      "user_id": "persona137",
+      "data": "User went on a 3-day trek in the Cascades to clear their head but still feels directionless after returning home",
+      "text_lemmatized": "User went on a 3-day trek in the Cascades to clear their head but still feels directionless after returning home",
+      "hash": "1aca4315fe1f1508fdb13ed0faad0915",
+      "created_at": "2026-08-29T00:02:11.538763+00:00",
+      "updated_at": "2026-08-29T00:02:11.538763+00:00",
+      "attributed_to": "user"
+    },
+    "79757e05-20ac-48f0-9f64-ce2b44aff304": {
+      "user_id": "persona137",
+      "data": "User is trying to figure out what comes next in their life after feeling like all big chapters are already written",
+      "text_lemmatized": "User is trying to figure out what comes next in their life after feeling like all big chapters are already written",
+      "hash": "165e6484570bc8cd871d03bb3a5ad7aa",
+      "created_at": "2026-08-29T00:02:11.538772+00:00",
+      "updated_at": "2026-08-29T00:02:11.538772+00:00",
+      "attributed_to": "user"
+    },
+    "369cdb02-2d5b-4fcf-aa3f-43cbac9db324": {
+      "user_id": "persona137",
+      "data": "User is planning a getaway somewhere in nature and wants it to be active and adventurous",
+      "text_lemmatized": "User is planning a getaway somewhere in nature and wants it to be active and adventurous",
+      "hash": "36257b2d1b9c91c46b945beef00b21ff",
+      "created_at": "2026-08-29T00:02:22.099230+00:00",
+      "updated_at": "2026-08-29T00:02:22.099230+00:00",
+      "attributed_to": "user"
+    },
+    "6bc10e0b-6a71-4978-99a8-f399971ab1d2": {
+      "user_id": "persona137",
+      "data": "Assistant suggested destinations for an active and adventurous nature getaway, including Costa Rica, Iceland, Queenstown, Canadian Rockies, and Namibia",
+      "text_lemmatized": "Assistant suggested destinations for an active and adventurous nature getaway, including Costa Rica, Iceland, Queenstown, Canadian Rockies, and Namibia",
+      "hash": "973763aa900837daaaf1736ad95ddc88",
+      "created_at": "2026-08-29T00:02:22.099249+00:00",
+      "updated_at": "2026-08-29T00:02:22.099249+00:00",
+      "attributed_to": "assistant"
+    },
+    "1ddeff25-c9b1-4284-ad97-c7a0cf1eeae2": {
+      "user_id": "persona137",
+      "data": "User wants to refine a professional email for clarity and tone",
+      "text_lemmatized": "User wants to refine a professional email for clarity and tone",
+      "hash": "9c499ad48481acc0afdca0d64b5e3b41",
+      "created_at": "2026-08-29T00:02:22.099257+00:00",
+      "updated_at": "2026-08-29T00:02:22.099257+00:00",
+      "attributed_to": "user"
+    },
+    "bb559c57-af76-4aed-842d-074b9f59e50d": {
+      "user_id": "persona137",
+      "data": "Assistant helped refine a professional email for clarity and tone",
+      "text_lemmatized": "Assistant helped refine a professional email for clarity and tone",
+      "hash": "9871f330e074a39d3873f56cf72e91dd",
+      "created_at": "2026-08-29T00:02:22.099264+00:00",
+      "updated_at": "2026-08-29T00:02:22.099264+00:00",
+      "attributed_to": "assistant"
+    },
+    "387b17a3-9c29-4da3-991b-7cbace3ca532": {
+      "user_id": "persona137",
+      "data": "User asked about a school bus traveling 42 minutes at 50 mph and wanted to know the distance traveled",
+      "text_lemmatized": "User asked about a school bus traveling 42 minutes at 50 mph and wanted to know the distance traveled",
+      "hash": "f7e5d8c220f93b5d3f74ceae7603ba7f",
+      "created_at": "2026-08-29T00:02:22.099270+00:00",
+      "updated_at": "2026-08-29T00:02:22.099270+00:00",
+      "attributed_to": "user"
+    },
+    "8868f720-2cbb-4dc8-b57f-087ef8e05e00": {
+      "user_id": "persona137",
+      "data": "The bus traveled 35 miles",
+      "text_lemmatized": "The bus traveled 35 miles",
+      "hash": "208ce86f8cb83dce80b6d361bef2a87a",
+      "created_at": "2026-08-29T00:02:22.099277+00:00",
+      "updated_at": "2026-08-29T00:02:22.099277+00:00",
+      "attributed_to": "assistant"
+    },
+    "a6837813-ac5e-4a1a-bf06-774d40fc4bfe": {
+      "user_id": "persona137",
+      "data": "Donald saw a 15% reduction in the price of a laptop originally costing $800 and wanted to know the new price",
+      "text_lemmatized": "Donald saw a 15% reduction in the price of a laptop originally costing $800 and wanted to know the new price",
+      "hash": "b81cf77bacdcb03493785e51f80a12ac",
+      "created_at": "2026-08-29T00:02:22.099284+00:00",
+      "updated_at": "2026-08-29T00:02:22.099284+00:00",
+      "attributed_to": "user"
+    },
+    "255d469b-8bca-4121-b65e-006696cef247": {
+      "user_id": "persona137",
+      "data": "Donald will pay $680 for the laptop",
+      "text_lemmatized": "Donald will pay $680 for the laptop",
+      "hash": "3924001c80463552673847d4358463ea",
+      "created_at": "2026-08-29T00:02:22.099289+00:00",
+      "updated_at": "2026-08-29T00:02:22.099289+00:00",
+      "attributed_to": "assistant"
+    },
+    "256fe0a5-ed93-44d2-8859-90b9245b0fab": {
+      "user_id": "persona137",
+      "data": "James writes a comic every other day for 4 years and wanted to know how many comics he wrote",
+      "text_lemmatized": "James writes a comic every other day for 4 years and wanted to know how many comics he wrote",
+      "hash": "9441cb8e6d5a6519c67f801154ca4ee3",
+      "created_at": "2026-08-29T00:02:22.099295+00:00",
+      "updated_at": "2026-08-29T00:02:22.099295+00:00",
+      "attributed_to": "user"
+    },
+    "8e69e0fd-3ecf-441b-b4a1-6cb18110fc71": {
+      "user_id": "persona137",
+      "data": "James wrote 730 comics",
+      "text_lemmatized": "James wrote 730 comics",
+      "hash": "dfe7ee5ff5e85a809965652d8b21d093",
+      "created_at": "2026-08-29T00:02:22.099301+00:00",
+      "updated_at": "2026-08-29T00:02:22.099301+00:00",
+      "attributed_to": "assistant"
+    },
+    "2b7e6256-3547-46ff-88bb-94d1db21fe94": {
+      "user_id": "persona137",
+      "data": "Tim buys a cabinet for $1200 and gets a 15% discount and wanted to know the new price",
+      "text_lemmatized": "Tim buys a cabinet for $1200 and gets a 15% discount and wanted to know the new price",
+      "hash": "8a9415a1d46b4e6d826d2e5c921b85a0",
+      "created_at": "2026-08-29T00:02:22.099306+00:00",
+      "updated_at": "2026-08-29T00:02:22.099306+00:00",
+      "attributed_to": "user"
+    },
+    "e703d0cb-92e1-4315-8752-6a477f39c0fe": {
+      "user_id": "persona137",
+      "data": "Tim paid $1020 for the cabinet",
+      "text_lemmatized": "Tim paid $1020 for the cabinet",
+      "hash": "af1cb0109e16a818dbbbe6c6dc740559",
+      "created_at": "2026-08-29T00:02:22.099312+00:00",
+      "updated_at": "2026-08-29T00:02:22.099312+00:00",
+      "attributed_to": "assistant"
+    },
+    "0461ea6c-6003-4acc-81be-3ab4e60ba8a2": {
+      "user_id": "persona137",
+      "data": "Morgan uses a spreadsheet to create a table of values and wanted to know which integer does not appear in the second column",
+      "text_lemmatized": "Morgan uses a spreadsheet to create a table of values and wanted to know which integer does not appear in the second column",
+      "hash": "7df5b4e03f72de8e3649e336f7a100db",
+      "created_at": "2026-08-29T00:02:22.099318+00:00",
+      "updated_at": "2026-08-29T00:02:22.099318+00:00",
+      "attributed_to": "user"
+    },
+    "cee899b7-aeb1-4b60-acde-a315ca3d7cdb": {
+      "user_id": "persona137",
+      "data": "The integer 131 does not appear in the second column",
+      "text_lemmatized": "The integer 131 does not appear in the second column",
+      "hash": "fafcbf219443d7f5c1ac37568fb260df",
+      "created_at": "2026-08-29T00:02:22.099324+00:00",
+      "updated_at": "2026-08-29T00:02:22.099324+00:00",
+      "attributed_to": "assistant"
+    },
+    "0b89bcb8-6fb2-4d0a-8e34-199ee0dc43eb": {
+      "user_id": "persona137",
+      "data": "Gail has some bills in her wallet amounting to $100 and wanted to know how many $10 bills are in her wallet",
+      "text_lemmatized": "Gail has some bills in her wallet amounting to $100 and wanted to know how many $10 bills are in her wallet",
+      "hash": "cc2096d10aed007be2639c0e67991b5d",
+      "created_at": "2026-08-29T00:02:22.099329+00:00",
+      "updated_at": "2026-08-29T00:02:22.099329+00:00",
+      "attributed_to": "user"
+    },
+    "89e6f6f3-c3c3-4a6f-9099-fe41484e3fa4": {
+      "user_id": "persona137",
+      "data": "Gail has 2 $10 bills in her wallet",
+      "text_lemmatized": "Gail has 2 $10 bills in her wallet",
+      "hash": "f3fc84ec069085b80c6829b37d5815a5",
+      "created_at": "2026-08-29T00:02:22.099335+00:00",
+      "updated_at": "2026-08-29T00:02:22.099335+00:00",
+      "attributed_to": "assistant"
+    },
+    "7a645ef2-0b59-40c6-bf9e-d4c25af64c69": {
+      "user_id": "persona137",
+      "data": "A rectangle has a width of 42 inches and an area of 1638 and wanted to know how many rectangles of the same size would reach a length of 390 inches",
+      "text_lemmatized": "A rectangle has a width of 42 inches and an area of 1638 and wanted to know how many rectangles of the same size would reach a length of 390 inches",
+      "hash": "e6dac6bd4fed811647e23919907f9dc8",
+      "created_at": "2026-08-29T00:02:22.099341+00:00",
+      "updated_at": "2026-08-29T00:02:22.099341+00:00",
+      "attributed_to": "user"
+    },
+    "a23edc60-d6ba-4082-9f33-7aa1391802b9": {
+      "user_id": "persona137",
+      "data": "To find the number of rectangles, divide the target length by the width and multiply by the number of rectangles",
+      "text_lemmatized": "To find the number of rectangles, divide the target length by the width and multiply by the number of rectangles",
+      "hash": "19838aecf57101d3b3090548b2ddafa5",
+      "created_at": "2026-08-29T00:02:22.099347+00:00",
+      "updated_at": "2026-08-29T00:02:22.099347+00:00",
+      "attributed_to": "assistant"
+    },
+    "7fd6a4b0-f921-44bf-adf1-8f9798cc8b49": {
+      "user_id": "persona137",
+      "data": "The number of rectangles is 1638 / 42 = 39",
+      "text_lemmatized": "The number of rectangles is 1638 / 42 = 39",
+      "hash": "8d7d4454a29d9fbc70a44842fdbb71c4",
+      "created_at": "2026-08-29T00:02:22.099353+00:00",
+      "updated_at": "2026-08-29T00:02:22.099353+00:00",
+      "attributed_to": "assistant"
+    },
+    "bf791910-fec7-4b1b-b621-df36e22c193b": {
+      "user_id": "persona137",
+      "data": "To reach a length of 390 inches, the number of rectangles is 390 / 42 = 9.2857, so 9 rectangles would be needed",
+      "text_lemmatized": "To reach a length of 390 inches, the number of rectangles is 390 / 42 = 9.2857, so 9 rectangles would be needed",
+      "hash": "49bf4db16d414e76546048cff034c9a7",
+      "created_at": "2026-08-29T00:02:22.099359+00:00",
+      "updated_at": "2026-08-29T00:02:22.099359+00:00",
+      "attributed_to": "assistant"
+    },
+    "9949c815-94c1-48f6-9f29-afc3ccd95974": {
+      "user_id": "persona137",
+      "data": "User feels nostalgic about not having caught up with Meera in a while and is excited about a trip to the Dalmatian coast with friends",
+      "text_lemmatized": "User feels nostalgic about not having caught up with Meera in a while and is excited about a trip to the Dalmatian coast with friends",
+      "hash": "6966a27419fcd2b10e4f8636d2595e90",
+      "created_at": "2026-08-29T00:02:40.161213+00:00",
+      "updated_at": "2026-08-29T00:02:40.161213+00:00",
+      "attributed_to": "user"
+    },
+    "c47d9476-0f9d-443e-9a83-825418486589": {
+      "user_id": "persona137",
+      "data": "User has been spending more time on their bike lately, training for a trip to the Dalmatian coast",
+      "text_lemmatized": "User has been spending more time on their bike lately, training for a trip to the Dalmatian coast",
+      "hash": "2817fef8045406b7bd162e81d80fee0e",
+      "created_at": "2026-08-29T00:02:40.161233+00:00",
+      "updated_at": "2026-08-29T00:02:40.161233+00:00",
+      "attributed_to": "user"
+    },
+    "ef11fd2f-96b5-4b37-b130-3589d3ed7ec8": {
+      "user_id": "persona137",
+      "data": "User prefers experiencing places at their own pace, feeling the wind and salt on their face, and seeing the landscape unfold",
+      "text_lemmatized": "User prefers experiencing places at their own pace, feeling the wind and salt on their face, and seeing the landscape unfold",
+      "hash": "d7505174823664be1cb1efd92510a1b6",
+      "created_at": "2026-08-29T00:02:40.161242+00:00",
+      "updated_at": "2026-08-29T00:02:40.161242+00:00",
+      "attributed_to": "user"
+    },
+    "11ec8c65-3eb5-4a6e-afcf-54141fda0ada": {
+      "user_id": "persona137",
+      "data": "User is working on a short essay about lunar habitats and how time on the Moon taught them more about Earth",
+      "text_lemmatized": "User is working on a short essay about lunar habitats and how time on the Moon taught them more about Earth",
+      "hash": "3c85934f75bf1b8d9055a707becabfc5",
+      "created_at": "2026-08-29T00:02:40.161249+00:00",
+      "updated_at": "2026-08-29T00:02:40.161249+00:00",
+      "attributed_to": "user"
+    },
+    "7c10eedc-6344-4a57-bae6-3829d4b0fb0f": {
+      "user_id": "persona137",
+      "data": "User hopes Meera and Ravi are doing well and wants to hear about Meera's painting classes",
+      "text_lemmatized": "User hopes Meera and Ravi are doing well and wants to hear about Meera's painting classes",
+      "hash": "ab4e64c4c390e7c85c7c484bddeec974",
+      "created_at": "2026-08-29T00:02:40.161257+00:00",
+      "updated_at": "2026-08-29T00:02:40.161257+00:00",
+      "attributed_to": "user"
+    },
+    "26d9274e-3b11-49cd-91cd-98fe46324600": {
+      "user_id": "persona137",
+      "data": "User attended a protest for 4 days",
+      "text_lemmatized": "User attended a protest for 4 days",
+      "hash": "817df05d88a70aca758a5ab73bf60855",
+      "created_at": "2026-08-29T00:03:08.021973+00:00",
+      "updated_at": "2026-08-29T00:03:08.021973+00:00",
+      "attributed_to": "user"
+    },
+    "91867d2e-65a6-441f-85ca-f0a4d88257d2": {
+      "user_id": "persona137",
+      "data": "User attended a second protest for 25% longer than the first, which lasted 5 days",
+      "text_lemmatized": "User attended a second protest for 25% longer than the first, which lasted 5 days",
+      "hash": "40e5ce98f64656a428001df5fc966899",
+      "created_at": "2026-08-29T00:03:08.021993+00:00",
+      "updated_at": "2026-08-29T00:03:08.021993+00:00",
+      "attributed_to": "assistant"
+    },
+    "a040cbfc-bf24-4965-b631-0f752d900412": {
+      "user_id": "persona137",
+      "data": "User has 800 books in their room and sold 200 books from Monday to Friday",
+      "text_lemmatized": "User has 800 books in their room and sold 200 books from Monday to Friday",
+      "hash": "e3192b6d54cbab253890d20952a8f271",
+      "created_at": "2026-08-29T00:03:16.335011+00:00",
+      "updated_at": "2026-08-29T00:03:16.335011+00:00",
+      "attributed_to": "user"
+    },
+    "2a5dda43-36b3-48a0-9b44-710f3d333207": {
+      "user_id": "persona137",
+      "data": "User has 600 books left in their room after selling 200 books",
+      "text_lemmatized": "User has 600 books left in their room after selling 200 books",
+      "hash": "49d79d406d809e347dbf3707878af05a",
+      "created_at": "2026-08-29T00:03:16.335033+00:00",
+      "updated_at": "2026-08-29T00:03:16.335033+00:00",
+      "attributed_to": "user"
+    },
+    "f9f544be-3d26-4796-a15c-c89a015fb3c4": {
+      "user_id": "persona137",
+      "data": "Justin can run 2 blocks in 1.5 minutes and is 8 blocks from home, so he can run home in 6 minutes",
+      "text_lemmatized": "Justin can run 2 blocks in 1.5 minutes and is 8 blocks from home, so he can run home in 6 minutes",
+      "hash": "02833c991e9748a8be32a11c20e0fa97",
+      "created_at": "2026-08-29T00:03:16.335044+00:00",
+      "updated_at": "2026-08-29T00:03:16.335044+00:00",
+      "attributed_to": "assistant"
+    },
+    "d608c328-684b-4eab-9d6e-068546dfa403": {
+      "user_id": "persona137",
+      "data": "A family has 3 adults and children, both girls and boys, and prepared 3 dozen boiled eggs for a trip",
+      "text_lemmatized": "A family has 3 adults and children, both girls and boys, and prepared 3 dozen boiled eggs for a trip",
+      "hash": "e5cba8c69600dd460b4ea7534683677f",
+      "created_at": "2026-08-29T00:03:16.335053+00:00",
+      "updated_at": "2026-08-29T00:03:16.335053+00:00",
+      "attributed_to": "assistant"
+    },
+    "4d43e2a6-972a-4dc9-8b21-827f1212f097": {
+      "user_id": "persona137",
+      "data": "Every adult got 3 eggs, and the boys each received 1 more egg than each girl since the girls had some snacks",
+      "text_lemmatized": "Every adult got 3 eggs, and the boys each received 1 more egg than each girl since the girls had some snacks",
+      "hash": "60451c06a6803e0084a44a8c6cfdf297",
+      "created_at": "2026-08-29T00:03:16.335062+00:00",
+      "updated_at": "2026-08-29T00:03:16.335062+00:00",
+      "attributed_to": "assistant"
+    },
+    "23c88c31-09cb-41e1-b870-1308423930b7": {
+      "user_id": "persona137",
+      "data": "The family has 7 girls, and each girl received an egg, so the total number of eggs given to girls is 7",
+      "text_lemmatized": "The family has 7 girls, and each girl received an egg, so the total number of eggs given to girls is 7",
+      "hash": "d1c2b70f29e06e53c0841b4c8a9d4de7",
+      "created_at": "2026-08-29T00:03:16.335071+00:00",
+      "updated_at": "2026-08-29T00:03:16.335071+00:00",
+      "attributed_to": "assistant"
+    },
+    "255a43eb-4b85-419c-a5d2-d4850201ad75": {
+      "user_id": "persona137",
+      "data": "The family prepared 3 dozen boiled eggs, which is 36 eggs, and each adult got 3 eggs, so the total number of eggs given to adults is 3 * 3 = 9",
+      "text_lemmatized": "The family prepared 3 dozen boiled eggs, which is 36 eggs, and each adult got 3 eggs, so the total number of eggs given to adults is 3 * 3 = 9",
+      "hash": "8b618796567c90f97daf40e251853edc",
+      "created_at": "2026-08-29T00:03:16.335080+00:00",
+      "updated_at": "2026-08-29T00:03:16.335080+00:00",
+      "attributed_to": "assistant"
+    },
+    "1cea88e8-defb-43fc-84dc-5e5cdbdf7f40": {
+      "user_id": "persona137",
+      "data": "The total number of eggs given to girls and adults is 7 + 9 = 16, and the family prepared 36 eggs, so the number of eggs left for boys is 36 - 16 = 20",
+      "text_lemmatized": "The total number of eggs given to girls and adults is 7 + 9 = 16, and the family prepared 36 eggs, so the number of eggs left for boys is 36 - 16 = 20",
+      "hash": "baee3a0882774f99bd84257168532c47",
+      "created_at": "2026-08-29T00:03:16.335089+00:00",
+      "updated_at": "2026-08-29T00:03:16.335089+00:00",
+      "attributed_to": "assistant"
+    },
+    "0859f7bb-c711-4733-9af5-5962339f446e": {
+      "user_id": "persona137",
+      "data": "Each boy received 1 more egg than each girl, and each girl received 1 egg, so each boy received 2 eggs, and the total number of eggs given to boys is 20",
+      "text_lemmatized": "Each boy received 1 more egg than each girl, and each girl received 1 egg, so each boy received 2 eggs, and the total number of eggs given to boys is 20",
+      "hash": "3305d0dc91acd21ddc3dc470f3d5ed3d",
+      "created_at": "2026-08-29T00:03:16.335098+00:00",
+      "updated_at": "2026-08-29T00:03:16.335098+00:00",
+      "attributed_to": "assistant"
+    },
+    "d6014ddf-e2de-41eb-a109-b1a75f0d4a7c": {
+      "user_id": "persona137",
+      "data": "The number of boys is equal to the number of eggs given to boys divided by 2, so the number of boys is 20 / 2 = 10",
+      "text_lemmatized": "The number of boys is equal to the number of eggs given to boys divided by 2, so the number of boys is 20 / 2 = 10",
+      "hash": "b81b31314ac3b85c6e0ef21f241a2423",
+      "created_at": "2026-08-29T00:03:16.335107+00:00",
+      "updated_at": "2026-08-29T00:03:16.335107+00:00",
+      "attributed_to": "assistant"
+    },
+    "29dbd5fd-6475-4c55-9d7e-04b1aaafc0b5": {
+      "user_id": "persona137",
+      "data": "Shem earns 2.5 times more than Kem, who earns $4 per hour, so Shem earns $4 \u00d7 2.5 = $10 per hour",
+      "text_lemmatized": "Shem earns 2.5 times more than Kem, who earns $4 per hour, so Shem earns $4 \u00d7 2.5 = $10 per hour",
+      "hash": "36e1ad3986bc06f2ef4afd84e4f8542d",
+      "created_at": "2026-08-29T00:03:19.115158+00:00",
+      "updated_at": "2026-08-29T00:03:19.115158+00:00"
+    },
+    "71237c08-66d9-4c8d-a74d-a51e00951ad9": {
+      "user_id": "persona137",
+      "data": "Shem earns $10 per hour, and works 8 hours a day, so he earns $10 \u00d7 8 = $80 per day",
+      "text_lemmatized": "Shem earns $10 per hour, and works 8 hours a day, so he earns $10 \u00d7 8 = $80 per day",
+      "hash": "5a365cb1f19e650f5614f41a8ab32f98",
+      "created_at": "2026-08-29T00:03:19.115178+00:00",
+      "updated_at": "2026-08-29T00:03:19.115178+00:00"
+    },
+    "11f027e7-c8e1-445d-97f8-2cdc3feca5c2": {
+      "user_id": "persona137",
+      "data": "The sky changes color every 10 minutes during sunset",
+      "text_lemmatized": "The sky changes color every 10 minutes during sunset",
+      "hash": "758523005f0ca1bade0aa52ee28e6c6e",
+      "created_at": "2026-08-29T00:03:22.048843+00:00",
+      "updated_at": "2026-08-29T00:03:22.048843+00:00",
+      "attributed_to": "assistant"
+    },
+    "40782cfc-5836-4199-bec9-c33796c7e3f8": {
+      "user_id": "persona137",
+      "data": "A long summer sunset lasts for 2 hours, which is 120 minutes",
+      "text_lemmatized": "A long summer sunset lasts for 2 hours, which is 120 minutes",
+      "hash": "e25a50f871aa1f8c1b9224c401f16b5c",
+      "created_at": "2026-08-29T00:03:22.048866+00:00",
+      "updated_at": "2026-08-29T00:03:22.048866+00:00",
+      "attributed_to": "assistant"
+    },
+    "97deb4ae-8a80-44e4-8d5b-a00c1f8db5a6": {
+      "user_id": "persona137",
+      "data": "To find the number of colors the sky turns, divide the total minutes of sunset by 10",
+      "text_lemmatized": "To find the number of colors the sky turns, divide the total minutes of sunset by 10",
+      "hash": "4fb695dbd72c341ec0cf68b835178fdc",
+      "created_at": "2026-08-29T00:03:22.048877+00:00",
+      "updated_at": "2026-08-29T00:03:22.048877+00:00",
+      "attributed_to": "assistant"
+    },
+    "5272d9f1-390c-4c65-8ae0-2556a41dacf0": {
+      "user_id": "persona137",
+      "data": "120 minutes / 10 minutes per color = 12 colors",
+      "text_lemmatized": "120 minutes / 10 minutes per color = 12 colors",
+      "hash": "1e3ddc2a3d4e47a2e548ca13f41af027",
+      "created_at": "2026-08-29T00:03:22.048887+00:00",
+      "updated_at": "2026-08-29T00:03:22.048887+00:00",
+      "attributed_to": "assistant"
+    },
+    "732a16ad-003b-4a51-a282-106f32a4f70f": {
+      "user_id": "persona137",
+      "data": "User is planning a special weekend dinner at home and wants to try a dish that is flavorful, time-intensive, and showcases a mix of spices",
+      "text_lemmatized": "User is planning a special weekend dinner at home and wants to try a dish that is flavorful, time-intensive, and showcases a mix of spices",
+      "hash": "d259a315b91aa35a37c048e2576feb6d",
+      "created_at": "2026-08-29T00:03:25.424160+00:00",
+      "updated_at": "2026-08-29T00:03:25.424160+00:00"
+    },
+    "30616581-6f82-4252-b949-37ec0eb875ae": {
+      "user_id": "persona137",
+      "data": "User was suggested Chettinad-style pepper chicken, a rich and aromatic vegetable kurma, and a layered Malabar parotta for a spice-filled feast",
+      "text_lemmatized": "User was suggested Chettinad-style pepper chicken, a rich and aromatic vegetable kurma, and a layered Malabar parotta for a spice-filled feast",
+      "hash": "85b101d3dd8e7265a41ab1bc498eaa22",
+      "created_at": "2026-08-29T00:03:25.424179+00:00",
+      "updated_at": "2026-08-29T00:03:25.424179+00:00"
+    },
+    "001268a8-f628-48d9-871e-59acff388eca": {
+      "user_id": "persona137",
+      "data": "User is planning a weekend getaway to a coastal city and wants to experience local events and activities that showcase the area's culture and vibe.",
+      "text_lemmatized": "User is planning a weekend getaway to a coastal city and wants to experience local events and activities that showcase the area's culture and vibe.",
+      "hash": "30c3744510b5a707258b7c28bd2ec158",
+      "created_at": "2026-08-29T00:03:50.121107+00:00",
+      "updated_at": "2026-08-29T00:03:50.121107+00:00",
+      "attributed_to": "user"
+    },
+    "fe364977-0293-4c17-97e7-eeadfae29200": {
+      "user_id": "persona137",
+      "data": "Assistant suggested unique activities for a coastal city visit, including a harbor or fishing pier sunrise stroll, historic district walking tour, sea-to-table cooking class, and coastal cycling routes.",
+      "text_lemmatized": "Assistant suggested unique activities for a coastal city visit, including a harbor or fishing pier sunrise stroll, historic district walking tour, sea-to-table cooking class, and coastal cycling routes.",
+      "hash": "86bc860db2c4f0ae42ce0f260602b0d0",
+      "created_at": "2026-08-29T00:03:50.121131+00:00",
+      "updated_at": "2026-08-29T00:03:50.121131+00:00",
+      "attributed_to": "assistant"
+    },
+    "8a05af25-90ef-4a1d-ae5e-003370260786": {
+      "user_id": "persona137",
+      "data": "User is interested in understanding metamerism in the context of fountain pen inks and how it affects color perception.",
+      "text_lemmatized": "User is interested in understanding metamerism in the context of fountain pen inks and how it affects color perception.",
+      "hash": "c56d24e27308d22c1d5093551582b7ac",
+      "created_at": "2026-08-29T00:03:50.121142+00:00",
+      "updated_at": "2026-08-29T00:03:50.121142+00:00",
+      "attributed_to": "user"
+    },
+    "4006bb48-53da-441b-9c62-791d69bc6f86": {
+      "user_id": "persona137",
+      "data": "Assistant explained metamerism as a phenomenon where two colors match under one light source but appear different under another, and how it applies to fountain pen inks.",
+      "text_lemmatized": "Assistant explained metamerism as a phenomenon where two colors match under one light source but appear different under another, and how it applies to fountain pen inks.",
+      "hash": "17ba394e4873302bfaebc0a644c11d9f",
+      "created_at": "2026-08-29T00:03:50.121152+00:00",
+      "updated_at": "2026-08-29T00:03:50.121152+00:00",
+      "attributed_to": "assistant"
+    },
+    "b1043d91-53c9-4c58-ab99-85edd3e1f5fb": {
+      "user_id": "persona137",
+      "data": "User is refining a piece of writing about a lunar module experience and wants to extend the lunar module metaphor without overwhelming the rest of the piece.",
+      "text_lemmatized": "User is refining a piece of writing about a lunar module experience and wants to extend the lunar module metaphor without overwhelming the rest of the piece.",
+      "hash": "ca295aa9f1e46d6423315519c7bc70b8",
+      "created_at": "2026-08-29T00:03:50.121161+00:00",
+      "updated_at": "2026-08-29T00:03:50.121161+00:00",
+      "attributed_to": "user"
+    },
+    "be245697-dec1-4b0b-ae5c-2f8853ca7a84": {
+      "user_id": "persona137",
+      "data": "Assistant suggested ways to subtly extend the lunar module metaphor, including adding sensory details that evoke space without explicitly naming it.",
+      "text_lemmatized": "Assistant suggested ways to subtly extend the lunar module metaphor, including adding sensory details that evoke space without explicitly naming it.",
+      "hash": "3a445927ecbd320b70e6715233e7b581",
+      "created_at": "2026-08-29T00:03:50.121170+00:00",
+      "updated_at": "2026-08-29T00:03:50.121170+00:00",
+      "attributed_to": "assistant"
+    },
+    "1ab30469-9373-4246-a570-78eec5f5ca6f": {
+      "user_id": "persona137",
+      "data": "User is looking for creative menu ideas for a relaxed evening at home with a few people.",
+      "text_lemmatized": "User is looking for creative menu ideas for a relaxed evening at home with a few people.",
+      "hash": "8af9de99010f001c8f102254b5412689",
+      "created_at": "2026-08-29T00:03:50.121179+00:00",
+      "updated_at": "2026-08-29T00:03:50.121179+00:00",
+      "attributed_to": "user"
+    },
+    "bd8da9ab-c10a-40f9-a433-9c79eda9e2d5": {
+      "user_id": "persona137",
+      "data": "Assistant suggested a shared charcuterie board, homemade lasagna, slow-cooked short ribs, and a rustic fruit tart for a cozy evening with close friends.",
+      "text_lemmatized": "Assistant suggested a shared charcuterie board, homemade lasagna, slow-cooked short ribs, and a rustic fruit tart for a cozy evening with close friends.",
+      "hash": "10a3ead9becf5a8df20991fea9a5a6ce",
+      "created_at": "2026-08-29T00:03:50.121189+00:00",
+      "updated_at": "2026-08-29T00:03:50.121189+00:00",
+      "attributed_to": "assistant"
+    },
+    "d88253ef-a1a6-46ab-ad03-753ea60e1ef3": {
+      "user_id": "persona137",
+      "data": "User is interested in exciting developments or breakthroughs in science and technology that are likely to unfold over the next year.",
+      "text_lemmatized": "User is interested in exciting developments or breakthroughs in science and technology that are likely to unfold over the next year.",
+      "hash": "2958c0b2cc6c9a11736da580fd459e1d",
+      "created_at": "2026-08-29T00:03:50.121197+00:00",
+      "updated_at": "2026-08-29T00:03:50.121197+00:00",
+      "attributed_to": "user"
+    },
+    "428ab26a-4ff3-48d1-b5f6-fe4d6846bf19": {
+      "user_id": "persona137",
+      "data": "Assistant mentioned space exploration milestones, such as the first Artemis lunar missions, new private spacecraft debuting, and the James Webb Space Telescope continuing to deliver groundbreaking exoplanet observations.",
+      "text_lemmatized": "Assistant mentioned space exploration milestones, such as the first Artemis lunar missions, new private spacecraft debuting, and the James Webb Space Telescope continuing to deliver groundbreaking exoplanet observations.",
+      "hash": "49e9bbc212462340b682c90f5f3ecb39",
+      "created_at": "2026-08-29T00:03:50.121206+00:00",
+      "updated_at": "2026-08-29T00:03:50.121206+00:00",
+      "attributed_to": "assistant"
+    },
+    "58a7296c-9501-45ed-bcad-5a733c79744d": {
+      "user_id": "persona137",
+      "data": "User is wondering why something they once thought of as wonderfully fragrant now feels overwhelmingly sweet, almost cloying, when they taste it today.",
+      "text_lemmatized": "User is wondering why something they once thought of as wonderfully fragrant now feels overwhelmingly sweet, almost cloying, when they taste it today.",
+      "hash": "117dea144620aba3f869447b56e00117",
+      "created_at": "2026-08-29T00:03:50.121214+00:00",
+      "updated_at": "2026-08-29T00:03:50.121214+00:00",
+      "attributed_to": "user"
+    },
+    "f2e9f458-f6e2-4ab1-81b1-838c7851650b": {
+      "user_id": "persona137",
+      "data": "Assistant explained that the change in perception could be due to a combination of factors, including changes in taste receptors, altered olfactory processing, and psychological factors such as changes in life experiences and memories.",
+      "text_lemmatized": "Assistant explained that the change in perception could be due to a combination of factors, including changes in taste receptors, altered olfactory processing, and psychological factors such as changes in life experiences and memories.",
+      "hash": "ba54fac0f35783920b20f916b16a5e3b",
+      "created_at": "2026-08-29T00:03:50.121223+00:00",
+      "updated_at": "2026-08-29T00:03:50.121223+00:00",
+      "attributed_to": "assistant"
+    },
+    "4e096691-79d1-420d-a0bf-3094651a924c": {
+      "user_id": "persona137",
+      "data": "User is interested in understanding how environmental factors, such as moving to a different climate or changes in air quality, can affect how sweet or fragrant something feels to them.",
+      "text_lemmatized": "User is interested in understanding how environmental factors, such as moving to a different climate or changes in air quality, can affect how sweet or fragrant something feels to them.",
+      "hash": "d443a2d62fd5d180d201d2757ae11821",
+      "created_at": "2026-08-29T00:03:50.121231+00:00",
+      "updated_at": "2026-08-29T00:03:50.121231+00:00",
+      "attributed_to": "user"
+    },
+    "edbf0b2c-7fcd-454f-90d3-3ca224ea6079": {
+      "user_id": "persona137",
+      "data": "Assistant explained that environmental conditions, such as humidity, temperature, and air composition, can subtly alter sensory perception and affect how aroma molecules travel and interact with the olfactory system.",
+      "text_lemmatized": "Assistant explained that environmental conditions, such as humidity, temperature, and air composition, can subtly alter sensory perception and affect how aroma molecules travel and interact with the olfactory system.",
+      "hash": "fafdbfe203104e87d00c10d08f287100",
+      "created_at": "2026-08-29T00:03:50.121240+00:00",
+      "updated_at": "2026-08-29T00:03:50.121240+00:00",
+      "attributed_to": "assistant"
+    },
+    "11a70ebd-af72-4a66-87da-a89e5941f330": {
+      "user_id": "persona137",
+      "data": "User overheard someone mention that batting orders during big international cricket events can be 'more psychological than statistical' and wants to understand what that means.",
+      "text_lemmatized": "User overheard someone mention that batting orders during big international cricket events can be 'more psychological than statistical' and wants to understand what that means.",
+      "hash": "ca6a5b20a00859a1c4c9bc948da98997",
+      "created_at": "2026-08-29T00:03:50.121248+00:00",
+      "updated_at": "2026-08-29T00:03:50.121248+00:00",
+      "attributed_to": "user"
+    },
+    "15f2dd19-1f05-4248-8a4e-6c30a456830f": {
+      "user_id": "persona137",
+      "data": "Assistant explained that the statement refers to the complex interplay between psychological factors, such as team dynamics and player mentalities, and statistical factors, such as batting averages and team performance.",
+      "text_lemmatized": "Assistant explained that the statement refers to the complex interplay between psychological factors, such as team dynamics and player mentalities, and statistical factors, such as batting averages and team performance.",
+      "hash": "6102054dbc1f61b8705cfac16af169e2",
+      "created_at": "2026-08-29T00:03:50.121256+00:00",
+      "updated_at": "2026-08-29T00:03:50.121256+00:00",
+      "attributed_to": "assistant"
+    },
+    "2dcc69ac-4d7c-4dbe-9c27-02456388d5a7": {
+      "user_id": "persona137",
+      "data": "The batting order in cricket during major international tournaments is influenced by both statistical and psychological factors, with captains weighing the mental state of players and opponents alongside batting averages and team performance.",
+      "text_lemmatized": "The batting order in cricket during major international tournaments is influenced by both statistical and psychological factors, with captains weighing the mental state of players and opponents alongside batting averages and team performance.",
+      "hash": "33c1d2e2c287dfb9b3712a3b92d917d5",
+      "created_at": "2026-08-29T00:03:58.379285+00:00",
+      "updated_at": "2026-08-29T00:03:58.379285+00:00",
+      "attributed_to": "assistant"
+    },
+    "f1321bfa-111f-4048-80b2-f1b3e807a291": {
+      "user_id": "persona137",
+      "data": "Andrew Symonds was unexpectedly sent up the order by Australia in the 2003 Cricket World Cup, disrupting New Zealand's bowling plans and boosting Australia's confidence.",
+      "text_lemmatized": "Andrew Symonds was unexpectedly sent up the order by Australia in the 2003 Cricket World Cup, disrupting New Zealand's bowling plans and boosting Australia's confidence.",
+      "hash": "ec5dc0797d7b1a306e6765bbbfedd7e0",
+      "created_at": "2026-08-29T00:03:58.379304+00:00",
+      "updated_at": "2026-08-29T00:03:58.379304+00:00",
+      "attributed_to": "assistant"
+    },
+    "730a186d-5273-404e-84c4-0e52b968de09": {
+      "user_id": "persona137",
+      "data": "MS Dhoni was promoted ahead of Yuvraj Singh in the 2011 World Cup final, with Dhoni scoring an unbeaten 91 and sealing the trophy for India.",
+      "text_lemmatized": "MS Dhoni was promoted ahead of Yuvraj Singh in the 2011 World Cup final, with Dhoni scoring an unbeaten 91 and sealing the trophy for India.",
+      "hash": "2ff7b7628990877e55d2aad5777b40f8",
+      "created_at": "2026-08-29T00:03:58.379313+00:00",
+      "updated_at": "2026-08-29T00:03:58.379313+00:00",
+      "attributed_to": "assistant"
+    },
+    "95c1ce54-49c6-4620-b620-fa6c361a395d": {
+      "user_id": "persona137",
+      "data": "Someone who grew up in a warm climate may find ice skating less appealing due to the unfamiliar sensation of instability, cold, and stiffness, which can trigger a stress response and make the experience feel overwhelming.",
+      "text_lemmatized": "Someone who grew up in a warm climate may find ice skating less appealing due to the unfamiliar sensation of instability, cold, and stiffness, which can trigger a stress response and make the experience feel overwhelming.",
+      "hash": "488ce5056657d4a0c67c351903bac0ea",
+      "created_at": "2026-08-29T00:03:58.379320+00:00",
+      "updated_at": "2026-08-29T00:03:58.379320+00:00",
+      "attributed_to": "assistant"
+    },
+    "11573efc-a0ff-4d83-9306-45d71be4bf99": {
+      "user_id": "persona137",
+      "data": "Traditional textile motifs often emerge from patterns found in nature, such as symmetry in flowers, and are echoed in human perception, cultural heritage, and design traditions that have stood the test of time.",
+      "text_lemmatized": "Traditional textile motifs often emerge from patterns found in nature, such as symmetry in flowers, and are echoed in human perception, cultural heritage, and design traditions that have stood the test of time.",
+      "hash": "0d19da94433204221737ba36d62cdb2e",
+      "created_at": "2026-08-29T00:03:58.379327+00:00",
+      "updated_at": "2026-08-29T00:03:58.379327+00:00",
+      "attributed_to": "assistant"
+    },
+    "aa9b0579-1a7e-4ebd-b004-e1486a7394fb": {
+      "user_id": "persona137",
+      "data": "A kayak's natural roll period can be determined by a dockside or calm-water test, and knowing this can help anticipate swells and make paddling more stable.",
+      "text_lemmatized": "A kayak's natural roll period can be determined by a dockside or calm-water test, and knowing this can help anticipate swells and make paddling more stable.",
+      "hash": "861b378cb5ec7986e1f4dd44723492b8",
+      "created_at": "2026-08-29T00:03:58.379333+00:00",
+      "updated_at": "2026-08-29T00:03:58.379333+00:00",
+      "attributed_to": "assistant"
+    },
+    "f3f1c484-6a7e-4255-bb76-718a6788baa6": {
+      "user_id": "persona137",
+      "data": "Sunsets at sea feel different from those in the mountains due to atmospheric physics, terrain geometry, and human perception and emotional association, with ocean sunsets often appearing more saturated and diffuse.",
+      "text_lemmatized": "Sunsets at sea feel different from those in the mountains due to atmospheric physics, terrain geometry, and human perception and emotional association, with ocean sunsets often appearing more saturated and diffuse.",
+      "hash": "23476a13cff18c0d800e17b429b84f2c",
+      "created_at": "2026-08-29T00:03:58.379339+00:00",
+      "updated_at": "2026-08-29T00:03:58.379339+00:00",
+      "attributed_to": "assistant"
+    },
+    "a32c4a18-468a-4d22-bbaa-ea6962438b44": {
+      "user_id": "persona137",
+      "data": "The first rays over a mountain ridge can look more golden and diffused than a sunrise over flat land due to atmospheric scattering, terrain geometry, and seasonal air patterns.",
+      "text_lemmatized": "The first rays over a mountain ridge can look more golden and diffused than a sunrise over flat land due to atmospheric scattering, terrain geometry, and seasonal air patterns.",
+      "hash": "3814f18d40d8dfa19ed5c539d6dd04f2",
+      "created_at": "2026-08-29T00:03:58.379345+00:00",
+      "updated_at": "2026-08-29T00:03:58.379345+00:00",
+      "attributed_to": "assistant"
+    },
+    "dc2abae2-d350-4bb6-9a6f-3aa512282ac2": {
+      "user_id": "persona137",
+      "data": "Humidity in mountain valleys can contribute to the golden hue of the first light, but it's not the only factor, with air at higher altitudes often containing fewer aerosols from human activity.",
+      "text_lemmatized": "Humidity in mountain valleys can contribute to the golden hue of the first light, but it's not the only factor, with air at higher altitudes often containing fewer aerosols from human activity.",
+      "hash": "670b1167fa5a049489fdf1189487f80c",
+      "created_at": "2026-08-29T00:03:58.379351+00:00",
+      "updated_at": "2026-08-29T00:03:58.379351+00:00",
+      "attributed_to": "assistant"
+    },
+    "3a6128f0-e392-4649-9d92-26acaa03f9b2": {
+      "user_id": "persona137",
+      "data": "The order in which photographs are kept can influence how we remember the events in them, as it affects the narrative flow and emotional resonance.",
+      "text_lemmatized": "The order in which photographs are kept can influence how we remember the events in them, as it affects the narrative flow and emotional resonance.",
+      "hash": "6acd8b955f820818c7155404f4dab533",
+      "created_at": "2026-08-29T00:04:10.392271+00:00",
+      "updated_at": "2026-08-29T00:04:10.392271+00:00",
+      "attributed_to": "assistant"
+    },
+    "3e0d7525-4265-4643-9647-01684f1988df": {
+      "user_id": "persona137",
+      "data": "In community plots, shared microclimates emerge due to the interaction of plant structures, bed placements, and physical garden features, which break up wind flow, reduce evaporation, and create humidity pockets.",
+      "text_lemmatized": "In community plots, shared microclimates emerge due to the interaction of plant structures, bed placements, and physical garden features, which break up wind flow, reduce evaporation, and create humidity pockets.",
+      "hash": "c38ffd2d4f08dbd3b13728c98a6ceffc",
+      "created_at": "2026-08-29T00:04:10.392290+00:00",
+      "updated_at": "2026-08-29T00:04:10.392290+00:00",
+      "attributed_to": "assistant"
+    },
+    "665b3849-3c6f-4c37-ab93-60d9ef298afb": {
+      "user_id": "persona137",
+      "data": "The Space Race (1957-1975) accelerated funding into STEM education and spun up entire research sectors, redirecting scientific curiosity into channels with direct technological utility.",
+      "text_lemmatized": "The Space Race (1957-1975) accelerated funding into STEM education and spun up entire research sectors, redirecting scientific curiosity into channels with direct technological utility.",
+      "hash": "705dec163d0878f33bc92f6e94d7304f",
+      "created_at": "2026-08-29T00:04:10.392299+00:00",
+      "updated_at": "2026-08-29T00:04:10.392299+00:00",
+      "attributed_to": "assistant"
+    },
+    "81071539-b48c-49cf-beb8-629672f5c214": {
+      "user_id": "persona137",
+      "data": "Some plants seem to thrive better in small community plots than in private gardens due to unintentional polyculture, shared microclimates, and human cooperation.",
+      "text_lemmatized": "Some plants seem to thrive better in small community plots than in private gardens due to unintentional polyculture, shared microclimates, and human cooperation.",
+      "hash": "75dade4b008bffa381385ec04271418e",
+      "created_at": "2026-08-29T00:04:10.392306+00:00",
+      "updated_at": "2026-08-29T00:04:10.392306+00:00",
+      "attributed_to": "assistant"
+    },
+    "3b82e623-1f6b-469e-9ea7-80bb35a20f23": {
+      "user_id": "persona137",
+      "data": "The shared microclimates in community plots work by breaking up wind flow, reducing evaporation, and creating humidity pockets, which moderate extremes and make it easier for a wider variety of plants to remain healthy and productive.",
+      "text_lemmatized": "The shared microclimates in community plots work by breaking up wind flow, reducing evaporation, and creating humidity pockets, which moderate extremes and make it easier for a wider variety of plants to remain healthy and productive.",
+      "hash": "9c65bacce9c336a4d835b7d795e80d9a",
+      "created_at": "2026-08-29T00:04:10.392313+00:00",
+      "updated_at": "2026-08-29T00:04:10.392313+00:00",
+      "attributed_to": "assistant"
+    },
+    "5c2d2a49-126e-48e6-8a76-7934bd18fbef": {
+      "user_id": "persona137",
+      "data": "Regular self-reflection acts like a rehearsal session for the brain, strengthening neural pathways associated with experiences, particularly in the hippocampus and prefrontal cortex, which are key for consolidating autobiographical memory.",
+      "text_lemmatized": "Regular self-reflection acts like a rehearsal session for the brain, strengthening neural pathways associated with experiences, particularly in the hippocampus and prefrontal cortex, which are key for consolidating autobiographical memory.",
+      "hash": "9e1ee2f0d5224ebd0128c80809547080",
+      "created_at": "2026-08-29T00:04:10.392319+00:00",
+      "updated_at": "2026-08-29T00:04:10.392319+00:00",
+      "attributed_to": "assistant"
+    },
+    "0bb47e1f-4e8e-4478-9f02-a92b54b4449d": {
+      "user_id": "persona137",
+      "data": "The absence of daily reflection doesn't necessarily mean perspective or memory must suffer, as reflection can take many forms, including in-depth conversations, meditative practice, creative work, or mentally composing stories without recording them.",
+      "text_lemmatized": "The absence of daily reflection doesn't necessarily mean perspective or memory must suffer, as reflection can take many forms, including in-depth conversations, meditative practice, creative work, or mentally composing stories without recording them.",
+      "hash": "03687a7d6722232c634611e8873a04d1",
+      "created_at": "2026-08-29T00:04:10.392326+00:00",
+      "updated_at": "2026-08-29T00:04:10.392326+00:00",
+      "attributed_to": "assistant"
+    },
+    "38b69652-e4fc-48d3-b989-c254188206d3": {
+      "user_id": "persona137",
+      "data": "The spinach I buy lately seems to stay fresh nearly a week longer than I expect, even though I'm storing it the same way.",
+      "text_lemmatized": "The spinach I buy lately seems to stay fresh nearly a week longer than I expect, even though I'm storing it the same way.",
+      "hash": "261243b6b4d90003de61698c0b4ab9d0",
+      "created_at": "2026-08-29T00:04:10.392341+00:00",
+      "updated_at": "2026-08-29T00:04:10.392341+00:00",
+      "attributed_to": "user"
+    },
+    "3b732225-54c3-4477-903c-16cafdb2e123": {
+      "user_id": "persona137",
+      "data": "Some people seem to read more intently in a place full of chatter than in total silence.",
+      "text_lemmatized": "Some people seem to read more intently in a place full of chatter than in total silence.",
+      "hash": "5fa1ff2909f3dfc46f2a62c4a0ba3a68",
+      "created_at": "2026-08-29T00:04:10.392347+00:00",
+      "updated_at": "2026-08-29T00:04:10.392347+00:00",
+      "attributed_to": "user"
+    },
+    "a6dc5040-9089-4816-acdd-533565af446f": {
+      "user_id": "persona137",
+      "data": "Why do some people lose interest in a hobby that once felt incredibly rewarding?",
+      "text_lemmatized": "Why do some people lose interest in a hobby that once felt incredibly rewarding?",
+      "hash": "171ecc5c0bdb5d30fe44e5a5d7b81cf3",
+      "created_at": "2026-08-29T00:04:10.392353+00:00",
+      "updated_at": "2026-08-29T00:04:10.392353+00:00",
+      "attributed_to": "user"
+    },
+    "69a06b6d-3a25-499f-80f5-c824f5a6ada7": {
+      "user_id": "persona137",
+      "data": "If I wanted a concise explanation of how the space race shaped scientific priorities without wading through hours of talk, where would you suggest I start?",
+      "text_lemmatized": "If I wanted a concise explanation of how the space race shaped scientific priorities without wading through hours of talk, where would you suggest I start?",
+      "hash": "508b9c532c29812446f9c00500af2b7d",
+      "created_at": "2026-08-29T00:04:10.392359+00:00",
+      "updated_at": "2026-08-29T00:04:10.392359+00:00",
+      "attributed_to": "user"
+    },
+    "edc9b045-f708-47e1-9e62-c005b1d26bb9": {
+      "user_id": "persona137",
+      "data": "Why do some travelers seem to avoid art museums even when they're deeply interested in culture?",
+      "text_lemmatized": "Why do some travelers seem to avoid art museums even when they're deeply interested in culture?",
+      "hash": "e388e93567d6cd69519cc89f1d201d12",
+      "created_at": "2026-08-29T00:04:10.392364+00:00",
+      "updated_at": "2026-08-29T00:04:10.392364+00:00",
+      "attributed_to": "user"
+    },
+    "836bb27f-a8ab-47d6-a381-8a4fec80ebc7": {
+      "user_id": "persona137",
+      "data": "Why do some people avoid art museums even when they're deeply interested in culture?",
+      "text_lemmatized": "Why do some people avoid art museums even when they're deeply interested in culture?",
+      "hash": "68b8ad1c949046132e363beaf7c0dd9b",
+      "created_at": "2026-08-29T00:04:10.392370+00:00",
+      "updated_at": "2026-08-29T00:04:10.392370+00:00",
+      "attributed_to": "assistant"
+    },
+    "c1c48ebf-1158-45be-a981-deb64975cf20": {
+      "user_id": "persona137",
+      "data": "Why do some plants seem to thrive better in small community plots than in private gardens?",
+      "text_lemmatized": "Why do some plants seem to thrive better in small community plots than in private gardens?",
+      "hash": "d2a197000738c9bcecedeef9bd8d042b",
+      "created_at": "2026-08-29T00:04:10.392375+00:00",
+      "updated_at": "2026-08-29T00:04:10.392375+00:00",
+      "attributed_to": "user"
+    },
+    "2a9b375d-9e71-43ca-8b33-62153068d643": {
+      "user_id": "persona137",
+      "data": "Can you explain more about how the shared microclimates in community plots work to benefit the plants?",
+      "text_lemmatized": "Can you explain more about how the shared microclimates in community plots work to benefit the plants?",
+      "hash": "3d0f8cf99be94215f53a40597434cf54",
+      "created_at": "2026-08-29T00:04:10.392381+00:00",
+      "updated_at": "2026-08-29T00:04:10.392381+00:00",
+      "attributed_to": "user"
+    },
+    "14b3a3e6-b82f-4cae-bd7f-5fe5fae86b28": {
+      "user_id": "persona137",
+      "data": "Does the order in which photographs are kept change the way we remember the events in them?",
+      "text_lemmatized": "Does the order in which photographs are kept change the way we remember the events in them?",
+      "hash": "0236516b880ea67174daf1c0627fd9f4",
+      "created_at": "2026-08-29T00:04:10.392387+00:00",
+      "updated_at": "2026-08-29T00:04:10.392387+00:00",
+      "attributed_to": "user"
+    },
+    "f1ff6913-1916-4d3a-91b2-210ef591c27c": {
+      "user_id": "persona137",
+      "data": "Even when your serum 25-hydroxyvitamin D level is in the 'adequate' range (generally 30\u201350 ng/mL for most guidelines), the body's seasonal relationship with sunlight still impacts physiology through several subtler mechanisms.",
+      "text_lemmatized": "Even when your serum 25-hydroxyvitamin D level is in the 'adequate' range (generally 30\u201350 ng/mL for most guidelines), the body's seasonal relationship with sunlight still impacts physiology through several subtler mechanisms.",
+      "hash": "96dc5c594cc4c03b685e99d660426d9a",
+      "created_at": "2026-08-29T00:04:16.832959+00:00",
+      "updated_at": "2026-08-29T00:04:16.832959+00:00",
+      "attributed_to": "assistant"
+    },
+    "af98b9cd-652b-446b-9d81-ff89745f6e6f": {
+      "user_id": "persona137",
+      "data": "Some researchers studying autobiographical memory even suggest that non-chronological exposure to personal photos can encourage more reflective, non-linear storytelling.",
+      "text_lemmatized": "Some researchers studying autobiographical memory even suggest that non-chronological exposure to personal photos can encourage more reflective, non-linear storytelling.",
+      "hash": "49924d0a963a3237db814b869ccb26e0",
+      "created_at": "2026-08-29T00:04:16.832977+00:00",
+      "updated_at": "2026-08-29T00:04:16.832977+00:00",
+      "attributed_to": "assistant"
+    },
+    "1838e3b7-b01a-4707-a970-1c3054f94e10": {
+      "user_id": "persona137",
+      "data": "In a formal, technical conference setting, visible cultural elements can carry signals that operate on multiple, often overlapping levels, serving as visual markers of identity and heritage.",
+      "text_lemmatized": "In a formal, technical conference setting, visible cultural elements can carry signals that operate on multiple, often overlapping levels, serving as visual markers of identity and heritage.",
+      "hash": "0431bd59a8ba8a61e03fa274b79877b8",
+      "created_at": "2026-08-29T00:04:16.832986+00:00",
+      "updated_at": "2026-08-29T00:04:16.832986+00:00",
+      "attributed_to": "assistant"
+    },
+    "ada251ce-df9e-4c92-9101-693c7f49ccb4": {
+      "user_id": "persona137",
+      "data": "Historically, Diwali was not always as lavish or visually saturated as we see today in globalized culture, with earlier references emphasizing the festival's spiritual and seasonal significance rather than its material pageantry.",
+      "text_lemmatized": "Historically, Diwali was not always as lavish or visually saturated as we see today in globalized culture, with earlier references emphasizing the festival's spiritual and seasonal significance rather than its material pageantry.",
+      "hash": "134227a020196b03a03869de8371a3ed",
+      "created_at": "2026-08-29T00:04:16.832994+00:00",
+      "updated_at": "2026-08-29T00:04:16.832994+00:00",
+      "attributed_to": "assistant"
+    },
+    "03b8a416-b5fc-4034-a892-7e20ee275b50": {
+      "user_id": "persona137",
+      "data": "The festival's original connection to the post-harvest period marked the end of the monsoon season and the completion of the autumn harvest, a major turning point in the year for many ancient agrarian societies.",
+      "text_lemmatized": "The festival's original connection to the post-harvest period marked the end of the monsoon season and the completion of the autumn harvest, a major turning point in the year for many ancient agrarian societies.",
+      "hash": "5f3b98f5fe792b5068d03791249791da",
+      "created_at": "2026-08-29T00:04:16.833002+00:00",
+      "updated_at": "2026-08-29T00:04:16.833002+00:00",
+      "attributed_to": "assistant"
+    },
+    "180cb8fe-b375-4081-9ca5-50fdee464aad": {
+      "user_id": "persona137",
+      "data": "The sensation of a city's atmosphere can feel distinctly different in the early morning compared to later in the day due to temperature inversions, air composition, and sound transmission.",
+      "text_lemmatized": "The sensation of a city's atmosphere can feel distinctly different in the early morning compared to later in the day due to temperature inversions, air composition, and sound transmission.",
+      "hash": "754d2c8bc72e038810a6596f5f000403",
+      "created_at": "2026-08-29T00:04:25.135246+00:00",
+      "updated_at": "2026-08-29T00:04:25.135246+00:00",
+      "attributed_to": "assistant"
+    },
+    "69daf559-4b05-4cc9-8c33-6a027888b633": {
+      "user_id": "persona137",
+      "data": "Temperature inversions are more common in cities surrounded by hills or mountains, in colder seasons, and in areas with high-pressure systems.",
+      "text_lemmatized": "Temperature inversions are more common in cities surrounded by hills or mountains, in colder seasons, and in areas with high-pressure systems.",
+      "hash": "a5c2d44740ca7a278b3bb56dee477f12",
+      "created_at": "2026-08-29T00:04:25.135266+00:00",
+      "updated_at": "2026-08-29T00:04:25.135266+00:00",
+      "attributed_to": "assistant"
+    },
+    "ee1fd806-672d-482c-b11c-7e69571a58a1": {
+      "user_id": "persona137",
+      "data": "Endothelial health can be preserved well into old age through regular aerobic exercise, a plant-rich diet, avoidance of smoking and pollutants, blood sugar and blood pressure control, adequate sleep, and micronutrient support.",
+      "text_lemmatized": "Endothelial health can be preserved well into old age through regular aerobic exercise, a plant-rich diet, avoidance of smoking and pollutants, blood sugar and blood pressure control, adequate sleep, and micronutrient support.",
+      "hash": "b9dfa5c67e92ae5691518cbaec5ba0e5",
+      "created_at": "2026-08-29T00:04:25.135276+00:00",
+      "updated_at": "2026-08-29T00:04:25.135276+00:00",
+      "attributed_to": "assistant"
+    },
+    "47225aa8-6b3f-4cd5-b6c2-f1a45251c4a5": {
+      "user_id": "persona137",
+      "data": "The essential oil composition of tulsi can change significantly when grown outside South Asia due to differences in climate, soil, and seasonal rhythm.",
+      "text_lemmatized": "The essential oil composition of tulsi can change significantly when grown outside South Asia due to differences in climate, soil, and seasonal rhythm.",
+      "hash": "c1c73a2c4f865bdd8e854b1802dbf2fb",
+      "created_at": "2026-08-29T00:04:25.135283+00:00",
+      "updated_at": "2026-08-29T00:04:25.135283+00:00",
+      "attributed_to": "assistant"
+    },
+    "80ce716c-8c48-4465-91b0-c36630b826fd": {
+      "user_id": "persona137",
+      "data": "Some people feel deeply moved by the atmosphere of a live stage performance, while others connect more easily with recorded or cinematic storytelling due to differences in sensory processing and personal history.",
+      "text_lemmatized": "Some people feel deeply moved by the atmosphere of a live stage performance, while others connect more easily with recorded or cinematic storytelling due to differences in sensory processing and personal history.",
+      "hash": "ba30de2f628eeeef08170a2bfa7455aa",
+      "created_at": "2026-08-29T00:04:25.135291+00:00",
+      "updated_at": "2026-08-29T00:04:25.135291+00:00",
+      "attributed_to": "assistant"
+    },
+    "b0cc43d8-c0ec-41f7-8b1d-7db74962ec35": {
+      "user_id": "persona137",
+      "data": "The body maintains stable blood pressure into older age through a complex orchestration of heart, vessels, nervous system, and lifestyle, including genetic influences, endothelial health, autonomic balance, metabolic and hormonal factors, and regular cardiovascular 'training'.",
+      "text_lemmatized": "The body maintains stable blood pressure into older age through a complex orchestration of heart, vessels, nervous system, and lifestyle, including genetic influences, endothelial health, autonomic balance, metabolic and hormonal factors, and regular cardiovascular 'training'.",
+      "hash": "cd390df864569e4e81ff74cfcc27819c",
+      "created_at": "2026-08-29T00:04:25.135298+00:00",
+      "updated_at": "2026-08-29T00:04:25.135298+00:00",
+      "attributed_to": "assistant"
+    },
+    "7070a587-d895-4216-9296-f64aaa4032a3": {
+      "user_id": "persona137",
+      "data": "The perception of richness in coffee can be influenced by the combination of chemistry, sensory biology, and psychology, including the effect of temperature on the dispersion of volatile compounds and the brain's interpretation of warmth.",
+      "text_lemmatized": "The perception of richness in coffee can be influenced by the combination of chemistry, sensory biology, and psychology, including the effect of temperature on the dispersion of volatile compounds and the brain's interpretation of warmth.",
+      "hash": "c25bec47c372fcad13ed50ab7589aa9d",
+      "created_at": "2026-08-29T00:04:25.135305+00:00",
+      "updated_at": "2026-08-29T00:04:25.135305+00:00",
+      "attributed_to": "assistant"
+    },
+    "8e35df02-bb6a-4553-aec7-993de0eb17d0": {
+      "user_id": "persona137",
+      "data": "The meaning of community festivals can shift when participating from a distance, but it can also be preserved in a more introspective way, and the significance can migrate from the external to the internal.",
+      "text_lemmatized": "The meaning of community festivals can shift when participating from a distance, but it can also be preserved in a more introspective way, and the significance can migrate from the external to the internal.",
+      "hash": "90a8bb00249c951cb425957f4cd0db68",
+      "created_at": "2026-08-29T00:04:25.135312+00:00",
+      "updated_at": "2026-08-29T00:04:25.135312+00:00",
+      "attributed_to": "assistant"
+    },
+    "78a09bdb-3076-463b-9ad0-d16f55684f28": {
+      "user_id": "persona137",
+      "data": "The frequency and intensity of temperature inversions in cities depend on local geography, climate, and seasonal patterns, and they can temporarily worsen air quality by accumulating pollutants near the surface.",
+      "text_lemmatized": "The frequency and intensity of temperature inversions in cities depend on local geography, climate, and seasonal patterns, and they can temporarily worsen air quality by accumulating pollutants near the surface.",
+      "hash": "94f5888ece29b9dbd61d88039c1d43c8",
+      "created_at": "2026-08-29T00:04:25.135319+00:00",
+      "updated_at": "2026-08-29T00:04:25.135319+00:00",
+      "attributed_to": "assistant"
+    },
+    "7b2d25c0-577f-4ebf-bdc5-25adf7dc84d1": {
+      "user_id": "persona137",
+      "data": "The connection to heritage and tradition can be preserved through adapted forms of engagement, and the meaning of cultural rituals can evolve with their practitioners, but the core values and stories remain important.",
+      "text_lemmatized": "The connection to heritage and tradition can be preserved through adapted forms of engagement, and the meaning of cultural rituals can evolve with their practitioners, but the core values and stories remain important.",
+      "hash": "9beeb026ef1decfad92f62e63beb4f61",
+      "created_at": "2026-08-29T00:04:25.135325+00:00",
+      "updated_at": "2026-08-29T00:04:25.135325+00:00",
+      "attributed_to": "assistant"
+    },
+    "a9c227b1-defd-4905-af64-5b1415eb2b7f": {
+      "user_id": "persona137",
+      "data": "The body maintains stable blood pressure into older age through various mechanisms, including the renin-angiotensin system, the sympathetic nervous system, and the kidneys' ability to regulate fluid balance",
+      "text_lemmatized": "The body maintains stable blood pressure into older age through various mechanisms, including the renin-angiotensin system, the sympathetic nervous system, and the kidneys' ability to regulate fluid balance",
+      "hash": "7fd686fc761cffaf9a72f7492be2ca6a",
+      "created_at": "2026-08-29T00:04:31.247150+00:00",
+      "updated_at": "2026-08-29T00:04:31.247150+00:00",
+      "attributed_to": "assistant"
+    },
+    "ec3f8662-405c-4871-ac09-e0d79234b49b": {
+      "user_id": "persona137",
+      "data": "The perception of coffee tasting richer on cold days is due to a combination of chemistry, sensory biology, and psychology, including the release of volatile compounds and the impact of temperature on the senses",
+      "text_lemmatized": "The perception of coffee tasting richer on cold days is due to a combination of chemistry, sensory biology, and psychology, including the release of volatile compounds and the impact of temperature on the senses",
+      "hash": "acaa9126dcc059ee7c6a1c43f4b44fb8",
+      "created_at": "2026-08-29T00:04:31.247174+00:00",
+      "updated_at": "2026-08-29T00:04:31.247174+00:00",
+      "attributed_to": "assistant"
+    },
+    "ceaf6e01-b23f-4a9c-aa99-dc988bdfff87": {
+      "user_id": "persona137",
+      "data": "A city's atmosphere can feel different in the early morning compared to later in the day due to factors such as temperature inversions, air composition, and ambient conditions",
+      "text_lemmatized": "A city's atmosphere can feel different in the early morning compared to later in the day due to factors such as temperature inversions, air composition, and ambient conditions",
+      "hash": "f399181edb8c68689ae420b191a241d7",
+      "created_at": "2026-08-29T00:04:31.247185+00:00",
+      "updated_at": "2026-08-29T00:04:31.247185+00:00",
+      "attributed_to": "assistant"
+    },
+    "42760b61-43bd-463f-853b-73fa1a355230": {
+      "user_id": "persona137",
+      "data": "Temperature inversions are common in cities surrounded by hills or mountains and can be influenced by local geography, climate, and seasonal patterns",
+      "text_lemmatized": "Temperature inversions are common in cities surrounded by hills or mountains and can be influenced by local geography, climate, and seasonal patterns",
+      "hash": "aaa46211fba6b074af2c4b3a076a40aa",
+      "created_at": "2026-08-29T00:04:31.247195+00:00",
+      "updated_at": "2026-08-29T00:04:31.247195+00:00",
+      "attributed_to": "assistant"
+    },
+    "19277ef3-069b-4788-9f22-ce0cfd6325e6": {
+      "user_id": "persona137",
+      "data": "Community festivals can lose meaning if one only engages from a distance, but the physical act of gathering and sharing experiences can help preserve a sense of belonging and connection",
+      "text_lemmatized": "Community festivals can lose meaning if one only engages from a distance, but the physical act of gathering and sharing experiences can help preserve a sense of belonging and connection",
+      "hash": "807737e14c919a404c54537dc5779539",
+      "created_at": "2026-08-29T00:04:31.247205+00:00",
+      "updated_at": "2026-08-29T00:04:31.247205+00:00",
+      "attributed_to": "assistant"
+    },
+    "03c66d3b-5fd5-48dd-89fb-02079a0ee2db": {
+      "user_id": "persona137",
+      "data": "Reframing what accomplishment means can help individuals find new purpose and meaning in their lives, even if their best days are behind them",
+      "text_lemmatized": "Reframing what accomplishment means can help individuals find new purpose and meaning in their lives, even if their best days are behind them",
+      "hash": "d190b7779d2be1ad500082e75cb0fd73",
+      "created_at": "2026-08-29T00:04:31.247214+00:00",
+      "updated_at": "2026-08-29T00:04:31.247214+00:00",
+      "attributed_to": "assistant"
+    },
+    "34cc766d-8fde-4c2a-bc44-74d8b3965c8b": {
+      "user_id": "persona137",
+      "data": "Starting with small, achievable steps, reconnecting with curiosity, reaching outward, reflecting, and making the environment supportive can help individuals find motivation and meaning when feeling stuck",
+      "text_lemmatized": "Starting with small, achievable steps, reconnecting with curiosity, reaching outward, reflecting, and making the environment supportive can help individuals find motivation and meaning when feeling stuck",
+      "hash": "80a8c1124d977567b97d7980399bd1a3",
+      "created_at": "2026-08-29T00:04:31.247224+00:00",
+      "updated_at": "2026-08-29T00:04:31.247224+00:00",
+      "attributed_to": "assistant"
+    },
+    "cc897782-5b8d-4d4e-8048-4bf061532127": {
+      "user_id": "persona137",
+      "data": "Introducing a 'challenge' period, such as trying a new habit or project for 30 days, can help individuals build motivation and meaning",
+      "text_lemmatized": "Introducing a 'challenge' period, such as trying a new habit or project for 30 days, can help individuals build motivation and meaning",
+      "hash": "3d57d7345ec203c09447e2ea7e418691",
+      "created_at": "2026-08-29T00:04:31.247232+00:00",
+      "updated_at": "2026-08-29T00:04:31.247232+00:00",
+      "attributed_to": "assistant"
+    },
+    "427b41aa-2c9d-4b64-a206-fc6701551529": {
+      "user_id": "persona137",
+      "data": "To identify authentic handcrafted pieces at artisan markets, inspect the stitching, ask about the origin of motifs and techniques, and request to see work-in-progress pieces or tools",
+      "text_lemmatized": "To identify authentic handcrafted pieces at artisan markets, inspect the stitching, ask about the origin of motifs and techniques, and request to see work-in-progress pieces or tools",
+      "hash": "b3332e2fdac8a8df0981f0cf934c0a58",
+      "created_at": "2026-08-29T00:04:31.247241+00:00",
+      "updated_at": "2026-08-29T00:04:31.247241+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "82bdc2d3-d581-429a-9e32-c8d9eea4f0f2",
+    "1": "f2aa40cc-b41a-4bfc-9e2a-06593d3591f7",
+    "2": "b8a5f2be-a1fd-4af8-ba1a-975fcfd029ff",
+    "3": "d2d5c54e-d6df-4c35-a244-94ddf5067d7a",
+    "4": "16a00c17-3829-48b9-b176-3bdc6d60fe7b",
+    "5": "9c1de5dd-1e0e-4b6e-abf8-fd9d7f053056",
+    "6": "d667a9b9-a3df-4b29-829e-4eda2552469f",
+    "7": "3be2812b-fb5f-478e-a405-49836ec05ec6",
+    "8": "4510fa70-1cca-4d1b-9103-39c28af3d61e",
+    "9": "624988a4-47f4-49d5-a89e-feeda639333c",
+    "10": "eaa26fec-be8a-4bfb-9a34-cb919a1ab458",
+    "11": "5d86d37f-87f3-4e85-a4e9-7db8c9199968",
+    "12": "ec9a3f26-b9c6-4b4f-be0b-fde87f7c8b39",
+    "13": "04092f37-67a0-4254-901a-ff671525d3d8",
+    "14": "0671fb99-faff-4ecb-bba3-1499fb4b1819",
+    "15": "7eb631f1-a1a8-4e38-831e-e79dd8a155fc",
+    "16": "35dc4418-1d89-4a4d-b825-de70728f7fce",
+    "17": "90215803-32f9-4431-a01a-9c9d88512fef",
+    "18": "0335a47a-d642-43cf-9eed-934bb23b36ce",
+    "19": "a31edf39-25dd-4805-97c2-e4a834d2ee6c",
+    "20": "9def2c45-e644-4d4c-912f-097bf4b1c89b",
+    "21": "543c9a2d-e78e-4433-9881-b86def110c81",
+    "22": "de8e87db-a3aa-49d8-a39e-5677fee1026b",
+    "23": "3312ca0b-0d2d-4db6-b7fe-3679d881894c",
+    "24": "6cf83870-ca3d-4fb2-9ebb-87d07e628c8e",
+    "25": "44bfa73f-e2ed-4b8b-8801-a90f4b0749b9",
+    "26": "bb55a782-151e-4def-b05a-8f974035790b",
+    "27": "e60f74d2-0012-4360-97e0-26bf2c704831",
+    "28": "2fe4f792-966f-40c2-adb9-a68ee3c1df00",
+    "29": "4acde3ec-fe83-4660-b1be-90320c63ad36",
+    "30": "b20e9189-3b87-4f1b-8f36-cb317d79363b",
+    "31": "51e25870-5b83-4cad-824b-1c5d455e5861",
+    "32": "ec84f7fd-d7be-45cd-815d-876eb5e0fc18",
+    "33": "5ccf3a81-9513-4e2c-bfa6-e0662676810b",
+    "34": "8b34931d-1aa5-4ece-b4c6-9378d7ac6027",
+    "35": "e544ac76-4bae-4f82-a81e-5c43c26b87ae",
+    "36": "f2ec79d1-5a45-49ec-8a6d-61679895455a",
+    "37": "79757e05-20ac-48f0-9f64-ce2b44aff304",
+    "38": "369cdb02-2d5b-4fcf-aa3f-43cbac9db324",
+    "39": "6bc10e0b-6a71-4978-99a8-f399971ab1d2",
+    "40": "1ddeff25-c9b1-4284-ad97-c7a0cf1eeae2",
+    "41": "bb559c57-af76-4aed-842d-074b9f59e50d",
+    "42": "387b17a3-9c29-4da3-991b-7cbace3ca532",
+    "43": "8868f720-2cbb-4dc8-b57f-087ef8e05e00",
+    "44": "a6837813-ac5e-4a1a-bf06-774d40fc4bfe",
+    "45": "255d469b-8bca-4121-b65e-006696cef247",
+    "46": "256fe0a5-ed93-44d2-8859-90b9245b0fab",
+    "47": "8e69e0fd-3ecf-441b-b4a1-6cb18110fc71",
+    "48": "2b7e6256-3547-46ff-88bb-94d1db21fe94",
+    "49": "e703d0cb-92e1-4315-8752-6a477f39c0fe",
+    "50": "0461ea6c-6003-4acc-81be-3ab4e60ba8a2",
+    "51": "cee899b7-aeb1-4b60-acde-a315ca3d7cdb",
+    "52": "0b89bcb8-6fb2-4d0a-8e34-199ee0dc43eb",
+    "53": "89e6f6f3-c3c3-4a6f-9099-fe41484e3fa4",
+    "54": "7a645ef2-0b59-40c6-bf9e-d4c25af64c69",
+    "55": "a23edc60-d6ba-4082-9f33-7aa1391802b9",
+    "56": "7fd6a4b0-f921-44bf-adf1-8f9798cc8b49",
+    "57": "bf791910-fec7-4b1b-b621-df36e22c193b",
+    "58": "9949c815-94c1-48f6-9f29-afc3ccd95974",
+    "59": "c47d9476-0f9d-443e-9a83-825418486589",
+    "60": "ef11fd2f-96b5-4b37-b130-3589d3ed7ec8",
+    "61": "11ec8c65-3eb5-4a6e-afcf-54141fda0ada",
+    "62": "7c10eedc-6344-4a57-bae6-3829d4b0fb0f",
+    "63": "26d9274e-3b11-49cd-91cd-98fe46324600",
+    "64": "91867d2e-65a6-441f-85ca-f0a4d88257d2",
+    "65": "a040cbfc-bf24-4965-b631-0f752d900412",
+    "66": "2a5dda43-36b3-48a0-9b44-710f3d333207",
+    "67": "f9f544be-3d26-4796-a15c-c89a015fb3c4",
+    "68": "d608c328-684b-4eab-9d6e-068546dfa403",
+    "69": "4d43e2a6-972a-4dc9-8b21-827f1212f097",
+    "70": "23c88c31-09cb-41e1-b870-1308423930b7",
+    "71": "255a43eb-4b85-419c-a5d2-d4850201ad75",
+    "72": "1cea88e8-defb-43fc-84dc-5e5cdbdf7f40",
+    "73": "0859f7bb-c711-4733-9af5-5962339f446e",
+    "74": "d6014ddf-e2de-41eb-a109-b1a75f0d4a7c",
+    "75": "29dbd5fd-6475-4c55-9d7e-04b1aaafc0b5",
+    "76": "71237c08-66d9-4c8d-a74d-a51e00951ad9",
+    "77": "11f027e7-c8e1-445d-97f8-2cdc3feca5c2",
+    "78": "40782cfc-5836-4199-bec9-c33796c7e3f8",
+    "79": "97deb4ae-8a80-44e4-8d5b-a00c1f8db5a6",
+    "80": "5272d9f1-390c-4c65-8ae0-2556a41dacf0",
+    "81": "732a16ad-003b-4a51-a282-106f32a4f70f",
+    "82": "30616581-6f82-4252-b949-37ec0eb875ae",
+    "83": "001268a8-f628-48d9-871e-59acff388eca",
+    "84": "fe364977-0293-4c17-97e7-eeadfae29200",
+    "85": "8a05af25-90ef-4a1d-ae5e-003370260786",
+    "86": "4006bb48-53da-441b-9c62-791d69bc6f86",
+    "87": "b1043d91-53c9-4c58-ab99-85edd3e1f5fb",
+    "88": "be245697-dec1-4b0b-ae5c-2f8853ca7a84",
+    "89": "1ab30469-9373-4246-a570-78eec5f5ca6f",
+    "90": "bd8da9ab-c10a-40f9-a433-9c79eda9e2d5",
+    "91": "d88253ef-a1a6-46ab-ad03-753ea60e1ef3",
+    "92": "428ab26a-4ff3-48d1-b5f6-fe4d6846bf19",
+    "93": "58a7296c-9501-45ed-bcad-5a733c79744d",
+    "94": "f2e9f458-f6e2-4ab1-81b1-838c7851650b",
+    "95": "4e096691-79d1-420d-a0bf-3094651a924c",
+    "96": "edbf0b2c-7fcd-454f-90d3-3ca224ea6079",
+    "97": "11a70ebd-af72-4a66-87da-a89e5941f330",
+    "98": "15f2dd19-1f05-4248-8a4e-6c30a456830f",
+    "99": "2dcc69ac-4d7c-4dbe-9c27-02456388d5a7",
+    "100": "f1321bfa-111f-4048-80b2-f1b3e807a291",
+    "101": "730a186d-5273-404e-84c4-0e52b968de09",
+    "102": "95c1ce54-49c6-4620-b620-fa6c361a395d",
+    "103": "11573efc-a0ff-4d83-9306-45d71be4bf99",
+    "104": "aa9b0579-1a7e-4ebd-b004-e1486a7394fb",
+    "105": "f3f1c484-6a7e-4255-bb76-718a6788baa6",
+    "106": "a32c4a18-468a-4d22-bbaa-ea6962438b44",
+    "107": "dc2abae2-d350-4bb6-9a6f-3aa512282ac2",
+    "108": "3a6128f0-e392-4649-9d92-26acaa03f9b2",
+    "109": "3e0d7525-4265-4643-9647-01684f1988df",
+    "110": "665b3849-3c6f-4c37-ab93-60d9ef298afb",
+    "111": "81071539-b48c-49cf-beb8-629672f5c214",
+    "112": "3b82e623-1f6b-469e-9ea7-80bb35a20f23",
+    "113": "5c2d2a49-126e-48e6-8a76-7934bd18fbef",
+    "114": "0bb47e1f-4e8e-4478-9f02-a92b54b4449d",
+    "115": "38b69652-e4fc-48d3-b989-c254188206d3",
+    "116": "3b732225-54c3-4477-903c-16cafdb2e123",
+    "117": "a6dc5040-9089-4816-acdd-533565af446f",
+    "118": "69a06b6d-3a25-499f-80f5-c824f5a6ada7",
+    "119": "edc9b045-f708-47e1-9e62-c005b1d26bb9",
+    "120": "836bb27f-a8ab-47d6-a381-8a4fec80ebc7",
+    "121": "c1c48ebf-1158-45be-a981-deb64975cf20",
+    "122": "2a9b375d-9e71-43ca-8b33-62153068d643",
+    "123": "14b3a3e6-b82f-4cae-bd7f-5fe5fae86b28",
+    "124": "f1ff6913-1916-4d3a-91b2-210ef591c27c",
+    "125": "af98b9cd-652b-446b-9d81-ff89745f6e6f",
+    "126": "1838e3b7-b01a-4707-a970-1c3054f94e10",
+    "127": "ada251ce-df9e-4c92-9101-693c7f49ccb4",
+    "128": "03b8a416-b5fc-4034-a892-7e20ee275b50",
+    "129": "180cb8fe-b375-4081-9ca5-50fdee464aad",
+    "130": "69daf559-4b05-4cc9-8c33-6a027888b633",
+    "131": "ee1fd806-672d-482c-b11c-7e69571a58a1",
+    "132": "47225aa8-6b3f-4cd5-b6c2-f1a45251c4a5",
+    "133": "80ce716c-8c48-4465-91b0-c36630b826fd",
+    "134": "b0cc43d8-c0ec-41f7-8b1d-7db74962ec35",
+    "135": "7070a587-d895-4216-9296-f64aaa4032a3",
+    "136": "8e35df02-bb6a-4553-aec7-993de0eb17d0",
+    "137": "78a09bdb-3076-463b-9ad0-d16f55684f28",
+    "138": "7b2d25c0-577f-4ebf-bdc5-25adf7dc84d1",
+    "139": "a9c227b1-defd-4905-af64-5b1415eb2b7f",
+    "140": "ec3f8662-405c-4871-ac09-e0d79234b49b",
+    "141": "ceaf6e01-b23f-4a9c-aa99-dc988bdfff87",
+    "142": "42760b61-43bd-463f-853b-73fa1a355230",
+    "143": "19277ef3-069b-4788-9f22-ce0cfd6325e6",
+    "144": "03c66d3b-5fd5-48dd-89fb-02079a0ee2db",
+    "145": "34cc766d-8fde-4c2a-bc44-74d8b3965c8b",
+    "146": "cc897782-5b8d-4d4e-8048-4bf061532127",
+    "147": "427b41aa-2c9d-4b64-a206-fc6701551529"
+  }
+}

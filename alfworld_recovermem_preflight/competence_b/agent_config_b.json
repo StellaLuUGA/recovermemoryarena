@@ -1,0 +1,66 @@
+{
+  "config_id": "AGENT_CONFIG_B_ADMISSIBLE_COMMANDS",
+  "model": "llama-3.1-8b-instruct-local",
+  "endpoint": "http://localhost:8123/v1",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "seed": 13,
+  "max_tokens_per_action": 32,
+  "stop": [
+    "\n"
+  ],
+  "MAX_AGENT_STEPS": 50,
+  "MAX_NEXT_SUBGOAL_STEPS": 20,
+  "env": "AlfredTWEnv",
+  "split": "eval_out_of_distribution",
+  "env_max_episode_steps": 200,
+  "system_prompt": "You are an agent solving a text-based household task in the ALFWorld TextWorld environment.\n\nEach turn you get the environment's latest response and you reply with exactly ONE action, and nothing else. No explanations, no numbering, no quotes.\n\nObjects and receptacles are always referred to with their number, e.g. 'cabinet 2', 'mug 1'. The available action forms are:\n  clean {obj} with {recep}\n  close {recep}\n  cool {obj} with {recep}\n  examine {obj}\n  examine {recep}\n  go to {recep}\n  heat {obj} with {recep}\n  help\n  inventory\n  look\n  move {obj} to {recep}\n  open {recep}\n  put {obj} in {recep}\n  slice {obj} with {knife}\n  take {obj} from {recep}\n  use {obj}\n\nHints: you must 'go to' a receptacle before interacting with things there; you may need to 'open' a closed receptacle to see inside; you can carry only one object at a time; 'clean X with sinkbasin', 'heat X with microwave', 'cool X with fridge' work only while you are holding X and standing at that receptacle; 'use X' turns on a lamp; the 'inventory' action tells you what you are carrying.\nDo not repeat an action that produced 'Nothing happens.'\n\nAt every step you are given the list of admissible commands for the current state. Choose exactly ONE command from that list and copy it verbatim, including its numbers. Reply in the form:\nACTION: <command>",
+  "user_prompt_template": "Here is a complete example episode from a different game:\n\n=== EXAMPLE ===\n{example}\n=== END EXAMPLE ===\n\n--- New game ---\n{history}\n\nAdmissible commands:\n- {cmd}\n- ...\n>",
+  "admissible_command_formatting": "one per line, prefixed '- ', verbatim from info['admissible_commands'][0], in engine order",
+  "history_serialization": "identical to Config A: intro, then '> {action}\\n{observation}' per step",
+  "inventory": "EnvInfos.inventory is None on ALFWorld games; nothing injected. The agent may issue the 'inventory' action itself.",
+  "parser": {
+    "kind": "entity-preserving exact match",
+    "normalises": [
+      "leading '>' and whitespace",
+      "optional 'ACTION:' prefix",
+      "wrapping quotes/backticks/asterisks",
+      "one trailing period",
+      "letter case"
+    ],
+    "never_modifies": [
+      "action verb",
+      "object identity",
+      "receptacle identity",
+      "numeric suffix"
+    ],
+    "fuzzy_or_digit_stripped_matching": false,
+    "on_invalid": "issue the normalised string verbatim; TextWorld answers 'Nothing happens.'",
+    "on_empty_output": "issue 'look', counted as invalid",
+    "source": "agent_b.py::parse_action"
+  },
+  "icl_examples": [
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063232_403749/game.tw-pddl",
+      "split": "train",
+      "task_type": "pick_and_place_simple",
+      "n_steps": 9,
+      "selection_rule": "train split, sorted, Random(13).shuffle, first pick_and_place_simple solved by upstream HandCodedTWAgent within 25 steps"
+    }
+  ],
+  "agent_visible": [
+    "task instruction",
+    "current text observation",
+    "prior actions and environment responses",
+    "current admissible_commands"
+  ],
+  "harness_only": [
+    "plan.high_pddl",
+    "traj_data.json",
+    "PDDL facts",
+    "policy_commands",
+    "extra.expert_plan",
+    "subgoal rank"
+  ],
+  "config_sha256": "1555ae8d557106e563ea981c4fdf1c0b9937b9c900a3e520d80c33810386086e"
+}

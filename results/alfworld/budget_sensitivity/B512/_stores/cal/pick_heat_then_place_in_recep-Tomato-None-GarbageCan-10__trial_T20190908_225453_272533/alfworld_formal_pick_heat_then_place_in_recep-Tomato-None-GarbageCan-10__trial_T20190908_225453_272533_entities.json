@@ -1,0 +1,35 @@
+{
+  "docstore": {
+    "c63ccc35-d1ba-4b69-862f-b87ebb609de1": {
+      "data": "hot tomato",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "00767dfd-2e11-4ccd-af2a-a3f1085ae071",
+        "19d0cfc7-82d2-4557-a5fc-4ea45f989ddf",
+        "b8fd1f2d-d6e3-408b-bb50-463a8e6f58f5"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533"
+    },
+    "e8427fb4-c883-4660-84c0-40c7239c363b": {
+      "data": "garbagecan",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "40b6226e-2093-49dd-8a16-03d02f1080e9"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533"
+    },
+    "40c0392e-5cc1-4f39-8b62-7e78dd8b6860": {
+      "data": "open fridge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "df4538c4-b482-426d-9588-aa632a96a269"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533"
+    }
+  },
+  "index_to_id": {
+    "0": "c63ccc35-d1ba-4b69-862f-b87ebb609de1",
+    "1": "e8427fb4-c883-4660-84c0-40c7239c363b",
+    "2": "40c0392e-5cc1-4f39-8b62-7e78dd8b6860"
+  }
+}

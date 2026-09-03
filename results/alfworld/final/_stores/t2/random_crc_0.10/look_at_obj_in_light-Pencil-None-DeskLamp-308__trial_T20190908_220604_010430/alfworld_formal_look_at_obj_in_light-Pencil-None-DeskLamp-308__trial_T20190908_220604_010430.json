@@ -1,0 +1,36 @@
+{
+  "docstore": {
+    "79a0b0a8-3924-405a-9f88-bd4068032566": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User arrived at desk 1 and observed that it contains an alarm clock 2, a cellphone 2, a desk lamp 1, a keychain 2, a mug 1, and a pencil 3",
+      "text_lemmatized": "user arrive desk 1 observe contain alarm clock 2 cellphone 2 desk lamp 1 keychain 2 mug 1 pencil 3",
+      "hash": "efa2f0d8b58d22d235056c9c0f57082b",
+      "created_at": "2026-08-31T12:59:34.137387+00:00",
+      "updated_at": "2026-08-31T12:59:34.137387+00:00",
+      "attributed_to": "user"
+    },
+    "1e181698-5986-40a7-9e36-cdbbdbe4f932": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User picked up pencil 3 from desk 1",
+      "text_lemmatized": "user pick pencil 3 desk 1",
+      "hash": "f06407138e52e6b8ab9021f7bf7a8339",
+      "created_at": "2026-08-31T12:59:38.147770+00:00",
+      "updated_at": "2026-08-31T12:59:38.147770+00:00",
+      "attributed_to": "user"
+    },
+    "f76ddac7-5c3a-499e-84df-c582b0a89794": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430",
+      "data": "User turned on the desklamp 1 on desk 1",
+      "text_lemmatized": "user turn desklamp 1 desk 1",
+      "hash": "94ef53189fcbf5a846fab6936fa876ad",
+      "created_at": "2026-08-31T12:59:45.648044+00:00",
+      "updated_at": "2026-08-31T12:59:45.648044+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "79a0b0a8-3924-405a-9f88-bd4068032566",
+    "1": "1e181698-5986-40a7-9e36-cdbbdbe4f932",
+    "2": "f76ddac7-5c3a-499e-84df-c582b0a89794"
+  }
+}

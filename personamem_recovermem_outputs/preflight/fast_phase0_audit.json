@@ -1,0 +1,333 @@
+{
+  "repo": {
+    "url": "https://github.com/bowen-upenn/PersonaMem.git",
+    "commit": "caaae44b3f236b8751d499a770e94e5aecffcff1",
+    "commit_date": "2026-03-19T01:23:28-04:00",
+    "git_status": "clean",
+    "source_tree_modified": false
+  },
+  "data_inventory": {
+    "benchmark_files_in_repo": false,
+    "note": "the repo's data/ holds only random_questions.txt and random_code_questions.txt (distractor pools); benchmark files ship on HuggingFace",
+    "hf_repo": "bowen-upenn/PersonaMem",
+    "hf_sha": "fd7c30f071d5c2ee2a211506783be222d7b6002e",
+    "hf_total_mb": 251.9,
+    "prior_local_cache": false,
+    "downloaded_for_audit": true,
+    "download_justification": "the full v1 release is 252 MB; downloading it was proportionate and is what makes the raw-context hash audit possible. No LLM or paid API was contacted.",
+    "download_location": "personamem_recovermem_outputs/_data_v1 (outside the upstream repo)",
+    "files": {
+      "README.md": {
+        "bytes": 6161,
+        "sha256": "f135eeee181af065d40430e07d0c4100c67a9b99b6051851192aac2e0db8204f"
+      },
+      "questions_128k.csv": {
+        "bytes": 5259005,
+        "sha256": "f0e137c3167fadbffbce5be2786105283c3299972c4ac1f158939155fd1578a7"
+      },
+      "questions_1M.csv": {
+        "bytes": 5147772,
+        "sha256": "f24db37c1ef49e8f3cc6585da3d7e1638bb9bfb32c95df4de065e4666e448e1f"
+      },
+      "questions_32k.csv": {
+        "bytes": 1305366,
+        "sha256": "cccd34cf53e0bc4d9536c04cff5ca045156d9a4e227e83327112482840bbc93c"
+      },
+      "shared_contexts_128k.jsonl": {
+        "bytes": 73655977,
+        "sha256": "733cc009e84a138b386c9e40adea741565db01074f73af4058fd039b42951726"
+      },
+      "shared_contexts_1M.jsonl": {
+        "bytes": 160927859,
+        "sha256": "283c1d4714970284612c846ec143edaa844d1ae065bcea6e28665730a10790f6"
+      },
+      "shared_contexts_32k.jsonl": {
+        "bytes": 5613210,
+        "sha256": "217247ebfec9e8442fc53570c795ab69f21aad08745f7de78d9beab51b122d4a"
+      }
+    },
+    "availability": {
+      "32k": "LOCAL",
+      "128k": "LOCAL",
+      "1M": "LOCAL"
+    }
+  },
+  "census": {
+    "32k": {
+      "questions": 589,
+      "unique_question_id": 589,
+      "unique_personas": 20,
+      "unique_shared_contexts": 37,
+      "unique_context_hashes": 37,
+      "unique_system_persona_hashes": 20,
+      "contexts_in_jsonl": 37,
+      "unreferenced_extra_contexts": 0,
+      "questions_per_persona": {
+        "min": 17,
+        "median": 30.0,
+        "max": 43
+      },
+      "shared_contexts_per_persona": {
+        "min": 1,
+        "median": 2.0,
+        "max": 2
+      },
+      "one_context_multiple_personas": false,
+      "one_persona_multiple_contexts": true,
+      "defensible_independent_histories": 20,
+      "max_equal_3way_split": 6,
+      "programmatic_scoring": true,
+      "decision": "SOURCE_COUNT_FAIL"
+    },
+    "128k": {
+      "questions": 2727,
+      "unique_question_id": 2727,
+      "unique_personas": 20,
+      "unique_shared_contexts": 60,
+      "unique_context_hashes": 60,
+      "unique_system_persona_hashes": 20,
+      "contexts_in_jsonl": 110,
+      "unreferenced_extra_contexts": 50,
+      "questions_per_persona": {
+        "min": 105,
+        "median": 139.5,
+        "max": 184
+      },
+      "shared_contexts_per_persona": {
+        "min": 3,
+        "median": 3.0,
+        "max": 3
+      },
+      "one_context_multiple_personas": false,
+      "one_persona_multiple_contexts": true,
+      "defensible_independent_histories": 20,
+      "max_equal_3way_split": 6,
+      "programmatic_scoring": true,
+      "decision": "SOURCE_COUNT_FAIL"
+    },
+    "1M": {
+      "questions": 2674,
+      "unique_question_id": 2674,
+      "unique_personas": 20,
+      "unique_shared_contexts": 31,
+      "unique_context_hashes": 31,
+      "unique_system_persona_hashes": 20,
+      "contexts_in_jsonl": 33,
+      "unreferenced_extra_contexts": 2,
+      "questions_per_persona": {
+        "min": 75,
+        "median": 150.0,
+        "max": 227
+      },
+      "shared_contexts_per_persona": {
+        "min": 1,
+        "median": 2.0,
+        "max": 2
+      },
+      "one_context_multiple_personas": false,
+      "one_persona_multiple_contexts": true,
+      "defensible_independent_histories": 20,
+      "max_equal_3way_split": 6,
+      "programmatic_scoring": true,
+      "decision": "SOURCE_COUNT_FAIL"
+    }
+  },
+  "raw_context_identity": {
+    "total_contexts_across_sizes": 180,
+    "unique_full_context_sha256": 180,
+    "exact_duplicate_contexts": 0,
+    "duplicate_hashes_across_shared_context_ids": 0,
+    "duplicate_hashes_across_personas": 0,
+    "distinct_system_persona_definitions_total": 20,
+    "all_20_personas_share_identical_system_prompt_across_all_three_sizes": true
+  },
+  "variant_dependence": {
+    "generator": "scripts/run_generate_benchmark.sh loops idx_persona 0..19 with --n_variants 2; prepare_blocks.topological_sort(processed_blocks, num_variants=2) emits Mode A and Mode B orderings of the SAME per-persona block pool",
+    "n_blocks_by_size": {
+      "small_32k": 10,
+      "medium_128k": 20,
+      "large_1M": 60
+    },
+    "classification": "SAME_UNDERLYING_SESSION_POOL (with 6 pure SAME_HISTORY_REORDERING pairs observed at 32k)",
+    "independent_generation_pairs": 0,
+    "conclusion": "multiple shared_context_ids of one persona are variants/orderings/subsets of one per-persona session pool, not independent generative histories"
+  },
+  "cross_size": {
+    "32k_vs_128k": {
+      "persona_overlap": 20,
+      "persona_a": 20,
+      "persona_b": 20,
+      "persona_identical_sets": true,
+      "shared_context_id_overlap": 0,
+      "exact_context_hash_overlap": 0,
+      "system_persona_hash_overlap": 20,
+      "same_persona_message_jaccard": {
+        "n_pairs": 111,
+        "min": 0.001,
+        "median": 0.0716,
+        "max": 0.2203,
+        "pairs_with_shared_messages": 111
+      },
+      "same_underlying_histories": "YES (identical persona definitions; contexts are separately ordered draws from the same per-persona session pool)"
+    },
+    "32k_vs_1M": {
+      "persona_overlap": 20,
+      "persona_a": 20,
+      "persona_b": 20,
+      "persona_identical_sets": true,
+      "shared_context_id_overlap": 0,
+      "exact_context_hash_overlap": 0,
+      "system_persona_hash_overlap": 20,
+      "same_persona_message_jaccard": {
+        "n_pairs": 57,
+        "min": 0.0215,
+        "median": 0.0505,
+        "max": 0.0701,
+        "pairs_with_shared_messages": 57
+      },
+      "same_underlying_histories": "YES (identical persona definitions; contexts are separately ordered draws from the same per-persona session pool)"
+    },
+    "128k_vs_1M": {
+      "persona_overlap": 20,
+      "persona_a": 20,
+      "persona_b": 20,
+      "persona_identical_sets": true,
+      "shared_context_id_overlap": 0,
+      "exact_context_hash_overlap": 0,
+      "system_persona_hash_overlap": 20,
+      "same_persona_message_jaccard": {
+        "n_pairs": 93,
+        "min": 0.1667,
+        "median": 0.2129,
+        "max": 0.2385,
+        "pairs_with_shared_messages": 93
+      },
+      "same_underlying_histories": "YES (identical persona definitions; contexts are separately ordered draws from the same per-persona session pool)"
+    }
+  },
+  "correctness": {
+    "classification": "PROGRAMMATIC_MC",
+    "evaluator": "inference.py::extract_answer -- regex over (a)-(d) against correct_answer; no LLM judge anywhere on the evaluation path",
+    "all_rows_are_4_option_mc": true,
+    "rows_matching_single_mc_letter": {
+      "32k": "589/589",
+      "128k": "2727/2727",
+      "1M": "2674/2674"
+    },
+    "llm_judge_required": false,
+    "external_api_required_for_scoring": false,
+    "note": "--filter_questions uses an LLM at DATASET GENERATION time to drop context-free-answerable questions; that filtering is already baked into the release and is not part of evaluation"
+  },
+  "history_dependence": {
+    "classification": "CLEAR_MEMORY_DEPENDENT",
+    "distance_to_ref_in_blocks": {
+      "32k": {
+        "min": 1,
+        "median": 4,
+        "max": 7,
+        "gt0_fraction": 1.0
+      },
+      "128k": {
+        "min": -17,
+        "median": 12,
+        "max": 21,
+        "gt0_fraction": 0.984
+      },
+      "1M": {
+        "min": 2,
+        "median": 37,
+        "max": 60,
+        "gt0_fraction": 1.0
+      }
+    },
+    "distance_to_ref_in_tokens": {
+      "32k": {
+        "median": 15604,
+        "max": 28862
+      },
+      "128k": {
+        "median": 65445,
+        "max": 127040
+      },
+      "1M": {
+        "median": 533771,
+        "max": 940450
+      }
+    },
+    "num_irrelevant_tokens_median": {
+      "32k": 0,
+      "128k": 15712,
+      "1M": 628964
+    },
+    "note": "the reference preference sits a median of 4 / 12 / 37 sessions before the question; questions are structurally history-dependent"
+  },
+  "v2": {
+    "status": "NOT_LOCAL",
+    "inspection": "HuggingFace file listing only -- no download, 4.58 GB / 9001 files",
+    "hf_sha": "0622e56d1cc6f1bc990a5100a6ec4022a60e66a6",
+    "distinct_persona_ids_from_filenames": 999,
+    "directories": {
+      "data/chat_history_128k": {
+        "files": 1998,
+        "personas": 999,
+        "run_timestamps": [
+          "250911_213509",
+          "250913_163556"
+        ]
+      },
+      "data/chat_history_32k": {
+        "files": 1998,
+        "personas": 999,
+        "run_timestamps": [
+          "250911_213118",
+          "250913_163134"
+        ]
+      },
+      "data/chat_history_multimodal_128k": {
+        "files": 1998,
+        "personas": 999,
+        "run_timestamps": [
+          "250911_213509",
+          "250913_163556"
+        ]
+      },
+      "data/chat_history_multimodal_32k": {
+        "files": 1998,
+        "personas": 999,
+        "run_timestamps": [
+          "250911_213118",
+          "250913_163134"
+        ]
+      }
+    },
+    "raw_data_files": 999,
+    "interpretation": "'1000 preferences' corresponds to ~999 DISTINCT persona ids (0..999), each appearing under 2 generation timestamps x {32k,128k} x {text,multimodal}. Those 4-8 files per persona are variants and must be grouped; the persona count itself is ~999.",
+    "caveats": [
+      "benchmark/text/benchmark.csv (42 MB) was NOT downloaded, so row counts, questions-per-user, scoring format and context structure are UNVERIFIED",
+      "the 2 run timestamps may be regenerations of the same personas rather than independent histories -- unverified",
+      "multimodal variants would need a vision-capable reader, which the local Llama-3.1-8B endpoint is not"
+    ]
+  },
+  "decision": {
+    "best_setting": "NONE (for PersonaMem-v1)",
+    "per_size": {
+      "32k": "SOURCE_COUNT_FAIL",
+      "128k": "SOURCE_COUNT_FAIL",
+      "1M": "SOURCE_COUNT_FAIL"
+    },
+    "defensible_independent_histories_v1": 20,
+    "required": 72,
+    "pooling_across_sizes_allowed": false,
+    "pooling_reason": "all three sizes use the SAME 20 persona ids with byte-identical system persona definitions; pooling would triple-count 20 users",
+    "passing_criteria": [
+      "programmatic correctness",
+      "structural history dependence",
+      "raw history long enough for compressed-memory evaluation",
+      "clear source grouping"
+    ],
+    "failing_criteria": [
+      "20 defensibly independent source histories < 72 (and < 60)"
+    ],
+    "recommendation": "POSSIBLE_WITH_PROTOCOL_DECISION (via PersonaMem-v2 / ImplicitPersona, pending verification); v1 alone is REJECT for the main table, APPENDIX_ONLY at best"
+  }
+}

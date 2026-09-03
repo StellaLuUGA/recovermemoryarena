@@ -1,0 +1,103 @@
+{
+  "case": "CASE A",
+  "interpretation": "ALFWorld remains intrinsically low-memory-risk even under half budget: pi_hat stays >= .95 and memory-negative examples remain extremely rare.",
+  "rows": [
+    {
+      "metric": "B_mem",
+      "B512": 512,
+      "B1024": 1024
+    },
+    {
+      "metric": "B_rec",
+      "B512": 512,
+      "B1024": 1024
+    },
+    {
+      "metric": "final controlled decisions",
+      "B512": 78,
+      "B1024": 78
+    },
+    {
+      "metric": "R_mem prevalence (pi_hat)",
+      "B512": 0.9872,
+      "B1024": 0.9744
+    },
+    {
+      "metric": "R_mem-negative count",
+      "B512": 1,
+      "B1024": 2
+    },
+    {
+      "metric": "01 count (recovery rescue)",
+      "B512": 1,
+      "B1024": 1
+    },
+    {
+      "metric": "Always Trust FS",
+      "B512": 0.0185,
+      "B1024": 0.037
+    },
+    {
+      "metric": "Always Trust Cov",
+      "B512": 1.0,
+      "B1024": 1.0
+    },
+    {
+      "metric": "ReCoverMem+CRC(.10) FS",
+      "B512": 0.0185,
+      "B1024": 0.037
+    },
+    {
+      "metric": "ReCoverMem+CRC(.10) Cov",
+      "B512": 0.8984,
+      "B1024": 0.8778
+    },
+    {
+      "metric": "Random+CRC(.10) FS",
+      "B512": 0.0,
+      "B1024": 0.0185
+    },
+    {
+      "metric": "Random+CRC(.10) Cov",
+      "B512": 0.9434,
+      "B1024": 0.9434
+    }
+  ],
+  "canonical_reference_verified": {
+    "pi_hat": {
+      "brief": 0.974,
+      "artifact": 0.9744,
+      "match": true
+    },
+    "always_trust_FS": {
+      "brief": 0.037,
+      "artifact": 0.037,
+      "match": true
+    },
+    "always_trust_Cov": {
+      "brief": 1.0,
+      "artifact": 1.0,
+      "match": true
+    },
+    "random_FS": {
+      "brief": 0.018,
+      "artifact": 0.0185,
+      "match": true
+    },
+    "random_Cov": {
+      "brief": 0.943,
+      "artifact": 0.9434,
+      "match": true
+    },
+    "recovermem_FS": {
+      "brief": 0.037,
+      "artifact": 0.037,
+      "match": true
+    },
+    "recovermem_Cov": {
+      "brief": 0.878,
+      "artifact": 0.8778,
+      "match": true
+    }
+  }
+}

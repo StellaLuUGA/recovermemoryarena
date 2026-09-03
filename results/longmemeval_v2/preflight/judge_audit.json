@@ -1,0 +1,159 @@
+{
+  "official_judge_default_model": "gpt-5.2",
+  "official_judge_default_reasoning_effort": "medium",
+  "judge_functions": [
+    "llm_abstention_checker",
+    "llm_gotchas_checker"
+  ],
+  "judge_sees_gold_reference_answer": true,
+  "judge_output": "JSON {\"label\":0|1,\"reason\":...} parsed by _parse_llm_binary_judgement",
+  "judge_endpoint_redirectable": {
+    "harness.py": "--evaluator-base-url exists",
+    "run_eval.py": "does NOT forward --evaluator-base-url; wrapper forces the default OpenAI cloud endpoint"
+  },
+  "totals": {
+    "questions": 451,
+    "programmatic": 295,
+    "llm_judge": 156,
+    "llm_judge_fraction": 0.3459
+  },
+  "abstention_special_rule": "harness.score_prediction forces score=False whenever the reader emitted \\boxed{UNKNOWN} (row['is_unknown']), before/independent of the eval function",
+  "classification": "HYBRID (295 programmatic / 156 OFFICIAL_JUDGE_DEPENDENT)",
+  "rows": [
+    {
+      "question_type": "dynamic-environment",
+      "count": 59,
+      "eval_function": "norm_phrase_set_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "dynamic-environment",
+      "count": 21,
+      "eval_function": "mc_choice_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "dynamic-environment",
+      "count": 6,
+      "eval_function": "norm_phrase_set_match_ordered",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "dynamic-environment-abs",
+      "count": 41,
+      "eval_function": "llm_abstention_checker",
+      "kind": "llm_judge",
+      "programmatic": false,
+      "llm_judge_required": true,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "errors-gotchas",
+      "count": 28,
+      "eval_function": "llm_gotchas_checker",
+      "kind": "llm_judge",
+      "programmatic": false,
+      "llm_judge_required": true,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "errors-gotchas",
+      "count": 1,
+      "eval_function": "norm_phrase_set_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "procedure",
+      "count": 35,
+      "eval_function": "mc_choice_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "procedure",
+      "count": 24,
+      "eval_function": "norm_phrase_set_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "procedure",
+      "count": 15,
+      "eval_function": "norm_phrase_set_match_ordered",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "procedure-abs",
+      "count": 32,
+      "eval_function": "llm_abstention_checker",
+      "kind": "llm_judge",
+      "programmatic": false,
+      "llm_judge_required": true,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "static-environment",
+      "count": 116,
+      "eval_function": "norm_phrase_set_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "static-environment",
+      "count": 12,
+      "eval_function": "mc_choice_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "static-environment",
+      "count": 5,
+      "eval_function": "norm_phrase_set_match_ordered",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "static-environment",
+      "count": 1,
+      "eval_function": "mc_choice_set_match",
+      "kind": "programmatic",
+      "programmatic": true,
+      "llm_judge_required": false,
+      "binary_correctness_available": true
+    },
+    {
+      "question_type": "static-environment-abs",
+      "count": 55,
+      "eval_function": "llm_abstention_checker",
+      "kind": "llm_judge",
+      "programmatic": false,
+      "llm_judge_required": true,
+      "binary_correctness_available": true
+    }
+  ]
+}

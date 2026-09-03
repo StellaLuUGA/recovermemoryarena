@@ -1,0 +1,122 @@
+{
+  "table": [
+    {
+      "policy": "Always Trust",
+      "key": "always_trust",
+      "Task": 0.8,
+      "Rec": 0.0,
+      "Cost": 9.3942
+    },
+    {
+      "policy": "Always Recover",
+      "key": "always_recover",
+      "Task": 0.8,
+      "Rec": 0.8,
+      "Cost": 12.7054
+    },
+    {
+      "policy": "Empirical-risk (.10)",
+      "key": "empirical_risk_0.10",
+      "Task": 0.8,
+      "Rec": 0.0,
+      "Cost": 9.3942
+    },
+    {
+      "policy": "Random + CRC (.10)",
+      "key": "random_crc_0.10",
+      "Task": 0.8,
+      "Rec": 0.0,
+      "Cost": 9.3942
+    },
+    {
+      "policy": "ReCoverMem + CRC (.10)",
+      "key": "recovermem_crc_0.10",
+      "Task": 0.8,
+      "Rec": 0.11,
+      "Cost": 9.7898
+    }
+  ],
+  "appendix": {
+    "always_trust": {
+      "rec_conditional_on_route": 0.0,
+      "n_zero_route_episodes": 4,
+      "n_episodes": 20,
+      "mean_route_decisions": 3.5,
+      "mean_actions": 25.25,
+      "token_buckets": {
+        "ctrl": 0,
+        "mem": 158090,
+        "rec": 0,
+        "write": 4454645,
+        "native": 614957
+      },
+      "mean_final_env_rank": 1.25
+    },
+    "always_recover": {
+      "rec_conditional_on_route": 1.0,
+      "n_zero_route_episodes": 4,
+      "n_episodes": 20,
+      "mean_route_decisions": 3.65,
+      "mean_actions": 26.75,
+      "token_buckets": {
+        "ctrl": 0,
+        "mem": 0,
+        "rec": 244898,
+        "write": 4704995,
+        "native": 614957
+      },
+      "mean_final_env_rank": 1.25
+    },
+    "empirical_risk_0.10": {
+      "rec_conditional_on_route": 0.0,
+      "n_zero_route_episodes": 4,
+      "n_episodes": 20,
+      "mean_route_decisions": 3.5,
+      "mean_actions": 25.25,
+      "token_buckets": {
+        "ctrl": 89699,
+        "mem": 68391,
+        "rec": 0,
+        "write": 4454645,
+        "native": 614957
+      },
+      "mean_final_env_rank": 1.25
+    },
+    "random_crc_0.10": {
+      "rec_conditional_on_route": 0.0,
+      "n_zero_route_episodes": 4,
+      "n_episodes": 20,
+      "mean_route_decisions": 3.5,
+      "mean_actions": 25.25,
+      "token_buckets": {
+        "ctrl": 0,
+        "mem": 158090,
+        "rec": 0,
+        "write": 4454645,
+        "native": 614957
+      },
+      "mean_final_env_rank": 1.25
+    },
+    "recovermem_crc_0.10": {
+      "rec_conditional_on_route": 0.1375,
+      "n_zero_route_episodes": 4,
+      "n_episodes": 20,
+      "mean_route_decisions": 3.5,
+      "mean_actions": 26.0,
+      "token_buckets": {
+        "ctrl": 89803,
+        "mem": 59937,
+        "rec": 52690,
+        "write": 4584775,
+        "native": 614957
+      },
+      "mean_final_env_rank": 1.25
+    }
+  },
+  "raw_history_only": {
+    "Task": 0.8,
+    "Cost": 1.0
+  },
+  "n_rollouts": 120,
+  "n_expected": 120
+}

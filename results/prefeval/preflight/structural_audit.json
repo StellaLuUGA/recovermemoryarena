@@ -1,0 +1,331 @@
+{
+  "generated_by": "PrefEval Phase-0 zero-LLM structural audit",
+  "repo": {
+    "url": "https://github.com/amazon-science/PrefEval.git",
+    "commit": "50795054b5ff5f418d2b768a331d71e480f93331",
+    "commit_date": "2025-04-21T22:32:11-07:00",
+    "checkout_size_mb": 169,
+    "external_download_required": false
+  },
+  "selected_protocol": "classification (MCQ) task -- classification_task/benchmark_classification.py",
+  "files_used": {
+    "options_and_gold": "benchmark_dataset/mcq_options/<topic>.json",
+    "explicit_form": "benchmark_dataset/explicit_preference/<topic>.json",
+    "implicit_choice_form": "benchmark_dataset/implicit_preference/choice-based/<topic>.json",
+    "implicit_persona_form": "benchmark_dataset/implicit_preference/persona-driven/<topic>.json",
+    "shared_distractor_history": "benchmark_dataset/filtered_inter_turns.json",
+    "excluded_stray_file": "benchmark_dataset/mcq_options/'travel_hotel copy.json' (52 records, differs from travel_hotel.json's 54; unreferenced by any code path)"
+  },
+  "census": {
+    "topics": 20,
+    "records_per_form": 1000,
+    "forms": [
+      "explicit",
+      "implicit_choice",
+      "implicit_persona"
+    ],
+    "mcq_options_records": 1000,
+    "records_per_topic": {
+      "education_learning_styles": 31,
+      "education_resources": 54,
+      "entertain_games": 51,
+      "entertain_music_book": 56,
+      "entertain_shows": 62,
+      "entertain_sports": 52,
+      "lifestyle_beauty": 53,
+      "lifestyle_dietary": 57,
+      "lifestyle_fit": 52,
+      "lifestyle_health": 49,
+      "pet_ownership": 43,
+      "professional_work_location_style": 36,
+      "shop_fashion": 54,
+      "shop_home": 56,
+      "shop_motors": 45,
+      "shop_technology": 35,
+      "travel_activities": 58,
+      "travel_hotel": 54,
+      "travel_restaurant": 56,
+      "travel_transportation": 46
+    },
+    "raw_classification_records_one_form": 1000,
+    "raw_classification_records_all_three_forms": 3000,
+    "unique_preference_query_pairs": 997,
+    "unique_preferences": 990,
+    "unique_queries": 994,
+    "unique_underlying_source_histories": 1,
+    "n_options_per_instance": {
+      "4": 1000
+    }
+  },
+  "equivalence_classes": {
+    "A_same_final_history_explicit_varying_part": {
+      "n_clusters": 988,
+      "size_min": 1,
+      "size_median": 1.0,
+      "size_max": 3
+    },
+    "A_same_implicit_choice_conversation": {
+      "n_clusters": 1000,
+      "size_min": 1,
+      "size_median": 1.0,
+      "size_max": 1
+    },
+    "A_same_implicit_persona_conversation": {
+      "n_clusters": 1000,
+      "size_min": 1,
+      "size_median": 1.0,
+      "size_max": 1
+    },
+    "B_same_preference_query_pair": {
+      "n_clusters": 997,
+      "size_min": 1,
+      "size_median": 1,
+      "size_max": 2
+    },
+    "C_same_base_source_history": {
+      "n_clusters": 1,
+      "size_min": 1000,
+      "size_median": 1000,
+      "size_max": 1000,
+      "note": "filtered_inter_turns.json is loaded once per run; extract_multi_turn_conversation returns fmsgs[:2N] in file order, identical for every instance"
+    },
+    "D_same_preference_identity": {
+      "n_clusters": 990,
+      "size_min": 1,
+      "size_median": 1.0,
+      "size_max": 3
+    }
+  },
+  "group_key": {
+    "definition": "connected components over {shared normalized preference (mcq OR explicit wording)} UNION {shared normalized query}",
+    "n_groups": 985,
+    "size_min": 1,
+    "size_median": 1,
+    "size_max": 3,
+    "n_multi_member_groups": 14,
+    "multi_member_groups": [
+      [
+        "education_learning_styles#003",
+        "education_resources#044"
+      ],
+      [
+        "education_learning_styles#004",
+        "education_resources#050"
+      ],
+      [
+        "education_learning_styles#011",
+        "education_resources#043"
+      ],
+      [
+        "entertain_games#011",
+        "entertain_games#016",
+        "entertain_games#039"
+      ],
+      [
+        "entertain_shows#025",
+        "entertain_shows#036"
+      ],
+      [
+        "lifestyle_beauty#016",
+        "lifestyle_beauty#020"
+      ],
+      [
+        "lifestyle_dietary#013",
+        "lifestyle_dietary#025"
+      ],
+      [
+        "lifestyle_dietary#040",
+        "travel_restaurant#035"
+      ],
+      [
+        "lifestyle_fit#003",
+        "lifestyle_fit#050"
+      ],
+      [
+        "lifestyle_fit#033",
+        "lifestyle_fit#034"
+      ],
+      [
+        "pet_ownership#035",
+        "pet_ownership#036"
+      ],
+      [
+        "shop_home#026",
+        "shop_home#028"
+      ],
+      [
+        "travel_activities#012",
+        "travel_activities#021"
+      ],
+      [
+        "travel_restaurant#019",
+        "travel_restaurant#024"
+      ]
+    ],
+    "groups_per_topic": {
+      "education_learning_styles": 31,
+      "education_resources": 51,
+      "entertain_games": 49,
+      "entertain_music_book": 56,
+      "entertain_shows": 61,
+      "entertain_sports": 52,
+      "lifestyle_beauty": 52,
+      "lifestyle_dietary": 56,
+      "lifestyle_fit": 50,
+      "lifestyle_health": 49,
+      "pet_ownership": 42,
+      "professional_work_location_style": 36,
+      "shop_fashion": 54,
+      "shop_home": 55,
+      "shop_motors": 45,
+      "shop_technology": 35,
+      "travel_activities": 57,
+      "travel_hotel": 54,
+      "travel_restaurant": 54,
+      "travel_transportation": 46
+    }
+  },
+  "n_independent": 985,
+  "feasibility": {
+    "target_24_24_24": {
+      "required": 72,
+      "available": 985,
+      "pass": true
+    },
+    "target_30_30_rest": {
+      "required": 61,
+      "available": 985,
+      "pass": true,
+      "final_test_size": 925
+    },
+    "alpha_005": {
+      "required_nonempty_cal_units": 20,
+      "crc_required_n_cal": 19,
+      "available": 985,
+      "pass": true
+    },
+    "alpha_010": {
+      "crc_required_n_cal": 9,
+      "pass": true
+    },
+    "alpha_020": {
+      "crc_required_n_cal": 4,
+      "pass": true
+    }
+  },
+  "tokens_exact_llama": {
+    "tokenizer": "/home/aristella/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "exact": true,
+    "question": {
+      "min": 7,
+      "median": 14.0,
+      "p90": 25,
+      "max": 40,
+      "mean": 16.22
+    },
+    "preference": {
+      "min": 4,
+      "median": 14.0,
+      "p90": 23,
+      "max": 38,
+      "mean": 14.88
+    },
+    "option_each": {
+      "min": 6,
+      "median": 13.0,
+      "p90": 18,
+      "max": 46,
+      "mean": 13.67
+    },
+    "implicit_choice_conversation": {
+      "min": 90,
+      "median": 133.0,
+      "p90": 160,
+      "max": 235,
+      "mean": 135.44
+    },
+    "implicit_persona_conversation": {
+      "min": 399,
+      "median": 809.0,
+      "p90": 1092,
+      "max": 3311,
+      "mean": 847.39
+    },
+    "implicit_persona_messages": {
+      "min": 6,
+      "median": 10.0,
+      "p90": 12,
+      "max": 14,
+      "mean": 10.62
+    },
+    "implicit_choice_messages": {
+      "4": 1000
+    },
+    "shared_filler_pool": {
+      "conversations": 24,
+      "messages": 632,
+      "max_inter_turns": 316,
+      "total_tokens": 108084
+    },
+    "history_tokens_by_inter_turns": {
+      "0": {
+        "filler_tokens": 0,
+        "total_explicit_history_tokens": 15,
+        "x_of_B_ctx_32768": 0.0
+      },
+      "3": {
+        "filler_tokens": 1131,
+        "total_explicit_history_tokens": 1146,
+        "x_of_B_ctx_32768": 0.035
+      },
+      "10": {
+        "filler_tokens": 3854,
+        "total_explicit_history_tokens": 3869,
+        "x_of_B_ctx_32768": 0.118
+      },
+      "50": {
+        "filler_tokens": 16115,
+        "total_explicit_history_tokens": 16130,
+        "x_of_B_ctx_32768": 0.492
+      },
+      "100": {
+        "filler_tokens": 34834,
+        "total_explicit_history_tokens": 34849,
+        "x_of_B_ctx_32768": 1.064
+      },
+      "300": {
+        "filler_tokens": 101573,
+        "total_explicit_history_tokens": 101588,
+        "x_of_B_ctx_32768": 3.1
+      },
+      "316": {
+        "filler_tokens": 108084,
+        "total_explicit_history_tokens": 108099,
+        "x_of_B_ctx_32768": 3.299
+      }
+    }
+  },
+  "preference_depth": {
+    "position_in_history": "turn 1 (the very first user turn), always",
+    "distance_to_query": "exactly inter_turns filler turns",
+    "distribution": "degenerate: every instance places the target preference at depth 0 from the start of the history"
+  },
+  "leakage_probes": {
+    "preference_contentword_overlap_with_query": {
+      "median": 0.0,
+      "p90": 0.167,
+      "max": 0.429,
+      "fraction_zero_overlap": 0.629
+    },
+    "correct_option_is_longest": {
+      "observed": 0.446,
+      "chance": 0.25
+    },
+    "correct_option_has_highest_preference_overlap": {
+      "observed": 0.178,
+      "chance": 0.25
+    },
+    "duplicate_option_strings": 0,
+    "empty_option_strings": 0
+  }
+}

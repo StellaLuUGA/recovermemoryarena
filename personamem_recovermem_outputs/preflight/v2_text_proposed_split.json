@@ -1,0 +1,115 @@
+{
+ "status": "PROPOSAL ONLY -- NOT FROZEN. Nothing was written to frozen_protocol/.",
+ "rule": "seed-13 numpy permutation within strata defined by each persona's dominant conversation_scenario, interleaved round-robin across strata, first 72 taken, then dealt 0/1/2 mod 3",
+ "seed": 13,
+ "eligible_pool": 200,
+ "selected": 72,
+ "sizes": {
+  "predictor_train": 24,
+  "calibration": 24,
+  "final_test": 24
+ },
+ "disjoint": true,
+ "per_split_rows": {
+  "predictor_train": 601,
+  "calibration": 602,
+  "final_test": 592
+ },
+ "per_split_dominant_scenarios": {
+  "predictor_train": {
+   "chat_message": 8,
+   "social_media_post": 8,
+   "personal_email": 8
+  },
+  "calibration": {
+   "translation": 8,
+   "professional_email": 8,
+   "creative_writing": 8
+  },
+  "final_test": {
+   "knowledge_query": 8,
+   "professional_writing": 8,
+   "trouble_consult": 8
+  }
+ },
+ "splits": {
+  "predictor_train": [
+   76,
+   86,
+   88,
+   110,
+   209,
+   259,
+   275,
+   332,
+   361,
+   382,
+   479,
+   493,
+   578,
+   636,
+   643,
+   650,
+   689,
+   749,
+   764,
+   811,
+   816,
+   849,
+   859,
+   989
+  ],
+  "calibration": [
+   66,
+   72,
+   139,
+   208,
+   210,
+   244,
+   260,
+   277,
+   294,
+   321,
+   346,
+   365,
+   451,
+   494,
+   499,
+   528,
+   613,
+   621,
+   679,
+   823,
+   879,
+   893,
+   924,
+   938
+  ],
+  "final_test": [
+   25,
+   59,
+   67,
+   198,
+   254,
+   261,
+   289,
+   292,
+   298,
+   309,
+   370,
+   425,
+   429,
+   432,
+   521,
+   522,
+   635,
+   656,
+   662,
+   687,
+   753,
+   802,
+   974,
+   986
+  ]
+ }
+}

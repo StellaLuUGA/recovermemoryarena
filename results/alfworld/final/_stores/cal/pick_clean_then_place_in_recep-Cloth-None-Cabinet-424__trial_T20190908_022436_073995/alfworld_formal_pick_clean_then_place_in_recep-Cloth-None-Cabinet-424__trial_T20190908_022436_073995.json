@@ -1,0 +1,204 @@
+{
+  "docstore": {
+    "1b0e6bf4-0b68-4a2c-b1ba-341bab3919f0": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User's task is to clean some cloth and put it in a cabinet",
+      "text_lemmatized": "user task clean cloth cabinet",
+      "hash": "075b9b682aef852a33494a3f98f01d67",
+      "created_at": "2026-08-31T08:25:40.515627+00:00",
+      "updated_at": "2026-08-31T08:25:40.515627+00:00",
+      "attributed_to": "user"
+    },
+    "6afd3fff-323b-48e7-b141-5940d4d80329": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User is in a room with multiple cabinets (cabinet 1 to 4), a countertop, a garbage can, hand towel holders, sink basins, a toilet, a toilet paper hanger, and a towel holder",
+      "text_lemmatized": "user room multiple cabinet cabinet 1 4 countertop garbage hand towel holder sink basin toilet toilet paper hanger towel holder",
+      "hash": "66c4d7b2730cc886aa44821779e65e62",
+      "created_at": "2026-08-31T08:25:40.517904+00:00",
+      "updated_at": "2026-08-31T08:25:40.517904+00:00",
+      "attributed_to": "user"
+    },
+    "e2abe090-e8b5-406c-b94d-b6d65fe98cf5": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User arrived at sinkbasin 1, which is currently empty",
+      "text_lemmatized": "user arrive sinkbasin 1 currently",
+      "hash": "5a9273b9255f4e5c89d65c88efa1e2d6",
+      "created_at": "2026-08-31T08:25:44.774808+00:00",
+      "updated_at": "2026-08-31T08:25:44.774808+00:00",
+      "attributed_to": "user"
+    },
+    "72f266e0-e832-4285-a13b-83c001338b61": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User arrived at toilet 1 and found a toiletpaper 3 on it",
+      "text_lemmatized": "user arrive toilet 1 find toiletpaper 3",
+      "hash": "09cad19eb75a6bfa78b88cd9cf66b3eb",
+      "created_at": "2026-08-31T08:25:48.989008+00:00",
+      "updated_at": "2026-08-31T08:25:48.989008+00:00"
+    },
+    "c81064da-948f-4295-b385-f7757ee77c41": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User picked up the toiletpaper 3 from the toilet 1",
+      "text_lemmatized": "user pick toiletpaper 3 toilet 1",
+      "hash": "717c97aaeb599409b5fe4f67b56d2c38",
+      "created_at": "2026-08-31T08:25:53.527798+00:00",
+      "updated_at": "2026-08-31T08:25:53.527798+00:00",
+      "attributed_to": "user"
+    },
+    "04a6407c-1e2b-49cf-953f-cdc169adfea0": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User returned to sinkbasin 1, which remains empty",
+      "text_lemmatized": "user return sinkbasin 1 remain",
+      "hash": "ee0b82e5170cc2726e91b45f51e2a097",
+      "created_at": "2026-08-31T08:25:58.685754+00:00",
+      "updated_at": "2026-08-31T08:25:58.685754+00:00",
+      "attributed_to": "user"
+    },
+    "01368de8-1aa3-4e31-836c-61cad49f4269": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User is continuing their task of cleaning some cloth and putting it in a cabinet",
+      "text_lemmatized": "user continue continuing task clean cleaning cloth put putting cabinet",
+      "hash": "7d11ac1dc57076ad104ecfa0cd81727a",
+      "created_at": "2026-08-31T08:25:58.687150+00:00",
+      "updated_at": "2026-08-31T08:25:58.687150+00:00",
+      "attributed_to": "user"
+    },
+    "dcb9f980-aadc-4207-8a28-2b7223592222": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User attempted to clean the toiletpaper 3 with sinkbasin 1, but nothing happened",
+      "text_lemmatized": "user attempt clean toiletpaper 3 sinkbasin 1 happen",
+      "hash": "5bf2d0616e6cc0e3b378b387019b5d21",
+      "created_at": "2026-08-31T08:26:03.210533+00:00",
+      "updated_at": "2026-08-31T08:26:03.210533+00:00",
+      "attributed_to": "user"
+    },
+    "3873bd5c-a348-43b4-b46c-fd19b90d182b": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User arrived at countertop 1 and found a candle 1, a soapbottle 2, and two spraybottles (spraybottle 1 and spraybottle 2) on it",
+      "text_lemmatized": "user arrive countertop 1 find candle 1 soapbottle 2 spraybottle spraybottle 1 spraybottle 2",
+      "hash": "57c2de39e3bad189a090c805eb127eda",
+      "created_at": "2026-08-31T08:26:08.005932+00:00",
+      "updated_at": "2026-08-31T08:26:08.005932+00:00"
+    },
+    "304c3b28-f976-4438-808c-f2e986ac4595": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User arrived at cabinet 1, which is currently closed",
+      "text_lemmatized": "user arrive cabinet 1 currently close",
+      "hash": "3b07f6f027d13a41e3e714358695728f",
+      "created_at": "2026-08-31T08:26:12.716729+00:00",
+      "updated_at": "2026-08-31T08:26:12.716729+00:00",
+      "attributed_to": "user"
+    },
+    "c211d5f5-b726-4a17-af12-e258449d82f0": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User opened cabinet 1 and found a toiletpaper 1 inside",
+      "text_lemmatized": "user open cabinet 1 find toiletpaper 1 inside",
+      "hash": "86da0d952bc68f9f069ff0672efa0b25",
+      "created_at": "2026-08-31T08:26:17.474954+00:00",
+      "updated_at": "2026-08-31T08:26:17.474954+00:00",
+      "attributed_to": "user"
+    },
+    "c88942fe-077a-4c6f-bb09-3e56aa86afd8": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User moved the toiletpaper 3 to cabinet 1, which is now open",
+      "text_lemmatized": "user move toiletpaper 3 cabinet 1 open",
+      "hash": "a42618d03ff41b27ddab198541833ab3",
+      "created_at": "2026-08-31T08:26:22.076549+00:00",
+      "updated_at": "2026-08-31T08:26:22.076549+00:00",
+      "attributed_to": "user"
+    },
+    "e381cb9a-86e4-4039-82e6-f1d37268c4e6": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User closed cabinet 1 after moving the toiletpaper 3 into it",
+      "text_lemmatized": "user closed cabinet 1 move moving toiletpaper 3",
+      "hash": "dda6c5be1726d5cdb1c5504158cb993f",
+      "created_at": "2026-08-31T08:26:26.827107+00:00",
+      "updated_at": "2026-08-31T08:26:26.827107+00:00",
+      "attributed_to": "user"
+    },
+    "61e12f8b-2253-4a15-b0b8-47fdcc3217b8": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User arrived at cabinet 2, which is currently closed",
+      "text_lemmatized": "user arrive cabinet 2 currently close",
+      "hash": "7371b03c59134ca571b04e67d258d2f4",
+      "created_at": "2026-08-31T08:26:31.409026+00:00",
+      "updated_at": "2026-08-31T08:26:31.409026+00:00",
+      "attributed_to": "user"
+    },
+    "1fcdcce2-680f-433a-819e-b8493184d426": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User opened cabinet 2 and found a cloth 1 inside",
+      "text_lemmatized": "user open cabinet 2 find cloth 1 inside",
+      "hash": "ba2925fb8c2437322c67d0ca879541ef",
+      "created_at": "2026-08-31T08:26:36.131911+00:00",
+      "updated_at": "2026-08-31T08:26:36.131911+00:00",
+      "attributed_to": "user"
+    },
+    "0e6dab30-594a-47a2-b5fc-7a321bab6b68": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User picked up the cloth 1 from cabinet 2",
+      "text_lemmatized": "user pick cloth 1 cabinet 2",
+      "hash": "8201a609ab7d039bfcf3c10081d7eac2",
+      "created_at": "2026-08-31T08:26:44.188734+00:00",
+      "updated_at": "2026-08-31T08:26:44.188734+00:00",
+      "attributed_to": "user"
+    },
+    "5fc5c1e8-bbc9-40a9-8160-9a756f0e3adf": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User arrived at sinkbasin 1, which remains empty",
+      "text_lemmatized": "user arrive sinkbasin 1 remain",
+      "hash": "bcbcc6dbfe1f386c5462108d84fe59e7",
+      "created_at": "2026-08-31T08:26:51.044665+00:00",
+      "updated_at": "2026-08-31T08:26:51.044665+00:00",
+      "attributed_to": "user"
+    },
+    "1d0c1e55-f5b5-46ae-9871-fe38b519ca78": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User cleaned the cloth 1 using sinkbasin 1",
+      "text_lemmatized": "user clean cloth 1 sinkbasin 1",
+      "hash": "312e3affc41e68a9a266f2dd98583e06",
+      "created_at": "2026-08-31T08:27:01.568098+00:00",
+      "updated_at": "2026-08-31T08:27:01.568098+00:00",
+      "attributed_to": "user"
+    },
+    "41ba08df-b3ac-48d0-abfd-edce1d98cc95": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User opened cabinet 1 and found a toiletpaper 3 and a toiletpaper 1 inside",
+      "text_lemmatized": "user open cabinet 1 find toiletpaper 3 toiletpaper 1 inside",
+      "hash": "2cbeba6d6a581d7043703001dcfc987a",
+      "created_at": "2026-08-31T08:27:11.374661+00:00",
+      "updated_at": "2026-08-31T08:27:11.374661+00:00",
+      "attributed_to": "user"
+    },
+    "7dd815f1-f8ca-4062-aa83-7f7e38c9734e": {
+      "user_id": "pick_clean_then_place_in_recep-Cloth-None-Cabinet-424__trial_T20190908_022436_073995",
+      "data": "User moved the cloth 1 to cabinet 1",
+      "text_lemmatized": "user move cloth 1 cabinet 1",
+      "hash": "7767ce05730085f8e575dd71593d81ee",
+      "created_at": "2026-08-31T08:27:16.206821+00:00",
+      "updated_at": "2026-08-31T08:27:16.206821+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "1b0e6bf4-0b68-4a2c-b1ba-341bab3919f0",
+    "1": "6afd3fff-323b-48e7-b141-5940d4d80329",
+    "2": "e2abe090-e8b5-406c-b94d-b6d65fe98cf5",
+    "3": "72f266e0-e832-4285-a13b-83c001338b61",
+    "4": "c81064da-948f-4295-b385-f7757ee77c41",
+    "5": "04a6407c-1e2b-49cf-953f-cdc169adfea0",
+    "6": "01368de8-1aa3-4e31-836c-61cad49f4269",
+    "7": "dcb9f980-aadc-4207-8a28-2b7223592222",
+    "8": "3873bd5c-a348-43b4-b46c-fd19b90d182b",
+    "9": "304c3b28-f976-4438-808c-f2e986ac4595",
+    "10": "c211d5f5-b726-4a17-af12-e258449d82f0",
+    "11": "c88942fe-077a-4c6f-bb09-3e56aa86afd8",
+    "12": "e381cb9a-86e4-4039-82e6-f1d37268c4e6",
+    "13": "61e12f8b-2253-4a15-b0b8-47fdcc3217b8",
+    "14": "1fcdcce2-680f-433a-819e-b8493184d426",
+    "15": "0e6dab30-594a-47a2-b5fc-7a321bab6b68",
+    "16": "5fc5c1e8-bbc9-40a9-8160-9a756f0e3adf",
+    "17": "1d0c1e55-f5b5-46ae-9871-fe38b519ca78",
+    "18": "41ba08df-b3ac-48d0-abfd-edce1d98cc95",
+    "19": "7dd815f1-f8ca-4062-aa83-7f7e38c9734e"
+  }
+}

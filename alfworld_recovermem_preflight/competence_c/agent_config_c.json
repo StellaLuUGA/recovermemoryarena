@@ -1,0 +1,96 @@
+{
+  "config_id": "AGENT_CONFIG_C_QWEN32B",
+  "model": "qwen3-32b-awq-local",
+  "endpoint": "http://localhost:8124/v1",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "seed": 13,
+  "max_tokens_per_action": 32,
+  "stop": [
+    "\n"
+  ],
+  "MAX_AGENT_STEPS": 50,
+  "MAX_NEXT_SUBGOAL_STEPS": 20,
+  "env": "AlfredTWEnv",
+  "split": "eval_out_of_distribution",
+  "env_max_episode_steps": 200,
+  "system_prompt": "You are an agent solving a text-based household task in the ALFWorld TextWorld environment.\n\nEach turn you get the environment's latest response and you reply with exactly ONE action, and nothing else. No explanations, no numbering, no quotes.\n\nObjects and receptacles are always referred to with their number, e.g. 'cabinet 2', 'mug 1'. The available action forms are:\n  clean {obj} with {recep}\n  close {recep}\n  cool {obj} with {recep}\n  examine {obj}\n  examine {recep}\n  go to {recep}\n  heat {obj} with {recep}\n  help\n  inventory\n  look\n  move {obj} to {recep}\n  open {recep}\n  put {obj} in {recep}\n  slice {obj} with {knife}\n  take {obj} from {recep}\n  use {obj}\n\nHints: you must 'go to' a receptacle before interacting with things there; you may need to 'open' a closed receptacle to see inside; you can carry only one object at a time; 'clean X with sinkbasin', 'heat X with microwave', 'cool X with fridge' work only while you are holding X and standing at that receptacle; 'use X' turns on a lamp; the 'inventory' action tells you what you are carrying.\nDo not repeat an action that produced 'Nothing happens.'\n\nAt every step you are given the list of admissible commands for the current state. Choose exactly ONE command from that list and copy it verbatim, including its numbers. Reply in the form:\nACTION: <command>",
+  "user_prompt_template": "Here is a complete example episode from a different game:\n\n=== EXAMPLE ===\n{example}\n=== END EXAMPLE ===\n\n--- New game ---\n{history}\n\nAdmissible commands:\n- {cmd}\n- ...\n>",
+  "admissible_command_formatting": "one per line, prefixed '- ', verbatim from info['admissible_commands'][0], in engine order",
+  "history_serialization": "identical to Config A: intro, then '> {action}\\n{observation}' per step",
+  "inventory": "EnvInfos.inventory is None on ALFWorld games; nothing injected. The agent may issue the 'inventory' action itself.",
+  "parser": {
+    "kind": "entity-preserving exact match",
+    "normalises": [
+      "leading '>' and whitespace",
+      "optional 'ACTION:' prefix",
+      "wrapping quotes/backticks/asterisks",
+      "one trailing period",
+      "letter case"
+    ],
+    "never_modifies": [
+      "action verb",
+      "object identity",
+      "receptacle identity",
+      "numeric suffix"
+    ],
+    "fuzzy_or_digit_stripped_matching": false,
+    "on_invalid": "issue the normalised string verbatim; TextWorld answers 'Nothing happens.'",
+    "on_empty_output": "issue 'look', counted as invalid",
+    "source": "agent_b.py::parse_action"
+  },
+  "icl_examples": [
+    {
+      "game_file": "/home/aristella/.cache/alfworld/json_2.1.1/train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063232_403749/game.tw-pddl",
+      "split": "train",
+      "task_type": "pick_and_place_simple",
+      "n_steps": 9,
+      "selection_rule": "train split, sorted, Random(13).shuffle, first pick_and_place_simple solved by upstream HandCodedTWAgent within 25 steps"
+    }
+  ],
+  "agent_visible": [
+    "task instruction",
+    "current text observation",
+    "prior actions and environment responses",
+    "current admissible_commands"
+  ],
+  "harness_only": [
+    "plan.high_pddl",
+    "traj_data.json",
+    "PDDL facts",
+    "policy_commands",
+    "extra.expert_plan",
+    "subgoal rank"
+  ],
+  "derived_from": "AGENT_CONFIG_B_ADMISSIBLE_COMMANDS",
+  "only_change": "backbone (+ the chat_template_kwargs needed for Qwen3 non-thinking mode)",
+  "model_path": "/home/aristella/models/Qwen3-32B-AWQ",
+  "extra_body": {
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "backbone": {
+    "name_requested": "Qwen3-32B-Instruct-AWQ",
+    "name_actual": "Qwen/Qwen3-32B-AWQ",
+    "note": "Qwen3-32B is a hybrid-reasoning model; there is no separate '-Instruct-AWQ' release. Non-thinking / direct-answer mode is selected via chat_template_kwargs.enable_thinking=false.",
+    "local_path": "/home/aristella/models/Qwen3-32B-AWQ",
+    "size_on_disk": "19G",
+    "quantization": "AWQ 4-bit, group_size 128, gemm; vLLM runtime kernel awq_marlin",
+    "dtype": "torch.float16",
+    "architecture": "Qwen3ForCausalLM, 64 layers, 64 heads, 8 KV heads, head_dim 128",
+    "vllm_version": "0.18.0",
+    "torch": "2.10.0+cu128",
+    "max_model_len": 16384,
+    "kv_cache_dtype": "auto (fp16)",
+    "gpu_memory_utilization": 0.9,
+    "gpu_kv_cache_size_tokens": 34192,
+    "attention_backend": "FLASH_ATTN (FlashAttention 2)",
+    "enforce_eager": false,
+    "enable_prefix_caching": false,
+    "device": "NVIDIA GeForce RTX 5090 (32607 MiB), driver 595.71.05, CUDA 13.2",
+    "external_api_traffic": "none - localhost only",
+    "launch_command": "/home/aristella/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server --model /home/aristella/models/Qwen3-32B-AWQ --served-model-name qwen3-32b-awq-local --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 --no-enable-prefix-caching"
+  },
+  "config_sha256": "9de15556a9d1aa3e638c76cd1740d1860015e0428b143e30af54dd677791d629"
+}

@@ -1,0 +1,234 @@
+{
+  "generated_by": "Phase-0 audit, recoverappworld/results/longmemeval_v2",
+  "repo": {
+    "url": "https://github.com/xiaowu0162/LongMemEval-V2.git",
+    "commit": "2cc8c540bdb87fe6761629b585e727e1c4704520",
+    "commit_date": "2026-08-09T15:31:22-07:00"
+  },
+  "hf_dataset": {
+    "repo_id": "xiaowu0162/longmemeval-v2",
+    "repo_type": "dataset",
+    "sha": "f152293e235517d504809563c833d7190b8c713b",
+    "last_modified": "2026-05-17T02:59:48+00:00",
+    "downloaded_in_phase0": [
+      "questions.jsonl",
+      "haystacks/lme_v2_small.json",
+      "haystacks/lme_v2_medium.json",
+      "SCHEMA.md",
+      "DATA_CARD.md",
+      "README.md",
+      "checksums.sha256"
+    ],
+    "not_downloaded": [
+      "trajectories.jsonl (1.196 GB)",
+      "trajectory_screenshots/*.tar.gz (5.92 GB)",
+      "question_screenshots/*.png (3.4 MB)"
+    ]
+  },
+  "questions": {
+    "total": 451,
+    "by_domain": {
+      "enterprise": 211,
+      "web": 240
+    },
+    "by_environment": {
+      "workarena": 211,
+      "webarena-reddit": 91,
+      "webarena-cms": 83,
+      "webarena-onestopshop": 66
+    },
+    "by_domain_environment": {
+      "enterprise/workarena": 211,
+      "web/webarena-cms": 83,
+      "web/webarena-onestopshop": 66,
+      "web/webarena-reddit": 91
+    },
+    "by_question_type": {
+      "dynamic-environment": 86,
+      "procedure": 74,
+      "static-environment": 134,
+      "procedure-abs": 32,
+      "dynamic-environment-abs": 41,
+      "static-environment-abs": 55,
+      "errors-gotchas": 29
+    },
+    "with_query_image": 29,
+    "identifier_fields": [
+      "answer",
+      "domain",
+      "environment",
+      "eval_function",
+      "id",
+      "image",
+      "question",
+      "question_type"
+    ]
+  },
+  "tiers": {
+    "small": {
+      "n_question_entries": 451,
+      "unique_ordered_trajectory_lists": 2,
+      "unique_trajectory_sets": 2,
+      "haystack_sizes": {
+        "100": 451
+      },
+      "distinct_trajectories_total": 200,
+      "distinct_trajectories_per_domain": {
+        "enterprise": 100,
+        "web": 100
+      },
+      "questions_per_unique_ordered_haystack": {
+        "min": 211,
+        "median": 225.5,
+        "max": 240
+      },
+      "pairwise_jaccard_within_domain": {
+        "web": {
+          "n_pairs_sampled": 4000,
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "enterprise": {
+          "n_pairs_sampled": 4000,
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0
+        }
+      },
+      "trajectories_unique_to_one_question": {
+        "web": {
+          "pool": 100,
+          "used_by_exactly_one_question": 0,
+          "used_by_all_questions": 100
+        },
+        "enterprise": {
+          "pool": 100,
+          "used_by_exactly_one_question": 0,
+          "used_by_all_questions": 100
+        }
+      }
+    },
+    "medium": {
+      "n_question_entries": 451,
+      "unique_ordered_trajectory_lists": 447,
+      "unique_trajectory_sets": 433,
+      "haystack_sizes": {
+        "387": 2,
+        "411": 2,
+        "441": 1,
+        "458": 1,
+        "471": 2,
+        "477": 3,
+        "479": 6,
+        "481": 5,
+        "487": 1,
+        "500": 428
+      },
+      "distinct_trajectories_total": 1473,
+      "distinct_trajectories_per_domain": {
+        "enterprise": 874,
+        "web": 599
+      },
+      "questions_per_unique_ordered_haystack": {
+        "min": 1,
+        "median": 1,
+        "max": 2
+      },
+      "pairwise_jaccard_within_domain": {
+        "web": {
+          "n_pairs_sampled": 4000,
+          "min": 0.332220367278798,
+          "median": 0.8348623853211009,
+          "max": 1.0
+        },
+        "enterprise": {
+          "n_pairs_sampled": 4000,
+          "min": 0.3679890560875513,
+          "median": 0.7605633802816901,
+          "max": 0.937984496124031
+        }
+      },
+      "trajectories_unique_to_one_question": {
+        "web": {
+          "pool": 599,
+          "used_by_exactly_one_question": 0,
+          "used_by_all_questions": 1
+        },
+        "enterprise": {
+          "pool": 874,
+          "used_by_exactly_one_question": 19,
+          "used_by_all_questions": 20
+        }
+      }
+    }
+  },
+  "tier_relationship": {
+    "same_451_question_ids_in_both_tiers": true,
+    "small_trajectory_pool_subset_of_medium_pool": true,
+    "small_pool_size": 200,
+    "medium_pool_size": 1473,
+    "per_question_small_haystack_subset_of_medium_haystack": 0,
+    "note": "Tiers are NOT nested per question: small's 100 ids are drawn from the same pool but are not a subset of the same question's medium haystack."
+  },
+  "evaluation": {
+    "by_eval_function": {
+      "norm_phrase_set_match": 200,
+      "norm_phrase_set_match_ordered": 26,
+      "llm_abstention_checker": 128,
+      "mc_choice_match": 68,
+      "llm_gotchas_checker": 28,
+      "mc_choice_set_match": 1
+    },
+    "kind": {
+      "norm_phrase_set_match": "programmatic",
+      "norm_phrase_set_match_ordered": "programmatic",
+      "llm_abstention_checker": "llm_judge",
+      "mc_choice_match": "programmatic",
+      "llm_gotchas_checker": "llm_judge",
+      "mc_choice_set_match": "programmatic"
+    },
+    "programmatic_total": 295,
+    "llm_judge_total": 156,
+    "question_type_x_eval_function": {
+      "dynamic-environment": {
+        "norm_phrase_set_match": 59,
+        "mc_choice_match": 21,
+        "norm_phrase_set_match_ordered": 6
+      },
+      "dynamic-environment-abs": {
+        "llm_abstention_checker": 41
+      },
+      "errors-gotchas": {
+        "llm_gotchas_checker": 28,
+        "norm_phrase_set_match": 1
+      },
+      "procedure": {
+        "norm_phrase_set_match_ordered": 15,
+        "mc_choice_match": 35,
+        "norm_phrase_set_match": 24
+      },
+      "procedure-abs": {
+        "llm_abstention_checker": 32
+      },
+      "static-environment": {
+        "norm_phrase_set_match": 116,
+        "norm_phrase_set_match_ordered": 5,
+        "mc_choice_match": 12,
+        "mc_choice_set_match": 1
+      },
+      "static-environment-abs": {
+        "llm_abstention_checker": 55
+      }
+    }
+  },
+  "exchangeability": {
+    "harness_behaviour_small": "all_haystacks_shared() is True per domain -> harness builds ONE memory and reuses it for every question in that domain",
+    "harness_behaviour_medium": "447 distinct ordered lists -> harness takes the per-question memory path, rebuilding memory for each question",
+    "n_independent_strict": 2,
+    "n_independent_strict_definition": "disjoint trajectory pools; only the web/enterprise domain split yields haystacks with no shared trajectory",
+    "n_independent_if_haystack_identity_accepted_small": 2,
+    "n_independent_if_haystack_identity_accepted_medium": 447,
+    "medium_haystacks_are_not_independent": true
+  }
+}

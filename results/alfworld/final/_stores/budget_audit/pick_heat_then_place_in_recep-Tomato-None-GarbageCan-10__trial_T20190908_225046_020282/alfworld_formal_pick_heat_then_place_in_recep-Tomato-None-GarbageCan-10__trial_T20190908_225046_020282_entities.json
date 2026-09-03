@@ -1,0 +1,70 @@
+{
+  "docstore": {
+    "5389d614-82de-4386-99d5-649162f1bcc1": {
+      "data": "hot tomato",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "e375e8c7-44ce-459e-8bc0-ba9001ca77d4"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    },
+    "40a6d47f-24f0-4516-abf7-306334e6f3d4": {
+      "data": "garbagecan",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "8ccc8ff2-d9d6-4c29-b18e-65c2dfa7127b"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    },
+    "a660c211-447e-4beb-adde-17cef113f4a5": {
+      "data": "closed fridge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "5ed997e5-4558-45be-bdce-e5436c41be35"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    },
+    "49f559a5-7af5-4c81-a3c5-1a68d17db90b": {
+      "data": "open fridge",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "028ec2b6-881d-4d3f-ab04-b7bc0e6e9b88",
+        "bbbb051f-1ee4-4996-86ac-e4441515371a"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    },
+    "b7202586-b0ca-42dc-a3ef-04affbf5872e": {
+      "data": "heated potato",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "6dfe17d8-a929-44dd-bbe2-87368dc8db56"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    },
+    "2de608c4-e7e0-4f01-a2cc-f0c20a040465": {
+      "data": "kitchen environment",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "0d9062ab-7d3b-403a-85e8-e1e20cfa17e3"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    },
+    "36e9e83c-7705-4d6f-adae-37780b821f7f": {
+      "data": "open drawer",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "8c1ce3da-98ff-4f8f-8c53-9236b907a90d"
+      ],
+      "user_id": "pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225046_020282"
+    }
+  },
+  "index_to_id": {
+    "0": "5389d614-82de-4386-99d5-649162f1bcc1",
+    "1": "40a6d47f-24f0-4516-abf7-306334e6f3d4",
+    "2": "a660c211-447e-4beb-adde-17cef113f4a5",
+    "3": "49f559a5-7af5-4c81-a3c5-1a68d17db90b",
+    "4": "b7202586-b0ca-42dc-a3ef-04affbf5872e",
+    "5": "2de608c4-e7e0-4f01-a2cc-f0c20a040465",
+    "6": "36e9e83c-7705-4d6f-adae-37780b821f7f"
+  }
+}

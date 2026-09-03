@@ -1,0 +1,184 @@
+{
+  "frozen_at": "Phase-1, before any ReCoverMem outcome was observed",
+  "benchmark": {
+    "repo": "https://github.com/amazon-science/PrefEval.git",
+    "commit": "50795054b5ff5f418d2b768a331d71e480f93331",
+    "source_tree_modified": false
+  },
+  "preference_form": {
+    "name": "implicit, choice-based",
+    "code": "implicit_choice",
+    "cli_equivalent": "--pref_form=implicit --pref_type=choice",
+    "source_file_pattern": "benchmark_dataset/implicit_preference/choice-based/<topic>.json",
+    "options_file_pattern": "benchmark_dataset/mcq_options/<topic>.json",
+    "selection_rule": "first canonical implicit form under every ordering the repository exposes: (1) sorted directory listing of benchmark_dataset/implicit_preference/ -> 'choice-based' < 'persona-driven'; (2) argparse default in classification_task/benchmark_classification.py -> --pref_type default='choice'; (3) execution order in example_scripts/run_mcq_task.sh -> --pref_type=choice runs before --pref_type=persona. All three agree. Chosen from metadata/configuration only; no model outcome was consulted.",
+    "explicit_form_excluded_because": "its history construction requires an LLM-generated pref_generation acknowledgement turn",
+    "persona_form": "reserved for an appendix robustness check only; never counted as independent examples"
+  },
+  "history": {
+    "inter_turns": 300,
+    "filler_source": "benchmark_dataset/filtered_inter_turns.json",
+    "filler_messages_used": 600,
+    "filler_messages_available": 632,
+    "construction": "H_i = implicit choice-based conversation (4 messages) ++ filler[:600]",
+    "history_messages_per_instance": 604,
+    "measured_history_tokens_llama_exact": 101588,
+    "answer_context_B_ctx": 32768,
+    "ratio_history_over_context": 3.1,
+    "why_not_100_turns": "100 inter-turns is only ~1.06x the context limit; 300 gives 3.10x so the raw history provably cannot be passed to the answerer"
+  },
+  "statistical_unit": {
+    "unit": "Phase-0 group-key component",
+    "n_independent": 985,
+    "group_key": "connected components over {shared normalized preference (mcq OR explicit wording)} U {shared normalized query}",
+    "distractor_pool": "fixed background shared by all instances; NOT an independently sampled history and never counted as a unit"
+  },
+  "correctness": {
+    "metric": "released programmatic MCQ comparison",
+    "formula": "R = 1[ extract_choice('<choice>' + completion) == gold_letter ]",
+    "parser": "utils/utils_mcq.extract_choice (BeautifulSoup <choice> tag + regex [ABCD])",
+    "parse_failure": "None -> incorrect, deterministically",
+    "llm_judge": false,
+    "gold_source": "classification_task_options[0] (positional convention), shuffled per instance before exposure",
+    "shuffle": "random.Random('prefeval-mcq-shuffle-v1::<pair_id>').shuffle -- id-derived because upstream's random.seed(41) is unreachable (NameError: random never imported)"
+  },
+  "baselines": {
+    "random_choice": 0.25,
+    "longest_option_heuristic": 0.446,
+    "note": "the 44.6% longest-option floor was established structurally in Phase 0, before any method outcome, and must accompany every reported accuracy"
+  },
+  "answerer": {
+    "model": "llama-3.1-8b-instruct-local",
+    "base_url": "http://127.0.0.1:8123/v1",
+    "temperature": 0.0,
+    "assistant_prefill": "<choice>",
+    "prefill_mechanism": "vLLM extra_body {continue_final_message:true, add_generation_prompt:false}",
+    "identical_for_both_routes": true
+  },
+  "routes": {
+    "memory": "x_i + bounded Mem0 evidence (<= B_mem)",
+    "recovery": "identical x_i + bounded evidence recovered from the ORIGINAL message-level history (<= B_rec)",
+    "constraint": "B_rec = B_mem; only the evidence source differs",
+    "private_never_exposed": [
+      "classification_task_options[0] order",
+      "gold_letter",
+      "preference field (implicit form states it nowhere)",
+      "explanation"
+    ]
+  },
+  "gamma": {
+    "value": 0.5,
+    "note": "correctness is binary {0,1}, so gamma=0.5 gives R = 1[correct]; retained for cross-setting consistency"
+  },
+  "frozen_partitions": {
+    "seed": 13,
+    "unit": "group",
+    "disjoint": true,
+    "sizes": {
+      "budget_audit": 3,
+      "smoke": 3,
+      "pilot": 8,
+      "reserved_predictor_train": 24,
+      "reserved_calibration": 24,
+      "reserved_final_test": 24
+    },
+    "budget_audit": [
+      "lifestyle_beauty#010",
+      "shop_technology#001",
+      "professional_work_location_style#011"
+    ],
+    "smoke": [
+      "travel_hotel#044",
+      "lifestyle_dietary#004",
+      "travel_activities#035"
+    ],
+    "pilot": [
+      "travel_hotel#002",
+      "travel_activities#007",
+      "pet_ownership#006",
+      "professional_work_location_style#008",
+      "shop_home#043",
+      "entertain_sports#007",
+      "lifestyle_dietary#012",
+      "shop_fashion#033"
+    ],
+    "reserved_predictor_train": [
+      "shop_home#002",
+      "entertain_games#027",
+      "shop_motors#022",
+      "lifestyle_beauty#022",
+      "travel_activities#055",
+      "travel_activities#002",
+      "travel_restaurant#028",
+      "travel_hotel#032",
+      "shop_motors#016",
+      "travel_activities#052",
+      "shop_home#037",
+      "lifestyle_dietary#053",
+      "shop_motors#019",
+      "lifestyle_dietary#056",
+      "travel_restaurant#051",
+      "shop_home#014",
+      "entertain_games#005",
+      "travel_restaurant#040",
+      "education_learning_styles#015",
+      "shop_fashion#038",
+      "professional_work_location_style#013",
+      "shop_motors#011",
+      "travel_transportation#027",
+      "travel_activities#039"
+    ],
+    "reserved_calibration": [
+      "travel_activities#009",
+      "travel_restaurant#032",
+      "lifestyle_beauty#043",
+      "shop_fashion#051",
+      "travel_activities#034",
+      "travel_hotel#048",
+      "entertain_shows#037",
+      "education_learning_styles#012",
+      "travel_transportation#036",
+      "shop_fashion#045",
+      "lifestyle_fit#040",
+      "education_learning_styles#024",
+      "travel_activities#047",
+      "entertain_music_book#048",
+      "lifestyle_beauty#002",
+      "shop_technology#005",
+      "travel_activities#014",
+      "entertain_sports#039",
+      "lifestyle_health#006",
+      "travel_activities#016",
+      "entertain_sports#042",
+      "travel_transportation#013",
+      "travel_hotel#022",
+      "travel_hotel#037"
+    ],
+    "reserved_final_test": [
+      "entertain_games#040",
+      "shop_motors#002",
+      "education_learning_styles#009",
+      "shop_home#053",
+      "travel_restaurant#023",
+      "lifestyle_dietary#028",
+      "lifestyle_beauty#021",
+      "education_learning_styles#006",
+      "entertain_sports#040",
+      "lifestyle_dietary#030",
+      "travel_transportation#011",
+      "shop_motors#027",
+      "entertain_sports#004",
+      "shop_home#047",
+      "entertain_shows#017",
+      "travel_activities#000",
+      "shop_motors#000",
+      "travel_activities#008",
+      "shop_motors#030",
+      "entertain_music_book#034",
+      "entertain_shows#010",
+      "entertain_games#025",
+      "entertain_sports#044",
+      "travel_activities#048"
+    ]
+  }
+}

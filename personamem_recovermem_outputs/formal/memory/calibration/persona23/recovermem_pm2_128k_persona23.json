@@ -1,0 +1,2068 @@
+{
+  "docstore": {
+    "85777af0-768b-451f-b702-41931816707d": {
+      "user_id": "persona23",
+      "data": "The problem is asking if it's possible to draw 1975 distinct points on a circle of radius 1, such that the distance between any two points is a rational number.",
+      "text_lemmatized": "The problem is asking if it's possible to draw 1975 distinct points on a circle of radius 1, such that the distance between any two points is a rational number.",
+      "hash": "7e93f6be522f86eaa7db635415312fbb",
+      "created_at": "2026-08-28T21:49:37.489631+00:00",
+      "updated_at": "2026-08-28T21:49:37.489631+00:00",
+      "attributed_to": "assistant"
+    },
+    "a56b2eec-05c7-44d9-8f9d-f3393ab03c3c": {
+      "user_id": "persona23",
+      "data": "The distance between two points on a circle can be measured on the chord, and it's a rational number if it can be expressed as a ratio of integers.",
+      "text_lemmatized": "The distance between two points on a circle can be measured on the chord, and it's a rational number if it can be expressed as a ratio of integers.",
+      "hash": "00bfe6e4593e80223d04c3e6ea2d8e4b",
+      "created_at": "2026-08-28T21:49:37.489652+00:00",
+      "updated_at": "2026-08-28T21:49:37.489652+00:00",
+      "attributed_to": "assistant"
+    },
+    "c1e60c2b-d258-4173-9b5b-7fb5570bf198": {
+      "user_id": "persona23",
+      "data": "To solve this problem, we need to consider the properties of rational numbers and the geometry of a circle.",
+      "text_lemmatized": "To solve this problem, we need to consider the properties of rational numbers and the geometry of a circle.",
+      "hash": "bf42d35641d8153eae2ce920c8d93582",
+      "created_at": "2026-08-28T21:49:37.489661+00:00",
+      "updated_at": "2026-08-28T21:49:37.489661+00:00",
+      "attributed_to": "assistant"
+    },
+    "7df5da77-975a-4450-bdac-1e5f908ef6a1": {
+      "user_id": "persona23",
+      "data": "A rational number is a number that can be expressed as a ratio of integers, i.e., a/b, where a and b are integers and b is non-zero.",
+      "text_lemmatized": "A rational number is a number that can be expressed as a ratio of integers, i.e., a/b, where a and b are integers and b is non-zero.",
+      "hash": "7f8df06fd0fd210a6f807a5b542f336d",
+      "created_at": "2026-08-28T21:49:37.489668+00:00",
+      "updated_at": "2026-08-28T21:49:37.489668+00:00",
+      "attributed_to": "assistant"
+    },
+    "58cafaef-c8f1-4e10-9e95-a6cd0c93a67c": {
+      "user_id": "persona23",
+      "data": "We can use the concept of rational points on a circle to solve this problem.",
+      "text_lemmatized": "We can use the concept of rational points on a circle to solve this problem.",
+      "hash": "7fbce85f33944299a013d2184d7d2a79",
+      "created_at": "2026-08-28T21:49:37.489683+00:00",
+      "updated_at": "2026-08-28T21:49:37.489683+00:00",
+      "attributed_to": "assistant"
+    },
+    "011e93ce-9f68-4ddd-a94f-d17fcaf5d163": {
+      "user_id": "persona23",
+      "data": "A rational point on a circle is a point whose coordinates are rational numbers.",
+      "text_lemmatized": "A rational point on a circle is a point whose coordinates are rational numbers.",
+      "hash": "a85fbf289642cd33f3f0d1337819eaef",
+      "created_at": "2026-08-28T21:49:37.489690+00:00",
+      "updated_at": "2026-08-28T21:49:37.489690+00:00",
+      "attributed_to": "assistant"
+    },
+    "72708c20-f404-4d18-98ca-069f1d5113b6": {
+      "user_id": "persona23",
+      "data": "We can use the fact that the distance between two rational points on a circle is a rational number to solve this problem.",
+      "text_lemmatized": "We can use the fact that the distance between two rational points on a circle is a rational number to solve this problem.",
+      "hash": "137d48490af7d90baf068debbdfc47c3",
+      "created_at": "2026-08-28T21:49:37.489695+00:00",
+      "updated_at": "2026-08-28T21:49:37.489695+00:00",
+      "attributed_to": "assistant"
+    },
+    "d47c5ded-8051-48ab-bdf5-d0ffd5026193": {
+      "user_id": "persona23",
+      "data": "However, the problem statement does not provide enough information to determine if it's possible to draw 1975 distinct points on a circle of radius 1, such that the distance between any two points is a rational number.",
+      "text_lemmatized": "However, the problem statement does not provide enough information to determine if it's possible to draw 1975 distinct points on a circle of radius 1, such that the distance between any two points is a rational number.",
+      "hash": "ef0dcf59826df283ad877a9ef5dc4c64",
+      "created_at": "2026-08-28T21:49:37.489702+00:00",
+      "updated_at": "2026-08-28T21:49:37.489702+00:00",
+      "attributed_to": "assistant"
+    },
+    "a55d3285-bda3-47b9-aa69-d9051dca3634": {
+      "user_id": "persona23",
+      "data": "User is an Olympic javelin thrower named Javier who threw the javelin three times in the last Olympics.",
+      "text_lemmatized": "User is an Olympic javelin thrower named Javier who threw the javelin three times in the last Olympics.",
+      "hash": "74f42d114a17a9141c968034e10eda47",
+      "created_at": "2026-08-28T21:49:48.813233+00:00",
+      "updated_at": "2026-08-28T21:49:48.813233+00:00",
+      "attributed_to": "assistant"
+    },
+    "6021d3c9-a41d-42c0-a4cd-608b7e48dc55": {
+      "user_id": "persona23",
+      "data": "Javier's first throw in the Olympics was 300 meters, which is twice the distance of his second throw and half the distance of his third throw.",
+      "text_lemmatized": "Javier's first throw in the Olympics was 300 meters, which is twice the distance of his second throw and half the distance of his third throw.",
+      "hash": "334ef65a5751f5a5ce41b1b5feec3da3",
+      "created_at": "2026-08-28T21:49:48.813252+00:00",
+      "updated_at": "2026-08-28T21:49:48.813252+00:00",
+      "attributed_to": "assistant"
+    },
+    "1476f481-aee0-4fdf-94e3-c71429deafd5": {
+      "user_id": "persona23",
+      "data": "Telegraph Road is 162 kilometers long, and Pardee Road is 12,000 meters long, which is equivalent to 12 kilometers.",
+      "text_lemmatized": "Telegraph Road is 162 kilometers long, and Pardee Road is 12,000 meters long, which is equivalent to 12 kilometers.",
+      "hash": "57bca4c70cd456f51af7708383384347",
+      "created_at": "2026-08-28T21:49:48.813261+00:00",
+      "updated_at": "2026-08-28T21:49:48.813261+00:00",
+      "attributed_to": "assistant"
+    },
+    "1a5b3707-9bb7-4689-a837-5b11ead001a9": {
+      "user_id": "persona23",
+      "data": "Telegraph Road is 150 kilometers longer than Pardee Road.",
+      "text_lemmatized": "Telegraph Road is 150 kilometers longer than Pardee Road.",
+      "hash": "d2bd76d38f11b80ee252460f40f9f6a5",
+      "created_at": "2026-08-28T21:49:48.813267+00:00",
+      "updated_at": "2026-08-28T21:49:48.813267+00:00",
+      "attributed_to": "assistant"
+    },
+    "d779c19a-5850-4759-86be-3d5b7dcccb82": {
+      "user_id": "persona23",
+      "data": "Mr. John jogs for 1 hour and 30 minutes every day, which is equivalent to 1.5 hours.",
+      "text_lemmatized": "Mr. John jogs for 1 hour and 30 minutes every day, which is equivalent to 1.5 hours.",
+      "hash": "f3c56b91daf0f897efd81fb155c6a59b",
+      "created_at": "2026-08-28T21:49:48.813274+00:00",
+      "updated_at": "2026-08-28T21:49:48.813274+00:00",
+      "attributed_to": "assistant"
+    },
+    "538ee0b5-ae80-41aa-b25c-2c1c09c22908": {
+      "user_id": "persona23",
+      "data": "After two weeks, Mr. John will have jogged for 21 hours.",
+      "text_lemmatized": "After two weeks, Mr. John will have jogged for 21 hours.",
+      "hash": "0dade7910324dcab02aa0fdf8da2eb19",
+      "created_at": "2026-08-28T21:49:48.813280+00:00",
+      "updated_at": "2026-08-28T21:49:48.813280+00:00",
+      "attributed_to": "assistant"
+    },
+    "e06fad75-395b-4d16-8bed-19b492b8f5ea": {
+      "user_id": "persona23",
+      "data": "Tina buys 3 packs of 12 sodas each, totaling 36 sodas, and 6 people are at the party, with 3 people having 3 sodas each, 2 people having 4 sodas each, and 1 person having 5 sodas.",
+      "text_lemmatized": "Tina buys 3 packs of 12 sodas each, totaling 36 sodas, and 6 people are at the party, with 3 people having 3 sodas each, 2 people having 4 sodas each, and 1 person having 5 sodas.",
+      "hash": "cef99f4c6d8c4b7f9c034593496cf594",
+      "created_at": "2026-08-28T21:49:48.813286+00:00",
+      "updated_at": "2026-08-28T21:49:48.813286+00:00",
+      "attributed_to": "assistant"
+    },
+    "11c55b88-8066-4454-a0eb-3fc12eb75861": {
+      "user_id": "persona23",
+      "data": "There are 14 sodas left over when the party is over.",
+      "text_lemmatized": "There are 14 sodas left over when the party is over.",
+      "hash": "d13a0054191136e288f09ab1a44ea41b",
+      "created_at": "2026-08-28T21:49:48.813292+00:00",
+      "updated_at": "2026-08-28T21:49:48.813292+00:00",
+      "attributed_to": "assistant"
+    },
+    "3bd40e3e-39f5-4d09-b8e7-cc05e2a9a816": {
+      "user_id": "persona23",
+      "data": "Mario's haircuts are 50% more expensive during weekends, and he paid $18 for his last haircut on Monday.",
+      "text_lemmatized": "Mario's haircuts are 50% more expensive during weekends, and he paid $18 for his last haircut on Monday.",
+      "hash": "0abae6c27bf46cfcb0b906bd1d3978c7",
+      "created_at": "2026-08-28T21:49:48.813298+00:00",
+      "updated_at": "2026-08-28T21:49:48.813298+00:00",
+      "attributed_to": "assistant"
+    },
+    "790c0cee-856a-47b9-acbb-c96fea5b383f": {
+      "user_id": "persona23",
+      "data": "If Mario had his haircut on the day before (Sunday), he would have paid $27.",
+      "text_lemmatized": "If Mario had his haircut on the day before (Sunday), he would have paid $27.",
+      "hash": "a294f43d2628de66c11c4cfa12ee1e73",
+      "created_at": "2026-08-28T21:49:48.813304+00:00",
+      "updated_at": "2026-08-28T21:49:48.813304+00:00",
+      "attributed_to": "assistant"
+    },
+    "77216820-8b68-4c69-bc63-4e6c27861c53": {
+      "user_id": "persona23",
+      "data": "The sand sometimes feels much hotter than the air temperature on certain summer afternoons due to its low thermal conductivity, specific heat capacity, and color.",
+      "text_lemmatized": "The sand sometimes feels much hotter than the air temperature on certain summer afternoons due to its low thermal conductivity, specific heat capacity, and color.",
+      "hash": "2532f0b7d216084ea791e36a15568521",
+      "created_at": "2026-08-28T21:49:48.813309+00:00",
+      "updated_at": "2026-08-28T21:49:48.813309+00:00",
+      "attributed_to": "assistant"
+    },
+    "f7fd8d33-0aef-4aff-9f74-3573c0de4179": {
+      "user_id": "persona23",
+      "data": "Janet's first semester average was 85%, and her second semester average was 82%, making her first semester average 3 percentage points higher.",
+      "text_lemmatized": "Janet's first semester average was 85%, and her second semester average was 82%, making her first semester average 3 percentage points higher.",
+      "hash": "70508a6bf803a71482602f42be1eac7e",
+      "created_at": "2026-08-28T21:49:48.813314+00:00",
+      "updated_at": "2026-08-28T21:49:48.813314+00:00",
+      "attributed_to": "assistant"
+    },
+    "510a9323-e1f8-4da7-baf2-6dc8e2649b83": {
+      "user_id": "persona23",
+      "data": "There are 40 students in a class, 1/10 are absent, 3/4 of the present students are in the classroom, and the rest are in the canteen.",
+      "text_lemmatized": "There are 40 students in a class, 1/10 are absent, 3/4 of the present students are in the classroom, and the rest are in the canteen.",
+      "hash": "1b3423e1743ad36a36ddfc4c3f9bb7b0",
+      "created_at": "2026-08-28T21:49:48.813320+00:00",
+      "updated_at": "2026-08-28T21:49:48.813320+00:00",
+      "attributed_to": "assistant"
+    },
+    "37e7291d-d9da-4e03-a983-3507249ee327": {
+      "user_id": "persona23",
+      "data": "9 students are in the canteen.",
+      "text_lemmatized": "9 students are in the canteen.",
+      "hash": "06b253f1f1b1165ae3012d9f25040884",
+      "created_at": "2026-08-28T21:49:48.813325+00:00",
+      "updated_at": "2026-08-28T21:49:48.813325+00:00",
+      "attributed_to": "assistant"
+    },
+    "8b98465c-852f-4f31-ada7-a40b618a6edb": {
+      "user_id": "persona23",
+      "data": "8 jumbo scallops weigh one pound and cost $24.00 a pound, and Nate is pairing 2 scallops with a corn bisque as a light summer dinner for 8 people.",
+      "text_lemmatized": "8 jumbo scallops weigh one pound and cost $24.00 a pound, and Nate is pairing 2 scallops with a corn bisque as a light summer dinner for 8 people.",
+      "hash": "bc65259d9b57db4089105cf17d20a714",
+      "created_at": "2026-08-28T21:49:48.813330+00:00",
+      "updated_at": "2026-08-28T21:49:48.813330+00:00",
+      "attributed_to": "assistant"
+    },
+    "37f701fb-840e-4d7d-a28b-a5712b790e35": {
+      "user_id": "persona23",
+      "data": "The scallops will cost $48.00.",
+      "text_lemmatized": "The scallops will cost $48.00.",
+      "hash": "9a0760d1fd36525c1274c6cfdeaf4e98",
+      "created_at": "2026-08-28T21:49:48.813336+00:00",
+      "updated_at": "2026-08-28T21:49:48.813336+00:00",
+      "attributed_to": "assistant"
+    },
+    "c73789fd-47d0-4173-8962-c79e8d5cd57d": {
+      "user_id": "persona23",
+      "data": "Kat decides she wants to start a boxing career, gets a gym membership, and spends 1 hour in the gym 3 times a week doing strength training and trains at the boxing gym 4 times a week for 1.5 hours.",
+      "text_lemmatized": "Kat decides she wants to start a boxing career, gets a gym membership, and spends 1 hour in the gym 3 times a week doing strength training and trains at the boxing gym 4 times a week for 1.5 hours.",
+      "hash": "666c3e208e459bb60cdd968d6a6c5265",
+      "created_at": "2026-08-28T21:49:48.813342+00:00",
+      "updated_at": "2026-08-28T21:49:48.813342+00:00",
+      "attributed_to": "assistant"
+    },
+    "cfd89f0e-9875-42fc-95d2-9097b784d6c5": {
+      "user_id": "persona23",
+      "data": "Kat trains for a total of 6 hours a week.",
+      "text_lemmatized": "Kat trains for a total of 6 hours a week.",
+      "hash": "39a2906b3bd70456f76047a1a0f4f171",
+      "created_at": "2026-08-28T21:49:48.813348+00:00",
+      "updated_at": "2026-08-28T21:49:48.813348+00:00",
+      "attributed_to": "assistant"
+    },
+    "0f1fbf92-9aff-4c0b-9b44-b5c4473d6d10": {
+      "user_id": "persona23",
+      "data": "User has 54000 strawberry seeds and will use 21861 seeds for 7 planting zones, leaving 32139 seeds remaining",
+      "text_lemmatized": "User has 54000 strawberry seeds and will use 21861 seeds for 7 planting zones, leaving 32139 seeds remaining",
+      "hash": "97979ee868fe01115d44f893e75ee3ce",
+      "created_at": "2026-08-28T21:50:02.349186+00:00",
+      "updated_at": "2026-08-28T21:50:02.349186+00:00",
+      "attributed_to": "user"
+    },
+    "1070e33c-f04a-4c0c-b934-6ff5d4896a00": {
+      "user_id": "persona23",
+      "data": "Felicia needs to fill her 1/4 cup measuring scoop 15 times to complete the cake ingredients",
+      "text_lemmatized": "Felicia needs to fill her 1/4 cup measuring scoop 15 times to complete the cake ingredients",
+      "hash": "82d9ea66de52a5416b5ef0bc2d01536c",
+      "created_at": "2026-08-28T21:50:02.349206+00:00",
+      "updated_at": "2026-08-28T21:50:02.349206+00:00",
+      "attributed_to": "user"
+    },
+    "132bef0e-3799-4921-a0b5-acd4099128be": {
+      "user_id": "persona23",
+      "data": "Elena has 8 lilies and 5 tulips in her garden, with 48 lily petals and 15 tulip petals, totaling 63 flower petals",
+      "text_lemmatized": "Elena has 8 lilies and 5 tulips in her garden, with 48 lily petals and 15 tulip petals, totaling 63 flower petals",
+      "hash": "126f2e78e0528e6d98ec42adfbfffd16",
+      "created_at": "2026-08-28T21:50:02.349213+00:00",
+      "updated_at": "2026-08-28T21:50:02.349213+00:00",
+      "attributed_to": "user"
+    },
+    "d35fd933-4266-4422-898c-3da38aa3c65b": {
+      "user_id": "persona23",
+      "data": "Andy is a lawyer with two lawsuits, the first having a 30% chance of paying $5,000,000 and the second a 50% chance of paying $2,000,000",
+      "text_lemmatized": "Andy is a lawyer with two lawsuits, the first having a 30% chance of paying $5,000,000 and the second a 50% chance of paying $2,000,000",
+      "hash": "2cef8df80628f2bd1a49b1cd58103974",
+      "created_at": "2026-08-28T21:50:02.349220+00:00",
+      "updated_at": "2026-08-28T21:50:02.349220+00:00",
+      "attributed_to": "assistant"
+    },
+    "2e49cc6f-39f3-4492-8c2e-1e75d612af4f": {
+      "user_id": "persona23",
+      "data": "The probability of losing both lawsuits is 35% and is 133.33% more likely than winning both",
+      "text_lemmatized": "The probability of losing both lawsuits is 35% and is 133.33% more likely than winning both",
+      "hash": "835d529db7431a041db7e473b04e5ae6",
+      "created_at": "2026-08-28T21:50:02.349226+00:00",
+      "updated_at": "2026-08-28T21:50:02.349226+00:00",
+      "attributed_to": "assistant"
+    },
+    "c48e1339-ea1c-41be-bfca-87efeb4a7354": {
+      "user_id": "persona23",
+      "data": "Lolita has 54000 strawberry seeds and will use 21861 seeds for 7 planting zones, leaving 32139 seeds remaining",
+      "text_lemmatized": "Lolita has 54000 strawberry seeds and will use 21861 seeds for 7 planting zones, leaving 32139 seeds remaining",
+      "hash": "1b08520f5dd378c40c8b76f2e228bfcc",
+      "created_at": "2026-08-28T21:50:02.349232+00:00",
+      "updated_at": "2026-08-28T21:50:02.349232+00:00",
+      "attributed_to": "user"
+    },
+    "965036c6-05d8-4231-8cc5-657422b5ac57": {
+      "user_id": "persona23",
+      "data": "Johann needs to deliver 98 pieces of mail after his friends deliver 82 pieces",
+      "text_lemmatized": "Johann needs to deliver 98 pieces of mail after his friends deliver 82 pieces",
+      "hash": "93f065b33b6db414b1c1ce036f781bcb",
+      "created_at": "2026-08-28T21:50:02.349238+00:00",
+      "updated_at": "2026-08-28T21:50:02.349238+00:00",
+      "attributed_to": "assistant"
+    },
+    "40c0b75a-de89-47d3-9c92-9013e2253e97": {
+      "user_id": "persona23",
+      "data": "Janet gets 10 stuffies from her sister Jean, who gave away 40 stuffies and kept 20",
+      "text_lemmatized": "Janet gets 10 stuffies from her sister Jean, who gave away 40 stuffies and kept 20",
+      "hash": "1a6136ec07252e48f2b74c7e0919bc38",
+      "created_at": "2026-08-28T21:50:02.349243+00:00",
+      "updated_at": "2026-08-28T21:50:02.349243+00:00",
+      "attributed_to": "assistant"
+    },
+    "fbf0390f-8b27-4452-88e9-8da235f8a69a": {
+      "user_id": "persona23",
+      "data": "There is 1 million moose in Canada, with 38 million humans and 19 humans per beaver, and 2 beavers per moose",
+      "text_lemmatized": "There is 1 million moose in Canada, with 38 million humans and 19 humans per beaver, and 2 beavers per moose",
+      "hash": "d9a2e77825a878f6b435919c421fe8cf",
+      "created_at": "2026-08-28T21:50:02.349249+00:00",
+      "updated_at": "2026-08-28T21:50:02.349249+00:00",
+      "attributed_to": "assistant"
+    },
+    "21aece0b-5266-4233-9640-044dd224c0dd": {
+      "user_id": "persona23",
+      "data": "Mel will be 21 years old when Katherine is 24 years old, as Mel is 3 years younger",
+      "text_lemmatized": "Mel will be 21 years old when Katherine is 24 years old, as Mel is 3 years younger",
+      "hash": "23114a1c3512e238d2fb560635bdbc4b",
+      "created_at": "2026-08-28T21:50:02.349255+00:00",
+      "updated_at": "2026-08-28T21:50:02.349255+00:00",
+      "attributed_to": "assistant"
+    },
+    "20f509e1-593b-4298-86bc-b0ad656bf820": {
+      "user_id": "persona23",
+      "data": "The average number of employees hired per week is 225, with 200 more employees hired in the first week than the second, and 150 fewer in the second week than the third",
+      "text_lemmatized": "The average number of employees hired per week is 225, with 200 more employees hired in the first week than the second, and 150 fewer in the second week than the third",
+      "hash": "6bc6fd40561e48f264eb0e35d128a5ed",
+      "created_at": "2026-08-28T21:50:02.349261+00:00",
+      "updated_at": "2026-08-28T21:50:02.349261+00:00",
+      "attributed_to": "assistant"
+    },
+    "3946da20-e3d9-4c3f-a302-c4a5edc152f8": {
+      "user_id": "persona23",
+      "data": "The moose population in Canada is 1 million, with 38 million humans and 19 humans per beaver, and 2 beavers per moose",
+      "text_lemmatized": "The moose population in Canada is 1 million, with 38 million humans and 19 humans per beaver, and 2 beavers per moose",
+      "hash": "2539acce7c18db52cef66639b645baa9",
+      "created_at": "2026-08-28T21:50:02.349267+00:00",
+      "updated_at": "2026-08-28T21:50:02.349267+00:00",
+      "attributed_to": "assistant"
+    },
+    "a4097ff8-3486-4232-a0e4-7561cb805091": {
+      "user_id": "persona23",
+      "data": "The discounted subscription costs $44, with a 45% discount on the original $80 price",
+      "text_lemmatized": "The discounted subscription costs $44, with a 45% discount on the original $80 price",
+      "hash": "a54eb39a5b70bb7f31a56d3b308e4320",
+      "created_at": "2026-08-28T21:50:02.349272+00:00",
+      "updated_at": "2026-08-28T21:50:02.349272+00:00",
+      "attributed_to": "assistant"
+    },
+    "4e496eee-4b7a-4d46-9fe8-a95b1a11bd68": {
+      "user_id": "persona23",
+      "data": "The total cost of the cake ingredients is 15 scoops, with 8 scoops of flour, 4 scoops of sugar, 1 scoop of brown sugar, and 2 scoops of oil",
+      "text_lemmatized": "The total cost of the cake ingredients is 15 scoops, with 8 scoops of flour, 4 scoops of sugar, 1 scoop of brown sugar, and 2 scoops of oil",
+      "hash": "987ee9185fc570f5d3abb60a4daca0b3",
+      "created_at": "2026-08-28T21:50:02.349278+00:00",
+      "updated_at": "2026-08-28T21:50:02.349278+00:00",
+      "attributed_to": "assistant"
+    },
+    "e3726f3b-e4c0-47dc-a72c-c95ff78f80ae": {
+      "user_id": "persona23",
+      "data": "User's fasting glucose result is within the normal range but on the higher side compared to past years",
+      "text_lemmatized": "User's fasting glucose result is within the normal range but on the higher side compared to past years",
+      "hash": "759ee121e7eb3f20871f5986de8f97a1",
+      "created_at": "2026-08-28T21:50:18.537284+00:00",
+      "updated_at": "2026-08-28T21:50:18.537284+00:00",
+      "attributed_to": "user"
+    },
+    "784874ff-195b-4ef0-9354-72d80f813cf6": {
+      "user_id": "persona23",
+      "data": "Factors that could cause a gradual upward trend in fasting glucose include cellular-level changes in insulin action, pre-existing or unmasked metabolic tendencies, fat distribution and visceral adiposity, chronic low-grade inflammation, lifestyle and time constraints, and cumulative risk over time",
+      "text_lemmatized": "Factors that could cause a gradual upward trend in fasting glucose include cellular-level changes in insulin action, pre-existing or unmasked metabolic tendencies, fat distribution and visceral adiposity, chronic low-grade inflammation, lifestyle and time constraints, and cumulative risk over time",
+      "hash": "5bce07318aef272354ac5c98f30b8373",
+      "created_at": "2026-08-28T21:50:18.537307+00:00",
+      "updated_at": "2026-08-28T21:50:18.537307+00:00",
+      "attributed_to": "assistant"
+    },
+    "52927dcf-b367-478f-ac11-eb1d5266741b": {
+      "user_id": "persona23",
+      "data": "User should be proactive about their fasting glucose result by aiming for structured activity, keeping an eye on waist circumference, scheduling regular fasting glucose or HbA1c checks, prioritizing dietary patterns with stable glycemic response, and focusing on high-quality sleep",
+      "text_lemmatized": "User should be proactive about their fasting glucose result by aiming for structured activity, keeping an eye on waist circumference, scheduling regular fasting glucose or HbA1c checks, prioritizing dietary patterns with stable glycemic response, and focusing on high-quality sleep",
+      "hash": "2e6daf40866ead9de9d03909c3adccd8",
+      "created_at": "2026-08-28T21:50:18.537319+00:00",
+      "updated_at": "2026-08-28T21:50:18.537319+00:00",
+      "attributed_to": "assistant"
+    },
+    "0795ffcb-e26b-4ad4-97dc-494f9a7fbedb": {
+      "user_id": "persona23",
+      "data": "The convenience store sold 100 bags of chips in a month, with 15 bags sold in the first week, 45 in the second, and an equal number in the third and fourth weeks.",
+      "text_lemmatized": "The convenience store sold 100 bags of chips in a month, with 15 bags sold in the first week, 45 in the second, and an equal number in the third and fourth weeks.",
+      "hash": "98c0f1156ebb324d1d0518a6af47677f",
+      "created_at": "2026-08-28T21:50:27.219690+00:00",
+      "updated_at": "2026-08-28T21:50:27.219690+00:00",
+      "attributed_to": "assistant"
+    },
+    "b874c25b-2f8f-4fa7-ab00-6cea162847b0": {
+      "user_id": "persona23",
+      "data": "In the third and fourth weeks, 20 bags of chips were sold each.",
+      "text_lemmatized": "In the third and fourth weeks, 20 bags of chips were sold each.",
+      "hash": "def7a4045760e3a010ebe47975f4d604",
+      "created_at": "2026-08-28T21:50:27.219709+00:00",
+      "updated_at": "2026-08-28T21:50:27.219709+00:00",
+      "attributed_to": "assistant"
+    },
+    "f36323dc-2f14-41aa-bc1d-ca6432556481": {
+      "user_id": "persona23",
+      "data": "Annie had $70 left after buying 8 hamburgers at $4 each and 6 milkshakes at $5 each.",
+      "text_lemmatized": "Annie had $70 left after buying 8 hamburgers at $4 each and 6 milkshakes at $5 each.",
+      "hash": "7765bfebdef91854554ef7228a9097dc",
+      "created_at": "2026-08-28T21:50:27.219718+00:00",
+      "updated_at": "2026-08-28T21:50:27.219718+00:00",
+      "attributed_to": "assistant"
+    },
+    "94d67951-5a67-4068-8382-bea45d6b3313": {
+      "user_id": "persona23",
+      "data": "Annie initially had $132.",
+      "text_lemmatized": "Annie initially had $132.",
+      "hash": "6be5127bfb37c17fc205270aadff06c7",
+      "created_at": "2026-08-28T21:50:27.219725+00:00",
+      "updated_at": "2026-08-28T21:50:27.219725+00:00",
+      "attributed_to": "assistant"
+    },
+    "01d9db68-ddfc-4734-9b63-4da3efee4d83": {
+      "user_id": "persona23",
+      "data": "Brady makes $1,950 in a year, $450 more than Dwayne.",
+      "text_lemmatized": "Brady makes $1,950 in a year, $450 more than Dwayne.",
+      "hash": "6abbc5063e7458a56d257582d2211790",
+      "created_at": "2026-08-28T21:50:27.219733+00:00",
+      "updated_at": "2026-08-28T21:50:27.219733+00:00",
+      "attributed_to": "assistant"
+    },
+    "fc9f765d-cf62-40b5-a6a8-6234c67de7f2": {
+      "user_id": "persona23",
+      "data": "Brady and Dwayne combined make $3,450 in a year.",
+      "text_lemmatized": "Brady and Dwayne combined make $3,450 in a year.",
+      "hash": "fcda7aa4f961260c6f7e0538979e2963",
+      "created_at": "2026-08-28T21:50:27.219739+00:00",
+      "updated_at": "2026-08-28T21:50:27.219739+00:00",
+      "attributed_to": "assistant"
+    },
+    "f66e38ce-46ac-4d11-a3fa-80409ac3b315": {
+      "user_id": "persona23",
+      "data": "There were 50 buyers on the first day, 25 on the second, and 65 on the third.",
+      "text_lemmatized": "There were 50 buyers on the first day, 25 on the second, and 65 on the third.",
+      "hash": "b36a8b631d401be1f2e1bfed8d3e6301",
+      "created_at": "2026-08-28T21:50:27.219744+00:00",
+      "updated_at": "2026-08-28T21:50:27.219744+00:00",
+      "attributed_to": "assistant"
+    },
+    "b8a18643-3906-436e-92e8-9a3ff7e61372": {
+      "user_id": "persona23",
+      "data": "A total of 140 buyers visited the store over the three days.",
+      "text_lemmatized": "A total of 140 buyers visited the store over the three days.",
+      "hash": "91e2a934017e10c51f9f714cda25872e",
+      "created_at": "2026-08-28T21:50:27.219750+00:00",
+      "updated_at": "2026-08-28T21:50:27.219750+00:00",
+      "attributed_to": "assistant"
+    },
+    "70209829-513b-48ce-9d85-d0d886bb7ce4": {
+      "user_id": "persona23",
+      "data": "110% of 500 is 550.",
+      "text_lemmatized": "110% of 500 is 550.",
+      "hash": "fea10c06d1925caba24a8a51e126bc6b",
+      "created_at": "2026-08-28T21:50:27.219756+00:00",
+      "updated_at": "2026-08-28T21:50:27.219756+00:00",
+      "attributed_to": "assistant"
+    },
+    "4445b84f-850f-43ed-b4bc-3c0b99b55910": {
+      "user_id": "persona23",
+      "data": "20 kids in preschool fell asleep, with 10 falling asleep in the first 5 minutes and 5 more in the next 5 minutes.",
+      "text_lemmatized": "20 kids in preschool fell asleep, with 10 falling asleep in the first 5 minutes and 5 more in the next 5 minutes.",
+      "hash": "a08b4a8f58e1e75eaeeb4614b7706165",
+      "created_at": "2026-08-28T21:50:27.219761+00:00",
+      "updated_at": "2026-08-28T21:50:27.219761+00:00",
+      "attributed_to": "assistant"
+    },
+    "e5ef69d4-4d1b-4dcf-9f28-039f7ddf492d": {
+      "user_id": "persona23",
+      "data": "5 kids remained awake after the second 5 minutes.",
+      "text_lemmatized": "5 kids remained awake after the second 5 minutes.",
+      "hash": "757fd72f71c88ff88c4694b09e340c51",
+      "created_at": "2026-08-28T21:50:27.219766+00:00",
+      "updated_at": "2026-08-28T21:50:27.219766+00:00",
+      "attributed_to": "assistant"
+    },
+    "5569d45e-0816-41aa-a3d2-0ddf956d73e1": {
+      "user_id": "persona23",
+      "data": "Harry's book has 180 pages, 20 fewer than half the number of pages in Selena's 400-page book.",
+      "text_lemmatized": "Harry's book has 180 pages, 20 fewer than half the number of pages in Selena's 400-page book.",
+      "hash": "7cf58f3bccbd9360793b024cbc7b4605",
+      "created_at": "2026-08-28T21:50:27.219772+00:00",
+      "updated_at": "2026-08-28T21:50:27.219772+00:00",
+      "attributed_to": "assistant"
+    },
+    "e4c3ae21-6953-453c-936a-4d1b05ba5a15": {
+      "user_id": "persona23",
+      "data": "There were 4 pizzas cut into 12 slices each, with 39 slices eaten, leaving 9 slices.",
+      "text_lemmatized": "There were 4 pizzas cut into 12 slices each, with 39 slices eaten, leaving 9 slices.",
+      "hash": "bb9e70da9a8d69743890d042190b5d90",
+      "created_at": "2026-08-28T21:50:27.219778+00:00",
+      "updated_at": "2026-08-28T21:50:27.219778+00:00",
+      "attributed_to": "assistant"
+    },
+    "2e6e4aaa-eaaa-4c84-94b8-eaa675821e62": {
+      "user_id": "persona23",
+      "data": "John pays $250 per year for EpiPens, with insurance covering 75% of the $500 cost.",
+      "text_lemmatized": "John pays $250 per year for EpiPens, with insurance covering 75% of the $500 cost.",
+      "hash": "f192fb3744d88a7164cbf50abac0c286",
+      "created_at": "2026-08-28T21:50:27.219784+00:00",
+      "updated_at": "2026-08-28T21:50:27.219784+00:00",
+      "attributed_to": "assistant"
+    },
+    "a7c44469-a6d9-4993-92b7-473d4d6f8d14": {
+      "user_id": "persona23",
+      "data": "Changing the aperture affects both image brightness and depth of field due to its dual role in controlling light and influencing optical geometry.",
+      "text_lemmatized": "Changing the aperture affects both image brightness and depth of field due to its dual role in controlling light and influencing optical geometry.",
+      "hash": "befa294c86395dfdb5a356e23c05fd4b",
+      "created_at": "2026-08-28T21:50:27.219790+00:00",
+      "updated_at": "2026-08-28T21:50:27.219790+00:00",
+      "attributed_to": "assistant"
+    },
+    "f4ff2e12-19d4-4100-8b70-dc7f704a7388": {
+      "user_id": "persona23",
+      "data": "Ms. Perez's class collected a total of 232 cans, with 15 students collecting 12 cans each, 2 students collecting none, and 13 students collecting 4 cans each.",
+      "text_lemmatized": "Ms. Perez's class collected a total of 232 cans, with 15 students collecting 12 cans each, 2 students collecting none, and 13 students collecting 4 cans each.",
+      "hash": "c20abc3472358ee5e81f3826980f4f78",
+      "created_at": "2026-08-28T21:50:27.219795+00:00",
+      "updated_at": "2026-08-28T21:50:27.219795+00:00",
+      "attributed_to": "assistant"
+    },
+    "51bbfc2a-1309-433a-b189-3cbbce035063": {
+      "user_id": "persona23",
+      "data": "User has 56 bananas",
+      "text_lemmatized": "User has 56 bananas",
+      "hash": "94dbea8fdd9fe4ae3e21c11b77656879",
+      "created_at": "2026-08-28T21:50:58.298972+00:00",
+      "updated_at": "2026-08-28T21:50:58.298972+00:00",
+      "attributed_to": "user"
+    },
+    "c30734be-5442-41b3-ac93-a4841c14095f": {
+      "user_id": "persona23",
+      "data": "Walter has 1/4 times fewer bananas than Jefferson, who has 56 bananas",
+      "text_lemmatized": "Walter has 1/4 times fewer bananas than Jefferson, who has 56 bananas",
+      "hash": "256deb73efc8537f326186631f49cdef",
+      "created_at": "2026-08-28T21:50:58.298995+00:00",
+      "updated_at": "2026-08-28T21:50:58.298995+00:00",
+      "attributed_to": "assistant"
+    },
+    "2d606165-64ad-44b6-a8a9-748683fdf67f": {
+      "user_id": "persona23",
+      "data": "Walter has 1/4 * 56 = 14 fewer bananas than Jefferson",
+      "text_lemmatized": "Walter has 1/4 * 56 = 14 fewer bananas than Jefferson",
+      "hash": "d7dd418f5f2f93177f150041a4d28301",
+      "created_at": "2026-08-28T21:50:58.299005+00:00",
+      "updated_at": "2026-08-28T21:50:58.299005+00:00",
+      "attributed_to": "assistant"
+    },
+    "7a4d0d10-c427-4f9f-a8bc-e97b148ab2d5": {
+      "user_id": "persona23",
+      "data": "Walter has 56 - 14 = 42 bananas",
+      "text_lemmatized": "Walter has 56 - 14 = 42 bananas",
+      "hash": "7a2c4a9d902fb0674fd2ccfc6a17dc20",
+      "created_at": "2026-08-28T21:50:58.299015+00:00",
+      "updated_at": "2026-08-28T21:50:58.299015+00:00",
+      "attributed_to": "assistant"
+    },
+    "5b0ceb9b-8ff6-481d-94ea-3d62d7dbc4a8": {
+      "user_id": "persona23",
+      "data": "Jefferson and Walter combine their bananas and share them equally",
+      "text_lemmatized": "Jefferson and Walter combine their bananas and share them equally",
+      "hash": "fd6cd345b0a441fa18ca33ea3d84f14e",
+      "created_at": "2026-08-28T21:50:58.299025+00:00",
+      "updated_at": "2026-08-28T21:50:58.299025+00:00",
+      "attributed_to": "assistant"
+    },
+    "8ae0bd83-5fb6-44a7-abd3-005a397706ab": {
+      "user_id": "persona23",
+      "data": "Jefferson and Walter have a total of 56 + 42 = 98 bananas",
+      "text_lemmatized": "Jefferson and Walter have a total of 56 + 42 = 98 bananas",
+      "hash": "ebdf071314158cba3d8ad813d6cb72c5",
+      "created_at": "2026-08-28T21:50:58.299033+00:00",
+      "updated_at": "2026-08-28T21:50:58.299033+00:00",
+      "attributed_to": "assistant"
+    },
+    "0b5163e0-4b25-4ddd-b500-9b080abdfb5d": {
+      "user_id": "persona23",
+      "data": "Jefferson and Walter share 98 bananas equally between themselves",
+      "text_lemmatized": "Jefferson and Walter share 98 bananas equally between themselves",
+      "hash": "a3b0909628e27dc3aa4abe7b84a75ab0",
+      "created_at": "2026-08-28T21:50:58.299043+00:00",
+      "updated_at": "2026-08-28T21:50:58.299043+00:00",
+      "attributed_to": "assistant"
+    },
+    "7e86bb77-80a7-43d1-9d62-746cb5122353": {
+      "user_id": "persona23",
+      "data": "Each of them gets 98 / 2 = 49 bananas",
+      "text_lemmatized": "Each of them gets 98 / 2 = 49 bananas",
+      "hash": "5f1a503819868b43acd8e59d08dd9b4b",
+      "created_at": "2026-08-28T21:50:58.299052+00:00",
+      "updated_at": "2026-08-28T21:50:58.299052+00:00",
+      "attributed_to": "assistant"
+    },
+    "f0853f8f-9c39-4987-a546-8afb0f59d982": {
+      "user_id": "persona23",
+      "data": "Walter gets 49 bananas",
+      "text_lemmatized": "Walter gets 49 bananas",
+      "hash": "b090c9d8d91a2666165307c8d1e8ddc3",
+      "created_at": "2026-08-28T21:50:58.299060+00:00",
+      "updated_at": "2026-08-28T21:50:58.299060+00:00",
+      "attributed_to": "assistant"
+    },
+    "691e30d0-1455-4899-ae7b-d72bf404c6d7": {
+      "user_id": "persona23",
+      "data": "Celia runs twice as fast as Lexie, who takes 20 minutes to run a mile, so Celia will take 30 minutes to run 30 miles",
+      "text_lemmatized": "Celia runs twice as fast as Lexie, who takes 20 minutes to run a mile, so Celia will take 30 minutes to run 30 miles",
+      "hash": "ee568547e58821e12ec59b5a4d44f267",
+      "created_at": "2026-08-28T21:51:11.788527+00:00",
+      "updated_at": "2026-08-28T21:51:11.788527+00:00",
+      "attributed_to": "assistant"
+    },
+    "ce26b03b-a3bc-44c7-b320-f6faced5ae26": {
+      "user_id": "persona23",
+      "data": "Wayne was 37 years old in 2021, so his birth year is 1984, Peter was born in 1981, and Julia was born in 1979",
+      "text_lemmatized": "Wayne was 37 years old in 2021, so his birth year is 1984, Peter was born in 1981, and Julia was born in 1979",
+      "hash": "dacd7fb1c1e76429ca1ecf5862861e89",
+      "created_at": "2026-08-28T21:51:11.788547+00:00",
+      "updated_at": "2026-08-28T21:51:11.788547+00:00",
+      "attributed_to": "assistant"
+    },
+    "f9bb673f-62b4-456c-bd49-b1b8d3deb8d2": {
+      "user_id": "persona23",
+      "data": "Beatrice bought 20 books, the first 5 cost $20 each, and the remaining 15 cost $18 each, so she paid a total of $20 \u00d7 5 + $18 \u00d7 15 = $100 + $270 = $370",
+      "text_lemmatized": "Beatrice bought 20 books, the first 5 cost $20 each, and the remaining 15 cost $18 each, so she paid a total of $20 \u00d7 5 + $18 \u00d7 15 = $100 + $270 = $370",
+      "hash": "40ffd4ca45202b75f4b08ae3721d42b7",
+      "created_at": "2026-08-28T21:51:11.788556+00:00",
+      "updated_at": "2026-08-28T21:51:11.788556+00:00",
+      "attributed_to": "assistant"
+    },
+    "9ef7de27-b5d0-438f-9ac6-b483e9c0ee5f": {
+      "user_id": "persona23",
+      "data": "Kate visited the museum 12 times in the first year at $5 per visit, then 4 times in the following years at $7 per visit, so she spent $60 + $28 = $88",
+      "text_lemmatized": "Kate visited the museum 12 times in the first year at $5 per visit, then 4 times in the following years at $7 per visit, so she spent $60 + $28 = $88",
+      "hash": "04d3e2c00d64372f2a1d645d1269411e",
+      "created_at": "2026-08-28T21:51:11.788563+00:00",
+      "updated_at": "2026-08-28T21:51:11.788563+00:00",
+      "attributed_to": "assistant"
+    },
+    "dd21f07e-acf1-48e2-a699-50d40097bfa8": {
+      "user_id": "persona23",
+      "data": "Lizzy has to ship 540 pounds of fish in 30-pound crates, so she needs 540 \u00f7 30 = 18 crates, and the total cost will be 18 \u00d7 $1.5 = $27",
+      "text_lemmatized": "Lizzy has to ship 540 pounds of fish in 30-pound crates, so she needs 540 \u00f7 30 = 18 crates, and the total cost will be 18 \u00d7 $1.5 = $27",
+      "hash": "f3c489c90cab955b6cc8e1e92b80d815",
+      "created_at": "2026-08-28T21:51:11.788570+00:00",
+      "updated_at": "2026-08-28T21:51:11.788570+00:00",
+      "attributed_to": "assistant"
+    },
+    "2ba9190e-8859-429e-9140-8cde3bd2d18e": {
+      "user_id": "persona23",
+      "data": "Marcos needs to go 30 miles per hour to cross the 5-mile lake in 10 minutes",
+      "text_lemmatized": "Marcos needs to go 30 miles per hour to cross the 5-mile lake in 10 minutes",
+      "hash": "acebd413c5c70c2fa27a7e8ceb171417",
+      "created_at": "2026-08-28T21:51:11.788577+00:00",
+      "updated_at": "2026-08-28T21:51:11.788577+00:00",
+      "attributed_to": "assistant"
+    },
+    "b1a2c8f0-3df2-424c-9916-bbe2d080e9be": {
+      "user_id": "persona23",
+      "data": "Todd borrowed $100 from his brother, spent $75 on ingredients, and sold 200 snow cones for $0.75 each, earning $150, then repaid his brother $110, leaving him with $40",
+      "text_lemmatized": "Todd borrowed $100 from his brother, spent $75 on ingredients, and sold 200 snow cones for $0.75 each, earning $150, then repaid his brother $110, leaving him with $40",
+      "hash": "c938deb79890901b9db7f8768079b281",
+      "created_at": "2026-08-28T21:51:11.788584+00:00",
+      "updated_at": "2026-08-28T21:51:11.788584+00:00",
+      "attributed_to": "assistant"
+    },
+    "d42e7d22-e315-4957-b2f3-d446ba95ea81": {
+      "user_id": "persona23",
+      "data": "Rhea buys 2 trays of eggs every week, each tray has 24 eggs, and her family eats 6 eggs per day, so she has 48 - 42 = 6 eggs left over each week",
+      "text_lemmatized": "Rhea buys 2 trays of eggs every week, each tray has 24 eggs, and her family eats 6 eggs per day, so she has 48 - 42 = 6 eggs left over each week",
+      "hash": "047f743b4e5cec58041d18266b19d231",
+      "created_at": "2026-08-28T21:51:11.788591+00:00",
+      "updated_at": "2026-08-28T21:51:11.788591+00:00",
+      "attributed_to": "assistant"
+    },
+    "d35663f1-6ca7-48cc-b69c-563b70b7e35a": {
+      "user_id": "persona23",
+      "data": "Vaishali's Saree has 60 blue stripes, 12 gold stripes, and 4 brown stripes",
+      "text_lemmatized": "Vaishali's Saree has 60 blue stripes, 12 gold stripes, and 4 brown stripes",
+      "hash": "8105544fef88e00514b7208ba71a7b85",
+      "created_at": "2026-08-28T21:51:11.788597+00:00",
+      "updated_at": "2026-08-28T21:51:11.788597+00:00",
+      "attributed_to": "assistant"
+    },
+    "166160c8-d1fc-4534-ab54-e03098646cc2": {
+      "user_id": "persona23",
+      "data": "Simon has 300 blueberries, and each pie requires 100 blueberries, so he can make 300 \u00f7 100 = 3 blueberry pies",
+      "text_lemmatized": "Simon has 300 blueberries, and each pie requires 100 blueberries, so he can make 300 \u00f7 100 = 3 blueberry pies",
+      "hash": "1484327f701d119d64380db280c75041",
+      "created_at": "2026-08-28T21:51:11.788607+00:00",
+      "updated_at": "2026-08-28T21:51:11.788607+00:00",
+      "attributed_to": "assistant"
+    },
+    "09fac69c-4e19-40ed-b6ac-acfcebc4ecd3": {
+      "user_id": "persona23",
+      "data": "Willy starts with 10 stuffed animals, gets 2 more for his birthday, and then his dad gives him 3 times more stuffed animals, so he has 10 + 2 + 36 = 48 stuffed animals",
+      "text_lemmatized": "Willy starts with 10 stuffed animals, gets 2 more for his birthday, and then his dad gives him 3 times more stuffed animals, so he has 10 + 2 + 36 = 48 stuffed animals",
+      "hash": "10201dc2f284f375813fa87f00ed0925",
+      "created_at": "2026-08-28T21:51:11.788614+00:00",
+      "updated_at": "2026-08-28T21:51:11.788614+00:00",
+      "attributed_to": "assistant"
+    },
+    "b53b66bc-c590-4473-874b-a0a9c8e870ed": {
+      "user_id": "persona23",
+      "data": "The gym charges its members $18 twice a month, so each member pays $36 per month, and with 300 members, the total amount the gym makes is 300 \u00d7 $36 = $10,800",
+      "text_lemmatized": "The gym charges its members $18 twice a month, so each member pays $36 per month, and with 300 members, the total amount the gym makes is 300 \u00d7 $36 = $10,800",
+      "hash": "47e333e984eabe198fdacf6c1a523655",
+      "created_at": "2026-08-28T21:51:11.788620+00:00",
+      "updated_at": "2026-08-28T21:51:11.788620+00:00",
+      "attributed_to": "assistant"
+    },
+    "aea72875-258a-4804-8932-21570a92ebbf": {
+      "user_id": "persona23",
+      "data": "John's total expenses for the computer and accessories are $900, and he sold his PlayStation for $320, so he paid $900 - $320 = $580 from his own pocket",
+      "text_lemmatized": "John's total expenses for the computer and accessories are $900, and he sold his PlayStation for $320, so he paid $900 - $320 = $580 from his own pocket",
+      "hash": "00e217c37f154236202f7e9443d1c1c4",
+      "created_at": "2026-08-28T21:51:11.788626+00:00",
+      "updated_at": "2026-08-28T21:51:11.788626+00:00",
+      "attributed_to": "assistant"
+    },
+    "998ef6c0-a221-4623-8bbe-59b423088a13": {
+      "user_id": "persona23",
+      "data": "Stu has 9 books, and Albert has 4 times as many books as Stu, so Albert has 36 books, and together they have 9 + 36 = 45 books",
+      "text_lemmatized": "Stu has 9 books, and Albert has 4 times as many books as Stu, so Albert has 36 books, and together they have 9 + 36 = 45 books",
+      "hash": "ccd8dec0c037d97946a69b8b84ddeeb0",
+      "created_at": "2026-08-28T21:51:11.788633+00:00",
+      "updated_at": "2026-08-28T21:51:11.788633+00:00",
+      "attributed_to": "assistant"
+    },
+    "65e7d750-d499-479f-b604-8065dc09d28e": {
+      "user_id": "persona23",
+      "data": "James writes a comic every other day for 4 years, and there are 365 days in a year, so he writes 1,460 \u00f7 2 = 730 comics",
+      "text_lemmatized": "James writes a comic every other day for 4 years, and there are 365 days in a year, so he writes 1,460 \u00f7 2 = 730 comics",
+      "hash": "b288626f5cfc01e8e961c83cbd630cdb",
+      "created_at": "2026-08-28T21:51:11.788639+00:00",
+      "updated_at": "2026-08-28T21:51:11.788639+00:00",
+      "attributed_to": "assistant"
+    },
+    "c3199f6a-7a37-4d49-91fd-ef72443723ae": {
+      "user_id": "persona23",
+      "data": "James correctly answers 24 questions, earning 24 \u00d7 2 = 48 points, and he also gets a 4-point bonus for each of the 4 rounds he completes, so he gets 16 bonus points, for a total of 48 + 16 = 64 points",
+      "text_lemmatized": "James correctly answers 24 questions, earning 24 \u00d7 2 = 48 points, and he also gets a 4-point bonus for each of the 4 rounds he completes, so he gets 16 bonus points, for a total of 48 + 16 = 64 points",
+      "hash": "cd13a6a544be5c37d78e0c6d4f563c92",
+      "created_at": "2026-08-28T21:51:11.788646+00:00",
+      "updated_at": "2026-08-28T21:51:11.788646+00:00",
+      "attributed_to": "assistant"
+    },
+    "42f86087-4781-40f5-a98d-1242ab2f78fd": {
+      "user_id": "persona23",
+      "data": "The Greene Nursery has 1491 red roses, 3025 yellow carnations, and 1768 white roses, for a total of 6284 flowers",
+      "text_lemmatized": "The Greene Nursery has 1491 red roses, 3025 yellow carnations, and 1768 white roses, for a total of 6284 flowers",
+      "hash": "375b497d42b395faf78e82a4646ce467",
+      "created_at": "2026-08-28T21:51:11.788652+00:00",
+      "updated_at": "2026-08-28T21:51:11.788652+00:00",
+      "attributed_to": "assistant"
+    },
+    "47a757a2-45f7-4002-ab2d-7a4823c23a8f": {
+      "user_id": "persona23",
+      "data": "User is a manager at an automotive manufacturing site, responsible for efficiency and safety.",
+      "text_lemmatized": "User is a manager at an automotive manufacturing site, responsible for efficiency and safety.",
+      "hash": "1f7c8998f646a0f41cb4f744c9b6867a",
+      "created_at": "2026-08-28T21:51:14.751150+00:00",
+      "updated_at": "2026-08-28T21:51:14.751150+00:00",
+      "attributed_to": "user"
+    },
+    "319a8f26-b8c4-4044-83db-d2a718f5ffc0": {
+      "user_id": "persona23",
+      "data": "User participates in a challenging obstacle course race on weekends, getting dirty and testing physical and mental endurance.",
+      "text_lemmatized": "User participates in a challenging obstacle course race on weekends, getting dirty and testing physical and mental endurance.",
+      "hash": "b55b2eb46e102fb29e89c21ca1319e48",
+      "created_at": "2026-08-28T21:51:14.751170+00:00",
+      "updated_at": "2026-08-28T21:51:14.751170+00:00",
+      "attributed_to": "user"
+    },
+    "b13785a8-04d6-4f06-9799-96a8338cc7d4": {
+      "user_id": "persona23",
+      "data": "User values personal growth through challenges in both work and leisure activities.",
+      "text_lemmatized": "User values personal growth through challenges in both work and leisure activities.",
+      "hash": "d4da8ead39e9df041b358ac56d7cfa35",
+      "created_at": "2026-08-28T21:51:14.751180+00:00",
+      "updated_at": "2026-08-28T21:51:14.751180+00:00",
+      "attributed_to": "user"
+    },
+    "2a85a606-1711-40ef-813c-faafcfd8ac15": {
+      "user_id": "persona23",
+      "data": "Joanna has $8, her brother has thrice as much, and her sister has half as much, so they have $8 + $24 + $4 = $36 altogether",
+      "text_lemmatized": "Joanna has $8, her brother has thrice as much, and her sister has half as much, so they have $8 + $24 + $4 = $36 altogether",
+      "hash": "c081552260ee86d3b2d5b66e9490f7fa",
+      "created_at": "2026-08-28T21:51:21.249388+00:00",
+      "updated_at": "2026-08-28T21:51:21.249388+00:00"
+    },
+    "ec39432c-0d86-45a6-a823-20e5cfcc08cf": {
+      "user_id": "persona23",
+      "data": "Barbeck has 2 times as many guitars as Steve, and Davey has 3 times as many as Barbeck, so Davey has 3 * 2 * S = 6S guitars, and 9S = 27, so S = 3, and Davey has 6 * 3 = 18 guitars",
+      "text_lemmatized": "Barbeck has 2 times as many guitars as Steve, and Davey has 3 times as many as Barbeck, so Davey has 3 * 2 * S = 6S guitars, and 9S = 27, so S = 3, and Davey has 6 * 3 = 18 guitars",
+      "hash": "d513c124d1827029339ae17a14eadf47",
+      "created_at": "2026-08-28T21:51:21.249407+00:00",
+      "updated_at": "2026-08-28T21:51:21.249407+00:00"
+    },
+    "6066ae5d-7a2c-4c77-b6a5-6c97f1109417": {
+      "user_id": "persona23",
+      "data": "Leila spent $100 at the supermarket and $350 fixing her automobile, so she spent $100 + $350 = $450 altogether",
+      "text_lemmatized": "Leila spent $100 at the supermarket and $350 fixing her automobile, so she spent $100 + $350 = $450 altogether",
+      "hash": "927ee21671059dedc001d4e3637a8d7c",
+      "created_at": "2026-08-28T21:51:21.249415+00:00",
+      "updated_at": "2026-08-28T21:51:21.249415+00:00"
+    },
+    "ce6ee6d8-f9d0-4ac0-81f8-a44aaa9cf031": {
+      "user_id": "persona23",
+      "data": "A cat catches 8 birds during the day and twice this many at night, so it catches 8 + 2 * 8 = 8 + 16 = 24 birds in total",
+      "text_lemmatized": "A cat catches 8 birds during the day and twice this many at night, so it catches 8 + 2 * 8 = 8 + 16 = 24 birds in total",
+      "hash": "8e6557b80f1dd479e60e20fccf918d4b",
+      "created_at": "2026-08-28T21:51:21.249422+00:00",
+      "updated_at": "2026-08-28T21:51:21.249422+00:00"
+    },
+    "2b9b6211-c668-44af-871d-acd6659a890d": {
+      "user_id": "persona23",
+      "data": "A rectangle with a width of 42 inches and an area of 1638 square inches has a length of 1638 \u00f7 42 = 39 inches, and to reach a length of 390 inches, you would need 390 \u00f7 39 = 10 rectangles of the same size",
+      "text_lemmatized": "A rectangle with a width of 42 inches and an area of 1638 square inches has a length of 1638 \u00f7 42 = 39 inches, and to reach a length of 390 inches, you would need 390 \u00f7 39 = 10 rectangles of the same size",
+      "hash": "9f5a55028cb37f1963aa254564dd0a46",
+      "created_at": "2026-08-28T21:51:21.249429+00:00",
+      "updated_at": "2026-08-28T21:51:21.249429+00:00"
+    },
+    "769aee16-a23f-4d88-98a3-d7b0e37e1de6": {
+      "user_id": "persona23",
+      "data": "Tyler weighs 25 pounds more than Sam, and Peter weighs half as much as Tyler, so Peter weighs (1/2)(S + 25) = 65, and S + 25 = 130, and S = 105, so Sam weighs 105 pounds",
+      "text_lemmatized": "Tyler weighs 25 pounds more than Sam, and Peter weighs half as much as Tyler, so Peter weighs (1/2)(S + 25) = 65, and S + 25 = 130, and S = 105, so Sam weighs 105 pounds",
+      "hash": "4fe4555b1a43732bfb975ce5c2225b1c",
+      "created_at": "2026-08-28T21:51:21.249435+00:00",
+      "updated_at": "2026-08-28T21:51:21.249435+00:00"
+    },
+    "9d342fc0-af9c-4509-93c6-7743403cd5b9": {
+      "user_id": "persona23",
+      "data": "Terez has 44 cows, 50% of which are female, and 50% of the females are pregnant, so he has 44 * 50% = 22 female cows, and 22 * 50% = 11 pregnant cows",
+      "text_lemmatized": "Terez has 44 cows, 50% of which are female, and 50% of the females are pregnant, so he has 44 * 50% = 22 female cows, and 22 * 50% = 11 pregnant cows",
+      "hash": "4bc06cc514ab808d7733e3f9dfc28cd5",
+      "created_at": "2026-08-28T21:51:21.249441+00:00",
+      "updated_at": "2026-08-28T21:51:21.249441+00:00"
+    },
+    "71ee72f1-8168-4c44-a6bc-fce38bc68db2": {
+      "user_id": "persona23",
+      "data": "User navigated a challenging corporate downsizing period, balancing transparency, empathy, and operational priorities, and remained resilient and committed to upholding safety standards and sustaining production efficiency.",
+      "text_lemmatized": "User navigated a challenging corporate downsizing period, balancing transparency, empathy, and operational priorities, and remained resilient and committed to upholding safety standards and sustaining production efficiency.",
+      "hash": "29a1eb208f619f4c7b2b29f434e690d1",
+      "created_at": "2026-08-28T21:51:29.000006+00:00",
+      "updated_at": "2026-08-28T21:51:29.000006+00:00",
+      "attributed_to": "assistant"
+    },
+    "72cadb6c-2034-4064-bc34-c1069926216c": {
+      "user_id": "persona23",
+      "data": "User is a craftswoman making pots for sale, who initially made 80 clay pots but 2/5 of them cracked and could not be sold, leaving 48 sellable pots.",
+      "text_lemmatized": "User is a craftswoman making pots for sale, who initially made 80 clay pots but 2/5 of them cracked and could not be sold, leaving 48 sellable pots.",
+      "hash": "647d3dc3ec4a4afb28a600fef30372dc",
+      "created_at": "2026-08-28T21:51:29.000029+00:00",
+      "updated_at": "2026-08-28T21:51:29.000029+00:00",
+      "attributed_to": "assistant"
+    },
+    "844b04fe-0c6a-4845-9cd1-c92008a7315b": {
+      "user_id": "persona23",
+      "data": "User made $1920 from selling 48 pots at $40 each.",
+      "text_lemmatized": "User made $1920 from selling 48 pots at $40 each.",
+      "hash": "c8b47514ba4678b070380278c576eac3",
+      "created_at": "2026-08-28T21:51:29.000040+00:00",
+      "updated_at": "2026-08-28T21:51:29.000040+00:00",
+      "attributed_to": "assistant"
+    },
+    "19654c06-8f84-4bf6-9317-b26c9e009f72": {
+      "user_id": "persona23",
+      "data": "User has 3 pregnant dogs, each giving birth to 4 puppies, resulting in a total of 12 puppies, each needing 2 shots at $5 each, totaling $120.",
+      "text_lemmatized": "User has 3 pregnant dogs, each giving birth to 4 puppies, resulting in a total of 12 puppies, each needing 2 shots at $5 each, totaling $120.",
+      "hash": "bebc223b42b0d064be1f2009d93e5189",
+      "created_at": "2026-08-28T21:51:29.000049+00:00",
+      "updated_at": "2026-08-28T21:51:29.000049+00:00",
+      "attributed_to": "assistant"
+    },
+    "332c6106-2a54-47d4-a267-323cf44723b0": {
+      "user_id": "persona23",
+      "data": "After removing 20 members, the remaining 130 members of a Facebook group would send 45,500 messages in a week, with each member posting 50 messages per day.",
+      "text_lemmatized": "After removing 20 members, the remaining 130 members of a Facebook group would send 45,500 messages in a week, with each member posting 50 messages per day.",
+      "hash": "04294acc684fe2c557ec6540a4bbc2f9",
+      "created_at": "2026-08-28T21:51:29.000059+00:00",
+      "updated_at": "2026-08-28T21:51:29.000059+00:00",
+      "attributed_to": "assistant"
+    },
+    "0c5ccc2d-6952-4f2a-881b-055bbcac4dbc": {
+      "user_id": "persona23",
+      "data": "A rectangle divided into two vertical strips of equal width, with the left strip divided into three equal parts and the right strip divided into four equal parts, has 5/12 of its area shaded.",
+      "text_lemmatized": "A rectangle divided into two vertical strips of equal width, with the left strip divided into three equal parts and the right strip divided into four equal parts, has 5/12 of its area shaded.",
+      "hash": "90bcd11fdb84a4f8b2915b7afa3db4e6",
+      "created_at": "2026-08-28T21:51:29.000068+00:00",
+      "updated_at": "2026-08-28T21:51:29.000068+00:00",
+      "attributed_to": "assistant"
+    },
+    "05d2c41c-ef3e-484a-b4ed-9cea97be9653": {
+      "user_id": "persona23",
+      "data": "Alice needs to buy 12 bushes to cover 48 feet of her yard, with each bush filling 4 feet.",
+      "text_lemmatized": "Alice needs to buy 12 bushes to cover 48 feet of her yard, with each bush filling 4 feet.",
+      "hash": "7cc96db1fdb71b4b43b7b5a7ef6c1a3b",
+      "created_at": "2026-08-28T21:51:29.000077+00:00",
+      "updated_at": "2026-08-28T21:51:29.000077+00:00",
+      "attributed_to": "assistant"
+    },
+    "65e1e883-e1cf-4b82-901a-e69d80cbeade": {
+      "user_id": "persona23",
+      "data": "User went hiking with their family at Kensington Metropark, choosing a shorter loop and strolling at an easy pace to take in the autumn colors and recharge before the busy week ahead.",
+      "text_lemmatized": "User went hiking with their family at Kensington Metropark, choosing a shorter loop and strolling at an easy pace to take in the autumn colors and recharge before the busy week ahead.",
+      "hash": "8c3f7c1f368918efec4600cd908035dd",
+      "created_at": "2026-08-28T21:51:29.000086+00:00",
+      "updated_at": "2026-08-28T21:51:29.000086+00:00",
+      "attributed_to": "assistant"
+    },
+    "5743a1cf-df8f-4d5c-99af-120fbe747126": {
+      "user_id": "persona23",
+      "data": "Kendall has 10 quarters and 12 dimes, totaling $4 in change.",
+      "text_lemmatized": "Kendall has 10 quarters and 12 dimes, totaling $4 in change.",
+      "hash": "744465fd76f33eeda7967b0c7eea745a",
+      "created_at": "2026-08-28T21:51:33.412938+00:00",
+      "updated_at": "2026-08-28T21:51:33.412938+00:00",
+      "attributed_to": "user"
+    },
+    "845d2eeb-02d3-4ea8-8e42-6fcd5da3b6b9": {
+      "user_id": "persona23",
+      "data": "Kendall has 10 quarters worth $2.50, 12 dimes worth $1.20, and an unknown number of nickels.",
+      "text_lemmatized": "Kendall has 10 quarters worth $2.50, 12 dimes worth $1.20, and an unknown number of nickels.",
+      "hash": "cf4444765c3d2845239f689b4e645abf",
+      "created_at": "2026-08-28T21:51:33.412962+00:00",
+      "updated_at": "2026-08-28T21:51:33.412962+00:00",
+      "attributed_to": "assistant"
+    },
+    "7d99b872-3e55-4728-851b-b17cdb0a5b38": {
+      "user_id": "persona23",
+      "data": "Kendall has a total of $4 in change, so the value of the nickels must be $0.30.",
+      "text_lemmatized": "Kendall has a total of $4 in change, so the value of the nickels must be $0.30.",
+      "hash": "ba4e7771216063db8233d254525efd54",
+      "created_at": "2026-08-28T21:51:33.412973+00:00",
+      "updated_at": "2026-08-28T21:51:33.412973+00:00",
+      "attributed_to": "assistant"
+    },
+    "e3176c0b-573a-4048-ae30-e0a94de536ba": {
+      "user_id": "persona23",
+      "data": "Since a nickel is worth $0.05, the number of nickels Kendall has is $0.30 \u00f7 $0.05 = 6.",
+      "text_lemmatized": "Since a nickel is worth $0.05, the number of nickels Kendall has is $0.30 \u00f7 $0.05 = 6.",
+      "hash": "9a462311fb1c4e0a969d77ca9f502b74",
+      "created_at": "2026-08-28T21:51:33.412984+00:00",
+      "updated_at": "2026-08-28T21:51:33.412984+00:00",
+      "attributed_to": "assistant"
+    },
+    "537f4e4a-0c6f-482b-a51c-913e375eb8d4": {
+      "user_id": "persona23",
+      "data": "Jana is 5 inches taller than Kelly, and Kelly is 3 inches shorter than Jess, who is 72 inches tall, so Jana is 74 inches tall",
+      "text_lemmatized": "Jana is 5 inches taller than Kelly, and Kelly is 3 inches shorter than Jess, who is 72 inches tall, so Jana is 74 inches tall",
+      "hash": "1a2009e9e8f000baad678f72a3dca94b",
+      "created_at": "2026-08-28T21:51:35.712267+00:00",
+      "updated_at": "2026-08-28T21:51:35.712267+00:00"
+    },
+    "1d43319d-d638-402a-b9b6-1ba32e265294": {
+      "user_id": "persona23",
+      "data": "Balancing safety with participant engagement in a moving-charity event requires early planning, clear communication, and well-structured pacing strategies.",
+      "text_lemmatized": "Balancing safety with participant engagement in a moving-charity event requires early planning, clear communication, and well-structured pacing strategies.",
+      "hash": "45f824c2d7237388e9aa04111343845c",
+      "created_at": "2026-08-28T21:51:44.908203+00:00",
+      "updated_at": "2026-08-28T21:51:44.908203+00:00",
+      "attributed_to": "assistant"
+    },
+    "8fbc98ba-a243-486d-98de-3011ef815a96": {
+      "user_id": "persona23",
+      "data": "Conduct a formal hazard analysis of the chosen route to identify high-traffic intersections, blind curves, or narrow lanes that might pose risks.",
+      "text_lemmatized": "Conduct a formal hazard analysis of the chosen route to identify high-traffic intersections, blind curves, or narrow lanes that might pose risks.",
+      "hash": "12a9770f48163e45fe82acc6171966e9",
+      "created_at": "2026-08-28T21:51:44.908222+00:00",
+      "updated_at": "2026-08-28T21:51:44.908222+00:00",
+      "attributed_to": "assistant"
+    },
+    "9c2ac07b-1e94-4f7c-bba5-37881dd515ac": {
+      "user_id": "persona23",
+      "data": "Secure parade/motorcade permits from local authorities at least 2-3 months prior to the event.",
+      "text_lemmatized": "Secure parade/motorcade permits from local authorities at least 2-3 months prior to the event.",
+      "hash": "a77e8bbeaeee0900681687c503aeb8bf",
+      "created_at": "2026-08-28T21:51:44.908230+00:00",
+      "updated_at": "2026-08-28T21:51:44.908230+00:00",
+      "attributed_to": "assistant"
+    },
+    "3b57791b-2dd0-4d23-b7be-2579a1d651da": {
+      "user_id": "persona23",
+      "data": "Arrange for at least one medical response vehicle and one support van or trailer following the group.",
+      "text_lemmatized": "Arrange for at least one medical response vehicle and one support van or trailer following the group.",
+      "hash": "062f68adddccdbfeba0507785c521526",
+      "created_at": "2026-08-28T21:51:44.908237+00:00",
+      "updated_at": "2026-08-28T21:51:44.908237+00:00",
+      "attributed_to": "assistant"
+    },
+    "80734960-499c-47a0-900f-ec1af4016f80": {
+      "user_id": "persona23",
+      "data": "Split participants into smaller groups with defined leaders and sweepers to reduce congestion and control speed and spacing.",
+      "text_lemmatized": "Split participants into smaller groups with defined leaders and sweepers to reduce congestion and control speed and spacing.",
+      "hash": "5532bdc052761aba1413c154dd55135c",
+      "created_at": "2026-08-28T21:51:44.908243+00:00",
+      "updated_at": "2026-08-28T21:51:44.908243+00:00",
+      "attributed_to": "assistant"
+    },
+    "1f91f231-0c86-4ba0-b254-6651756fb636": {
+      "user_id": "persona23",
+      "data": "Use a mix of hand signals and portable radios to communicate changes in speed, hazards, or planned stops.",
+      "text_lemmatized": "Use a mix of hand signals and portable radios to communicate changes in speed, hazards, or planned stops.",
+      "hash": "35453583e34877356d3f7a90f0afe0b0",
+      "created_at": "2026-08-28T21:51:44.908250+00:00",
+      "updated_at": "2026-08-28T21:51:44.908250+00:00",
+      "attributed_to": "assistant"
+    },
+    "690a075c-77fe-4481-b974-88673e57919a": {
+      "user_id": "persona23",
+      "data": "Set a target pace of 5-10 mph below posted limits to maintain a safe and engaging experience.",
+      "text_lemmatized": "Set a target pace of 5-10 mph below posted limits to maintain a safe and engaging experience.",
+      "hash": "7bb1de3ea627e4addbd6d7456504d51e",
+      "created_at": "2026-08-28T21:51:44.908257+00:00",
+      "updated_at": "2026-08-28T21:51:44.908257+00:00",
+      "attributed_to": "assistant"
+    },
+    "7494484e-e6fd-47ab-b82a-10bd2f96caab": {
+      "user_id": "persona23",
+      "data": "Design the route to include planned scenic breaks at memorable or scenic spots.",
+      "text_lemmatized": "Design the route to include planned scenic breaks at memorable or scenic spots.",
+      "hash": "30f01ebd57f4c4ec977493502cc3e237",
+      "created_at": "2026-08-28T21:51:44.908263+00:00",
+      "updated_at": "2026-08-28T21:51:44.908263+00:00",
+      "attributed_to": "assistant"
+    },
+    "b393cb35-3775-410d-b8f3-0ca1ed770cdb": {
+      "user_id": "persona23",
+      "data": "Use rest breaks to have short speeches or updates on the cause, combined with light entertainment or refreshments.",
+      "text_lemmatized": "Use rest breaks to have short speeches or updates on the cause, combined with light entertainment or refreshments.",
+      "hash": "9de0535f6d3783a1f032e7c55451aaa2",
+      "created_at": "2026-08-28T21:51:44.908268+00:00",
+      "updated_at": "2026-08-28T21:51:44.908268+00:00",
+      "attributed_to": "assistant"
+    },
+    "a7e4aee5-cae3-4562-b5cd-451010e2dba9": {
+      "user_id": "persona23",
+      "data": "Have forms ready to collect views on safety, pacing, and enjoyment from participants.",
+      "text_lemmatized": "Have forms ready to collect views on safety, pacing, and enjoyment from participants.",
+      "hash": "1db93a13150543b602d302d2d1172239",
+      "created_at": "2026-08-28T21:51:44.908274+00:00",
+      "updated_at": "2026-08-28T21:51:44.908274+00:00",
+      "attributed_to": "assistant"
+    },
+    "d4b529a7-09aa-423b-aefa-469e15c5d118": {
+      "user_id": "persona23",
+      "data": "Run a debrief with marshals to identify near misses or process tweaks after the event.",
+      "text_lemmatized": "Run a debrief with marshals to identify near misses or process tweaks after the event.",
+      "hash": "0e1c26db8d7dfb0f7087a18d7738881e",
+      "created_at": "2026-08-28T21:51:44.908280+00:00",
+      "updated_at": "2026-08-28T21:51:44.908280+00:00",
+      "attributed_to": "assistant"
+    },
+    "8e92cfde-7780-46de-9ece-82635bcc141d": {
+      "user_id": "persona23",
+      "data": "Treat safety protocols as the framework and engagement as the experience within it.",
+      "text_lemmatized": "Treat safety protocols as the framework and engagement as the experience within it.",
+      "hash": "0376ce56d5c6a3cbb06079e38b8717e5",
+      "created_at": "2026-08-28T21:51:44.908285+00:00",
+      "updated_at": "2026-08-28T21:51:44.908285+00:00",
+      "attributed_to": "assistant"
+    },
+    "6a2acc6c-ebf3-4252-94c0-f2e54f324af6": {
+      "user_id": "persona23",
+      "data": "Create a sample, minute-by-minute coordination plan that blends movement safety with high-energy moments along the route.",
+      "text_lemmatized": "Create a sample, minute-by-minute coordination plan that blends movement safety with high-energy moments along the route.",
+      "hash": "4a4a4ebe0a56fdfb7b96066ddc12e269",
+      "created_at": "2026-08-28T21:51:44.908291+00:00",
+      "updated_at": "2026-08-28T21:51:44.908291+00:00",
+      "attributed_to": "assistant"
+    },
+    "7efd4431-f893-43e3-883c-4277ab03c139": {
+      "user_id": "persona23",
+      "data": "Show how check-in procedures fit into the minute-by-minute plan to ensure safety from the start.",
+      "text_lemmatized": "Show how check-in procedures fit into the minute-by-minute plan to ensure safety from the start.",
+      "hash": "99c789e0726fccb4102844ca767f8701",
+      "created_at": "2026-08-28T21:51:44.908297+00:00",
+      "updated_at": "2026-08-28T21:51:44.908297+00:00",
+      "attributed_to": "assistant"
+    },
+    "7e424924-da7b-455f-a14d-cd25b2cee772": {
+      "user_id": "persona23",
+      "data": "User is planning a special dinner at home this weekend and wants suggestions for flavorful, comforting dishes that are not too complicated to make",
+      "text_lemmatized": "User is planning a special dinner at home this weekend and wants suggestions for flavorful, comforting dishes that are not too complicated to make",
+      "hash": "882f9d29d7f084bf85544f5edf4b08a2",
+      "created_at": "2026-08-28T21:51:53.389436+00:00",
+      "updated_at": "2026-08-28T21:51:53.389436+00:00",
+      "attributed_to": "user"
+    },
+    "e88ce9cc-394a-413e-8551-f442a0942499": {
+      "user_id": "persona23",
+      "data": "User was recommended a roasted red pepper and tomato soup as a starter option, which can be made ahead of time and served with cr\u00e8me fra\u00eeche",
+      "text_lemmatized": "User was recommended a roasted red pepper and tomato soup as a starter option, which can be made ahead of time and served with cr\u00e8me fra\u00eeche",
+      "hash": "2e23c5be2634ee9ccad719a6466a48bc",
+      "created_at": "2026-08-28T21:51:53.389457+00:00",
+      "updated_at": "2026-08-28T21:51:53.389457+00:00",
+      "attributed_to": "assistant"
+    },
+    "fa91350b-f988-4f84-80d9-604e147b4b1e": {
+      "user_id": "persona23",
+      "data": "User was suggested a baked brie with honey and nuts as a starter option, featuring warm, gooey cheese paired with toasted walnuts or pecans and a drizzle of honey",
+      "text_lemmatized": "User was suggested a baked brie with honey and nuts as a starter option, featuring warm, gooey cheese paired with toasted walnuts or pecans and a drizzle of honey",
+      "hash": "679848d77685b6715066170c1d7ba99f",
+      "created_at": "2026-08-28T21:51:53.389466+00:00",
+      "updated_at": "2026-08-28T21:51:53.389466+00:00",
+      "attributed_to": "assistant"
+    },
+    "3bde19b7-3e82-4a42-904b-1c7d643faefe": {
+      "user_id": "persona23",
+      "data": "User was recommended an herb-roasted chicken with root vegetables as a main course option, which is a one-pan meal that fills the kitchen with an amazing aroma",
+      "text_lemmatized": "User was recommended an herb-roasted chicken with root vegetables as a main course option, which is a one-pan meal that fills the kitchen with an amazing aroma",
+      "hash": "671f9eeb4c725f245d26a541c7c9d6f8",
+      "created_at": "2026-08-28T21:51:53.389472+00:00",
+      "updated_at": "2026-08-28T21:51:53.389472+00:00",
+      "attributed_to": "assistant"
+    },
+    "44cbe065-2a6c-46a4-998c-2606401cf1cd": {
+      "user_id": "persona23",
+      "data": "User was suggested a salmon with lemon-dill butter as a main course option, which is quick to prepare and feels luxurious, and can be paired with roasted asparagus or green beans",
+      "text_lemmatized": "User was suggested a salmon with lemon-dill butter as a main course option, which is quick to prepare and feels luxurious, and can be paired with roasted asparagus or green beans",
+      "hash": "f5f339c80ea57fe5f3120b65a4546327",
+      "created_at": "2026-08-28T21:51:53.389479+00:00",
+      "updated_at": "2026-08-28T21:51:53.389479+00:00",
+      "attributed_to": "assistant"
+    },
+    "482abc7c-a0ac-414b-be45-556bd4ea7669": {
+      "user_id": "persona23",
+      "data": "User was recommended a vegetarian chickpea and spinach coconut curry as a main course option, served with fluffy basmati rice",
+      "text_lemmatized": "User was recommended a vegetarian chickpea and spinach coconut curry as a main course option, served with fluffy basmati rice",
+      "hash": "5268d30d9ff517fbee31de770157d41b",
+      "created_at": "2026-08-28T21:51:53.389486+00:00",
+      "updated_at": "2026-08-28T21:51:53.389486+00:00",
+      "attributed_to": "assistant"
+    },
+    "4cdf9c6c-e95f-47ae-a751-94838ce0813f": {
+      "user_id": "persona23",
+      "data": "User was suggested garlic mashed potatoes as a side dish option",
+      "text_lemmatized": "User was suggested garlic mashed potatoes as a side dish option",
+      "hash": "70f65762aadc34921cd19e30a91caf76",
+      "created_at": "2026-08-28T21:51:53.389494+00:00",
+      "updated_at": "2026-08-28T21:51:53.389494+00:00",
+      "attributed_to": "assistant"
+    },
+    "040bd292-5002-4f55-954c-c7074167a3db": {
+      "user_id": "persona23",
+      "data": "User was recommended a quinoa salad with roasted vegetables and feta as a side dish option",
+      "text_lemmatized": "User was recommended a quinoa salad with roasted vegetables and feta as a side dish option",
+      "hash": "9551dc160d8fb6ca4536f2a24e8d7313",
+      "created_at": "2026-08-28T21:51:53.389501+00:00",
+      "updated_at": "2026-08-28T21:51:53.389501+00:00",
+      "attributed_to": "assistant"
+    },
+    "9dfa26c8-491e-4469-a6e4-199dffe4d4ce": {
+      "user_id": "persona23",
+      "data": "User was suggested a fresh green salad with a zingy vinaigrette as a side dish option",
+      "text_lemmatized": "User was suggested a fresh green salad with a zingy vinaigrette as a side dish option",
+      "hash": "d95223b30d4e50826187f820264c29f9",
+      "created_at": "2026-08-28T21:51:53.389508+00:00",
+      "updated_at": "2026-08-28T21:51:53.389508+00:00",
+      "attributed_to": "assistant"
+    },
+    "6a286134-d56c-4c67-b358-8ed8e7a6c17b": {
+      "user_id": "persona23",
+      "data": "User was recommended an apple crisp with vanilla ice cream as a dessert option",
+      "text_lemmatized": "User was recommended an apple crisp with vanilla ice cream as a dessert option",
+      "hash": "174c1966f538a228b2a0b1200e622498",
+      "created_at": "2026-08-28T21:51:53.389514+00:00",
+      "updated_at": "2026-08-28T21:51:53.389514+00:00",
+      "attributed_to": "assistant"
+    },
+    "fda45161-eeb5-45cf-95fd-6347d01b8ecf": {
+      "user_id": "persona23",
+      "data": "User was suggested chocolate lava cakes as a dessert option, which look impressive but are surprisingly simple",
+      "text_lemmatized": "User was suggested chocolate lava cakes as a dessert option, which look impressive but are surprisingly simple",
+      "hash": "339f5d3fd33485a4d3ebdfd4d8245f61",
+      "created_at": "2026-08-28T21:51:53.389520+00:00",
+      "updated_at": "2026-08-28T21:51:53.389520+00:00",
+      "attributed_to": "assistant"
+    },
+    "9964d3cd-8754-453a-86bb-ec905f8db985": {
+      "user_id": "persona23",
+      "data": "User was recommended a citrus posset as a dessert option, which is creamy, tangy, and minimal prep",
+      "text_lemmatized": "User was recommended a citrus posset as a dessert option, which is creamy, tangy, and minimal prep",
+      "hash": "8c9ab8a12c44d1757ac4b9b94a84dccb",
+      "created_at": "2026-08-28T21:51:53.389526+00:00",
+      "updated_at": "2026-08-28T21:51:53.389526+00:00",
+      "attributed_to": "assistant"
+    },
+    "47f60db1-71c7-45bf-afec-c8c499bee9c2": {
+      "user_id": "persona23",
+      "data": "User asked for a full, step-by-step dinner plan with a suggested timeline to ensure a smooth cooking experience",
+      "text_lemmatized": "User asked for a full, step-by-step dinner plan with a suggested timeline to ensure a smooth cooking experience",
+      "hash": "748560fb684b175d34e35555216aacee",
+      "created_at": "2026-08-28T21:51:53.389532+00:00",
+      "updated_at": "2026-08-28T21:51:53.389532+00:00",
+      "attributed_to": "user"
+    },
+    "f1f14030-59b9-42b0-ba4e-917164aa5384": {
+      "user_id": "persona23",
+      "data": "User wants to introduce a morning stretch-and-walk break before the first shift starts to boost energy, ease tension, and support heart health.",
+      "text_lemmatized": "User wants to introduce a morning stretch-and-walk break before the first shift starts to boost energy, ease tension, and support heart health.",
+      "hash": "fa3a7190192bc02f197f9685b78155b6",
+      "created_at": "2026-08-28T21:52:01.174058+00:00",
+      "updated_at": "2026-08-28T21:52:01.174058+00:00",
+      "attributed_to": "user"
+    },
+    "f6641b3f-390f-441e-a862-ee28e1ca1e12": {
+      "user_id": "persona23",
+      "data": "User has been paying extra attention to cardiovascular health lately, especially since they've been helping their mom keep her blood pressure in check.",
+      "text_lemmatized": "User has been paying extra attention to cardiovascular health lately, especially since they've been helping their mom keep her blood pressure in check.",
+      "hash": "816999630dc0c03db6c3680aa80c3614",
+      "created_at": "2026-08-28T21:52:01.174082+00:00",
+      "updated_at": "2026-08-28T21:52:01.174082+00:00",
+      "attributed_to": "user"
+    },
+    "ef330be3-da2b-4704-bb90-2a743428ac45": {
+      "user_id": "persona23",
+      "data": "User proposes introducing a brief morning stretch-and-walk session before the first shift begins to increase energy levels, reduce tension, and support overall heart health.",
+      "text_lemmatized": "User proposes introducing a brief morning stretch-and-walk session before the first shift begins to increase energy levels, reduce tension, and support overall heart health.",
+      "hash": "2c4ef64fb14729df82582a24482310a0",
+      "created_at": "2026-08-28T21:52:01.174094+00:00",
+      "updated_at": "2026-08-28T21:52:01.174094+00:00",
+      "attributed_to": "user"
+    },
+    "cd561c57-5b47-45a7-9f45-23e0c319f7c4": {
+      "user_id": "persona23",
+      "data": "User has been more mindful about cardiovascular wellness, having recently spent time assisting their mom in managing her blood pressure.",
+      "text_lemmatized": "User has been more mindful about cardiovascular wellness, having recently spent time assisting their mom in managing her blood pressure.",
+      "hash": "5f2a75b1bdb6d2e2935f541e9c7bfd11",
+      "created_at": "2026-08-28T21:52:01.174104+00:00",
+      "updated_at": "2026-08-28T21:52:01.174104+00:00",
+      "attributed_to": "user"
+    },
+    "7f9e0dd0-4cb5-48fe-a29b-662f20475240": {
+      "user_id": "persona23",
+      "data": "User wants to coordinate details with HR if the team is interested in the morning stretch-and-walk session.",
+      "text_lemmatized": "User wants to coordinate details with HR if the team is interested in the morning stretch-and-walk session.",
+      "hash": "b285e4fd8cea15ae6243b250b9d8ba7a",
+      "created_at": "2026-08-28T21:52:01.174114+00:00",
+      "updated_at": "2026-08-28T21:52:01.174114+00:00",
+      "attributed_to": "user"
+    },
+    "e242fdef-2787-4783-9cdd-a23dd2c9af79": {
+      "user_id": "persona23",
+      "data": "User has 64 cookies in the bag to start.",
+      "text_lemmatized": "User has 64 cookies in the bag to start.",
+      "hash": "10b45f2f61b05c7a672e67e4e298d2aa",
+      "created_at": "2026-08-28T21:52:01.174123+00:00",
+      "updated_at": "2026-08-28T21:52:01.174123+00:00",
+      "attributed_to": "user"
+    },
+    "4f48c425-7a3b-46c0-8d25-0aec5012f056": {
+      "user_id": "persona23",
+      "data": "Gilbert grows herbs in his yard to use in his cooking and has 5 herb plants at the end of spring.",
+      "text_lemmatized": "Gilbert grows herbs in his yard to use in his cooking and has 5 herb plants at the end of spring.",
+      "hash": "ad66a2e94a30b61ce25615bbe820be0c",
+      "created_at": "2026-08-28T21:52:01.174132+00:00",
+      "updated_at": "2026-08-28T21:52:01.174132+00:00",
+      "attributed_to": "user"
+    },
+    "1aad1796-1ed5-4338-aa57-bc9bc1694817": {
+      "user_id": "persona23",
+      "data": "There are 64 weasels and 32 rabbits left after 3 weeks.",
+      "text_lemmatized": "There are 64 weasels and 32 rabbits left after 3 weeks.",
+      "hash": "2b04e7465db35ef6771b109749b3cb5c",
+      "created_at": "2026-08-28T21:52:01.174141+00:00",
+      "updated_at": "2026-08-28T21:52:01.174141+00:00",
+      "attributed_to": "assistant"
+    },
+    "5b7923b9-9138-4c4e-9e33-3ffc374a68e9": {
+      "user_id": "persona23",
+      "data": "There are 9 sheep out in the wilderness.",
+      "text_lemmatized": "There are 9 sheep out in the wilderness.",
+      "hash": "20b649ce2fa98778f70f93372263b469",
+      "created_at": "2026-08-28T21:52:01.174149+00:00",
+      "updated_at": "2026-08-28T21:52:01.174149+00:00",
+      "attributed_to": "assistant"
+    },
+    "87bffe8b-b711-44f6-aabc-52d9aaac2263": {
+      "user_id": "persona23",
+      "data": "The zoo spent 10 hours recovering animals.",
+      "text_lemmatized": "The zoo spent 10 hours recovering animals.",
+      "hash": "a22d6619ffc9f143c132641942a27049",
+      "created_at": "2026-08-28T21:52:01.174157+00:00",
+      "updated_at": "2026-08-28T21:52:01.174157+00:00",
+      "attributed_to": "assistant"
+    },
+    "56d2418f-a9fc-4eb4-9c2a-add35152cf4a": {
+      "user_id": "persona23",
+      "data": "User should focus on heart-healthy habits to lower their risk of hypertension as they age.",
+      "text_lemmatized": "User should focus on heart-healthy habits to lower their risk of hypertension as they age.",
+      "hash": "53ed45092e04faeb8555bdae2f499588",
+      "created_at": "2026-08-28T21:52:01.174166+00:00",
+      "updated_at": "2026-08-28T21:52:01.174166+00:00",
+      "attributed_to": "assistant"
+    },
+    "7e93d9b3-d495-4358-8bd6-d886831daaca": {
+      "user_id": "persona23",
+      "data": "User should incorporate daily brisk walks, limit added salt in meals, and add more fruits and vegetables to their diet to stay healthy as they get older.",
+      "text_lemmatized": "User should incorporate daily brisk walks, limit added salt in meals, and add more fruits and vegetables to their diet to stay healthy as they get older.",
+      "hash": "87cf3e6236ef175f1ad8573a4fc57d17",
+      "created_at": "2026-08-28T21:52:01.174175+00:00",
+      "updated_at": "2026-08-28T21:52:01.174175+00:00",
+      "attributed_to": "assistant"
+    },
+    "632a87c2-262c-4b41-b666-d1281e49bec1": {
+      "user_id": "persona23",
+      "data": "User should have regular blood pressure checks to catch any changes early.",
+      "text_lemmatized": "User should have regular blood pressure checks to catch any changes early.",
+      "hash": "6119b80c9afa627714d889fe89b0be3b",
+      "created_at": "2026-08-28T21:52:01.174183+00:00",
+      "updated_at": "2026-08-28T21:52:01.174183+00:00",
+      "attributed_to": "assistant"
+    },
+    "446ea39a-d824-433e-b53d-120c6f4c66bd": {
+      "user_id": "persona23",
+      "data": "Muscle mass plays a crucial role in glucose uptake, as it is a major site for glucose absorption. When muscle mass decreases, the body's ability to absorb glucose also decreases, leading to increased blood sugar levels.",
+      "text_lemmatized": "Muscle mass plays a crucial role in glucose uptake, as it is a major site for glucose absorption. When muscle mass decreases, the body's ability to absorb glucose also decreases, leading to increased blood sugar levels.",
+      "hash": "7301aabb00fa1ba9fef296a4cd054aa1",
+      "created_at": "2026-08-28T21:52:22.817175+00:00",
+      "updated_at": "2026-08-28T21:52:22.817175+00:00",
+      "attributed_to": "assistant"
+    },
+    "99f2e1b9-9565-488b-a24d-a2975ce3fa69": {
+      "user_id": "persona23",
+      "data": "Women who had elevated blood sugar during pregnancy, even if they met recovery criteria postpartum, have a higher risk of developing type 2 diabetes later in life.",
+      "text_lemmatized": "Women who had elevated blood sugar during pregnancy, even if they met recovery criteria postpartum, have a higher risk of developing type 2 diabetes later in life.",
+      "hash": "8af02958ae46c2e94fd26c09ad749533",
+      "created_at": "2026-08-28T21:52:22.817195+00:00",
+      "updated_at": "2026-08-28T21:52:22.817195+00:00",
+      "attributed_to": "assistant"
+    },
+    "a1a9cbe7-d490-4957-b0c4-73dd9e9ddfa6": {
+      "user_id": "persona23",
+      "data": "Regular screening, including oral glucose tolerance tests or fasting plasma glucose tests, is recommended for women with a history of gestational glucose challenges.",
+      "text_lemmatized": "Regular screening, including oral glucose tolerance tests or fasting plasma glucose tests, is recommended for women with a history of gestational glucose challenges.",
+      "hash": "937dd604154699e0f070796d803cf3d0",
+      "created_at": "2026-08-28T21:52:22.817204+00:00",
+      "updated_at": "2026-08-28T21:52:22.817204+00:00",
+      "attributed_to": "assistant"
+    },
+    "4dd4c9d4-5f26-4bc6-9905-cb0a06ef56dc": {
+      "user_id": "persona23",
+      "data": "Strength training and moderate cardio can help maintain muscle mass and improve glucose uptake.",
+      "text_lemmatized": "Strength training and moderate cardio can help maintain muscle mass and improve glucose uptake.",
+      "hash": "2b8ca84d32c3ae01903fea3ed173f18b",
+      "created_at": "2026-08-28T21:52:22.817211+00:00",
+      "updated_at": "2026-08-28T21:52:22.817211+00:00",
+      "attributed_to": "assistant"
+    },
+    "6130732c-5087-4d52-bdc7-3ee365573637": {
+      "user_id": "persona23",
+      "data": "Subtle signs of changes in glucose handling include increased fatigue after meals, unusual cravings, or frequent thirst.",
+      "text_lemmatized": "Subtle signs of changes in glucose handling include increased fatigue after meals, unusual cravings, or frequent thirst.",
+      "hash": "c4cdeb2222c94de15848403ffa8ed7a3",
+      "created_at": "2026-08-28T21:52:22.817218+00:00",
+      "updated_at": "2026-08-28T21:52:22.817218+00:00",
+      "attributed_to": "assistant"
+    },
+    "72740c24-978f-416c-ae25-c1945fa4fa91": {
+      "user_id": "persona23",
+      "data": "A balanced diet that emphasizes complex carbohydrates with high fiber, pairing carbs with protein or healthy fats, and spacing meals evenly can help reduce blood sugar fluctuations.",
+      "text_lemmatized": "A balanced diet that emphasizes complex carbohydrates with high fiber, pairing carbs with protein or healthy fats, and spacing meals evenly can help reduce blood sugar fluctuations.",
+      "hash": "3f6c764aa355fde3986d300f6b2be138",
+      "created_at": "2026-08-28T21:52:22.817225+00:00",
+      "updated_at": "2026-08-28T21:52:22.817225+00:00",
+      "attributed_to": "assistant"
+    },
+    "27566db5-2782-4fc7-b0e4-a11e83ddf27c": {
+      "user_id": "persona23",
+      "data": "Pregnancy can be a metabolic 'stress test' that exposes latent predispositions to impaired glucose regulation, even if postpartum lab results are normal.",
+      "text_lemmatized": "Pregnancy can be a metabolic 'stress test' that exposes latent predispositions to impaired glucose regulation, even if postpartum lab results are normal.",
+      "hash": "8d94add4b00ab2196aa2f9a3efba35cd",
+      "created_at": "2026-08-28T21:52:22.817232+00:00",
+      "updated_at": "2026-08-28T21:52:22.817232+00:00",
+      "attributed_to": "assistant"
+    },
+    "d6ec625e-4dc7-4646-9b34-a6bd6cc957c0": {
+      "user_id": "persona23",
+      "data": "Beta cell function and long-term insulin reserve can be affected by pregnancy, leading to increased insulin resistance and a higher risk of type 2 diabetes later in life.",
+      "text_lemmatized": "Beta cell function and long-term insulin reserve can be affected by pregnancy, leading to increased insulin resistance and a higher risk of type 2 diabetes later in life.",
+      "hash": "b719b09c8cae20a51ca3ebd649cd11a3",
+      "created_at": "2026-08-28T21:52:22.817239+00:00",
+      "updated_at": "2026-08-28T21:52:22.817239+00:00",
+      "attributed_to": "assistant"
+    },
+    "56d84c5c-7ab2-47b6-b446-bf0198f415e3": {
+      "user_id": "persona23",
+      "data": "Gradual changes in lifestyle, diet, or activity over the years can increase insulin resistance and lead to impaired glucose tolerance.",
+      "text_lemmatized": "Gradual changes in lifestyle, diet, or activity over the years can increase insulin resistance and lead to impaired glucose tolerance.",
+      "hash": "d1cb02987cedb6c93fcb39367afdeaa9",
+      "created_at": "2026-08-28T21:52:22.817245+00:00",
+      "updated_at": "2026-08-28T21:52:22.817245+00:00",
+      "attributed_to": "assistant"
+    },
+    "ab52c9f4-3fcc-42bc-b048-fd10da7ba410": {
+      "user_id": "persona23",
+      "data": "Maintaining regular screening, focusing on muscle-preserving activity, and watching for subtle signs of changes in glucose handling can help prevent or manage type 2 diabetes.",
+      "text_lemmatized": "Maintaining regular screening, focusing on muscle-preserving activity, and watching for subtle signs of changes in glucose handling can help prevent or manage type 2 diabetes.",
+      "hash": "7a967dabc0bc5f3b77b54bd9f3bc0f63",
+      "created_at": "2026-08-28T21:52:22.817252+00:00",
+      "updated_at": "2026-08-28T21:52:22.817252+00:00",
+      "attributed_to": "assistant"
+    },
+    "b41dd8c3-854c-4831-8879-997f5c961b86": {
+      "user_id": "persona23",
+      "data": "User's team successfully reduced average cycle time by 8% in the current quarter, exceeding the target of 5%.",
+      "text_lemmatized": "User's team successfully reduced average cycle time by 8% in the current quarter, exceeding the target of 5%.",
+      "hash": "51358ece9c13facf30b3c6bd16581c43",
+      "created_at": "2026-08-28T21:52:30.061065+00:00",
+      "updated_at": "2026-08-28T21:52:30.061065+00:00",
+      "attributed_to": "assistant"
+    },
+    "344a9427-4fc3-4764-a620-ac0c77d7407c": {
+      "user_id": "persona23",
+      "data": "The team achieved this progress through careful data analysis, standardizing work processes, and increasing cross-shift communication.",
+      "text_lemmatized": "The team achieved this progress through careful data analysis, standardizing work processes, and increasing cross-shift communication.",
+      "hash": "fc3cfc9bbcbce641e60956a0358f8dbf",
+      "created_at": "2026-08-28T21:52:30.061085+00:00",
+      "updated_at": "2026-08-28T21:52:30.061085+00:00",
+      "attributed_to": "assistant"
+    },
+    "705ee781-e319-43ad-afe0-7a947bc4678b": {
+      "user_id": "persona23",
+      "data": "The team's operators executed each process change seamlessly, ensuring they maintained both safety and quality standards.",
+      "text_lemmatized": "The team's operators executed each process change seamlessly, ensuring they maintained both safety and quality standards.",
+      "hash": "dde6cc69b2a09067fecc9eef1851f382",
+      "created_at": "2026-08-28T21:52:30.061093+00:00",
+      "updated_at": "2026-08-28T21:52:30.061093+00:00",
+      "attributed_to": "assistant"
+    },
+    "6bcd9a96-d4f6-427a-aac9-f8a71a52f534": {
+      "user_id": "persona23",
+      "data": "The team plans to apply the same disciplined approach to improve their takt time on the new assembly cells scheduled for launch next month.",
+      "text_lemmatized": "The team plans to apply the same disciplined approach to improve their takt time on the new assembly cells scheduled for launch next month.",
+      "hash": "0842cdf33b839cca377fae9dc1897cf7",
+      "created_at": "2026-08-28T21:52:30.061099+00:00",
+      "updated_at": "2026-08-28T21:52:30.061099+00:00",
+      "attributed_to": "assistant"
+    },
+    "7b881a11-3bae-4165-8d1e-b8e0b122eb18": {
+      "user_id": "persona23",
+      "data": "Light banding or flicker artifacts can occur when shooting at fast shutter speeds under certain types of artificial lighting.",
+      "text_lemmatized": "Light banding or flicker artifacts can occur when shooting at fast shutter speeds under certain types of artificial lighting.",
+      "hash": "5fcfb9c9af462572a488d6e15a381728",
+      "created_at": "2026-08-28T21:52:30.061105+00:00",
+      "updated_at": "2026-08-28T21:52:30.061105+00:00",
+      "attributed_to": "assistant"
+    },
+    "d7017011-bbb7-43f4-8013-221a4779414f": {
+      "user_id": "persona23",
+      "data": "This phenomenon is caused by the light flicker frequency, shutter timing, and rolling shutter interaction.",
+      "text_lemmatized": "This phenomenon is caused by the light flicker frequency, shutter timing, and rolling shutter interaction.",
+      "hash": "136d1b6b0fab83b036c7f98de90b254b",
+      "created_at": "2026-08-28T21:52:30.061111+00:00",
+      "updated_at": "2026-08-28T21:52:30.061111+00:00",
+      "attributed_to": "assistant"
+    },
+    "5fc1ad70-84f9-4dc4-a51b-49436c335398": {
+      "user_id": "persona23",
+      "data": "To mitigate light banding, match shutter speed to light frequency, use anti-flicker settings, switch to continuous LED lighting, or increase ambient light with daylight-balanced sources.",
+      "text_lemmatized": "To mitigate light banding, match shutter speed to light frequency, use anti-flicker settings, switch to continuous LED lighting, or increase ambient light with daylight-balanced sources.",
+      "hash": "4a4fdd8a6e887b781bded012d96d4d6e",
+      "created_at": "2026-08-28T21:52:30.061116+00:00",
+      "updated_at": "2026-08-28T21:52:30.061116+00:00",
+      "attributed_to": "assistant"
+    },
+    "016f6d02-5814-4d13-8092-fc180786c9f4": {
+      "user_id": "persona23",
+      "data": "The math behind flicker cycles and shutter speed involves understanding the light flicker frequency, shutter duration, and rolling shutter scan.",
+      "text_lemmatized": "The math behind flicker cycles and shutter speed involves understanding the light flicker frequency, shutter duration, and rolling shutter scan.",
+      "hash": "da4d6ba2b6c1e6954295f6d348b47071",
+      "created_at": "2026-08-28T21:52:30.061122+00:00",
+      "updated_at": "2026-08-28T21:52:30.061122+00:00",
+      "attributed_to": "assistant"
+    },
+    "3ec3c579-a164-4503-a26a-284ce8ebb6c4": {
+      "user_id": "persona23",
+      "data": "To predict banding, calculate the light flicker frequency and shutter duration, and consider the rolling shutter scan to determine the optimal shutter speed.",
+      "text_lemmatized": "To predict banding, calculate the light flicker frequency and shutter duration, and consider the rolling shutter scan to determine the optimal shutter speed.",
+      "hash": "dba4b782792407ee95f86890cb29b379",
+      "created_at": "2026-08-28T21:52:30.061128+00:00",
+      "updated_at": "2026-08-28T21:52:30.061128+00:00",
+      "attributed_to": "assistant"
+    },
+    "987aec37-7c8a-46ed-bb74-ceab395c89f8": {
+      "user_id": "persona23",
+      "data": "The team's progress and plans for improving takt time on the new assembly cells are crucial for maintaining safety and quality standards.",
+      "text_lemmatized": "The team's progress and plans for improving takt time on the new assembly cells are crucial for maintaining safety and quality standards.",
+      "hash": "3165507c741d227636f55c3e661bd85c",
+      "created_at": "2026-08-28T21:52:30.061134+00:00",
+      "updated_at": "2026-08-28T21:52:30.061134+00:00",
+      "attributed_to": "assistant"
+    },
+    "f1b5c26c-1028-4f53-98cf-f4b166d6faa3": {
+      "user_id": "persona23",
+      "data": "The first five minutes of a meeting significantly impact participation and retention of information due to the primacy effect, social framing, decision context, early rapport, and operational implications.",
+      "text_lemmatized": "The first five minutes of a meeting significantly impact participation and retention of information due to the primacy effect, social framing, decision context, early rapport, and operational implications.",
+      "hash": "f55b9d9ff1af9cb7747b4d9ad94a5175",
+      "created_at": "2026-08-28T21:52:38.686192+00:00",
+      "updated_at": "2026-08-28T21:52:38.686192+00:00",
+      "attributed_to": "assistant"
+    },
+    "d05dfb9e-cdbc-4624-acaa-6d39618ba429": {
+      "user_id": "persona23",
+      "data": "In formal Japanese settings, the tea ceremony has its roots in Zen Buddhism and evolved into a cultural practice associated with aesthetics, hospitality, and mindfulness.",
+      "text_lemmatized": "In formal Japanese settings, the tea ceremony has its roots in Zen Buddhism and evolved into a cultural practice associated with aesthetics, hospitality, and mindfulness.",
+      "hash": "0cfd9da59847acaa4145f676b45425c0",
+      "created_at": "2026-08-28T21:52:38.686211+00:00",
+      "updated_at": "2026-08-28T21:52:38.686211+00:00",
+      "attributed_to": "assistant"
+    },
+    "34906847-ae7a-4897-ba51-aa70e785fc3c": {
+      "user_id": "persona23",
+      "data": "The Japanese tea ceremony historically functioned as a social gathering where every detail carried symbolic meaning, serving as a cultural refinement, social leveller, spiritual and mental clarity, and diplomatic space.",
+      "text_lemmatized": "The Japanese tea ceremony historically functioned as a social gathering where every detail carried symbolic meaning, serving as a cultural refinement, social leveller, spiritual and mental clarity, and diplomatic space.",
+      "hash": "900df9c65edddff50bd95368e0d9beae",
+      "created_at": "2026-08-28T21:52:38.686219+00:00",
+      "updated_at": "2026-08-28T21:52:38.686219+00:00",
+      "attributed_to": "assistant"
+    },
+    "d6c4468c-1752-4256-9fa7-3397b7fba106": {
+      "user_id": "persona23",
+      "data": "Someone today might opt for other customs instead of the traditional tea ceremony due to time constraints, practicality of setting, audience profile, generational and lifestyle shifts, and event objectives.",
+      "text_lemmatized": "Someone today might opt for other customs instead of the traditional tea ceremony due to time constraints, practicality of setting, audience profile, generational and lifestyle shifts, and event objectives.",
+      "hash": "f862287d42e2b7380fe207533565f8c1",
+      "created_at": "2026-08-28T21:52:38.686226+00:00",
+      "updated_at": "2026-08-28T21:52:38.686226+00:00",
+      "attributed_to": "assistant"
+    },
+    "69b447d0-7e7b-4942-8d6b-9e80141282f7": {
+      "user_id": "persona23",
+      "data": "Possible respectful alternatives to the tea ceremony include presenting guests with high-quality Japanese confections paired with tea served informally, using other Japanese arts, or offering a 'taste of Japan' session.",
+      "text_lemmatized": "Possible respectful alternatives to the tea ceremony include presenting guests with high-quality Japanese confections paired with tea served informally, using other Japanese arts, or offering a 'taste of Japan' session.",
+      "hash": "2cbe572a1069dc3069b6f85f2a00767e",
+      "created_at": "2026-08-28T21:52:38.686233+00:00",
+      "updated_at": "2026-08-28T21:52:38.686233+00:00",
+      "attributed_to": "assistant"
+    },
+    "0f6fa479-7fc7-48a1-8a0a-d83d802cbd22": {
+      "user_id": "persona23",
+      "data": "To keep vegetables from getting soggy after reheating without adding extra prep steps, consider using a combination of techniques such as steaming, roasting, or saut\u00e9ing, and then reheating them in a dry pan or oven.",
+      "text_lemmatized": "To keep vegetables from getting soggy after reheating without adding extra prep steps, consider using a combination of techniques such as steaming, roasting, or saut\u00e9ing, and then reheating them in a dry pan or oven.",
+      "hash": "2798ce919eb6673f40f41297a7a8acc0",
+      "created_at": "2026-08-28T21:52:38.686240+00:00",
+      "updated_at": "2026-08-28T21:52:38.686240+00:00",
+      "attributed_to": "assistant"
+    },
+    "e19d1fbd-2962-4216-8052-56f7d3d1a6c6": {
+      "user_id": "persona23",
+      "data": "The first five minutes of a meeting are crucial for setting the tone and establishing a connection with the audience, and missing this can lead to reduced participation and information retention.",
+      "text_lemmatized": "The first five minutes of a meeting are crucial for setting the tone and establishing a connection with the audience, and missing this can lead to reduced participation and information retention.",
+      "hash": "801eef50e75c5d1ebd05bb98afca1cb9",
+      "created_at": "2026-08-28T21:52:38.686247+00:00",
+      "updated_at": "2026-08-28T21:52:38.686247+00:00",
+      "attributed_to": "assistant"
+    },
+    "1bb2b349-fc70-408e-a1fc-b726a35d6505": {
+      "user_id": "persona23",
+      "data": "In the context of the Japanese tea ceremony, the selection of utensils, arrangement of flowers, and other details carry symbolic meaning and are intended to create a sense of mindfulness and connection with nature.",
+      "text_lemmatized": "In the context of the Japanese tea ceremony, the selection of utensils, arrangement of flowers, and other details carry symbolic meaning and are intended to create a sense of mindfulness and connection with nature.",
+      "hash": "890a0867accaccbd582107588bad71db",
+      "created_at": "2026-08-28T21:52:38.686253+00:00",
+      "updated_at": "2026-08-28T21:52:38.686253+00:00",
+      "attributed_to": "assistant"
+    },
+    "3ffaa610-3786-401d-9195-a2e4b7054d18": {
+      "user_id": "persona23",
+      "data": "When cooking vegetables for work lunches, it's essential to consider the cooking method and reheating technique to prevent sogginess, and some options include using a microwave-safe container, reheating in a dry pan, or adding a small amount of oil or fat.",
+      "text_lemmatized": "When cooking vegetables for work lunches, it's essential to consider the cooking method and reheating technique to prevent sogginess, and some options include using a microwave-safe container, reheating in a dry pan, or adding a small amount of oil or fat.",
+      "hash": "bdc4f64124b3914e5f892e2d1eaecc1a",
+      "created_at": "2026-08-28T21:52:38.686259+00:00",
+      "updated_at": "2026-08-28T21:52:38.686259+00:00",
+      "attributed_to": "assistant"
+    },
+    "a6a4f2fd-1a72-4ff8-801c-d0cf7d88552e": {
+      "user_id": "persona23",
+      "data": "The Japanese tea ceremony is a highly ritualized social gathering that emphasizes the importance of mindfulness, respect, and attention to detail, and it is not just about serving tea but about creating a sense of community and connection.",
+      "text_lemmatized": "The Japanese tea ceremony is a highly ritualized social gathering that emphasizes the importance of mindfulness, respect, and attention to detail, and it is not just about serving tea but about creating a sense of community and connection.",
+      "hash": "dba9113bc8774ec850314bcf390105ad",
+      "created_at": "2026-08-28T21:52:38.686265+00:00",
+      "updated_at": "2026-08-28T21:52:38.686265+00:00",
+      "attributed_to": "assistant"
+    },
+    "52a319a6-286d-4de2-9df0-0aae6ffd7d68": {
+      "user_id": "persona23",
+      "data": "Local amateur hockey leagues have stricter equipment requirements than some pro leagues due to differences in experience, liability management, and medical readiness.",
+      "text_lemmatized": "Local amateur hockey leagues have stricter equipment requirements than some pro leagues due to differences in experience, liability management, and medical readiness.",
+      "hash": "e062d0a226b11492dc9206027052b0b1",
+      "created_at": "2026-08-28T21:52:43.174100+00:00",
+      "updated_at": "2026-08-28T21:52:43.174100+00:00",
+      "attributed_to": "assistant"
+    },
+    "eb42db74-4ef0-4675-9894-e27ccee97ac1": {
+      "user_id": "persona23",
+      "data": "To maintain consistent safety and quality standards in large-scale home build projects, organizations use structured onboarding, role segmentation, site supervision, standardized workflows, daily toolbox talks, and stage inspections.",
+      "text_lemmatized": "To maintain consistent safety and quality standards in large-scale home build projects, organizations use structured onboarding, role segmentation, site supervision, standardized workflows, daily toolbox talks, and stage inspections.",
+      "hash": "730ce437f2c5cda1f7229f82d92fd1e1",
+      "created_at": "2026-08-28T21:52:43.174119+00:00",
+      "updated_at": "2026-08-28T21:52:43.174119+00:00",
+      "attributed_to": "assistant"
+    },
+    "f8434bf3-2b03-4747-b810-6080514d2f35": {
+      "user_id": "persona23",
+      "data": "Festival foods are often designed to be unusual or extreme to stand out in a crowded environment, leveraging marketing psychology, scarcity, and cultural associations with whimsy.",
+      "text_lemmatized": "Festival foods are often designed to be unusual or extreme to stand out in a crowded environment, leveraging marketing psychology, scarcity, and cultural associations with whimsy.",
+      "hash": "757b7f15b5d866190794301a978033fa",
+      "created_at": "2026-08-28T21:52:43.174127+00:00",
+      "updated_at": "2026-08-28T21:52:43.174127+00:00",
+      "attributed_to": "assistant"
+    },
+    "e7478172-40d2-40c2-bb97-3c727c1131bc": {
+      "user_id": "persona23",
+      "data": "Changes in ingredient sourcing or baking methods can explain why some fresh bakery bread smells or tastes different than you remember.",
+      "text_lemmatized": "Changes in ingredient sourcing or baking methods can explain why some fresh bakery bread smells or tastes different than you remember.",
+      "hash": "8a8d2ba362ca02c9c09db725ad6143ed",
+      "created_at": "2026-08-28T21:52:43.174134+00:00",
+      "updated_at": "2026-08-28T21:52:43.174134+00:00",
+      "attributed_to": "assistant"
+    },
+    "3d6cd389-e386-4154-8057-8e2bd15306f2": {
+      "user_id": "persona23",
+      "data": "Virtual reconstructions of world heritage sites have become impressively detailed, capturing structural dimensions down to millimeter precision and reproducing textures with photorealistic accuracy.",
+      "text_lemmatized": "Virtual reconstructions of world heritage sites have become impressively detailed, capturing structural dimensions down to millimeter precision and reproducing textures with photorealistic accuracy.",
+      "hash": "c06bfe6f8d797e8aa1a1107f19fb6ee6",
+      "created_at": "2026-08-28T21:52:56.648719+00:00",
+      "updated_at": "2026-08-28T21:52:56.648719+00:00",
+      "attributed_to": "assistant"
+    },
+    "246db6d3-3c07-4465-ad98-5e4ef6e8df4e": {
+      "user_id": "persona23",
+      "data": "However, there are some important nuances to consider, including spatial presence and scale perception, atmospheric and sensory factors, contextual immersion, educational enhancement, and accessibility.",
+      "text_lemmatized": "However, there are some important nuances to consider, including spatial presence and scale perception, atmospheric and sensory factors, contextual immersion, educational enhancement, and accessibility.",
+      "hash": "7f70f2e6d00745364b54a06684078ff3",
+      "created_at": "2026-08-28T21:52:56.648739+00:00",
+      "updated_at": "2026-08-28T21:52:56.648739+00:00",
+      "attributed_to": "assistant"
+    },
+    "d0f7611f-ba26-4771-9292-0eb506955f18": {
+      "user_id": "persona23",
+      "data": "Researchers and developers are actively exploring ways to bridge sensory gaps in virtual experiences, including olfactory displays, temperature and climate simulation, haptic feedback, and spatial audio.",
+      "text_lemmatized": "Researchers and developers are actively exploring ways to bridge sensory gaps in virtual experiences, including olfactory displays, temperature and climate simulation, haptic feedback, and spatial audio.",
+      "hash": "b57cfd375e39c4237060c68a7e4b85c1",
+      "created_at": "2026-08-28T21:52:56.648748+00:00",
+      "updated_at": "2026-08-28T21:52:56.648748+00:00",
+      "attributed_to": "assistant"
+    },
+    "1681ddff-2d2c-49a1-8480-289c5ed24fca": {
+      "user_id": "persona23",
+      "data": "Gradual addition of sugar in cake making is a process control technique that ensures even distribution of air, moisture, and crystal structure in the batter, which can impact the structure, texture, and quality of the final product.",
+      "text_lemmatized": "Gradual addition of sugar in cake making is a process control technique that ensures even distribution of air, moisture, and crystal structure in the batter, which can impact the structure, texture, and quality of the final product.",
+      "hash": "d70dd1f17cdd77d61c8bd56201a95b7d",
+      "created_at": "2026-08-28T21:52:56.648756+00:00",
+      "updated_at": "2026-08-28T21:52:56.648756+00:00",
+      "attributed_to": "assistant"
+    },
+    "04bdecad-4663-4c9b-aaf0-1336ed0ab25f": {
+      "user_id": "persona23",
+      "data": "There are certain situations where reflective or mindful journaling can inadvertently reduce efficiency, such as time allocation trade-offs, over-analysis and decision latency, cognitive load conflicts, shift in focus from objective data, and cultural or team dynamics misalignment.",
+      "text_lemmatized": "There are certain situations where reflective or mindful journaling can inadvertently reduce efficiency, such as time allocation trade-offs, over-analysis and decision latency, cognitive load conflicts, shift in focus from objective data, and cultural or team dynamics misalignment.",
+      "hash": "56c7484f83be617bcb5e0ec4e3bc66c3",
+      "created_at": "2026-08-28T21:52:56.648764+00:00",
+      "updated_at": "2026-08-28T21:52:56.648764+00:00",
+      "attributed_to": "assistant"
+    },
+    "e46d86f4-0a1a-4643-bfd9-b712f9118f0b": {
+      "user_id": "persona23",
+      "data": "A hybrid approach that combines quick bullet-point reflections with operational data tracking might be a good compromise, allowing for structured reflection while minimizing the potential drawbacks of traditional journaling.",
+      "text_lemmatized": "A hybrid approach that combines quick bullet-point reflections with operational data tracking might be a good compromise, allowing for structured reflection while minimizing the potential drawbacks of traditional journaling.",
+      "hash": "2319b428961534a8e861275b9b087670",
+      "created_at": "2026-08-28T21:52:56.648770+00:00",
+      "updated_at": "2026-08-28T21:52:56.648770+00:00",
+      "attributed_to": "assistant"
+    },
+    "5649c9ba-b7ca-42ff-a636-f861780bf096": {
+      "user_id": "persona23",
+      "data": "The gradual addition of sugar in cake making is similar to introducing materials slowly along a production line to avoid quality defects, ensuring a consistent final product.",
+      "text_lemmatized": "The gradual addition of sugar in cake making is similar to introducing materials slowly along a production line to avoid quality defects, ensuring a consistent final product.",
+      "hash": "25ed38e71279ead3d48f1c63b25c7e5c",
+      "created_at": "2026-08-28T21:52:56.648777+00:00",
+      "updated_at": "2026-08-28T21:52:56.648777+00:00",
+      "attributed_to": "assistant"
+    },
+    "152f4ecb-f770-4f6e-9b13-d514522a5c84": {
+      "user_id": "persona23",
+      "data": "In a well-designed, mature automated system, direct interventions might be relatively rare in terms of frequency, but they remain critical when they occur, such as unexpected errors or breakdowns, process deviations, software or firmware issues, and material supply issues.",
+      "text_lemmatized": "In a well-designed, mature automated system, direct interventions might be relatively rare in terms of frequency, but they remain critical when they occur, such as unexpected errors or breakdowns, process deviations, software or firmware issues, and material supply issues.",
+      "hash": "b5d3b1bd04dec8b9a966ee3ed91a014c",
+      "created_at": "2026-08-28T21:52:56.648783+00:00",
+      "updated_at": "2026-08-28T21:52:56.648783+00:00",
+      "attributed_to": "assistant"
+    },
+    "e4c9a6e1-4766-47a2-b947-e517286fb2ca": {
+      "user_id": "persona23",
+      "data": "Aggressive resource conservation initiatives in manufacturing can have complex impacts on long-term production efficiency, including process constraints and throughput, capital expenditure vs. ROI lag, maintenance complexity, impact on material properties and quality, and operational flexibility.",
+      "text_lemmatized": "Aggressive resource conservation initiatives in manufacturing can have complex impacts on long-term production efficiency, including process constraints and throughput, capital expenditure vs. ROI lag, maintenance complexity, impact on material properties and quality, and operational flexibility.",
+      "hash": "488127857c876cd2c9b8fe5741a57c7c",
+      "created_at": "2026-08-28T21:52:56.648790+00:00",
+      "updated_at": "2026-08-28T21:52:56.648790+00:00",
+      "attributed_to": "assistant"
+    },
+    "0f4d867f-60bf-452c-a080-2048d4f193f8": {
+      "user_id": "persona23",
+      "data": "The difference between a state park campsite with full hookups and one with basic facilities comes down to the level of infrastructure and convenience provided, which directly impacts your daily routine at the campsite.",
+      "text_lemmatized": "The difference between a state park campsite with full hookups and one with basic facilities comes down to the level of infrastructure and convenience provided, which directly impacts your daily routine at the campsite.",
+      "hash": "a9cb48905335f0a1be178b9d7c11b1c3",
+      "created_at": "2026-08-28T21:52:56.648797+00:00",
+      "updated_at": "2026-08-28T21:52:56.648797+00:00",
+      "attributed_to": "assistant"
+    },
+    "a6a4085d-1a6f-4882-a4f6-c3784a77528f": {
+      "user_id": "persona23",
+      "data": "The difference essentially comes down to the level of infrastructure and convenience provided, which directly impacts your daily routine at the campsite.",
+      "text_lemmatized": "The difference essentially comes down to the level of infrastructure and convenience provided, which directly impacts your daily routine at the campsite.",
+      "hash": "bf10aed066041bc450310478904c946d",
+      "created_at": "2026-08-28T21:52:56.648803+00:00",
+      "updated_at": "2026-08-28T21:52:56.648803+00:00",
+      "attributed_to": "assistant"
+    },
+    "5aee87a6-4675-48a6-8019-26a8ee6001ed": {
+      "user_id": "persona23",
+      "data": "Attending a live NBA game can be expensive due to ticket prices, concessions, parking, and merchandise, with costs adding up over a full 82-game season.",
+      "text_lemmatized": "Attending a live NBA game can be expensive due to ticket prices, concessions, parking, and merchandise, with costs adding up over a full 82-game season.",
+      "hash": "9bad3ca229ffbb8615a20921e0cecddb",
+      "created_at": "2026-08-28T21:53:01.849039+00:00",
+      "updated_at": "2026-08-28T21:53:01.849039+00:00",
+      "attributed_to": "assistant"
+    },
+    "5b359072-5c33-4c62-afa5-440ec8902b2e": {
+      "user_id": "persona23",
+      "data": "Watching basketball games from home can be more convenient and cost-effective, with zero incremental costs for cable or streaming subscriptions, and cheaper snacks and drinks.",
+      "text_lemmatized": "Watching basketball games from home can be more convenient and cost-effective, with zero incremental costs for cable or streaming subscriptions, and cheaper snacks and drinks.",
+      "hash": "7d594e1256b0daee443ad8ea299ee9e6",
+      "created_at": "2026-08-28T21:53:01.849057+00:00",
+      "updated_at": "2026-08-28T21:53:01.849057+00:00",
+      "attributed_to": "assistant"
+    },
+    "c4c30666-443d-457c-a479-014408d1ad41": {
+      "user_id": "persona23",
+      "data": "European serums may list active ingredients at lower concentrations yet still claim similar results due to regulatory frameworks, formulation synergy, stability, and delivery systems.",
+      "text_lemmatized": "European serums may list active ingredients at lower concentrations yet still claim similar results due to regulatory frameworks, formulation synergy, stability, and delivery systems.",
+      "hash": "aa984acd0e4fcfae22a87d762d28c871",
+      "created_at": "2026-08-28T21:53:01.849066+00:00",
+      "updated_at": "2026-08-28T21:53:01.849066+00:00",
+      "attributed_to": "assistant"
+    },
+    "66c96bc6-97f0-4add-afab-9d26e3e26899": {
+      "user_id": "persona23",
+      "data": "A 'two-minute drill' in football refers to a high-pressure, time-managed strategy to score quickly with roughly two minutes left in a half or the game.",
+      "text_lemmatized": "A 'two-minute drill' in football refers to a high-pressure, time-managed strategy to score quickly with roughly two minutes left in a half or the game.",
+      "hash": "da1c39b470ab567264816f928545bc6f",
+      "created_at": "2026-08-28T21:53:01.849074+00:00",
+      "updated_at": "2026-08-28T21:53:01.849074+00:00",
+      "attributed_to": "assistant"
+    },
+    "0708702d-ae3b-42cf-9fa1-53fe4c659ba8": {
+      "user_id": "persona23",
+      "data": "Redirecting a group conversation when it starts drifting toward unnecessary disagreements can be done by acknowledging the topic, expressing empathy, and refocusing the discussion on the original goal or topic.",
+      "text_lemmatized": "Redirecting a group conversation when it starts drifting toward unnecessary disagreements can be done by acknowledging the topic, expressing empathy, and refocusing the discussion on the original goal or topic.",
+      "hash": "a5ddf588ffcf2bc534020660e4f52d39",
+      "created_at": "2026-08-28T21:53:01.849082+00:00",
+      "updated_at": "2026-08-28T21:53:01.849082+00:00",
+      "attributed_to": "assistant"
+    },
+    "d5020fd3-634a-47f9-a382-22c042e57a94": {
+      "user_id": "persona23",
+      "data": "A tactful redirection in group settings is an important leadership skill, especially if your goal is to maintain focus and morale.",
+      "text_lemmatized": "A tactful redirection in group settings is an important leadership skill, especially if your goal is to maintain focus and morale.",
+      "hash": "0a2041d823935757ea4059b9891c867a",
+      "created_at": "2026-08-28T21:53:10.028375+00:00",
+      "updated_at": "2026-08-28T21:53:10.028375+00:00",
+      "attributed_to": "assistant"
+    },
+    "6d7ff724-e474-4f74-8620-a9cb111c1fec": {
+      "user_id": "persona23",
+      "data": "There are several possible explanations for why recurring headaches\u2014especially those that have been present for years\u2014might unexpectedly decrease or disappear, even when there\u2019s no conscious or dramatic shift in day-to-day habits.",
+      "text_lemmatized": "There are several possible explanations for why recurring headaches\u2014especially those that have been present for years\u2014might unexpectedly decrease or disappear, even when there\u2019s no conscious or dramatic shift in day-to-day habits.",
+      "hash": "1f8bd99d55f43cb0233381077ab0ba5c",
+      "created_at": "2026-08-28T21:53:10.028395+00:00",
+      "updated_at": "2026-08-28T21:53:10.028395+00:00",
+      "attributed_to": "assistant"
+    },
+    "1b496fb4-1577-4320-9fac-9a2b5a01161a": {
+      "user_id": "persona23",
+      "data": "It\u2019s definitely possible to gain a deep sense of a city\u2019s creative identity without stepping inside an art museum, though the approach relies on accessing other layers of cultural expression.",
+      "text_lemmatized": "It\u2019s definitely possible to gain a deep sense of a city\u2019s creative identity without stepping inside an art museum, though the approach relies on accessing other layers of cultural expression.",
+      "hash": "92b9c2026dbfd11ef45b473547e9b287",
+      "created_at": "2026-08-28T21:53:10.028405+00:00",
+      "updated_at": "2026-08-28T21:53:10.028405+00:00",
+      "attributed_to": "assistant"
+    },
+    "459f1c0b-e0cc-40e4-9fed-7311ac6d08b7": {
+      "user_id": "persona23",
+      "data": "There are a few overlapping explanations for why limiting an office\u2019s artwork to a very narrow range of colors\u2014especially neutral or near-neutral tones\u2014can make the space feel more focused.",
+      "text_lemmatized": "There are a few overlapping explanations for why limiting an office\u2019s artwork to a very narrow range of colors\u2014especially neutral or near-neutral tones\u2014can make the space feel more focused.",
+      "hash": "fe5e98cb41e76064ae619880238ca75c",
+      "created_at": "2026-08-28T21:53:10.028412+00:00",
+      "updated_at": "2026-08-28T21:53:10.028412+00:00",
+      "attributed_to": "assistant"
+    },
+    "ac43a609-17c2-4ef9-b1d6-a0f434f0c131": {
+      "user_id": "persona23",
+      "data": "There are several nuanced reasons why someone living near the arena\u2014like in downtown Detroit near Little Caesars Arena for example\u2014might opt to watch professional basketball games from home rather than attend live, even if they once enjoyed going in person.",
+      "text_lemmatized": "There are several nuanced reasons why someone living near the arena\u2014like in downtown Detroit near Little Caesars Arena for example\u2014might opt to watch professional basketball games from home rather than attend live, even if they once enjoyed going in person.",
+      "hash": "1472ad82e08aac03a15c3a3d88b35c21",
+      "created_at": "2026-08-28T21:53:10.028419+00:00",
+      "updated_at": "2026-08-28T21:53:10.028419+00:00",
+      "attributed_to": "assistant"
+    },
+    "b4c100f2-ff0f-48a0-8cac-f69246d8c960": {
+      "user_id": "persona23",
+      "data": "Several interconnected factors influence the long-term resilience of healthy knees in environments where standing or walking on hard surfaces is frequent, such as on a manufacturing floor.",
+      "text_lemmatized": "Several interconnected factors influence the long-term resilience of healthy knees in environments where standing or walking on hard surfaces is frequent, such as on a manufacturing floor.",
+      "hash": "86587c06284bec011c9bcc17e5380943",
+      "created_at": "2026-08-28T21:53:10.028427+00:00",
+      "updated_at": "2026-08-28T21:53:10.028427+00:00",
+      "attributed_to": "assistant"
+    },
+    "47f24d2c-930a-480b-a756-976eb0cca04c": {
+      "user_id": "persona23",
+      "data": "If you love the balance and tranquility of Japanese gardens, you might enjoy visiting Ritsurin Garden in Takamatsu, the classical gardens of Suzhou in China, or the Portland Japanese Garden in the U.S.",
+      "text_lemmatized": "If you love the balance and tranquility of Japanese gardens, you might enjoy visiting Ritsurin Garden in Takamatsu, the classical gardens of Suzhou in China, or the Portland Japanese Garden in the U.S.",
+      "hash": "f0b86ae1fda389390ad5ba0e2c7f228f",
+      "created_at": "2026-08-28T21:53:10.028434+00:00",
+      "updated_at": "2026-08-28T21:53:10.028434+00:00",
+      "attributed_to": "assistant"
+    },
+    "14bcc9d7-6cf6-4794-b6cc-40cc1400f480": {
+      "user_id": "persona23",
+      "data": "Since you love bold statement jewelry, you could pair your black dress with an oversized sculptural necklace or dramatic chandelier earrings, and maybe layer in a few chunky metallic bracelets.",
+      "text_lemmatized": "Since you love bold statement jewelry, you could pair your black dress with an oversized sculptural necklace or dramatic chandelier earrings, and maybe layer in a few chunky metallic bracelets.",
+      "hash": "e3dbc5701d45acd5a0abf1d94ca48ce8",
+      "created_at": "2026-08-28T21:53:10.028441+00:00",
+      "updated_at": "2026-08-28T21:53:10.028441+00:00",
+      "attributed_to": "assistant"
+    },
+    "6fb44823-cb6f-48f3-ae1c-662118285b0f": {
+      "user_id": "persona23",
+      "data": "For a simple black dress at a formal evening event, there are a lot of creative ways to make your look stand out while keeping it elegant and original.",
+      "text_lemmatized": "For a simple black dress at a formal evening event, there are a lot of creative ways to make your look stand out while keeping it elegant and original.",
+      "hash": "5c7c53672f0c6ed7403956d02dfc8b7c",
+      "created_at": "2026-08-28T21:53:10.028447+00:00",
+      "updated_at": "2026-08-28T21:53:10.028447+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "85777af0-768b-451f-b702-41931816707d",
+    "1": "a56b2eec-05c7-44d9-8f9d-f3393ab03c3c",
+    "2": "c1e60c2b-d258-4173-9b5b-7fb5570bf198",
+    "3": "7df5da77-975a-4450-bdac-1e5f908ef6a1",
+    "4": "58cafaef-c8f1-4e10-9e95-a6cd0c93a67c",
+    "5": "011e93ce-9f68-4ddd-a94f-d17fcaf5d163",
+    "6": "72708c20-f404-4d18-98ca-069f1d5113b6",
+    "7": "d47c5ded-8051-48ab-bdf5-d0ffd5026193",
+    "8": "a55d3285-bda3-47b9-aa69-d9051dca3634",
+    "9": "6021d3c9-a41d-42c0-a4cd-608b7e48dc55",
+    "10": "1476f481-aee0-4fdf-94e3-c71429deafd5",
+    "11": "1a5b3707-9bb7-4689-a837-5b11ead001a9",
+    "12": "d779c19a-5850-4759-86be-3d5b7dcccb82",
+    "13": "538ee0b5-ae80-41aa-b25c-2c1c09c22908",
+    "14": "e06fad75-395b-4d16-8bed-19b492b8f5ea",
+    "15": "11c55b88-8066-4454-a0eb-3fc12eb75861",
+    "16": "3bd40e3e-39f5-4d09-b8e7-cc05e2a9a816",
+    "17": "790c0cee-856a-47b9-acbb-c96fea5b383f",
+    "18": "77216820-8b68-4c69-bc63-4e6c27861c53",
+    "19": "f7fd8d33-0aef-4aff-9f74-3573c0de4179",
+    "20": "510a9323-e1f8-4da7-baf2-6dc8e2649b83",
+    "21": "37e7291d-d9da-4e03-a983-3507249ee327",
+    "22": "8b98465c-852f-4f31-ada7-a40b618a6edb",
+    "23": "37f701fb-840e-4d7d-a28b-a5712b790e35",
+    "24": "c73789fd-47d0-4173-8962-c79e8d5cd57d",
+    "25": "cfd89f0e-9875-42fc-95d2-9097b784d6c5",
+    "26": "0f1fbf92-9aff-4c0b-9b44-b5c4473d6d10",
+    "27": "1070e33c-f04a-4c0c-b934-6ff5d4896a00",
+    "28": "132bef0e-3799-4921-a0b5-acd4099128be",
+    "29": "d35fd933-4266-4422-898c-3da38aa3c65b",
+    "30": "2e49cc6f-39f3-4492-8c2e-1e75d612af4f",
+    "31": "c48e1339-ea1c-41be-bfca-87efeb4a7354",
+    "32": "965036c6-05d8-4231-8cc5-657422b5ac57",
+    "33": "40c0b75a-de89-47d3-9c92-9013e2253e97",
+    "34": "fbf0390f-8b27-4452-88e9-8da235f8a69a",
+    "35": "21aece0b-5266-4233-9640-044dd224c0dd",
+    "36": "20f509e1-593b-4298-86bc-b0ad656bf820",
+    "37": "3946da20-e3d9-4c3f-a302-c4a5edc152f8",
+    "38": "a4097ff8-3486-4232-a0e4-7561cb805091",
+    "39": "4e496eee-4b7a-4d46-9fe8-a95b1a11bd68",
+    "40": "e3726f3b-e4c0-47dc-a72c-c95ff78f80ae",
+    "41": "784874ff-195b-4ef0-9354-72d80f813cf6",
+    "42": "52927dcf-b367-478f-ac11-eb1d5266741b",
+    "43": "0795ffcb-e26b-4ad4-97dc-494f9a7fbedb",
+    "44": "b874c25b-2f8f-4fa7-ab00-6cea162847b0",
+    "45": "f36323dc-2f14-41aa-bc1d-ca6432556481",
+    "46": "94d67951-5a67-4068-8382-bea45d6b3313",
+    "47": "01d9db68-ddfc-4734-9b63-4da3efee4d83",
+    "48": "fc9f765d-cf62-40b5-a6a8-6234c67de7f2",
+    "49": "f66e38ce-46ac-4d11-a3fa-80409ac3b315",
+    "50": "b8a18643-3906-436e-92e8-9a3ff7e61372",
+    "51": "70209829-513b-48ce-9d85-d0d886bb7ce4",
+    "52": "4445b84f-850f-43ed-b4bc-3c0b99b55910",
+    "53": "e5ef69d4-4d1b-4dcf-9f28-039f7ddf492d",
+    "54": "5569d45e-0816-41aa-a3d2-0ddf956d73e1",
+    "55": "e4c3ae21-6953-453c-936a-4d1b05ba5a15",
+    "56": "2e6e4aaa-eaaa-4c84-94b8-eaa675821e62",
+    "57": "a7c44469-a6d9-4993-92b7-473d4d6f8d14",
+    "58": "f4ff2e12-19d4-4100-8b70-dc7f704a7388",
+    "59": "51bbfc2a-1309-433a-b189-3cbbce035063",
+    "60": "c30734be-5442-41b3-ac93-a4841c14095f",
+    "61": "2d606165-64ad-44b6-a8a9-748683fdf67f",
+    "62": "7a4d0d10-c427-4f9f-a8bc-e97b148ab2d5",
+    "63": "5b0ceb9b-8ff6-481d-94ea-3d62d7dbc4a8",
+    "64": "8ae0bd83-5fb6-44a7-abd3-005a397706ab",
+    "65": "0b5163e0-4b25-4ddd-b500-9b080abdfb5d",
+    "66": "7e86bb77-80a7-43d1-9d62-746cb5122353",
+    "67": "f0853f8f-9c39-4987-a546-8afb0f59d982",
+    "68": "691e30d0-1455-4899-ae7b-d72bf404c6d7",
+    "69": "ce26b03b-a3bc-44c7-b320-f6faced5ae26",
+    "70": "f9bb673f-62b4-456c-bd49-b1b8d3deb8d2",
+    "71": "9ef7de27-b5d0-438f-9ac6-b483e9c0ee5f",
+    "72": "dd21f07e-acf1-48e2-a699-50d40097bfa8",
+    "73": "2ba9190e-8859-429e-9140-8cde3bd2d18e",
+    "74": "b1a2c8f0-3df2-424c-9916-bbe2d080e9be",
+    "75": "d42e7d22-e315-4957-b2f3-d446ba95ea81",
+    "76": "d35663f1-6ca7-48cc-b69c-563b70b7e35a",
+    "77": "166160c8-d1fc-4534-ab54-e03098646cc2",
+    "78": "09fac69c-4e19-40ed-b6ac-acfcebc4ecd3",
+    "79": "b53b66bc-c590-4473-874b-a0a9c8e870ed",
+    "80": "aea72875-258a-4804-8932-21570a92ebbf",
+    "81": "998ef6c0-a221-4623-8bbe-59b423088a13",
+    "82": "65e7d750-d499-479f-b604-8065dc09d28e",
+    "83": "c3199f6a-7a37-4d49-91fd-ef72443723ae",
+    "84": "42f86087-4781-40f5-a98d-1242ab2f78fd",
+    "85": "47a757a2-45f7-4002-ab2d-7a4823c23a8f",
+    "86": "319a8f26-b8c4-4044-83db-d2a718f5ffc0",
+    "87": "b13785a8-04d6-4f06-9799-96a8338cc7d4",
+    "88": "2a85a606-1711-40ef-813c-faafcfd8ac15",
+    "89": "ec39432c-0d86-45a6-a823-20e5cfcc08cf",
+    "90": "6066ae5d-7a2c-4c77-b6a5-6c97f1109417",
+    "91": "ce6ee6d8-f9d0-4ac0-81f8-a44aaa9cf031",
+    "92": "2b9b6211-c668-44af-871d-acd6659a890d",
+    "93": "769aee16-a23f-4d88-98a3-d7b0e37e1de6",
+    "94": "9d342fc0-af9c-4509-93c6-7743403cd5b9",
+    "95": "71ee72f1-8168-4c44-a6bc-fce38bc68db2",
+    "96": "72cadb6c-2034-4064-bc34-c1069926216c",
+    "97": "844b04fe-0c6a-4845-9cd1-c92008a7315b",
+    "98": "19654c06-8f84-4bf6-9317-b26c9e009f72",
+    "99": "332c6106-2a54-47d4-a267-323cf44723b0",
+    "100": "0c5ccc2d-6952-4f2a-881b-055bbcac4dbc",
+    "101": "05d2c41c-ef3e-484a-b4ed-9cea97be9653",
+    "102": "65e1e883-e1cf-4b82-901a-e69d80cbeade",
+    "103": "5743a1cf-df8f-4d5c-99af-120fbe747126",
+    "104": "845d2eeb-02d3-4ea8-8e42-6fcd5da3b6b9",
+    "105": "7d99b872-3e55-4728-851b-b17cdb0a5b38",
+    "106": "e3176c0b-573a-4048-ae30-e0a94de536ba",
+    "107": "537f4e4a-0c6f-482b-a51c-913e375eb8d4",
+    "108": "1d43319d-d638-402a-b9b6-1ba32e265294",
+    "109": "8fbc98ba-a243-486d-98de-3011ef815a96",
+    "110": "9c2ac07b-1e94-4f7c-bba5-37881dd515ac",
+    "111": "3b57791b-2dd0-4d23-b7be-2579a1d651da",
+    "112": "80734960-499c-47a0-900f-ec1af4016f80",
+    "113": "1f91f231-0c86-4ba0-b254-6651756fb636",
+    "114": "690a075c-77fe-4481-b974-88673e57919a",
+    "115": "7494484e-e6fd-47ab-b82a-10bd2f96caab",
+    "116": "b393cb35-3775-410d-b8f3-0ca1ed770cdb",
+    "117": "a7e4aee5-cae3-4562-b5cd-451010e2dba9",
+    "118": "d4b529a7-09aa-423b-aefa-469e15c5d118",
+    "119": "8e92cfde-7780-46de-9ece-82635bcc141d",
+    "120": "6a2acc6c-ebf3-4252-94c0-f2e54f324af6",
+    "121": "7efd4431-f893-43e3-883c-4277ab03c139",
+    "122": "7e424924-da7b-455f-a14d-cd25b2cee772",
+    "123": "e88ce9cc-394a-413e-8551-f442a0942499",
+    "124": "fa91350b-f988-4f84-80d9-604e147b4b1e",
+    "125": "3bde19b7-3e82-4a42-904b-1c7d643faefe",
+    "126": "44cbe065-2a6c-46a4-998c-2606401cf1cd",
+    "127": "482abc7c-a0ac-414b-be45-556bd4ea7669",
+    "128": "4cdf9c6c-e95f-47ae-a751-94838ce0813f",
+    "129": "040bd292-5002-4f55-954c-c7074167a3db",
+    "130": "9dfa26c8-491e-4469-a6e4-199dffe4d4ce",
+    "131": "6a286134-d56c-4c67-b358-8ed8e7a6c17b",
+    "132": "fda45161-eeb5-45cf-95fd-6347d01b8ecf",
+    "133": "9964d3cd-8754-453a-86bb-ec905f8db985",
+    "134": "47f60db1-71c7-45bf-afec-c8c499bee9c2",
+    "135": "f1f14030-59b9-42b0-ba4e-917164aa5384",
+    "136": "f6641b3f-390f-441e-a862-ee28e1ca1e12",
+    "137": "ef330be3-da2b-4704-bb90-2a743428ac45",
+    "138": "cd561c57-5b47-45a7-9f45-23e0c319f7c4",
+    "139": "7f9e0dd0-4cb5-48fe-a29b-662f20475240",
+    "140": "e242fdef-2787-4783-9cdd-a23dd2c9af79",
+    "141": "4f48c425-7a3b-46c0-8d25-0aec5012f056",
+    "142": "1aad1796-1ed5-4338-aa57-bc9bc1694817",
+    "143": "5b7923b9-9138-4c4e-9e33-3ffc374a68e9",
+    "144": "87bffe8b-b711-44f6-aabc-52d9aaac2263",
+    "145": "56d2418f-a9fc-4eb4-9c2a-add35152cf4a",
+    "146": "7e93d9b3-d495-4358-8bd6-d886831daaca",
+    "147": "632a87c2-262c-4b41-b666-d1281e49bec1",
+    "148": "446ea39a-d824-433e-b53d-120c6f4c66bd",
+    "149": "99f2e1b9-9565-488b-a24d-a2975ce3fa69",
+    "150": "a1a9cbe7-d490-4957-b0c4-73dd9e9ddfa6",
+    "151": "4dd4c9d4-5f26-4bc6-9905-cb0a06ef56dc",
+    "152": "6130732c-5087-4d52-bdc7-3ee365573637",
+    "153": "72740c24-978f-416c-ae25-c1945fa4fa91",
+    "154": "27566db5-2782-4fc7-b0e4-a11e83ddf27c",
+    "155": "d6ec625e-4dc7-4646-9b34-a6bd6cc957c0",
+    "156": "56d84c5c-7ab2-47b6-b446-bf0198f415e3",
+    "157": "ab52c9f4-3fcc-42bc-b048-fd10da7ba410",
+    "158": "b41dd8c3-854c-4831-8879-997f5c961b86",
+    "159": "344a9427-4fc3-4764-a620-ac0c77d7407c",
+    "160": "705ee781-e319-43ad-afe0-7a947bc4678b",
+    "161": "6bcd9a96-d4f6-427a-aac9-f8a71a52f534",
+    "162": "7b881a11-3bae-4165-8d1e-b8e0b122eb18",
+    "163": "d7017011-bbb7-43f4-8013-221a4779414f",
+    "164": "5fc1ad70-84f9-4dc4-a51b-49436c335398",
+    "165": "016f6d02-5814-4d13-8092-fc180786c9f4",
+    "166": "3ec3c579-a164-4503-a26a-284ce8ebb6c4",
+    "167": "987aec37-7c8a-46ed-bb74-ceab395c89f8",
+    "168": "f1b5c26c-1028-4f53-98cf-f4b166d6faa3",
+    "169": "d05dfb9e-cdbc-4624-acaa-6d39618ba429",
+    "170": "34906847-ae7a-4897-ba51-aa70e785fc3c",
+    "171": "d6c4468c-1752-4256-9fa7-3397b7fba106",
+    "172": "69b447d0-7e7b-4942-8d6b-9e80141282f7",
+    "173": "0f6fa479-7fc7-48a1-8a0a-d83d802cbd22",
+    "174": "e19d1fbd-2962-4216-8052-56f7d3d1a6c6",
+    "175": "1bb2b349-fc70-408e-a1fc-b726a35d6505",
+    "176": "3ffaa610-3786-401d-9195-a2e4b7054d18",
+    "177": "a6a4f2fd-1a72-4ff8-801c-d0cf7d88552e",
+    "178": "52a319a6-286d-4de2-9df0-0aae6ffd7d68",
+    "179": "eb42db74-4ef0-4675-9894-e27ccee97ac1",
+    "180": "f8434bf3-2b03-4747-b810-6080514d2f35",
+    "181": "e7478172-40d2-40c2-bb97-3c727c1131bc",
+    "182": "3d6cd389-e386-4154-8057-8e2bd15306f2",
+    "183": "246db6d3-3c07-4465-ad98-5e4ef6e8df4e",
+    "184": "d0f7611f-ba26-4771-9292-0eb506955f18",
+    "185": "1681ddff-2d2c-49a1-8480-289c5ed24fca",
+    "186": "04bdecad-4663-4c9b-aaf0-1336ed0ab25f",
+    "187": "e46d86f4-0a1a-4643-bfd9-b712f9118f0b",
+    "188": "5649c9ba-b7ca-42ff-a636-f861780bf096",
+    "189": "152f4ecb-f770-4f6e-9b13-d514522a5c84",
+    "190": "e4c9a6e1-4766-47a2-b947-e517286fb2ca",
+    "191": "0f4d867f-60bf-452c-a080-2048d4f193f8",
+    "192": "a6a4085d-1a6f-4882-a4f6-c3784a77528f",
+    "193": "5aee87a6-4675-48a6-8019-26a8ee6001ed",
+    "194": "5b359072-5c33-4c62-afa5-440ec8902b2e",
+    "195": "c4c30666-443d-457c-a479-014408d1ad41",
+    "196": "66c96bc6-97f0-4add-afab-9d26e3e26899",
+    "197": "0708702d-ae3b-42cf-9fa1-53fe4c659ba8",
+    "198": "d5020fd3-634a-47f9-a382-22c042e57a94",
+    "199": "6d7ff724-e474-4f74-8620-a9cb111c1fec",
+    "200": "1b496fb4-1577-4320-9fac-9a2b5a01161a",
+    "201": "459f1c0b-e0cc-40e4-9fed-7311ac6d08b7",
+    "202": "ac43a609-17c2-4ef9-b1d6-a0f434f0c131",
+    "203": "b4c100f2-ff0f-48a0-8cac-f69246d8c960",
+    "204": "47f24d2c-930a-480b-a756-976eb0cca04c",
+    "205": "14bcc9d7-6cf6-4794-b6cc-40cc1400f480",
+    "206": "6fb44823-cb6f-48f3-ae1c-662118285b0f"
+  }
+}

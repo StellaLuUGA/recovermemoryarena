@@ -1,0 +1,74 @@
+{
+  "task_id": "23cf851_3",
+  "n_steps": 7,
+  "trajectory": [
+    {
+      "step": 0,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false
+    },
+    {
+      "step": 1,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 2,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 3,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false,
+      "exec_ok": false
+    },
+    {
+      "step": 4,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 5,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 6,
+      "passes": 1,
+      "num_tests": 2,
+      "success": false,
+      "exec_ok": true
+    },
+    {
+      "step": 7,
+      "passes": 2,
+      "num_tests": 2,
+      "success": true,
+      "exec_ok": true
+    }
+  ],
+  "distinct_utility_levels": 2,
+  "n_transitions": 1,
+  "utility_curve": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "final_success": true
+}

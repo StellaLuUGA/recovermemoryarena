@@ -1,0 +1,124 @@
+{
+  "rule": "two-stage scorer-independent budget rule; NON-TEST personas only",
+  "tokenizer": {
+    "path": "/home/aristella/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "exact": true
+  },
+  "inputs": {
+    "B_ctx": 32768,
+    "B_out": 1024,
+    "B_safe": 512,
+    "ladder": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "B_out_note": "the released MCQ prompt requires reasoning before 'Final Answer: [Letter]'. An initial reserve of 256 truncated the chain on 116/138 smoke calls; measured need is 270/350/718 tokens (min/median/max) over 10 held-out predictor_train queries, so 1024 is used.",
+    "write_chunk_tokens": 4096
+  },
+  "stage1": {
+    "pool": "all 1026 eligible rows of the 48 non-test personas",
+    "B_base": {
+      "min": 220,
+      "median": 356,
+      "max": 1629
+    },
+    "B_avail": {
+      "min": 29603,
+      "q05": 30731,
+      "median": 30876,
+      "max": 31012
+    },
+    "B_cap": 16384,
+    "B_cap_before_B_out_correction": 16384
+  },
+  "stage2": {
+    "audit_personas": [
+      59,
+      70,
+      86
+    ],
+    "per_persona": [
+      {
+        "persona_id": 59,
+        "n_messages": 1049,
+        "history_tokens": 129650,
+        "n_write_chunks": 34,
+        "build_s": 1471.4,
+        "mem0_memory_count": 226,
+        "mem0_parse_failures": 20,
+        "n_queries": 23,
+        "uncapped_evidence_tokens": {
+          "min": 1515,
+          "median": 1584,
+          "max": 1699
+        },
+        "n_candidates": 50,
+        "largest_candidate_tokens": 82
+      },
+      {
+        "persona_id": 70,
+        "n_messages": 1101,
+        "history_tokens": 129188,
+        "n_write_chunks": 33,
+        "build_s": 308.0,
+        "mem0_memory_count": 192,
+        "mem0_parse_failures": 24,
+        "n_queries": 23,
+        "uncapped_evidence_tokens": {
+          "min": 1484,
+          "median": 1601,
+          "max": 1773
+        },
+        "n_candidates": 50,
+        "largest_candidate_tokens": 74
+      },
+      {
+        "persona_id": 86,
+        "n_messages": 807,
+        "history_tokens": 91082,
+        "n_write_chunks": 24,
+        "build_s": 235.9,
+        "mem0_memory_count": 115,
+        "mem0_parse_failures": 22,
+        "n_queries": 23,
+        "uncapped_evidence_tokens": {
+          "min": 1578,
+          "median": 1657,
+          "max": 1727
+        },
+        "n_candidates": 50,
+        "largest_candidate_tokens": 67
+      }
+    ],
+    "max_uncapped_mem0_evidence_tokens": 1773,
+    "B_host": 2048
+  },
+  "frozen": {
+    "B_mem": 2048,
+    "B_rec": 2048,
+    "binding_stage": "B_host"
+  },
+  "raw_history": {
+    "audit_min": 91082,
+    "audit_median": 129188,
+    "audit_max": 129650,
+    "ratio_median_over_B_rec": 63.1,
+    "ratio_median_over_B_ctx": 3.94
+  },
+  "outcome_independence": "no answer, correctness, u_mem/u_rec, R, scorer, FS, coverage or final-test data was read",
+  "budget_invariance_under_B_out_correction": {
+    "B_out_before": 256,
+    "B_out_after": 1024,
+    "B_cap_before": 16384,
+    "B_cap_after": 16384,
+    "B_host_unchanged": true,
+    "B_host_reason": "B_host is derived from native Mem0 evidence size and does not depend on B_out",
+    "B_mem_before": 2048,
+    "B_mem_after": 2048,
+    "unchanged": true
+  }
+}

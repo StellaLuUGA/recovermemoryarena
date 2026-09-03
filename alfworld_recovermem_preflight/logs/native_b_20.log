@@ -1,0 +1,22 @@
+[00] pick_and_place_simple            won=0 rank=0/max0/K4 ctrl=0@None acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1535
+[01] pick_clean_then_place_in_recep   won=0 rank=0/max0/K6 ctrl=0@None acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1813
+[02] pick_cool_then_place_in_recep    won=0 rank=0/max0/K6 ctrl=0@None acts=50 dist=3 rep=20 inval=31 vrate=0.38 tok=1928
+[03] pick_clean_then_place_in_recep   won=0 rank=0/max0/K6 ctrl=0@None acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1821
+[04] pick_cool_then_place_in_recep    won=0 rank=0/max0/K6 ctrl=0@None acts=50 dist=3 rep=38 inval=47 vrate=0.06 tok=1717
+[05] pick_and_place_simple            won=0 rank=1/max1/K4 ctrl=1@1 acts=50 dist=2 rep=35 inval=35 vrate=0.30 tok=1932
+[06] pick_heat_then_place_in_recep    won=0 rank=1/max1/K6 ctrl=1@1 acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1721
+[07] pick_two_obj_and_place           won=0 rank=1/max1/K8 ctrl=1@2 acts=50 dist=2 rep=49 inval=48 vrate=0.04 tok=1703
+[08] pick_and_place_simple            won=0 rank=0/max0/K4 ctrl=0@None acts=50 dist=2 rep=49 inval=48 vrate=0.04 tok=1702
+[09] pick_two_obj_and_place           won=0 rank=0/max0/K8 ctrl=0@None acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1535
+[10] pick_two_obj_and_place           won=0 rank=0/max0/K8 ctrl=0@None acts=50 dist=2 rep=49 inval=48 vrate=0.04 tok=1695
+[11] look_at_obj_in_light             won=0 rank=0/max0/K4 ctrl=0@None acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1624
+[12] look_at_obj_in_light             won=0 rank=1/max1/K4 ctrl=1@1 acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1642
+[13] pick_clean_then_place_in_recep   won=0 rank=1/max1/K6 ctrl=1@1 acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1820
+[14] look_at_obj_in_light             won=0 rank=0/max0/K4 ctrl=0@None acts=50 dist=1 rep=50 inval=49 vrate=0.02 tok=1625
+[15] pick_and_place_simple            won=0 rank=0/max0/K4 ctrl=0@None acts=50 dist=2 rep=46 inval=46 vrate=0.08 tok=1722
+[16] pick_heat_then_place_in_recep    won=0 rank=0/max0/K6 ctrl=0@None acts=50 dist=2 rep=48 inval=48 vrate=0.04 tok=1696
+[17] pick_cool_then_place_in_recep    won=0 rank=0/max0/K6 ctrl=0@None acts=50 dist=2 rep=48 inval=48 vrate=0.04 tok=1697
+[18] pick_and_place_simple            won=0 rank=0/max0/K4 ctrl=0@None acts=50 dist=2 rep=49 inval=48 vrate=0.04 tok=1689
+[19] pick_two_obj_and_place           won=0 rank=1/max1/K8 ctrl=1@1 acts=50 dist=2 rep=31 inval=39 vrate=0.22 tok=1846
+
+W_B = 6/20   full_task_success = 0/20

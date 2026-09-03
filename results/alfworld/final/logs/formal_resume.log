@@ -1,0 +1,520 @@
+[04:16:43] resuming from stage=fit_predictor
+[04:16:43] model role audit written; mem0 commit 39bc02330563
+[04:16:43] WARNING: expected exactly one Qwen server on 8124, found: ['1560194 /bin/bash -c source /home/aristella/.claude/shell-snapshots/snapshot-bash-1788107367731-km8uvn.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- \'unsetenv\'; \\builtin unset -f -- \'unsetenv\'; } >/dev/null 2>&1 || true && eval \'mkdir -p results/alfworld/final/logs && until [ "$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits)" -lt 2000 ]; do sleep 5; done && nohup ~/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server \\   --model /home/aristella/models/Qwen3-32B-AWQ \\   --served-model-name qwen3-32b-awq-local \\   --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 \\   --no-enable-prefix-caching \\   --default-chat-template-kwargs \'"\'"\'{"enable_thinking": false}\'"\'"\' \\   > results/alfworld/final/logs/vllm_qwen3_formal.log 2>&1 & echo "qwen pid $!"\' < /dev/null && pwd -P >| /tmp/claude-d9b5-cwd', '1560198 /home/aristella/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server --model /home/aristella/models/Qwen3-32B-AWQ --served-model-name qwen3-32b-awq-local --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 --no-enable-prefix-caching --default-chat-template-kwargs {"enable_thinking": false}', "1566555 bash -lc pgrep -af 'vllm.entrypoints' || true"]
+[04:16:43] B_mem=1024 B_rec=1024 (frozen sha=6df85870e9240b85)
+[04:16:43] === STAGE: collect_predictor_train ===
+[04:16:43] === STAGE: fit_predictor ===
+[04:16:43] predictor_train: 36 decisions, pi=0.9444, cells={'00': 1, '01': 1, '10': 0, '11': 34}
+[04:16:43] predictor frozen sha=1be2ffa0acb62d9f train AUROC=0.9559 AUPRC=0.9975
+[04:16:43] === STAGE: collect_calibration ===
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17106.73it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:17:20]   [1/24] look_at_obj_in_light-Pencil-None-DeskLamp-308_ acts= 5 won=1 maxrank=3/4 dec=3 tok=70223
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14110.70it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:21:39]   [2/24] pick_cool_then_place_in_recep-Mug-None-CoffeeM acts=50 won=0 maxrank=0/6 dec=0 tok=526373
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14263.98it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:22:21]   [3/24] pick_and_place_simple-Watch-None-Safe-219__tri acts= 6 won=1 maxrank=3/4 dec=3 tok=75401
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15644.72it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:24:26]   [4/24] pick_cool_then_place_in_recep-Mug-None-Cabinet acts=23 won=1 maxrank=5/6 dec=2 tok=253380
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13950.76it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:25:34]   [5/24] pick_heat_then_place_in_recep-Cup-None-Cabinet acts= 9 won=1 maxrank=5/6 dec=5 tok=110713
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16670.40it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:27:16]   [6/24] pick_clean_then_place_in_recep-Cloth-None-Cabi acts=18 won=1 maxrank=3/6 dec=3 tok=200381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14564.05it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:30:10]   [7/24] pick_cool_then_place_in_recep-Pan-None-Counter acts=29 won=1 maxrank=5/6 dec=3 tok=333699
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13686.47it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:34:28]   [8/24] pick_clean_then_place_in_recep-Knife-None-Coun acts=50 won=0 maxrank=0/6 dec=0 tok=537816
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14343.55it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:38:42]   [9/24] pick_clean_then_place_in_recep-Spatula-None-Dr acts=50 won=0 maxrank=0/6 dec=0 tok=529516
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12064.04it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:42:51]   [10/24] pick_clean_then_place_in_recep-Spatula-None-Dr acts=50 won=0 maxrank=0/6 dec=0 tok=525401
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12758.81it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:47:28]   [11/24] pick_heat_then_place_in_recep-Apple-None-Fridg acts=50 won=0 maxrank=5/6 dec=2 tok=613954
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14590.61it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:48:18]   [12/24] pick_clean_then_place_in_recep-Plate-None-Coun acts= 6 won=1 maxrank=5/6 dec=5 tok=78108
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16367.24it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:49:15]   [13/24] pick_and_place_simple-SaltShaker-None-Cabinet- acts= 9 won=1 maxrank=3/4 dec=3 tok=103141
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15227.82it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:53:28]   [14/24] pick_clean_then_place_in_recep-Cloth-None-Cabi acts=50 won=0 maxrank=0/6 dec=0 tok=521852
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15150.92it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:56:26]   [15/24] pick_and_place_simple-SaltShaker-None-Drawer-1 acts=30 won=1 maxrank=3/4 dec=3 tok=324444
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18290.92it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[04:57:05]   [16/24] look_at_obj_in_light-Pencil-None-DeskLamp-308_ acts= 6 won=1 maxrank=3/4 dec=3 tok=72564
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14975.50it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:00:21]   [17/24] pick_two_obj_and_place-CD-None-Safe-308__trial acts=29 won=1 maxrank=7/8 dec=7 tok=396367
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12742.25it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:05:28]   [18/24] pick_two_obj_and_place-KeyChain-None-Safe-219_ acts=50 won=0 maxrank=4/8 dec=4 tok=643330
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15855.45it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:10:11]   [19/24] pick_two_obj_and_place-SoapBar-None-Cabinet-42 acts=50 won=0 maxrank=4/8 dec=4 tok=597996
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15532.23it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:11:05]   [20/24] pick_and_place_simple-SoapBottle-None-Toilet-4 acts= 9 won=1 maxrank=3/4 dec=3 tok=102292
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14604.42it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:12:46]   [21/24] pick_heat_then_place_in_recep-Tomato-None-Garb acts=13 won=1 maxrank=5/6 dec=5 tok=183874
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16540.19it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:16:50]   [22/24] pick_heat_then_place_in_recep-Egg-None-Garbage acts=50 won=0 maxrank=0/6 dec=0 tok=531964
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14501.47it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:18:07]   [23/24] pick_heat_then_place_in_recep-Cup-None-Cabinet acts=11 won=1 maxrank=5/6 dec=5 tok=132077
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14006.40it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:19:07]   [24/24] look_at_obj_in_light-CD-None-DeskLamp-308__tri acts=11 won=1 maxrank=3/4 dec=3 tok=122638
+[05:19:07] === STAGE: calibrate ===
+[05:19:07] thresholds frozen sha=ebad38b0a206f913 nonempty_cal=18/24
+[05:19:07]     fixed_f1                 tau=0.07971189010325666  feasible=None
+[05:19:07]     empirical_risk_0.05      tau=0.4800924703964429  feasible=True
+[05:19:07]     random_crc_0.05          tau=Infinity  feasible=False
+[05:19:07]     recovermem_crc_0.05      tau=Infinity  feasible=False
+[05:19:07]     empirical_risk_0.10      tau=-Infinity  feasible=True
+[05:19:07]     random_crc_0.10          tau=0.054514811423870047  feasible=True
+[05:19:07]     recovermem_crc_0.10      tau=0.4800924703964429  feasible=True
+[05:19:07]     empirical_risk_0.20      tau=-Infinity  feasible=True
+[05:19:07]     random_crc_0.20          tau=-Infinity  feasible=True
+[05:19:07]     recovermem_crc_0.20      tau=-Infinity  feasible=True
+[05:19:07]     always_trust             tau=-Infinity  feasible=True
+[05:19:07]     always_recover           tau=Infinity  feasible=True
+[05:19:07] === STAGE: collect_final_test ===
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15256.32it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:20:33]   [1/24] pick_and_place_simple-Mug-None-Desk-308__trial acts=16 won=1 maxrank=3/4 dec=3 tok=172411
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16688.43it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:21:47]   [2/24] pick_heat_then_place_in_recep-Mug-None-Cabinet acts=10 won=1 maxrank=5/6 dec=5 tok=121123
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14710.34it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:23:08]   [3/24] pick_and_place_simple-SoapBottle-None-Toilet-4 acts=15 won=1 maxrank=3/4 dec=3 tok=161781
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15344.11it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:26:18]   [4/24] look_at_obj_in_light-AlarmClock-None-DeskLamp- acts=37 won=1 maxrank=3/4 dec=3 tok=392976
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15750.24it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:27:53]   [5/24] pick_cool_then_place_in_recep-Lettuce-None-Cou acts=15 won=1 maxrank=5/6 dec=2 tok=179501
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14355.94it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:32:07]   [6/24] pick_cool_then_place_in_recep-Pan-None-Counter acts=50 won=0 maxrank=0/6 dec=0 tok=523479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15691.89it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:33:25]   [7/24] pick_heat_then_place_in_recep-Mug-None-Cabinet acts=11 won=1 maxrank=5/6 dec=5 tok=132272
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14647.50it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:37:44]   [8/24] pick_two_obj_and_place-Pillow-None-Sofa-219__t acts=43 won=1 maxrank=7/8 dec=7 tok=480284
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12066.06it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:39:17]   [9/24] pick_clean_then_place_in_recep-Mug-None-Coffee acts=14 won=1 maxrank=5/6 dec=5 tok=160077
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15794.00it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:41:47]   [10/24] look_at_obj_in_light-Book-None-DeskLamp-308__t acts=31 won=1 maxrank=3/4 dec=3 tok=333743
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12534.11it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:43:43]   [11/24] pick_two_obj_and_place-SoapBar-None-Cabinet-42 acts=17 won=1 maxrank=7/8 dec=7 tok=228429
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15293.05it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:47:43]   [12/24] pick_heat_then_place_in_recep-Apple-None-Fridg acts=50 won=0 maxrank=0/6 dec=0 tok=518381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12811.02it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:51:58]   [13/24] pick_and_place_simple-SaltShaker-None-Cabinet- acts=50 won=0 maxrank=0/4 dec=0 tok=526083
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16377.79it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:53:42]   [14/24] pick_heat_then_place_in_recep-Mug-None-Cabinet acts=16 won=1 maxrank=5/6 dec=5 tok=185070
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14650.98it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:55:03]   [15/24] pick_clean_then_place_in_recep-SoapBar-None-Co acts=14 won=1 maxrank=5/6 dec=5 tok=156740
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13979.66it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:55:49]   [16/24] look_at_obj_in_light-CD-None-DeskLamp-308__tri acts= 5 won=1 maxrank=3/4 dec=3 tok=91284
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13846.14it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:56:27]   [17/24] look_at_obj_in_light-Pencil-None-DeskLamp-308_ acts= 4 won=1 maxrank=3/4 dec=2 tok=78367
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15145.08it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[05:58:11]   [18/24] pick_two_obj_and_place-SoapBar-None-GarbageCan acts=17 won=1 maxrank=7/8 dec=7 tok=203014
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16002.27it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:00:03]   [19/24] pick_clean_then_place_in_recep-Mug-None-Coffee acts=18 won=1 maxrank=5/6 dec=5 tok=202086
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17019.79it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:04:07]   [20/24] pick_and_place_simple-Vase-None-Safe-219__tria acts=50 won=0 maxrank=0/4 dec=0 tok=521656
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14481.54it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:08:13]   [21/24] pick_clean_then_place_in_recep-Pan-None-Counte acts=50 won=0 maxrank=0/6 dec=0 tok=522003
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13759.70it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:08:59]   [22/24] pick_clean_then_place_in_recep-Cloth-None-Coun acts= 7 won=1 maxrank=5/6 dec=5 tok=86218
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15478.80it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:14:00]   [23/24] pick_cool_then_place_in_recep-Bread-None-Count acts=50 won=0 maxrank=3/6 dec=3 tok=615054
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14613.31it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:18:06]   [24/24] pick_clean_then_place_in_recep-SoapBar-None-Ca acts=50 won=0 maxrank=0/6 dec=0 tok=524054
+[06:18:06] === STAGE: table1 ===
+[06:18:06] === STAGE: freeze_table2_manifest ===
+[06:18:06] table2 manifest frozen sha=56aef2aeec3f8e45
+[06:18:06] === STAGE: table2_rollouts ===
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14951.66it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:19:23]   [always_trust          1/20] task=1 acts=16 routes=3 rec=0.00 tok=163186
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14227.81it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:20:10]   [always_trust          2/20] task=1 acts= 9 routes=5 rec=0.00 tok=94479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12997.57it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:21:23]   [always_trust          3/20] task=1 acts=15 routes=3 rec=0.00 tok=152801
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14203.49it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:24:26]   [always_trust          4/20] task=1 acts=39 routes=2 rec=0.00 tok=398494
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15587.15it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:25:49]   [always_trust          5/20] task=1 acts=16 routes=2 rec=0.00 tok=167236
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13930.52it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:30:02]   [always_trust          6/20] task=0 acts=50 routes=0 rec=0.00 tok=523479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17272.24it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:31:01]   [always_trust          7/20] task=1 acts=12 routes=5 rec=0.00 tok=123474
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12998.35it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:34:43]   [always_trust          8/20] task=1 acts=45 routes=7 rec=0.00 tok=466568
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17356.90it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:35:53]   [always_trust          9/20] task=1 acts=14 routes=5 rec=0.00 tok=144389
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15609.11it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:37:55]   [always_trust         10/20] task=1 acts=26 routes=3 rec=0.00 tok=265688
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16788.95it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:38:57]   [always_trust         11/20] task=1 acts=12 routes=7 rec=0.00 tok=124291
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14427.86it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:42:57]   [always_trust         12/20] task=0 acts=50 routes=0 rec=0.00 tok=518381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14171.34it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:47:11]   [always_trust         13/20] task=0 acts=50 routes=0 rec=0.00 tok=526083
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15037.01it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:48:35]   [always_trust         14/20] task=1 acts=17 routes=5 rec=0.00 tok=175091
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17266.03it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:49:44]   [always_trust         15/20] task=1 acts=14 routes=5 rec=0.00 tok=142670
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15011.93it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:52:03]   [always_trust         16/20] task=1 acts=28 routes=4 rec=0.00 tok=288103
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16320.87it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:52:24]   [always_trust         17/20] task=1 acts= 4 routes=2 rec=0.00 tok=45623
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14140.73it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:54:02]   [always_trust         18/20] task=1 acts=20 routes=7 rec=0.00 tok=201138
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14834.60it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:55:30]   [always_trust         19/20] task=1 acts=18 routes=5 rec=0.00 tok=184862
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12176.59it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[06:59:34]   [always_trust         20/20] task=0 acts=50 routes=0 rec=0.00 tok=521656
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14339.74it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:00:53]   [always_recover        1/20] task=1 acts=16 routes=3 rec=1.00 tok=164470
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15492.68it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:01:42]   [always_recover        2/20] task=1 acts= 9 routes=5 rec=1.00 tok=96145
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14811.21it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:02:55]   [always_recover        3/20] task=1 acts=15 routes=3 rec=1.00 tok=153899
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11727.06it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:05:49]   [always_recover        4/20] task=1 acts=37 routes=2 rec=1.00 tok=380373
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15785.92it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:07:15]   [always_recover        5/20] task=1 acts=17 routes=2 rec=1.00 tok=179813
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15002.55it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:11:29]   [always_recover        6/20] task=0 acts=50 routes=0 rec=0.00 tok=523479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15275.74it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:12:23]   [always_recover        7/20] task=1 acts=11 routes=5 rec=1.00 tok=115733
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14615.29it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:15:51]   [always_recover        8/20] task=1 acts=42 routes=7 rec=1.00 tok=437192
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15137.12it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:17:01]   [always_recover        9/20] task=1 acts=14 routes=5 rec=1.00 tok=146313
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14033.24it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:18:45]   [always_recover       10/20] task=1 acts=22 routes=3 rec=1.00 tok=226695
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12327.74it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:22:03]   [always_recover       11/20] task=1 acts=32 routes=8 rec=1.00 tok=330400
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14184.83it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:26:01]   [always_recover       12/20] task=0 acts=50 routes=0 rec=0.00 tok=518381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15616.44it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:30:16]   [always_recover       13/20] task=0 acts=50 routes=0 rec=0.00 tok=526083
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15469.38it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:31:41]   [always_recover       14/20] task=1 acts=17 routes=5 rec=1.00 tok=177763
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14577.81it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:32:51]   [always_recover       15/20] task=1 acts=14 routes=5 rec=1.00 tok=144074
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11800.42it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:33:18]   [always_recover       16/20] task=1 acts= 5 routes=3 rec=1.00 tok=56271
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14310.29it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:36:55]   [always_recover       17/20] task=1 acts=48 routes=5 rec=1.00 tok=493789
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14889.82it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:38:22]   [always_recover       18/20] task=1 acts=18 routes=7 rec=1.00 tok=184996
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13986.44it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:39:52]   [always_recover       19/20] task=1 acts=18 routes=5 rec=1.00 tok=187325
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16221.59it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:43:57]   [always_recover       20/20] task=0 acts=50 routes=0 rec=0.00 tok=521656
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14074.39it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:45:15]   [empirical_risk_0.10   1/20] task=1 acts=16 routes=3 rec=0.00 tok=163186
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14519.02it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:46:02]   [empirical_risk_0.10   2/20] task=1 acts= 9 routes=5 rec=0.00 tok=94479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15813.66it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:47:16]   [empirical_risk_0.10   3/20] task=1 acts=15 routes=3 rec=0.00 tok=152801
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15858.36it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:50:17]   [empirical_risk_0.10   4/20] task=1 acts=39 routes=2 rec=0.00 tok=398494
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14082.19it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:51:39]   [empirical_risk_0.10   5/20] task=1 acts=16 routes=2 rec=0.00 tok=167236
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15526.64it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:55:52]   [empirical_risk_0.10   6/20] task=0 acts=50 routes=0 rec=0.00 tok=523479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15306.59it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[07:56:51]   [empirical_risk_0.10   7/20] task=1 acts=12 routes=5 rec=0.00 tok=123474
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13540.61it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:00:32]   [empirical_risk_0.10   8/20] task=1 acts=45 routes=7 rec=0.00 tok=466568
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14872.39it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:01:44]   [empirical_risk_0.10   9/20] task=1 acts=14 routes=5 rec=0.00 tok=144389
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13742.19it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:03:47]   [empirical_risk_0.10  10/20] task=1 acts=26 routes=3 rec=0.00 tok=265688
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13108.79it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:04:49]   [empirical_risk_0.10  11/20] task=1 acts=12 routes=7 rec=0.00 tok=124291
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14816.80it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:08:48]   [empirical_risk_0.10  12/20] task=0 acts=50 routes=0 rec=0.00 tok=518381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13147.09it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:13:03]   [empirical_risk_0.10  13/20] task=0 acts=50 routes=0 rec=0.00 tok=526083
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12702.16it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:14:25]   [empirical_risk_0.10  14/20] task=1 acts=17 routes=5 rec=0.00 tok=175091
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14717.86it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:15:34]   [empirical_risk_0.10  15/20] task=1 acts=14 routes=5 rec=0.00 tok=142670
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13233.67it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:17:53]   [empirical_risk_0.10  16/20] task=1 acts=28 routes=4 rec=0.00 tok=288103
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13951.21it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:18:14]   [empirical_risk_0.10  17/20] task=1 acts= 4 routes=2 rec=0.00 tok=45623
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13270.67it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:19:51]   [empirical_risk_0.10  18/20] task=1 acts=20 routes=7 rec=0.00 tok=201138
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13773.30it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:21:21]   [empirical_risk_0.10  19/20] task=1 acts=18 routes=5 rec=0.00 tok=184862
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17133.87it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:25:23]   [empirical_risk_0.10  20/20] task=0 acts=50 routes=0 rec=0.00 tok=521656
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13761.45it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:26:40]   [random_crc_0.10       1/20] task=1 acts=16 routes=3 rec=0.00 tok=163186
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12695.45it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:27:27]   [random_crc_0.10       2/20] task=1 acts= 9 routes=5 rec=0.00 tok=94479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14338.79it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:28:41]   [random_crc_0.10       3/20] task=1 acts=15 routes=3 rec=0.00 tok=152801
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13427.40it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:31:43]   [random_crc_0.10       4/20] task=1 acts=39 routes=2 rec=0.00 tok=398494
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15940.86it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:33:04]   [random_crc_0.10       5/20] task=1 acts=16 routes=2 rec=0.00 tok=167236
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13648.42it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:37:18]   [random_crc_0.10       6/20] task=0 acts=50 routes=0 rec=0.00 tok=523479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14194.62it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:38:17]   [random_crc_0.10       7/20] task=1 acts=12 routes=5 rec=0.00 tok=123474
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12506.54it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:42:01]   [random_crc_0.10       8/20] task=1 acts=45 routes=7 rec=0.00 tok=466568
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11906.11it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:43:10]   [random_crc_0.10       9/20] task=1 acts=14 routes=5 rec=0.00 tok=144389
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13617.87it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:45:15]   [random_crc_0.10      10/20] task=1 acts=26 routes=3 rec=0.00 tok=265688
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15946.75it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:46:17]   [random_crc_0.10      11/20] task=1 acts=12 routes=7 rec=0.00 tok=124291
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13990.07it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:50:15]   [random_crc_0.10      12/20] task=0 acts=50 routes=0 rec=0.00 tok=518381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14306.02it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:54:32]   [random_crc_0.10      13/20] task=0 acts=50 routes=0 rec=0.00 tok=526083
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14964.09it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:55:56]   [random_crc_0.10      14/20] task=1 acts=17 routes=5 rec=0.00 tok=175091
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14729.40it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:57:05]   [random_crc_0.10      15/20] task=1 acts=14 routes=5 rec=0.00 tok=142670
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14081.73it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:59:25]   [random_crc_0.10      16/20] task=1 acts=28 routes=4 rec=0.00 tok=288103
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16359.80it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[08:59:45]   [random_crc_0.10      17/20] task=1 acts= 4 routes=2 rec=0.00 tok=45623
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13085.36it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:01:23]   [random_crc_0.10      18/20] task=1 acts=20 routes=7 rec=0.00 tok=201138
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14816.29it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:02:52]   [random_crc_0.10      19/20] task=1 acts=18 routes=5 rec=0.00 tok=184862
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14149.99it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:06:57]   [random_crc_0.10      20/20] task=0 acts=50 routes=0 rec=0.00 tok=521656
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15527.76it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:08:14]   [recovermem_crc_0.10   1/20] task=1 acts=16 routes=3 rec=0.00 tok=163186
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15125.46it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:09:02]   [recovermem_crc_0.10   2/20] task=1 acts= 9 routes=5 rec=0.20 tok=95851
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12247.01it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:10:15]   [recovermem_crc_0.10   3/20] task=1 acts=15 routes=3 rec=0.00 tok=152801
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12762.96it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:13:18]   [recovermem_crc_0.10   4/20] task=1 acts=39 routes=2 rec=0.00 tok=398494
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14537.09it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:14:38]   [recovermem_crc_0.10   5/20] task=1 acts=16 routes=2 rec=0.00 tok=167236
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14550.80it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:18:52]   [recovermem_crc_0.10   6/20] task=0 acts=50 routes=0 rec=0.00 tok=523479
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15981.55it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:19:52]   [recovermem_crc_0.10   7/20] task=1 acts=12 routes=5 rec=0.20 tok=124901
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15381.80it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:23:37]   [recovermem_crc_0.10   8/20] task=1 acts=45 routes=7 rec=0.29 tok=470693
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15250.94it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:24:46]   [recovermem_crc_0.10   9/20] task=1 acts=14 routes=5 rec=0.20 tok=145959
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15359.93it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:26:50]   [recovermem_crc_0.10  10/20] task=1 acts=26 routes=3 rec=0.00 tok=265688
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16116.29it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:29:55]   [recovermem_crc_0.10  11/20] task=1 acts=29 routes=7 rec=0.14 tok=298527
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15768.06it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:33:53]   [recovermem_crc_0.10  12/20] task=0 acts=50 routes=0 rec=0.00 tok=518381
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14309.81it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:38:09]   [recovermem_crc_0.10  13/20] task=0 acts=50 routes=0 rec=0.00 tok=526083
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13518.16it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:39:32]   [recovermem_crc_0.10  14/20] task=1 acts=17 routes=5 rec=0.20 tok=176784
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16607.59it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:40:42]   [recovermem_crc_0.10  15/20] task=1 acts=14 routes=5 rec=0.40 tok=145579
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14776.25it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:43:02]   [recovermem_crc_0.10  16/20] task=1 acts=28 routes=4 rec=0.00 tok=288103
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14196.95it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:43:22]   [recovermem_crc_0.10  17/20] task=1 acts= 4 routes=2 rec=0.00 tok=45623
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14960.98it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:44:52]   [recovermem_crc_0.10  18/20] task=1 acts=18 routes=7 rec=0.57 tok=188276
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14003.67it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:46:21]   [recovermem_crc_0.10  19/20] task=1 acts=18 routes=5 rec=0.00 tok=184862
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15057.98it/s]
+The 'faiss' vector store does not support keyword search. Hybrid (BM25) scoring will be disabled and search will use semantic similarity only. To enable hybrid search, switch to a store with keyword_search support (e.g. qdrant, elasticsearch, pgvector).
+[09:50:25]   [recovermem_crc_0.10  20/20] task=0 acts=50 routes=0 rec=0.00 tok=521656
+[09:50:34]   [raw_history_only      1/20] task=1 acts=16 routes=0 rec=0.00 tok=20536
+[09:50:41]   [raw_history_only      2/20] task=1 acts=10 routes=0 rec=0.00 tok=13149
+[09:50:49]   [raw_history_only      3/20] task=1 acts=15 routes=0 rec=0.00 tok=18495
+[09:51:13]   [raw_history_only      4/20] task=1 acts=37 routes=0 rec=0.00 tok=58066
+[09:51:24]   [raw_history_only      5/20] task=1 acts=15 routes=0 rec=0.00 tok=21709
+[09:52:03]   [raw_history_only      6/20] task=0 acts=50 routes=0 rec=0.00 tok=91362
+[09:52:10]   [raw_history_only      7/20] task=1 acts=11 routes=0 rec=0.00 tok=14496
+[09:52:41]   [raw_history_only      8/20] task=1 acts=43 routes=0 rec=0.00 tok=72766
+[09:52:51]   [raw_history_only      9/20] task=1 acts=14 routes=0 rec=0.00 tok=19037
+[09:53:10]   [raw_history_only     10/20] task=1 acts=31 routes=0 rec=0.00 tok=46696
+[09:53:20]   [raw_history_only     11/20] task=1 acts=17 routes=0 rec=0.00 tok=21999
+[09:53:57]   [raw_history_only     12/20] task=0 acts=50 routes=0 rec=0.00 tok=86767
+[09:54:35]   [raw_history_only     13/20] task=0 acts=50 routes=0 rec=0.00 tok=91994
+[09:54:46]   [raw_history_only     14/20] task=1 acts=16 routes=0 rec=0.00 tok=22475
+[09:54:53]   [raw_history_only     15/20] task=1 acts=14 routes=0 rec=0.00 tok=16772
+[09:54:56]   [raw_history_only     16/20] task=1 acts= 5 routes=0 rec=0.00 tok=5772
+[09:54:59]   [raw_history_only     17/20] task=1 acts= 4 routes=0 rec=0.00 tok=4544
+[09:55:08]   [raw_history_only     18/20] task=1 acts=17 routes=0 rec=0.00 tok=21479
+[09:55:20]   [raw_history_only     19/20] task=1 acts=18 routes=0 rec=0.00 tok=25599
+[09:55:57]   [raw_history_only     20/20] task=0 acts=50 routes=0 rec=0.00 tok=89783
+[09:55:57] === STAGE: table2_summary ===
+[09:55:57] === STAGE: final_report ===
+Traceback (most recent call last):
+  File "/home/aristella/miniconda3/envs/alfworld/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/aristella/miniconda3/envs/alfworld/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/aristella/recoverappworld/af_formal/run_all.py", line 402, in <module>
+    main()
+  File "/home/aristella/recoverappworld/af_formal/run_all.py", line 224, in main
+    final_report(audit, freeze, pmeta, thresholds, t1, t2, base, t0)
+  File "/home/aristella/recoverappworld/af_formal/run_all.py", line 238, in final_report
+    d_ca = S.diagnostics(S.load_records(ca), S.episode_ids(ca), "calibration")
+  File "/home/aristella/recoverappworld/af_formal/stages.py", line 244, in diagnostics
+    eps, empty = episodes_of(keep, all_ids, require_score=require_score)
+  File "/home/aristella/recoverappworld/af_formal/stages.py", line 220, in episodes_of
+    eps = group_by_episode(rows)
+  File "/home/aristella/RecoverMemMinimal/update_replicate/recovermem/metrics/weighting.py", line 62, in group_by_episode
+    buckets[ep].scores.append(float(row["score"]))
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+[09:57:04] resuming from stage=final_report
+[09:57:04] model role audit written; mem0 commit 39bc02330563
+[09:57:04] WARNING: expected exactly one Qwen server on 8124, found: ['1560194 /bin/bash -c source /home/aristella/.claude/shell-snapshots/snapshot-bash-1788107367731-km8uvn.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- \'unsetenv\'; \\builtin unset -f -- \'unsetenv\'; } >/dev/null 2>&1 || true && eval \'mkdir -p results/alfworld/final/logs && until [ "$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits)" -lt 2000 ]; do sleep 5; done && nohup ~/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server \\   --model /home/aristella/models/Qwen3-32B-AWQ \\   --served-model-name qwen3-32b-awq-local \\   --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 \\   --no-enable-prefix-caching \\   --default-chat-template-kwargs \'"\'"\'{"enable_thinking": false}\'"\'"\' \\   > results/alfworld/final/logs/vllm_qwen3_formal.log 2>&1 & echo "qwen pid $!"\' < /dev/null && pwd -P >| /tmp/claude-d9b5-cwd', '1560198 /home/aristella/.pipenv-venv/bin/python3 -m vllm.entrypoints.openai.api_server --model /home/aristella/models/Qwen3-32B-AWQ --served-model-name qwen3-32b-awq-local --port 8124 --max-model-len 16384 --gpu-memory-utilization 0.90 --no-enable-prefix-caching --default-chat-template-kwargs {"enable_thinking": false}', "1575434 bash -lc pgrep -af 'vllm.entrypoints' || true"]
+[09:57:04] B_mem=1024 B_rec=1024 (frozen sha=6df85870e9240b85)
+[09:57:04] === STAGE: final_report ===
+[09:57:04] final report written
+[09:57:04] === STAGE: COMPLETE ===
+[09:57:04] ALFWORLD FORMAL TABLES COMPLETE

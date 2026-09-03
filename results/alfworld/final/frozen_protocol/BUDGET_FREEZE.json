@@ -1,0 +1,16 @@
+{
+  "B_mem": 1024,
+  "B_rec": 1024,
+  "ladder": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384
+  ],
+  "rule": "B_mem = min(B_cap, B_host); B_rec = B_mem",
+  "seed": 13,
+  "budget_freeze_sha256": "6df85870e9240b851a0ff8272a62e6673f125ac1b71e1e766eb65998005c574f"
+}

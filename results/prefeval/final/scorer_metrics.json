@@ -1,0 +1,78 @@
+{
+  "train_metrics": {
+    "split": "predictor_train",
+    "n_units": 24,
+    "n_positive": 9,
+    "n_negative": 15,
+    "pi_hat": 0.375,
+    "auroc": 0.8148148148148148,
+    "auprc": 0.7666364499697833,
+    "score_min": 0.0658497370129149,
+    "score_median": 0.45898576889878034,
+    "score_max": 0.936360907181847,
+    "n_distinct_scores": 24
+  },
+  "intercept": 1.489913177522579,
+  "coefficients": {
+    "retrieval_coverage": 16.82294,
+    "entity_coverage": -2.12557,
+    "action_arg_support": 0.0,
+    "top_similarity": -16.63543,
+    "similarity_margin": 3.8468,
+    "support_count_norm": 0.0,
+    "evidence_utilization": -4.35769,
+    "conflict_density_inv": 0.0,
+    "action_confidence": 5.94583,
+    "step_progress": 0.0
+  },
+  "feature_schema_version": "recovermem-features-v1",
+  "frozen": true,
+  "n_train_units": 24,
+  "n_train_decisions": 24,
+  "model_hash": "e2e19ff5469d389f6bfe199b10eb605d174ccdcdb9bfd537545c6b7557e272d0",
+  "normalizer": {
+    "names": [
+      "retrieval_coverage",
+      "entity_coverage",
+      "action_arg_support",
+      "top_similarity",
+      "similarity_margin",
+      "support_count_norm",
+      "evidence_utilization",
+      "conflict_density_inv",
+      "action_confidence",
+      "step_progress"
+    ],
+    "mean": [
+      0.13275484719757843,
+      0.9583333333333334,
+      1.0,
+      0.2518594854821761,
+      0.032918826987346016,
+      1.0,
+      0.6935221354166666,
+      1.0,
+      0.8782891482368225,
+      0.0
+    ],
+    "scale": [
+      0.04655038006208399,
+      0.19982631347136331,
+      1.0,
+      0.0505328170320111,
+      0.03100363770240939,
+      1.0,
+      0.07192316330510894,
+      1.0,
+      0.08794627928314172,
+      1.0
+    ]
+  },
+  "normalizer_hash": "70a46724b29230f78e8e78d7240fd908a2c1dd51053dacb5464df31db549ccfa",
+  "training_config": {
+    "model": "L2 logistic regression, class_weight=balanced, C=1.0, max_iter=500",
+    "seed": 13,
+    "labels": "R_mem = 1[u_mem >= gamma=0.5]",
+    "train_split": "reserved_predictor_train (24 frozen units)"
+  }
+}

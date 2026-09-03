@@ -1,0 +1,38 @@
+{
+  "docstore": {
+    "62838d86-7f4b-4659-ac71-6f40ed859b28": {
+      "data": "clean mug",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "412bde8f-19d1-44e3-ae6a-1c545414c784",
+        "5cfdfbda-e864-4a67-ad8c-29a89bd86d00",
+        "88a66095-4107-4f4f-991a-540686bec92f",
+        "ae0dfc99-7797-46a6-a818-da89ba6440f9",
+        "b584efa6-9c3f-4cdf-98c3-0cda8c109100",
+        "bcc0ccac-21db-4c39-95db-71a041e71624"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511"
+    },
+    "0c6bbe76-5945-4dc4-b6b2-41633723afa4": {
+      "data": "August",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "5756a730-abc7-4d81-84bd-a4d9fd86888b"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511"
+    },
+    "9c6a0a5f-f96f-444d-a4ce-aeec22b6f5a8": {
+      "data": "interaction issues",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "3113c25e-cbc2-4c88-8075-4b8821095c58"
+      ],
+      "user_id": "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511"
+    }
+  },
+  "index_to_id": {
+    "0": "62838d86-7f4b-4659-ac71-6f40ed859b28",
+    "1": "0c6bbe76-5945-4dc4-b6b2-41633723afa4",
+    "2": "9c6a0a5f-f96f-444d-a4ce-aeec22b6f5a8"
+  }
+}

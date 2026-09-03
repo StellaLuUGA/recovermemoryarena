@@ -1,0 +1,71 @@
+{
+  "config_sha256": "1555ae8d557106e563ea981c4fdf1c0b9937b9c900a3e520d80c33810386086e",
+  "criteria": [
+    "output parses",
+    "selected action is in admissible_commands",
+    "entity numbers preserved exactly"
+  ],
+  "calls": [
+    {
+      "call": 0,
+      "raw": "go to cabinet 1",
+      "command": "go to cabinet 1",
+      "parsed": true,
+      "in_admissible": true,
+      "entity_numbers_model": [
+        "1"
+      ],
+      "entity_numbers_executed": [
+        "1"
+      ],
+      "entity_numbers_preserved": true,
+      "prompt_tokens": 1029,
+      "n_admissible": 16
+    },
+    {
+      "call": 1,
+      "raw": "go to cabinet 1",
+      "command": "go to cabinet 1",
+      "parsed": true,
+      "in_admissible": false,
+      "entity_numbers_model": [
+        "1"
+      ],
+      "entity_numbers_executed": [
+        "1"
+      ],
+      "entity_numbers_preserved": true,
+      "prompt_tokens": 1055,
+      "n_admissible": 17
+    },
+    {
+      "call": 2,
+      "raw": "ACTION: go to cabinet 1",
+      "command": "go to cabinet 1",
+      "parsed": true,
+      "in_admissible": false,
+      "entity_numbers_model": [
+        "1"
+      ],
+      "entity_numbers_executed": [
+        "1"
+      ],
+      "entity_numbers_preserved": true,
+      "prompt_tokens": 1065,
+      "n_admissible": 17
+    }
+  ],
+  "all_parsed": true,
+  "all_admissible": false,
+  "all_entities_preserved": true,
+  "verdict": "FAIL",
+  "format_verdict": "PASS",
+  "admissibility_verdict": "FAIL (2/3 calls chose a command not in the list)",
+  "plumbing_verified": {
+    "admissible_list_present_in_user_prompt": true,
+    "evidence": "step-2 prompt dump: 'Admissible commands:' block listed 17 entries including 'open cabinet 1'; the model still emitted 'go to cabinet 1'",
+    "parser_is_exact_and_entity_preserving": true,
+    "conclusion": "the 2/3 admissibility miss is model non-compliance, not a prompt or parser defect"
+  },
+  "action_taken": "Proceeded to the pre-registered native-20 probe. The admissibility criterion measures model compliance, which is exactly what the 20-game probe is designed to measure; halting on a 3-call sample would pre-empt the pre-registered experiment. No configuration change was made in response to the smoke result."
+}

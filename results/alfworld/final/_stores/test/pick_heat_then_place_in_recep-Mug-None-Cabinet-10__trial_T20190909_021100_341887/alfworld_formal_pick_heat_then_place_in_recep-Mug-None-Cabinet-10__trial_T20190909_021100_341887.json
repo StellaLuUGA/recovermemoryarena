@@ -1,0 +1,116 @@
+{
+  "docstore": {
+    "763031c8-e1ec-41dc-8413-1e37042ff369": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User's task is to put a hot mug in a cabinet",
+      "text_lemmatized": "user task hot mug cabinet",
+      "hash": "07b95a852c87da78e45f7b35f2cda204",
+      "created_at": "2026-08-31T09:20:39.197004+00:00",
+      "updated_at": "2026-08-31T09:20:39.197004+00:00",
+      "attributed_to": "user"
+    },
+    "0ca3626e-4249-493e-a134-ec18ae82300e": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User arrived at cabinet 1 and observed that it contains a dishsponge, a plate, and a soapbottle",
+      "text_lemmatized": "user arrive cabinet 1 observe contain dishsponge plate soapbottle",
+      "hash": "2bbf6dc6447578eda0a97faf99cb4017",
+      "created_at": "2026-08-31T09:20:43.411666+00:00",
+      "updated_at": "2026-08-31T09:20:43.411666+00:00",
+      "attributed_to": "user"
+    },
+    "f137d30e-9610-44c4-854e-f6d2bed51417": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User arrived at cabinet 2 and observed that it is closed",
+      "text_lemmatized": "user arrive cabinet 2 observe closed",
+      "hash": "0013466be56976e85ec9d1969685c6e6",
+      "created_at": "2026-08-31T09:20:47.886840+00:00",
+      "updated_at": "2026-08-31T09:20:47.886840+00:00",
+      "attributed_to": "user"
+    },
+    "4f053500-92de-4616-9db8-03ed08bf15ed": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User opened cabinet 2 and observed that it contains a cup, a mug, and a saltshaker",
+      "text_lemmatized": "user open cabinet 2 observe contain cup mug saltshaker",
+      "hash": "2df7b47098867f2a27ee654caaa545b8",
+      "created_at": "2026-08-31T09:20:53.116945+00:00",
+      "updated_at": "2026-08-31T09:20:53.116945+00:00",
+      "attributed_to": "user"
+    },
+    "e467a2cc-e68e-4f4c-a08f-7a849840dc21": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User picked up the mug 1 from cabinet 2",
+      "text_lemmatized": "user pick mug 1 cabinet 2",
+      "hash": "28df118017ad8dffd67d5140de0e87a6",
+      "created_at": "2026-08-31T09:21:01.265701+00:00",
+      "updated_at": "2026-08-31T09:21:01.265701+00:00",
+      "attributed_to": "user"
+    },
+    "8ad127c5-6ec0-4543-ae8e-c83de5138a13": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User arrived at microwave 1 and observed that it is closed",
+      "text_lemmatized": "user arrive microwave 1 observe closed",
+      "hash": "216c8e0566891ec2cd46aa26db3df229",
+      "created_at": "2026-08-31T09:21:09.624524+00:00",
+      "updated_at": "2026-08-31T09:21:09.624524+00:00",
+      "attributed_to": "user"
+    },
+    "b0934e63-88b6-4061-b232-46bb81a1ff4b": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User opened the microwave 1 and observed that it is empty",
+      "text_lemmatized": "user open microwave 1 observe",
+      "hash": "88907e77f1bc2a45d43dfb8c8aa058b6",
+      "created_at": "2026-08-31T09:21:19.602820+00:00",
+      "updated_at": "2026-08-31T09:21:19.602820+00:00",
+      "attributed_to": "user"
+    },
+    "5fa92daa-d1a2-4e2d-943c-db5051f6f5e4": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User heated the mug 1 using the microwave 1",
+      "text_lemmatized": "user heat mug 1 microwave 1",
+      "hash": "c0cb512f25958dde4669d5350b764c2a",
+      "created_at": "2026-08-31T09:21:24.057658+00:00",
+      "updated_at": "2026-08-31T09:21:24.057658+00:00",
+      "attributed_to": "user"
+    },
+    "bde7e9fa-a58a-4f11-b755-2b0c61c85072": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User closed the microwave 1 after heating the mug 1",
+      "text_lemmatized": "user close microwave 1 heat heating mug 1",
+      "hash": "4a4a486505adaa3d36aeeacb28eb4139",
+      "created_at": "2026-08-31T09:21:33.533640+00:00",
+      "updated_at": "2026-08-31T09:21:33.533640+00:00",
+      "attributed_to": "user"
+    },
+    "04e27e68-2f58-45c0-a361-b9157059f230": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User arrived at cabinet 1 and observed that it contains a dishsponge 1, a plate 1, and a soapbottle 1",
+      "text_lemmatized": "user arrive cabinet 1 observe contain dishsponge 1 plate 1 soapbottle 1",
+      "hash": "38f1ff681fbc9976b736074396195957",
+      "created_at": "2026-08-31T09:21:38.050756+00:00",
+      "updated_at": "2026-08-31T09:21:38.050756+00:00",
+      "attributed_to": "user"
+    },
+    "2620b3a2-a06a-4caa-ad79-018533e1b6d4": {
+      "user_id": "pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021100_341887",
+      "data": "User moved the mug 1 to cabinet 1",
+      "text_lemmatized": "user move mug 1 cabinet 1",
+      "hash": "35cf1a417f7ae5d70bb4f7aa37739398",
+      "created_at": "2026-08-31T09:21:47.106135+00:00",
+      "updated_at": "2026-08-31T09:21:47.106135+00:00",
+      "attributed_to": "assistant"
+    }
+  },
+  "index_to_id": {
+    "0": "763031c8-e1ec-41dc-8413-1e37042ff369",
+    "1": "0ca3626e-4249-493e-a134-ec18ae82300e",
+    "2": "f137d30e-9610-44c4-854e-f6d2bed51417",
+    "3": "4f053500-92de-4616-9db8-03ed08bf15ed",
+    "4": "e467a2cc-e68e-4f4c-a08f-7a849840dc21",
+    "5": "8ad127c5-6ec0-4543-ae8e-c83de5138a13",
+    "6": "b0934e63-88b6-4061-b232-46bb81a1ff4b",
+    "7": "5fa92daa-d1a2-4e2d-943c-db5051f6f5e4",
+    "8": "bde7e9fa-a58a-4f11-b755-2b0c61c85072",
+    "9": "04e27e68-2f58-45c0-a361-b9157059f230",
+    "10": "2620b3a2-a06a-4caa-ad79-018533e1b6d4"
+  }
+}

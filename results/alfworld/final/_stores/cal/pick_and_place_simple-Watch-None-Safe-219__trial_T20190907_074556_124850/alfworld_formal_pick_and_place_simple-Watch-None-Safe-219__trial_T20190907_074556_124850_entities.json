@@ -1,0 +1,24 @@
+{
+  "docstore": {
+    "6cb509ec-5277-4799-a17d-d11f42fc5a40": {
+      "data": "TextWorld",
+      "entity_type": "PROPER",
+      "linked_memory_ids": [
+        "030e042a-b94d-4aaa-b62f-c961c581b8e5"
+      ],
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850"
+    },
+    "22d0bbee-3574-4b0e-b5f6-beeafe0c0e09": {
+      "data": "TextWorld environment",
+      "entity_type": "TOPIC",
+      "linked_memory_ids": [
+        "030e042a-b94d-4aaa-b62f-c961c581b8e5"
+      ],
+      "user_id": "pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850"
+    }
+  },
+  "index_to_id": {
+    "0": "6cb509ec-5277-4799-a17d-d11f42fc5a40",
+    "1": "22d0bbee-3574-4b0e-b5f6-beeafe0c0e09"
+  }
+}

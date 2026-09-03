@@ -1,0 +1,369 @@
+{
+  "docstore": {
+    "ea4074f6-17da-4b00-9ced-9b7c92ba80ca": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User's task is to cool some lettuce and put it in a countertop",
+      "text_lemmatized": "user task cool lettuce countertop",
+      "hash": "a7f83516ad55d64ef9f784fd99341da1",
+      "created_at": "2026-08-31T07:14:24.881751+00:00",
+      "updated_at": "2026-08-31T07:14:24.881751+00:00",
+      "attributed_to": "user"
+    },
+    "31def871-79fe-4804-9a96-d8b526d9c9ef": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at fridge 1, which is closed",
+      "text_lemmatized": "user arrive fridge 1 close",
+      "hash": "210583a1f4acc81c8022374c49ea9ceb",
+      "created_at": "2026-08-31T07:14:29.653945+00:00",
+      "updated_at": "2026-08-31T07:14:29.653945+00:00",
+      "attributed_to": "assistant"
+    },
+    "dc65750c-0440-4080-b37e-67aaf8f259bd": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User opened fridge 1 and found inside: a bowl 1, a bread 2, a cup 3, an egg 1, a mug 1, a plate 3, a potato 1, and a tomato 1",
+      "text_lemmatized": "user open fridge 1 find inside bowl 1 bread 2 cup 3 egg 1 mug 1 plate 3 potato 1 tomato 1",
+      "hash": "2c59b0d69741f498e0f50e21775ca41d",
+      "created_at": "2026-08-31T07:14:34.873458+00:00",
+      "updated_at": "2026-08-31T07:14:34.873458+00:00",
+      "attributed_to": "user"
+    },
+    "86166ddc-aa60-4e5b-a8b8-f17cf5308e5d": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User took bread 2 from fridge 1",
+      "text_lemmatized": "user take bread 2 fridge 1",
+      "hash": "0fbd4452fbc8d2cf92e32a54077d104c",
+      "created_at": "2026-08-31T07:14:39.220692+00:00",
+      "updated_at": "2026-08-31T07:14:39.220692+00:00",
+      "attributed_to": "user"
+    },
+    "5d25acdd-836f-43e6-b4bb-2d3c89c6ca2e": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at shelf 1 and found a credit card 3 and a statue 1 on it",
+      "text_lemmatized": "user arrive shelf 1 find credit card 3 statue 1",
+      "hash": "3dae11e7d01060f7579d46ef3479644d",
+      "created_at": "2026-08-31T07:14:43.816015+00:00",
+      "updated_at": "2026-08-31T07:14:43.816015+00:00"
+    },
+    "f3a86d76-f76a-4f72-9d70-44204eec1643": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at fridge 1, which is open, and observed the contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, a potato 1, and a tomato 1",
+      "text_lemmatized": "user arrive fridge 1 open observe content bowl 1 cup 3 egg 1 mug 1 plate 3 potato 1 tomato 1",
+      "hash": "7ce6e343ce00e187be7ec68ce2b1833e",
+      "created_at": "2026-08-31T07:14:50.026257+00:00",
+      "updated_at": "2026-08-31T07:14:50.026257+00:00",
+      "attributed_to": "user"
+    },
+    "7d27ad31-f3ea-4ce6-9aa8-757d301f5dab": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User's task remains to cool some lettuce and put it in a countertop",
+      "text_lemmatized": "user task remain cool lettuce countertop",
+      "hash": "53ea90e5031feccbf3c5a7b119013933",
+      "created_at": "2026-08-31T07:14:50.027295+00:00",
+      "updated_at": "2026-08-31T07:14:50.027295+00:00",
+      "attributed_to": "user"
+    },
+    "149f9f03-a99b-4ac6-a68d-66564350733f": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User closed fridge 1 after previously opening it and taking bread 2 from it",
+      "text_lemmatized": "user close fridge 1 previously open opening take taking bread 2",
+      "hash": "36ea27c0840cfb8e01c709dde30d4197",
+      "created_at": "2026-08-31T07:14:54.961768+00:00",
+      "updated_at": "2026-08-31T07:14:54.961768+00:00",
+      "attributed_to": "user"
+    },
+    "6ee367b4-b256-49c9-b9ba-4dceb0c088b8": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User cooled bread 2 using fridge 1",
+      "text_lemmatized": "user cool bread 2 fridge 1",
+      "hash": "b2b1b384619f40b7abd8dc9a415fb475",
+      "created_at": "2026-08-31T07:14:59.192328+00:00",
+      "updated_at": "2026-08-31T07:14:59.192328+00:00"
+    },
+    "535e9c45-8260-4be6-96fd-0d142b36251c": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at countertop 1 and observed the following items on it: a bowl 3, a bowl 2, a credit card 2, a credit card 1, a dish sponge 1, and a glass bottle 1",
+      "text_lemmatized": "user arrive countertop 1 observe follow following item bowl 3 bowl 2 credit card 2 credit card 1 dish sponge 1 glass bottle 1",
+      "hash": "58f2e72adf397d47c9bee23984702a0f",
+      "created_at": "2026-08-31T07:15:04.367325+00:00",
+      "updated_at": "2026-08-31T07:15:04.367325+00:00"
+    },
+    "7df47d8d-1a22-4ce8-8553-25efae1911ae": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User moved bread 2 to countertop 1",
+      "text_lemmatized": "user move bread 2 countertop 1",
+      "hash": "ff74d7fe283c7e92a4ce5cf74eca304b",
+      "created_at": "2026-08-31T07:15:08.970353+00:00",
+      "updated_at": "2026-08-31T07:15:08.970353+00:00",
+      "attributed_to": "assistant"
+    },
+    "80dcc4d4-c37e-448a-a52d-ad7bfa6c4bda": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User opened fridge 1 and observed its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, a potato 1, and a tomato 1",
+      "text_lemmatized": "user open fridge 1 observe content bowl 1 cup 3 egg 1 mug 1 plate 3 potato 1 tomato 1",
+      "hash": "87c4e8f84c9a3d200753df34c66c257b",
+      "created_at": "2026-08-31T07:15:18.642476+00:00",
+      "updated_at": "2026-08-31T07:15:18.642476+00:00",
+      "attributed_to": "user"
+    },
+    "a14aa634-cc4c-4570-9c67-ba717afe38ab": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User attempted to take lettuce from fridge 1 but nothing happened",
+      "text_lemmatized": "user attempt lettuce fridge 1 happen",
+      "hash": "6143e300e596b897fe0edea92c029e7e",
+      "created_at": "2026-08-31T07:15:23.150724+00:00",
+      "updated_at": "2026-08-31T07:15:23.150724+00:00"
+    },
+    "4ac0c060-327a-40d1-aaf9-34ea9ca700d0": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User checked their inventory and found they are not carrying any items",
+      "text_lemmatized": "user check inventory find carry carrying item",
+      "hash": "03ee201d27bd55e97fb2d5f21a2b8c14",
+      "created_at": "2026-08-31T07:15:55.945931+00:00",
+      "updated_at": "2026-08-31T07:15:55.945931+00:00",
+      "attributed_to": "user"
+    },
+    "c9fe7cda-3754-4309-a20d-bf3ca8032299": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User successfully took potato 1 from fridge 1",
+      "text_lemmatized": "user successfully take potato 1 fridge 1",
+      "hash": "348e662930dff62346687d8c14fccdd4",
+      "created_at": "2026-08-31T07:16:05.232789+00:00",
+      "updated_at": "2026-08-31T07:16:05.232789+00:00",
+      "attributed_to": "user"
+    },
+    "5a4f886e-bdda-4cf2-965f-69a72263a50e": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at countertop 1 and observed the following items on it: a bowl 3, a bowl 2, a bread 2, a credit card 2, a credit card 1, a dish sponge 1, and a glass bottle 1",
+      "text_lemmatized": "user arrive countertop 1 observe follow following item bowl 3 bowl 2 bread 2 credit card 2 credit card 1 dish sponge 1 glass bottle 1",
+      "hash": "3494d3fc7a2a2f1b0bf42543aeaa311e",
+      "created_at": "2026-08-31T07:16:10.532392+00:00",
+      "updated_at": "2026-08-31T07:16:10.532392+00:00"
+    },
+    "ad4ca440-d351-4c10-ab74-41da4f2100b1": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at fridge 1, which is open, and observed the contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user arrive fridge 1 open observe content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "e5c621435400f9940e221b60e296fd31",
+      "created_at": "2026-08-31T07:16:15.859359+00:00",
+      "updated_at": "2026-08-31T07:16:15.859359+00:00",
+      "attributed_to": "user"
+    },
+    "7199d742-4e7c-4aa7-80bb-11c1b337fa5c": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User closed fridge 1 after previously opening it and taking potato 1 from it",
+      "text_lemmatized": "user close fridge 1 previously open opening take taking potato 1",
+      "hash": "e6f66b266706f159dc285fcb6f04dc06",
+      "created_at": "2026-08-31T07:16:20.853518+00:00",
+      "updated_at": "2026-08-31T07:16:20.853518+00:00",
+      "attributed_to": "user"
+    },
+    "d73a82ee-80dd-4d29-869c-df20134b21e0": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User opened fridge 1 and observed its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user open fridge 1 observe content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "3db3ceb885bbcb45611b8da627d69d57",
+      "created_at": "2026-08-31T07:16:26.373428+00:00",
+      "updated_at": "2026-08-31T07:16:26.373428+00:00",
+      "attributed_to": "user"
+    },
+    "0c87e832-6b9e-4823-943a-1689b9194861": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User closed the fridge 1 after previously opening it and taking potato 1 from it",
+      "text_lemmatized": "user close fridge 1 previously open opening take taking potato 1",
+      "hash": "2b3e114bcf7a6314a6542a79639be616",
+      "created_at": "2026-08-31T07:16:30.998561+00:00",
+      "updated_at": "2026-08-31T07:16:30.998561+00:00",
+      "attributed_to": "user"
+    },
+    "501cb240-0372-42e2-8bdf-2d2cf8a3bcd2": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User opened fridge 1 on August 31, 2026, and observed its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user open fridge 1 august 31 2026 observe content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "4ec50c75ccf34641eb1f37658418e035",
+      "created_at": "2026-08-31T07:16:36.225416+00:00",
+      "updated_at": "2026-08-31T07:16:36.225416+00:00",
+      "attributed_to": "user"
+    },
+    "df1df536-c392-422e-b6ea-c06b795c4061": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User examined fridge 1, which is open, and observed its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user examine fridge 1 open observe content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "ca638230e1b3eed5226dd82a7eff40b4",
+      "created_at": "2026-08-31T07:16:46.511617+00:00",
+      "updated_at": "2026-08-31T07:16:46.511617+00:00",
+      "attributed_to": "user"
+    },
+    "cd556573-8177-4d9b-a4e7-9160cc89066b": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User closed the fridge 1 after previously opening it and examining its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user close fridge 1 previously open opening examine examining content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "9a77fec1e551bc4f30b78930d58f9680",
+      "created_at": "2026-08-31T07:16:52.885388+00:00",
+      "updated_at": "2026-08-31T07:16:52.885388+00:00",
+      "attributed_to": "user"
+    },
+    "7774b091-fd77-4e55-a985-7863ed1bafe3": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User attempted to take lettuce from fridge 1 but found nothing happened, indicating the lettuce was not present in the fridge 1",
+      "text_lemmatized": "user attempt lettuce fridge 1 find happen indicate indicating lettuce present fridge 1",
+      "hash": "05cbe26a73e69e65afbafeff4cea5c48",
+      "created_at": "2026-08-31T07:16:52.886638+00:00",
+      "updated_at": "2026-08-31T07:16:52.886638+00:00",
+      "attributed_to": "user"
+    },
+    "07018d3b-dc53-4067-a0d1-d62c1505f909": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User previously closed fridge 1 after examining its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user previously close fridge 1 examine examining content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "382e0fd6fc4997742f81eeebd0cee8f1",
+      "created_at": "2026-08-31T07:16:59.510062+00:00",
+      "updated_at": "2026-08-31T07:16:59.510062+00:00",
+      "attributed_to": "user"
+    },
+    "16a42cec-243a-417b-abf2-36befafbf20e": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at fridge 1, which is open, and observed its contents: a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user arrive fridge 1 open observe content bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "1b90210e12e6cbf5af3098521b88aded",
+      "created_at": "2026-08-31T07:17:23.277440+00:00",
+      "updated_at": "2026-08-31T07:17:23.277440+00:00",
+      "attributed_to": "user"
+    },
+    "243edc73-b859-4fa9-9a39-b16c72b1c7c6": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User previously went to countertop 1 and observed its contents: a bowl 3, a bowl 2, a bread 2, a credit card 2, a credit card 1, a dish sponge 1, and a glass bottle 1",
+      "text_lemmatized": "user previously go countertop 1 observe content bowl 3 bowl 2 bread 2 credit card 2 credit card 1 dish sponge 1 glass bottle 1",
+      "hash": "84783f959e633c5c00c11845fcc13741",
+      "created_at": "2026-08-31T07:17:23.279104+00:00",
+      "updated_at": "2026-08-31T07:17:23.279104+00:00",
+      "attributed_to": "user"
+    },
+    "bc5464ca-0647-4579-8dcd-9007dc450854": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User previously observed the same contents in fridge 1 on August 31, 2026, including a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user previously observe content fridge 1 august 31 2026 include including bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "249d9aa7145773f0cde847cd132c09ab",
+      "created_at": "2026-08-31T07:17:36.114575+00:00",
+      "updated_at": "2026-08-31T07:17:36.114575+00:00",
+      "attributed_to": "user"
+    },
+    "8f4c1164-1327-4552-ba01-742eb8d6a492": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User closed the fridge 1 on August 31, 2026",
+      "text_lemmatized": "user close fridge 1 august 31 2026",
+      "hash": "914f384998f6c364d6eaba44f32ee4ce",
+      "created_at": "2026-08-31T07:17:40.920587+00:00",
+      "updated_at": "2026-08-31T07:17:40.920587+00:00"
+    },
+    "7f513a86-9795-4293-8828-be3d4bb35e45": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User was instructed to open fridge 1",
+      "text_lemmatized": "user instruct open fridge 1",
+      "hash": "59741ecc79bfe673e034309f7fca21a1",
+      "created_at": "2026-08-31T07:17:47.419630+00:00",
+      "updated_at": "2026-08-31T07:17:47.419630+00:00",
+      "attributed_to": "assistant"
+    },
+    "ecbf15fa-0849-4f33-a426-de817ccc3b08": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User previously observed the same contents in fridge 1 on August 31, 2026, including a bowl 1, a cup 3, an egg 1, a mug 1, a plate 3, and a tomato 1",
+      "text_lemmatized": "user previously observe content fridge 1 august 31 2026 include including bowl 1 cup 3 egg 1 mug 1 plate 3 tomato 1",
+      "hash": "249d9aa7145773f0cde847cd132c09ab",
+      "created_at": "2026-08-31T07:17:59.195642+00:00",
+      "updated_at": "2026-08-31T07:17:59.195642+00:00",
+      "attributed_to": "user"
+    },
+    "192a549f-982c-4b16-91cf-c1a68e70ae1f": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User cooled potato 1 using fridge 1",
+      "text_lemmatized": "user cool potato 1 fridge 1",
+      "hash": "547bce744e19c8c2a80e6767509b6cdf",
+      "created_at": "2026-08-31T07:18:04.277311+00:00",
+      "updated_at": "2026-08-31T07:18:04.277311+00:00",
+      "attributed_to": "user"
+    },
+    "85652fdb-6aa0-4e83-a04e-63a36041212a": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User moved the potato 1 to countertop 1",
+      "text_lemmatized": "user move potato 1 countertop 1",
+      "hash": "5dcade775774cf861b5c6cd850fa0796",
+      "created_at": "2026-08-31T07:18:15.283649+00:00",
+      "updated_at": "2026-08-31T07:18:15.283649+00:00",
+      "attributed_to": "assistant"
+    },
+    "4c3cb5cf-d4af-492a-96c5-14c9fb3421c2": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at shelf 1 and observed the following items on it: a credit card 3 and a statue 1",
+      "text_lemmatized": "user arrive shelf 1 observe follow following item credit card 3 statue 1",
+      "hash": "9480e93ed19d10acb846ae33e7d36379",
+      "created_at": "2026-08-31T07:18:26.882902+00:00",
+      "updated_at": "2026-08-31T07:18:26.882902+00:00",
+      "attributed_to": "user"
+    },
+    "e249a4dc-54ed-4e88-944d-74235a053590": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User arrived at countertop 1 and observed the following items on it: a bowl 3, a bowl 2, a bread 2, a credit card 2, a credit card 1, a dish sponge 1, a glass bottle 1, and a potato 1",
+      "text_lemmatized": "user arrive countertop 1 observe follow following item bowl 3 bowl 2 bread 2 credit card 2 credit card 1 dish sponge 1 glass bottle 1 potato 1",
+      "hash": "6d475e79b712b383ce7464a28a030606",
+      "created_at": "2026-08-31T07:18:32.721865+00:00",
+      "updated_at": "2026-08-31T07:18:32.721865+00:00"
+    },
+    "a1ec01c3-541d-4b63-b87b-1b1a523209fa": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User successfully took tomato 1 from fridge 1",
+      "text_lemmatized": "user successfully take tomato 1 fridge 1",
+      "hash": "6cbf119e6e749f5c2b1dfc619f3bcade",
+      "created_at": "2026-08-31T07:18:43.270352+00:00",
+      "updated_at": "2026-08-31T07:18:43.270352+00:00",
+      "attributed_to": "user"
+    },
+    "a0617618-4f25-43f9-9403-82c13b06c2a0": {
+      "user_id": "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_174840_771703",
+      "data": "User cooled tomato 1 using fridge 1",
+      "text_lemmatized": "user cool tomato 1 fridge 1",
+      "hash": "b82817ac255aac7548f12e34c5f18078",
+      "created_at": "2026-08-31T07:18:48.256818+00:00",
+      "updated_at": "2026-08-31T07:18:48.256818+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "ea4074f6-17da-4b00-9ced-9b7c92ba80ca",
+    "1": "31def871-79fe-4804-9a96-d8b526d9c9ef",
+    "2": "dc65750c-0440-4080-b37e-67aaf8f259bd",
+    "3": "86166ddc-aa60-4e5b-a8b8-f17cf5308e5d",
+    "4": "5d25acdd-836f-43e6-b4bb-2d3c89c6ca2e",
+    "5": "f3a86d76-f76a-4f72-9d70-44204eec1643",
+    "6": "7d27ad31-f3ea-4ce6-9aa8-757d301f5dab",
+    "7": "149f9f03-a99b-4ac6-a68d-66564350733f",
+    "8": "6ee367b4-b256-49c9-b9ba-4dceb0c088b8",
+    "9": "535e9c45-8260-4be6-96fd-0d142b36251c",
+    "10": "7df47d8d-1a22-4ce8-8553-25efae1911ae",
+    "11": "80dcc4d4-c37e-448a-a52d-ad7bfa6c4bda",
+    "12": "a14aa634-cc4c-4570-9c67-ba717afe38ab",
+    "13": "4ac0c060-327a-40d1-aaf9-34ea9ca700d0",
+    "14": "c9fe7cda-3754-4309-a20d-bf3ca8032299",
+    "15": "5a4f886e-bdda-4cf2-965f-69a72263a50e",
+    "16": "ad4ca440-d351-4c10-ab74-41da4f2100b1",
+    "17": "7199d742-4e7c-4aa7-80bb-11c1b337fa5c",
+    "18": "d73a82ee-80dd-4d29-869c-df20134b21e0",
+    "19": "0c87e832-6b9e-4823-943a-1689b9194861",
+    "20": "501cb240-0372-42e2-8bdf-2d2cf8a3bcd2",
+    "21": "df1df536-c392-422e-b6ea-c06b795c4061",
+    "22": "cd556573-8177-4d9b-a4e7-9160cc89066b",
+    "23": "7774b091-fd77-4e55-a985-7863ed1bafe3",
+    "24": "07018d3b-dc53-4067-a0d1-d62c1505f909",
+    "25": "16a42cec-243a-417b-abf2-36befafbf20e",
+    "26": "243edc73-b859-4fa9-9a39-b16c72b1c7c6",
+    "27": "bc5464ca-0647-4579-8dcd-9007dc450854",
+    "28": "8f4c1164-1327-4552-ba01-742eb8d6a492",
+    "29": "7f513a86-9795-4293-8828-be3d4bb35e45",
+    "30": "ecbf15fa-0849-4f33-a426-de817ccc3b08",
+    "31": "192a549f-982c-4b16-91cf-c1a68e70ae1f",
+    "32": "85652fdb-6aa0-4e83-a04e-63a36041212a",
+    "33": "4c3cb5cf-d4af-492a-96c5-14c9fb3421c2",
+    "34": "e249a4dc-54ed-4e88-944d-74235a053590",
+    "35": "a1ec01c3-541d-4b63-b87b-1b1a523209fa",
+    "36": "a0617618-4f25-43f9-9403-82c13b06c2a0"
+  }
+}

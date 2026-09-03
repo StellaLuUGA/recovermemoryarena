@@ -1,0 +1,389 @@
+{
+  "docstore": {
+    "187b70bb-a238-4c6c-a7db-37f2bb957cba": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User's task is to cool some mug and put it in the coffeemachine",
+      "text_lemmatized": "user task cool mug coffeemachine",
+      "hash": "3b4402933d412e802143a9de6244d3e8",
+      "created_at": "2026-08-31T08:17:24.829772+00:00",
+      "updated_at": "2026-08-31T08:17:24.829772+00:00",
+      "attributed_to": "user"
+    },
+    "bd1b8528-67a2-49a3-8b30-43aa581be19b": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at fridge 1, which is closed",
+      "text_lemmatized": "user arrive fridge 1 close",
+      "hash": "210583a1f4acc81c8022374c49ea9ceb",
+      "created_at": "2026-08-31T08:17:29.011871+00:00",
+      "updated_at": "2026-08-31T08:17:29.011871+00:00",
+      "attributed_to": "user"
+    },
+    "5475c397-0c3f-4bbe-b21a-168acf96a585": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User opened fridge 1 and found a bread 2 and an egg 1 inside",
+      "text_lemmatized": "user open fridge 1 find bread 2 egg 1 inside",
+      "hash": "1797b59acb415769530a93fe2454318c",
+      "created_at": "2026-08-31T08:17:33.662842+00:00",
+      "updated_at": "2026-08-31T08:17:33.662842+00:00",
+      "attributed_to": "user"
+    },
+    "221761d6-2f5b-4d06-b0aa-7d5e23850a72": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to go to fridge 1 again but observed that nothing happened",
+      "text_lemmatized": "user attempt fridge 1 observe happen",
+      "hash": "fc505449828986e111b1f3fd5c374328",
+      "created_at": "2026-08-31T08:17:41.267927+00:00",
+      "updated_at": "2026-08-31T08:17:41.267927+00:00",
+      "attributed_to": "user"
+    },
+    "86f36835-aa7c-4938-ad58-1797f4de99a9": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 1 and found a bowl 1 and a soapbottle 1 on it",
+      "text_lemmatized": "user arrive cabinet 1 find bowl 1 soapbottle 1",
+      "hash": "0e8240429abf850267c6d17c138c1574",
+      "created_at": "2026-08-31T08:17:45.915894+00:00",
+      "updated_at": "2026-08-31T08:17:45.915894+00:00",
+      "attributed_to": "user"
+    },
+    "26462d30-bec5-4236-8265-e0034b8924a3": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at fridge 1, which is open, and observed that it contains a bread 2 and an egg 1",
+      "text_lemmatized": "user arrive fridge 1 open observe contain bread 2 egg 1",
+      "hash": "77e1d6c0848c1eecbf8eefaadb7b8c74",
+      "created_at": "2026-08-31T08:17:50.876142+00:00",
+      "updated_at": "2026-08-31T08:17:50.876142+00:00",
+      "attributed_to": "user"
+    },
+    "a350fb2e-4043-4b69-9433-9e2440d599a8": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 1 and observed that it contains a bowl 1 and a soapbottle 1",
+      "text_lemmatized": "user arrive cabinet 1 observe contain bowl 1 soapbottle 1",
+      "hash": "3de6de4fd538eb27b4ef9db317090631",
+      "created_at": "2026-08-31T08:17:55.223563+00:00",
+      "updated_at": "2026-08-31T08:17:55.223563+00:00",
+      "attributed_to": "user"
+    },
+    "b19685c3-a115-4c88-851b-e4f2637e4d73": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 2 and observed that it is closed",
+      "text_lemmatized": "user arrive cabinet 2 observe closed",
+      "hash": "0013466be56976e85ec9d1969685c6e6",
+      "created_at": "2026-08-31T08:17:59.522034+00:00",
+      "updated_at": "2026-08-31T08:17:59.522034+00:00"
+    },
+    "25466c35-1d8e-4925-ba11-f7b1ea6da375": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User opened cabinet 2 and found a peppershaker 1 inside",
+      "text_lemmatized": "user open cabinet 2 find peppershaker 1 inside",
+      "hash": "a76308906be7d2e6e0124ca3d7ff9c69",
+      "created_at": "2026-08-31T08:18:04.169708+00:00",
+      "updated_at": "2026-08-31T08:18:04.169708+00:00",
+      "attributed_to": "user"
+    },
+    "73ab68ee-00e8-4168-bc9f-32b3784c231f": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 3 and observed that a peppershaker 2 is on it",
+      "text_lemmatized": "user arrive cabinet 3 observe peppershaker 2",
+      "hash": "f4017794ed323b2ef8d9561a4c03ddac",
+      "created_at": "2026-08-31T08:18:09.126583+00:00",
+      "updated_at": "2026-08-31T08:18:09.126583+00:00"
+    },
+    "febbff5b-cd85-4776-ab8d-8987ac75d339": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 4 and observed that it is empty",
+      "text_lemmatized": "user arrive cabinet 4 observe",
+      "hash": "ffd991fd59a1834357bef9ad0cc7532f",
+      "created_at": "2026-08-31T08:18:13.400171+00:00",
+      "updated_at": "2026-08-31T08:18:13.400171+00:00",
+      "attributed_to": "user"
+    },
+    "1b9416cb-dc5e-43ee-847c-910aa16d9ccc": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 5 and observed that it is closed",
+      "text_lemmatized": "user arrive cabinet 5 observe closed",
+      "hash": "d7d1b5c71e99533e5c7f436288a43bea",
+      "created_at": "2026-08-31T08:18:17.371802+00:00",
+      "updated_at": "2026-08-31T08:18:17.371802+00:00"
+    },
+    "7ad6bee6-e381-47a1-846c-1c97d8ed8235": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User opened cabinet 5 and found a bowl 2 inside",
+      "text_lemmatized": "user open cabinet 5 find bowl 2 inside",
+      "hash": "6c2584ee98c95037b87880c387640b05",
+      "created_at": "2026-08-31T08:18:22.168706+00:00",
+      "updated_at": "2026-08-31T08:18:22.168706+00:00",
+      "attributed_to": "user"
+    },
+    "9e676c8d-c2bd-4a57-afa3-5a82715302f0": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at cabinet 6 and observed that it is closed",
+      "text_lemmatized": "user arrive cabinet 6 observe closed",
+      "hash": "9a26f17e4e348995645f0d83fc58e21a",
+      "created_at": "2026-08-31T08:18:26.833978+00:00",
+      "updated_at": "2026-08-31T08:18:26.833978+00:00",
+      "attributed_to": "user"
+    },
+    "ab9d50b3-13ce-4bbc-bab8-45c2fa278a9d": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User opened cabinet 6 and found a glassbottle 2, a soapbottle 2, and a vase 1 inside",
+      "text_lemmatized": "user open cabinet 6 find glassbottle 2 soapbottle 2 vase 1 inside",
+      "hash": "dc1e49f0b575ddee4ed2204069b54a67",
+      "created_at": "2026-08-31T08:18:31.600969+00:00",
+      "updated_at": "2026-08-31T08:18:31.600969+00:00",
+      "attributed_to": "user"
+    },
+    "332a538d-8e6a-43ff-b381-5724eb74aff1": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User picked up the glassbottle 2 from cabinet 6",
+      "text_lemmatized": "user pick glassbottle 2 cabinet 6",
+      "hash": "6edbb3667479a67a1d693d3c55f4e981",
+      "created_at": "2026-08-31T08:18:36.546945+00:00",
+      "updated_at": "2026-08-31T08:18:36.546945+00:00",
+      "attributed_to": "user"
+    },
+    "f1e34708-622d-40be-8aeb-7e93f0b8f71c": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to cool the glassbottle 2 with fridge 1, but nothing happened",
+      "text_lemmatized": "user attempt cool glassbottle 2 fridge 1 happen",
+      "hash": "bd0064dea3f0c4f321f806b5246f2850",
+      "created_at": "2026-08-31T08:18:46.547900+00:00",
+      "updated_at": "2026-08-31T08:18:46.547900+00:00",
+      "attributed_to": "user"
+    },
+    "69b7b7b3-d667-4d57-966d-d643973a73e9": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at sinkbasin 1 and observed that a bowl 3, a spatula 3, a spatula 2, and a spoon 2 are on it",
+      "text_lemmatized": "user arrive sinkbasin 1 observe bowl 3 spatula 3 spatula 2 spoon 2",
+      "hash": "5fee904488cbd71150146e7fc123176d",
+      "created_at": "2026-08-31T08:18:51.224188+00:00",
+      "updated_at": "2026-08-31T08:18:51.224188+00:00"
+    },
+    "f7872c4d-68a8-4c27-a274-b855c8c7e64b": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at countertop 1 and observed that a cellphone 2, a mug 1, and a spoon 1 are on it",
+      "text_lemmatized": "user arrive countertop 1 observe cellphone 2 mug 1 spoon 1",
+      "hash": "b2f567b5c5ed3cc1280142cf95a28e69",
+      "created_at": "2026-08-31T08:19:01.130169+00:00",
+      "updated_at": "2026-08-31T08:19:01.130169+00:00"
+    },
+    "37cb094c-05e8-462b-9447-e10172222f3c": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to take the mug 1 from countertop 1 but observed that nothing happened",
+      "text_lemmatized": "user attempt mug 1 countertop 1 observe happen",
+      "hash": "9dd7b19f032cab2b82f6805b83570322",
+      "created_at": "2026-08-31T08:19:05.582004+00:00",
+      "updated_at": "2026-08-31T08:19:05.582004+00:00",
+      "attributed_to": "user"
+    },
+    "031a9c77-f932-4475-a625-3a44f71ed746": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to take the mug 1 from countertop 1 again but observed that nothing happened",
+      "text_lemmatized": "user attempt mug 1 countertop 1 observe happen",
+      "hash": "e97b839df3244dc368e17c87e5570d2c",
+      "created_at": "2026-08-31T08:19:10.708955+00:00",
+      "updated_at": "2026-08-31T08:19:10.708955+00:00",
+      "attributed_to": "user"
+    },
+    "f47e5958-07e2-44cd-a5f0-3431395223f5": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to examine the mug 1 but observed that nothing happened",
+      "text_lemmatized": "user attempt examine mug 1 observe happen",
+      "hash": "0d42d39afd4b465e4e5f3f63d7ffc983",
+      "created_at": "2026-08-31T08:19:19.970868+00:00",
+      "updated_at": "2026-08-31T08:19:19.970868+00:00"
+    },
+    "334cbee0-2607-4173-9e6d-0cfbe4a96042": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is repeatedly unable to interact with the mug 1 on countertop 1 despite multiple attempts to take or examine it",
+      "text_lemmatized": "user repeatedly unable interact mug 1 countertop 1 despite multiple attempt examine",
+      "hash": "20b226305911c0cb8d19d53ef74051d3",
+      "created_at": "2026-08-31T08:19:45.200309+00:00",
+      "updated_at": "2026-08-31T08:19:45.200309+00:00",
+      "attributed_to": "user"
+    },
+    "85706656-15b3-40bd-956e-d9692dae0cfa": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is currently at countertop 1, where a cellphone 2, a mug 1, and a spoon 1 are located",
+      "text_lemmatized": "user currently countertop 1 cellphone 2 mug 1 spoon 1 locate",
+      "hash": "d7cfc34fb027139a23701374d2205851",
+      "created_at": "2026-08-31T08:19:45.201650+00:00",
+      "updated_at": "2026-08-31T08:19:45.201650+00:00",
+      "attributed_to": "user"
+    },
+    "7f2e6364-ecec-4821-b176-29ff42df77d9": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User's current task is to cool a mug and place it in the coffeemachine",
+      "text_lemmatized": "user current task cool mug place coffeemachine",
+      "hash": "814051f5444ce59ee3b2246fe9c82bda",
+      "created_at": "2026-08-31T08:19:45.202636+00:00",
+      "updated_at": "2026-08-31T08:19:45.202636+00:00",
+      "attributed_to": "user"
+    },
+    "ae265b72-e901-45d8-a343-e6fe72959147": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User previously picked up a glassbottle 2 from cabinet 6 and attempted to cool it in fridge 1 without success",
+      "text_lemmatized": "user previously pick glassbottle 2 cabinet 6 attempt cool fridge 1 success",
+      "hash": "5ea303d95d1f37cec077342889878a87",
+      "created_at": "2026-08-31T08:19:45.203799+00:00",
+      "updated_at": "2026-08-31T08:19:45.203799+00:00",
+      "attributed_to": "user"
+    },
+    "2e048b43-bebe-4758-8a4a-62d9cbae0092": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User previously opened cabinet 2 and found a peppershaker 1 inside",
+      "text_lemmatized": "user previously open cabinet 2 find peppershaker 1 inside",
+      "hash": "0e4ad13dfc8570f903dff08badbb38b5",
+      "created_at": "2026-08-31T08:19:45.204639+00:00",
+      "updated_at": "2026-08-31T08:19:45.204639+00:00",
+      "attributed_to": "user"
+    },
+    "64b4dee0-dadc-47ed-94a8-62f82f8aa566": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User previously attempted to go to fridge 1 but observed that nothing happened",
+      "text_lemmatized": "user previously attempt fridge 1 observe happen",
+      "hash": "7a7e3b4638a04e5074448f59f82a919c",
+      "created_at": "2026-08-31T08:19:45.205521+00:00",
+      "updated_at": "2026-08-31T08:19:45.205521+00:00",
+      "attributed_to": "user"
+    },
+    "a9fcf74c-1e3c-4fc8-9ad1-dbc75eccea9a": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User previously arrived at cabinet 3 and observed that a peppershaker 2 is on it",
+      "text_lemmatized": "user previously arrive cabinet 3 observe peppershaker 2",
+      "hash": "9c7cc839326b46dd9342d7e4d13aa1c4",
+      "created_at": "2026-08-31T08:19:45.206441+00:00",
+      "updated_at": "2026-08-31T08:19:45.206441+00:00",
+      "attributed_to": "user"
+    },
+    "873c9c6f-0c3e-4fa2-bd0a-3e8e19aff39f": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to go to countertop 1 but observed that nothing happened",
+      "text_lemmatized": "user attempt countertop 1 observe happen",
+      "hash": "c6707c2103be743649150b166fc15bbf",
+      "created_at": "2026-08-31T08:20:21.268946+00:00",
+      "updated_at": "2026-08-31T08:20:21.268946+00:00",
+      "attributed_to": "user"
+    },
+    "a68748df-93ce-4b28-95a2-2292700e6807": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User arrived at countertop 2 and observed that it contains a bread 1, a butterknife 1, a cellphone 1, a glassbottle 1, a plate 1, and a tomato 1",
+      "text_lemmatized": "user arrive countertop 2 observe contain bread 1 butterknife 1 cellphone 1 glassbottle 1 plate 1 tomato 1",
+      "hash": "d5ac515949f96a01306f21a789e3652c",
+      "created_at": "2026-08-31T08:20:26.579435+00:00",
+      "updated_at": "2026-08-31T08:20:26.579435+00:00"
+    },
+    "8246d096-4418-480c-aad1-111e37275700": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to go to countertop 1 again but observed that nothing happened",
+      "text_lemmatized": "user attempt countertop 1 observe happen",
+      "hash": "ba892f0a9d8b7231b826442a5e5c2340",
+      "created_at": "2026-08-31T08:20:41.679391+00:00",
+      "updated_at": "2026-08-31T08:20:41.679391+00:00",
+      "attributed_to": "user"
+    },
+    "00a8be8d-bae9-43ce-8e76-7408a85108db": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is still unable to interact with the mug 1 on countertop 1 despite repeated attempts to take, examine, or interact with it",
+      "text_lemmatized": "user unable interact mug 1 countertop 1 despite repeat attempt examine interact",
+      "hash": "0d8f1b04e32e5cd4cd59e6a5db0e76fa",
+      "created_at": "2026-08-31T08:21:01.077914+00:00",
+      "updated_at": "2026-08-31T08:21:01.077914+00:00",
+      "attributed_to": "user"
+    },
+    "0adddef0-f223-40a0-b3e3-f3fdc4940573": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User's task remains to cool a mug and place it in the coffeemachine, but they are unable to interact with the mug 1 on countertop 1",
+      "text_lemmatized": "user task remain cool mug place coffeemachine unable interact mug 1 countertop 1",
+      "hash": "62072edb70a240f1a1319cf46f2f6eb9",
+      "created_at": "2026-08-31T08:21:01.080040+00:00",
+      "updated_at": "2026-08-31T08:21:01.080040+00:00",
+      "attributed_to": "user"
+    },
+    "8935b890-3e1c-4338-9ff1-647516a83800": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is currently at countertop 1, where a cellphone 2, a mug 1, and a spoon 1 are located, but cannot interact with the mug 1",
+      "text_lemmatized": "user currently countertop 1 cellphone 2 mug 1 spoon 1 locate interact mug 1",
+      "hash": "3b148f89b13cb7694ee6d67081e21ca2",
+      "created_at": "2026-08-31T08:21:01.081998+00:00",
+      "updated_at": "2026-08-31T08:21:01.081998+00:00",
+      "attributed_to": "user"
+    },
+    "f81f9700-ed1d-45d5-9e80-90620ace470d": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is still at countertop 1, where a cellphone 2, a mug 1, and a spoon 1 are located, but remains unable to interact with the mug 1",
+      "text_lemmatized": "user countertop 1 cellphone 2 mug 1 spoon 1 locate remain unable interact mug 1",
+      "hash": "fb64f22987646c56ec8e3a39a638e965",
+      "created_at": "2026-08-31T08:21:06.784766+00:00",
+      "updated_at": "2026-08-31T08:21:06.784766+00:00",
+      "attributed_to": "user"
+    },
+    "0b313570-7637-4bdc-9a4f-23ab64305d02": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User attempted to examine the mug 1 again but observed that nothing happened",
+      "text_lemmatized": "user attempt examine mug 1 observe happen",
+      "hash": "3b523dd93a2ac8ad49f4476e1de3299a",
+      "created_at": "2026-08-31T08:21:27.770281+00:00",
+      "updated_at": "2026-08-31T08:21:27.770281+00:00",
+      "attributed_to": "user"
+    },
+    "05b943ca-ec4d-48ec-a066-5a3783fcf585": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is still unable to interact with the mug 1 on countertop 1 despite repeated attempts to examine it",
+      "text_lemmatized": "user unable interact mug 1 countertop 1 despite repeat attempt examine",
+      "hash": "f0199763a0ad7db236391c84b59c7a52",
+      "created_at": "2026-08-31T08:21:27.771461+00:00",
+      "updated_at": "2026-08-31T08:21:27.771461+00:00",
+      "attributed_to": "user"
+    },
+    "b8c9033f-c2e8-4b7e-a6d9-9aa19b330bd0": {
+      "user_id": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183807_477267",
+      "data": "User is still at countertop 1, where a cellphone 2, a mug 1, and a spoon 1 are located, and remains unable to interact with the mug 1",
+      "text_lemmatized": "user countertop 1 cellphone 2 mug 1 spoon 1 locate remain unable interact mug 1",
+      "hash": "c6ee77ec548cd168d6ae5eddb4473db8",
+      "created_at": "2026-08-31T08:21:39.428208+00:00",
+      "updated_at": "2026-08-31T08:21:39.428208+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "187b70bb-a238-4c6c-a7db-37f2bb957cba",
+    "1": "bd1b8528-67a2-49a3-8b30-43aa581be19b",
+    "2": "5475c397-0c3f-4bbe-b21a-168acf96a585",
+    "3": "221761d6-2f5b-4d06-b0aa-7d5e23850a72",
+    "4": "86f36835-aa7c-4938-ad58-1797f4de99a9",
+    "5": "26462d30-bec5-4236-8265-e0034b8924a3",
+    "6": "a350fb2e-4043-4b69-9433-9e2440d599a8",
+    "7": "b19685c3-a115-4c88-851b-e4f2637e4d73",
+    "8": "25466c35-1d8e-4925-ba11-f7b1ea6da375",
+    "9": "73ab68ee-00e8-4168-bc9f-32b3784c231f",
+    "10": "febbff5b-cd85-4776-ab8d-8987ac75d339",
+    "11": "1b9416cb-dc5e-43ee-847c-910aa16d9ccc",
+    "12": "7ad6bee6-e381-47a1-846c-1c97d8ed8235",
+    "13": "9e676c8d-c2bd-4a57-afa3-5a82715302f0",
+    "14": "ab9d50b3-13ce-4bbc-bab8-45c2fa278a9d",
+    "15": "332a538d-8e6a-43ff-b381-5724eb74aff1",
+    "16": "f1e34708-622d-40be-8aeb-7e93f0b8f71c",
+    "17": "69b7b7b3-d667-4d57-966d-d643973a73e9",
+    "18": "f7872c4d-68a8-4c27-a274-b855c8c7e64b",
+    "19": "37cb094c-05e8-462b-9447-e10172222f3c",
+    "20": "031a9c77-f932-4475-a625-3a44f71ed746",
+    "21": "f47e5958-07e2-44cd-a5f0-3431395223f5",
+    "22": "334cbee0-2607-4173-9e6d-0cfbe4a96042",
+    "23": "85706656-15b3-40bd-956e-d9692dae0cfa",
+    "24": "7f2e6364-ecec-4821-b176-29ff42df77d9",
+    "25": "ae265b72-e901-45d8-a343-e6fe72959147",
+    "26": "2e048b43-bebe-4758-8a4a-62d9cbae0092",
+    "27": "64b4dee0-dadc-47ed-94a8-62f82f8aa566",
+    "28": "a9fcf74c-1e3c-4fc8-9ad1-dbc75eccea9a",
+    "29": "873c9c6f-0c3e-4fa2-bd0a-3e8e19aff39f",
+    "30": "a68748df-93ce-4b28-95a2-2292700e6807",
+    "31": "8246d096-4418-480c-aad1-111e37275700",
+    "32": "00a8be8d-bae9-43ce-8e76-7408a85108db",
+    "33": "0adddef0-f223-40a0-b3e3-f3fdc4940573",
+    "34": "8935b890-3e1c-4338-9ff1-647516a83800",
+    "35": "f81f9700-ed1d-45d5-9e80-90620ace470d",
+    "36": "0b313570-7637-4bdc-9a4f-23ab64305d02",
+    "37": "05b943ca-ec4d-48ec-a066-5a3783fcf585",
+    "38": "b8c9033f-c2e8-4b7e-a6d9-9aa19b330bd0"
+  }
+}

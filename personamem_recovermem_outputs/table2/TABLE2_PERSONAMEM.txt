@@ -1,0 +1,22 @@
+| Policy | Task | Rec. | Cost |
+|---|---:|---:|---:|
+| Always Trust | 0.283 | 0.000 | 13.067 |
+| Always Recover | 0.371 | 1.000 | 13.258 |
+| Empirical-risk | 0.347 | 0.847 | 13.913 |
+| Random score + CRC | 0.347 | 0.948 | 14.015 |
+| ReCoverMem + CRC | 0.357 | 0.906 | 13.973 |
+
+Always Trust
+0.283 / 0.000 / 13.067
+
+Always Recover
+0.371 / 1.000 / 13.258
+
+Empirical-risk
+0.347 / 0.847 / 13.913
+
+Random score + CRC
+0.347 / 0.948 / 14.015
+
+ReCoverMem + CRC
+0.357 / 0.906 / 13.973

@@ -1,0 +1,55 @@
+{
+  "docstore": {
+    "66c67605-06f3-4f88-9345-0f848fe351d6": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220656_510400",
+      "data": "User arrived at desk 1 and observed that it contains a bowl 2, a cd 1, a desklamp 1, and a laptop 1",
+      "text_lemmatized": "user arrive desk 1 observe contain bowl 2 cd 1 desklamp 1 laptop 1",
+      "hash": "d5f5ad96a731e4888f35204460c1c441",
+      "created_at": "2026-08-31T17:13:09.055268+00:00",
+      "updated_at": "2026-08-31T17:13:09.055268+00:00",
+      "attributed_to": "user"
+    },
+    "082416a4-d726-41fa-a2b1-1f4a34acd216": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220656_510400",
+      "data": "User turned on the desklamp 1 at desk 1",
+      "text_lemmatized": "user turn desklamp 1 desk 1",
+      "hash": "e61616939fcd707f8f76a94882c1f684",
+      "created_at": "2026-08-31T17:13:13.486330+00:00",
+      "updated_at": "2026-08-31T17:13:13.486330+00:00",
+      "attributed_to": "user"
+    },
+    "e9606049-977b-4d9e-af7b-99f31bdf1a68": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220656_510400",
+      "data": "User arrived at shelf 1 and observed that it contains a bowl 1",
+      "text_lemmatized": "user arrive shelf 1 observe contain bowl 1",
+      "hash": "7ec821356a21f3549b1b4cb3cf810054",
+      "created_at": "2026-08-31T17:13:17.810897+00:00",
+      "updated_at": "2026-08-31T17:13:17.810897+00:00",
+      "attributed_to": "user"
+    },
+    "b93887dd-75e4-4f93-b716-5ea909ea232c": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220656_510400",
+      "data": "User arrived at shelf 2 and observed that it contains a pencil 2 and a pencil 1",
+      "text_lemmatized": "user arrive shelf 2 observe contain pencil 2 pencil 1",
+      "hash": "d1eb02c19c8ac3a79b4cbf4bc4e3d3f2",
+      "created_at": "2026-08-31T17:13:22.224045+00:00",
+      "updated_at": "2026-08-31T17:13:22.224045+00:00"
+    },
+    "c9538d08-d5f0-4f04-9fe5-251c2484a715": {
+      "user_id": "look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220656_510400",
+      "data": "User picked up the pencil 1 from shelf 2",
+      "text_lemmatized": "user pick pencil 1 shelf 2",
+      "hash": "b172867c4ccd3d8a820fc8d59dd98de8",
+      "created_at": "2026-08-31T17:13:29.033825+00:00",
+      "updated_at": "2026-08-31T17:13:29.033825+00:00",
+      "attributed_to": "user"
+    }
+  },
+  "index_to_id": {
+    "0": "66c67605-06f3-4f88-9345-0f848fe351d6",
+    "1": "082416a4-d726-41fa-a2b1-1f4a34acd216",
+    "2": "e9606049-977b-4d9e-af7b-99f31bdf1a68",
+    "3": "b93887dd-75e4-4f93-b716-5ea909ea232c",
+    "4": "c9538d08-d5f0-4f04-9fe5-251c2484a715"
+  }
+}

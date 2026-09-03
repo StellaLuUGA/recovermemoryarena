@@ -1,0 +1,4521 @@
+{
+ "frozen_at_utc": "2026-08-28T17:17:35Z",
+ "setting": "PersonaMem-v2 / ImplicitPersona, TEXT-only, 128K, MCQ",
+ "exchangeability_unit": "persona_id",
+ "seed": 13,
+ "selection_rule": "numpy default_rng(13).permutation over the sorted list of 200 eligible persona ids; first 72 taken; slices [0:24] / [24:48] / [48:72] -> predictor_train / calibration / final_test. Simplest seeded persona-level split, no balancing (Phase-1 brief \u00a72 preference).",
+ "row_filter": {
+  "rule": "distance_from_related_snippet_to_query_128k > 0",
+  "note": "the brief specifies distance_to_ref_in_blocks > 0; that column exists in PersonaMem-v1 only. The v2 equivalent quantity is distance_from_related_snippet_to_query_128k (tokens between the evidence turn and the query). The 32k and 128k distance columns agree on the >0 predicate for every one of the 5000 rows, so the size choice does not affect the filter.",
+  "eligible_rows": 4492,
+  "excluded_rows": 508,
+  "excluded_by_pref_type": {
+   "sensitive_info": 508
+  },
+  "excluded_by_conversation_scenario": {
+   "personal_email": 61,
+   "professional_writing": 57,
+   "social_media_post": 51,
+   "professional_email": 73,
+   "trouble_consult": 68,
+   "chat_message": 60,
+   "creative_writing": 66,
+   "translation": 72
+  },
+  "excluded_personas_touched": 161,
+  "category_rule_not_used": "3 sensitive_info rows have distance>0 and are RETAINED, confirming this is the distance criterion and not a category exclusion"
+ },
+ "option_shuffle": {
+  "implementation": "released PersonaMem-v2 inference.py::create_mcq_options, unmodified",
+  "seeding": "row_seed = hash(f'{persona_id}_{user_query.content + recall-instruction}') % 2**32, then random.seed(row_seed); random.shuffle([correct]+incorrect)",
+  "env": "PYTHONHASHSEED=13 exported before every relevant process",
+  "reproducibility_verified": "200 rows, two fresh processes with PYTHONHASHSEED=13 -> identical seeds, option orders and correct letters; control run without the env var differs",
+  "reproducible": true
+ },
+ "provenance": {
+  "dataset_repo": "bowen-upenn/ImplicitPersona",
+  "dataset_revision": "0622e56d1cc6f1bc990a5100a6ec4022a60e66a6",
+  "benchmark_csv_sha256": "95f2a8a324aab7baf2af937feae12731369e2abf7cad5ab3e170594cb25a3e52",
+  "code_repo": "https://github.com/bowen-upenn/PersonaMem-v2.git",
+  "code_commit": "dd52429f83ced4394be46c3849186a423942b2a5",
+  "answerer": "llama-3.1-8b-instruct-local @ http://127.0.0.1:8123/v1, temperature 0",
+  "tokenizer": "meta-llama/Llama-3.1-8B-Instruct snapshot 0e9e39f249a16976918f6564b8830bc894c89659"
+ },
+ "eligible_pool": {
+  "total_personas": 200,
+  "rows_per_persona": {
+   "min": 6,
+   "median": 23.0,
+   "max": 37
+  },
+  "category_counts": {
+   "pref_type": {
+    "anti_stereotypical_pref": 855,
+    "therapy_background": 627,
+    "neutral_preferences": 858,
+    "health_and_medical_conditions": 568,
+    "stereotypical_pref": 533,
+    "ask_to_forget": 1048,
+    "sensitive_info": 3
+   },
+   "conversation_scenario": {
+    "personal_email": 447,
+    "professional_email": 488,
+    "creative_writing": 475,
+    "professional_writing": 486,
+    "chat_message": 438,
+    "trouble_consult": 433,
+    "knowledge_query": 824,
+    "translation": 465,
+    "social_media_post": 436
+   },
+   "who": {
+    "self": 3970,
+    "others": 522
+   },
+   "updated": {
+    "False": 3445,
+    "True": 1047
+   }
+  }
+ },
+ "splits": {
+  "predictor_train": [
+   59,
+   70,
+   86,
+   158,
+   174,
+   208,
+   261,
+   280,
+   292,
+   294,
+   370,
+   371,
+   377,
+   425,
+   486,
+   528,
+   570,
+   601,
+   613,
+   636,
+   650,
+   687,
+   787,
+   892
+  ],
+  "calibration": [
+   23,
+   55,
+   110,
+   244,
+   254,
+   296,
+   307,
+   318,
+   365,
+   408,
+   436,
+   445,
+   548,
+   549,
+   583,
+   644,
+   692,
+   713,
+   879,
+   883,
+   893,
+   902,
+   974,
+   985
+  ],
+  "final_test": [
+   72,
+   76,
+   137,
+   184,
+   199,
+   209,
+   213,
+   235,
+   259,
+   265,
+   277,
+   332,
+   351,
+   521,
+   527,
+   604,
+   716,
+   721,
+   737,
+   741,
+   800,
+   816,
+   901,
+   995
+  ]
+ },
+ "split_sizes": {
+  "predictor_train": 24,
+  "calibration": 24,
+  "final_test": 24
+ },
+ "split_rows": {
+  "predictor_train": 502,
+  "calibration": 524,
+  "final_test": 540
+ },
+ "source_units": {
+  "predictor_train": {
+   "59": {
+    "persona_id": 59,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_07c48523e4c9b724",
+     "q_170fcdec61f10c21",
+     "q_19c67ef6c2bddbcb",
+     "q_1ae96d27d0fab1b1",
+     "q_1cff44310ba83947",
+     "q_2464befbe99c8650",
+     "q_2ade5ad7d996538f",
+     "q_37c4551d0a00fd5e",
+     "q_38801d41b2c3d369",
+     "q_39965358af13d172",
+     "q_46d1fcf5de06dff8",
+     "q_51d6bd8964c5a79e",
+     "q_80f95ff3afbfffd2",
+     "q_83657fbd364eee30",
+     "q_8d0742db9667b9b8",
+     "q_976852305cc9b5b6",
+     "q_9a06a0afe2e17763",
+     "q_b0bed16a0cdb8740",
+     "q_bd703af7fec1125b",
+     "q_c6cd7b7629a0d106",
+     "q_e6c77056cd74b2e9",
+     "q_f11212c42de110fa",
+     "q_f1893c5275ab3348"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona59.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona59.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona59.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124894,
+    "pref_type": {
+     "health_and_medical_conditions": 6,
+     "ask_to_forget": 7,
+     "therapy_background": 5,
+     "anti_stereotypical_pref": 3,
+     "stereotypical_pref": 1,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 2,
+     "creative_writing": 4,
+     "professional_writing": 5,
+     "chat_message": 2,
+     "translation": 1,
+     "social_media_post": 4,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 17,
+     "others": 6
+    },
+    "updated": {
+     "False": 16,
+     "True": 7
+    }
+   },
+   "70": {
+    "persona_id": 70,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_1090934d3a9dd2e7",
+     "q_1533bfc78a05d61a",
+     "q_1d9867734e309a1e",
+     "q_316f05a74c4f15ec",
+     "q_3e5bcd849519ab00",
+     "q_4478abca382cc5ce",
+     "q_452a8cdf4df8b892",
+     "q_470320b5381bda7e",
+     "q_52655ba4e58f2442",
+     "q_56e17004473e0349",
+     "q_59edd29c21a0efc7",
+     "q_666a9643fe1b878b",
+     "q_6cca499f23c5bae5",
+     "q_7114c996ecbdabf4",
+     "q_787dc5720a3a5731",
+     "q_7c723c7b6c0b5259",
+     "q_8a885c19d26c24e6",
+     "q_9631b91a5f6dcf16",
+     "q_9a34344b448249a2",
+     "q_9bd70ed1df12d1f4",
+     "q_b78bb96016db8561",
+     "q_e0f0e5dbdf184548",
+     "q_eef14ebcaeb62788"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona70.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona70.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona70.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124363,
+    "pref_type": {
+     "therapy_background": 4,
+     "ask_to_forget": 5,
+     "health_and_medical_conditions": 3,
+     "neutral_preferences": 3,
+     "stereotypical_pref": 4,
+     "anti_stereotypical_pref": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 3,
+     "creative_writing": 2,
+     "professional_writing": 7,
+     "chat_message": 1,
+     "social_media_post": 3,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 19,
+     "others": 4
+    },
+    "updated": {
+     "False": 18,
+     "True": 5
+    }
+   },
+   "86": {
+    "persona_id": 86,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_0b0b1b3a45ec4a6a",
+     "q_0ddfbcaf17aaea2f",
+     "q_406de545b914ef7a",
+     "q_48b4df864c4bb0a8",
+     "q_64e89675384cc177",
+     "q_83cf6217c77cc4aa",
+     "q_847b733918437b85",
+     "q_962865e5985a2bb1",
+     "q_97d55fbc44ae27a9",
+     "q_99d94cd8f927e682",
+     "q_9e9c787552cc469b",
+     "q_b13d161ae0082286",
+     "q_b314f146fb9ba864",
+     "q_b7987fc376bd1a97",
+     "q_c7f779f4bc81b783",
+     "q_cba7f94620cb9f5e",
+     "q_da18d7f736341281",
+     "q_e08321f7352a8bd9",
+     "q_e0984e4d7e3439dd",
+     "q_efa8530c6be0c3e7",
+     "q_fe2a2b370b86a639",
+     "q_ffad66b57b21a343",
+     "q_ffe6edd812c84db9"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona86.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona86.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona86.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 87224,
+    "pref_type": {
+     "neutral_preferences": 8,
+     "anti_stereotypical_pref": 6,
+     "ask_to_forget": 2,
+     "health_and_medical_conditions": 3,
+     "stereotypical_pref": 2,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 2,
+     "trouble_consult": 3,
+     "social_media_post": 5,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 23
+    },
+    "updated": {
+     "False": 21,
+     "True": 2
+    }
+   },
+   "158": {
+    "persona_id": 158,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_14f1bb21933ec374",
+     "q_18b8eea91783ad45",
+     "q_18ec0bab79ebf3c0",
+     "q_1ee454f2193e29b1",
+     "q_2cfdc58b706b4baa",
+     "q_335fadb037ee7dfa",
+     "q_5256674f5b085c9a",
+     "q_6beaab589f93b7cc",
+     "q_735a193439058169",
+     "q_929b62f9e1f700db",
+     "q_97e79ac2e80f1370",
+     "q_983a1974551e26b1",
+     "q_984c703570c932c3",
+     "q_a0fb90f51f935916",
+     "q_ab1e5c84340bb36c",
+     "q_b128f9cffe2d4f28",
+     "q_bb8f9056eee07708",
+     "q_c4f5baa9a6cf4b01",
+     "q_ce748d71af9d2d7b",
+     "q_d084dd285d247878",
+     "q_e6b8b91218192af6",
+     "q_f3f83d18be468f82",
+     "q_fe11fc1a94ca85f8"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona158.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona158.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona158.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123427,
+    "pref_type": {
+     "ask_to_forget": 5,
+     "therapy_background": 6,
+     "neutral_preferences": 4,
+     "health_and_medical_conditions": 5,
+     "stereotypical_pref": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 4,
+     "creative_writing": 2,
+     "professional_writing": 4,
+     "chat_message": 2,
+     "translation": 3,
+     "trouble_consult": 1,
+     "social_media_post": 2,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 18,
+     "others": 5
+    },
+    "updated": {
+     "True": 5,
+     "False": 18
+    }
+   },
+   "174": {
+    "persona_id": 174,
+    "eligible_rows": 20,
+    "question_ids": [
+     "q_168d01b3cabba290",
+     "q_257b3a4ee855fcdd",
+     "q_27d277ea4a88ab42",
+     "q_283ac91a12a1526c",
+     "q_45c643131b0f71ea",
+     "q_55a30ad76d914fd3",
+     "q_5bd3135f9b4eccd3",
+     "q_5be7d99ad5756ff1",
+     "q_6579fad890f0e941",
+     "q_6f692a27df71a7a8",
+     "q_834e34e081ee264e",
+     "q_879d133c1167fef2",
+     "q_8d960cb24a072a28",
+     "q_96c44578b028afb7",
+     "q_9f3f56a5090e7f77",
+     "q_b6fecc10217b127c",
+     "q_c3e1e2c22588b5ac",
+     "q_d7cb17e8de28ba83",
+     "q_f1c01143dd64d4d9",
+     "q_fbe72963a37eea1e"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona174.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona174.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona174.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 116195,
+    "pref_type": {
+     "neutral_preferences": 3,
+     "therapy_background": 2,
+     "ask_to_forget": 6,
+     "health_and_medical_conditions": 5,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 2,
+     "creative_writing": 1,
+     "professional_writing": 4,
+     "chat_message": 1,
+     "translation": 1,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 17,
+     "others": 3
+    },
+    "updated": {
+     "False": 14,
+     "True": 6
+    }
+   },
+   "208": {
+    "persona_id": 208,
+    "eligible_rows": 16,
+    "question_ids": [
+     "q_05869db6b46e467d",
+     "q_157dde4893f02b32",
+     "q_15f687ee00c7f812",
+     "q_1dcd1f9f40ca1370",
+     "q_24fb98b19755b742",
+     "q_2bb36edd4eba13ca",
+     "q_44f2f3590d425185",
+     "q_4e82f9d62b6be1f3",
+     "q_6ee9d983322dd4db",
+     "q_9a73c1fd87f1d28b",
+     "q_9ff76a30109dd857",
+     "q_ab963261f316b443",
+     "q_c055ac74b0257866",
+     "q_cf490c2b37cbf017",
+     "q_d43cd7eaa23f1086",
+     "q_fce8e80b811cb898"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona208.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona208.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona208.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122900,
+    "pref_type": {
+     "ask_to_forget": 4,
+     "neutral_preferences": 3,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 3,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 2,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 3,
+     "trouble_consult": 3,
+     "social_media_post": 2,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 13,
+     "others": 3
+    },
+    "updated": {
+     "True": 4,
+     "False": 12
+    }
+   },
+   "261": {
+    "persona_id": 261,
+    "eligible_rows": 14,
+    "question_ids": [
+     "q_0d1cb54ea1d63a78",
+     "q_11789b9b0aeedf96",
+     "q_232762afb366ec43",
+     "q_2b972821197981b0",
+     "q_30d9769bf6a5ef9e",
+     "q_335a162b1774e37c",
+     "q_398956d6b7c82251",
+     "q_6625133f22105ca1",
+     "q_8a6d1450617f5742",
+     "q_c8c9c7a554ec8ed8",
+     "q_ce7f70c5229c597e",
+     "q_d52d4d30df59aca9",
+     "q_eb0fdde428a954c6",
+     "q_edd34b0668aa82f5"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona261.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona261.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona261.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123680,
+    "pref_type": {
+     "ask_to_forget": 4,
+     "anti_stereotypical_pref": 5,
+     "health_and_medical_conditions": 3,
+     "neutral_preferences": 1,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 3,
+     "chat_message": 3,
+     "translation": 2,
+     "trouble_consult": 1,
+     "social_media_post": 2,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 13,
+     "others": 1
+    },
+    "updated": {
+     "True": 4,
+     "False": 10
+    }
+   },
+   "280": {
+    "persona_id": 280,
+    "eligible_rows": 16,
+    "question_ids": [
+     "q_043e868cf8228dc0",
+     "q_23b7a8d39948bf45",
+     "q_3720a17ec3baa8eb",
+     "q_3df984270b0913ab",
+     "q_4885d28db25ff820",
+     "q_4aab40624cebde66",
+     "q_54f26e1a5a3a09cd",
+     "q_5ca4d8e561760373",
+     "q_748e2c141aaec28c",
+     "q_8ede7f7f1ac56685",
+     "q_917431ae1558696d",
+     "q_9f2f2167574b5ee0",
+     "q_babd8263fe8699d7",
+     "q_dcf33a380b417b71",
+     "q_eab8cb58b63cc388",
+     "q_f8b6dd6c172c50ab"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona280.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona280.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona280.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123630,
+    "pref_type": {
+     "ask_to_forget": 7,
+     "anti_stereotypical_pref": 3,
+     "health_and_medical_conditions": 4,
+     "therapy_background": 1,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 4,
+     "creative_writing": 1,
+     "professional_writing": 3,
+     "translation": 1,
+     "social_media_post": 1,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 15,
+     "others": 1
+    },
+    "updated": {
+     "True": 7,
+     "False": 9
+    }
+   },
+   "292": {
+    "persona_id": 292,
+    "eligible_rows": 13,
+    "question_ids": [
+     "q_009c09868e9b9e55",
+     "q_0a9578a50d0c4b11",
+     "q_1b444c7884eb2a2d",
+     "q_50d6ab39ac52e32f",
+     "q_7818e4764179382d",
+     "q_98a9847bc93d8059",
+     "q_a92f7f4dccf0b4dc",
+     "q_afc24413a712e7e6",
+     "q_e34270c9065ba2a9",
+     "q_e6283e381428e5c5",
+     "q_ece99a0e9e8ccdd7",
+     "q_f8531d3ef931ecbb",
+     "q_fcfa71945e7570be"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona292.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona292.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona292.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 125096,
+    "pref_type": {
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 4,
+     "neutral_preferences": 2,
+     "therapy_background": 1,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "translation": 2,
+     "trouble_consult": 3,
+     "social_media_post": 2,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 11,
+     "others": 2
+    },
+    "updated": {
+     "True": 5,
+     "False": 8
+    }
+   },
+   "294": {
+    "persona_id": 294,
+    "eligible_rows": 13,
+    "question_ids": [
+     "q_04987ad49314f784",
+     "q_06d9dd9264202bc8",
+     "q_0cf7c15346f5c719",
+     "q_2c32fa9129864b9b",
+     "q_3c1e147f4dabf25c",
+     "q_44a4bd2f75792c5a",
+     "q_4d27a9dff0105d2f",
+     "q_532b5122e6fd9c28",
+     "q_64894ee5673aac64",
+     "q_a4ac4c5c27689d3d",
+     "q_a753f2fc7ea3ef6c",
+     "q_b9323363b352ad8b",
+     "q_c0efeb16fd4a7f60"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona294.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona294.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona294.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123350,
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 4,
+     "health_and_medical_conditions": 1,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "creative_writing": 4,
+     "professional_writing": 2,
+     "chat_message": 2,
+     "translation": 1,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 13
+    },
+    "updated": {
+     "False": 8,
+     "True": 5
+    }
+   },
+   "370": {
+    "persona_id": 370,
+    "eligible_rows": 20,
+    "question_ids": [
+     "q_011f091b40022028",
+     "q_1001c67a4722de3b",
+     "q_15a6726179206f8f",
+     "q_165207b5ddd50f7d",
+     "q_2d8c6a755cf54852",
+     "q_2e58c2df95c2b6d4",
+     "q_3795cc397ae3c7a5",
+     "q_395c4d1178692e58",
+     "q_39c2e11e482b0617",
+     "q_3b3464750c44af58",
+     "q_4a7d0f2ff3b24d98",
+     "q_4d6e79d6b3dc27a6",
+     "q_59ed30b40543589f",
+     "q_8b3e72f4b89b479b",
+     "q_96eddfed33f9314f",
+     "q_a26e5e4d15872baa",
+     "q_b8f153be9776ab8f",
+     "q_cff2e6086ff64afb",
+     "q_dbe7142aa1ee8b18",
+     "q_e8908ed2692681e9"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona370.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona370.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona370.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123388,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "ask_to_forget": 9,
+     "neutral_preferences": 2,
+     "health_and_medical_conditions": 3,
+     "anti_stereotypical_pref": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 2,
+     "creative_writing": 2,
+     "professional_writing": 4,
+     "chat_message": 1,
+     "translation": 4,
+     "trouble_consult": 1,
+     "social_media_post": 3,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 19,
+     "others": 1
+    },
+    "updated": {
+     "False": 11,
+     "True": 9
+    }
+   },
+   "371": {
+    "persona_id": 371,
+    "eligible_rows": 19,
+    "question_ids": [
+     "q_182231a5f4aad18c",
+     "q_2034ac9be6572093",
+     "q_23cbc8c373d4c7b3",
+     "q_2bfe72362e5d8bb6",
+     "q_3d24e29eb24105ce",
+     "q_4548677d4a9c8df8",
+     "q_559743b3e56bc03d",
+     "q_5654068da4008959",
+     "q_6c46c9792b613165",
+     "q_6cbf9cda33a83089",
+     "q_6d8c49958bcd1f79",
+     "q_6ddd6164a60201fb",
+     "q_81d466f21ef5aad7",
+     "q_8417441a1f3a91bf",
+     "q_8a39b41befaecb27",
+     "q_b1a230cb0fc129f5",
+     "q_e6d8b28fb8e4efe3",
+     "q_ed2a2237aa67ec30",
+     "q_fedbd58ba5db49f3"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona371.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona371.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona371.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123228,
+    "pref_type": {
+     "ask_to_forget": 3,
+     "anti_stereotypical_pref": 3,
+     "stereotypical_pref": 6,
+     "neutral_preferences": 5,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 1,
+     "creative_writing": 3,
+     "professional_writing": 1,
+     "chat_message": 1,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 17,
+     "others": 2
+    },
+    "updated": {
+     "True": 3,
+     "False": 16
+    }
+   },
+   "377": {
+    "persona_id": 377,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_2fe9081d044bf9c9",
+     "q_32272e351545bd98",
+     "q_3a5164e8873e926c",
+     "q_3a52e68c55a57277",
+     "q_600bc5a518bd9c9d",
+     "q_6b0c2eff6ed16a58",
+     "q_7062bbe2e81ea4c9",
+     "q_73b4137be60ba6ca",
+     "q_74ea9930b62a42d9",
+     "q_759067811fa2c9b4",
+     "q_772e4cf13fd2519f",
+     "q_807a4ab4739f70ff",
+     "q_8dbeb33f674b4849",
+     "q_9a819513405397c7",
+     "q_b57de7fdbe676985",
+     "q_b61089f7e677be12",
+     "q_b99336d8968e4147",
+     "q_d1a48c6d3c0df37e",
+     "q_db9f7d21cb2002ba",
+     "q_dd3ad0b324c518e3",
+     "q_dd42ca76dfe00b86",
+     "q_e8497ce51cb9902c",
+     "q_ff4089b14d82d46e"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona377.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona377.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona377.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 126812,
+    "pref_type": {
+     "therapy_background": 1,
+     "health_and_medical_conditions": 4,
+     "ask_to_forget": 9,
+     "neutral_preferences": 3,
+     "anti_stereotypical_pref": 4,
+     "stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 5,
+     "creative_writing": 1,
+     "professional_writing": 2,
+     "chat_message": 2,
+     "trouble_consult": 3,
+     "social_media_post": 3,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 21,
+     "others": 2
+    },
+    "updated": {
+     "False": 14,
+     "True": 9
+    }
+   },
+   "425": {
+    "persona_id": 425,
+    "eligible_rows": 27,
+    "question_ids": [
+     "q_090480bbc1d864e5",
+     "q_12aa25f426b7a215",
+     "q_26c5afb784e7b1e7",
+     "q_32492eeb5c48b5bb",
+     "q_33dd24d235eab001",
+     "q_38bf20f3a1977ad3",
+     "q_3cb631966e6c2374",
+     "q_411e596650aa257e",
+     "q_4eac14f27984c621",
+     "q_5f11d8924edb72cd",
+     "q_622b4a2ad15d0382",
+     "q_6505fab2e78e568f",
+     "q_6a980d5378a14fe6",
+     "q_7ede3cb8eca2f761",
+     "q_80da546418a22798",
+     "q_a0208b49eadde38b",
+     "q_a8f7237d1d4b2fc4",
+     "q_adcf708491dc5b5e",
+     "q_b1b822ad65858232",
+     "q_c29377c3f6942d4c",
+     "q_ca5fa3b682251f07",
+     "q_d31864453f2c32e3",
+     "q_d59ee9662ddbf2f5",
+     "q_efca2d669bee18e1",
+     "q_f0b4d8e7612c32cc",
+     "q_f1da788d8ab33f61",
+     "q_f2b4c890ae3b7ba4"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona425.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona425.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona425.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 111941,
+    "pref_type": {
+     "anti_stereotypical_pref": 8,
+     "ask_to_forget": 6,
+     "health_and_medical_conditions": 5,
+     "neutral_preferences": 2,
+     "therapy_background": 2,
+     "stereotypical_pref": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 4,
+     "professional_email": 4,
+     "creative_writing": 3,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 2,
+     "trouble_consult": 4,
+     "social_media_post": 1,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 27
+    },
+    "updated": {
+     "False": 21,
+     "True": 6
+    }
+   },
+   "486": {
+    "persona_id": 486,
+    "eligible_rows": 25,
+    "question_ids": [
+     "q_02797b0bc1137778",
+     "q_1209d28142a448e5",
+     "q_2ba40eb21e0f934f",
+     "q_2c39fda3c146ba01",
+     "q_2cf246c8a7daa629",
+     "q_366c4edacd9f78fc",
+     "q_387970b87f99d54d",
+     "q_3c80c6ae72ede205",
+     "q_42c76849d7bb3e64",
+     "q_42eb6d272f63d84c",
+     "q_4a1c00a3410658c3",
+     "q_5a6ef9ee5fe9f109",
+     "q_69ba589cedbfa615",
+     "q_961fb5acef2c3514",
+     "q_a2615efbb00c8c8d",
+     "q_adf5c8d2ed155291",
+     "q_b3a6e69b3319f9e0",
+     "q_b67a24b5a052ee8e",
+     "q_c2f70fd43b73da37",
+     "q_c34bd7d0c33515fc",
+     "q_c505f26a7a27a18b",
+     "q_d259e81f51d2aa73",
+     "q_e04c863d0a75680e",
+     "q_e2b1e0c3b769c955",
+     "q_ff7c3473ef9f36a6"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona486.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona486.json",
+    "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona486.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 126056,
+    "pref_type": {
+     "anti_stereotypical_pref": 7,
+     "ask_to_forget": 9,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 4,
+     "neutral_preferences": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 2,
+     "creative_writing": 4,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 4,
+     "trouble_consult": 2,
+     "knowledge_query": 7
+    },
+    "who": {
+     "self": 22,
+     "others": 3
+    },
+    "updated": {
+     "False": 16,
+     "True": 9
+    }
+   },
+   "528": {
+    "persona_id": 528,
+    "eligible_rows": 26,
+    "question_ids": [
+     "q_0fa4c3d11d16ffaa",
+     "q_18aba18656052ab5",
+     "q_251cb297f10113b9",
+     "q_2c0d1dc627326128",
+     "q_2eda2bdde368afb5",
+     "q_3a2716391b75f56d",
+     "q_3dc83e0f27ba4754",
+     "q_4081fcb3941bdedb",
+     "q_50aa7cf6fc87f87d",
+     "q_51bb6f369485332f",
+     "q_63a462cd0a0a188f",
+     "q_659ec133585ec92d",
+     "q_68ffd9945aa4a395",
+     "q_780fba9f3d57e048",
+     "q_7bf72d30717d83e1",
+     "q_bcea15332b1a3863",
+     "q_bd9b3cb962c8ca4d",
+     "q_bf52d4264027558f",
+     "q_c226a4e98818990b",
+     "q_c440e794c885035d",
+     "q_cbd3835e33f3ebb6",
+     "q_d8bd67d4c6cefd37",
+     "q_de2ae231118eb396",
+     "q_e196efe94cdae213",
+     "q_e6d4f9a15dfa43cb",
+     "q_ecfeff7ae31c028a"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona528.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona528.json",
+    "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona528.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 102495,
+    "pref_type": {
+     "stereotypical_pref": 4,
+     "ask_to_forget": 5,
+     "neutral_preferences": 7,
+     "anti_stereotypical_pref": 4,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 4,
+     "professional_email": 1,
+     "creative_writing": 3,
+     "professional_writing": 4,
+     "chat_message": 1,
+     "translation": 5,
+     "trouble_consult": 4,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 22,
+     "others": 4
+    },
+    "updated": {
+     "False": 21,
+     "True": 5
+    }
+   },
+   "570": {
+    "persona_id": 570,
+    "eligible_rows": 24,
+    "question_ids": [
+     "q_09d5e8119b267296",
+     "q_0b32c6c2782da3ca",
+     "q_18c971ac94690185",
+     "q_1cb1e4967159fe7c",
+     "q_2a9f73b15212b73d",
+     "q_2e297efcc40947ed",
+     "q_457d3aa3ee0d7eb8",
+     "q_469f902fb0f7e095",
+     "q_49d32b16ae1f873f",
+     "q_4b37bbae511a66d1",
+     "q_56084401e8cf0338",
+     "q_62464800f3ebd752",
+     "q_99aea6b4c2ec5522",
+     "q_b3f14dd3aeacdac6",
+     "q_bd767af6af77edb4",
+     "q_be89daf241f78854",
+     "q_c8236577e3adc26a",
+     "q_d0eb3c67f20b3da9",
+     "q_d2b73ba93ea71e71",
+     "q_d706186cb8f6da2b",
+     "q_e57dba60c2c1efa5",
+     "q_f9c1da2bacef2c18",
+     "q_fa14b6dac51ef259",
+     "q_ffd06aa79850fb32"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona570.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona570.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona570.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 118680,
+    "pref_type": {
+     "neutral_preferences": 6,
+     "therapy_background": 4,
+     "stereotypical_pref": 2,
+     "ask_to_forget": 6,
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 2,
+     "creative_writing": 3,
+     "professional_writing": 6,
+     "translation": 5,
+     "trouble_consult": 1,
+     "social_media_post": 2,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 19,
+     "others": 5
+    },
+    "updated": {
+     "False": 18,
+     "True": 6
+    }
+   },
+   "601": {
+    "persona_id": 601,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_0526ae3d6d687f4f",
+     "q_15352188a27c4816",
+     "q_204648b08fcc9860",
+     "q_3f8f53b0a6897b6f",
+     "q_42a427fa94f79a51",
+     "q_4d9a9937bb1d14b9",
+     "q_58c42612d2badb2b",
+     "q_6b8740d67d2e17e5",
+     "q_7477abb04b31db35",
+     "q_79775a1e20ac5e70",
+     "q_818c5cf5d12c4ca2",
+     "q_84da2bf542d051a7",
+     "q_9758cc3362c53c1f",
+     "q_9b244d62c1712a68",
+     "q_9b57d2b6019ead94",
+     "q_c627f05767423813",
+     "q_d8292f3f2ca373fe",
+     "q_dfffbfcafc3457a6",
+     "q_e8050f373d3bb5cd",
+     "q_ec73997d60bae437",
+     "q_f0aec21a09ca9997",
+     "q_f2e6e419e25753f1",
+     "q_f881197ceaf5d3d2"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona601.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona601.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona601.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 121724,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "anti_stereotypical_pref": 4,
+     "neutral_preferences": 4,
+     "ask_to_forget": 2,
+     "health_and_medical_conditions": 3,
+     "therapy_background": 7
+    },
+    "conversation_scenario": {
+     "professional_email": 9,
+     "professional_writing": 1,
+     "chat_message": 3,
+     "translation": 2,
+     "trouble_consult": 4,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 19,
+     "others": 4
+    },
+    "updated": {
+     "False": 21,
+     "True": 2
+    }
+   },
+   "613": {
+    "persona_id": 613,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_0ab92ea9eb42bf94",
+     "q_369262144b3e5bf3",
+     "q_378151bab212e5a7",
+     "q_400976ec6f93d144",
+     "q_4061825eff8ddcd9",
+     "q_4939b85f68e1b1ee",
+     "q_60cf266900dc0bba",
+     "q_70502a7fa6ff5216",
+     "q_81e24a45fe416569",
+     "q_83939a1a8fd3d752",
+     "q_855e6f013a249599",
+     "q_939dfe08c6d7037b",
+     "q_bc03bd904d2d4b51",
+     "q_caecfef10597375a",
+     "q_cd965c188db9a7f1",
+     "q_dbb1efb8a3cf7691",
+     "q_e70a4a3b0ee26714",
+     "q_eb4778aa4ea6c0fd",
+     "q_f2e493c52df1717b",
+     "q_f6ba2292f3082b5d",
+     "q_f77941813658ccf1",
+     "q_f8604ab65c049515",
+     "q_fd467e15bc3f2a3b"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona613.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona613.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona613.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123751,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "ask_to_forget": 6,
+     "therapy_background": 5,
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 4,
+     "neutral_preferences": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 4,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 4,
+     "trouble_consult": 3,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 20,
+     "others": 3
+    },
+    "updated": {
+     "False": 17,
+     "True": 6
+    }
+   },
+   "636": {
+    "persona_id": 636,
+    "eligible_rows": 25,
+    "question_ids": [
+     "q_03b976e789676f13",
+     "q_19c0ec9b27a8b8a4",
+     "q_19d34a31b7e20c93",
+     "q_20923e7cf7412356",
+     "q_52afca9da61aa158",
+     "q_579dcce2f85b4f07",
+     "q_5f0884adc1c85502",
+     "q_5f708ceb8b46f56e",
+     "q_77dea69a03319a2a",
+     "q_8144749d4114f9ec",
+     "q_8ba30aa581276c70",
+     "q_929d1e505c565474",
+     "q_9947f22df74002de",
+     "q_9c809b1735cf059f",
+     "q_a5a8303e29e5dda9",
+     "q_aaddea9c3116df1a",
+     "q_b054fe54e0396edf",
+     "q_b4db4f82c54caa41",
+     "q_c3f6aeb1b52d7dd9",
+     "q_c438a67eef4a03b9",
+     "q_c4bc74c30b66c2f7",
+     "q_d01adf3d49b26301",
+     "q_dd907692c8e30e06",
+     "q_ec59e3def76a3b1a",
+     "q_f49baa30c7e527a8"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona636.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona636.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona636.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 120721,
+    "pref_type": {
+     "anti_stereotypical_pref": 4,
+     "neutral_preferences": 6,
+     "ask_to_forget": 6,
+     "health_and_medical_conditions": 2,
+     "therapy_background": 4,
+     "stereotypical_pref": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 6,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 3,
+     "chat_message": 3,
+     "translation": 2,
+     "trouble_consult": 1,
+     "social_media_post": 4,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 23,
+     "others": 2
+    },
+    "updated": {
+     "False": 19,
+     "True": 6
+    }
+   },
+   "650": {
+    "persona_id": 650,
+    "eligible_rows": 27,
+    "question_ids": [
+     "q_062dfb468b1063be",
+     "q_06405aa00b72e969",
+     "q_06dac3b4f5d20e49",
+     "q_12ca130b2e1f33fe",
+     "q_1acafc1356d7db96",
+     "q_28bb8cc9d6502966",
+     "q_4139a20272ca1361",
+     "q_426c6a4e54f039f7",
+     "q_44e61c29a9741534",
+     "q_4963e0582813e9d4",
+     "q_5bb2d2cd4184e1ca",
+     "q_5bd0d92b555e2d63",
+     "q_69eb2ab30e4b0d8d",
+     "q_7633c9d0344c410c",
+     "q_7f24ac3738271c38",
+     "q_90582276dadfaf9e",
+     "q_a3d2a81f540dfccb",
+     "q_ad2fea03eba708ed",
+     "q_ba3c3a774592e4db",
+     "q_ce6c28b7328d5c5d",
+     "q_da09be46654fb33d",
+     "q_dbf3b926360b148f",
+     "q_dc38009e10b475c6",
+     "q_e1a7c4ab54af2d27",
+     "q_e1e6c2898f0a8bf9",
+     "q_f900c9a7a2dc53de",
+     "q_ff2f8e2d683acd7a"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona650.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona650.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona650.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 121527,
+    "pref_type": {
+     "ask_to_forget": 4,
+     "neutral_preferences": 4,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 6,
+     "anti_stereotypical_pref": 6,
+     "stereotypical_pref": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 4,
+     "professional_email": 2,
+     "creative_writing": 2,
+     "professional_writing": 4,
+     "chat_message": 5,
+     "translation": 1,
+     "social_media_post": 4,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 23,
+     "others": 4
+    },
+    "updated": {
+     "True": 4,
+     "False": 23
+    }
+   },
+   "687": {
+    "persona_id": 687,
+    "eligible_rows": 21,
+    "question_ids": [
+     "q_04fffb164bd3aa68",
+     "q_09bee764c1fb5ad3",
+     "q_129e3f84676956bf",
+     "q_12a158f4288b6f57",
+     "q_35408921351821c8",
+     "q_37c0e942a3119d93",
+     "q_3a2c7fa4e8942f27",
+     "q_443d8c5d25f14264",
+     "q_447e6d902d640027",
+     "q_57a3983ccaba88b6",
+     "q_5d3a28c9ee6f5e80",
+     "q_5ec008f13831a082",
+     "q_61d5bad37b058cd6",
+     "q_6a53425731116e6e",
+     "q_7620622152f4dfa9",
+     "q_8cb7767eaf16faf2",
+     "q_ba0bd5f21251947f",
+     "q_ba76e1a03ce7d663",
+     "q_cfa00cf4ab46c725",
+     "q_d2e3ff576bbee2ef",
+     "q_d479760811dcc4d6"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona687.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona687.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona687.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122220,
+    "pref_type": {
+     "stereotypical_pref": 4,
+     "anti_stereotypical_pref": 3,
+     "neutral_preferences": 6,
+     "ask_to_forget": 5,
+     "health_and_medical_conditions": 2,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 1,
+     "chat_message": 3,
+     "translation": 1,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 8
+    },
+    "who": {
+     "self": 20,
+     "others": 1
+    },
+    "updated": {
+     "False": 16,
+     "True": 5
+    }
+   },
+   "787": {
+    "persona_id": 787,
+    "eligible_rows": 22,
+    "question_ids": [
+     "q_0a3a383f1be93089",
+     "q_0ca98316977f8068",
+     "q_260b92a71bc16ec4",
+     "q_4f3e8dcd1200a129",
+     "q_5378511a5f03a0d8",
+     "q_5812e5fc7687cc0a",
+     "q_652118cd2f36e584",
+     "q_6fbe514ac5ebeb7d",
+     "q_8f06a803127fedb2",
+     "q_a16974caa369a7b4",
+     "q_b6bd77b5e144a557",
+     "q_b6e4f154002be345",
+     "q_c0aa2ecb2cf2c7a7",
+     "q_ca332ca983795c4b",
+     "q_d59385841581f2b8",
+     "q_dd0cd35af63db3bf",
+     "q_de7dc7d73e458156",
+     "q_deeb24115bc9b5b7",
+     "q_e11754d992d9c77a",
+     "q_ee741d6e4ec86e8e",
+     "q_f25428a003026752",
+     "q_f8d4e1102e1412a9"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona787.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona787.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona787.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 99235,
+    "pref_type": {
+     "ask_to_forget": 4,
+     "health_and_medical_conditions": 4,
+     "neutral_preferences": 4,
+     "stereotypical_pref": 3,
+     "anti_stereotypical_pref": 6,
+     "therapy_background": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 1,
+     "creative_writing": 4,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 22
+    },
+    "updated": {
+     "True": 4,
+     "False": 18
+    }
+   },
+   "892": {
+    "persona_id": 892,
+    "eligible_rows": 13,
+    "question_ids": [
+     "q_0547db9cde7e60fe",
+     "q_11f9d3ffd0f93426",
+     "q_1d17e294b9d9c052",
+     "q_2cb334255bfb03d2",
+     "q_58ee65e22a1c9565",
+     "q_83d8c90d0fa28f06",
+     "q_909e55d309b4737a",
+     "q_9d100c6fb10e3b85",
+     "q_a99ada53c6f569be",
+     "q_b5d52674b958b487",
+     "q_b7f7f8119d210e41",
+     "q_d9fb7c78fb2221c2",
+     "q_e38096cce7961848"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona892.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona892.json",
+    "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona892.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 125086,
+    "pref_type": {
+     "therapy_background": 3,
+     "ask_to_forget": 2,
+     "anti_stereotypical_pref": 2,
+     "neutral_preferences": 4,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "translation": 5,
+     "trouble_consult": 1,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 10,
+     "others": 3
+    },
+    "updated": {
+     "False": 11,
+     "True": 2
+    }
+   }
+  },
+  "calibration": {
+   "23": {
+    "persona_id": 23,
+    "eligible_rows": 27,
+    "question_ids": [
+     "q_04f5e5c1b1daf9d1",
+     "q_0593133de4ce10fe",
+     "q_0964eb7b3e5ab4f7",
+     "q_19a44ef442e72ad3",
+     "q_287f7045a3df5d8c",
+     "q_2f840f35ba6a5a96",
+     "q_334543c1e7d5ba92",
+     "q_361bce6baaeff1d8",
+     "q_609e262f78d38d6e",
+     "q_632d6a7c14851611",
+     "q_75edcdad491f914e",
+     "q_82d520c93f9a64fc",
+     "q_82dfd12fa48ce6f0",
+     "q_8c8838f8bfcae7e5",
+     "q_906d940daca5c55c",
+     "q_9a1ac43322f39300",
+     "q_9c375b05d6ff4d71",
+     "q_ae1ebc902f45deb2",
+     "q_c07c411f37bacac4",
+     "q_d6bb822d6f2946c5",
+     "q_d9f54d115a154bc3",
+     "q_e27e1e58b4e6562c",
+     "q_e3b6f5a7178fdd48",
+     "q_effa94c8245fc79c",
+     "q_f05824522bd4d52b",
+     "q_f1dccb85478a5a03",
+     "q_f4c65a7dba4e57cc"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona23.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona23.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona23.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 98600,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "therapy_background": 4,
+     "health_and_medical_conditions": 3,
+     "anti_stereotypical_pref": 7,
+     "neutral_preferences": 6,
+     "ask_to_forget": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 6,
+     "chat_message": 4,
+     "translation": 2,
+     "trouble_consult": 4,
+     "knowledge_query": 8
+    },
+    "who": {
+     "self": 25,
+     "others": 2
+    },
+    "updated": {
+     "False": 23,
+     "True": 4
+    }
+   },
+   "55": {
+    "persona_id": 55,
+    "eligible_rows": 31,
+    "question_ids": [
+     "q_0335113d9e1a588e",
+     "q_05956399248bd6df",
+     "q_0918cc995afe4a12",
+     "q_1455cd77c7733993",
+     "q_18a7a886be28a4f5",
+     "q_238459d4fc68ef4b",
+     "q_27e3a4c8164578fb",
+     "q_286430d093e54756",
+     "q_28f65d3dca244757",
+     "q_2988a8f9f68c53cb",
+     "q_4139ea0f9f1f0141",
+     "q_4732412ebdbb10c5",
+     "q_61bcc4f9331e0594",
+     "q_7c946d542d09ef9c",
+     "q_8b4807f6a7762b18",
+     "q_994ad270427be63a",
+     "q_a755fa56aa6f88e8",
+     "q_af77113bb54c3790",
+     "q_b56ba571de811df2",
+     "q_c1d443b4b05a3c3c",
+     "q_c7e9bec662c1bc4b",
+     "q_c9c2a9b409c3261a",
+     "q_cebc6e7a80ba784e",
+     "q_cf597253a6569b18",
+     "q_d2ce5c329e8b7e66",
+     "q_eae3b374f75315ed",
+     "q_f5d9689d8aa58e22",
+     "q_f77427db2e2b1ad3",
+     "q_f97377f6373c8d59",
+     "q_fa170e63cd86804a",
+     "q_fc1b8e141e85b11f"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona55.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona55.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona55.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122839,
+    "pref_type": {
+     "ask_to_forget": 12,
+     "therapy_background": 4,
+     "stereotypical_pref": 5,
+     "anti_stereotypical_pref": 6,
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 4,
+     "creative_writing": 3,
+     "professional_writing": 2,
+     "chat_message": 4,
+     "translation": 3,
+     "trouble_consult": 2,
+     "social_media_post": 3,
+     "knowledge_query": 8
+    },
+    "who": {
+     "self": 26,
+     "others": 5
+    },
+    "updated": {
+     "True": 12,
+     "False": 19
+    }
+   },
+   "110": {
+    "persona_id": 110,
+    "eligible_rows": 18,
+    "question_ids": [
+     "q_011f77ea84683fbf",
+     "q_172d328773d25765",
+     "q_1e00c427dbf7d8f6",
+     "q_20220cbdce6f24a2",
+     "q_2c2a979ee5fb379d",
+     "q_324864a11557b496",
+     "q_3786fd69df6f229b",
+     "q_423c147185829073",
+     "q_5b4e4e53c1dabe72",
+     "q_6497cfe314f3ef0b",
+     "q_6a8596ef967a0a47",
+     "q_6d5ff7aa806636cf",
+     "q_7a523527ea1466e4",
+     "q_97185194a789b400",
+     "q_c5917679185e8d2e",
+     "q_cc07060655df7165",
+     "q_d896c0460d97befb",
+     "q_ef1ae604712e4725"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona110.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona110.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona110.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124783,
+    "pref_type": {
+     "ask_to_forget": 6,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 3,
+     "neutral_preferences": 5,
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 4,
+     "professional_email": 1,
+     "professional_writing": 1,
+     "chat_message": 5,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 17,
+     "others": 1
+    },
+    "updated": {
+     "True": 6,
+     "False": 12
+    }
+   },
+   "244": {
+    "persona_id": 244,
+    "eligible_rows": 20,
+    "question_ids": [
+     "q_02ff511e77214cff",
+     "q_05450ddafcf4f123",
+     "q_0d9ec5519a356167",
+     "q_20c8f180f2f7e5c0",
+     "q_48dbdc2156fe2e9b",
+     "q_4de5c7496f0c8a06",
+     "q_702eb24c5621751e",
+     "q_705a2a1651fd2510",
+     "q_7d1786688d579aa0",
+     "q_7d25d824b0c5254b",
+     "q_7d39b61b5573b3ea",
+     "q_81a9886aa080b69a",
+     "q_ae79c98c32371140",
+     "q_b4ecacccbc9494f6",
+     "q_b9892bbc908cc25b",
+     "q_d0313118563a7e74",
+     "q_e15d27ab382defb6",
+     "q_e3a6b67f8d367c43",
+     "q_eb98ea58597a1d91",
+     "q_fd1c891365045d53"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona244.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona244.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona244.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123970,
+    "pref_type": {
+     "anti_stereotypical_pref": 2,
+     "health_and_medical_conditions": 3,
+     "neutral_preferences": 5,
+     "ask_to_forget": 7,
+     "therapy_background": 2,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 5,
+     "creative_writing": 1,
+     "professional_writing": 1,
+     "chat_message": 1,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 4
+    },
+    "who": {
+     "others": 2,
+     "self": 18
+    },
+    "updated": {
+     "False": 13,
+     "True": 7
+    }
+   },
+   "254": {
+    "persona_id": 254,
+    "eligible_rows": 24,
+    "question_ids": [
+     "q_16da99e3ecee6275",
+     "q_224b368c4b59e9e1",
+     "q_2d6eec7bebb1555a",
+     "q_37116dc76c6aefc2",
+     "q_3878fe6291c6f14a",
+     "q_482fbffe5476a29c",
+     "q_4b4bdbd19d6f4b9f",
+     "q_4c8b055c29130777",
+     "q_51a823ea4d692e09",
+     "q_7369368c87f1c312",
+     "q_81d311bafa99df4d",
+     "q_8c3981010fa28655",
+     "q_8d534ca16077bc18",
+     "q_91a3e254d2c7375b",
+     "q_9a508f2e588bd281",
+     "q_a52c08e1a8199dc7",
+     "q_b2a86af2f889717e",
+     "q_b36ed5c7ad2460b6",
+     "q_b61476b84a6207c8",
+     "q_d5ad3adcfc176c7d",
+     "q_d5b9c596125285bd",
+     "q_f557b391b7ebb8e4",
+     "q_fc36dbdb6d28970f",
+     "q_ff6b4ee7de2e16a0"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona254.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona254.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona254.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122495,
+    "pref_type": {
+     "anti_stereotypical_pref": 2,
+     "ask_to_forget": 9,
+     "stereotypical_pref": 4,
+     "neutral_preferences": 3,
+     "therapy_background": 5,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 3,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "chat_message": 3,
+     "trouble_consult": 6,
+     "social_media_post": 4,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 22,
+     "others": 2
+    },
+    "updated": {
+     "False": 15,
+     "True": 9
+    }
+   },
+   "296": {
+    "persona_id": 296,
+    "eligible_rows": 10,
+    "question_ids": [
+     "q_5b69a2a9220b3fc3",
+     "q_6f4725b454ef29b7",
+     "q_78041b53b82aa503",
+     "q_93542beabf284bd7",
+     "q_a83107f37f4b21f4",
+     "q_b15ea3f9ee4ea3f2",
+     "q_c148158c62f255e2",
+     "q_d4164c84f64f812a",
+     "q_db3534978d2a3b6a",
+     "q_def974f7c2243bc0"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona296.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona296.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona296.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 125894,
+    "pref_type": {
+     "ask_to_forget": 3,
+     "therapy_background": 2,
+     "anti_stereotypical_pref": 2,
+     "neutral_preferences": 2,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 1,
+     "chat_message": 2,
+     "trouble_consult": 1,
+     "social_media_post": 1,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 8,
+     "others": 2
+    },
+    "updated": {
+     "True": 3,
+     "False": 7
+    }
+   },
+   "307": {
+    "persona_id": 307,
+    "eligible_rows": 21,
+    "question_ids": [
+     "q_00a5addeb38ff4b7",
+     "q_0492ab5cbae5e00e",
+     "q_1321529d2ee7c940",
+     "q_137a25a9fad74fc7",
+     "q_1dd7f1f54602d142",
+     "q_2220322ef0285168",
+     "q_25699a4e067e42fe",
+     "q_3e69c480ec6b04dd",
+     "q_44175605b099fd20",
+     "q_54c88bd11fc6a524",
+     "q_5b825ea2efe3d706",
+     "q_60dfecfa0b3d7c77",
+     "q_6cbf1902d03a34dc",
+     "q_79c58ccdfb2746f5",
+     "q_79f641a81f293d24",
+     "q_85820e8a173b450d",
+     "q_9b62dc89d2193bdf",
+     "q_cd441643089906d2",
+     "q_d589d6512c0453f2",
+     "q_e4a40339be4277ab",
+     "q_faea0c96b2ebcfc6"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona307.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona307.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona307.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123064,
+    "pref_type": {
+     "ask_to_forget": 6,
+     "neutral_preferences": 5,
+     "therapy_background": 3,
+     "anti_stereotypical_pref": 6,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 3,
+     "professional_writing": 3,
+     "chat_message": 1,
+     "translation": 3,
+     "trouble_consult": 2,
+     "social_media_post": 3,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 18,
+     "others": 3
+    },
+    "updated": {
+     "True": 6,
+     "False": 15
+    }
+   },
+   "318": {
+    "persona_id": 318,
+    "eligible_rows": 10,
+    "question_ids": [
+     "q_0adf409b56a8f9be",
+     "q_10d6c2232a7aa95b",
+     "q_1fe6eac90ab1d383",
+     "q_3108f97a249626bf",
+     "q_34e28c0bb6e49839",
+     "q_39c9c18fe1e81f9c",
+     "q_3ad69ba6427464b9",
+     "q_3dc2256d15d8eefe",
+     "q_7a958cd1a6589c23",
+     "q_bb3f08bcfe783792"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona318.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona318.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona318.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124692,
+    "pref_type": {
+     "ask_to_forget": 3,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 1,
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 3
+    },
+    "conversation_scenario": {
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 3,
+     "chat_message": 1,
+     "translation": 1,
+     "social_media_post": 1,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 8,
+     "others": 2
+    },
+    "updated": {
+     "True": 3,
+     "False": 7
+    }
+   },
+   "365": {
+    "persona_id": 365,
+    "eligible_rows": 24,
+    "question_ids": [
+     "q_0ec224d641db1748",
+     "q_11688040389fe427",
+     "q_12c1d2150d0e387a",
+     "q_27e133fdbc21be3d",
+     "q_2be874d348c79a62",
+     "q_332fdec7db615d19",
+     "q_363e4c68a0ca460b",
+     "q_3871347b172a0648",
+     "q_38c380d3c3396180",
+     "q_3e0396da90127034",
+     "q_6bb575c5ecf4b9f0",
+     "q_73013f37411a5c6d",
+     "q_77fff5ee07396b95",
+     "q_8bff1eb69d41e232",
+     "q_917c40e922dc80d1",
+     "q_9c6ba571ef57a0ea",
+     "q_a3e551c724f7e864",
+     "q_ab934a1a24182753",
+     "q_b1353cb88b4011b7",
+     "q_bf8a6f974e42dd4d",
+     "q_de14e8809efe9368",
+     "q_e4b4aabd30e672d2",
+     "q_f4b2c1a07720e804",
+     "q_f5ff5d3a1dfb4266"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona365.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona365.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona365.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123174,
+    "pref_type": {
+     "stereotypical_pref": 5,
+     "ask_to_forget": 7,
+     "therapy_background": 4,
+     "neutral_preferences": 4,
+     "anti_stereotypical_pref": 3,
+     "health_and_medical_conditions": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 5,
+     "creative_writing": 3,
+     "professional_writing": 2,
+     "chat_message": 4,
+     "trouble_consult": 3,
+     "social_media_post": 5
+    },
+    "who": {
+     "self": 20,
+     "others": 4
+    },
+    "updated": {
+     "False": 17,
+     "True": 7
+    }
+   },
+   "408": {
+    "persona_id": 408,
+    "eligible_rows": 27,
+    "question_ids": [
+     "q_061fde4c586f714a",
+     "q_0833a9a69104f52f",
+     "q_0c9399db455e419a",
+     "q_1e4601e40edff5f8",
+     "q_1ed17f1170e5ba19",
+     "q_205247d14de40e6a",
+     "q_39c6ed3161c9a7c5",
+     "q_39cdb7b068abb0e8",
+     "q_46d871aeaf437039",
+     "q_478684fefa0c8c00",
+     "q_4a40cfbdd75f0f82",
+     "q_4e9e7106cc75e23f",
+     "q_54fd4a8dc965a470",
+     "q_5cf88253a6b9ac47",
+     "q_63c3f9f9c2cc35d5",
+     "q_75fb19df1dc10986",
+     "q_79103402d81bc9c7",
+     "q_aa53e9e9571906f0",
+     "q_be2ca78e49fd39c1",
+     "q_e358c38228cd07fc",
+     "q_e6db13c78207c1af",
+     "q_e837b7b5dbe2e2b7",
+     "q_edd8c223e853601a",
+     "q_f26906500b25de83",
+     "q_f77574fe58d8a07f",
+     "q_f9e5af43fd6be6fa",
+     "q_fb304321fd38d7de"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona408.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona408.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona408.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124025,
+    "pref_type": {
+     "ask_to_forget": 1,
+     "stereotypical_pref": 5,
+     "neutral_preferences": 6,
+     "therapy_background": 7,
+     "anti_stereotypical_pref": 5,
+     "health_and_medical_conditions": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 6,
+     "professional_writing": 6,
+     "chat_message": 2,
+     "translation": 1,
+     "trouble_consult": 1,
+     "social_media_post": 3,
+     "knowledge_query": 7
+    },
+    "who": {
+     "self": 23,
+     "others": 4
+    },
+    "updated": {
+     "True": 1,
+     "False": 26
+    }
+   },
+   "436": {
+    "persona_id": 436,
+    "eligible_rows": 21,
+    "question_ids": [
+     "q_25522ebbb9707bc9",
+     "q_3077b7c57258aeb0",
+     "q_3aa54844d24c03b0",
+     "q_3ac9ceaffdf118b8",
+     "q_3af49bd3a135822f",
+     "q_5bbc120b960816ad",
+     "q_653d258bdda4855f",
+     "q_73d14803243ca267",
+     "q_794cb0ef3c1ea438",
+     "q_7a50584062a8f97c",
+     "q_7aac1af29638b064",
+     "q_81d14f236acbb838",
+     "q_ab0ec335c5be590b",
+     "q_ad70dc271578b7ef",
+     "q_afe8ac706725c548",
+     "q_bf8820f189f2b268",
+     "q_caca76365cde8e07",
+     "q_cbe10c53ad60b271",
+     "q_dd895142a4ca4d3e",
+     "q_f19db29317d6260d",
+     "q_ff2add2682c0eca8"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona436.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona436.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona436.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 121922,
+    "pref_type": {
+     "therapy_background": 5,
+     "neutral_preferences": 8,
+     "anti_stereotypical_pref": 5,
+     "ask_to_forget": 1,
+     "health_and_medical_conditions": 1,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 2,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "translation": 2,
+     "trouble_consult": 1,
+     "social_media_post": 3,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 18,
+     "others": 3
+    },
+    "updated": {
+     "False": 20,
+     "True": 1
+    }
+   },
+   "445": {
+    "persona_id": 445,
+    "eligible_rows": 22,
+    "question_ids": [
+     "q_06edb4437675b065",
+     "q_0b11c429f999e46f",
+     "q_0b85a31db408024b",
+     "q_126775f16749b4f5",
+     "q_132da0ca682bcc29",
+     "q_236f8882897bab44",
+     "q_320e175fd418e793",
+     "q_4f965eef9bc720a1",
+     "q_60dba3b12a4216af",
+     "q_6471cdab9acb13f8",
+     "q_65c41cdcd190d3df",
+     "q_6ed936787e7fbea7",
+     "q_81580a799d1afefe",
+     "q_9002221224f0094e",
+     "q_90a6b020c5ba4573",
+     "q_9263482696396bb2",
+     "q_9e4e8970dd39d5a8",
+     "q_abb6b106adfd41dd",
+     "q_c1436dd41c0148a1",
+     "q_edef55add50e2ca0",
+     "q_f9ec5b3598676ec4",
+     "q_fe2be550e3bd24f0"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona445.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona445.json",
+    "raw_persona_file": "data/raw_data/raw_data_250818_011555_persona445.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 89672,
+    "pref_type": {
+     "ask_to_forget": 1,
+     "anti_stereotypical_pref": 6,
+     "neutral_preferences": 6,
+     "therapy_background": 3,
+     "stereotypical_pref": 6
+    },
+    "conversation_scenario": {
+     "personal_email": 4,
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 3,
+     "trouble_consult": 1,
+     "social_media_post": 3,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 21,
+     "others": 1
+    },
+    "updated": {
+     "True": 1,
+     "False": 21
+    }
+   },
+   "548": {
+    "persona_id": 548,
+    "eligible_rows": 21,
+    "question_ids": [
+     "q_1ae1a7aaa0b4c9b3",
+     "q_2f03acf0a859c2ba",
+     "q_3a24ddd45581d1a1",
+     "q_3f28146a20f2b305",
+     "q_4a0495d4f9a079b3",
+     "q_4b88a7260988607b",
+     "q_4ce62230ed5cbac8",
+     "q_572954dbf713cbd1",
+     "q_70ec4da5c969c912",
+     "q_8506d2239d6bc6a6",
+     "q_8f9610a494c6a268",
+     "q_95f31ef538bd30d5",
+     "q_97ca9a08951b5814",
+     "q_a91f9d2b8baecfdd",
+     "q_afb36dd4806ffcef",
+     "q_b9eee7a63192403f",
+     "q_bf23f09e0513db79",
+     "q_bf6ab13bd1928867",
+     "q_bf87014100428a28",
+     "q_c61ae9bd1f648409",
+     "q_c8499164e35bc04b"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona548.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona548.json",
+    "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona548.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 99912,
+    "pref_type": {
+     "therapy_background": 1,
+     "health_and_medical_conditions": 3,
+     "anti_stereotypical_pref": 4,
+     "ask_to_forget": 5,
+     "stereotypical_pref": 1,
+     "neutral_preferences": 7
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "chat_message": 3,
+     "translation": 1,
+     "trouble_consult": 4,
+     "social_media_post": 2,
+     "knowledge_query": 5
+    },
+    "who": {
+     "others": 2,
+     "self": 19
+    },
+    "updated": {
+     "False": 16,
+     "True": 5
+    }
+   },
+   "549": {
+    "persona_id": 549,
+    "eligible_rows": 26,
+    "question_ids": [
+     "q_18b97f4800bfffef",
+     "q_23396adcbd7415e0",
+     "q_28781ac4759b352f",
+     "q_2b3f53f7f3f20735",
+     "q_31cf308088b528a8",
+     "q_36fdf1c396f5538a",
+     "q_46c47fa25b8d14c4",
+     "q_5c8eaee1fb4af539",
+     "q_65d1b9b628c98880",
+     "q_6636c7ee973cdabf",
+     "q_699c133a48e96afe",
+     "q_6fb13ba0197a7b48",
+     "q_850992f9288aa046",
+     "q_86e30858767de2ae",
+     "q_87a8729ded9c1bc1",
+     "q_8d58a9ee07215527",
+     "q_902d695bc013354b",
+     "q_9dc24dc35e3b98c3",
+     "q_cb4f339deb0a2157",
+     "q_d104522ddd503ecb",
+     "q_daba4b774e27f0f9",
+     "q_e37ede60f798e5c5",
+     "q_ef407460059cad2b",
+     "q_f3c037b0e41160f7",
+     "q_f51d466a7dae5ba4",
+     "q_ffe1e950ed171fcb"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona549.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona549.json",
+    "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona549.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 79088,
+    "pref_type": {
+     "health_and_medical_conditions": 3,
+     "therapy_background": 7,
+     "anti_stereotypical_pref": 6,
+     "stereotypical_pref": 2,
+     "neutral_preferences": 8
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 3,
+     "creative_writing": 1,
+     "chat_message": 4,
+     "translation": 1,
+     "trouble_consult": 3,
+     "social_media_post": 2,
+     "knowledge_query": 9
+    },
+    "who": {
+     "self": 21,
+     "others": 5
+    },
+    "updated": {
+     "False": 26
+    }
+   },
+   "583": {
+    "persona_id": 583,
+    "eligible_rows": 27,
+    "question_ids": [
+     "q_087507a62f3c8c34",
+     "q_11a617906c4fd62c",
+     "q_1c01eddc5252d48f",
+     "q_29ae377a91e6b6f8",
+     "q_303a8e444ef8815d",
+     "q_3fd4fe0499bd6085",
+     "q_403efd5f6fc9c8c3",
+     "q_4728ed2f63ba07a8",
+     "q_71252948207dde30",
+     "q_7e4dad3005d84ef1",
+     "q_7edfafd25beccaa8",
+     "q_90c1b801e9213560",
+     "q_96251e234a504f2a",
+     "q_99b8dbe6d9f9c871",
+     "q_9cb4bef534159189",
+     "q_a7ac4db0ef693874",
+     "q_af6197496b49371b",
+     "q_b67fcf99413dd7d1",
+     "q_b88a2d372a170125",
+     "q_c9c8cce70c9617f6",
+     "q_d4ddc48304bbca30",
+     "q_dd097424add5933b",
+     "q_de287d833d8a2b0e",
+     "q_dec2d62fec98ebfe",
+     "q_e2283e5c324c3e75",
+     "q_fa387709b43d2ed6",
+     "q_fc441e1b0b26e9d6"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona583.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona583.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_165412_persona583.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 121391,
+    "pref_type": {
+     "stereotypical_pref": 4,
+     "anti_stereotypical_pref": 8,
+     "therapy_background": 5,
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 5,
+     "neutral_preferences": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 5,
+     "professional_email": 3,
+     "creative_writing": 1,
+     "professional_writing": 5,
+     "translation": 2,
+     "trouble_consult": 3,
+     "social_media_post": 2,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 25,
+     "others": 2
+    },
+    "updated": {
+     "False": 22,
+     "True": 5
+    }
+   },
+   "644": {
+    "persona_id": 644,
+    "eligible_rows": 21,
+    "question_ids": [
+     "q_023b98664e36a008",
+     "q_1ac0c72a3e30afde",
+     "q_2f4e12aec6908230",
+     "q_3dadbc96291e7e79",
+     "q_52693cda2f820609",
+     "q_548e63652e7f2b7d",
+     "q_5602762832016237",
+     "q_5dded6b7257bb852",
+     "q_6020b1e072729750",
+     "q_60c0df869068d9b6",
+     "q_61bd10ad18a4969a",
+     "q_9449815b61a326f9",
+     "q_96b3951cf5c603c4",
+     "q_971d02f6dde3a07f",
+     "q_a1296871fd57df88",
+     "q_a2f8e0c469f8219f",
+     "q_aa306cc7b85a0a6b",
+     "q_c1acbb82510c2fd8",
+     "q_c466c1e0180eaf5b",
+     "q_f4a31b6c9799f1ec",
+     "q_fa9f20a84d429821"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona644.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona644.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona644.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 126024,
+    "pref_type": {
+     "anti_stereotypical_pref": 8,
+     "neutral_preferences": 5,
+     "therapy_background": 4,
+     "health_and_medical_conditions": 2,
+     "ask_to_forget": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 5,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 1,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 18,
+     "others": 3
+    },
+    "updated": {
+     "False": 19,
+     "True": 2
+    }
+   },
+   "692": {
+    "persona_id": 692,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_06f801232d22ecff",
+     "q_093e1747aa5976cd",
+     "q_0d2c5a513cf2cd70",
+     "q_133500132dc4b84e",
+     "q_1b5392d712f7039b",
+     "q_1e05e24a72827d81",
+     "q_277529a4e21b80f9",
+     "q_2fdcc3e0ebb932ed",
+     "q_31f340adaa6363b0",
+     "q_4161a16cdf057e03",
+     "q_529d6f471e680f96",
+     "q_6001d513ed51a2f2",
+     "q_809bd1683c7ade47",
+     "q_8b4f8872264410b7",
+     "q_98991697875a93fb",
+     "q_a9094d8f31e75851",
+     "q_bc66ef744f5a9589",
+     "q_c3afdfc2382915d1",
+     "q_c6b7d88d79ad65cf",
+     "q_cc795582054d3c35",
+     "q_e8e78c65b8293896",
+     "q_e981f29d94b4a094",
+     "q_f846e4142620a95a"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona692.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona692.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona692.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 120400,
+    "pref_type": {
+     "therapy_background": 5,
+     "health_and_medical_conditions": 6,
+     "ask_to_forget": 1,
+     "anti_stereotypical_pref": 2,
+     "neutral_preferences": 6,
+     "stereotypical_pref": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 4,
+     "creative_writing": 3,
+     "professional_writing": 4,
+     "chat_message": 2,
+     "trouble_consult": 2,
+     "social_media_post": 3,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 20,
+     "others": 3
+    },
+    "updated": {
+     "False": 22,
+     "True": 1
+    }
+   },
+   "713": {
+    "persona_id": 713,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_04ecb6335f6c69e0",
+     "q_05523eb2200d24f1",
+     "q_0ef4b98a55d5acb8",
+     "q_0f96a8d3a75bc770",
+     "q_117a6a42260caaf1",
+     "q_1f533c88ce049ab0",
+     "q_2fe060a6eeabb53d",
+     "q_31b717a7dc41a76c",
+     "q_3774650d23dbe378",
+     "q_498b7fd05146da90",
+     "q_49c2883f066d5ea2",
+     "q_5160f2abd9394b14",
+     "q_559ad7b2c8c042f7",
+     "q_5e2f1f6ebddfc2aa",
+     "q_62c6305828d7b6cf",
+     "q_910dd13e036c716e",
+     "q_9377d7115ee5aa10",
+     "q_93d54fd8b9ae7c34",
+     "q_a532fbf01d23d506",
+     "q_aada0af233a73d74",
+     "q_b0c6537135ebebb3",
+     "q_caa08c3783618b9c",
+     "q_fa5c4ffc8083a6ce"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona713.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona713.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona713.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124999,
+    "pref_type": {
+     "ask_to_forget": 7,
+     "health_and_medical_conditions": 4,
+     "therapy_background": 5,
+     "anti_stereotypical_pref": 4,
+     "neutral_preferences": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 2,
+     "creative_writing": 1,
+     "chat_message": 2,
+     "translation": 7,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 19,
+     "others": 4
+    },
+    "updated": {
+     "True": 7,
+     "False": 16
+    }
+   },
+   "879": {
+    "persona_id": 879,
+    "eligible_rows": 18,
+    "question_ids": [
+     "q_05279880e32b2256",
+     "q_0f1df3ac212fbb1c",
+     "q_228ab02e5f599ce5",
+     "q_2d5b770f8d324094",
+     "q_37b293fded8c044d",
+     "q_3f50825c68bab09c",
+     "q_60b52a2b73dc2f97",
+     "q_7099c98867db93ef",
+     "q_86404f993a45e9b5",
+     "q_8b30345437fbccf8",
+     "q_9af8cf5cd21fdad1",
+     "q_a2fede1887dfc9bf",
+     "q_a84eee59c5f1a422",
+     "q_c45f0f7a28472eca",
+     "q_e01b80d0ff3ef865",
+     "q_ec43c09201fb5b9b",
+     "q_f33fbc7706790baf",
+     "q_f4797108263cd712"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona879.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona879.json",
+    "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona879.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123622,
+    "pref_type": {
+     "stereotypical_pref": 1,
+     "anti_stereotypical_pref": 5,
+     "therapy_background": 2,
+     "ask_to_forget": 2,
+     "neutral_preferences": 4,
+     "health_and_medical_conditions": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 2,
+     "creative_writing": 3,
+     "professional_writing": 1,
+     "chat_message": 1,
+     "translation": 3,
+     "trouble_consult": 3,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 16,
+     "others": 2
+    },
+    "updated": {
+     "False": 16,
+     "True": 2
+    }
+   },
+   "883": {
+    "persona_id": 883,
+    "eligible_rows": 24,
+    "question_ids": [
+     "q_0a1afeaa11e5b39d",
+     "q_1208d50076151774",
+     "q_18faca893db20f8f",
+     "q_25ce5fbe803f2fbf",
+     "q_2775879e7693ac92",
+     "q_42be93b3719e8333",
+     "q_48d9235b530c90af",
+     "q_52de3b4bf1d9043b",
+     "q_60a194e8eec8693a",
+     "q_6fd88c4053d95ea2",
+     "q_7349481f0606e4bf",
+     "q_92f67c6cefef795b",
+     "q_959f77e40545ac5f",
+     "q_978fdf45a4c035f0",
+     "q_9871d6d0491dff69",
+     "q_a1301dc735425a9b",
+     "q_a24cc307dd19de01",
+     "q_abfab2342a05dc70",
+     "q_c15e76a080f7bd43",
+     "q_c1d657b38a2b4151",
+     "q_c31fb026eaed24a3",
+     "q_da302aeb9e500153",
+     "q_f76148039fb7791a",
+     "q_fc9a3dc9855db12f"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona883.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona883.json",
+    "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona883.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122952,
+    "pref_type": {
+     "ask_to_forget": 10,
+     "neutral_preferences": 4,
+     "anti_stereotypical_pref": 5,
+     "therapy_background": 1,
+     "health_and_medical_conditions": 3,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 4,
+     "creative_writing": 1,
+     "professional_writing": 1,
+     "chat_message": 5,
+     "translation": 3,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 19,
+     "others": 5
+    },
+    "updated": {
+     "True": 10,
+     "False": 14
+    }
+   },
+   "893": {
+    "persona_id": 893,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_037dca56633066f8",
+     "q_0a642f20089546dc",
+     "q_15a8a27df87394d8",
+     "q_4768684669a4fc86",
+     "q_4d893d6bac0aad39",
+     "q_5837b31b653c397d",
+     "q_6adbc87a9fc6a3e3",
+     "q_7e2d305cbbe8d16d",
+     "q_8319126d07cbd7c7",
+     "q_90960975cb2606c9",
+     "q_91bc6c6f45ee09b5",
+     "q_9980c90548078150",
+     "q_9ed6e410298e1da1",
+     "q_a7be56621e832bd5",
+     "q_be646c9a8e1c0f87",
+     "q_c5300e381377c523",
+     "q_ce41ae8b7508ad3e",
+     "q_cf86641fbce55284",
+     "q_d8d368b59bd6ad85",
+     "q_dd376fdcfae42d91",
+     "q_e66945c5fd8ea3a7",
+     "q_edfadd5856855072",
+     "q_f491f01216fd5000"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona893.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona893.json",
+    "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona893.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122181,
+    "pref_type": {
+     "stereotypical_pref": 4,
+     "anti_stereotypical_pref": 7,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 1,
+     "ask_to_forget": 5,
+     "neutral_preferences": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 2,
+     "creative_writing": 4,
+     "professional_writing": 1,
+     "chat_message": 5,
+     "translation": 3,
+     "trouble_consult": 4,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 21,
+     "others": 2
+    },
+    "updated": {
+     "False": 18,
+     "True": 5
+    }
+   },
+   "902": {
+    "persona_id": 902,
+    "eligible_rows": 19,
+    "question_ids": [
+     "q_184f200824aba0e3",
+     "q_37da5eaabe60c56a",
+     "q_389038963fef3ae2",
+     "q_5210249b1360987b",
+     "q_5304dc442bc45449",
+     "q_5a0bfd45420d0aa3",
+     "q_6662ec61c626fbca",
+     "q_68ca2621cb417fb3",
+     "q_6be28f0442703709",
+     "q_72434ec266d73562",
+     "q_770f813d0ae8d496",
+     "q_804262db43182926",
+     "q_aceb010962df6f7a",
+     "q_b3dafa9f3fda2759",
+     "q_bd22b89f4a0bf3e8",
+     "q_db1340b512f19b11",
+     "q_e2050b0af2f9f329",
+     "q_e735fab52d058bbc",
+     "q_f1a15047d4a146df"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona902.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona902.json",
+    "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona902.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122830,
+    "pref_type": {
+     "health_and_medical_conditions": 2,
+     "therapy_background": 3,
+     "stereotypical_pref": 3,
+     "neutral_preferences": 5,
+     "ask_to_forget": 6
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 2,
+     "creative_writing": 3,
+     "professional_writing": 4,
+     "chat_message": 2,
+     "translation": 1,
+     "trouble_consult": 2,
+     "social_media_post": 1,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 17,
+     "others": 2
+    },
+    "updated": {
+     "False": 13,
+     "True": 6
+    }
+   },
+   "974": {
+    "persona_id": 974,
+    "eligible_rows": 18,
+    "question_ids": [
+     "q_10602a78d456f4a8",
+     "q_225270566a886811",
+     "q_26194bdc5cc56409",
+     "q_45dc041524b8aa0c",
+     "q_501b653fb56463b5",
+     "q_533b65da93f5667b",
+     "q_6189617138ab6612",
+     "q_69c9e049000516ec",
+     "q_6d65270691a76581",
+     "q_754e401e8330d08f",
+     "q_8876fe76d217b270",
+     "q_91f408aa9042c358",
+     "q_9db44eb36c8e8e9d",
+     "q_9e61912327d8c4c0",
+     "q_a085bbbaf6e4992f",
+     "q_a899538d9f8e15de",
+     "q_ad9b33a0031053f2",
+     "q_f157b1cb8439e5e3"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona974.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona974.json",
+    "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona974.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 88887,
+    "pref_type": {
+     "neutral_preferences": 2,
+     "therapy_background": 4,
+     "ask_to_forget": 4,
+     "anti_stereotypical_pref": 5,
+     "stereotypical_pref": 1,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 2,
+     "creative_writing": 1,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 2,
+     "trouble_consult": 3,
+     "social_media_post": 1,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 14,
+     "others": 4
+    },
+    "updated": {
+     "False": 14,
+     "True": 4
+    }
+   },
+   "985": {
+    "persona_id": 985,
+    "eligible_rows": 26,
+    "question_ids": [
+     "q_00a8e39e464d9db5",
+     "q_1e8a89a2919a3309",
+     "q_225a3562ca3217b1",
+     "q_315f66bc550165bd",
+     "q_46cf5c2f317b2318",
+     "q_49abe8ccaa975a73",
+     "q_5f41ed458093a0b0",
+     "q_79dee713a310ebda",
+     "q_81255005aadf3997",
+     "q_84b9b7520c9ae9cb",
+     "q_8bfc93b52b3e81f3",
+     "q_8c476cd174065efd",
+     "q_8d8ec9e91a8d8c98",
+     "q_9442af186ae2a414",
+     "q_a87a89fd61ccb741",
+     "q_ac29e627816138bc",
+     "q_b39466095bde2fff",
+     "q_b82e3bf245f5ea00",
+     "q_b85a01dd54ea6721",
+     "q_ba1c83977301891c",
+     "q_bef3e262616348a5",
+     "q_c748a1bf63abde9e",
+     "q_c96bf0614e4d11ae",
+     "q_d3cf7a9c16985f11",
+     "q_f2d79f2a9aa45852",
+     "q_ff9f360570e0f06c"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona985.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona985.json",
+    "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona985.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122970,
+    "pref_type": {
+     "ask_to_forget": 7,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 5,
+     "anti_stereotypical_pref": 7,
+     "therapy_background": 3,
+     "neutral_preferences": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 7,
+     "creative_writing": 3,
+     "professional_writing": 1,
+     "chat_message": 1,
+     "translation": 1,
+     "trouble_consult": 1,
+     "social_media_post": 2,
+     "knowledge_query": 8
+    },
+    "who": {
+     "self": 22,
+     "others": 4
+    },
+    "updated": {
+     "True": 7,
+     "False": 19
+    }
+   }
+  },
+  "final_test": {
+   "72": {
+    "persona_id": 72,
+    "eligible_rows": 24,
+    "question_ids": [
+     "q_1313f32bb3c5c7c1",
+     "q_164b405ff2b52d0f",
+     "q_17b3b7c64a81dcaa",
+     "q_1952f1ce304a486e",
+     "q_1d80b8b88deebe0f",
+     "q_2e8bc2d5404d31a4",
+     "q_32f0b69b5a0b24c9",
+     "q_413acdec876b0b1e",
+     "q_4375b93e4293da36",
+     "q_446e507925028e25",
+     "q_4919eb910fa043f7",
+     "q_498dbad8c7bcc4b9",
+     "q_4d0aa24d6bfabcb0",
+     "q_572e04bb8cd537eb",
+     "q_5d89b2afcf1caf43",
+     "q_61607ccdf13bb540",
+     "q_6f0fe477f076d903",
+     "q_7d875f5a053ba1f3",
+     "q_c1f74d10ff2caf71",
+     "q_cfcc8bbd5e5de72e",
+     "q_d944fbfc18f34421",
+     "q_e0383a403dca5e88",
+     "q_ea6958c35f6ea5fe",
+     "q_fd569d9f12a4d351"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona72.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona72.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona72.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 90007,
+    "pref_type": {
+     "anti_stereotypical_pref": 6,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 3,
+     "neutral_preferences": 4,
+     "stereotypical_pref": 5,
+     "ask_to_forget": 3
+    },
+    "conversation_scenario": {
+     "professional_email": 3,
+     "creative_writing": 1,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 4,
+     "trouble_consult": 3,
+     "social_media_post": 4,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 22,
+     "others": 2
+    },
+    "updated": {
+     "False": 21,
+     "True": 3
+    }
+   },
+   "76": {
+    "persona_id": 76,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_25d1dd07b353939f",
+     "q_308ed9bba4d75000",
+     "q_332551b01ce9a836",
+     "q_39118fff32c673bb",
+     "q_3f3dab1b4b9f64e6",
+     "q_4854266b9eac005e",
+     "q_602eafd18bb43077",
+     "q_63312f38da39eae3",
+     "q_64551063111baf8a",
+     "q_6497a19760a4b28c",
+     "q_71103d3d0187ce84",
+     "q_722765d06693333b",
+     "q_7709029e30148f0a",
+     "q_898920761f3cbe68",
+     "q_8fb7b39dddfd9296",
+     "q_9530d319768eb490",
+     "q_96c9a657cbca245e",
+     "q_9e6bfdd5fe9aa7bb",
+     "q_9f2ece15d78b454a",
+     "q_ae43ef29488ddd37",
+     "q_b62b291833808ae3",
+     "q_c7ee7fa074914731",
+     "q_d2d4accf78094db6"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona76.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona76.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona76.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123615,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "neutral_preferences": 6,
+     "anti_stereotypical_pref": 5,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 6,
+     "ask_to_forget": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "chat_message": 5,
+     "translation": 3,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 19,
+     "others": 4
+    },
+    "updated": {
+     "False": 22,
+     "True": 1
+    }
+   },
+   "137": {
+    "persona_id": 137,
+    "eligible_rows": 22,
+    "question_ids": [
+     "q_037a3a3848cead75",
+     "q_082acaab38622845",
+     "q_0b745daf4003543d",
+     "q_1354510b0eb9d7d9",
+     "q_34619c42da221f43",
+     "q_38bf2cd7463e209b",
+     "q_505d13e932fe26a8",
+     "q_585aba656c938c05",
+     "q_7825305d63c1ea97",
+     "q_8ba010cca8cee290",
+     "q_98913859e204b99b",
+     "q_99dd569686086b4e",
+     "q_9e247fa80e11fa74",
+     "q_adf01ae8b6fc9bf3",
+     "q_b363642de7bd98ef",
+     "q_b5d69f27ae637421",
+     "q_b93c21444cdbfd86",
+     "q_c08a0aece32db1b4",
+     "q_c6037c7bf19ec898",
+     "q_d9742ff60cd99b1e",
+     "q_dd2563c930fe0fba",
+     "q_fb4de77ed2b838f8"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona137.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona137.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona137.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 94744,
+    "pref_type": {
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 4,
+     "anti_stereotypical_pref": 4,
+     "ask_to_forget": 3,
+     "neutral_preferences": 7,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 4,
+     "creative_writing": 3,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 2,
+     "trouble_consult": 1,
+     "social_media_post": 2,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 22
+    },
+    "updated": {
+     "False": 19,
+     "True": 3
+    }
+   },
+   "184": {
+    "persona_id": 184,
+    "eligible_rows": 25,
+    "question_ids": [
+     "q_0543c5dd37b9b48c",
+     "q_0ee5fbbaa75ef5ac",
+     "q_235d211dbd5a97f9",
+     "q_29a0846226e1be5d",
+     "q_335bc30fb8218216",
+     "q_3c952672c83a2bf9",
+     "q_44ec16e03312ad9c",
+     "q_4a58751128034121",
+     "q_5d33039ca758f126",
+     "q_65019c4430c6275c",
+     "q_6a7676345dbf6d53",
+     "q_74b2b3f2b19db2e4",
+     "q_804e14502a1e17b0",
+     "q_8bd377f448c51912",
+     "q_9470bb59b7e0f763",
+     "q_b15ceca75a1dc69c",
+     "q_b92a9b9452818fa7",
+     "q_c414496f929ae5e0",
+     "q_c83b88390f771dfe",
+     "q_ca7efa4e97d65cc0",
+     "q_cf953966e11d30b6",
+     "q_d27e072b24def491",
+     "q_d9751ad8960c09e7",
+     "q_dde0f94e058a08fa",
+     "q_df4e0bb9082ea9ff"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona184.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona184.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona184.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 119001,
+    "pref_type": {
+     "neutral_preferences": 6,
+     "health_and_medical_conditions": 4,
+     "therapy_background": 5,
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 3,
+     "stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 3,
+     "creative_writing": 5,
+     "professional_writing": 2,
+     "chat_message": 2,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 1,
+     "knowledge_query": 7
+    },
+    "who": {
+     "self": 23,
+     "others": 2
+    },
+    "updated": {
+     "False": 20,
+     "True": 5
+    }
+   },
+   "199": {
+    "persona_id": 199,
+    "eligible_rows": 18,
+    "question_ids": [
+     "q_03948991d3a82548",
+     "q_1d81b19abe4c40aa",
+     "q_2055d323280be4b9",
+     "q_4463d60cca46fb57",
+     "q_5d5c0d0efe695305",
+     "q_618f56e0949f89a8",
+     "q_7c64ebb2a5a9c4df",
+     "q_8e07e230e187df2c",
+     "q_902e18a85eef1e0a",
+     "q_9477cc7ee6922ef9",
+     "q_c74a601d74ef5f10",
+     "q_c7c21edb72ce0c7c",
+     "q_cd3196731ae6a4ed",
+     "q_cea9193dea497c47",
+     "q_d2b728757b1a94d2",
+     "q_e85c62955c9426a1",
+     "q_e9f93f3348987515",
+     "q_ffbe40ecaaa0896b"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona199.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona199.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona199.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 121522,
+    "pref_type": {
+     "ask_to_forget": 6,
+     "neutral_preferences": 4,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 3,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "chat_message": 2,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 16,
+     "others": 2
+    },
+    "updated": {
+     "True": 6,
+     "False": 12
+    }
+   },
+   "209": {
+    "persona_id": 209,
+    "eligible_rows": 26,
+    "question_ids": [
+     "q_084b9f4aeb2c2383",
+     "q_1bbd8b9e8d763de3",
+     "q_1df1d292a3516ccd",
+     "q_1f411a97da31d817",
+     "q_274e457054a28c0c",
+     "q_27ac0d5e7258a80f",
+     "q_314cf70fcb387246",
+     "q_35e4726059e32c2a",
+     "q_38947f169c1a3331",
+     "q_40877d7512e8f325",
+     "q_428b33d8df1482fd",
+     "q_545c88b944bd004e",
+     "q_63be20f028b23435",
+     "q_7338a3001bf153c8",
+     "q_77fad7065d1d6f87",
+     "q_876a1d09917bf269",
+     "q_8ad4803f5678bf2f",
+     "q_8c393dde35f4b06e",
+     "q_93228c99a16174ca",
+     "q_97e11b7fffc916d9",
+     "q_b878e693662c53f8",
+     "q_d350ec5d10ba4707",
+     "q_e7dce5c5f322b523",
+     "q_ef245ec182596176",
+     "q_f45f972bc071ec89",
+     "q_f995fcf51e3a551f"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona209.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona209.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona209.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123966,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "ask_to_forget": 5,
+     "anti_stereotypical_pref": 3,
+     "neutral_preferences": 9,
+     "health_and_medical_conditions": 4,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 3,
+     "creative_writing": 2,
+     "professional_writing": 4,
+     "chat_message": 1,
+     "translation": 2,
+     "trouble_consult": 1,
+     "social_media_post": 6,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 24,
+     "others": 2
+    },
+    "updated": {
+     "False": 21,
+     "True": 5
+    }
+   },
+   "213": {
+    "persona_id": 213,
+    "eligible_rows": 22,
+    "question_ids": [
+     "q_00ba3702ec446b95",
+     "q_0133f4f192edc1d8",
+     "q_29bc0e0735bd9272",
+     "q_2aa5f9eafc5b977b",
+     "q_3baba13c14f92852",
+     "q_5f165f2acacc9165",
+     "q_68bc5050784b6e27",
+     "q_79759ff297f1ae50",
+     "q_7afceb951b60facc",
+     "q_7fdf61af3a7b8c73",
+     "q_8138d56336532a10",
+     "q_84041cd2b27240d4",
+     "q_946cbfd56b1d3158",
+     "q_9ea00c15e86ffebd",
+     "q_a8a330c711793a0d",
+     "q_ac1ef10ccdcf2448",
+     "q_c5a2508d3fbf3fa4",
+     "q_c60cb269db68eb27",
+     "q_e1e797aeec5aad9e",
+     "q_e34348eed804d773",
+     "q_e567c741d075426f",
+     "q_ec786855d41f857f"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona213.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona213.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona213.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 103791,
+    "pref_type": {
+     "neutral_preferences": 8,
+     "health_and_medical_conditions": 2,
+     "therapy_background": 4,
+     "stereotypical_pref": 2,
+     "ask_to_forget": 3,
+     "anti_stereotypical_pref": 3
+    },
+    "conversation_scenario": {
+     "professional_email": 2,
+     "creative_writing": 2,
+     "professional_writing": 4,
+     "chat_message": 2,
+     "trouble_consult": 5,
+     "social_media_post": 1,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 19,
+     "others": 3
+    },
+    "updated": {
+     "False": 19,
+     "True": 3
+    }
+   },
+   "235": {
+    "persona_id": 235,
+    "eligible_rows": 28,
+    "question_ids": [
+     "q_02a0ef446435842a",
+     "q_03587d4be87e25f6",
+     "q_042767bdc3940cc7",
+     "q_043f4da630cf392d",
+     "q_2633adfc486ba8fc",
+     "q_2a40407fa05a35ac",
+     "q_3f52072b3d27c8d8",
+     "q_5a15a2a0f32c1ac4",
+     "q_6bc866cac0df9c6f",
+     "q_85bf2322282939ac",
+     "q_8a32fc7954113bdb",
+     "q_8dc68d12abf465a7",
+     "q_955fa1a230ab4c5f",
+     "q_9d17a69c7037a22c",
+     "q_9d414cedb3d585cd",
+     "q_ab445af00fcc322a",
+     "q_afcb1fe874c4e413",
+     "q_b25f4f5acb3e4cde",
+     "q_bace17dad901d309",
+     "q_c30affc492859eb6",
+     "q_c3869defae2ea6cf",
+     "q_c5c4f4a04fe254e0",
+     "q_c6a2bd8f65819f49",
+     "q_c81ff22561b3f4b1",
+     "q_d5ac777ac976581e",
+     "q_d5edc0898893dbec",
+     "q_da85230045afa503",
+     "q_e384b9e647a67667"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona235.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona235.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona235.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 117435,
+    "pref_type": {
+     "neutral_preferences": 8,
+     "ask_to_forget": 4,
+     "anti_stereotypical_pref": 8,
+     "therapy_background": 2,
+     "health_and_medical_conditions": 3,
+     "stereotypical_pref": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 4,
+     "creative_writing": 3,
+     "professional_writing": 2,
+     "chat_message": 2,
+     "translation": 4,
+     "trouble_consult": 3,
+     "social_media_post": 3,
+     "knowledge_query": 6
+    },
+    "who": {
+     "self": 25,
+     "others": 3
+    },
+    "updated": {
+     "False": 24,
+     "True": 4
+    }
+   },
+   "259": {
+    "persona_id": 259,
+    "eligible_rows": 11,
+    "question_ids": [
+     "q_0acf3e8c66e681cf",
+     "q_231d443681ad8d88",
+     "q_3ce7622f6cec7dd2",
+     "q_74e16df75a9e0079",
+     "q_97be55594630baa0",
+     "q_a13eaec353306382",
+     "q_a431f0b920a46f1a",
+     "q_a5a70c4ff58f63cf",
+     "q_a61926888800f908",
+     "q_adda8b994d0ab5e3",
+     "q_ffaf5e48bdc61ab3"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona259.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona259.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona259.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 125777,
+    "pref_type": {
+     "ask_to_forget": 7,
+     "neutral_preferences": 1,
+     "stereotypical_pref": 2,
+     "anti_stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 1,
+     "translation": 1,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 11
+    },
+    "updated": {
+     "True": 7,
+     "False": 4
+    }
+   },
+   "265": {
+    "persona_id": 265,
+    "eligible_rows": 17,
+    "question_ids": [
+     "q_225651e389459f74",
+     "q_22fcd802a9191790",
+     "q_2c64cc90a5f6fa71",
+     "q_4618ab8a7bc9a23d",
+     "q_54645d8be527e4a0",
+     "q_7a00a2d827b6f064",
+     "q_7e9960f1f0069e06",
+     "q_880916a47e8c1071",
+     "q_907192842b41deaa",
+     "q_be23da117b4727c0",
+     "q_c75c2826e4061888",
+     "q_c86e5631a7f0bf06",
+     "q_d0241461eceeb726",
+     "q_d6fdfb8b8eaeb7a0",
+     "q_d8f58fa1c596227b",
+     "q_daf3bac1c3c5995c",
+     "q_dcfe0adbefc7d98a"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona265.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona265.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona265.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 120619,
+    "pref_type": {
+     "ask_to_forget": 6,
+     "anti_stereotypical_pref": 5,
+     "therapy_background": 3,
+     "neutral_preferences": 2,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 2,
+     "creative_writing": 2,
+     "chat_message": 1,
+     "translation": 4,
+     "trouble_consult": 1,
+     "social_media_post": 1,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 17
+    },
+    "updated": {
+     "True": 6,
+     "False": 11
+    }
+   },
+   "277": {
+    "persona_id": 277,
+    "eligible_rows": 13,
+    "question_ids": [
+     "q_0f54e39f402b8f0e",
+     "q_1db9eda0869ea446",
+     "q_3471a730b4c68ebe",
+     "q_3d1d06d8aa334e71",
+     "q_3f9c9ffe8cf068d7",
+     "q_408108df6b1f9a04",
+     "q_5a78c2995cdeb2fa",
+     "q_5bf26cc529146dda",
+     "q_8edef346a2197b46",
+     "q_92278b8d0cf1e19c",
+     "q_a57c03f35d992110",
+     "q_c8cc841b0dab7e55",
+     "q_e5185d165cc12a14"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona277.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona277.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona277.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124318,
+    "pref_type": {
+     "neutral_preferences": 2,
+     "ask_to_forget": 5,
+     "health_and_medical_conditions": 3,
+     "therapy_background": 1,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 1,
+     "creative_writing": 3,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "knowledge_query": 3
+    },
+    "who": {
+     "others": 2,
+     "self": 11
+    },
+    "updated": {
+     "False": 8,
+     "True": 5
+    }
+   },
+   "332": {
+    "persona_id": 332,
+    "eligible_rows": 11,
+    "question_ids": [
+     "q_1debd69e41a9b583",
+     "q_521c8b9e7e4158ea",
+     "q_52802bdee8a59356",
+     "q_640620ef40b40ed5",
+     "q_745cdc4288a410b6",
+     "q_9fe322e421957c97",
+     "q_ba9b3b7abdbdb2aa",
+     "q_bff773196b073df0",
+     "q_daa9029048cf2ab3",
+     "q_f2cdebaefbbc6789",
+     "q_ff5d25885ab96932"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona332.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona332.json",
+    "raw_persona_file": "data/raw_data/raw_data_250815_163935_persona332.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 127027,
+    "pref_type": {
+     "ask_to_forget": 7,
+     "anti_stereotypical_pref": 2,
+     "therapy_background": 1,
+     "neutral_preferences": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 2,
+     "chat_message": 2,
+     "trouble_consult": 1,
+     "social_media_post": 1,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 10,
+     "others": 1
+    },
+    "updated": {
+     "True": 7,
+     "False": 4
+    }
+   },
+   "351": {
+    "persona_id": 351,
+    "eligible_rows": 28,
+    "question_ids": [
+     "q_025a63f3cc1d86ae",
+     "q_0673c6a7ec073a75",
+     "q_07e79776f75e0b76",
+     "q_0fa390637b359fb0",
+     "q_2d3a26aa1aac610a",
+     "q_3f4b0cfbcc0edbb7",
+     "q_43e699bf8d9fa539",
+     "q_51b43e2927982cda",
+     "q_5faf82c34b060073",
+     "q_66a2f773964fdb56",
+     "q_6da9243665d2fccb",
+     "q_74f7280b31ba468f",
+     "q_7859bb5b98610190",
+     "q_7dc3a230421103b8",
+     "q_7feb2bf6a6538063",
+     "q_8d6b2cef074aa056",
+     "q_9e69d1a92b85d0d5",
+     "q_a56109a6ebf21338",
+     "q_b87b674cacb6bbc0",
+     "q_bbe08dfda017fc14",
+     "q_be516a1347e7e988",
+     "q_d7508257d7a45ffb",
+     "q_d9cf9cfb06ec13f1",
+     "q_dcd24f242094f3bc",
+     "q_dd6e6a19327636f7",
+     "q_e49e3851e6da57c3",
+     "q_e4fb099ef7009c7f",
+     "q_f121fa98e1c0c231"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona351.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona351.json",
+    "raw_persona_file": "data/raw_data/raw_data_250817_221909_persona351.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 89392,
+    "pref_type": {
+     "anti_stereotypical_pref": 5,
+     "neutral_preferences": 5,
+     "therapy_background": 7,
+     "stereotypical_pref": 5,
+     "ask_to_forget": 3,
+     "health_and_medical_conditions": 3
+    },
+    "conversation_scenario": {
+     "professional_email": 5,
+     "creative_writing": 3,
+     "professional_writing": 2,
+     "chat_message": 3,
+     "translation": 3,
+     "trouble_consult": 4,
+     "social_media_post": 1,
+     "knowledge_query": 7
+    },
+    "who": {
+     "self": 25,
+     "others": 3
+    },
+    "updated": {
+     "False": 25,
+     "True": 3
+    }
+   },
+   "521": {
+    "persona_id": 521,
+    "eligible_rows": 26,
+    "question_ids": [
+     "q_191f08158f7d1f0a",
+     "q_1aed5abb47e72ab2",
+     "q_2963cde1929a607a",
+     "q_2f7ed914ff321da3",
+     "q_2f8c74aafb050507",
+     "q_3c91ecef09458550",
+     "q_64eeb921593bbd76",
+     "q_67feb658bf25bbc3",
+     "q_6da5a94088ccad03",
+     "q_8f8f6d7664178750",
+     "q_a204f79d8d94a0ca",
+     "q_a3fefdd4d11fc90b",
+     "q_a753aa2724e6b094",
+     "q_af19a95677529692",
+     "q_b109e5c08211c00d",
+     "q_b2639bbe2fe7ebfa",
+     "q_b62964065bffe21a",
+     "q_cac3bb9d47b05852",
+     "q_d30061f829ea4e50",
+     "q_d9d0bbc173c83a86",
+     "q_e1208a5d1f49db9c",
+     "q_e6a2f94d0cb6d381",
+     "q_e74d929ea53111e2",
+     "q_ec1dd14d603ab821",
+     "q_f5ec602d9384d1cc",
+     "q_f5f9876bee9e170f"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona521.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona521.json",
+    "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona521.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 104178,
+    "pref_type": {
+     "anti_stereotypical_pref": 7,
+     "therapy_background": 5,
+     "neutral_preferences": 5,
+     "health_and_medical_conditions": 4,
+     "stereotypical_pref": 4,
+     "ask_to_forget": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 2,
+     "creative_writing": 3,
+     "professional_writing": 2,
+     "chat_message": 5,
+     "trouble_consult": 4,
+     "knowledge_query": 9
+    },
+    "who": {
+     "self": 22,
+     "others": 4
+    },
+    "updated": {
+     "False": 25,
+     "True": 1
+    }
+   },
+   "527": {
+    "persona_id": 527,
+    "eligible_rows": 20,
+    "question_ids": [
+     "q_12bf25932db0074b",
+     "q_19034e50b3a3c476",
+     "q_3e73ef027d2d83d2",
+     "q_5abeef7e11e36295",
+     "q_659ca40a08613fd8",
+     "q_75eefda5d929f1bf",
+     "q_82a5c3db03098182",
+     "q_9fc73ba11a39b968",
+     "q_a6cb9ef92b9cb409",
+     "q_a912e046e3e362ae",
+     "q_ad923ba772955ebc",
+     "q_b7db64b7e39cd7a9",
+     "q_c5f4e4e60959da7a",
+     "q_d548e66ddd4251df",
+     "q_d81d136c07a24b21",
+     "q_ddd0b62cca22c1e0",
+     "q_ea58291e12e95a68",
+     "q_ef8c5c4b34e27c26",
+     "q_facb9c28034aa660",
+     "q_fd475874e2bfd7fd"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona527.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona527.json",
+    "raw_persona_file": "data/raw_data/raw_data_250819_225921_persona527.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 125644,
+    "pref_type": {
+     "ask_to_forget": 3,
+     "health_and_medical_conditions": 3,
+     "anti_stereotypical_pref": 3,
+     "neutral_preferences": 4,
+     "therapy_background": 5,
+     "stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 4,
+     "professional_writing": 2,
+     "chat_message": 1,
+     "translation": 3,
+     "trouble_consult": 3,
+     "social_media_post": 3,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 17,
+     "others": 3
+    },
+    "updated": {
+     "True": 3,
+     "False": 17
+    }
+   },
+   "604": {
+    "persona_id": 604,
+    "eligible_rows": 25,
+    "question_ids": [
+     "q_0049e2e8dd4f4062",
+     "q_011bb310b184856b",
+     "q_0b315df464a2b8ba",
+     "q_0ec53cc30de2e8ca",
+     "q_1365e46dd10e9041",
+     "q_19d7e82275f46c33",
+     "q_227a6de43210cddb",
+     "q_34bef900a272dd59",
+     "q_423dad6456bbd351",
+     "q_448d5591c700e8be",
+     "q_488fe3fba7d8a9b8",
+     "q_4ba9f8f616cc51d0",
+     "q_586c8fcbb1f5d239",
+     "q_67fdc3a97e402c4e",
+     "q_698f13f3f02ac817",
+     "q_76b5d3cc3ce7584c",
+     "q_8bd09df0213aa68a",
+     "q_8fc0bf9926151d18",
+     "q_92bb242c98e39e70",
+     "q_98f452b1087ec153",
+     "q_9c76d0aea7c2cf7e",
+     "q_ae42157341827b1c",
+     "q_bb09fe4eae5df37c",
+     "q_d63de806431d268c",
+     "q_f0565e17ec3a5dce"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona604.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona604.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona604.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123557,
+    "pref_type": {
+     "neutral_preferences": 5,
+     "ask_to_forget": 6,
+     "stereotypical_pref": 4,
+     "health_and_medical_conditions": 3,
+     "therapy_background": 5,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 5,
+     "professional_email": 1,
+     "creative_writing": 2,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 4,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 22,
+     "others": 3
+    },
+    "updated": {
+     "False": 19,
+     "True": 6
+    }
+   },
+   "716": {
+    "persona_id": 716,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_260cd757f1283764",
+     "q_3294ef0722b91fff",
+     "q_48750f6f308820cc",
+     "q_4efb481020bb5358",
+     "q_505efd749eb7ff02",
+     "q_58be2ae67f71faef",
+     "q_6992493eadfbb6a5",
+     "q_69d1cb0ba1259d02",
+     "q_6b1221f79ae7be6d",
+     "q_6c27758782018084",
+     "q_7bc05039d38daf86",
+     "q_848972660b745efc",
+     "q_92c7dec2be2c6610",
+     "q_94fc30c8ffc1eb64",
+     "q_98b67ba33216adb1",
+     "q_9e3b98cd34e08029",
+     "q_a6e234df78231e9d",
+     "q_b60d0d6f2eab4e76",
+     "q_c27bca2b425f765d",
+     "q_c8e04c115e30dec0",
+     "q_ea7901d0f2237bc3",
+     "q_ea855b8fd6d72c0d",
+     "q_fa1f962296d5bbb0"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona716.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona716.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona716.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 120431,
+    "pref_type": {
+     "therapy_background": 5,
+     "health_and_medical_conditions": 4,
+     "ask_to_forget": 5,
+     "stereotypical_pref": 4,
+     "neutral_preferences": 3,
+     "anti_stereotypical_pref": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 1,
+     "creative_writing": 1,
+     "professional_writing": 5,
+     "chat_message": 3,
+     "translation": 3,
+     "trouble_consult": 1,
+     "social_media_post": 3,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 21,
+     "others": 2
+    },
+    "updated": {
+     "False": 18,
+     "True": 5
+    }
+   },
+   "721": {
+    "persona_id": 721,
+    "eligible_rows": 29,
+    "question_ids": [
+     "q_00f275923a1b92ec",
+     "q_105a984ecd855241",
+     "q_10ddd9d8834d001f",
+     "q_16e94eb35db42eb5",
+     "q_1b01909cda9effc1",
+     "q_1e0836f5857a08c1",
+     "q_1f16b0ec3e541b43",
+     "q_1fbfe29354ecd89b",
+     "q_25e7416131a4d7e6",
+     "q_2b4cbeb61e62729f",
+     "q_36446520d475ea92",
+     "q_512abedb5fae1396",
+     "q_5af57153d0a354f6",
+     "q_5ed309988df37d16",
+     "q_633f47e0ab4264ce",
+     "q_6a235f6b2c08ddde",
+     "q_7d3d2d7599083a62",
+     "q_80858cd8252bdc07",
+     "q_8df7adc8a30b89ec",
+     "q_996197e8c08e320a",
+     "q_a9a9440ab4ac7202",
+     "q_b042c5f84f18e29e",
+     "q_b5c4b740d96a3a9e",
+     "q_be2cdf4a91ea38a7",
+     "q_d1babe4214cf12cd",
+     "q_dbc0408eec4f1727",
+     "q_e43f5d5212151812",
+     "q_e78e6ceb65500be9",
+     "q_f3b69d840501755a"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona721.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona721.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona721.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 124536,
+    "pref_type": {
+     "stereotypical_pref": 3,
+     "ask_to_forget": 5,
+     "therapy_background": 4,
+     "neutral_preferences": 7,
+     "health_and_medical_conditions": 6,
+     "anti_stereotypical_pref": 4
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 7,
+     "professional_writing": 1,
+     "chat_message": 5,
+     "translation": 2,
+     "trouble_consult": 3,
+     "social_media_post": 4,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 26,
+     "others": 3
+    },
+    "updated": {
+     "False": 24,
+     "True": 5
+    }
+   },
+   "737": {
+    "persona_id": 737,
+    "eligible_rows": 26,
+    "question_ids": [
+     "q_11ebcd07ee6a97f3",
+     "q_28f92dc5944797f8",
+     "q_291a2db57c5304f3",
+     "q_32667e799d9f4b7f",
+     "q_34b51703c529624a",
+     "q_3a63ad0137cbc75c",
+     "q_4b7ea040d0da2f43",
+     "q_54f963704a6708d8",
+     "q_551c9848c2894613",
+     "q_5561f6d203c6a55a",
+     "q_6173a82e8cc87b80",
+     "q_7c5d12634a0ce5b5",
+     "q_80b385a4b78549b4",
+     "q_84298070cc605238",
+     "q_8a79e1c07eff6914",
+     "q_95fd1913b146966e",
+     "q_99dbfb54f25064c1",
+     "q_aff3830316e9a3e6",
+     "q_b42bde7accd69b70",
+     "q_cc4b29f664dc61c5",
+     "q_d82bf557c9f9b059",
+     "q_da07f65630dd7520",
+     "q_e80adc93c1696df4",
+     "q_eb90217e18477259",
+     "q_f5a0eb9b31ac142a",
+     "q_f9ae13b6187d60ad"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona737.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona737.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona737.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123845,
+    "pref_type": {
+     "anti_stereotypical_pref": 6,
+     "ask_to_forget": 10,
+     "therapy_background": 5,
+     "neutral_preferences": 2,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 6,
+     "creative_writing": 6,
+     "professional_writing": 2,
+     "chat_message": 3,
+     "translation": 3,
+     "trouble_consult": 1,
+     "social_media_post": 2,
+     "knowledge_query": 2
+    },
+    "who": {
+     "self": 18,
+     "others": 8
+    },
+    "updated": {
+     "False": 16,
+     "True": 10
+    }
+   },
+   "741": {
+    "persona_id": 741,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_0728b0ffd1f92183",
+     "q_19c01b91b03c7def",
+     "q_1d1e122c8a671fec",
+     "q_3759a0e85bd3fae3",
+     "q_4717b7b98089a970",
+     "q_5aa3a66551278d15",
+     "q_5edbcd7e2ae60507",
+     "q_61160192324a95ac",
+     "q_638028d22222e7d4",
+     "q_6b5ec01f9c7eb1f6",
+     "q_7a225a34a8b143d7",
+     "q_7fc43f3361cb4bc5",
+     "q_7fcc2463e6e6a1c5",
+     "q_9f06a19bd4221118",
+     "q_a51bd5fc67b47938",
+     "q_b7f5df2a8b4e0ed2",
+     "q_bbd0acbfb6372b68",
+     "q_c3857e7bfd95ca65",
+     "q_d2198564b289e0db",
+     "q_d47e899b29d0767e",
+     "q_de7dcb1d95b86f55",
+     "q_f56413f538882b5d",
+     "q_ff768214691b50c3"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona741.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona741.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona741.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122642,
+    "pref_type": {
+     "health_and_medical_conditions": 4,
+     "stereotypical_pref": 5,
+     "ask_to_forget": 5,
+     "neutral_preferences": 4,
+     "anti_stereotypical_pref": 3,
+     "therapy_background": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 1,
+     "professional_email": 5,
+     "creative_writing": 4,
+     "professional_writing": 1,
+     "translation": 3,
+     "trouble_consult": 4,
+     "social_media_post": 1,
+     "knowledge_query": 4
+    },
+    "who": {
+     "self": 22,
+     "others": 1
+    },
+    "updated": {
+     "False": 18,
+     "True": 5
+    }
+   },
+   "800": {
+    "persona_id": 800,
+    "eligible_rows": 23,
+    "question_ids": [
+     "q_27dd169d9307c276",
+     "q_2c7123ddc056824f",
+     "q_2fe4c111ea6808c7",
+     "q_4f8177511b3eee16",
+     "q_50726dc822e97040",
+     "q_5e0240da91013699",
+     "q_620cc1184eae36d1",
+     "q_7e4b24ae22247789",
+     "q_81acd4e0fed53273",
+     "q_8686117c146f2ad2",
+     "q_88907a4df0e45a55",
+     "q_8a2940e45b6006b0",
+     "q_91b778caf427e5eb",
+     "q_a422154038ea3dda",
+     "q_a7a6f85332453690",
+     "q_abb0c5294c6d108f",
+     "q_ae950e9a7ebe4589",
+     "q_ba37d460c9962309",
+     "q_c338a6db41f3a371",
+     "q_e16449b77e65277f",
+     "q_ebe6af0cfc8cf143",
+     "q_f397bae1b67b3f2f",
+     "q_f52649fc1efd77e3"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona800.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona800.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona800.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122895,
+    "pref_type": {
+     "anti_stereotypical_pref": 7,
+     "ask_to_forget": 2,
+     "neutral_preferences": 5,
+     "stereotypical_pref": 4,
+     "therapy_background": 3,
+     "health_and_medical_conditions": 2
+    },
+    "conversation_scenario": {
+     "personal_email": 3,
+     "professional_email": 4,
+     "creative_writing": 2,
+     "professional_writing": 3,
+     "chat_message": 1,
+     "trouble_consult": 2,
+     "social_media_post": 3,
+     "knowledge_query": 5
+    },
+    "who": {
+     "self": 21,
+     "others": 2
+    },
+    "updated": {
+     "False": 21,
+     "True": 2
+    }
+   },
+   "816": {
+    "persona_id": 816,
+    "eligible_rows": 21,
+    "question_ids": [
+     "q_006eec8bcadbdb2c",
+     "q_06b48e3c2ee1ae06",
+     "q_12b83fc71f0e4226",
+     "q_198ff20e50146a3f",
+     "q_2512e181c0c5853d",
+     "q_3f3ed73a22072e26",
+     "q_47d679b41b3be9e4",
+     "q_47ffc449a26652ad",
+     "q_4f8384afd06ab786",
+     "q_6476e0dc47b6de95",
+     "q_668fac7dcec5b3d6",
+     "q_7015b710da5a1e7b",
+     "q_99cb6ad3a376644c",
+     "q_bcf1554fa24bdb8e",
+     "q_c15a7376bc9d9302",
+     "q_c3fc09cfc8508e63",
+     "q_d7aa1b155abd15ba",
+     "q_d90bc1d56c378692",
+     "q_dffea83bbb24f2a8",
+     "q_f017ac030aaae43e",
+     "q_fa4f7d404be29469"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona816.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona816.json",
+    "raw_persona_file": "data/raw_data/raw_data_250820_224501_persona816.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 126433,
+    "pref_type": {
+     "ask_to_forget": 8,
+     "anti_stereotypical_pref": 2,
+     "therapy_background": 4,
+     "health_and_medical_conditions": 2,
+     "neutral_preferences": 5
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "creative_writing": 5,
+     "professional_writing": 3,
+     "chat_message": 2,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 4,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 18,
+     "others": 3
+    },
+    "updated": {
+     "True": 8,
+     "False": 13
+    }
+   },
+   "901": {
+    "persona_id": 901,
+    "eligible_rows": 34,
+    "question_ids": [
+     "q_0ec1fa82ad8c1843",
+     "q_193c284137b36f87",
+     "q_1f98700d37f8bf67",
+     "q_2251f11547c042ba",
+     "q_2647d0c66920f0e5",
+     "q_326d7c4b1d351efb",
+     "q_36724dfe93694e14",
+     "q_3e621bf0cc487d4a",
+     "q_3f20fac122b6fa3d",
+     "q_40e34accf927119f",
+     "q_4456890cfb218925",
+     "q_564ee91e2add3eae",
+     "q_5f5519d77e25e0c8",
+     "q_6feb16745b200921",
+     "q_79293581818f48ad",
+     "q_8fe346bfa7ca9265",
+     "q_904be5e270a7b982",
+     "q_918ffd439a10a31a",
+     "q_9b47cfa0eaa4ee0b",
+     "q_9b94f63ddb955f50",
+     "q_a5d7ff9de6611307",
+     "q_ac3db12f30c79be8",
+     "q_b614bf3a91631c2e",
+     "q_c8bbfda79a0bed81",
+     "q_d06be90611ef3e1e",
+     "q_dc447b68f8cdc930",
+     "q_e3b461bec33e6add",
+     "q_e82eaea3072c5f02",
+     "q_e9365ac37b1f8ad4",
+     "q_e9df3adf3a1b659f",
+     "q_ec763072e7200ca7",
+     "q_ee13c685172f1c59",
+     "q_ef05753fef72df0b",
+     "q_fe514f0fb055329f"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona901.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona901.json",
+    "raw_persona_file": "data/raw_data/raw_data_250825_220103_persona901.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 122715,
+    "pref_type": {
+     "ask_to_forget": 10,
+     "therapy_background": 4,
+     "stereotypical_pref": 5,
+     "anti_stereotypical_pref": 6,
+     "neutral_preferences": 6,
+     "health_and_medical_conditions": 3
+    },
+    "conversation_scenario": {
+     "personal_email": 2,
+     "professional_email": 6,
+     "creative_writing": 7,
+     "professional_writing": 3,
+     "chat_message": 6,
+     "translation": 4,
+     "trouble_consult": 1,
+     "social_media_post": 4,
+     "knowledge_query": 1
+    },
+    "who": {
+     "self": 30,
+     "others": 4
+    },
+    "updated": {
+     "True": 10,
+     "False": 24
+    }
+   },
+   "995": {
+    "persona_id": 995,
+    "eligible_rows": 22,
+    "question_ids": [
+     "q_0ae9230909e5a7c4",
+     "q_1bc8c73b6039d4b8",
+     "q_2747374d00d9bdd9",
+     "q_3289e2f3fc60d74d",
+     "q_39e29403edd5ce75",
+     "q_3b2b6fa4eba8ed8b",
+     "q_57e518479495017c",
+     "q_794660ff288e01ff",
+     "q_7b046c9329a60680",
+     "q_8092afe8e4b9681d",
+     "q_83761ecaa0adca8b",
+     "q_84785d74395909e9",
+     "q_b0264947b65edd2b",
+     "q_b74d7da58b3c6ace",
+     "q_bf6dcf72ee71531f",
+     "q_c614712bca97e600",
+     "q_d999a8b945888a56",
+     "q_dc684af4e62983a7",
+     "q_f39fb26fb87fe2e6",
+     "q_f8cf9924b4155d9b",
+     "q_fa2d73e3d74f63ff",
+     "q_fcec221574fba331"
+    ],
+    "chat_history_128k_link": "data/chat_history_128k/chat_history_250913_163556_persona995.json",
+    "chat_history_32k_link": "data/chat_history_32k/chat_history_250913_163134_persona995.json",
+    "raw_persona_file": "data/raw_data/raw_data_250826_131038_persona995.json",
+    "n_history_runs": 1,
+    "total_tokens_128k": 123486,
+    "pref_type": {
+     "anti_stereotypical_pref": 6,
+     "neutral_preferences": 5,
+     "ask_to_forget": 4,
+     "therapy_background": 4,
+     "health_and_medical_conditions": 2,
+     "stereotypical_pref": 1
+    },
+    "conversation_scenario": {
+     "personal_email": 4,
+     "professional_email": 2,
+     "creative_writing": 2,
+     "professional_writing": 2,
+     "chat_message": 3,
+     "translation": 2,
+     "trouble_consult": 2,
+     "social_media_post": 2,
+     "knowledge_query": 3
+    },
+    "who": {
+     "self": 20,
+     "others": 2
+    },
+    "updated": {
+     "False": 18,
+     "True": 4
+    }
+   }
+  }
+ },
+ "unused_eligible_personas": [
+  10,
+  25,
+  30,
+  39,
+  44,
+  54,
+  60,
+  63,
+  66,
+  67,
+  78,
+  88,
+  96,
+  101,
+  107,
+  120,
+  136,
+  139,
+  168,
+  198,
+  210,
+  215,
+  218,
+  221,
+  237,
+  247,
+  256,
+  260,
+  275,
+  281,
+  289,
+  298,
+  299,
+  309,
+  310,
+  312,
+  314,
+  319,
+  321,
+  327,
+  328,
+  346,
+  355,
+  361,
+  363,
+  382,
+  411,
+  429,
+  432,
+  439,
+  451,
+  462,
+  479,
+  493,
+  494,
+  499,
+  513,
+  522,
+  526,
+  529,
+  534,
+  542,
+  543,
+  554,
+  559,
+  578,
+  584,
+  589,
+  590,
+  595,
+  599,
+  617,
+  621,
+  626,
+  635,
+  643,
+  649,
+  652,
+  656,
+  660,
+  662,
+  668,
+  670,
+  677,
+  678,
+  679,
+  689,
+  697,
+  714,
+  740,
+  749,
+  753,
+  761,
+  764,
+  767,
+  802,
+  810,
+  811,
+  820,
+  822,
+  823,
+  826,
+  829,
+  837,
+  845,
+  849,
+  859,
+  865,
+  866,
+  867,
+  884,
+  899,
+  914,
+  917,
+  924,
+  936,
+  938,
+  941,
+  942,
+  947,
+  948,
+  959,
+  973,
+  977,
+  978,
+  986,
+  989,
+  998
+ ],
+ "seal": "final_test persona membership is SEALED as of frozen_at_utc"
+}

@@ -1,0 +1,197 @@
+{
+  "dataset": {
+    "repo": "bowen-upenn/ImplicitPersona",
+    "revision": "0622e56d1cc6f1bc990a5100a6ec4022a60e66a6",
+    "last_modified": "2026-08-17T00:31:09+00:00",
+    "downloaded": [
+      "benchmark/text/benchmark.csv (42,426,457 B)",
+      "README.md",
+      "column_descriptions.md",
+      "6 deterministic sample histories from data/chat_history_32k/"
+    ],
+    "benchmark_csv_sha256": "95f2a8a324aab7baf2af937feae12731369e2abf7cad5ab3e170594cb25a3e52",
+    "not_downloaded": [
+      "benchmark/text/train.csv (157 MB)",
+      "benchmark/text/val.csv (17.5 MB)",
+      "all multimodal files",
+      "the remaining 994 chat histories"
+    ],
+    "storage": "personamem_recovermem_outputs/_data_v2 (outside both upstream repos)"
+  },
+  "code": {
+    "repo": "https://github.com/bowen-upenn/PersonaMem-v2.git",
+    "commit": "dd52429f83ced4394be46c3849186a423942b2a5",
+    "note": "the official v2 evaluator is NOT in the PersonaMem v1 checkout; this repo was cloned read-only into the audit area",
+    "storage": "personamem_recovermem_outputs/_code_v2"
+  },
+  "census": {
+    "total_rows": 5000,
+    "unique_personas": 200,
+    "persona_id_range": [
+      10,
+      998
+    ],
+    "rows_per_persona": {
+      "min": 6,
+      "median": 25.0,
+      "max": 42
+    },
+    "raw_unique_history_files": {
+      "text_32k": 200,
+      "text_128k": 200,
+      "raw_persona": 200
+    },
+    "defensible_independent_source_units": 200,
+    "note_on_999": "the HF file listing shows 999 persona ids across the whole dataset, but benchmark/text/benchmark.csv uses 200 of them; README states train/val have NO persona_id overlap with benchmark"
+  },
+  "runs": {
+    "multiple_runs_per_persona": false,
+    "relationship": "N/A within this split -- exactly one 32k history, one 128k history and one raw persona file per persona",
+    "note": "the dataset-wide listing carries 2 run timestamps per size, but the released text benchmark references only 250913_163134 (32k) and 250913_163556 (128k); had both been referenced they would have been merged as SAME_PERSONA_REGENERATION",
+    "size_variants": "32k and 128k are two versions of the SAME persona history (128k pads with persona-irrelevant math/coding content); they are NOT independent and only one size may be used"
+  },
+  "modality": {
+    "text_only": true,
+    "rows_text_only": 5000,
+    "rows_requiring_images": 0,
+    "rows_requiring_other_modality": 0,
+    "rows_unknown": 0,
+    "evidence": [
+      "the file is benchmark/text/benchmark.csv; multimodal is a separate file and a separate --use_multimodal flag",
+      "official README: data/chat_history_32k and data/chat_history_128k are 'All histories are text-only'",
+      "6 sampled histories contain messages with keys exactly {role, content} -- no image/audio fields"
+    ]
+  },
+  "correctness": {
+    "classification": "PROGRAMMATIC_MC",
+    "official_default": "inference.py --eval_mode choices ['mcq','generative','both'], default='mcq'",
+    "mcq_mechanism": "create_mcq_options() shuffles [correct_answer]+3 incorrect into A-D; check_mcq_correctness() returns option_mapping[pred.upper()] == correct_answer -- exact string equality",
+    "llm_judge_present_but_not_default": "evaluate_narrow_judge / evaluate_broad_judge (3 LLMs, averaged) are used ONLY in eval_mode='generative'",
+    "programmatic_rows": 5000,
+    "llm_judge_rows": 0,
+    "unknown_rows": 0,
+    "rows_with_exactly_3_incorrect_answers": 5000,
+    "external_api_required_for_scoring": false,
+    "reproducibility_caveat": "row_seed = hash(f'{persona_id}_{content}') % 2**32 uses Python's str hash, which is randomised per process unless PYTHONHASHSEED is fixed; the official option shuffle is therefore not reproducible across runs by default. ReCoverMem would fix a deterministic per-row seed and record it."
+  },
+  "history_boundary": {
+    "classification": "HISTORY_BOUNDARY_CLEAN",
+    "mechanism": "inference.py: full_chat_history = chat_history + [user_query_dict]; the query is appended AFTER the entire history, so there is no future segment",
+    "all_rows_of_a_persona_share_one_history": true,
+    "explicit_cutoff": "not needed -- the cutoff is always the end of the history",
+    "leakage_probe": {
+      "system_message_contains_persona_json": true,
+      "persona_json_keys_seen_in_system_message": [
+        "short_persona",
+        "name",
+        "demographics",
+        "personality",
+        "education",
+        "occupation",
+        "hobbies_and_interests"
+      ],
+      "preference_fields_absent_from_system_message": [
+        "stereotypical_preferences",
+        "anti_stereotypical_preferences",
+        "neutral_preferences",
+        "therapy_background",
+        "health_and_medical_conditions",
+        "sensitive_information",
+        "preference_updates"
+      ],
+      "tested_preference_found_verbatim_in_system_message": "0 / 155 sampled rows (6 personas)",
+      "related_snippet_located_inside_history": "139 / 155 sampled rows fully matched; 16 not matched verbatim (whitespace/rewrites) -- none matched in the system message",
+      "snippet_relative_position_in_history": {
+        "min": 0.004,
+        "median": 0.38,
+        "max": 0.882
+      }
+    }
+  },
+  "history_dependence": {
+    "classification": "CLEAR_MEMORY_DEPENDENT",
+    "clear_rows": 4492,
+    "possible_rows": 508,
+    "not_dependent_rows": 0,
+    "clear_definition": "distance_from_related_snippet_to_query_32k > 0, i.e. the evidence turn is strictly earlier in the history than the query",
+    "possible_definition": "distance == 0; ALL 508 such rows are pref_type='sensitive_info', a pre-defined released category, so the subset is outcome-independent",
+    "rows_with_related_snippet": 5000,
+    "design_note": "v2's premise is that preferences are revealed IMPLICITLY inside unrelated requests (e.g. an allergy mentioned while asking for email wording help), so the query alone cannot contain the answer"
+  },
+  "context_length": {
+    "total_tokens_32k": {
+      "min": 23875,
+      "p25": 31690,
+      "median": 31855,
+      "p75": 31948,
+      "p95": 31993,
+      "max": 34137
+    },
+    "total_tokens_128k": {
+      "min": 68497,
+      "p25": 105487,
+      "median": 122747,
+      "p75": 123966,
+      "p95": 125777,
+      "max": 127873
+    },
+    "distance_to_snippet_32k": {
+      "min": 0,
+      "p25": 13326,
+      "median": 18861,
+      "p75": 24764,
+      "p95": 29834,
+      "max": 33184
+    },
+    "distance_to_snippet_128k": {
+      "min": 0,
+      "p25": 38525,
+      "median": 64170,
+      "p75": 89379,
+      "p95": 114455,
+      "max": 124639
+    },
+    "persona_irrelevant_tokens_32k": {
+      "min": 0,
+      "p25": 0,
+      "median": 0,
+      "p75": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "persona_irrelevant_tokens_128k": {
+      "min": 18258,
+      "p25": 63473,
+      "median": 83488,
+      "p75": 88470,
+      "p95": 95523,
+      "max": 99754
+    },
+    "sampled_history_files": {
+      "n": 6,
+      "mean_kb": 166,
+      "messages_min": 275,
+      "structure": "{'chat_history': [{role, content}...], 'metadata': {...}}"
+    }
+  },
+  "split_feasibility": {
+    "eligible_pool": 200,
+    "required": 72,
+    "can_support_24_24_24": true,
+    "spare_personas": 128,
+    "leakage_rule": "all rows and both size-variants of a persona stay in one split; persona_id is the only grouping key needed (1 history per persona per size)"
+  },
+  "decision": {
+    "MAIN_TABLE_DECISION": "PASS",
+    "gates": {
+      "source_count": "PASS (200 >= 72)",
+      "text_only": "PASS",
+      "programmatic_scoring": "PASS (mcq default, no judge)",
+      "history_boundary": "PASS (CLEAN)",
+      "history_dependence": "PASS",
+      "persona_separable": "PASS",
+      "enough_raw_history": "PASS (32k: median 31,855 tokens ~= the whole 32,768 reader window; 128k: median 122,747 with median 83,488 irrelevant)"
+    },
+    "recommendation": "PROCEED_TO_FORMAL"
+  }
+}
